@@ -1,0 +1,17 @@
+{from "pattern at_rifle"
+	{desc "PzB 39"}
+	{tag "PTR ptr_shell bolt_action"}
+	{fireSound	"small_arms/Shared/AT_Rifle/close/"}
+	{fireSoundclose	"small_arms/Shared/AT_Rifle/3p/"}
+	{filling "ammo atrifle_ger" 10}
+	{entity "pzb_39"}
+	{reloadSound "ptrd"}
+	{calibre 7.92}
+	{mass 11.6}
+
+	("fire rate" rpm(12))
+
+	("penetration" args 33 30 25)
+	("velocity" mps(1210))
+	{cursorReloading "gun_apcr"}
+}

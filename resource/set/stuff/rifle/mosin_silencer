@@ -1,0 +1,35 @@
+{from "pattern rifle"
+	{desc "Mosin 1891/30, B"}
+	{tag "silenced rifle_shell"}
+	{filling "ammo rifle_rus clip" 5}
+	{entity "mosin_silencer"}
+	{fireSound	"pistol/silent/welrod"}
+	{reloadSound "mosin"}
+	{calibre 7.62}
+	{mass 4}
+
+	("velocity" mps(565))
+
+	("bolt_action")
+	("mosin_rate")
+
+	{curve "rifle_light_ball"}
+	("muzzle_energy_rifle_caliber" j(3075))
+	("penetration" a(12.19) b(9.75) c(7.63) d(4.81) e(3.32))
+
+	{parameters "Ball_Heavy"
+		{curve "rifle_heavy_ball"}
+		("muzzle_energy_rifle_caliber" j(3237))
+		("penetration" a(12.50) b(10.71) c(9.08) d(6.49) e(4.51))
+	}
+	{parameters "AP"
+		{curve "rifle_heavy_ball"}
+		("muzzle_energy_rifle_caliber" j(3237))
+		("penetration" a(16.65) b(14.86) c(13.23) d(10.64) e(8.66))
+	}
+	{parameters "HE"
+		{curve "rifle_light_ball"}
+		("muzzle_energy_rifle_caliber" j(3089))
+		("penetration" a(12.22) b(9.77) c(7.65) d(4.82) e(3.32))
+	}
+}

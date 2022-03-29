@@ -1,0 +1,16 @@
+{from "pattern rpg_weapon"
+	{tag "Rocket_Launcher"}
+	{fireSound "small_arms/Shared/Rocket_Launcher/close/"}
+	{fireSoundclose "small_arms/Shared/Rocket_Launcher/3p/"}
+	{filling "ammo bazooka" 1}
+	{entity "bazooka_m1a1"}
+	{reloadsound "bazooka"}
+	{calibre 60}
+	{mass 6}
+
+	("velocity" mps(80.8))
+
+	("penetration" args 80)
+	("armor health" damage(250))
+	("human health" damage(250))
+}

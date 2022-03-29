@@ -1,0 +1,43 @@
+{game
+	{order 10}
+	{parameters	"flag_count=10:0:1,15:0:5,20:0:7;base_capture_time=120;base_release_time=60;base_capture_factor=0.9;flag_capture_time=150;flag_release_time=10;flag_capture_factor=0.9;maximum_ammo_payback=300;enable_time=240"}
+	; 5:0:2 means 5 total secondary objective points, 0 points to start off with, for games with up to 2 players
+	{settings
+		{options			enableSpectators preparationTime enableManualControlMode scoreFinal enableHardcore showPiercing showDamageReports}
+		{optionsAdvanced	friendlyFire fogOfWar randomSpawnPoints}
+		{optionsRanked		}
+		{fogOfWar			fog_realistic}
+		{difficulty			multiplayer}
+		{scoreMin			50}
+		{scoreMax			750}
+		{scoreFinal			150}
+		{preparationTimeMin	0}
+		{preparationTimeMax	60}
+		{preparationTime	15}
+		{impregnableTimeout	10}	; sec
+		{floraRespawn		0}
+		{friendlyFire}
+		{showPiercing}
+		{showDamageReports}
+		{useUnitLevelRestrictions 0}
+		{enableBots}
+		{randomSpawnPoints}
+		{useManualCharge none}
+		{enableManualControlMode dc_mode}
+	}
+	{teamSettings
+		{teamsMode normal}
+		{armySelectionMode team}
+		{teams
+			{"a"}
+			{"b"}
+		}
+		{alliances
+			(include "presets/alliances_generic.inc")
+		}
+	}
+	{ranked
+		{enabled}
+	}
+	(include "presets/presets_battlezones.inc")
+}

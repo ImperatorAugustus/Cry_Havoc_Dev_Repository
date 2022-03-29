@@ -1,0 +1,21 @@
+{bullet 
+	{desc "DP 27 Magazin, 7.62x54mmR [<c(ff6a00)>BALL</c> - <c(a8da93)>TRACER</c>] <c(65696d)>obr. L/T30</c>"}
+	{tag "Ball_Light bullet stackable pierce"}
+	{tag "bullet_fx size2"}
+	{inventory
+		{weight 2.1}
+		{block 47}
+		{size 2 2}
+		{fsm "belt"}
+	}
+	{entity "dp_ammo"}
+	{mass 0.03}
+
+	{trace
+		{view "/texture/fx/tracer_new/trace_scattered_green.mtl"
+			{ScaleY 0.15}
+			{Light 1}
+		}
+		{length 7.5}
+	}
+}

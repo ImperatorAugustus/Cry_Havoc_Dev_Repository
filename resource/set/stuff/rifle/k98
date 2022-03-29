@@ -1,0 +1,30 @@
+{from "pattern rifle"
+	{desc "Kar 98k"}
+	{tag "tex_mod KAR98K rifle_shell"}
+	{filling "ammo rifle_ger clip" 5}
+	{entity "k98"}
+	{fireSound 	"small_arms/GER/Kar98k/close/"}
+	{fireSoundclose "small_arms/GER/Kar98k/3p/"}
+	{reloadSound "kar98"}
+	{calibre 7.92}
+	{mass 3.9}
+	("velocity" mps(760))
+
+	("bolt_action")
+	("k98_rate")
+
+	{curve "rifle_heavy_ball"}
+	("muzzle_energy_rifle_caliber" j(3603.29))		; SmE 1940
+	("penetration" a(11.70) b(10.13) c(8.70) d(6.42) e(4.68))
+
+	{parameters "AP"
+		{curve "rifle_heavy_ball"}
+		("muzzle_energy_rifle_caliber" j(3652))
+		("penetration" a(20.25) b(18.45) c(16.81) d(14.19) e(12.20))
+	}
+	{parameters "HE"
+		{curve "rifle_light_ball"}
+		("muzzle_energy_rifle_caliber" j(3471))
+		("penetration" a(11.96) b(9.57) c(7.49) d(4.72) e(3.26))
+	}
+}

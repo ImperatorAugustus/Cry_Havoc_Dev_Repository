@@ -1,0 +1,36 @@
+{from "pattern mgun"
+	{tag "aa"}
+	{filling "ammo mgun_rus belt" 1500}
+	{entity "dt"}
+	{fireSound 		"small_arms/RUS/SG43/close/"}
+	{fireSoundClose 	"small_arms/RUS/SG43/close/"}
+	{reloadSound "dt"}
+	{calibre 7.62}
+	{mass 21}
+
+	{range 160 300}
+
+	("fire rate" rpm(3600))
+	("velocity" mps(800))
+	("reload time" seconds(30))
+
+	{Spreading {BurstAccuracy 100}}
+
+	("burst_aa")
+	("airborne_mg")
+
+	{curve "rifle_light_ball"}
+	("muzzle_energy_rifle_caliber" j(3075))
+	("penetration" a(13) b(10) c(7) d(4))
+
+	{parameters "Ball_Heavy"
+		{curve "rifle_heavy_ball"}
+		("muzzle_energy_rifle_caliber" j(3637))
+		("penetration" a(13) b(11) c(8) d(5))
+	}
+	{parameters "AP"
+		{curve "rifle_heavy_ball"}
+		("muzzle_energy_rifle_caliber" j(3637))
+		("penetration" a(20) b(17) c(15) d(11))
+	}
+}

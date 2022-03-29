@@ -1,0 +1,23 @@
+;_________________________________________
+; short barreled USSR infantry support gun
+;=========================================
+
+
+{from "76mm_kt26"			; L/16.5 "M1927"
+	{fireSound 	"gun/Shared/close/medium/75-76mm_low-velocity/"}
+	{fireSoundClose "gun/Shared/close/medium/75-76mm_low-velocity/"}
+	("reload time" seconds(6))
+	("range_170_howitzer")
+	("velocity m/s" ap(387) apcr(1) he(262) heat(311))
+	("armor health" damage(200))
+	("armor health custom" shell(aphebc) damage(200) filler(155))
+
+	; BR-350A
+	("penetration_medium" shell(aphebc) range(160) a(34) b(31) c(28) d(26) e(24))
+
+	; BP-350M
+	("penetration_medium" shell(heat) range(160) a(75) b(75) c(75) d(75) e(75))	; issued sometime in '43
+
+	("accuracy_spg" r1(1.20) range_ap(160) range_he(160) range_heat(160))
+	{unlimitedRangeTPC 0}   ;// restrict range in TPC/FPC
+}

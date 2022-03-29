@@ -1,0 +1,45 @@
+{from "pattern rifle"
+	{desc "AVT 40"}
+	{tag "SVT40 smg rifle_shell shoot_walking_ai"}
+	{filling "ammo rifle_rus" 10}
+	{entity "avt40"}
+	{fireSound "small_arms/RUS/SVT40/close/"}
+	{fireSoundclose	"small_arms/RUS/SVT40/3p/"}
+	{reloadSound "svt"}
+	{calibre 7.62}
+	{mass 3.85}
+
+	("fire rate" rpm(460))
+	("velocity" mps(830))
+
+	("auto_rifle")
+
+	{curve "rifle_light_ball"}
+	("muzzle_energy_rifle_caliber" j(3350))
+	("penetration" a(10.80) b(8.64) c(5.96) d(4.25) e(2.93))
+
+	{parameters "Ball_Light clip"
+		{curve "rifle_light_ball"}
+		("muzzle_energy_rifle_caliber" j(3350))
+		("penetration" a(10.80) b(8.64) c(5.96) d(4.25) e(2.93))
+		("reload time" seconds(10))
+	}
+	{parameters "Ball_Heavy clip"
+		{curve "rifle_heavy_ball"}
+		("muzzle_energy_rifle_caliber" j(3397))
+		("penetration" a(12.79) b(10.96) c(9.30) d(6.63) e(4.61))
+		("reload time" seconds(10))
+	}
+	{parameters "AP clip"
+		{curve "rifle_heavy_ball"}
+		("muzzle_energy_rifle_caliber" j(3397))
+		("penetration" a(16.94) b(15.11) c(13.45) d(10.78) e(8.76))
+		("reload time" seconds(10))
+	}
+	{parameters "HE clip"
+		{curve "rifle_light_ball"}
+		("muzzle_energy_rifle_caliber" j(3528))
+		("penetration" a(13.03) b(10.42) c(8.15) d(5.12) e(3.53))
+		("reload time" seconds(10))
+	}
+}

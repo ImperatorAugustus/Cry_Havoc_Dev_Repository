@@ -1,0 +1,32 @@
+;_________________________________________
+; Early german 20mm AT gun
+;=========================================
+
+
+{from "pattern gun"			; L/55  "panzer2c", "panzer2f", "sdkfz222", "sdkfz232"
+	{filling "bulletger_20_auto" 10}
+	{fireSound 	"gun/GER/2cm_KwK30/close/"}
+	{fireSoundclose "gun/Shared/int/zenite/"}
+	{reloadSound "INT/reload/reload_zenite"}
+	("range_autocannon_12-20")
+	{cursor "ironsights/aa"}
+	{calibre 20}
+
+	("fire rate" rpm(220))
+	("reload time" seconds(3.5))
+
+	("velocity m/s" ap(760) apcr(1050) he(900) heat(1))
+	("armor health" damage(30))
+
+	; Pzgr.39
+	("penetration_short" shell(ap) range(150) a(45) b(33) c(23) d(15) e(11))
+
+	; Pzgr.40
+	("penetration_short" shell(apcr) range(150) a(63) b(26) c(8) d(3) e(1))
+
+	{parameters "he"										; Sprgr.
+
+	}
+
+	("accuracy_direct" r1(0.5) range_ap(150) range_he(150) range_heat(150))
+}

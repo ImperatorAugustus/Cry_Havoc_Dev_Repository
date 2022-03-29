@@ -1,0 +1,11 @@
+;_________________________________________
+; Russian medium AT gun, T34 mounted version
+;=========================================
+
+
+{from "57mm_zis2"			; L/73  "t3457"
+	("reload time" seconds(9))
+	{fireSound 		"gun/Shared/close/medium/50-57mm_high-velocity/"}
+	{fireSoundClose 	"gun/Shared/int/medium/"}
+	{reloadSound "INT/reload/reload_small_6s_INT"}
+}

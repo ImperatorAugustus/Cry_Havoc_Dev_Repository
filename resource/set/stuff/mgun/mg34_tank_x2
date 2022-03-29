@@ -1,0 +1,9 @@
+{from "mg34_tank"		; "panzer1f"
+	{desc "MG 34 Panzerlauf x2"}
+	{filling "ammo mgun_ger" 300}
+	{mass 24.2}
+	("fire rate" rpm(1600))
+	("reload time" seconds(10))
+
+	("armor health" damage(5))
+}

@@ -1,0 +1,30 @@
+{from "pattern mgun"
+	{desc "MG 42"}
+	{tag "MG42"}
+	{filling "ammo mgun_ger" 100}
+	{entity "mg42_belt"}
+	{fireSound	"small_arms/GER/MG42/close/"}
+	{fireSoundclose	"small_arms/GER/MG42/3p/"}
+	{reloadSound "mg42"}
+	{calibre 7.92}
+	{mass 11.57}
+	("reload_belt")
+
+	("velocity" mps(740))
+	("fire rate" rpm(1200))
+
+	("recoil_medium")
+	("burst_short")
+	("spreading_high")
+	("zero_long")
+
+	{curve "rifle_heavy_ball"}
+	("muzzle_energy_rifle_caliber" j(3423.16))		; SmE 1940
+	("penetration" a(11.43) b(9.90) c(8.51) d(4.59))
+
+	{parameters "AP"
+		{curve "rifle_heavy_ball"}
+		("muzzle_energy_rifle_caliber" j(3378))
+		("penetration" a(20) b(17) c(15) d(11))
+	}
+}

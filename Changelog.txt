@@ -1,0 +1,13 @@
+Changelog
+	-V 1.00.00
+		-Hangemhighs Realistic Damage Mod and Sounds used as base
+		-Integrated Conquest Enhanced reverse button and medic auto heal mission script ;
+		-Increased camera zoom in and out to max
+		-Removed ability to see penetration value and damage reports in BZ
+		-Turned off lose on zero points by default in BZ
+		-Standard settings are 10,000 MP total, 500MP start, 150CP start, 200CP 15 minutes, 100 DP
+		-Removed unit limits except officer=4
+		-Updated payback table 	{cp		"0	100	150	200	250	275"}
+					{restore	"4.00	1.1	0.75 	0.25	0.10	0.05"}
+			;Should help players get back on their feet early game and promote players staying at half cp the rest.
+		-Removed all timers from mp buys

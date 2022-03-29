@@ -1,0 +1,101 @@
+(include "\set\small_firearms_accuracy.inc")
+
+;/*=========================*/
+; Kinetic Energy in joules, multiplied by Caliber Class HP Damage modifier
+
+(define "muzzle_energy_pistol_caliber"			
+	{healthDamage (* 0.125 %j)}
+)
+
+;/*=========================*/
+
+(define "penetration"
+	{projectileDamageTable {1 %a} {40 %b} {80 %c} {160 %d} {320 %e} {500 %f}}
+)
+
+;/*=========================*/
+
+(define "armor health"
+	{minimumDamageModifier (* 1.0 %damage)}
+)
+
+;/*=========================*/ Weapon Profiles BEGIN
+;------------------------------	Bursts 
+(define "burst_short"	;				High RoF / Low Capacity
+	{burst
+		{short 5 2}			; burst shots on long distance, rand (+-)shots
+		{long 7 3}			; burst shots on short distance, rand (+-)shots
+		{rangeKoef 0.6}			; rangeKoef * aimRange = max long burst distance
+	}
+)
+
+(define "burst_long"	;				Low RoF / High Capacity
+	{burst
+		{short 5 3}
+		{long 9 4}
+		{rangeKoef 0.6}
+	}
+)
+;------------------------------	Spreading 
+(define "spreading_low"					;// Reduction in Accuracy with subsequent shots
+	{spreading
+		{BurstAccuracy 100 99.0 98.8 98.1 97.2 95.8 93.7 90.5 85.8 78.6 68.0 51.9}
+	}
+)
+(define "spreading_medium"
+	{spreading 
+		{BurstAccuracy 100 98.9 98.4 97.5 96.3 94.4 91.6 87.5 81.2 71.8 57.7 46.6}
+	}
+)
+(define "spreading_high"
+	{spreading 
+		{BurstAccuracy 100 98.8 98.2 97.3 96.0 93.9 90.9 86.3 79.5 69.2 53.9 40.8}
+	}
+)
+;------------------------------	Zeroing 
+(define "zeroing_boost"					;// Increase in Accuracy with subsequent shots on same Target
+	{ZeroingAccuracy 0.975 0.95 0.925 0.9 0.875 0.85 0.825 0.8}
+)
+(define "zero_long"
+	{ZeroingAccuracy 0.975 0.95 0.925 0.9 0.875 0.85 0.825 0.8 0.775 0.75 0.725 0.7}
+)
+(define "zero_medium"
+	{ZeroingAccuracy 0.9625 0.925 0.8875 0.85 0.8125 0.775 0.7375 0.7}
+)
+(define "zero_short"
+	{ZeroingAccuracy 0.95 0.90 0.85 0.8 0.75 0.7}
+)
+;------------------------------	Weapon Sway
+(define "sway"
+	{swayparams
+		{bounds -0.3 0.2 -0.4 0.3}		; x -> negativeYaw, y -> positiveYaw, z -> negativePitch, w -> positive Pitch (in degree)
+		{speed 0.35}				; sway speed coef
+	}
+)
+;------------------------------	Recoil
+
+(define "recoil_low"				; 9mm Heavyweight
+	{recoil
+		{shoot {0.45 0.15} {-0.45 0.15}}	; pitch / +- random and yaw / +- random, per shot, degree
+		{maxAngle 8 8}				; max recoil angle (pitch/yaw), degree
+		{restoreTime 0.25 0.075}		; recoil restore time, first -> minimum time, second -> additional time per shot, sec
+		{restoreDelay 0.05}			; delay before restore, sec
+	}
+)
+(define "recoil_medium"				; .45 ACP, Heavyweight, 9mm Lightweight
+	{recoil
+		{shoot {0.475 0.175} {-0.45 0.15}}
+		{maxAngle 10 10}
+		{restoreTime 0.30 0.10}
+		{restoreDelay 0.05}
+	}
+)
+(define "recoil_high"				; .45 ACP, Lightweight
+	{recoil
+		{shoot {0.50 0.20} {-0.45 0.15}}
+		{maxAngle 12 12}
+		{restoreTime 0.30 0.10}
+		{restoreDelay 0.05}
+	}
+)
+;/*=========================*/ Weapon Profiles END

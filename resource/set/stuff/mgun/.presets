@@ -1,0 +1,159 @@
+(include "\set\small_firearms_accuracy.inc")
+
+;/*=========================*/ 
+
+(define "penetration"
+	{projectileDamageTable {0 %a} {60 %b} {120 %c} {240 %d}}
+)
+
+;/*=========================*/ DAMAGE Modifiers
+
+(define "muzzle_energy_large_rifle_caliber"	; Kinetic Energy in joules, multiplied by Caliber Class HP Damage modifier
+	{healthDamage (* 0.0350 %j)}
+)
+(define "muzzle_energy_rifle_caliber"		
+	{healthDamage (* 0.0450 %j)}
+)
+;/*=========================*/ 
+
+(define "reload_belt"
+	("reload time" seconds(6))
+)
+
+(define "reload_drum"
+	("reload time" seconds(8.5))
+)
+
+(define "armor health"
+	{minimumDamageModifier (* 1.0 %damage)}
+)
+
+(define "airborne_mg"
+	{range 300 500}
+	
+	{spreading
+		{SpreadPower 1.5}
+		{BurstRecoveryTime 0.5}
+		{BurstAccuracy 100 95 90 85 80}
+		{SpreadXYRatio	1}
+	}
+	{AimingTolerance 20}
+
+	("accuracy_mg_plane")
+)
+(define "anti-aircratft"
+	{tag "aa"}
+)
+
+;/*=========================*/ Weapon Profiles BEGIN
+
+;------------------------------	Bursts 
+(define "burst_short"					;// High-RoF & Low-Capacity
+	{burst
+		{short 6 2}					;// short burst shots on long distance, rand (+-)shots
+		{long 8 3}					;// long burst shots on short distance, rand (+-)shots
+		{rangeKoef 0.5}					;// rangeKoef * aimRange = max long burst distance
+	}
+	{FiringTimeout 0.75 0.15}
+)
+(define "burst_medium"					;// Medium-RoF & Low to Medium-Capacity / High-RoF & High-Capacity
+	{burst
+		{short 7 2}
+		{long 10 3}
+		{rangeKoef 0.5}
+	}
+	{FiringTimeout 0.85 0.15}
+)
+(define "burst_long"					;// Low-RoF & Standard-Capacity / Medium-RoF & High-Capacity
+	{burst
+		{short 8 2} 
+		{long 12 3}
+		{rangeKoef 0.5}
+	}
+	{FiringTimeout 0.95 0.15}
+)
+(define "burst_stand"					;// Tripod/Mounted MGs
+	{burst
+		{short 9 2}
+		{long 11 3}
+		{rangeKoef 0.65}
+	}
+	{FiringTimeout 0.75 0.15}
+)
+
+(define "burst_aa"					;// MGs in AA Role
+	{burst
+		{short 11 2}
+		{long 13 3}
+		{rangeKoef 0.65}
+	}
+	{FiringTimeout 0.75 0.15}
+)
+;------------------------------	Spreading 
+(define "spreading_mounted"					;// Reduction in Accuracy with subsequent shots
+	{spreading
+		{SpreadPower 1.25} 
+		{BurstAccuracy 100 98 94 88 83 76 72 67 62 57 52}
+	}
+)
+(define "spreading_low"
+	{spreading
+		{SpreadPower 1.25}
+		{BurstAccuracy 100 99.1 97.8 95.7 92.7 88.1 81.3 71.0 55.7 32.6}
+	}
+)
+(define "spreading_medium"
+	{spreading
+		{SpreadPower 1.25}
+		{BurstAccuracy 100 98.6 96.5 93.4 88.6 81.5 70.9 55.0 31.0}
+	}
+)
+(define "spreading_high"
+	{spreading
+		{SpreadPower 1.25} 
+		{BurstAccuracy 100 97.9 94.6 89.8 82.5 71.6 55.3 30.8}
+	}
+)
+;------------------------------	Zeroing 
+(define "zero_long"					;// Increase in Accuracy with subsequent shots on same Target
+	{ZeroingAccuracy 0.97 0.94 0.91 0.88 0.85 0.82 0.79 0.76 0.73}
+)
+(define "zero_medium"
+	{ZeroingAccuracy 0.96 0.93 0.89 0.85 0.81 0.78 0.74}
+)
+(define "zero_short"
+	{ZeroingAccuracy 0.95 0.90 0.85 0.80 0.75}
+)
+;------------------------------	Weapon Sway
+(define "sway"
+	{swayparams
+		{bounds -0.3 0.2 -0.4 0.3}		; x -> negativeYaw, y -> positiveYaw, z -> negativePitch, w -> positive Pitch (in degree)
+		{speed 0.35}				; sway speed coef
+	}
+)
+;------------------------------	Recoil
+(define "recoil_low"					; Low-Impulse Intermediate Recoil
+	{recoil
+		{shoot {0.65 0.15} {-0.65 0.15}}	; pitch / +- random and yaw / +- random, per shot, degree
+		{maxAngle 7.5 7.5}			; max recoil angle (pitch/yaw), degree
+		{restoreTime 0.30 0.10}			; recoil restore time, first -> minimum time, second -> additional time per shot, sec
+		{restoreDelay 0.05}			; delay before restore, sec
+	}
+)
+(define "recoil_medium"					; Rifle Recoil
+	{recoil
+		{shoot {1.15 0.20} {-0.55 0.20}}
+		{maxAngle 10 10}
+		{restoreTime 0.50 0.30}
+		{restoreDelay 0.05}
+	}
+)
+(define "recoil_high"					; Large-Rifle Recoil
+	{recoil
+		{shoot {1.55 0.25} {-0.75 0.25}}
+		{maxAngle 12.5 12.5}
+		{restoreTime 0.30 0.10}
+		{restoreDelay 0.05}
+	}
+)
+;/*=========================*/ Weapon Profiles END

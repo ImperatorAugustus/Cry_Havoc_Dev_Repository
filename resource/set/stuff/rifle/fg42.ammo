@@ -1,0 +1,21 @@
+{bullet
+	{desc "FG 42 Magazin, 7.92x57mm [<c(ff6a00)>BALL</c>] <c(65696d)>SmE 40</c>"}
+	{tag "Ball_Heavy bullet stackable pierce"}
+	{tag "bullet_fx size2"}
+	{inventory
+		{weight 5}
+		{block 20}
+		{size 1 2}
+		{fsm "belt"}
+	}
+	{entity "fg42_ammo"}
+	{mass 0.0405}		; .29 - Magazine Weight, 0.026 - Each Bullet Weight, SmE 40
+
+	{trace
+		{view "/texture/fx/tracers/trace_empty"
+			{ScaleY 0.15}
+			{Light 1}
+		}
+		{length 2.1}
+	}
+}

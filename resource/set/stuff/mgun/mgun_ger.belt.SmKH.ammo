@@ -1,0 +1,21 @@
+{bullet
+	{desc "Munitionskiste, 7.92x57mm, AP & AP-T (SmKH & SmKH L'spur)"}
+	{tag "AP bullet stackable pierce"}
+	{tag "bullet_fx size2"}
+	{inventory
+		{weight 0.399}
+		{block 250}
+		{size 3 2}
+		{fsm "belt"}
+	}
+	{entity "ger_mg_box_ammo"}
+	{mass 0.03}
+
+	{trace
+		{view "/texture/fx/tracer_new/trace_scattered_yellow.mtl"
+			{ScaleY 0.15}
+			{Light 1}
+		}
+		{length 6}
+	}
+}

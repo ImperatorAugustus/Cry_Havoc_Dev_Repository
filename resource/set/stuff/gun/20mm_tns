@@ -1,0 +1,29 @@
+;_________________________________________
+;Soviet Fast-firing tank cannon (T60)
+;=========================================
+
+
+{from "pattern gun"			;  "T-60"
+	{filling "bulletrus_20_auto" 58}
+	{fireSound 		"gun/SOV/20mm_TNSh/close/"}
+	{fireSoundClose 	"gun/Shared/int/zenite/"}
+	{reloadSound "INT/reload/reload_zenite"}
+	("range_autocannon_12-20")
+	{cursor "ironsights/aa"}
+	{calibre 20}
+
+	("fire rate" rpm(750))
+	("reload time" seconds(12))
+
+	("velocity" mps(815))
+	("armor health" damage(30))
+
+	; BZ ?
+	("penetration_short" shell(ap) range(150) a(25) b(17) c(14) d(8) e(5))
+
+	{parameters "he"										; OZ ?
+
+	}
+
+	("accuracy_direct" r1(0.70) range_ap(150) range_he(150) range_heat(150))
+}

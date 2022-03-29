@@ -1,0 +1,30 @@
+;_________________________________________
+; Czech gun used in the Pz.38t
+;=========================================
+
+
+{from "pattern gun"			; L/48.7 "pz38t"
+	{filling "bulletger_37"}
+	{fireSound 		"gun/Shared/close/small/37mm/"}
+	{fireSoundClose 	"gun/Shared/int/small/"}
+	{reloadSound 		"INT/reload/reload_small_4s_INT"}
+	("range_160")
+	{calibre 37}
+
+	("reload time" seconds(4))
+
+	("velocity m/s" ap(740) apcr(1050) he(500) heat(1))
+	("armor health" damage(100))
+	("armor health custom" shell(aphe) damage(100) filler(22))
+
+	; Pzgr.Patr.37(t) umg.
+	("penetration_medium" shell(aphe) range(160) a(59) b(49) c(42) d(38) e(30))
+
+	; Pzgr.40/37(t)
+	("penetration_medium" shell(apcr) range(160) a(90) b(48) c(22) d(10) e(5))
+
+	; Steil.Gr.41 	;tank guns cannot use the Steilgranate HEAT rounds
+	("penetration_medium" shell(heat) range(0) a(0) b(0) c(0) d(0) e(0))
+
+	("accuracy_direct" r1(0.81) range_ap(160) range_he(160) range_heat(160))
+}

@@ -1,0 +1,28 @@
+;_________________________________________
+; short barreled USSR infantry support gun
+;=========================================
+
+
+{from "pattern gun"			; L/30 "M1902"
+	{filling "bulletrus_76"}
+	{fireSound 	"gun/Shared/close/medium/75-76mm_low-velocity/"}
+	{fireSoundClose "gun/Shared/close/medium/75-76mm_low-velocity/"}
+	{reloadSound "tank/reload_medium"}
+	("range_180")
+	{calibre 76.2}
+	("reload time" seconds(6.5))
+
+	("velocity m/s" ap(588) apcr(1) he(588) heat(290))
+	("armor health" damage(200))
+	("armor health custom" shell(aphebc) damage(200) filler(150))
+
+	; BR-350A
+	("penetration_medium" shell(aphebc) range(180) a(70) b(63) c(54) d(45) e(38)) ;// Best guess: roughly 10mm less compared to L/40 do to less velocity.
+ ;//("penetration_medium" shell(aphebc) range(180) a(80) b(73) c(64) d(55) e(48)) ;// 1902/30 L/40 Stats
+
+
+	; BP-350A
+	("penetration_medium" shell(heat) range(170) a(75) b(75) c(75) d(75) e(75))	; issued sometime in '43
+
+	("accuracy_direct" r1(1.01) range_ap(180) range_he(180) range_heat(170))
+}

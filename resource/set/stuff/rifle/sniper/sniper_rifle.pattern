@@ -1,0 +1,40 @@
+{from "pattern rifle"
+	{tag "sniper -shoot_walking bolt_action"}
+
+	{states
+		{reload		"reload"}
+		{unload		"unload"}
+		{fire		"fire"	}
+		{aim 		"aim"	}
+		{can_aim	"can-aim-bolt"}
+	}
+
+	{special
+		{mode aim}
+		{PrepareTime 1.75}
+		{PrepareCursor "aimed_shot"}
+		{PrepareCursorScene "aimed_shot_scene"}
+		{accuracy 2.5}
+	}
+
+	{cursor "ironsights/mg"}
+	{foresight "foresight12"}
+
+	{range 132 132}
+
+	{ZeroingAccuracy 0.9 0.8 0.7 0.6 0.5}
+
+	{aimingTolerance 2.5}
+	{RelaxationTime 1.25}
+	("reload time" seconds(6))
+	("fire rate" rpm(24))
+
+	("recoil_high")
+	("sway")
+
+	{FiringTimeout 1.5 0.5}
+
+	("accuracy_1_MoA")
+
+	{thirdpersonparams inherit "human default"}
+}

@@ -1,0 +1,16 @@
+{from "pattern rifle_grenade"
+	{tag "Rifle_Grenade at_rifle ap"}
+	{fireSound "small_arms/Shared/Rifle_Grenade/close/"}
+	{fireSoundclose "small_arms/Shared/Rifle_Grenade/3p/"}
+	{entity "mosin_antitank"}
+	{filling "ammo vpgs41" 1}
+	{fillingVisible "vpgs41"}
+	{reloadSound "mosin"}
+	{calibre 60}
+	{mass 4}
+
+	{range 60 60}
+
+	("penetration" args 35)
+	("armor health" damage(200))
+}

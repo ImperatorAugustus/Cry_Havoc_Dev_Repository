@@ -1,0 +1,23 @@
+{from "pattern smg"
+	{desc "PPS 43"}
+	{tag "PPS43 pistol2_shell"}
+	{filling "ammo pps_stick" 35}
+	{entity "pps43"}
+	{fireSound "small_arms/RUS/PPS43/close/"}
+	{fireSoundclose "small_arms/RUS/PPS43/3p/"}
+	{reloadSound "pps43"}
+	{calibre 7.62}
+	{mass 3.04}
+
+	("fire rate" rpm(550))
+	("velocity" mps(500))
+
+	("burst_long")
+	("spreading_medium")
+	("zero_short")
+	("recoil_medium")
+
+	{curve "bullet_smg_light"}	
+	("muzzle_energy_pistol_caliber" j(688.5))
+	("penetration" a(5.95) b(4.33) c(3.6) d(2.9) e(2) f(1))
+}

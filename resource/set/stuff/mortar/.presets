@@ -1,0 +1,91 @@
+
+(define "reload time"			;//reload time for magazine or shell
+	{rechargeTime %seconds}
+)
+
+;/*--------------------------------------RANGES AND ACCURACY--------------------------------------*/
+
+
+(define "light_mortar_range"
+	{spreading 
+		{SpreadRadius 30}
+		{radiusFunction
+			0.0		0.1
+			0.7		0.5
+			1.0		0.8
+			1.2		1.5
+		}
+	}
+
+	{aimRange 150}
+	{minRange 20}
+	{maxRange 150}
+	("reload time" seconds(4.5))
+
+	{parameters "he"
+		{projectileDamageTable {0 10}}
+	}
+)
+
+(define "medium_mortar_range"
+	{spreading
+		{radiusTable {0 3} {142 22} {214.99 45} {215 100}}
+	}
+
+	{aimRange 215}
+	{minRange 25}
+	{maxRange 215}
+	("reload time" seconds(5))
+
+	{parameters "he"
+		{projectileDamageTable {0 15}}
+	}
+	{parameters "sm"
+		("reload time" seconds(3.3))
+	}
+)
+
+(define "heavy_mortar_range"
+	{spreading
+		{radiusTable {0 3} {165 20} {210 35} {299.99 45} {300 100}}
+	}
+
+	{aimRange 300}
+	{minRange 25}
+	{maxRange 300}
+	("reload time" seconds(6.6))
+
+	{parameters "he"
+		{projectileDamageTable {0 30}}
+	}
+	{parameters "sm"
+		("reload time" seconds(3.5))
+	}
+)
+
+
+;/*-------------------------------------- AMMUNITION SETTINGS-------------------------------------*/
+
+
+(define "minimum_range_short"
+	{possibleDamageRadius 20}
+)
+
+(define "minimum_range_medium"
+	{possibleDamageRadius 25}
+)
+
+(define "he_light"
+	{detonationThickness 0.5}
+	("minimum_range_short")
+)
+
+(define "he_medium"
+	{detonationThickness 0.5}
+	("minimum_range_medium")
+)
+
+(define "he_heavy"
+	{detonationThickness 0.5}
+	("minimum_range_medium")
+)

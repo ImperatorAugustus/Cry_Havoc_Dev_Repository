@@ -1,0 +1,21 @@
+{bullet
+	{desc "Patronny yashchik, 7.62x54mmR, AP & AP-T (B30 & BT)"}
+	{tag "AP bullet stackable pierce"} ;//game code
+	{tag "bullet_fx size2"} ;//fx code
+	{inventory
+		{weight 0.399}
+		{block 250}
+		{size 3 2}
+		{fsm "belt"}
+	}
+	{entity "rus_mg_box_ammo"}
+	{mass 0.03}
+
+	{trace
+		{view "/texture/fx/tracer_new/trace_scattered_green.mtl"
+			{ScaleY 0.15}
+			{Light 1}
+		}
+		{length 6}
+	}
+}

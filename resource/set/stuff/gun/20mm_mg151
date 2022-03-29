@@ -1,0 +1,24 @@
+;_________________________________________
+; German Aircraft Autocannon
+;=========================================
+
+
+{from "pattern gun"			; "BF109"
+	{tag "aa" "-tank_gun"}
+	{filling "bullet_20_auto aphe" 200}
+	{fireSound 	"gun/GER/2cm_KwK30/close/"}
+	{reloadSound "interior/large/auto_reload_interior"}
+	("range_aircraft_gun")
+	{cursor "ironsights/aa"}
+	{calibre 20}
+
+	("fire rate" rpm(600))
+	("reload time" seconds(20))
+
+	("velocity" mps(700))
+	("armor health" damage(30))
+
+	{parameters "aphe" 										;
+		("penetration" a(28) b(19) c(16) d(12) e(7))
+	}
+}

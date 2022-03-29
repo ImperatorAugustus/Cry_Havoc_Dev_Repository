@@ -1,0 +1,172 @@
+; Profiles for various weapon classes. Defines how the damage to human health is adjusted over distance.
+; 1st value is distance (weapon range multiplied by value)(example: weapon range 100m & value 0.5 = 50m)
+; 2nd value is damage (weapon damage multiplied by value)(example: weapon damage 50 & value 0.5 = -25 health)
+;	{curve "example"
+;		{0.75	0.5}		at 75% of weapons max range, it does 50% of defined damage from weapon file
+;		THESE CURVES ARE NOW BASED ON KINETIC ENERGY DISSIPATION OVER DISTANCE
+
+{ballistics
+	{curve "HMG_ball"				;// (Modelled after 12.7x108mm 1932г обр 'Б32')
+			{0.00		1.00}
+			{0.10		0.95}
+			{0.20		0.90}
+			{0.50		0.77}
+			{0.70		0.69}
+			{0.80		0.65}
+			{1.00		0.59} 		;// 500 meters
+			{2.00		0.32}
+			{4.00		0.13}
+	}
+	;-----------------------RIFLE CALIBER CURVES------------------------------------------------------------------------------------------
+	{curve "rifle_light_ball"			;// Rifle Calibers - Light Ball = 140gr to 160gr  (Modelled after 148.2gr, 7.62x54mmR, 1908г обр 'Л')
+			{0.00		1.00}		;// Fired from Mosin-Nagant M1891/30 - 730mm Barrel, 865m/s
+			{0.10		0.91}
+			{0.20		0.84}
+			{0.30		0.76}
+			{0.40		0.69}
+			{0.50		0.63}
+			{0.60		0.57}
+			{0.70		0.52}
+			{0.80		0.47}
+			{0.90		0.42}
+			{1.00		0.38} 		;// 500 meters
+			{2.00		0.14}		;// Due to Mass, Light Ball has diminishing effect at distance
+			{4.00		0.06}
+			{8.00		0.01}
+	}
+	{curve "rifle_ball"				;// Rifle Calibers - Mid Ball = 160gr to 180gr  (Modelled after 174gr, .303 (7.7×56mmR), 1910 Mk VII)
+			{0.00		1.00}		;// Fired from Lee-Enfield Rifle No.4 Mk.I - 640mm Barrel, 744m/s
+			{0.10		0.93}
+			{0.20		0.86}
+			{0.30		0.79}
+			{0.40		0.73}
+			{0.50		0.67}
+			{0.60		0.62}
+			{0.70		0.57}
+			{0.80		0.52}
+			{0.90		0.48}
+			{1.00		0.44} 		;// 500 meters
+			{2.00		0.20}		;// Due to Mass, Ball retains balanced damage over distance
+			{4.00		0.10}
+			{8.00		0.01}
+	}
+	{curve "rifle_heavy_ball"			;// Rifle Calibers - Heavy Ball = 180gr to 200gr (Modelled after 197.5gr, 7.92x57mm, sS 1933) 
+			{0.00		1.00}		;// Fired from Kar 98k - 600mm Barrel, 760m/s
+			{0.10		0.94}
+			{0.20		0.88}
+			{0.30		0.83}
+			{0.40		0.78}
+			{0.50		0.73}
+			{0.60		0.68}
+			{0.70		0.64}
+			{0.80		0.59}
+			{0.90		0.55}
+			{1.00		0.52} 		;// 500 meters
+			{2.00		0.26}		;// Due to Mass, Heavy Ball retains damage at distance
+			{4.00		0.12}
+			{8.00		0.01}
+	}
+	;-----------------------INTERMEDIATE CALIBER CURVES-------------------------------------------------------------------------------------
+	{curve "intermediate_ball_light"		;// Intermediate Calibers - Light Ball (Modelled after 55gr, 5.56x45mm NATO, M 193)
+			{0.00		1.00}		;// Fired from M16A1 - 508mm Barrel, 1005m/s
+			{0.10		0.87}
+			{0.20		0.76}
+			{0.50		0.49}		
+			{0.70		0.36}
+			{0.80		0.30}		;// Max-effective Range for Point-Target
+			{1.00		0.21} 		;// 500 meters
+			{2.00		0.07}		;// Due to Mass, Light Ball has diminishing effect at distance
+			{4.00		0.02}
+			{8.00		0.01}
+	}
+	{curve "intermediate_ball"			;// Intermediate Calibers - Heavy Ball (Modelled after 125gr, 7.92x33mm Kurz, Pp/Kp 43)
+			{0.00		1.00}		;// Fired from StG 44 - 420mm Barrel, 685m/s
+			{0.10		0.92}
+			{0.20		0.85}
+			{0.50		0.62}
+			{0.70		0.52}
+			{0.80		0.46}
+			{1.00		0.38} 		;// 500 meters
+			{2.00		0.18}
+			{4.00		0.09}
+			{8.00		0.01}
+	}
+	;-----------------------PISTOL CALIBER CURVES------------------------------------------------------------------------------------------
+	{curve "bullet_smg_light"			;// Pistol Caliber - SMGs - Light Ball (Modelled after 85gr, 7.62x25mm, 1930г образец 'П')
+			{0.00		1.00}		;// Fired from PPSh 41 - 269mm Barrel, 488m/s
+			{0.10		0.86}
+			{0.20		0.75}
+			{0.50		0.50}
+			{0.70		0.41}
+			{0.80		0.38}
+			{1.00		0.34} 		;// 200 meters
+			{2.00		0.20}
+			{4.00		0.08}
+			{8.00		0.05}
+	}
+	{curve "bullet_smg"				;// Pistol Caliber - SMGs - Ball (Modelled after 124gr, 9x19mm, Pp08)
+			{0.00		1.00}		;// Fired from MP 40 - 251mm Barrel, 400m/s 
+			{0.10		0.91}
+			{0.20		0.83}
+			{0.50		0.66}
+			{0.70		0.59}
+			{0.80		0.56}
+			{1.00		0.51} 		;// 200 meters
+			{2.00		0.35}
+			{4.00		0.19}
+			{8.00		0.05}
+	}
+	{curve "bullet_smg_heavy"			;// Pistol Caliber - SMGs - Heavy Ball (Modelled after 230gr, .45 ACP - 11.43x23mm, M1911)
+			{0.00		1.00}		;// Fired from M1A1 Thompson - 267mm Barrel, 290m/s
+			{0.10		0.96}
+			{0.20		0.92}
+			{0.50		0.82}
+			{0.70		0.77}
+			{0.80		0.74}
+			{1.00		0.70} 		;// 200 meters
+			{2.00		0.51}
+			{4.00		0.28}
+			{8.00		0.05}
+	}
+	;----------------------- Pistols	different curves due to limited effective-range compared to SMGs
+	{curve "bullet_pistol_light"			;// Pistol Caliber - Pistols - Light Ball (Modelled after 85gr, 7.62x25mm, 1930г образец 'П') 
+			{0.00		1.00}
+			{0.50		0.83}
+			{1.00		0.70} 		;// 50 meters
+			{2.00		0.53}
+			{4.00		0.37}
+			{8.00		0.23}
+			{20.00		0.05} 		;// 1000 meters
+	}
+	{curve "bullet_pistol"				;// Pistol Caliber - Pistols - Ball (Modelled after 124gr, 9x19mm, Pp08) 
+			{0.00		1.00}
+			{0.50		0.93}
+			{1.00		0.87} 		;// 50 meters
+			{2.00		0.78}
+			{4.00		0.64}
+			{8.00		0.46}
+			{20.00		0.05} 		;// 1000 meters
+	}
+	{curve "bullet_pistol_heavy"			;// Pistol Caliber - Pistols - Heavy Ball (Modelled after 230gr, .45 ACP - 11.43x23mm, M1911) 
+			{0.00		1.00}
+			{0.50		0.96}
+			{1.00		0.92} 		;// 50 meters
+			{2.00		0.84}
+			{4.00		0.72}
+			{8.00		0.53}
+			{20.00		0.05} 		;// 1000 meters
+	}
+
+	{curve "shotgun"
+		{0.1	3.25}
+		{0.4	1.0}
+		{0.5	0.3}
+		{1.0	0.2}
+		{2.0	0.05}
+	}
+
+	{curve "gun_std"		;// all other weapons / cannons
+		{0		1.0}
+		{1		1.0}
+	}
+}

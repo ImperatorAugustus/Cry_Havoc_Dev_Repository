@@ -1,0 +1,30 @@
+{from "pattern mgun"
+	{desc "MG 34"}
+	{tag "MG34"}
+	{filling "ammo mgun_ger" 100}
+	{entity "mg34_belt"}
+	{fireSound	"small_arms/GER/MG34/close/"}
+	{fireSoundclose	"small_arms/GER/MG34/3p/"}
+	{reloadSound "mg42"}
+	{calibre 7.92}
+	{mass 12.1}
+	("reload_belt")
+
+	("fire rate" rpm(850))
+	("velocity" mps(765))
+
+	("recoil_medium")
+	("burst_medium")
+	("spreading_medium")
+	("zero_medium")
+
+	{curve "rifle_heavy_ball"}
+	("muzzle_energy_rifle_caliber" j(3649.05))		; SmE 1940
+	("penetration" a(11.77) b(10.19) c(8.75) d(4.71))
+
+	{parameters "AP"
+		{curve "rifle_heavy_ball"}
+		("muzzle_energy_rifle_caliber" j(3698))
+		("penetration" a(20) b(17) c(15) d(11))
+	}
+}

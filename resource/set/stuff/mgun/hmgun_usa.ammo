@@ -1,0 +1,21 @@
+{bullet
+	{desc "Ammo Box, Caliber .50 [<c(ff6a00)>AP</c>-<c(c80100)>T</c>] <c(65696d)>M2/M1</c>"}
+	{tag "Ball_hmg bullet stackable pierce hmgun"}
+	{tag "bullet_fx size3"}
+	{inventory
+		{weight 1}
+		{block 100}
+		{size 2 2}
+		{fsm "belt"}
+	}
+	{entity "hmgun_rus"}
+	{mass 0.2}
+
+	{trace
+		{view "/texture/fx/tracer_new/trace_solid_red.mtl"
+			{ScaleY 0.3}
+			{Light 1.5}
+		}
+		{length 7.5}
+	}
+}

@@ -1,0 +1,330 @@
+{textures
+	{"dirt/*"
+		"ground" "ground"
+	}
+	{"floor/*" 
+		"ground" "road"
+	}
+	{"grass/*"
+		"ground" "grass"
+	}
+	{"rock/*"
+		"ground" "rock"
+	}
+	{"sand/*" 
+		"ground" "sand"
+	}
+	{"town/*"
+		"road" "road"
+	}
+	{"winter/*"
+		"snow" "snow"
+	}
+
+	
+; // ------- AUT TEXTURES -------
+	
+	{"goh_aut/grass_aut"
+		"ground" "grass"
+	}
+	{"goh_aut/grass_aut_var"
+		"ground" "grass"
+	}
+	{"goh_aut/grass_dirty_aut"
+		"ground" "ground"
+	}
+	{"goh_aut/grass_dry"
+		"ground" "grass"
+	}
+	{"goh_aut/mud_aut"
+		"snow" "mud"
+	}
+	
+; // ------- AUTLATE TEXTURES -------
+
+	{"goh_autlate/clay_1b2"
+		"ground" "ground"
+	}
+	{"goh_autlate/clay_09"
+		"ground" "ground"
+	}
+	{"goh_autlate/clay_autlate"
+		"ground" "ground"
+	}
+	{"goh_autlate/clay_autlate_var"
+		"ground" "ground"
+	}
+	{"goh_autlate/field-ru_04_light"
+		"ground" "ground"
+	}
+	{"goh_autlate/grass_autlate"
+		"ground" "ground"
+	}
+	{"goh_autlate/grass_autlate_light"
+		"ground" "ground"
+	}
+	{"goh_autlate/grass_autlate_var"
+		"ground" "ground"
+	}
+	{"goh_autlate/grass_road"
+		"ground" "ground"
+	}
+	{"goh_autlate/hassock_autlate"
+		"ground" "ground"
+	}
+	{"goh_autlate/hassock_autlate_var"
+		"ground" "ground"
+	}
+	{"goh_autlate/light_dirt"
+		"ground" "ground"
+	}
+	{"goh_autlate/mud_aut"
+		"snow" "mud"
+	}
+		
+		
+		
+; // ------- PAVEMENT TEXTURES -------
+
+	{"goh_pavement/cobble"
+		"ground" "rock"
+	}	
+	{"goh_pavement/concrete"
+		"ground" "rock"
+	}	
+	{"goh_pavement/concrete_cracked"
+		"ground" "rock"
+	}	
+	{"goh_pavement/concrete_cracked_dark"
+		"ground" "rock"
+	}	
+	{"goh_pavement/concrete_cracked_var"
+		"ground" "rock"
+	}	
+	{"goh_pavement/concrete_dark"
+		"ground" "rock"
+	}	
+	{"goh_pavement/concrete_light"
+		"ground" "rock"
+	}	
+	{"goh_pavement/concrete_slabs"
+		"ground" "rock"
+	}
+	{"goh_pavement/concrete_winter"
+		"ground" "snow"
+	}
+	{"goh_pavement/tiles"
+		"ground" "rock"
+	}
+	{"goh_pavement/tiles_destroyed"
+		"ground" "rock"
+	}
+		
+; // ------- SPRING TEXTURES -------
+
+
+
+	{"goh_spring/grass_07"
+		"ground" "ground"
+	}
+	{"goh_spring/grass_brown"
+		"ground" "ground"
+	}
+	{"goh_spring/grass_dry_var1"
+		"ground" "ground"
+	}
+	{"goh_spring/grass_spring"
+		"ground" "ground"
+	}
+	{"goh_spring/grass_spring_var"
+		"ground" "ground"
+	}
+	{"goh_spring/muddy_win_1"
+		"ground" "ground"
+	}
+	{"goh_spring/muddy_win_1_snow"
+		"ground" "ground"
+	}
+	{"goh_spring/muddy_win_1_snow-colour"
+		"ground" "ground"
+	}
+	{"goh_spring/muddy_win_1-colour"
+		"ground" "ground"
+	}
+	{"goh_spring/snow_lump"
+		"snow" "snow"
+	}
+	{"goh_spring/soil"
+		"ground" "ground"
+	}
+	{"goh_spring/soil_snow"
+		"ground" "ground"
+	}
+	{"goh_spring/soil_snowy"
+		"ground" "ground"
+	}
+	{"goh_spring/tex_soil_dird_wet"
+		"snow" "mud"
+	}
+	
+	
+; // ------- SUMMER RUS TEXTURES -------
+
+	{"goh_summer/rus/clay_cracked"
+		"ground" "ground"
+	}
+	{"goh_summer/rus/clay1"
+		"ground" "ground"
+	}
+	{"goh_summer/rus/clay3"
+		"ground" "ground"
+	}
+	{"goh_summer/rus/field_hay"
+		"ground" "grass"
+	}
+	{"goh_summer/rus/field1_green"
+		"ground" "grass"
+	}
+	{"goh_summer/rus/field1_steppe"
+		"ground" "grass"
+	}
+	{"goh_summer/rus/field2_green"
+		"ground" "grass"
+	}
+	{"goh_summer/rus/field2_steppe"
+		"ground" "grass"
+	}
+	{"goh_summer/rus/field3"
+		"ground" "grass"
+	}
+	{"goh_summer/rus/field4"
+		"ground" "grass"
+	}
+	{"goh_summer/rus/field5"
+		"ground" "grass"
+	}
+	{"goh_summer/rus/field5_var"
+		"ground" "grass"
+	}
+	{"goh_summer/rus/field6"
+		"ground" "grass"
+	}
+	{"goh_summer/rus/field6ç"
+		"ground" "grass"
+	}
+	{"goh_summer/rus/grass_dry"
+		"ground" "grass"
+	}
+	{"goh_summer/rus/grass_dry_var1"
+		"ground" "grass"
+	}
+	{"goh_summer/rus/grass_green"
+		"ground" "grass"
+	}
+	{"goh_summer/rus/grass_green_dead"
+		"ground" "grass"
+	}
+	{"goh_summer/rus/grass_green_transition"
+		"ground" "ground"
+	}
+	{"goh_summer/rus/grass_green_transition_var"
+		"ground" "grass"
+	}
+	{"goh_summer/rus/grass_green_var1"
+		"ground" "grass"
+	}
+	{"goh_summer/rus/grass_green_var2"
+		"ground" "grass"
+	}
+	{"goh_summer/rus/mud_summer"
+		"snow" "mud"
+	}
+	
+; // ------- SUMMER STEPPE TEXTURES -------	
+
+	{"goh_summer/steppe/steppe_dirt"
+		"ground" "ground"
+	}
+	{"goh_summer/steppe/steppe_field1"
+		"ground" "grass"
+	}
+	{"goh_summer/steppe/steppe_field2"
+		"ground" "grass"
+	}
+	{"goh_summer/steppe/steppe_grass"
+		"ground" "grass"
+	}
+	{"goh_summer/steppe/steppe_hassock"
+		"ground" "grass"
+	}
+	
+; // ------- WINTER TEXTURES -------
+
+
+	{"goh_winter/ice_clean"
+		"snow" "ice"
+	}
+    {"goh_winter/ice_clean_light"
+		"snow" "ice"
+	}
+    {"goh_winter/ice_clean_light_2"
+		"snow" "ice"
+	}
+    {"goh_winter/ice_splattered"
+		"snow" "ice"
+	}
+    {"goh_winter/ice_splattered_light"
+		"snow" "ice"
+	}
+    {"goh_winter/ice_splattered2"
+		"snow" "ice"
+	}
+    {"goh_winter/ice_splattered2_light"
+		"snow" "ice"
+	}
+	{"goh_winter/snow_1a"
+		"snow" "snow"
+	}
+	{"goh_winter/snow_6a"
+		"snow" "snow"
+	}
+	{"goh_winter/snow_6a_rough"
+		"snow" "snow"
+	}
+	{"goh_winter/snow_b2"
+		"snow" "snow"
+	}
+	{"goh_winter/snow_dry_grass_a"
+		"snow" "snow"
+	}
+	{"goh_winter/snow_field1"
+		"snow" "snow"
+	}
+	{"goh_winter/snow_field1a"
+		"snow" "snow"
+	}
+	{"goh_winter/snow_light_1"
+		"snow" "snow"
+	}
+	{"goh_winter/snow_light_1a"
+		"snow" "snow"
+	}
+	{"goh_winter/snow_muddy"
+		"snow" "snow"
+	}
+	{"goh_winter/snow_muddy2"
+		"ground" "snow"
+	}
+	{"goh_winter/snow_muddy3"
+		"ground" "snow"
+	}
+	{"goh_winter/snow_muddy4"
+		"ground" "snow"
+	}
+	{"goh_winter/snow_rocky"
+		"ground" "snow"
+	}
+
+
+
+}

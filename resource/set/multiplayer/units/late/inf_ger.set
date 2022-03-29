@@ -1,0 +1,406 @@
+;SDL
+;// CP + Scores + CW
+
+;////////////////// INSTRUCTIONS //////////////////
+; In this file onee configures the humans which are spawned in vehicles or squads
+; The humans have a CP and cost associated with them which collectively add up for the final squad value
+; Check ../settings.set for syntax instructions!!
+;//////////////////////////////////////////////////
+
+
+(define "ger_signaller"
+	{tags "late %side infantry man signaller"}
+	{cp 10}
+	{basic}
+	{breed}
+	{cw 1}
+	{score_factor 0.2}
+)
+{"mp/ger/late/signaller"			("ger_signaller" side(ger)) {cost 200.0}}
+
+
+(define "ger_tankman"
+	{tags "late %side infantry man"}
+	{cp 2}
+	{basic}
+	{breed}
+	{cw 0.5}
+	{score_factor 0.05}
+)
+{"mp/ger/late/artilleryman"			("ger_tankman" side(ger)) {cost 5.0}}
+{"mp/ger/late/tankman"				("ger_tankman" side(ger)) {cost 4.0}}
+{"mp/ger/late/tankman_stug"			("ger_tankman" side(ger)) {cost 4.0}}
+{"mp/ger/late/tank_commander"		("ger_tankman" side(ger)) {cost 15.0}}
+{"mp/ger/late/tank_commander_stug"	("ger_tankman" side(ger)) {cost 15.0}}
+{"mp/ger/late/tankman_ace"			("ger_tankman" side(ger)) {cost 8.0}}
+{"mp/ger/late/tank_commander_ace"	("ger_tankman" side(ger)) {cost 15.0}}
+{"mp/ger/mid/pilot"					("ger_tankman" side(ger)) {cost 0.0}}
+
+
+(define "ger_volkssturm"
+	{tags "late %side infantry man"}
+	{cp 1}
+	{basic}
+	{breed}
+	{cw 0.5}
+	{score_factor 0.05}
+)
+;//{"mp/ger/late/volkssturm_1"		("ger_volkssturm" side(ger)) {cost 7.0}}
+;//{"mp/ger/late/volkssturm_2"		("ger_volkssturm" side(ger)) {cost 15.0}} ; k98 + pzfaust
+;//{"mp/ger/late/volkssturm_3"		("ger_volkssturm" side(ger)) {cost 8.0}} ; smg
+;//{"mp/ger/late/volkssturm_4"		("ger_volkssturm" side(ger)) {cost 35.0}} ; MG
+;//{"mp/ger/late/volkssturm_pol"	("ger_volkssturm" side(ger)) {cost 8.0}} ; smg
+
+{"mp/ger/late/volkssturm_rifle"		("ger_volkssturm" side(ger)) {cost 20.0}} ; k98 + pzfaust 60
+{"mp/ger/late/volkssturm_pzf"		("ger_volkssturm" side(ger)) {cost 30.0}} ; k98 + pzfaust 100
+{"mp/ger/late/volkssturm_smg"		("ger_volkssturm" side(ger)) {cost 13.0}} ; mp40
+{"mp/ger/late/volkssturm_mg"		("ger_volkssturm" side(ger)) {cost 45.0}} ; MG42 drum (50 round)
+
+(define "ger_basic"
+	{tags "late %side infantry man"}
+	{cp 2}
+	{basic}
+	{breed}
+	{cw 0.5}
+	{score_factor 0.05}
+)
+
+{"mp/ger/late/lw_fus_mg"			("ger_basic" side(ger)) {cost 25.0}} ; MG13
+{"mp/ger/late/lw_fus_mg_asst"		("ger_basic" side(ger)) {cost 10.0}} ; k98
+{"mp/ger/late/lw_fus_rifle"			("ger_basic" side(ger)) {cost 10.0}} ; k98
+{"mp/ger/late/lw_fus_sl"			("ger_basic" side(ger)) {cost 13.0}} ; mp38
+{"mp/ger/late/lw_fus_sl_asst"		("ger_basic" side(ger)) {cost 10.0}} ; k98
+{"mp/ger/late/lw_fus_smg"			("ger_basic" side(ger)) {cost 13.0}} ; mp38
+
+(define "ger_regular_lite"
+	{tags "late %side infantry man"}
+	{cp 3}
+	{basic}
+	{breed}
+	{cw 1.0}
+	{score_factor 0.05}
+)
+{"mp/ger/late/mg_crew"				("ger_regular_lite" side(ger)) {cost 7.0}} ; p38 pistol
+{"mp/ger/late/mg_crew_asst"			("ger_regular_lite" side(ger)) {cost 12.0}} ; k98
+
+{"mp/ger/late/gren_rifle"			("ger_regular_lite" side(ger)) {cost 12.0}} ; k98
+
+{"mp/ger/late/pzgren_rifle"			("ger_regular_lite" side(ger)) {cost 12.0}} ; k98
+
+{"mp/ger/late/recon_rifle"			("ger_regular_lite" side(ger)) {cost 12.0}} ; k98
+
+{"mp/ger/late/volksg_rifle"			("ger_regular_lite" side(ger)) {cost 12.0}} ; k98
+
+{"mp/ger/late/rifleman_1"			("ger_regular_lite" side(ger)) {cost 12.0}} ; k98
+;//{"mp/ger/late/rifleman_2"		("ger_regular_lite" side(ger)) {cost 12.0}} ; k98
+
+(define "ger_regular"
+	{tags "late %side infantry man"}
+	{cp 3}
+	{basic}
+	{breed}
+	{cw 1.0}
+	{score_factor 0.05}
+)
+
+{"mp/ger/late/gren_smg"				("ger_regular" side(ger)) {cost 15.0}} ; mp40
+{"mp/ger/late/gren_sa"				("ger_regular" side(ger)) {cost 18.0}} ; g43
+{"mp/ger/late/gren_rifle_grenadier"	("ger_regular" side(ger)) {cost 45.0}} ; rifle grenade
+{"mp/ger/late/gren_mg"				("ger_regular" side(ger)) {cost 50.0}} ; MG42 drum (50 round)
+{"mp/ger/late/gren_mg_asst"			("ger_regular" side(ger)) {cost 12.0}} ; k98
+{"mp/ger/late/gren_sl"				("ger_regular" side(ger)) {cost 15.0}} ; mp40
+{"mp/ger/late/gren_sl_asst"			("ger_regular" side(ger)) {cost 12.0}} ; k98
+;//{"mp/ger/late/gren_sl_asst_sniper"	("ger_regular" side(ger)) {cost 100.0}} ; k98 scope
+;//{"mp/ger/late/gren_sl_asst_smg"		("ger_regular" side(ger)) {cost 15.0}} ; mp40
+
+
+{"mp/ger/late/pzgren_at"			("ger_regular" side(ger)) {cost 70.0}} ; pzschreck
+{"mp/ger/late/pzgren_rifle_pzf"		("ger_regular" side(ger)) {cost 18.0}} ; k98 + pzfaust 30
+{"mp/ger/late/pzgren_rifle_pzf2"	("ger_regular" side(ger)) {cost 12.0}} ; k98 + % pzfaust 30
+;//{"mp/ger/late/pzgren_sa"			("ger_regular" side(ger)) {cost 18.0}} ; g43 + % pzfaust 60
+{"mp/ger/late/pzgren_mg"			("ger_regular" side(ger)) {cost 50.0}} ; MG42 drum (50 round)
+{"mp/ger/late/pzgren_mg_asst"		("ger_regular" side(ger)) {cost 12.0}} ; k98
+{"mp/ger/late/pzgren_sl"			("ger_regular" side(ger)) {cost 15.0}} ; mp40
+{"mp/ger/late/pzgren_sl_asst"		("ger_regular" side(ger)) {cost 18.0}} ; g43 + % pzfaust 30
+;//{"mp/ger/late/pzgren_stg"			("ger_regular" side(ger)) {cost 20.0}} ; stg44 + % pzfaust 60
+{"mp/ger/late/pzgren_sturm_pzf"		("ger_regular" side(ger)) {cost 25.0}} ; stg44 + pzfaust 30
+{"mp/ger/late/pzgren_sturm_sa_scope"("ger_regular" side(ger)) {cost 50.0}} ; g43 scope
+{"mp/ger/late/pzgren_sturm_stg"		("ger_regular" side(ger)) {cost 20.0}} ; stg44
+{"mp/ger/late/pzgren_sturm_sl"		("ger_regular" side(ger)) {cost 20.0}} ; stg44
+{"mp/ger/late/pzgren_sturm_sl_asst"	("ger_regular" side(ger)) {cost 20.0}} ; stg44 + % pzfaust 30
+
+{"mp/ger/late/recon_mg"				("ger_regular" side(ger)) {cost 50.0}} ; mg42 drum
+{"mp/ger/late/recon_mg_asst"		("ger_regular" side(ger)) {cost 12.0}} ; k98
+{"mp/ger/late/recon_sl_asst_rifle"	("ger_regular" side(ger)) {cost 12.0}} ; k98
+{"mp/ger/late/recon_sl_asst_sa"		("ger_regular" side(ger)) {cost 18.0}} ; g43
+{"mp/ger/late/recon_sl_asst_stg"	("ger_regular" side(ger)) {cost 20.0}} ; stg44
+{"mp/ger/late/recon_sl_rifle"		("ger_regular" side(ger)) {cost 12.0}} ; k98
+{"mp/ger/late/recon_sl_smg"			("ger_regular" side(ger)) {cost 15.0}} ; mp40
+
+{"mp/ger/late/volksg_at"				("ger_regular" side(ger)) {cost 70.0}} ; pzschreck
+{"mp/ger/late/volksg_at2"				("ger_regular" side(ger)) {cost 12.0}} ; k98
+{"mp/ger/late/volksg_mg"				("ger_regular" side(ger)) {cost 50.0}} ; mg42 drum (50 round)
+{"mp/ger/late/volksg_mg_asst"			("ger_regular" side(ger)) {cost 12.0}} ; k98
+{"mp/ger/late/volksg_mg_asst_sa"		("ger_regular" side(ger)) {cost 18.0}} ; g43
+{"mp/ger/late/volksg_rifle_grenadier"	("ger_regular" side(ger)) {cost 45.0}} ; rifle grenade
+{"mp/ger/late/volksg_rifle_grenadier2"	("ger_regular" side(ger)) {cost 45.0}} ; rifle grenade, 20 ammo
+{"mp/ger/late/volksg_sa"				("ger_regular" side(ger)) {cost 18.0}} ; g43
+{"mp/ger/late/volksg_sa_pzf"			("ger_regular" side(ger)) {cost 28.0}} ; g43 + pzfaust 60
+{"mp/ger/late/volksg_sa_scope"			("ger_regular" side(ger)) {cost 50.0}} ; g43 scope
+{"mp/ger/late/volksg_sl"				("ger_regular" side(ger)) {cost 20.0}} ; stg44
+{"mp/ger/late/volksg_sl_asst"			("ger_regular" side(ger)) {cost 20.0}} ; stg44 + % pzfaust 60
+;//{"mp/ger/late/volksg_sl_asst_smg"		("ger_regular" side(ger)) {cost 15.0}} ; mp40 + % pzfaust 60
+{"mp/ger/late/volksg_sl_smg"			("ger_regular" side(ger)) {cost 15.0}} ; mp40
+{"mp/ger/late/volksg_smg"				("ger_regular" side(ger)) {cost 15.0}} ; mp40
+{"mp/ger/late/volksg_stg"				("ger_regular" side(ger)) {cost 20.0}} ; stg44
+{"mp/ger/late/volksg_smg_pzf"			("ger_regular" side(ger)) {cost 25.0}} ; mp40 + pzfaust 60
+{"mp/ger/late/volksg_stg_pzf"			("ger_regular" side(ger)) {cost 30.0}} ; stg44 + pzfaust 60
+
+{"mp/ger/late/mgun_1"				("ger_regular" side(ger)) {cost 50.0}} ; MG42 drum (50 round)
+{"mp/ger/late/mgun_2"				("ger_regular" side(ger)) {cost 12.0}} ; k98
+
+;//{"mp/ger/late/rifleman_3"		("ger_regular" side(ger)) {cost 18.0}} ; g43
+
+{"mp/ger/late/smg_1"				("ger_regular" side(ger)) {cost 15.0}} ; mp40
+;//{"mp/ger/late/smg_2"				("ger_regular" side(ger)) {cost 15.0}} ; mp40
+;//{"mp/ger/late/smg_3"				("ger_regular" side(ger)) {cost 15.0}} ; mp40
+{"mp/ger/late/smg_stg"				("ger_regular" side(ger)) {cost 20.0}} ; mkb42(h)
+
+;//{"mp/ger/late/luft_1"			("ger_regular" side(ger)) {cost 15.0}} ; mp40
+;//{"mp/ger/late/luft_2"			("ger_regular" side(ger)) {cost 12.0}} ; k98
+;//{"mp/ger/late/luft_3"			("ger_regular" side(ger)) {cost 45.0}} ; MG42 drum (50 round)
+
+;//{"mp/ger/late/sturm_1"			("ger_regular" side(ger)) {cost 20.0}} ; stg44
+;//{"mp/ger/late/sturm_2"			("ger_regular" side(ger)) {cost 18.0}} ; g43
+;//{"mp/ger/late/sturm_3"			("ger_regular" side(ger)) {cost 22.0}} ; k98 + pzfaust 60 x3
+;//{"mp/ger/late/sturm_4"			("ger_regular" side(ger)) {cost 12.0}} ; k98
+
+
+(define "ger_regular_advanced"
+	{tags "late %side infantry man"}
+	{cp 3}
+	{basic}
+	{breed}
+	{cw 1.0}
+	{score_factor 0.05}
+)
+{"mp/ger/late/antitank_1"			("ger_regular_advanced" side(ger)) {cost 80.0}} ; k98 + Pzshreck
+{"mp/ger/late/antitank_2"			("ger_regular_advanced" side(ger)) {cost 25.0}}	; mp40 + pzfaust60 + Pzschreck ammo
+;//{"mp/ger/late/antitank_3"		("ger_regular_advanced" side(ger)) {cost 45.0}} ; pzfaust60
+{"mp/ger/late/antitank_4"			("ger_regular_advanced" side(ger)) {cost 45.0}} ; rifle grenade inf
+{"mp/ger/late/antitank_5"			("ger_regular_advanced" side(ger)) {cost 12.0}} ; k98
+
+{"mp/ger/late/engineer_1"			("ger_regular_advanced" side(ger)) {cost 50.0}}
+{"mp/ger/late/engineer_2"			("ger_regular_advanced" side(ger)) {cost 50.0}}
+{"mp/ger/late/flamer"				("ger_regular_advanced" side(ger)) {cost 60.0}}
+
+{"mp/ger/late/miner-ap"				("ger_regular_advanced" side(ger)) {cost 40.0}}
+{"mp/ger/late/miner-at"				("ger_regular_advanced" side(ger)) {cost 40.0}}
+{"mp/ger/late/nco"					("ger_regular_advanced" side(ger)) {cost 25.0}} ; stg44
+
+
+(define "ger_fusilier"
+	{tags "late %side infantry man"}
+	{cp 3}
+	{basic}
+	{breed}
+	{cw 1.0}
+	{score_factor 0.05}
+)
+{"mp/ger/late/fusilier_mg"				("ger_fusilier" side(ger)) {cost 60.0}} ; MG42 belt (250 round)
+{"mp/ger/late/fusilier_mg_asst"			("ger_fusilier" side(ger)) {cost 17.0}} ; k98
+{"mp/ger/late/fusilier_rifle"			("ger_fusilier" side(ger)) {cost 17.0}} ; k98
+{"mp/ger/late/fusilier_rifle_pzf"		("ger_fusilier" side(ger)) {cost 27.0}} ; k98 + pzfaust
+{"mp/ger/late/fusilier_rifle_grenadier"	("ger_fusilier" side(ger)) {cost 50.0}} ; rifle grenade
+{"mp/ger/late/fusilier_sa"				("ger_fusilier" side(ger)) {cost 25.0}} ; g43
+{"mp/ger/late/fusilier_sl"				("ger_fusilier" side(ger)) {cost 20.0}} ; mp40
+{"mp/ger/late/fusilier_sl_asst"			("ger_fusilier" side(ger)) {cost 100.0}} ; k98 scope + % pzfaust
+{"mp/ger/late/fusilier_smg"				("ger_fusilier" side(ger)) {cost 20.0}} ; mp40 + % pzfaust
+
+
+(define "ger_jager"
+	{tags "late %side infantry man"}
+	{cp 3}
+	{basic}
+	{breed}
+	{cw 2.0}
+	{score_factor 0.05}
+)
+{"mp/ger/late/jager_mg"			("ger_jager" side(ger)) {cost 55.0}} ; MG42 drum (50 round)
+{"mp/ger/late/jager_mg_asst"	("ger_jager" side(ger)) {cost 17.0}} ; k98
+{"mp/ger/late/jager_rifle"		("ger_jager" side(ger)) {cost 17.0}} ; k98
+{"mp/ger/late/jager_rifle_pzf"	("ger_jager" side(ger)) {cost 17.0}} ; k98 + % pzfaust 60
+{"mp/ger/late/jager_sl"			("ger_jager" side(ger)) {cost 20.0}} ; mp40
+{"mp/ger/late/jager_sl_asst"	("ger_jager" side(ger)) {cost 20.0}} ; mp40 + % pzfaust 60
+{"mp/ger/late/jager_smg"		("ger_jager" side(ger)) {cost 20.0}} ; mp40 
+{"mp/ger/late/jager_smg_pzf"	("ger_jager" side(ger)) {cost 30.0}} ; mp40 + pzfaust
+
+
+(define "ger_begleitgren"
+	{tags "late %side infantry man"}
+	{cp 3}
+	{basic}
+	{breed}
+	{cw 2}
+	{score_factor 0.05}
+)
+{"mp/ger/late/begleitgren_mg"		("ger_begleitgren" side(ger)) {cost 55.0}} ; MG42 drum (50 round)
+{"mp/ger/late/begleitgren_mg_asst"	("ger_begleitgren" side(ger)) {cost 17.0}} ; k98
+{"mp/ger/late/begleitgren_sl"		("ger_begleitgren" side(ger)) {cost 25.0}} ; stg44
+{"mp/ger/late/begleitgren_sl_asst"	("ger_begleitgren" side(ger)) {cost 25.0}} ; stg44 + % pzfaust 100
+{"mp/ger/late/begleitgren_sa"		("ger_begleitgren" side(ger)) {cost 25.0}} ; g43
+{"mp/ger/late/begleitgren_sa_pzf"	("ger_begleitgren" side(ger)) {cost 35.0}} ; g43 + pzfaust 60
+{"mp/ger/late/begleitgren_stg"		("ger_begleitgren" side(ger)) {cost 25.0}} ; stg44
+
+
+(define "ger_gebirgs"
+	{tags "late %side infantry man"}
+	{cp 3}
+	{basic}
+	{breed}
+	{cw 2.0}
+	{score_factor 0.05}
+)
+{"mp/ger/late/gebirgs_mg"		("ger_gebirgs" side(ger)) {cost 65.0}} ; MG42 belt (250 round)
+{"mp/ger/late/gebirgs_mg_asst"	("ger_gebirgs" side(ger)) {cost 23.0}} ; k98
+{"mp/ger/late/gebirgs_rifle"	("ger_gebirgs" side(ger)) {cost 23.0}} ; k98
+{"mp/ger/late/gebirgs_sl"		("ger_gebirgs" side(ger)) {cost 30.0}} ; stg44
+{"mp/ger/late/gebirgs_sl_asst"	("ger_gebirgs" side(ger)) {cost 35.0}} ; mp40 + % pzfaust 100
+{"mp/ger/late/gebirgs_smg"		("ger_gebirgs" side(ger)) {cost 25.0}} ; mp40
+{"mp/ger/late/gebirgs_smg_pzf"	("ger_gebirgs" side(ger)) {cost 35.0}} ; mp40 + pzfaust
+{"mp/ger/late/gebirgs_stg"		("ger_gebirgs" side(ger)) {cost 30.0}} ; stg44
+
+
+(define "ger_pzgren_gd"
+	{tags "late %side infantry man"}
+	{cp 3}
+	{basic}
+	{breed}
+	{cw 2.0}
+	{score_factor 0.05}
+)
+;//{"mp/ger/late/gd_pzgren_rifle"		("ger_pzgren_gd" side(ger)) {cost 23.0}} ; k98
+;//{"mp/ger/late/gd_pzgren_sa"			("ger_pzgren_gd" side(ger)) {cost 30.0}} ; g43
+{"mp/ger/late/gd_pzgren_rifle_pzf"	("ger_pzgren_gd" side(ger)) {cost 33.0}} ; k98 + pzfaust (1)
+{"mp/ger/late/gd_pzgren_sa_pzf"		("ger_pzgren_gd" side(ger)) {cost 40.0}} ; g43 + pzfaust (1)
+{"mp/ger/late/gd_pzgren_mg"			("ger_pzgren_gd" side(ger)) {cost 70.0}} ; mg42 belt (250 round)
+{"mp/ger/late/gd_pzgren_mg_asst"	("ger_pzgren_gd" side(ger)) {cost 23.0}} ; k98
+{"mp/ger/late/gd_pzgren_sl"			("ger_pzgren_gd" side(ger)) {cost 30.0}} ; stg44
+{"mp/ger/late/gd_pzgren_sl_asst"	("ger_pzgren_gd" side(ger)) {cost 60.0}} ; g43 scope
+{"mp/ger/late/gd_pzgren_stg"		("ger_pzgren_gd" side(ger)) {cost 40.0}} ; stg44 + % pzfaust 100
+
+
+(define "ger_pioniere"
+	{tags "late %side infantry man"}
+	{cp 3}
+	{basic}
+	{breed}
+	{cw 2}
+	{score_factor 0.05}
+)
+{"mp/ger/late/pio_builder"		("ger_pioniere" side(ger)) {cost 12.0}} ; k98
+{"mp/ger/late/pio_demo"			("ger_pioniere" side(ger)) {cost 12.0}} ; k98
+{"mp/ger/late/pio_miner_ap"		("ger_pioniere" side(ger)) {cost 12.0}} ; k98
+{"mp/ger/late/pio_miner_at"		("ger_pioniere" side(ger)) {cost 12.0}} ; k98
+
+{"mp/ger/late/pioneer_1"		("ger_pioniere" side(ger)) {cost 12.0}} ; k98
+{"mp/ger/late/pioneer_2"		("ger_pioniere" side(ger)) {cost 12.0}} ; k98
+{"mp/ger/late/pioneer_3"		("ger_pioniere" side(ger)) {cost 60.0}} ; flamethrower
+{"mp/ger/late/pioneer_4"		("ger_pioniere" side(ger)) {cost 12.0}} ; k98
+{"mp/ger/late/pioneer_at"		("ger_pioniere" side(ger)) {cost 70.0}} ; pzschreck
+{"mp/ger/late/pioneer_mgun"		("ger_pioniere" side(ger)) {cost 50.0}} ; MG42 drum (50 round)
+{"mp/ger/late/pioneer_mgun_asst"("ger_pioniere" side(ger)) {cost 12.0}} ; k98
+{"mp/ger/late/pioneer_pzf"		("ger_pioniere" side(ger)) {cost 15.0}} ; k98 + faustpatrone 30
+{"mp/ger/late/pioneer_rifle_grenadier"	("ger_pioniere" side(ger)) {cost 45.0}} ; rifle grenade
+{"mp/ger/late/pioneer_sa"		("ger_pioniere" side(ger)) {cost 18.0}} ; g43
+{"mp/ger/late/pioneer_sl"		("ger_pioniere" side(ger)) {cost 15.0}} ; mp40
+{"mp/ger/late/pioneer_sl_asst"	("ger_pioniere" side(ger)) {cost 12.0}} ; k98
+{"mp/ger/late/pioneer_sl_stg"	("ger_pioniere" side(ger)) {cost 20.0}} ; stg44
+
+
+(define "ger_fallschirmjaeger"
+	{tags "late %side infantry man"}
+	{cp 3}
+	{basic}
+	{breed}
+	{cw 2}
+	{score_factor 0.05}
+)
+;//{"mp/ger/late/fallsch_1"				("ger_fallschirmjaeger" side(ger)) {cost 35.0}}
+;//{"mp/ger/late/fallsch_2"				("ger_fallschirmjaeger" side(ger)) {cost 40.0}} ; fg
+;//{"mp/ger/late/fallsch_3"				("ger_fallschirmjaeger" side(ger)) {cost 70.0}} ; has mg
+;//{"mp/ger/late/fallsch_4"				("ger_fallschirmjaeger" side(ger)) {cost 50.0}} ;  + pzfaust 60
+
+{"mp/ger/late/fallsch_mg"				("ger_fallschirmjaeger" side(ger)) {cost 75.0}} ; mg42 belt (250 round)
+{"mp/ger/late/fallsch_mg_asst"			("ger_fallschirmjaeger" side(ger)) {cost 25.0}} ; k98
+;//{"mp/ger/late/fallsch_rifle"			("ger_fallschirmjaeger" side(ger)) {cost 30.0}} ; k98 + % pzfaust 30
+{"mp/ger/late/fallsch_rifle_grenadier"	("ger_fallschirmjaeger" side(ger)) {cost 50.0}} ; k98 + rifle grenade
+{"mp/ger/late/fallsch_sa"				("ger_fallschirmjaeger" side(ger)) {cost 22.0}} ; g43 + % pzfaust 60
+;//{"mp/ger/late/fallsch_sa_scope"		("ger_fallschirmjaeger" side(ger)) {cost 60.0}} ; g43 scope + % pzfaust 30
+{"mp/ger/late/fallsch_rifle_scope"		("ger_fallschirmjaeger" side(ger)) {cost 130.0}} ; k98 scope + % pzfaust 60
+{"mp/ger/late/fallsch_sl"				("ger_fallschirmjaeger" side(ger)) {cost 27.0}} ; mp40
+{"mp/ger/late/fallsch_sl_asst"			("ger_fallschirmjaeger" side(ger)) {cost 45.0}} ; fg42 + pzfaust 60
+
+
+(define "ger_volksgrenadiere"
+	{tags "late %side infantry man"}
+	{cp 3}
+	{basic}
+	{breed}
+	{cw 2}
+	{score_factor 0.05}
+)
+{"mp/ger/late/volksg_1"		("ger_volksgrenadiere" side(ger)) {cost 30.0}} ; g43
+;//{"mp/ger/late/volksg_2"		("ger_volksgrenadiere" side(ger)) {cost 40.0}}
+;//{"mp/ger/late/volksg_3"		("ger_volksgrenadiere" side(ger)) {cost 85.0}} ; has pzschreck
+;//{"mp/ger/late/volksg_4"		("ger_volksgrenadiere" side(ger)) {cost 65.0}} ; has mg
+
+
+(define "ger_brandenburger"
+	{tags "late %side infantry man"}
+	{cp 3}
+	{basic}
+	{breed}
+	{cw 2}
+	{score_factor 0.05}
+)
+{"mp/ger/late/brand_1"		("ger_brandenburger" side(ger)) {cost 25.0}} ; mp41
+{"mp/ger/late/brand_2"		("ger_brandenburger" side(ger)) {cost 60.0}} ; MG42 drum
+{"mp/ger/late/brand_3"		("ger_brandenburger" side(ger)) {cost 23.0}} ; k98 + % pzfaust 60
+{"mp/ger/late/brand_4"		("ger_brandenburger" side(ger)) {cost 23.0}} ; k98
+{"mp/ger/late/brand_5"		("ger_brandenburger" side(ger)) {cost 35.0}} ; mp41 + pzfaust 60
+{"mp/ger/late/brand_6"		("ger_brandenburger" side(ger)) {cost 40.0}} ; g41 + pzfaust 60
+
+
+(define "ger_medic"
+	{tags "late %side infantry man"}
+	{cp 3}
+	{basic}
+	{breed}
+	{cw 0.5}
+	{score_factor -0.2}
+)
+{"mp/ger/late/medic"		("ger_medic" side(ger)) {cost 40.0}}
+
+
+(define "ger_officer"
+	{tags "late %side infantry man officer"}
+	{cp -25}
+	{basic}
+	{breed}
+	{cw 20}
+	{score_factor 0.4}
+)
+{"mp/ger/late/officer"		("ger_officer" side(ger)) {cost 125.0}}
+
+
+(define "ger_sniper"
+	{tags "late %side infantry man sniper"}
+	{cp 8}
+	{basic}
+	{breed}
+	{cw 1}
+	{score_factor 0.05}
+)
+{"mp/ger/late/sniper"		("ger_sniper" side(ger)) {cost 150.0}}
+{"mp/ger/late/sniper2"		("ger_sniper" side(ger)) {cost 150.0}}

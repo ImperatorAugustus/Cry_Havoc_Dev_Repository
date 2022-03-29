@@ -1,0 +1,6 @@
+{from "mosin"
+	{desc "Mosin 1891/30, shtyk"}
+	{tag "rifle_stab_melee -rifle_slap_melee"}
+	{entity "mosin_bayonet"}
+	{mass 4}
+}

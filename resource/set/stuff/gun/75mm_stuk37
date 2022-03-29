@@ -1,0 +1,12 @@
+;_________________________________________
+; short barreled german infantry support gun
+;=========================================
+
+
+{from "75mm_kwk37"			; L/24 "stug3b"
+	{fireSound 	"gun/Shared/close/medium/75-76mm_low-velocity/"}
+	{fireSoundClose "gun/Shared/int/medium/"}
+	{reloadSound "INT/reload/reload_medium_6s_INT"}
+
+	("accuracy_direct" r1(0.85) range_ap(170) range_he(170) range_heat(170))
+}

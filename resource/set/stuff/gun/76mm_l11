@@ -1,0 +1,12 @@
+;_________________________________________
+; USSR early Medium AT gun
+;=========================================
+
+
+{from "76mm_f32"			; L/30.5 "t3476_40"
+	{fireSound 	"gun/Shared/close/medium/75-76mm/"}
+	{fireSoundClose "gun/Shared/int/medium/"}
+	{reloadSound "INT/reload/reload_medium_15s_INT"}
+
+	("reload time" seconds(15))
+}

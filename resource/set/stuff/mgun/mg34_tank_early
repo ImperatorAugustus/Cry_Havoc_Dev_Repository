@@ -1,0 +1,4 @@
+{from "mg34_tank"
+	{desc "MG 34 Panzerlauf"}
+	{filling "ammo mgun_ger" 75}
+}

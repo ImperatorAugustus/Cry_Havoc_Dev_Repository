@@ -1,0 +1,28 @@
+{from "pattern hmgun"
+	{desc "M2 HB"}
+	{inventory {size 7 3}}
+	{filling "ammo hmgun_usa" 100}
+	{entity "browning_m2"}
+	{fireSound		"small_arms/USA/M2HB/close/"}
+	{fireSoundClose		"small_arms/USA/M2HB/3p/"}
+	{reloadSound "dt"}
+	{calibre 12.7}
+	{mass 38}
+
+	("fire rate" rpm(550))
+	("velocity" mps(894))
+
+	("reload_drum")
+
+	("recoil_high")
+	("burst_short")
+	("spreading_high")
+	("zero_short")
+
+	{traceFreq 4}
+
+	{curve "HMG_ball"}
+	("muzzle_energy_large_rifle_caliber" j(17964.5))
+	("penetration" a(30.1) b(24.9) c(15.9) d(7.4))
+
+}

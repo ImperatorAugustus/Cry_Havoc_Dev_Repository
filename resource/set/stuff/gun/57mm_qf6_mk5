@@ -1,0 +1,12 @@
+;_________________________________________
+; British medium AT gun
+;=========================================
+
+
+{from "57mm_qf6_l50"		; L/50 "QF 6-pounder Mk.V" tank variant
+
+	("reload time" seconds(6))
+	{reloadSound "INT/reload/reload_small_6s_INT"}
+
+	("accuracy_direct" r1(0.70) range_ap(190) range_he(190) range_heat(190))
+}

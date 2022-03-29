@@ -1,0 +1,23 @@
+{from "pattern smg"
+	{desc "PPSh 41 (Stick)"}
+	{tag "PPSH41 pistol2_shell"}
+	{filling "ammo ppsh_stick" 35}
+	{entity "ppsh41_stick"}
+	{fireSound "small_arms/RUS/PPSH41/close/"}
+	{fireSoundclose "small_arms/RUS/PPSH41/3p/"}
+	{reloadSound "ppsh41"}
+	{calibre 7.62}
+	{mass 3.63}
+
+	("fire rate" rpm(900))
+	("velocity" mps(488))
+
+	("burst_short")
+	("spreading_high")
+	("zero_medium")
+	("recoil_low")
+
+	{curve "bullet_smg_light"}	
+	("muzzle_energy_pistol_caliber" j(655.8))
+	("penetration" a(5.82) b(4.23) c(3.5) d(2.8) e(1.9) f(1))
+}

@@ -1,0 +1,40 @@
+;_________________________________________
+; german light AT cannon
+;=========================================
+
+
+{from "pattern gun"			; L/46.5 "37mm_pak36"
+	{filling "bulletger_37"}
+	{fireSound 		"gun/Shared/close/small/37mm/"}
+	{fireSoundClose 	"gun/Shared/close/small/37mm/"}
+	{reloadSound 		"tank/reload_small"}
+	("range_160")
+	{calibre 37}
+
+	("reload time" seconds(3))
+
+	("velocity m/s" ap(740) apcr(1020) he(680) heat(110))
+	("armor health" damage(100))
+	("armor health custom" shell(aphe) damage(100) filler(22))
+	
+	("accuracy_direct" r1(0.73) range_ap(160) range_he(160) range_heat(110))
+
+	; Pzgr.39
+	("penetration_medium" shell(aphe) range(160) a(49) b(40) c(30) d(23) e(18))
+
+	; Pzgr.40
+	("penetration_medium" shell(apcr) range(160) a(90) b(48) c(22) d(10) e(5))
+
+	; Steil.Gr.41
+	("penetration_short" shell(heat) range(110) a(180) b(180) c(180) d(180) e(180))
+	{parameters "heat"
+		{gravity 2}
+		{rechargeTime 8}
+		{minimumDamageModifier 450}
+		{spreading
+			{radiusTable {0 0} {40 0.5} {80 1.5} {110 3.5} {130 25}}
+		}
+	}
+
+	
+}

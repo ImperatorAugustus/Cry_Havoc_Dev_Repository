@@ -1,0 +1,224 @@
+
+(include "\set\small_firearms_accuracy.inc")
+
+;/*=========================*/
+
+(define "penetration"
+	{projectileDamageTable {0 %a} {60 %b} {120 %c} {240 %d} {480 %e}}
+)
+
+;/*=========================*/
+
+;Kinetic Energy in joules, multiplied by Caliber Class HP Damage modifier
+
+(define "muzzle_energy_rifle_caliber"		; Full Rifle Sized Cartridges, 7.62x54mmR to 7.92x57mm
+	{healthDamage (* 0.0450 %j)}
+)
+(define "muzzle_energy_intermediate_caliber"	; Intermediate Sized Cartridges, 7.62x33mm to 7.92x33mm
+	{healthDamage (* 0.0700 %j)}
+)
+;/*=========================*/	HE Bullet Blast Radius
+
+(define "he_blast"						;// HE Bullets
+	{damage blastwave
+		{energy (* %0 0.42)}
+		{area 0.1 0.25}
+		{ground_interaction_radius 0.1}
+	}
+	{damage add blastwave
+		{energy (* %0 0.6)}
+		{area (* 0.175 (* %0 2.5)) (* 0.6 (* %0 2.5))}
+		{ground_interaction_radius 0} 		
+	}
+)
+
+;/*=========================*/
+
+(define "armor health"
+	{minimumDamageModifier (* 1.0 %damage)}
+)
+
+
+(define "marksman"
+	{range 120 120}
+	{ZeroingAccuracy 0.9 0.85 0.8 0.75 0.7 0.65 0.6}
+	("fire rate" rpm(50))
+)
+
+(define "k98_rate"
+	{FiringTimeout 3.5 0.5}
+	("fire rate" rpm(40))
+)
+
+(define "mosin_rate"
+	{FiringTimeout 4 0.5}
+	("fire rate" rpm(30))
+)
+
+;/*=========================*/ Weapon Profiles BEGIN
+(define "bolt_action"
+	{tag "bolt_action"}
+	{range 120 120}
+	("sway")
+	("accuracy_3_MoA")
+	("zero_short")
+	("recoil_high")
+	("spreading_high")
+	{states
+		{reload		"reload"}
+		{unload		"unload"}
+		{fire		"fire"	}
+		{aim 		"aim"	}
+		{can_aim	"can-aim-bolt"}
+	}
+)
+(define "semi_rifle"
+	{tag "auto_eject"}
+	{range 120 120}
+	{Automatic}
+	("sway")
+	("accuracy_3_MoA")
+	("burst_semi")
+	("recoil_high")
+	("spreading_high")
+	("zero_short")
+	("fire rate" rpm(150))
+	{SyncedProjectiles 1}
+	{FiringTimeout 0.75 0.25}
+)
+(define "semi_rifle_inter" ; Intermediate Caliber, with Semi-Auto Only; SKS
+	{tag "auto_eject"}
+	{range 96 120}					; Intermediate-Caliber Weapons have Point-Target Max-Effective Range of 300m, 500m for Area-Target
+	{Automatic}
+	("sway")
+	("accuracy_3_MoA")
+	("burst_semi")
+	("zero_short")
+
+	("fire rate" rpm(150))
+	{SyncedProjectiles 1}
+	{FiringTimeout 0.65 0.25}
+)
+(define "auto_rifle" ; Rifle Caliber, with Select-Fire Capability; AVS 36, AVT 40, FG 42, M 14, FAL
+	{tag "autorifle_sup auto_eject"}
+	{Automatic}
+	{range 120 120}
+	("sway")
+	("accuracy_3_MoA")
+	("burst_select_fire")
+	("spreading_high")
+	("recoil_high")
+	("zero_medium")
+
+	{LockFireDistanceTime 0.5}
+	{SyncedProjectiles 1}				;// not for automatic weapons, exception due to semi-auto
+	{FiringTimeout 0.85 0.25}
+)
+
+(define "assault_rifle"	; Intermediate Caliber, with Select-Fire Capability; StG 44, AK 47/AKM, M16 	
+	{tag "autorifle_sup auto_eject"}
+	{range 96 120}
+	{Automatic}
+	("sway")
+	("accuracy_3_MoA")
+	("burst_select_fire")
+
+	{LockFireDistanceTime 0.5}
+	{SyncedProjectiles 1}
+	{FiringTimeout 0.65 0.25}
+)
+;------------------------------	Bursts 
+(define "burst_semi"					;// Semi-Auto Bursts
+	{burst
+		{short 1 0.5}			;// short burst shots on long distance, rand (+-)shots
+		{long 2 1}			;// long burst shots on short distance, rand (+-)shots
+		{rangeKoef 0.5}			;// rangeKoef * aimRange = max long burst distance
+	}
+)
+(define "burst_select_fire"				;// Select-Fire Bursts
+	{burst
+		{short 1 0.5}
+		{long 6 3}
+		{rangeKoef 0.65}
+	}
+)
+(define "burst_select_fire_burst"			;// Select-Fire, Semi and 3-Rd Bursts
+	{burst
+		{short 1 0.5}
+		{long 3 0.5}
+		{rangeKoef 0.65}
+	}
+)
+;------------------------------	Spreading 
+(define "spreading_low"					;// Reduction in Accuracy with subsequent shots
+	{spreading
+		{BurstAccuracy 100 99.1 97.8 95.7 92.7 88.1 81.3 71.0 55.7 32.6}
+		{SpreadPower 1.5} 
+	}
+)
+(define "spreading_medium"
+	{spreading 
+		{BurstAccuracy 100 98.6 96.5 93.4 88.6 81.5 70.9 55.0 31.0}
+		{SpreadPower 1.5} 
+	}
+)
+(define "spreading_high"
+	{spreading 
+		{BurstAccuracy 100 97.9 94.6 89.8 82.5 71.6 55.3 30.8}
+		{SpreadPower 1.5} 
+	}
+)
+;------------------------------	Zeroing 
+(define "zeroing_boost"					;// Increase in Accuracy with subsequent shots on same Target
+	{ZeroingAccuracy 0.975 0.95 0.925 0.9 0.875 0.85 0.825 0.8}
+)
+(define "zero_long"
+	{ZeroingAccuracy 0.965 0.930 0.895 0.860 0.825 0.790 0.755 0.720 0.685 0.650 0.615 0.580}
+)
+(define "zero_medium"
+	{ZeroingAccuracy 0.945 0.890 0.835 0.780 0.725 0.670 0.615 0.560}
+)
+(define "zero_short"
+	{ZeroingAccuracy 0.925 0.850 0.775 0.700 0.625 0.550}
+)
+;------------------------------	Weapon Sway
+(define "sway"
+	{swayparams
+		{bounds -0.3 0.2 -0.4 0.3}		; x -> negativeYaw, y -> positiveYaw, z -> negativePitch, w -> positive Pitch (in degree)
+		{speed 0.35}				; sway speed coef
+	}
+)
+;------------------------------	Recoil
+(define "recoil_low2"					; Low-Impulse Intermediate Recoil
+	{recoil
+		{shoot {0.55 0.25} {-0.55 0.15}}	; pitch / +- random and yaw / +- random, per shot, degree
+		{maxAngle 6 6}				; max recoil angle (pitch/yaw), degree
+		{restoreTime 0.15 0.05}			; recoil restore time, first -> minimum time, second -> additional time per shot, sec
+		{restoreDelay 0.05}			; delay before restore, sec
+	}
+)
+(define "recoil_low"					; Intermediate Recoil
+	{recoil
+		{shoot {0.75 0.25} {-0.75 0.15}}	; pitch / +- random and yaw / +- random, per shot, degree
+		{maxAngle 9 9}			; max recoil angle (pitch/yaw), degree
+		{restoreTime 0.20 0.05}			; recoil restore time, first -> minimum time, second -> additional time per shot, sec
+		{restoreDelay 0.05}			; delay before restore, sec
+	}
+)
+(define "recoil_medium"					; Low-Impulse Rifle Recoil
+	{recoil
+		{shoot {1.50 0.35} {-0.95 0.25}}
+		{maxAngle 20 20}
+		{restoreTime 0.30 0.10}
+		{restoreDelay 0.05}
+	}
+)
+(define "recoil_high"					; Rifle Recoil
+	{recoil
+		{shoot {3.00 0.45} {-2.00 0.45}}
+		{maxAngle 23 23}
+		{restoreTime 0.30 0.10}
+		{restoreDelay 0.05}
+	}
+)
+;/*=========================*/ Weapon Profiles END

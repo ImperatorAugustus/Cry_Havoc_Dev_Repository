@@ -1,0 +1,33 @@
+;_________________________________________
+; Heavy Machine Gun - German BF109
+;=========================================
+
+
+{from "pattern gun"			;  "BF109G"
+	{tag "aa" "-tank_gun"}
+	{filling "ammo hmgun_ger" 12}
+	{entity "mg34_tank"}
+	{fireSound	"small_arms/GER/MG131/close/"}
+	{fireSoundClose	"small_arms/GER/MG131/close/"}
+	{reloadSound "mg34"}
+	("range_aircraft_gun")
+	{cursor "ironsights/aa"}
+	{calibre 13}
+
+	{traceFreq 4}
+
+	("fire rate" rpm(1800))
+	("reload time" seconds(0.25))
+
+	("velocity" mps(750))
+
+	("armor health" damage(20))
+	("ap_slope_multiplier")
+
+	{parameters "Ball_hmg"
+		{curve "HMG_ball"}
+		("muzzle_energy_large_rifle_caliber" j(16041))
+		("penetration" a(25.44) b(22.89) c(20.52) d(16.40) e(12.02))
+		("ap_slope_multiplier")
+	}
+}

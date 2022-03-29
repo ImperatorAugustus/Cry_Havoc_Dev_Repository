@@ -1,0 +1,22 @@
+{from "pattern antipersonnel"
+	{desc "S-Mine 35 [<c(ffb970)>HE-FRAG</c>/APERS]"}
+	{entity "mine_s"}
+	{inventory {size 1 2}}
+
+	{mass 4}
+	{damage blastwave
+		{energy 1.0}
+		{area 0.6 2}
+		{ground_interaction_radius 0.1}
+	}
+	{damage add blastwave
+		{energy 0.51}
+		{area 3 5}
+		{ground_interaction_radius 0} ;// value is multiplied by 2nd value of area to deterimine is blast is close enough to ground to trigger terrain fx
+	}
+	{damage add blastwave
+		{energy 0.25}
+		{area 6 8}
+		{ground_interaction_radius 0} ;// value is multiplied by 2nd value of area to deterimine is blast is close enough to ground to trigger terrain fx
+	}
+}

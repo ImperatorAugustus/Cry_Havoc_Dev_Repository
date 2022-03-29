@@ -1,0 +1,20 @@
+{bullet
+	{desc "Patrony, 14.5x114mm [<c(48c445)>AP</c><c(eeeb95)>I</c>-<c(c80100)>T</c>] <c(65696d)>obr.BZT</c>"}
+	{tag "ptr pierce"}
+	{tag "bullet_fx size3"}
+	{inventory
+		{size 2 1}
+		{weight 20}
+		{block 5}
+	}
+	{entity "atrifle_rus"}
+	{mass 0.2}
+
+	{trace
+		{view "/texture/fx/tracer_new/trace_solid_red.mtl"
+			{ScaleY 0.3}
+			{Light 1}
+		}
+		{length 7.5}
+	}
+}

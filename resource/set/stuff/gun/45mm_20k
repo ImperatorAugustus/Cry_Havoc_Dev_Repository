@@ -1,0 +1,28 @@
+;_________________________________________
+; USSR light AT cannon
+;=========================================
+
+
+{from "pattern gun"			; L/46, "ba11", "t26", "t70"
+	{filling "bulletrus_45"}
+	{fireSound 		"gun/Shared/close/small/40-47mm/"}
+	{fireSoundClose 	"gun/Shared/int/small/"}
+	{reloadSound 		"INT/reload/reload_small_5s_INT"}
+	("range_160")
+	{calibre 45}
+
+	("reload time" seconds(5))
+
+	("velocity m/s" ap(760) apcr(985) he(343) heat(1))
+	("armor health" damage(120))
+	("armor health custom" shell(aphebc) damage(120) filler(40))
+
+	;BR-240
+	("penetration_medium" shell(aphebc) range(160) a(59) b(45) c(35) d(29) e(26))  ;RHA
+ ;//("penetration_medium" shell(aphebc) range(160) a(55) b(46) c(38) d(31) e(25))  ;FHA
+
+	;BR-240P	; was available starting April 1942
+	("penetration_medium" shell(apcr) range(160) a(94) b(64) c(40) d(25) e(16))
+
+	("accuracy_direct" r1(0.88) range_ap(160) range_he(160) range_heat(160))
+}

@@ -1,0 +1,14 @@
+Credits:
+Team:
+Imperator - General Dev
+Zombly - General Dev
+Cdey - Artwork, Balance, Coding
+
+Special thanks to:
+Sundiata- For mission scripting advice.
+Nintu- Balance feedback and testing
+
+Works used directly or drew inspiration from:
+-'Robz Realism' mod by Robz for Men of War Assault Squad 2
+
+-'Realistic Damage and Sound Mod' by Hangemhigh for Gate of Hell

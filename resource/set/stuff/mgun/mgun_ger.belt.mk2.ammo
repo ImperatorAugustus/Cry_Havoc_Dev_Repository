@@ -1,0 +1,21 @@
+{bullet 
+	{desc "Ammo Box, 7.92x57mm, 7.92x57mm [<c(ff6a00)>BALL</c>-<c(f94747)>TRACER</c>] <c(65696d)> Mk IIz/Mk IIz</c>"}
+	{tag "Ball_Heavy bullet stackable pierce"}
+	{tag "bullet_fx size2"}
+	{inventory
+		{weight 0.399}
+		{block 250}
+		{size 3 2}
+		{fsm "belt"}
+	}
+	{entity "ger_mg_box_ammo"}
+	{mass 0.03}
+
+	{trace
+		{view "/texture/fx/tracer_new/trace_scattered_red.mtl"
+			{ScaleY 0.15}
+			{Light 1}
+		}
+		{length 7.5}
+	}
+}

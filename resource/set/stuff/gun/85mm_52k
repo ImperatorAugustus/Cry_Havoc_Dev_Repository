@@ -1,0 +1,19 @@
+;_________________________________________
+;  USSR long-barreled Medium AT/AA gun
+;=========================================
+
+
+{from "85mm_zis53"			; L/52
+	("heavy_aa")
+	("reload time" seconds(6))
+	{fireSound 	"gun/Shared/close/medium/85-100mm/"}
+	{fireSoundClose "gun/Shared/close/medium/85-100mm/"}
+	{reloadSound 	"tank/reload_medium"}
+
+	{parameters "he"
+		(mod "mp" {unlimitedRangeTPC 1})	;// unrestricts range in TPC/FPC for shooting at aircraft
+	}
+
+	("accuracy_direct" r1(0.72) range_ap(210) range_he(210) range_heat(210))
+}
+

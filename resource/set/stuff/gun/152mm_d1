@@ -1,0 +1,27 @@
+;_________________________________________
+; ARTY - Russian heavy howitzer
+;=========================================
+
+
+{from "pattern gun"			; L/24.6 "d1"
+	{filling "bulletrus_152_l24"}
+	{fireSound 		"gun/Shared/close/very_large/"}
+	{fireSoundclose 	"gun/Shared/close/very_large/"}
+  	{reloadSound 		"tank/reload_medium"}	
+	("heavy_artillery")
+	{calibre 152}
+	{range 410 410}
+
+	("reload time" seconds(30))
+
+	("velocity m/s" ap(1) apcr(1) he(220) heat(1))
+	
+	("accuracy_indirect"   ; // Applies logic for accuracy of indirect weapons over 200m
+		r1(1.30) 				; // Accuracy radius for direct-fire munitions
+		r2(8) 					; // Accuracy radius for indirect fire
+		rmax(30) 				; // Accuracy radius for indirect fire at maximum range
+		range_ap(190) 			; // Range after which accuracy drops to prevent farshooting.
+		range_heat(190) 		; // Range after which accuracy drops to prevent farshooting.
+		range_he(410)			; // Range after which accuracy drops to prevent farshooting.
+	)
+}

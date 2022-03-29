@@ -1,0 +1,10 @@
+{talk
+	{immediate}
+	{priority 1}
+	{timeout 15 5}
+	{condition
+		{in_action
+			{enemy_ratio 0.5}
+		}
+	}
+}

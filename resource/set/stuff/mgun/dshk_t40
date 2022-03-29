@@ -1,0 +1,6 @@
+{from "dshk"
+	{tag "DShK38 gun"}
+	{fireSound 	"small_arms/RUS/DShK/close/"}
+	{fireSoundClose "small_arms/RUS/DShK/1p_vic/"}
+	{foresight "foresight1"}
+}

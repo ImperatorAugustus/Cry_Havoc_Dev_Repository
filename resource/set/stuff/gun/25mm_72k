@@ -1,0 +1,30 @@
+;_________________________________________
+;Soviet light AA gun
+;=========================================
+
+
+{from "pattern gun"			; L/76.6  "25mm_72k"
+	{filling "bulletrus_25_auto" 7}
+	{fireSound 	"gun/SOV/20mm_TNSh/close/"}
+	{fireSoundclose "gun/SOV/20mm_TNSh/close/"}
+	{reloadSound "tank/reload_small"}
+	("range_autocannon_12-20")
+	{cursor "ironsights/aa"}
+	{calibre 25}
+	("light_aa")
+
+	("fire rate" rpm(240))
+	("reload time" seconds(1.5))
+
+	("velocity" mps(910))
+	("armor health" damage(38))
+
+	; BR-132
+	("penetration_short" shell(apbc) range(150) a(44) b(35) c(26) d(19) e(15))
+
+	{parameters "he"										; OZR-132
+		(mod "mp" {unlimitedRangeTPC 1})	;// unrestricts range in TPC/FPC for shooting at aircraft
+	}
+
+	("accuracy_direct" r1(0.47) range_ap(150) range_he(150) range_heat(150))
+}

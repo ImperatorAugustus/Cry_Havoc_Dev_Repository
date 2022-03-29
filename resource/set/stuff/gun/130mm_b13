@@ -1,0 +1,24 @@
+;_________________________________________
+; ARTY - Russian heavy SPG gun
+;=========================================
+
+
+{from "pattern gun"			; L/50 "SU100y"
+	{filling "bulletrus_130"}
+	{fireSound 		"gun/Shared/close/very_large/"}
+	{fireSoundClose 	"gun/Shared/int/large/"}
+	{reloadSound 		"INT/reload/reload_slow_INT"}
+	("range_220")
+	{calibre 130}
+
+	("reload time" seconds(20))
+
+	("velocity m/s" ap(870) apcr(1) he(840) heat(1))
+	("armor health" damage(350))
+	("armor health custom" shell(aphe) damage(350) filler(2350))
+
+	; BR-540
+	("penetration_long" shell(aphe) range(220) a(165) b(152) c(137) d(124) e(111))
+
+	("accuracy_spg" r1(0.65) range_ap(220) range_he(220) range_heat(220))
+}

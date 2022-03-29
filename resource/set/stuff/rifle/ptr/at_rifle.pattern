@@ -1,0 +1,49 @@
+{from "pattern bullet"
+	{tag "weapon mgun at_rifle -bullet to_hand nokeep mountable ap"}
+	{inventory
+		{size 8 2}
+		{link_bone "gun_back"}
+		{weight 100}
+	}
+
+	{states
+		{reload		"reload"}
+		{unload		"unload"}
+		{fire		"fire"	}
+		{aim 		"aim"	}
+		{can_aim	"can-aim-bolt"}
+	}
+
+	{cursor "ironsights/rifle"}
+	{cursorReloading "gun_ap"}
+
+	{special
+		{throw_off}
+	}
+
+	{foresight "foresight18"}
+	{RelaxationTime 1}
+	{SpreadTolerance 0.6}			;// AI needs to aim 70%
+	{aimingTolerance 0.1}
+
+	("reload time" seconds(5))
+	("fire rate" rpm(29))
+	{FiringTimeout 3 0.5}
+
+	("recoil_high")
+
+	{range 120 120}
+
+	{ZeroingAccuracy 0.85 0.75 0.7 0.65}
+
+	("human health" damage(350))
+	("armor health" damage(85))
+
+	("accuracy_4_MoA")
+	("ap_slope_multiplier")
+
+	{AccuracyByMotionK 0.75}
+
+	{thirdpersonparams inherit "human default"}
+	{SyncedProjectiles 1} 			;// visually syncs decal/crater spawn in multiplayer
+}

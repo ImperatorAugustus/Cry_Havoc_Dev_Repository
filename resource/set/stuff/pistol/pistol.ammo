@@ -1,0 +1,22 @@
+{bullet
+	{desc "Pistolenmunition, 9x19mm [<c(ff6a00)>BALL</c>] <c(65696d)>Pp 08mE</c>"}
+	{tag "bullet small stackable pierce"}
+	{tag "bullet_fx size1"}
+	{inventory
+		{weight 1}
+		{block 25}
+		{size 2 1}
+		{fsm "belt"}
+	}
+	{entity "pistol_ammo"}
+	{mass 0.013}
+
+	{trace
+		{view "/texture/fx/tracers/trace_empty"
+			{ScaleY 0.1}
+			{ScaleX 1.5}
+			{Light 1}
+		}
+		{length 1.5}
+	}
+}

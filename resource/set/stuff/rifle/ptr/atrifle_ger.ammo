@@ -1,0 +1,20 @@
+{bullet
+	{desc "Patronen, 7,92x94mm [<c(48c445)>APCR</c>-<c(ffffff)>T</c>] <c(65696d)>Ge 318 - SmKHRs L’spur</c>"}
+	{tag "ptr pierce"}
+	{tag "bullet_fx size3"}
+	{inventory
+		{size 2 1}
+		{weight 20}
+		{block 5}
+	}
+	{entity "atrifle_ger"}
+	{mass 0.2}
+
+	{trace
+		{view "/texture/fx/tracer_new/trace_solid_white.mtl"
+			{ScaleY 0.15}
+			{Light 1}
+		}
+		{length 7.5}
+	}
+}

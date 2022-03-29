@@ -1,0 +1,32 @@
+{from "pattern bullet"
+	{tag "weapon mgun mgun_shell bullet to_hand mountable auto_eject"}
+	{inventory
+		{size 7 2}
+		{link_bone "gun_back"}
+		{weight 100}
+	}
+
+	{traceFreq 5}
+
+	{Automatic}
+
+	{foresight "foresight14"}
+	{cursor "ironsights/mg"}
+	{cursorReloading "carbine_reload"}
+
+	{range 132 132}
+	("sway")
+	{Spreading
+		{SpreadXYRatio	1.2}
+	}
+
+	("reload time" seconds(5))
+
+	;//{aimingTolerance 2}
+
+	("accuracy_3_MoA")
+	("ap_slope_multiplier")
+	("armor health" damage(4))
+	{SpreadTolerance 0.2}			;// AI needs to aim 20%
+	{thirdpersonparams inherit "human default"}
+}

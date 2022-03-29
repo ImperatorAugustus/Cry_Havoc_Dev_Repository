@@ -1,0 +1,12 @@
+;_________________________________________
+; Soviet Medium Mortar - 82mm 
+;=========================================
+
+
+{from "pattern mortar"
+	{fireSound	 "gun/Shared/close/medium/mortar_75-98mm/"}
+	{fireSoundClose	 "gun/Shared/close/medium/mortar_75-98mm/"}
+	{filling "mortarrus_82"}
+	{calibre 82}
+	("medium_mortar_range")
+}

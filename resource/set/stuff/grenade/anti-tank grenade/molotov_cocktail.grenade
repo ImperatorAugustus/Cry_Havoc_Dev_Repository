@@ -1,0 +1,21 @@
+{from "pattern throwable"
+	{tag "ic ap fire at"}
+	{inventory {size 2 1}}
+	{entity "molotov_cocktail"}
+	{mass 1}
+
+	{damage blastwave	;// no blast damage. Used to ensure ground detonation fx are played
+		{energy 0}
+		{area 0.01 0.25}
+		{ground_interaction_radius 1} ;// value is multiplied by 2nd value of area to deterimine is blast is close enough to ground to trigger terrain fx
+	}
+
+	{throw
+		{range 18.7} ;in-game 20m
+		{startAngle 45}
+		{spreading 2
+			{SpreadPower 1}
+		}
+	}
+	{possibleDamageRadius 2}
+}

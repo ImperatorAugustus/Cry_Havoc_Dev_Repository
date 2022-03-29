@@ -1,0 +1,8 @@
+{from "mg42_belt"
+	{desc "MG 42"}
+	{filling "ammo mgun_ger" 50}
+	{entity "mg42_drum"}
+	{reloadSound "mg34"}
+
+	("reload_drum")
+}

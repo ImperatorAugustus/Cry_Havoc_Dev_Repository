@@ -1,0 +1,26 @@
+{from "pattern throwable"
+	{tag "grenade fg"}
+	{inventory {size 3 1}}
+	{mass 0.6}
+
+	{damage blastwave
+		{energy 1.1}
+		{area 3 6}
+		{ground_interaction_radius 0.1} ;// value is multiplied by 2nd value of area to deterimine is blast is close enough to ground to trigger terrain fx
+	}
+
+	{special
+		{PrepareTime 4.75}
+		{PrepareCursor "grenade"}
+		{mode detonate}
+	}
+
+	{throw
+		{range 23.7} ;in-game 25m
+		{startAngle 45}
+		{spreading 0.3
+			{SpreadPower 2}
+		}
+	}
+	{possibleDamageRadius 1}
+}

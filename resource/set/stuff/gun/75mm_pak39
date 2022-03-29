@@ -1,0 +1,40 @@
+;_________________________________________
+; semi-Long barreled german medium AT gun, fitted for smaller tank destroyers (Hetzer)
+;=========================================
+
+
+{from "pattern gun"		; L/48 "hetzer"
+	{filling "bulletger_75_l43"}
+	{fireSound 	"gun/Shared/close/medium/75-76mm/"}
+	{fireSoundClose "gun/Shared/int/medium/"}
+	{reloadSound "INT/reload/reload_medium_7s_INT"}
+	("range_200")
+	{calibre 75}
+
+	("reload time" seconds(7))
+
+	("velocity m/s" ap(750) apcr(930) he(570) heat(450))
+	("armor health" damage(200))
+	("armor health custom" shell(apcbche) damage(200) filler(29))
+
+	; Pzgr.39
+	("penetration_medium" shell(apcbche) range(200) a(135) b(123) c(109) d(97) e(86))
+
+	; Pzgr.40
+	("penetration_medium" shell(apcr) range(200) a(176) b(154) c(130) d(109) e(92))
+
+	; Gr.38 Hl
+	("penetration_medium" shell(heat) range(170) a(52) b(52) c(52) d(52) e(52))
+	; Gr.38 Hl/A
+	("penetration_medium" shell(heata) range(170) a(81) b(81) c(81) d(81) e(81))
+	; Gr.38 Hl/B
+	("penetration_medium" shell(heatb) range(170) a(87) b(87) c(87) d(87) e(87))
+	; Gr.38 Hl/C
+	("penetration_medium" shell(heatc) range(170) a(115) b(115) c(115) d(115) e(115))
+
+	{parameters "he"
+		{range 180 180}
+	}
+
+	("accuracy_direct" r1(0.75) range_ap(200) range_he(180) range_heat(170))
+}

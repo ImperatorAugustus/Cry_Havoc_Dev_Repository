@@ -1,0 +1,38 @@
+;_________________________________________
+; British medium AT gun
+;=========================================
+
+
+{from "pattern gun"			; L/43 "QF 6-pounder Mk.II"
+	{filling "bulleteng_57"}
+	{fireSound 		"gun/Shared/close/medium/50-57mm_high-velocity/"}
+	{fireSoundClose 	"gun/Shared/int/medium/"}
+	{reloadSound 		"INT/reload/reload_small_4s_INT"}
+	("range_190")
+	{calibre 57}
+
+	("reload time" seconds(4.5))
+
+	("velocity m/s" ap(853) apcr(1151) he(820) heat(1))
+	("armor health" damage(150))
+
+	; AP shot Mk.IT - VIIT ;1941
+	("penetration_medium" shell(ap) range(190) a(128) b(105) c(83) d(65) e(51))  ;RHA
+ ;//("penetration_medium" shell(ap) range(190) a(100) b(78) c(57) d(42) e(31))  ;FHA
+
+	; APC shot Mk.VIIIT ;1942
+	("penetration_medium" shell(apc) range(190) a(104) b(88) c(71) d(57) e(46)) ;RHA
+ ;//("penetration_medium" shell(apc) range(190) a(109) b(94) c(77) d(62) e(51)) ;FHA
+
+	; APCBC shot Mk.IXT ;1943
+	("penetration_medium" shell(apcbc) range(190) a(107) b(96) c(84) d(73) e(64)) ;RHA
+ ;//("penetration_medium" shell(apcbc) range(190) a(112) b(102) c(91) d(80) e(71)) ;FHA
+
+	; APCR shot Mk.IT ;late 1943
+	("penetration_medium" shell(apcr) range(190) a(149) b(133) c(117) d(102) e(88))
+
+	; APDS shot Mk.IT ;1944
+	("penetration_medium" shell(apds) range(190) a(163) b(147) c(129) d(113) e(99))
+
+	("accuracy_direct" r1(0.75) range_ap(190) range_he(190) range_heat(190))
+}

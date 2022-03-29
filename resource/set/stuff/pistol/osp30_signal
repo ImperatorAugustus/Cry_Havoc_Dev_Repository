@@ -1,0 +1,40 @@
+{from "pattern pistol"
+	{tag "flare_gun"}
+	{filling "flare signal" 1}
+	{entity "osp30"}
+	{fireSound "pistol/flare"}
+	{fireSoundclose "pistol/flare/3p/"}
+	{range 65 70}
+	{gravity 0.3}
+
+	{calibre 1}
+	{AimingTolerance 3}
+
+	{spreading 10.5
+		{SpreadXYRatio	2}
+		{radiusFunction
+			0.0		0
+			1.0		1.0
+			1.2		2.5
+			2.5		5.0
+		}
+	}
+
+	{parameters "signal"
+		{range 250 250}
+		{gravity 0.08}
+		{speed 10}
+	}
+	
+	{reloadAnimBonus 55}
+	{reloadSound "flare"}
+	("reload time" seconds(60))
+
+	("human health" damage(60))
+
+	("penetration" a(0.5) b(0.5) c(0.5) d(0.5) e(0.5) f(0.5))
+	("armor health" damage(5))
+
+	{DisableRicochet}
+	{speed 15}
+}

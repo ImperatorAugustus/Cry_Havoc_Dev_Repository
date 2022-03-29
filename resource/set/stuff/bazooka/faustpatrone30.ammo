@@ -1,0 +1,7 @@
+{from "pattern rpg_ammo"
+	{desc "10cm Hohlladung [<c(c9a6ff)>HEAT</c>]"}
+	{tag "size1 no_ricochet"}
+	{entity "panzerfaust_30_ammo"}
+	{view "panzerfaust_30_ammo"}
+	{mass 0.6}
+}

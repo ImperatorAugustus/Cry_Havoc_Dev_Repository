@@ -1,0 +1,259 @@
+{"smg" from weapon
+	{item "smg"}
+	{level "lvl_1"
+		{stand
+			{accuracy 0.45}			;// weapon accuracy, the higher the better
+			{recoil 1.00}			;// weapon recoil, the higher the weaker
+			{zoom_recoil 0.75}		;// weapon recoil in zoom, the higher the weaker
+			{sway 0.90}			;// weapon sway in zoom, the higher the stronger the stronger
+		}
+		{squat
+			{accuracy 0.55}
+			{recoil 1.00}
+			{zoom_recoil 0.90}
+			{sway 0.75}
+		}
+		{crawl
+			{accuracy 0.65}
+			{recoil 1.00}
+			{zoom_recoil 1.05}
+			{sway 0.10}
+		}
+		{cover
+			{accuracy 0.65}
+			{recoil 1.00}
+			{zoom_recoil 1.05}
+			{sway 0.10}
+		}
+		{vehicle
+			{accuracy 0.75}
+			{recoil 1.00}
+			{zoom_recoil 1.25}
+			{sway 0}
+		}
+	}
+	{level "lvl_2"
+		{stand
+			{accuracy 0.50}
+			{recoil 1.00}
+			{zoom_recoil 0.75}
+			{sway 0.90}
+		}
+		{squat
+			{accuracy 0.61}
+			{recoil 1.00}
+			{zoom_recoil 0.90}
+			{sway 0.75}
+		}
+		{crawl
+			{accuracy 0.72}
+			{recoil 1.00}
+			{zoom_recoil 1.05}
+			{sway 0.10}
+		}
+		{cover
+			{accuracy 0.72}
+			{recoil 1.00}
+			{zoom_recoil 1.05}
+			{sway 0.10}
+		}
+		{vehicle
+			{accuracy 0.83}
+			{recoil 1.00}
+			{zoom_recoil 1.25}
+			{sway 0}
+		}
+	}
+	{level "lvl_3"
+		{stand
+			{accuracy 0.52}
+			{recoil 1.00}
+			{zoom_recoil 0.75}
+			{sway 0.90}
+		}
+		{squat
+			{accuracy 0.63}
+			{recoil 1.00}
+			{zoom_recoil 0.90}
+			{sway 0.75}
+		}
+		{crawl
+			{accuracy 0.75}
+			{recoil 1.00}
+			{zoom_recoil 1.05}
+			{sway 0.10}
+		}
+		{cover
+			{accuracy 0.75}
+			{recoil 1.00}
+			{zoom_recoil 1.05}
+			{sway 0.10}
+		}
+		{vehicle
+			{accuracy 0.86}
+			{recoil 1.00}
+			{zoom_recoil 1.50}
+			{sway 0}
+		}
+	}
+	{level "lvl_4"
+		{stand
+			{accuracy 0.54}
+			{recoil 1.00}
+			{zoom_recoil 0.75}
+			{sway 0.90}
+		}
+		{squat
+			{accuracy 0.66}
+			{recoil 1.00}
+			{zoom_recoil 0.90}
+			{sway 0.75}
+		}
+		{crawl
+			{accuracy 0.78}
+			{recoil 1.00}
+			{zoom_recoil 1.05}
+			{sway 0.10}
+		}
+		{cover
+			{accuracy 0.78}
+			{recoil 1.00}
+			{zoom_recoil 1.05}
+			{sway 0.10}
+		}
+		{vehicle
+			{accuracy 0.90}
+			{recoil 1.00}
+			{zoom_recoil 1.50}
+			{sway 0}
+		}
+	}
+	{level "lvl_5"
+		{stand
+			{accuracy 0.56}
+			{recoil 1.00}
+			{zoom_recoil 0.75}
+			{sway 0.90}
+		}
+		{squat
+			{accuracy 0.69}
+			{recoil 1.00}
+			{zoom_recoil 0.90}
+			{sway 0.75}
+		}
+		{crawl
+			{accuracy 0.81}
+			{recoil 1.00}
+			{zoom_recoil 1.05}
+			{sway 0.10}
+		}
+		{cover
+			{accuracy 0.81}
+			{recoil 1.00}
+			{zoom_recoil 1.05}
+			{sway 0.10}
+		}
+		{vehicle
+			{accuracy 0.94}
+			{recoil 1.00}
+			{zoom_recoil 1.50}
+			{sway 0}
+		}
+	}
+	{level "lvl_6"
+		{stand
+			{accuracy 0.59}
+			{recoil 1.00}
+			{zoom_recoil 0.75}
+			{sway 0.90}
+		}
+		{squat
+			{accuracy 0.72}
+			{recoil 1.00}
+			{zoom_recoil 0.90}
+			{sway 0.75}
+		}
+		{crawl
+			{accuracy 0.85}
+			{recoil 1.00}
+			{zoom_recoil 1.05}
+			{sway 0.10}
+		}
+		{cover
+			{accuracy 0.85}
+			{recoil 1.00}
+			{zoom_recoil 1.05}
+			{sway 0.10}
+		}
+		{vehicle
+			{accuracy 0.98}
+			{recoil 1.00}
+			{zoom_recoil 1.50}
+			{sway 0}
+		}
+	}
+	{level "lvl_7"
+		{stand
+			{accuracy 0.61}
+			{recoil 1.00}
+			{zoom_recoil 0.75}
+			{sway 0.90}
+		}
+		{squat
+			{accuracy 0.74}
+			{recoil 1.00}
+			{zoom_recoil 0.90}
+			{sway 0.75}
+		}
+		{crawl
+			{accuracy 0.88}
+			{recoil 1.00}
+			{zoom_recoil 1.05}
+			{sway 0.10}
+		}
+		{cover
+			{accuracy 0.88}
+			{recoil 1.00}
+			{zoom_recoil 1.05}
+			{sway 0.10}
+		}
+		{vehicle
+			{accuracy 1.01}
+			{recoil 1.00}
+			{zoom_recoil 1.50}
+			{sway 0}
+		}
+	}
+	{level "lvl_8"
+		{stand
+			{accuracy 0.63}
+			{recoil 1.00}
+			{zoom_recoil 0.75}
+			{sway 0.90}
+		}
+		{squat
+			{accuracy 0.77}
+			{recoil 1.00}
+			{zoom_recoil 0.90}
+			{sway 0.75}
+		}
+		{crawl
+			{accuracy 0.91}
+			{recoil 1.00}
+			{zoom_recoil 1.05}
+			{sway 0.10}
+		}
+		{cover
+			{accuracy 0.91}
+			{recoil 1.00}
+			{zoom_recoil 1.05}
+			{sway 0.10}
+		}
+		{vehicle
+			{accuracy 1.05}
+			{recoil 1.00}
+			{zoom_recoil 1.50}
+			{sway 0}
+		}
+	}
+}

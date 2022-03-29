@@ -1,0 +1,6 @@
+{from "k98"
+	{desc "Kar 98k, Bajonett"}
+	{tag "rifle_stab_melee -rifle_slap_melee"}
+	{entity "k98_bayonet"}
+	{mass 4}
+}

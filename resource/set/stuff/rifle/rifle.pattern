@@ -1,0 +1,28 @@
+{from "pattern bullet"
+	{tag "weapon rifle rifle_slap_melee bullet to_hand mountable shoot_walking shoot_walking_manual"}
+	{inventory
+		{size 6 2}
+		{link_bone "gun_back"}
+		{weight 100}
+	}
+
+	{cursor "ironsights/rifle"}
+	{cursorReloading "carbine_reload"}
+
+	{foresight "foresight12"}
+	{RelaxationTime 0.5}
+	{SpreadTolerance 0.05}			;// AI needs to aim 20%
+	{aimingTolerance 10}
+
+	("reload time" seconds(6))
+	("fire rate" rpm(29))
+
+
+	("armor health" damage(4))
+
+	("accuracy_3_MoA")
+	("ap_slope_multiplier")
+
+	{thirdpersonparams inherit "human default"}
+	{SyncedProjectiles 1} 			;// visually syncs decal/crater spawn in multiplayer
+}

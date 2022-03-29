@@ -1,0 +1,21 @@
+{from "pattern rifle"
+	{desc "FG 42"}
+	{tag "FG42 -rifle smg rifle_shell assaultrifle shoot_walking_ai"}
+	{inventory {size 5 2}}
+	{filling "ammo fg42" 20}
+	{entity "fg42"}
+	{fireSound 	"small_arms/GER/FG42/close/"}
+	{fireSoundclose "small_arms/GER/FG42/3p/"}
+	{reloadSound "svt"}
+	{calibre 7.92}
+	{mass 4.2}
+
+	("fire rate" rpm(750))
+	("velocity" mps(740))
+
+	("auto_rifle")
+
+	{curve "rifle_heavy_ball"}
+	("muzzle_energy_rifle_caliber" j(3423.16))		; SmE 1940
+	("penetration" a(11.43) b(9.90) c(8.51) d(6.28) e(4.59))
+}

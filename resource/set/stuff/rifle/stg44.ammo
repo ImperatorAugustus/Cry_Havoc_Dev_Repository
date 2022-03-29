@@ -1,0 +1,21 @@
+{bullet
+	{desc "MKb 42(H)/StG 44 Magazin, 7,92x33mm Kurz [<c(ff6a00)>BALL</c>] <c(65696d)>Kp 43mE</c>"}
+	{tag "bullet stackable pierce"}
+	{tag "bullet_fx size2"}
+	{inventory
+		{weight 3.33}
+		{block 30}
+		{size 1 2}
+		{fsm "belt"}
+	}
+	{entity "stg44_ammo"}
+	{mass 0.03}
+
+	{trace
+		{view "/texture/fx/tracers/trace_empty"
+			{ScaleY 0.15}
+			{Light 1}
+		}
+		{length 2.1}
+	}
+}

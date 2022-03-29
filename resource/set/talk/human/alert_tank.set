@@ -1,0 +1,8 @@
+{talk
+	{immediate}
+	{priority 6}
+	{timeout 100 30}
+	{condition
+		{seen enemy tank 1}
+	}
+}

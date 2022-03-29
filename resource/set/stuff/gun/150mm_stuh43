@@ -1,0 +1,23 @@
+;_________________________________________
+; German heavy infantry support gun
+;=========================================
+
+
+{from "pattern gun"			; L/12 sturmpanzer4
+	{filling "bulletger_150_l11"}
+	{fireSound 		"gun/GER/15cm_StuH43/"}
+	{fireSoundClose 	"gun/Shared/int/large/"}
+	{reloadSound 		"INT/reload/reload_slow_INT"}
+	("range_170_howitzer")
+	{calibre 150}
+
+	("reload time" seconds(25))
+
+	("velocity m/s" ap(1) apcr(1) he(280) heat(280))
+	("armor health" damage(450))
+
+	; Gr.39 Hl/A
+	("penetration_medium" shell(heat) range(170) a(185) b(185) c(185) d(185) e(185))
+
+	("accuracy_spg" r1(1.20) range_ap(170) range_he(170) range_heat(170))
+}

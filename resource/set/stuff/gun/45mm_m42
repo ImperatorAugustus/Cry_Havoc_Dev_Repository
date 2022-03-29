@@ -1,0 +1,32 @@
+;_________________________________________
+; USSR light long-barreled AT cannon
+;=========================================
+
+
+{from "pattern gun"			; L/66 "m1942"
+	{filling "bulletrus_45"}
+	{fireSound 		"gun/Shared/close/small/40-47mm/"}
+	{fireSoundClose 	"gun/Shared/close/small/40-47mm/"}
+	{reloadSound "tank/reload_small"}
+	("range_170")
+	{calibre 45}
+
+	("reload time" seconds(3.5))
+
+	("velocity m/s" ap(820) apcr(1070) he(343) heat(1))
+	("armor health" damage(120))
+	("armor health custom" shell(aphebc) damage(120) filler(40))
+
+	;BR-240
+	("penetration_medium" shell(aphebc) range(170) a(71) b(54) c(40) d(32) e(28))  ;RHA
+	 ;//("penetration_medium" shell(aphebc) range(170) a(61) b(51) c(42) d(32) e(28))  ;FHA
+
+	;BR-240P	; was available starting April 1942
+	("penetration_medium" shell(apcr) range(170) a(108) b(74) c(46) d(29) e(18))
+
+	{parameters "he"
+		{range 160 160}
+	}
+
+	("accuracy_direct" r1(0.71) range_ap(170) range_he(160) range_heat(160))
+}

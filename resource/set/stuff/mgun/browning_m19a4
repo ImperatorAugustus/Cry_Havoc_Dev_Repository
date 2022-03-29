@@ -1,0 +1,24 @@
+{from "pattern mgun"
+	{desc "M1919A4"}
+	{tag "M1919A4"}
+	{filling "ammo mgun_usa belt" 250}
+	{entity "browning_m19a4"}
+	{fireSound		"small_arms/USA/M1919A4/close/"}
+	{fireSoundClose		"small_arms/USA/M1919A4/3p/"}
+	{reloadSound "dt"}
+	{calibre 7.62}
+	{mass 9.12}
+
+	("fire rate" rpm(500))
+	("velocity" mps(850))
+
+	("recoil_medium")
+	("burst_medium")
+	("spreading_mounted")
+	("zero_short")
+
+	{curve "rifle_light_ball"}
+	("muzzle_energy_rifle_caliber" j(3536))
+	("penetration" a(13) b(10.9) c(8.2) d(5.1))
+
+}

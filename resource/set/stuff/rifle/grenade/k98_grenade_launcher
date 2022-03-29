@@ -1,0 +1,32 @@
+{from "pattern rifle_grenade"
+	{tag "Rifle_Grenade at_rifle ap"}
+	{fireSound "small_arms/Shared/Rifle_Grenade/close/"}
+	{fireSoundclose "small_arms/Shared/Rifle_Grenade/3p/"}
+	{entity "k98_grenade_launcher"}
+	{filling "ammo k98_grenade" 1}
+	{fillingVisible "grenade"}
+	{reloadSound "kar98"}
+	{calibre 30}
+	{mass 8.2}
+
+	{parameters "he"
+		{cursorReloading "gun_he"}
+		{spreading 6
+			{SpreadXYRatio 0.75}
+		}
+		{range 85 85}
+	}
+
+	{parameters "heat" ;gew.pz.gr.30 Feb '42
+		{cursorReloading "gun_heat"}
+		{range 60 60}
+		("penetration" args 35)
+		("armor health" damage(200))
+	}
+	{parameters "heata" ;gew.pz.gr.gross Nov. '42
+		{cursorReloading "gun_heat"}
+		{range 60 60}
+		("penetration" args 70)
+		("armor health" damage(200))
+	}
+}

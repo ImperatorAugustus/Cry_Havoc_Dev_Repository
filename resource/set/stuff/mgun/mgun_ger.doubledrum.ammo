@@ -1,0 +1,21 @@
+{bullet 
+	{desc "Patronentrommel 34, 7.92x57mm [<c(ff6a00)>BALL</c>-<c(eeeb95)>TRACER</c>] <c(65696d)>SmE 40 L'spur</c>"}
+	{tag "Ball_Heavy bullet stackable pierce"}
+	{tag "bullet_fx size2"}
+	{inventory
+		{weight 1.33}
+		{block 75}
+		{size 3 2}
+		{fsm "belt"}
+	}
+	{entity "mg34_doubledrum_ammo"}
+	{mass 0.03}
+
+	{trace
+		{view "/texture/fx/tracer_new/trace_scattered_orange.mtl"
+			{ScaleY 0.15}
+			{Light 1}
+		}
+		{length 7.5}
+	}
+}

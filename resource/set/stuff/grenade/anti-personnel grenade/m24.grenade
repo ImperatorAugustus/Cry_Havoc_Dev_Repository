@@ -1,0 +1,16 @@
+{from "pattern anti-personnel"
+	{desc "Stielhgr 24 [<c(ff1200)>HE</c>]"}
+	{tag "size2"}		; Explosive filling - 0.165kg of TNT
+	{entity "m24"}
+
+	{damage add blastwave
+		{energy 0.70}
+		{area 3 6}
+		{ground_interaction_radius 0} ;// value is multiplied by 2nd value of area to deterimine is blast is close enough to ground to trigger terrain fx
+	}
+
+	{throw
+		{range 28.7}  ;in-game 30m
+	}
+}
+

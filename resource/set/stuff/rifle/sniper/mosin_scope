@@ -1,0 +1,35 @@
+{from "pattern sniper_rifle"
+	{desc "Mosin 1891/30, PE/PEM"}
+	{tag "M9130 rifle_shell"}
+	{filling "ammo rifle_rus" 5}
+	{entity "mosin_scope"}
+ 	{fireSound 	"small_arms/RUS/M1891-30/close/"}
+	{fireSoundclose "small_arms/RUS/M1891-30/3p/"}
+	{reloadSound "mosin"}
+	{calibre 7.62}
+	{mass 4}
+
+	("velocity" mps(865))
+	
+	("scopeview" scope(zoom_vignette_scope_rus_pe))
+
+	{curve "rifle_light_ball"}
+	("muzzle_energy_rifle_caliber" j(3595))
+	("penetration" a(11.18) b(8.94) c(6.17) d(4.39) e(3.02))
+
+	{parameters "Ball_Heavy"
+		{curve "rifle_heavy_ball"}
+		("muzzle_energy_rifle_caliber" j(3764))
+		("penetration" a(13.45) b(11.52) c(9.77) d(6.97) e(4.84))
+	}
+	{parameters "AP"
+		{curve "rifle_heavy_ball"}
+		("muzzle_energy_rifle_caliber" j(3764))
+		("penetration" a(17.60) b(15.67) c(13.92) d(11.12) e(8.99))
+	}
+	{parameters "HE"
+		{curve "rifle_light_ball"}
+		("muzzle_energy_rifle_caliber" j(3701))
+		("penetration" a(13.34) b(10.66) c(8.37) d(5.24) e(3.60))
+	}
+}

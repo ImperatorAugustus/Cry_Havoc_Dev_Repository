@@ -1,0 +1,28 @@
+{from "pattern mgun"		;Ju87 wing mg
+	{desc "MG 17"}
+	{tag "gun aa"}
+	{filling "ammo mgun_ger belt" 1000}
+	{entity "mg34_tank"}
+	{fireSound 		"small_arms/GER/MG34/close/"}
+	{reloadSound "mg34"}
+	{calibre 7.92}
+	{mass 20.4}
+
+	("fire rate" rpm(1200))
+	("velocity" mps(855))
+
+	("reload time" seconds(30))
+
+	("burst_aa")
+	("airborne_mg")
+
+	{curve "rifle_heavy_ball"}
+	("muzzle_energy_rifle_caliber" j(3649.05))		; SmE 1940
+	("penetration" a(13) b(11) c(8) d(5))
+
+	{parameters "AP"
+		{curve "rifle_heavy_ball"}
+		("muzzle_energy_rifle_caliber" j(3698))
+		("penetration" a(20) b(17) c(15) d(11))
+	}
+}

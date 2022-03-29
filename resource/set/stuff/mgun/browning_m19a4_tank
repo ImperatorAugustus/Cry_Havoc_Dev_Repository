@@ -1,0 +1,8 @@
+{from "browning_m19a4"
+	{desc "M1919A4"}
+	{fireSound 		"small_arms/USA/M1919A4/close/"}
+	{fireSoundClose 	"small_arms/USA/M1919A4/1p_vic/"}
+	{reloadSound 		"INT/reload/Coax_reload_INT_5s"}
+	("burst_stand")
+	("spreading_mounted")
+}

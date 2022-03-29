@@ -1,0 +1,30 @@
+{from "pattern mgun"
+	{desc "MG 31(f)"}
+	{filling "ammo mgun_ger belt" 150}
+	{entity "mg34_tank"}
+	{fireSound 		"small_arms/FRA/MAC1931/close/"}
+	{fireSoundClose 	"small_arms/FRA/MAC1931/1p_vic/"}
+	{reloadSound 		"INT/reload/Coax_reload_INT_8s"}
+	{calibre 7.5}
+	{mass 11.8}
+
+	("fire rate" rpm(450))
+	("velocity" mps(790))
+
+	("reload_belt")
+
+	("recoil_medium")
+	("burst_stand")
+	("spreading_mounted")
+	("zero_short")
+
+	{curve "rifle_heavy_ball"}
+	("muzzle_energy_rifle_caliber" j(3649.05))		; SmE 1940
+	("penetration" a(13) b(11) c(8) d(5))
+
+	{parameters "AP"
+		{curve "rifle_heavy_ball"}
+		("muzzle_energy_rifle_caliber" j(3965))
+		("penetration" a(20) b(17) c(15) d(11))
+	}
+}

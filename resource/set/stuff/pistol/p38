@@ -1,0 +1,17 @@
+{from "pattern pistol"
+	{desc "P 38"}
+	{tag "P38 pistol_shell"}
+	{filling "ammo pistol" 8}
+	{entity "p38"}
+	{fireSound		"small_arms/GER/P38/close/"}
+	{fireSoundClose		"small_arms/GER/P38/3p/"}
+	{reloadSound "p38"}
+	{calibre 9}
+	{mass 0.98}
+
+	("velocity" mps(365))
+	("recoil_medium")
+	{curve "bullet_pistol"}	
+	("muzzle_energy_pistol_caliber" j(411.4))
+	("penetration" a(4.33) b(4.19) c(4.07) d(3.87) e(3.55) f(1))
+}

@@ -1,0 +1,9 @@
+{talk
+	{immediate}
+	{priority 6}
+	{timeout 90 30}
+	{condition
+		{seen enemy cannon 1} ;// replace when hardcode allows
+		;{seen enemy at_gun 1}
+	}
+}

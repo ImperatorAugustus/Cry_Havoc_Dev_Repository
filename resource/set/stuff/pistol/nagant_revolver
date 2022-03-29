@@ -1,0 +1,19 @@
+{from "pattern pistol"
+	{desc "Nagan obr. 1895"}
+	{tag "M1895"}
+	{filling "ammo revolver_clip" 7}
+	{entity "nagant_revolver"}
+	{fireSound		"small_arms/RUS/M1895/close/"}
+	{fireSoundClose		"small_arms/RUS/M1895/3p/"}
+	{reloadSound "nagant"}
+	{calibre 7.62}
+	{mass 0.8}
+
+	("reload time" seconds(5.5))
+
+	("velocity" mps(272))
+	("recoil_medium")
+	{curve "bullet_pistol_light"}	
+	("muzzle_energy_pistol_caliber" j(374.16))
+	("penetration" a(4.48) b(4.33) c(4.21) d(4.00) e(3.66) f(1))
+}

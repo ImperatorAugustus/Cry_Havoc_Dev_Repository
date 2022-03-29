@@ -1,0 +1,5 @@
+{from "pattern explosive"
+	{desc "SprB 3kg 'Geballte Ladung' [<c(ff1200)>HE</c>]"}
+	{entity "geballteladung_3kg"}
+	{inventory {size 3 3}}
+}

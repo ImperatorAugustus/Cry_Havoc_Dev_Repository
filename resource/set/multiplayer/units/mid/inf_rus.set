@@ -1,0 +1,250 @@
+;SDL
+;// CP + Scores + CW
+
+;////////////////// INSTRUCTIONS //////////////////
+; In this file onee configures the humans which are spawned in vehicles or squads
+; The humans have a CP and cost associated with them which collectively add up for the final squad value
+; Check ../settings.set for syntax instructions!!
+;//////////////////////////////////////////////////
+
+
+(define "rus_signaller"
+	{tags "mid %side infantry man signaller"}
+	{cp 10}
+	{basic}
+	{breed}
+	{cw 1}
+	{score_factor 0.2}
+)
+{"mp/rus/mid/signaller"			("rus_signaller" side(rus)) {cost 200.0}}
+
+
+(define "rus_tankman"
+	{tags "mid %side infantry man"}
+	{cp 2}
+	{basic}
+	{breed}
+	{cw 0.5}
+	{score_factor 0.05}
+)
+{"mp/rus/mid/artilleryman"		("rus_tankman" side(rus)) {cost 5.0}} ; mosin
+{"mp/rus/mid/tankman"			("rus_tankman" side(rus)) {cost 4.0}} ; pistol
+{"mp/rus/mid/tank_commander"	("rus_tankman" side(rus)) {cost 15.0}} ; smg
+{"mp/rus/mid/pilot"				("rus_tankman" side(rus)) {cost 0.0}} ; pistol
+
+(define "rus_convict"
+	{tags "mid %side infantry man"}
+	{cp 1}
+	{basic}
+	{breed}
+	{cw 0.5}
+	{score_factor 0.05}
+)
+{"mp/rus/mid/nkvd_1"			("rus_convict" side(rus)) {cost 15.0}} ; ppsh41drum
+{"mp/rus/mid/nkvd_2"			("rus_convict" side(rus)) {cost 7.0}} ; mosin
+{"mp/rus/mid/nkvd_3"			("rus_convict" side(rus)) {cost 7.0}} ; mosin
+;//{"mp/rus/mid/nkvd_4"			("rus_convict" side(rus)) {cost 7.0}} ; mosin
+
+(define "rus_basic"
+	{tags "mid %side infantry man"}
+	{cp 2}
+	{basic}
+	{breed}
+	{cw 0.5}
+	{score_factor 0.05}
+)
+{"mp/rus/mid/partisan_1"		("rus_basic" side(rus)) {cost 7.0}} ; mosin
+{"mp/rus/mid/partisan_2"		("rus_basic" side(rus)) {cost 7.0}} ; mosin
+{"mp/rus/mid/partisan_3"		("rus_basic" side(rus)) {cost 9.0}} ; mp40
+{"mp/rus/mid/partisan_4"		("rus_basic" side(rus)) {cost 7.0}} ; shotgun
+{"mp/rus/mid/partisan_5"		("rus_basic" side(rus)) {cost 30.0}} ; mg34
+
+{"mp/rus/mid/conscript_rifle"	("rus_basic" side(rus)) {cost 7.0}} ; mosin
+{"mp/rus/mid/conscript_nco"		("rus_basic" side(rus)) {cost 14.0}} ; ppsh41
+
+{"mp/rus/mid/nkvd_1"			("rus_basic" side(rus)) {cost 15.0}} ; ppsh41drum
+{"mp/rus/mid/nkvd_2"			("rus_basic" side(rus)) {cost 7.0}} ; mosin
+{"mp/rus/mid/nkvd_3"			("rus_basic" side(rus)) {cost 7.0}} ; mosin
+;//{"mp/rus/mid/nkvd_4"			("rus_basic" side(rus)) {cost 7.0}} ; mosin
+
+(define "rus_regular_lite"
+	{tags "mid %side infantry man"}
+	{cp 3}
+	{basic}
+	{breed}
+	{cw 1.0}
+	{score_factor 0.05}
+)
+{"mp/rus/mid/mg_crew"			("rus_regular_lite" side(rus)) {cost 7.0}} ; tt pistol
+{"mp/rus/mid/mg_crew_asst"		("rus_regular_lite" side(rus)) {cost 7.0}} ; mosin
+
+{"mp/rus/mid/rifleman_1"		("rus_regular_lite" side(rus)) {cost 7.0}} ; mosin
+;//{"mp/rus/mid/rifleman_2"		("rus_regular_lite" side(rus)) {cost 7.0}} ; mosin
+{"mp/rus/mid/rifleman_3"		("rus_regular_lite" side(rus)) {cost 7.0}} ; mosin
+
+{"mp/rus/mid/recon_rifle"		("rus_regular_lite" side(rus)) {cost 7.0}} ; mosin
+
+
+(define "rus_regular"
+	{tags "mid %side infantry man"}
+	{cp 3}
+	{basic}
+	{breed}
+	{cw 1.0}
+	{score_factor 0.05}
+)
+
+{"mp/rus/mid/mgun_1"			("rus_regular" side(rus)) {cost 35.0}} ; mg
+{"mp/rus/mid/mgun_2"			("rus_regular" side(rus)) {cost 7.0}} ; mosin
+
+;//{"mp/rus/mid/rifle-svt"			("rus_regular" side(rus)) {cost 13.0}} ; svt
+{"mp/rus/mid/senior_sa"			("rus_regular" side(rus)) {cost 13.0}} ; svt
+
+{"mp/rus/mid/nco"				("rus_regular" side(rus)) {cost 15.0}} ; ppd
+{"mp/rus/mid/nco_rifle"			("rus_regular" side(rus)) {cost 13.0}} ; svt40
+{"mp/rus/mid/nco_42"			("rus_regular" side(rus)) {cost 13.0}} ; ppsh41stick
+{"mp/rus/mid/recon_nco"			("rus_regular" side(rus)) {cost 13.0}} ; ppsh41stick
+{"mp/rus/mid/recon_smg"			("rus_regular" side(rus)) {cost 13.0}} ; ppsh41stick
+
+{"mp/rus/mid/smg_1"				("rus_regular" side(rus)) {cost 15.0}}
+;//{"mp/rus/mid/smg_2"				("rus_regular" side(rus)) {cost 13.0}} ; ppsh41stick
+{"mp/rus/mid/smg_3"				("rus_regular" side(rus)) {cost 15.0}}
+
+
+(define "rus_regular_advanced"
+	{tags "mid %side infantry man"}
+	{cp 3}
+	{basic}
+	{breed}
+	{cw 1.0}
+	{score_factor 0.05}
+)
+{"mp/rus/mid/antitank_1"		("rus_regular_advanced" side(rus)) {cost 40.0}} ; ptrd bolt
+{"mp/rus/mid/antitank_ptrs"		("rus_regular_advanced" side(rus)) {cost 45.0}} ; ptrs semi
+{"mp/rus/mid/antitank_2"		("rus_regular_advanced" side(rus)) {cost 8.0}} ; mosin
+{"mp/rus/mid/antitank_3"		("rus_regular_advanced" side(rus)) {cost 25.0}} ; Rifle Grenade HE
+{"mp/rus/mid/antitank_4"		("rus_regular_advanced" side(rus)) {cost 25.0}} ; Rifle Grenade AT (weak)
+{"mp/rus/mid/engineer_1"		("rus_regular_advanced" side(rus)) {cost 50.0}}
+{"mp/rus/mid/engineer_2"		("rus_regular_advanced" side(rus)) {cost 50.0}}
+{"mp/rus/mid/flamer"			("rus_regular_advanced" side(rus)) {cost 60.0}}
+{"mp/rus/mid/miner-ap"			("rus_regular_advanced" side(rus)) {cost 40.0}}
+{"mp/rus/mid/miner-at"			("rus_regular_advanced" side(rus)) {cost 40.0}}
+
+
+(define "rus_paratroopers"
+	{tags "mid %side infantry man"}
+	{cp 3}
+	{basic}
+	{breed}
+	{cw 2.0}
+	{score_factor 0.05}
+)
+{"mp/rus/mid/para_1"		("rus_paratroopers" side(rus)) {cost 20.0}} ; ppsh41drum
+{"mp/rus/mid/para_2"		("rus_paratroopers" side(rus)) {cost 18.0}} ; svt40
+;//{"mp/rus/mid/para_3"		("rus_paratroopers" side(rus)) {cost 18.0}} ; ppsh41stick
+{"mp/rus/mid/para_4"		("rus_paratroopers" side(rus)) {cost 20.0}} ; avt
+;//{"mp/rus/mid/para_5"		("rus_paratroopers" side(rus)) {cost 12.0}} ; mosin
+{"mp/rus/mid/para_nco"		("rus_paratroopers" side(rus)) {cost 18.0}} ; ppsh41stick
+{"mp/rus/mid/para_mg"		("rus_paratroopers" side(rus)) {cost 50.0}} ; dp27
+{"mp/rus/mid/para_mg_asst"	("rus_paratroopers" side(rus)) {cost 18.0}} ; svt40
+
+
+(define "rus_guards"
+	{tags "mid %side infantry man"}
+	{cp 3}
+	{basic}
+	{breed}
+	{cw 2.0}
+	{score_factor 0.05}
+)
+{"mp/rus/mid/guard_1"			("rus_guards" side(rus)) {cost 12.0}} ; mosin
+{"mp/rus/mid/guard_2"			("rus_guards" side(rus)) {cost 17.0}} ; svt40
+{"mp/rus/mid/guard_3"			("rus_guards" side(rus)) {cost 19.0}} ; ppsh41
+{"mp/rus/mid/guard_4"			("rus_guards" side(rus)) {cost 50.0}} ; dp27
+{"mp/rus/mid/guard_5"			("rus_guards" side(rus)) {cost 12.0}} ; mosin
+{"mp/rus/mid/guard_senior"		("rus_guards" side(rus)) {cost 17.0}} ; svt40
+{"mp/rus/mid/guard_nco"			("rus_guards" side(rus)) {cost 19.0}} ; ppsh41
+
+
+(define "rus_mountain"
+	{tags "mid %side infantry man"}
+	{cp 3}
+	{basic}
+	{breed}
+	{cw 2.0}
+	{score_factor 0.05}
+)
+{"mp/rus/mid/mountain_nco"		("rus_mountain" side(rus)) {cost 18.0}} ; ppsh41stick
+{"mp/rus/mid/mountain_senior"	("rus_mountain" side(rus)) {cost 18.0}} ; ppsh41stick
+{"mp/rus/mid/mountain_1"		("rus_mountain" side(rus)) {cost 18.0}} ; svt40
+;//{"mp/rus/mid/mountain_2"		("rus_mountain" side(rus)) {cost 18.0}} ; ppsh41stick
+{"mp/rus/mid/mountain_3"		("rus_mountain" side(rus)) {cost 12.0}} ; mosin
+{"mp/rus/mid/mountain_mg"		("rus_mountain" side(rus)) {cost 50.0}} ; dp
+{"mp/rus/mid/mountain_mg_asst"	("rus_mountain" side(rus)) {cost 12.0}} ; mosin
+
+
+(define "rus_marines"
+	{tags "mid %side infantry man"}
+	{cp 3}
+	{basic}
+	{breed}
+	{cw 2.0}
+	{score_factor 0.05}
+)
+;//{"mp/rus/mid/marine_1"			("rus_marines" side(rus)) {cost 23.0}} ; svt40
+{"mp/rus/mid/marine_2"			("rus_marines" side(rus)) {cost 23.0}} ; ppsh41stick
+{"mp/rus/mid/marine_3"			("rus_marines" side(rus)) {cost 60.0}} ; dp
+{"mp/rus/mid/marine_4"			("rus_marines" side(rus)) {cost 23.0}} ; svt40
+{"mp/rus/mid/marine_mg_asst"	("rus_marines" side(rus)) {cost 17.0}} ; mosin
+{"mp/rus/mid/marine_5"			("rus_marines" side(rus)) {cost 17.0}} ; mosin
+{"mp/rus/mid/marine_senior"		("rus_marines" side(rus)) {cost 23.0}} ; svt40
+
+;//{"mp/rus/mid/assault-sap_1"		("rus_marines" side(rus)) {cost 50.0}} ; AT rifle
+;//{"mp/rus/mid/assault-sap_2"		("rus_marines" side(rus)) {cost 35.0}}
+;//{"mp/rus/mid/assault-sap_3"		("rus_marines" side(rus)) {cost 50.0}} ; MG
+
+
+(define "rus_spetsnaz"
+	{tags "mid %side infantry man"}
+	{cp 3}
+	{basic}
+	{breed}
+	{cw 2}
+	{score_factor 0.05}
+)
+{"mp/rus/mid/spetsnaz_1"	("rus_spetsnaz" side(rus)) {cost 35.0}} ; ppsh41stick
+{"mp/rus/mid/spetsnaz_2"	("rus_spetsnaz" side(rus)) {cost 35.0}} ; ppsh41drum
+{"mp/rus/mid/spetsnaz_3"	("rus_spetsnaz" side(rus)) {cost 35.0}} ; ppsh41stick
+
+
+(define "rus_medic"
+	{tags "mid %side infantry man"}
+	{cp 3}
+	{basic}
+	{breed}
+	{cw 0.5}
+	{score_factor -0.2}
+)
+{"mp/rus/mid/medic"			("rus_medic" side(rus)) {cost 40.0}}
+
+
+(define "rus_officer"
+	{tags "mid %side infantry man officer"}
+	{cp -25}
+	{basic}
+	{breed}
+	{cw 20}
+	{score_factor 0.4}
+)
+{"mp/rus/mid/commisar"		("rus_officer" side(rus)) {cost 125.0}}
+
+
+(define "rus_sniper"
+	{tags "mid %side infantry man sniper"}
+	{cp 8}
+	{basic}
+	{breed}
+	{cw 1}
+	{score_factor 0.05}
+)
+{"mp/rus/mid/sniper"		("rus_sniper" side(rus)) {cost 150.0}}

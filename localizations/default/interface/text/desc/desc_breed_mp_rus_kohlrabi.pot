@@ -1,0 +1,1538 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Gates of Hell Soviet MP soldiers\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Poedit 2.3\n"
+
+msgctxt "desc/human/mp/rus/mid/prizyvnik_rifle1"
+msgid "Pekhota - Strelok [Krasnoarmeyets]"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/prizyvnik_rifle2"
+msgid "Pekhota - Strelok [Krasnoarmeyets]"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/prizyvnik_rifle3"
+msgid "Pekhota - Strelok [Krasnoarmeyets]"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/prizyvnik_rifle4"
+msgid "Pekhota - Strelok [Krasnoarmeyets]"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/prizyvnik_rifle5"
+msgid "Pekhota - Strelok [Krasnoarmeyets]"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/prizyvnik_rifle6"
+msgid "Pekhota - Strelok [Krasnoarmeyets]"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/prizyvnik_rifle7"
+msgid "Pekhota - Strelok [Krasnoarmeyets]"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/prizyvnik_rifle8"
+msgid "Pekhota - Strelok [Krasnoarmeyets]"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/prizyvnik_rifle9"
+msgid "Pekhota - Strelok [Krasnoarmeyets]"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/prizyvnik_rifle10"
+msgid "Pekhota - Strelok [Krasnoarmeyets]"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/prizyvnik_rifle_ser"
+msgid "Pekhota - Zam. Komandir Otdeleniya [Serzhant]"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/prizyvnik_smg1"
+msgid "Pekhota - Avtomatchik [Krasnoarmeyets]"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/prizyvnik_smg_ser"
+msgid "Pekhota - Zam. Komandir Otdeleniya [Serzhant]"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/prizyvnik_smg_sser"
+msgid "Pekhota - Komandir Otdeleniya [Serzhant]"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/prizyvnik_smg_jser"
+msgid "Pekhota - Zam. Komandir Otdeleniya [Mladshiy Serzhant]"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/prizyvnik_dp_yef"
+msgid "Pekhota - Pulemyotchik [Yefreytor]"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/prizyvnik_dp_assist"
+msgid "Pekhota - Pomoshnik Pulemyotchika [Krasnoarmyets]"
+msgstr ""
+;--------------------------------------------------------NKVD Pvo
+msgctxt "desc/human/mp/rus/mid/nkvd_border_rifle1"
+msgid "NKVD Pvo - Strelok [Ryadavoy]"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/nkvd_border_rifle2"
+msgid "NKVD Pvo - Strelok [Ryadavoy]"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/nkvd_border_mg"
+msgid "NKVD Pvo - Strelok [Ryadavoy]"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/nkvd_border_mg_assist"
+msgid "NKVD Pvo - Pomoshnik Pulemyotchika [Ryadavoy]"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/nkvd_border_smg_nco"
+msgid "NKVD - Pogranichnik Starshina (Sgt. Major)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/nkvd_block_smg_sser"
+msgid "NKVD Zagradotryady - Starshiy Serzhant (Blocking Troops Sr. Sgt.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/nkvd_block_rifle1"
+msgid "NKVD Zagradotryady - Krasnoarmeyets (Blocking Troops)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/nkvd_block_rifle2"
+msgid "NKVD Zagradotryady - Krasnoarmeyets (Blocking Troops)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/nkvd_block_rifle3"
+msgid "NKVD Zagradotryady - Krasnoarmeyets (Blocking Troops)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/nkvd_block_smg1"
+msgid "NKVD Zagradotryady - Krasnoarmeyets (Blocking Troops)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/nkvd_block_smg2"
+msgid "NKVD Zagradotryady - Krasnoarmeyets (Blocking Troops)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/nkvd_block_smg_yef"
+msgid "NKVD Zagradotryady - Yefreitor (Blocking Troops L. Cpl.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/nkvd_block_dp_jser"
+msgid "NKVD Zagradotryady - Mladshiy Serzhant (Blocking Troops Jr. Sgt.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/nkvd_block_dp_assist"
+msgid "NKVD Zagradotryady - Krasnoarmeyets (Blocking Troops MG. Asst.)"
+msgstr ""
+
+------------------------------ARTILLERY--------------------------------------------
+
+msgctxt "desc/human/mp/rus/mid/artilleryman_41_1"
+msgid "Artilleriya - Artillerist [Krasnoarmyets]"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/artilleryman_41_2"
+msgid "Artilleriya - Artillerist [Krasnoarmyets]"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/artilleryman_41_3"
+msgid "Artilleriya - Artillerist [Krasnoarmyets]"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/artilleryman_41_4"
+msgid "Artilleriya - Artillerist [Krasnoarmyets]"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/artilleryman_41_5"
+msgid "Artilleriya - Artillerist [Krasnoarmyets]"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/artilleryman_41_6"
+msgid "Artilleriya - Artillerist [Krasnoarmyets]"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/artilleryman_41_jser1"
+msgid "Artilleriya - Komandir Ekipazha [Mladshiy Serzhant]"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/artilleryman_41_jser2"
+msgid "Artilleriya - Komandir Ekipazha [Mladshiy Serzhant]"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/artilleryman_41_ser1"
+msgid "Artilleriya - Komandir Ekipazha [Serzhant]"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/artilleryman_41_ser2"
+msgid "Artilleriya - Komandir Ekipazha [Serzhant]"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/artilleryman_44_1"
+msgid "Artilleriya - Artillerist [Krasnoarmyets]"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/artilleryman_44_2"
+msgid "Artilleriya - Artillerist [Krasnoarmyets]"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/artilleryman_44_3"
+msgid "Artilleriya - Artillerist [Krasnoarmyets]"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/artilleryman_44_4"
+msgid "Artilleriya - Artillerist [Krasnoarmyets]"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/artilleryman_44_5"
+msgid "Artilleriya - Artillerist [Krasnoarmyets]"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/artilleryman_44_6"
+msgid "Artilleriya - Artillerist [Krasnoarmyets]"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/artilleryman_44_jser1"
+msgid "Artilleriya - Komandir Ekipazha [Mladshiy Serzhant]"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/artilleryman_44_jser2"
+msgid "Artilleriya - Komandir Ekipazha [Mladshiy Serzhant]"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/artilleryman_44_ser1"
+msgid "Artilleriya - Komandir Ekipazha [Serzhant]"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/artilleryman_44_ser2"
+msgid "Artilleriya - Komandir Ekipazha [Serzhant]"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/artilleryman_44_star1"
+msgid "Artilleriya - Komandir Ekipazha [Starzhina]"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/artilleryman_44_star2"
+msgid "Artilleriya - Komandir Ekipazha [Starzhina]"
+msgstr ""
+
+---------------------------PRIZYVNIKI --------------------------------
+
+msgctxt "desc/human/mp/rus/mid/prizyvnik_42_rifle1"
+msgid "Pekhota - Strelok [Krasnoarmeyets]"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/prizyvnik_42_rifle2"
+msgid "Pekhota - Strelok [Krasnoarmeyets]"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/prizyvnik_42_rifle3"
+msgid "Pekhota - Strelok [Krasnoarmeyets]"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/prizyvnik_42_rifle4"
+msgid "Pekhota - Strelok [Krasnoarmeyets]"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/prizyvnik_42_rifle5"
+msgid "Pekhota - Strelok [Krasnoarmeyets]"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/prizyvnik_42_rifle6"
+msgid "Pekhota - Strelok [Krasnoarmeyets]"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/prizyvnik_42_rifle7"
+msgid "Pekhota - Strelok [Krasnoarmeyets]"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/prizyvnik_42_rifle8"
+msgid "Pekhota - Strelok [Krasnoarmeyets]"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/prizyvnik_42_rifle9"
+msgid "Pekhota - Strelok [Krasnoarmeyets]"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/prizyvnik_42_rifle10"
+msgid "Pekhota - Strelok [Krasnoarmeyets]"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/prizyvnik_44_rifle1"
+msgid "Pekhota - Strelok [Krasnoarmeyets]"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/prizyvnik_44_rifle2"
+msgid "Pekhota - Strelok [Krasnoarmeyets]"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/prizyvnik_44_rifle3"
+msgid "Pekhota - Strelok [Krasnoarmeyets]"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/prizyvnik_44_rifle4"
+msgid "Pekhota - Strelok [Krasnoarmeyets]"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/prizyvnik_44_rifle5"
+msgid "Pekhota - Strelok [Krasnoarmeyets]"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/prizyvnik_44_rifle6"
+msgid "Pekhota - Strelok [Krasnoarmeyets]"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/prizyvnik_44_rifle7"
+msgid "Pekhota - Strelok [Krasnoarmeyets]"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/prizyvnik_44_rifle8"
+msgid "Pekhota - Strelok [Krasnoarmeyets]"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/prizyvnik_44_rifle9"
+msgid "Pekhota - Strelok [Krasnoarmeyets]"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/prizyvnik_44_rifle10"
+msgid "Pekhota - Strelok [Krasnoarmeyets]"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/prizyvnik_44_rifle11"
+msgid "Pekhota - Strelok [Krasnoarmeyets]"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/prizyvnik_44_rifle12"
+msgid "Pekhota - Strelok [Krasnoarmeyets]"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/prizyvnik_44_smg1"
+msgid "Pekhota - Strelok [Krasnoarmeyets]"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/prizyvnik_44_smg2"
+msgid "Pekhota - Avtomatchik [Krasnoarmeyets]"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/prizyvnik_44_smg3"
+msgid "Pekhota - Avtomatchik [Krasnoarmeyets]"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/prizyvnik_44_smg4"
+msgid "Pekhota - Avtomatchik [Krasnoarmeyets]"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/prizyvnik_44_smg5"
+msgid "Pekhota - Avtomatchik [Krasnoarmeyets]"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/prizyvnik_44_smg6"
+msgid "Pekhota - Avtomatchik [Krasnoarmeyets]"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/prizyvnik_42_dp_jser"
+msgid "Pekhota - Zam. Komandir Otdeleniya [Mladshiy Serzhant]"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/prizyvnik_42_dp_assist"
+msgid "Pekhota - Pomoshnik Pulemyotchika [Krasnoarmyets]"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/prizyvnik_44_dp_jser1"
+msgid "Pekhota - Zam. Komandir Otdeleniya [Mladshiy Serzhant]"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/prizyvnik_44_dp_jser2"
+msgid "Pekhota - Zam. Komandir Otdeleniya [Mladshiy Serzhant]"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/prizyvnik_44_dp_yef1"
+msgid "Pekhota - Pulemyotchik [Yefreytor]"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/prizyvnik_44_dp_yef2"
+msgid "Pekhota - Pulemyotchik [Yefreytor]"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/prizyvnik_44_dp_assist1"
+msgid "Pekhota - Pomoshnik Pulemyotchika [Krasnoarmyets]"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/prizyvnik_44_dp_assist2"
+msgid "Pekhota - Pomoshnik Pulemyotchika [Krasnoarmyets]"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/prizyvnik_44_dp_assist3"
+msgid "Pekhota - Pomoshnik Pulemyotchika [Krasnoarmyets]"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/prizyvnik_44_dp_assist4"
+msgid "Pekhota - Pomoshnik Pulemyotchika [Krasnoarmyets]"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/prizyvnik_42_rifle_ser"
+msgid "Novobranets - Serzhant (Sgt.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/prizyvnik_42_rifle_ser2"
+msgid "Pekhota - Zam. Komandir Otdeleniya [Serzhant]"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/prizyvnik_42_smg_ser"
+msgid "Novobranets - Serzhant (Sgt.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/prizyvnik_44_smg_ser1"
+msgid "Novobranets - Serzhant (Sgt.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/prizyvnik_44_smg_ser2"
+msgid "Novobranets - Serzhant (Sgt.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/prizyvnik_42_smg_jser"
+msgid "Novobranets - Mladshiy Serzhant (Jr. Sgt.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/prizyvnik_42_smg_yef1"
+msgid "Novobranets - Yefreitor (L. Cpl.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/prizyvnik_42_smg_yef2"
+msgid "Novobranets - Yefreitor (L. Cpl.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/prizyvnik_42_smg_yef3"
+msgid "Novobranets - Yefreitor (L. Cpl.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/prizyvnik_42_smg_yef4"
+msgid "Novobranets - Yefreitor (L. Cpl.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/prizyvnik_42_smg_yef5"
+msgid "Novobranets - Yefreitor (L. Cpl.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/prizyvnik_42_smg_yef6"
+msgid "Novobranets - Yefreitor (L. Cpl.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/prizyvnik_42_smg_yef7"
+msgid "Novobranets - Yefreitor (L. Cpl.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/prizyvnik_42_smg_yef8"
+msgid "Novobranets - Yefreitor (L. Cpl.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/prizyvnik_42_smg_yef9"
+msgid "Novobranets - Yefreitor (L. Cpl.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/prizyvnik_42_smg_yef10"
+msgid "Novobranets - Yefreitor (L. Cpl.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/prizyvnik_44_smg_yef1"
+msgid "Novobranets - Yefreitor (L. Cpl.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/prizyvnik_44_smg_yef2"
+msgid "Novobranets - Yefreitor (L. Cpl.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/prizyvnik_44_smg_yef3"
+msgid "Novobranets - Yefreitor (L. Cpl.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/prizyvnik_44_smg_yef4"
+msgid "Novobranets - Yefreitor (L. Cpl.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/prizyvnik_44_smg_yef5"
+msgid "Novobranets - Yefreitor (L. Cpl.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/prizyvnik_44_smg_yef6"
+msgid "Novobranets - Yefreitor (L. Cpl.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/prizyvnik_44_smg_yef7"
+msgid "Novobranets - Yefreitor (L. Cpl.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/prizyvnik_44_smg_yef8"
+msgid "Novobranets - Yefreitor (L. Cpl.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/prizyvnik_44_smg_yef9"
+msgid "Novobranets - Yefreitor (L. Cpl.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/prizyvnik_44_smg_yef10"
+msgid "Novobranets - Yefreitor (L. Cpl.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/prizyvnik_42_atrifle_jser"
+msgid "Novobranets - Mladshiy Serzhant (Jr. Sgt.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/prizyvnik_42_atrifle_yef1"
+msgid "Novobranets - Yefreitor (L. Cpl.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/prizyvnik_42_atrifle_yef2"
+msgid "Novobranets - Yefreitor (L. Cpl.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/prizyvnik_42_at_assist1"
+msgid "Novobranets - Krasnoarmeyets (AT asst.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/prizyvnik_42_at_assist2"
+msgid "Novobranets - Krasnoarmeyets (AT asst.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/prizyvnik_42_at_assist3"
+msgid "Novobranets - Krasnoarmeyets (AT asst.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/prizyvnik_44_atrifle_jser"
+msgid "Novobranets - Mladshiy Serzhant (Jr. Sgt.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/prizyvnik_44_atrifle_yef1"
+msgid "Novobranets - Yefreitor (L. Cpl.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/prizyvnik_44_bazooka_yef2"
+msgid "Novobranets - Yefreitor (L. Cpl.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/prizyvnik_44_at_assist1"
+msgid "Novobranets - Krasnoarmeyets (AT asst.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/prizyvnik_44_at_assist2"
+msgid "Novobranets - Krasnoarmeyets (AT asst.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/prizyvnik_44_at_assist3"
+msgid "Novobranets - Krasnoarmeyets (AT asst.)"
+msgstr ""
+
+;FRONTOVIKI ----------------------------------------------------------------------------------------------------
+
+msgctxt "desc/human/mp/rus/mid/frontovik_42_rifle1"
+msgid "Frontovik - Krasnoarmeyets"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/frontovik_42_rifle2"
+msgid "Frontovik - Krasnoarmeyets"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/frontovik_42_rifle3"
+msgid "Frontovik - Krasnoarmeyets"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/frontovik_42_rifle4"
+msgid "Frontovik - Krasnoarmeyets"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/frontovik_42_rifle5"
+msgid "Frontovik - Krasnoarmeyets"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/frontovik_42_rifle6"
+msgid "Frontovik - Krasnoarmeyets"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/frontovik_42_rifle7"
+msgid "Frontovik - Krasnoarmeyets"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/frontovik_42_rifle8"
+msgid "Frontovik - Krasnoarmeyets"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/frontovik_42_rifle9"
+msgid "Frontovik - Krasnoarmeyets"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/frontovik_42_rifle10"
+msgid "Frontovik - Krasnoarmeyets"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/frontovik_42_dp_jser"
+msgid "Frontovik - Mladshiy Serzhant (Jr. Sgt.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/frontovik_42_dp_assist"
+msgid "Frontovik - Krasnoarmeyets (MG Asst.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/frontovik_42_rifle_ser"
+msgid "Frontovik - Serzhant (Sgt.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/frontovik_42_rifle_ser2"
+msgid "Frontovik - Serzhant (Sgt.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/frontovik_42_smg_ser"
+msgid "Frontovik - Serzhant (Sgt.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/frontovik_42_smg_jser"
+msgid "Frontovik - Mladshiy Serzhant (Jr. Sgt.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/frontovik_42_smg_yef1"
+msgid "Frontovik - Yefreitor (L. Cpl.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/frontovik_42_smg_yef2"
+msgid "Frontovik - Yefreitor (L. Cpl.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/frontovik_42_smg_yef3"
+msgid "Frontovik - Yefreitor (L. Cpl.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/frontovik_42_smg_yef4"
+msgid "Frontovik - Yefreitor (L. Cpl.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/frontovik_42_smg_yef5"
+msgid "Frontovik - Yefreitor (L. Cpl.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/frontovik_42_smg_yef6"
+msgid "Frontovik - Yefreitor (L. Cpl.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/frontovik_42_smg_yef7"
+msgid "Frontovik - Yefreitor (L. Cpl.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/frontovik_42_smg_yef8"
+msgid "Frontovik - Yefreitor (L. Cpl.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/frontovik_42_smg_yef9"
+msgid "Frontovik - Yefreitor (L. Cpl.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/frontovik_42_smg_yef10"
+msgid "Frontovik - Yefreitor (L. Cpl.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/frontovik_42_atrifle_jser"
+msgid "Frontovik - Mladshiy Serzhant (Jr. Sgt.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/frontovik_42_atrifle_yef1"
+msgid "Frontovik - Yefreitor (L. Cpl.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/frontovik_42_atrifle_yef2"
+msgid "Frontovik - Yefreitor (L. Cpl.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/frontovik_42_at_assist1"
+msgid "Frontovik - Krasnoarmeyets (AT asst.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/frontovik_42_at_assist2"
+msgid "Frontovik - Krasnoarmeyets (AT asst.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/frontovik_42_at_assist3"
+msgid "Frontovik - Krasnoarmeyets (AT asst.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/frontovik_44_rifle1"
+msgid "Frontovik - Krasnoarmeyets"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/frontovik_44_rifle2"
+msgid "Frontovik - Krasnoarmeyets"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/frontovik_44_rifle3"
+msgid "Frontovik - Krasnoarmeyets"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/frontovik_44_rifle4"
+msgid "Frontovik - Krasnoarmeyets"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/frontovik_44_rifle5"
+msgid "Frontovik - Krasnoarmeyets"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/frontovik_44_rifle6"
+msgid "Frontovik - Krasnoarmeyets"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/frontovik_44_rifle7"
+msgid "Frontovik - Krasnoarmeyets"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/frontovik_44_rifle8"
+msgid "Frontovik - Krasnoarmeyets"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/frontovik_44_rifle9"
+msgid "Frontovik - Krasnoarmeyets"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/frontovik_44_rifle10"
+msgid "Frontovik - Krasnoarmeyets"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/frontovik_44_rifle11"
+msgid "Frontovik - Krasnoarmeyets"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/frontovik_44_rifle12"
+msgid "Frontovik - Krasnoarmeyets"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/frontovik_44_dp_jser1"
+msgid "Frontovik - Mladshiy Serzhant (Jr. Sgt.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/frontovik_44_dp_yef1"
+msgid "Frontovik - Yefreitor (L. Cpl.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/frontovik_44_dt_yef2"
+msgid "Frontovik - Yefreitor (L. Cpl.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/frontovik_44_dt_jser2"
+msgid "Frontovik - Mladshiy Serzhant (Jr. Sgt.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/frontovik_44_mg_jser3"
+msgid "Frontovik - Mladshiy Serzhant (Jr. Sgt.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/frontovik_44_dp_assist1"
+msgid "Frontovik - Krasnoarmeyets (MG Asst.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/frontovik_44_dp_assist2"
+msgid "Frontovik - Krasnoarmeyets (MG Asst.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/frontovik_44_dp_assist3"
+msgid "Frontovik - Krasnoarmeyets (MG Asst.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/frontovik_44_dp_assist4"
+msgid "Frontovik - Krasnoarmeyets (MG Asst.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/frontovik_44_mg_assist5"
+msgid "Frontovik - Krasnoarmeyets (MG Asst.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/frontovik_44_dt_assist6"
+msgid "Frontovik - Krasnoarmeyets (MG Asst.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/frontovik_44_smg_jser1"
+msgid "Frontovik - Mladshiy Serzhant (Jr. Sgt.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/frontovik_44_smg_jser2"
+msgid "Frontovik - Mladshiy Serzhant (Jr. Sgt.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/frontovik_44_smg_ser1"
+msgid "Frontovik - Serzhant (Sgt.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/frontovik_44_smg_ser2"
+msgid "Frontovik - Serzhant (Sgt.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/frontovik_44_smg_jser1"
+msgid "Frontovik - Mladshiy Serzhant (Jr. Sgt.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/frontovik_44_smg1"
+msgid "Frontovik - Krasnoarmeyets"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/frontovik_44_smg2"
+msgid "Frontovik - Krasnoarmeyets"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/frontovik_44_smg3"
+msgid "Frontovik - Krasnoarmeyets"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/frontovik_44_smg4"
+msgid "Frontovik - Krasnoarmeyets"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/frontovik_44_smg5"
+msgid "Frontovik - Krasnoarmeyets"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/frontovik_44_smg6"
+msgid "Frontovik - Krasnoarmeyets"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/frontovik_44_smg_yef1"
+msgid "Frontovik - Yefreitor (L. Cpl.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/frontovik_44_smg_yef2"
+msgid "Frontovik - Yefreitor (L. Cpl.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/frontovik_44_smg_yef3"
+msgid "Frontovik - Yefreitor (L. Cpl.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/frontovik_44_smg_yef4"
+msgid "Frontovik - Yefreitor (L. Cpl.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/frontovik_44_smg_yef5"
+msgid "Frontovik - Yefreitor (L. Cpl.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/frontovik_44_smg_yef6"
+msgid "Frontovik - Yefreitor (L. Cpl.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/frontovik_44_smg_yef7"
+msgid "Frontovik - Yefreitor (L. Cpl.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/frontovik_44_smg_yef8"
+msgid "Frontovik - Yefreitor (L. Cpl.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/frontovik_44_smg_yef9"
+msgid "Frontovik - Yefreitor (L. Cpl.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/frontovik_44_smg_yef10"
+msgid "Frontovik - Yefreitor (L. Cpl.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/frontovik_44_atrifle_jser"
+msgid "Frontovik - Mladshiy Serzhant (Jr. Sgt.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/frontovik_44_atrifle_yef1"
+msgid "Frontovik - Yefreitor (L. Cpl.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/frontovik_44_bazooka_yef2"
+msgid "Frontovik - Yefreitor (L. Cpl.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/frontovik_44_at_assist1"
+msgid "Frontovik - Krasnoarmeyets (AT asst.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/frontovik_44_at_assist2"
+msgid "Frontovik - Krasnoarmeyets (AT asst.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/frontovik_44_at_assist3"
+msgid "Frontovik - Krasnoarmeyets (AT asst.)"
+msgstr ""
+
+; ------------------------------------- GUARDS ------------------------
+
+
+msgctxt "desc/human/mp/rus/mid/guard_44_rifle1"
+msgid "Gvardeyets - Krasnoarmeyets"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/guard_44_rifle2"
+msgid "Gvardeyets - Krasnoarmeyets"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/guard_44_rifle3"
+msgid "Gvardeyets - Krasnoarmeyets"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/guard_44_rifle4"
+msgid "Gvardeyets - Krasnoarmeyets"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/guard_44_rifle5"
+msgid "Gvardeyets - Krasnoarmeyets"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/guard_44_rifle6"
+msgid "Gvardeyets - Krasnoarmeyets"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/guard_44_rifle7"
+msgid "Gvardeyets - Krasnoarmeyets"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/guard_44_rifle8"
+msgid "Gvardeyets - Krasnoarmeyets"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/guard_44_rifle9"
+msgid "Gvardeyets - Krasnoarmeyets"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/guard_44_rifle10"
+msgid "Gvardeyets - Krasnoarmeyets"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/guard_44_rifle_yef1"
+msgid "Gvardeyets - Yefreitor (L. Cpl.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/guard_44_rifle_yef2"
+msgid "Gvardeyets - Yefreitor (L. Cpl.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/guard_44_rifle_yef3"
+msgid "Gvardeyets - Yefreitor (L. Cpl.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/guard_44_rifle_yef4"
+msgid "Gvardeyets - Yefreitor (L. Cpl.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/guard_44_smg1"
+msgid "Gvardeyets - Krasnoarmeyets"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/guard_44_smg2"
+msgid "Gvardeyets - Krasnoarmeyets"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/guard_44_smg3"
+msgid "Gvardeyets - Krasnoarmeyets"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/guard_44_smg4"
+msgid "Gvardeyets - Krasnoarmeyets"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/guard_44_smg5"
+msgid "Gvardeyets - Krasnoarmeyets"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/guard_44_smg6"
+msgid "Gvardeyets - Krasnoarmeyets"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/guard_44_smg7"
+msgid "Gvardeyets - Krasnoarmeyets"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/guard_44_smg8"
+msgid "Gvardeyets - Krasnoarmeyets"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/guard_44_smg9"
+msgid "Gvardeyets - Krasnoarmeyets"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/guard_44_smg10"
+msgid "Gvardeyets - Krasnoarmeyets"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/guard_44_smg_yef1"
+msgid "Gvardeyets - Yefreitor (L. Cpl.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/guard_44_smg_yef2"
+msgid "Gvardeyets - Yefreitor (L. Cpl.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/guard_44_smg_yef3"
+msgid "Gvardeyets - Yefreitor (L. Cpl.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/guard_44_smg_yef4"
+msgid "Gvardeyets - Yefreitor (L. Cpl.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/guard_44_dp_yef1"
+msgid "Gvardeyets - Yefreitor (L. Cpl.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/guard_44_dt_yef2"
+msgid "Gvardeyets - Yefreitor (L. Cpl.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/guard_44_dp_jser1"
+msgid "Gvardeyets - Mladshiy Serzhant (Jr. Sgt.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/guard_44_dt_jser2"
+msgid "Gvardeyets - Mladshiy Serzhant (Jr. Sgt.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/guard_44_mg34_jser3"
+msgid "Gvardeyets - Mladshiy Serzhant (Jr. Sgt.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/guard_44_mg42_jser4"
+msgid "Gvardeyets - Mladshiy Serzhant (Jr. Sgt.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/guard_44_dp_assist1"
+msgid "Gvardeyets - Krasnoarmeyets (MG Asst.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/guard_44_dt_assist2"
+msgid "Gvardeyets - Krasnoarmeyets (MG Asst.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/guard_44_dp_assist3"
+msgid "Gvardeyets - Krasnoarmeyets (MG Asst.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/guard_44_dt_assist4"
+msgid "Gvardeyets - Krasnoarmeyets (MG Asst.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/guard_44_mg_assist5"
+msgid "Gvardeyets - Krasnoarmeyets (MG Asst.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/guard_44_mg_assist6"
+msgid "Gvardeyets - Krasnoarmeyets (MG Asst.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/guard_44_smg_ser1"
+msgid "Gvardeyets - Serzhant (Sgt.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/guard_44_smg_ser2"
+msgid "Gvardeyets - Serzhant (Sgt.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/guard_44_smg_jser1"
+msgid "Gvardeyets - Mladshiy Serzhant (Jr. Sgt.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/guard_44_smg_jser2"
+msgid "Gvardeyets - Mladshiy Serzhant (Jr. Sgt.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/guard_44_atrifle_jser1"
+msgid "Gvardeyets - Mladshiy Serzhant (Jr. Sgt.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/guard_44_atpzrshr_jser2"
+msgid "Gvardeyets - Mladshiy Serzhant (Jr. Sgt.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/guard_44_atrifle_yef1"
+msgid "Gvardeyets - Yefreitor (L. Cpl.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/guard_44_atbazooka_yef2"
+msgid "Gvardeyets - Yefreitor (L. Cpl.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/guard_44_at_assist1"
+msgid "Gvardeyets - Krasnoarmeyets (AT asst.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/guard_44_at_assist2"
+msgid "Gvardeyets - Krasnoarmeyets (AT asst.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/guard_44_at_assist3"
+msgid "Gvardeyets - Krasnoarmeyets (AT asst.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/guard_44_at_assist4"
+msgid "Gvardeyets - Krasnoarmeyets (AT asst.)"
+msgstr ""
+
+
+; -------------------------------------- VDV --------------------
+
+msgctxt "desc/human/mp/rus/mid/vdv_41_rifle1"
+msgid "VDV - Krasnoarmeyets (Paratrooper)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/vdv_41_rifle2"
+msgid "VDV - Krasnoarmeyets (Paratrooper)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/vdv_41_rifle3"
+msgid "VDV - Krasnoarmeyets (Paratrooper)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/vdv_41_rifle4"
+msgid "VDV - Krasnoarmeyets (Paratrooper)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/vdv_41_rifle5"
+msgid "VDV - Krasnoarmeyets (Paratrooper)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/vdv_41_rifle6"
+msgid "VDV - Krasnoarmeyets (Paratrooper)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/vdv_41_rifle7"
+msgid "VDV - Krasnoarmeyets (Paratrooper)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/vdv_41_smg_ser"
+msgid "VDV - Serzhant (Paratrooper Sgt.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/vdv_41_dp_jser"
+msgid "VDV - Mladshiy Serzhant (Paratrooper Jr. Sgt.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/vdv_41_dp_assist"
+msgid "VDV - Krasnoarmeyets (Paratrooper Mg. Asst.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/vdv_41_rifle_ser"
+msgid "VDV - Serzhant (Paratrooper Sgt.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/vdv_41_smg1"
+msgid "VDV - Krasnoarmeyets (Paratrooper)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/vdv_41_smg2"
+msgid "VDV - Krasnoarmeyets (Paratrooper)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/vdv_41_flamer1"
+msgid "VDV - Krasnoarmeyets (Paratrooper)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/vdv_41_flamer2"
+msgid "VDV - Krasnoarmeyets (Paratrooper)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/vdv_44_rifle1"
+msgid "VDV - Krasnoarmeyets (Paratrooper)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/vdv_44_rifle2"
+msgid "VDV - Krasnoarmeyets (Paratrooper)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/vdv_44_rifle3"
+msgid "VDV - Krasnoarmeyets (Paratrooper)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/vdv_44_bazooka"
+msgid "VDV - Krasnoarmeyets (Paratrooper)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/vdv_44_smg1"
+msgid "VDV - Krasnoarmeyets (Paratrooper)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/vdv_44_smg2"
+msgid "VDV - Krasnoarmeyets (Paratrooper)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/vdv_44_smg3"
+msgid "VDV - Krasnoarmeyets (Paratrooper)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/vdv_44_smg4"
+msgid "VDV - Krasnoarmeyets (Paratrooper)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/vdv_44_smg5"
+msgid "VDV - Krasnoarmeyets (Paratrooper)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/vdv_44_smg6"
+msgid "VDV - Krasnoarmeyets (Paratrooper)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/vdv_44_smg7"
+msgid "VDV - Krasnoarmeyets (Paratrooper)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/vdv_44_smg8"
+msgid "VDV - Krasnoarmeyets (Paratrooper)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/vdv_44_smg_ser1"
+msgid "VDV - Serzhant (Paratrooper Sgt.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/vdv_44_smg_ser2"
+msgid "VDV - Serzhant (Paratrooper Sgt.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/vdv_44_dp_jser"
+msgid "VDV - Mladshiy Serzhant (Paratrooper Jr. Sgt.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/vdv_44_dp_assist"
+msgid "VDV - Krasnoarmeyets (Paratrooper Mg. Asst.))"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/vdv_44_dt_jser"
+msgid "VDV - Mladshiy Serzhant (Paratrooper Jr. Sgt.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/vdv_44_dt_assist"
+msgid "VDV - Krasnoarmeyets (Paratrooper Mg. Asst.))"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/sanitar_41_1"
+msgid "Sanitar - Krasnoarmeyets (Medical Orderly)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/sanitar_41_2"
+msgid "Sanitar - Krasnoarmeyets (Medical Orderly)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/sanitar_41_sser"
+msgid "Sanitar - Saninstruktor (Medical Sr. Sgt.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/sanitar_44_1"
+msgid "Sanitar - Krasnoarmeyets (Medical Orderly)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/sanitar_44_2"
+msgid "Sanitar - Krasnoarmeyets (Medical Orderly)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/sanitar_44_sser"
+msgid "Sanitar - Saninstruktor (Medical Sr. Sgt.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/messenger_41_rifle1"
+msgid "Posyl'nyj - Krasnoarmeyets (Messenger)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/officer_41_cpt"
+msgid "Komandir Roty - Kapitan (Company Commander - Cpt.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/officer_44_cpt"
+msgid "Komandir Roty - Kapitan (Company Commander - Cpt.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/officer_41_polsr"
+msgid "Starshiy Politruk (Senior Political Instructor)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/officer_44_polsr"
+msgid "Starshiy Politruk (Senior Political Instructor)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/officer_41_lt"
+msgid "Pomoshnik Komandira - Leytenant (Deputy Commander - Lt.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/officer_44_senlt"
+msgid "Pomoshnik Komandira - Starzhiy Leytenant (Deputy Commander - Sr. Lt.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/officer_41_lt2"
+msgid "Komandir Vzvoda - Leytenant (Platoon Commander - Lt.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/officer_44_lt"
+msgid "Komandir Vzvoda - Leytenant (Platoon Commander - Lt.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/officer_41_starz"
+msgid "Starzhina (Sgt. Maj.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/frontovik_44_smg_starz"
+msgid "Starzhina (Sgt. Maj.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/prizyvnik_44_smg_sser1"
+msgid "Starzhiy Serzhant (Sr. Sgt.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/prizyvnik_44_adm_ser1"
+msgid "Kaptenarmus - (Adm. Sgt. Company Clerk)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/officer_41_starz"
+msgid "Starzhina (Sr. Sgt.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/sniper_41_1"
+msgid "Snayper - Krasnoarmeyets (Observer/Sniper)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/sniper_44_2"
+msgid "Snayper - Krasnoarmeyets (Observer/Sniper)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/sniper_44_1"
+msgid "Snayper - Krasnoarmeyets (Observer/Sniper)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/sniper_41_2"
+msgid "Snayper - Krasnoarmeyets (Observer/Sniper)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/razved_41_rifle1"
+msgid "Razvedchik - Krasnoarmeyets (Scout)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/razved_41_rifle2"
+msgid "Razvedchik - Krasnoarmeyets (Scout)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/razved_41_rifle3"
+msgid "Razvedchik - Krasnoarmeyets (Scout)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/razved_41_rifle4"
+msgid "Razvedchik - Krasnoarmeyets (Scout)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/razved_41_smg1"
+msgid "Razvedchik - Krasnoarmeyets (Scout)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/razved_41_smg2"
+msgid "Razvedchik - Krasnoarmeyets (Scout)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/razved_41_smg_ser"
+msgid "Razvedchik - Serzhant (Scout Sgt.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/razved_41_dp_jser"
+msgid "Razvedchik - Mladshiy Serzhant (Scout Jr. Sgt.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/razved_41_dp_assist"
+msgid "Razvedchik - Krasnoarmeyets (Scout Mg. Asst.))"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/razved_41_sniper1"
+msgid "Razvedchik - Krasnoarmeyets (Sniper)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/razved_41_sniper2"
+msgid "Razvedchik - Krasnoarmeyets (Sniper)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/razved_44_rifle1"
+msgid "Razvedchik - Krasnoarmeyets (Scout)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/razved_44_rifle2"
+msgid "Razvedchik - Krasnoarmeyets (Scout)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/razved_44_rifle3"
+msgid "Razvedchik - Krasnoarmeyets (Scout)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/razved_44_smg1"
+msgid "Razvedchik - Krasnoarmeyets (Scout)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/razved_44_smg2"
+msgid "Razvedchik - Krasnoarmeyets (Scout)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/razved_44_smg_ser"
+msgid "Razvedchik - Serzhant (Scout Sgt.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/razved_44_mg42_jser"
+msgid "Razvedchik - Mladshiy Serzhant (Scout Jr. Sgt.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/razved_44_mg42_assist"
+msgid "Razvedchik - Krasnoarmeyets (Scout Mg. Asst.))"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/razved_44_sniper1"
+msgid "Razvedchik - Krasnoarmeyets (Sniper)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/engineer_41_1"
+msgid "Inzhener - Krasnoarmeyets (Engineer Pvt.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/engineer_41_2"
+msgid "Inzhener - Krasnoarmeyets (Engineer Pvt.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/engineer_41_3"
+msgid "Inzhener - Krasnoarmeyets (Engineer Pvt.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/engineer_41_4"
+msgid "Inzhener - Krasnoarmeyets (Engineer Pvt.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/engineer_41_ser"
+msgid "Inzhener - Serzhant (Engineer Sgt.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/miner_41_ap1"
+msgid "Saper - Krasnoarmeyets (Sapper Pvt.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/miner_41_ap2"
+msgid "Saper - Krasnoarmeyets (Sapper Pvt.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/miner_41_at1"
+msgid "Saper - Krasnoarmeyets (Sapper Pvt.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/miner_41_at2"
+msgid "Saper - Krasnoarmeyets (Sapper Pvt.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/engineer_44_1"
+msgid "Inzhener - Krasnoarmeyets (Engineer Pvt.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/engineer_44_2"
+msgid "Inzhener - Krasnoarmeyets (Engineer Pvt.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/engineer_44_3"
+msgid "Inzhener - Krasnoarmeyets (Engineer Pvt.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/engineer_44_4"
+msgid "Inzhener - Krasnoarmeyets (Engineer Pvt.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/engineer_44_ser"
+msgid "Inzhener - Serzhant (Engineer Sgt.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/miner_44_ap1"
+msgid "Saper - Krasnoarmeyets (Sapper Pvt.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/miner_44_ap2"
+msgid "Saper - Krasnoarmeyets (Sapper Pvt.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/miner_44_at1"
+msgid "Saper - Krasnoarmeyets (Sapper Pvt.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/miner_44_at2"
+msgid "Saper - Krasnoarmeyets (Sapper Pvt.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/assault_sapper1"
+msgid "Shturmovaya Inzhener-Saper (Assault-Sapper Pvt.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/assault_sapper2"
+msgid "Shturmovaya Inzhener-Saper (Assault-Sapper Pvt.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/assault_sapper3"
+msgid "Shturmovaya Inzhener-Saper (Assault-Sapper Pvt.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/assault_sapper4"
+msgid "Shturmovaya Inzhener-Saper (Assault-Sapper Pvt.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/assault_sapper5"
+msgid "Shturmovaya Inzhener-Saper (Assault-Sapper Pvt.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/assault_sapper6"
+msgid "Shturmovaya Inzhener-Saper (Assault-Sapper Pvt.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/assault_sapper7"
+msgid "Shturmovaya Inzhener-Saper (Assault-Sapper Pvt.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/assault_sapper8"
+msgid "Shturmovaya Inzhener-Saper (Assault-Sapper Pvt.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/assault_sapper_flamer1"
+msgid "Shturmovaya Inzhener-Saper Yefreitor (Assault-Sapper L. Cpl.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/assault_sapper_flamer2"
+msgid "Shturmovaya Inzhener-Saper Yefreitor (Assault-Sapper L. Cpl.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/assault_sapper_ser1"
+msgid "Shturmovaya Inzhener-Saper Serzhant (Assault-Sapper Sgt.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/assault_sapper_ser2"
+msgid "Shturmovaya Inzhener-Saper Serzhant (Assault-Sapper Sgt.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/tankman_sser1"
+msgid "Tankist Starzhiy Serzhant (Tank Sr. Sgt.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/tankman_sser2"
+msgid "Tankist Starzhiy Serzhant (Tank Sr. Sgt.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/tankman_sser3"
+msgid "Tankist Starzhiy Serzhant (Tank Sr. Sgt.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/tankman_sser4"
+msgid "Tankist Starzhiy Serzhant (Tank Sr. Sgt.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/tankman_sser5"
+msgid "Tankist Starzhiy Serzhant (Tank Sr. Sgt.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/tankman_ser1"
+msgid "Tankist Serzhant (Tank Sgt.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/tank_commander_ley1"
+msgid "Tankist Leytenant (Tank Commander Lt.)"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/tank_commander_ley2"
+msgid "Tankist Leytenant (Tank Commander Lt.)"
+msgstr ""

@@ -1,0 +1,8 @@
+;_________________________________________
+;  USSR long-barreled Medium AT gun, Su-85 mod.
+;=========================================
+
+
+{from "85mm_zis53"			; L/52 "su85"
+	("accuracy_direct" r1(0.70) range_ap(210) range_he(210) range_heat(210))
+}

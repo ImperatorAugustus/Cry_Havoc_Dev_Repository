@@ -1,0 +1,29 @@
+;_________________________________________
+; German early-war heavy infantry support gun
+;=========================================
+
+
+{from "pattern gun"			; L/11 "sig33", "bison"
+	{filling "bulletger_150_l11"}
+	{fireSound 		"gun/Shared/close/very_large/"}
+	{fireSoundclose 	"gun/Shared/close/very_large/"}
+  	{reloadSound 		"tank/reload_medium"}	
+	("range_170_howitzer")
+	{calibre 150}
+
+	("reload time" seconds(25))
+
+	("velocity m/s" ap(1) apcr(1) he(280) heat(280))
+	("armor health" damage(450))
+
+	; Gr.39 Hl/A
+
+	("penetration_medium" shell(heat) range(170) a(185) b(185) c(185) d(185) e(185))
+	("accuracy_spg" r1(1.25) range_ap(170) range_he(170) range_heat(170))
+
+	(mod not "mp"
+		("accuracy_spg" r1(1.25) range_ap(170) range_he(210) range_heat(170))
+		{range 210 210}
+	)
+    {unlimitedRangeTPC 0}   ;// restrict range in TPC/FPC
+}
