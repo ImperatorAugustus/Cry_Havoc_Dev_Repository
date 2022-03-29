@@ -1,0 +1,104 @@
+;SDL
+	
+	; armor notes
+	; tracks and wheels 20mm
+	; gun 25mm
+	; spare tracks 20mm
+	; schürzen 5mm
+
+	("tank_medium_tier2")
+
+	("shield" args "shield1" 20)
+	("shield" args "shield2" 20)
+	("shield" args "shield3" 20)
+	("shield" args "shield4" 20)
+	("shield" args "shield5" 20)
+	("shield" args "shield6" 20)
+	("shield" args "shield7" 20)
+	("shield" args "shieldt11" 20)
+
+	("shield_group" args "shieldt" 5 "shieldt")
+	("shield_group" args "shieldt1" 5 "shieldt")
+	("shield_group" args "shieldt2" 5 "shieldt")
+	("shield_group" args "shieldt3" 5 "shieldt")
+	("shield_group" args "shieldt4" 5 "shieldt")
+	("shield_group" args "shieldt5" 5 "shieldt")
+	("shield_group" args "shieldt6" 5 "shieldt")
+	("shield_group" args "shieldt7" 5 "shieldt")
+	("shield_group" args "shieldt8" 5 "shieldt")
+	("shield_group" args "shieldt9" 5 "shieldt")
+	("shield_group" args "shieldt10" 5 "shieldt")
+
+	("tracks" repair(30) thickness(20))
+	("gun" repair(30) thickness(25))
+
+	("ammo" args "ammo1")
+	("ammo" args "ammo2")
+	("ammo" args "ammo3")
+	("ammo" args "ammo4")
+	("fuel" args "fuel")
+	("transmission" args "transmission")
+
+	{volume "body1"			; Hull
+		{thickness 30
+			{front 80}
+			{top 20}		; Glacis
+			{rear 10}
+			{bottom 10}
+		}
+	}
+	{volume "body2"			; Superstructure
+		{thickness 30
+			{front 80}
+			{top 12}
+			{rear 10}
+		}
+	}
+	{volume "engine1"		; Hull
+		{thickness 30
+			{front 10}
+			{rear 20}
+			{bottom 10}
+		}
+	}
+	{volume "engine2"		; Superstructure
+		{thickness 20
+			{front 10}
+			{top 10}
+			{rear 20}
+		}
+	}
+	{volume "turret"
+		{thickness 30
+			{front 50}
+			{top 16}		; 83° Front 
+			{rear 25}		; 90° Top
+		}
+	}
+	{volume "mantlet"
+		{thickness 50}
+	}
+	{volume "mantlet1"
+		{thickness 20
+			{front 50}
+		}
+	}
+	{volume "cupola"
+		{thickness 50
+			{top 8}
+		}
+	}
+	{volume "basket"
+		{thickness 5}
+	}
+
+	{component "shieldl1" {tags "cut_part"}}
+	{component "shieldl2" {tags "cut_part"}}
+	{component "shieldl3" {tags "cut_part"}}
+	{component "shieldl4" {tags "cut_part"}}
+	{component "shieldl5" {tags "cut_part"}}
+	{component "shieldr1" {tags "cut_part"}}
+	{component "shieldr2" {tags "cut_part"}}
+	{component "shieldr3" {tags "cut_part"}}
+	{component "shieldr4" {tags "cut_part"}}
+	{component "shieldr5" {tags "cut_part"}}

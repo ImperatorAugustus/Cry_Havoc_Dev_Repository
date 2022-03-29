@@ -1,0 +1,65 @@
+;SDL
+
+	; armor notes
+	; wheels 0.5mm
+	; gun 20mm
+	; mud guards 5mm
+
+	("armoredcar_tier1")
+
+	("turret" repair(50))
+	("gun" repair(30) thickness(20))
+
+	("solid_wheel" args "wheelright1")
+	("solid_wheel" args "wheelleft1")
+	("solid_wheel" args "wheelright2")
+	("solid_wheel" args "wheelleft2")
+
+	("fuel" args "fuel")
+	("ammo" args "ammo")
+	("transmission" args "transmission")
+	
+	{volume "body1"			; Front Hull
+		{thickness 15
+			{front	15}		; Glacis
+			{top	20}
+			{rear	5}
+			{bottom	7}
+		}
+	}
+	{volume "body2"			; Center Hull
+		{thickness 15
+			{front  5}
+			{top	7}
+			{rear	5}
+			{bottom	7}
+		}
+	}
+	{volume "body3"			; Top, Front Hull
+		{thickness 15
+			{front	20}
+			{top	7}
+			{rear	5}
+			{bottom 5}
+		}
+	}
+	{volume "turret1"		; Main Turret
+		{thickness 15
+			{front	26}
+			{top	7}
+			{bottom 7}
+		}
+	}
+	{volume "turret2"		; Turret Ring
+		{thickness 15
+			{top	5}
+			{bottom 5}
+		}
+	}
+	{volume "engine"
+		{thickness 15
+			{front	5}
+			{top	7}
+			{bottom 7}
+		}
+	}

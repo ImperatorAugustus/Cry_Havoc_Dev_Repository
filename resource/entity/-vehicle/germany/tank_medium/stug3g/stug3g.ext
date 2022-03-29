@@ -1,0 +1,90 @@
+;SDL
+	
+	; armor notes
+	; tracks and wheels 20mm
+	; gun 25mm
+	; spare tracks 20mm
+	; schürzen 5mm
+
+	("tank_medium_tier1")
+
+	("shield" args "shield1" 20)
+
+	("shield" args "shieldl1" 5)
+	("shield" args "shieldl2" 5)
+	("shield" args "shieldl3" 5)
+	("shield" args "shieldl4" 5)
+	("shield" args "shieldr1" 5)
+	("shield" args "shieldr2" 5)
+	("shield" args "shieldr3" 5)
+	("shield" args "shieldr4" 5)
+
+	("tracks" repair(30) thickness(20))
+	("gun" repair(30) thickness(25))
+
+	("ammo" args "ammo1")
+	("ammo" args "ammo2")
+	("fuel" args "fuel")
+	("transmission" args "transmission")
+
+	{volume "body1"			; Hull
+		{thickness	30
+			{front 80}		; 50mm base + 30mm plate
+			{top 25}		; Glacis
+			{rear 10}
+			{bottom 15}
+		}
+	}
+	{volume "body2"			; Superstructure
+		{thickness 30
+			{front 80}
+			{right 19}		; Overhang (above tracks)
+		}
+		{able {holed}}
+	}
+	{volume "body3"			; Superstructure Top
+		{thickness 10
+			{front 80}
+			{rear 30}
+		}
+	}
+	{volume "body4"			; Superstructure Front
+		{thickness 30
+			{front 80}		; 50mm base + 30mm plate
+		}
+		{able {holed}}
+	}
+	{volume "engine"		; Hull 
+		{thickness 30
+			{front 10}
+			{top 16}
+			{rear 50}
+			{bottom 15}
+		}
+	}
+	{volume "mantlet"
+		{thickness 80}
+	}
+	{volume "mantlet1"
+		{thickness 50
+			{front 80}
+		}
+	}
+	{volume "cupola"
+		{thickness 30
+			{top 10}
+		}
+	}
+	{volume "mgunshield"
+		{thickness 6}
+		{able {holed}}
+	}
+
+	{component "shieldl1" {tags "cut_part"}}
+	{component "shieldl2" {tags "cut_part"}}
+	{component "shieldl3" {tags "cut_part"}}
+	{component "shieldl4" {tags "cut_part"}}
+	{component "shieldr1" {tags "cut_part"}}
+	{component "shieldr2" {tags "cut_part"}}
+	{component "shieldr3" {tags "cut_part"}}
+	{component "shieldr4" {tags "cut_part"}}

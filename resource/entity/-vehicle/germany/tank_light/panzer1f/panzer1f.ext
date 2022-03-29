@@ -1,0 +1,47 @@
+;SDL
+
+	; armor notes
+	; tracks and wheels 25mm
+
+	("tank_light_tier1")
+
+	("tracks" repair(30) thickness(25))
+
+	("fuel" args "fuel")
+	("transmission" args "transmission")
+
+	{volume "body1"			; Hull
+		{thickness 80
+			{top 60}		; Glacis
+			{rear 10}
+			{bottom 20}
+		}
+	}
+	{volume "body2"			; Superstructure
+		{thickness 80
+			{top 30}
+			{rear 10}
+			{bottom 10}
+		}
+	}
+	{volume "engine"
+		{thickness 80
+			{front 10}
+			{top 20}
+			{right 30}		; rear angled bottom face
+			{rear 60}
+			{bottom 20}
+		}
+	}
+	{volume "turret1"
+		{thickness 80
+			{top 20}
+			{bottom 20}
+		}
+	}
+	{volume "turret2"
+		{thickness 80}
+	}
+	{volume "mantlet"
+		{thickness 80}
+	}

@@ -1,0 +1,95 @@
+;SDL
+
+	; armor notes
+	; tracks and wheels 15mm
+	; gun 20mm
+
+	("tank_light_tier1")
+
+	("shield" args "detail1" 5)
+
+	("fuel" args "fuel1")
+	("ammo" args "ammo1")
+	("transmission" args "transmission")
+
+	("gun" repair(30) thickness(20))
+	("tracks" repair(30) thickness(20))
+
+	{volume "body1"			; Hull front
+		{thickness 50
+			{front 60}
+			{top 30}		; Glacis
+			{bottom 20}
+		}
+	}
+	{volume "body2"			; Hull middle
+		{thickness 50
+			{front 60}
+			{top 20}
+			{left 30}		; Top sides
+			{bottom 20}
+		}
+	}
+	{volume "body3"			; Hull Main
+		{thickness 50
+			{front 60}
+			{top 20}
+			{rear 60}
+			{bottom 20}
+		}
+	}
+	{volume "body4"			; Extra armor over driver plate
+		{thickness 90}
+	}
+	{volume "body5"			; Extra armor over lower front hull
+		{thickness 90}
+	}
+	{volume "armor1"		; Front Turret ring armor
+		{thickness 16}
+	}
+	{volume "armor2"		; Rear Turret ring armor
+		{thickness 16}
+	}
+	{volume "armor3"		; Rear Turret ring armor
+		{thickness 16}
+	}
+	{volume "engine1"		; Front
+		{thickness 50
+			{front 20}
+			{top 20}
+			{right 30}		; Top sides
+			{bottom 20}
+		}
+	}
+	{volume "engine2"		; Rear Bottom
+		{thickness 50
+			{top 17}
+			{rear 60}
+			{bottom 20}
+		}
+	}
+	{volume "engine3"		; Rear Top
+		{thickness 30
+			{front 20}
+			{top 20}
+			{rear 17}
+		}
+	}
+	{volume "turret1"		; Turret front/mantlet
+		{thickness 65}
+		{CastSteel 0.8063}
+	}
+	{volume "turret2"		; Main Turret
+		{thickness 60
+			{front 65}
+			{top 10}
+			{right 20}		; Front Top
+			{bottom 16}
+		}
+	}
+	{volume "turret3"		; Turret rear
+		{thickness 65}
+	}
+	{volume "turret4"		; Turret ring
+		{thickness 16}
+	}

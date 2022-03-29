@@ -1,0 +1,116 @@
+{game_entity
+	(include "/properties/tank.ext")
+	(include "/properties/shadow/tank.inc" scale(1.0))
+	(include "/properties/selection/vehicle.inc" scale(1.0))
+	{props "light" "vision_lev03" "muzzle_37mm_47mm" "shield" "smoke" "nkav" "detect_tank_light"}
+	{extension "pz38t_g.mdl"}
+	(include "pz38t_g.ext")
+	{targetclass "tank_light"}
+	{targetSelector "tank_light"}
+	{patherId "panzer38"}
+	{collider "tank.light"}
+
+	{extender "enumerator"
+		{digit_folder "ger2"}
+	}
+
+	("crew_4_human_2")
+	;("commander_visible")
+
+	{boarder
+		{anm "left"
+			{forward {begin "board_tank_left"} {end "seat_commander_hatch"}}
+			{reverse {end "emit_tank_1_hold"}}
+		}
+		{anm "right"
+			{forward {begin "board_tank_right"} {end "seat_commander_hatch"}}
+			{reverse {end "emit_tank_1_hold"}}
+		}
+	}
+
+	{extender "shield" {on}}
+
+	{extender "smokescreen"
+		{cooldown 5}
+		{itemTags "grenade nbk39"}
+	}
+
+	{extender "inventory"
+		{box
+			{item "bulletger_37 aphe" 42}		; 90 rounds
+			{item "bulletger_37 apcr" 5}
+			{item "bulletger_37 he" 42}
+			{item "ammo mgun_ger belt" 2500}	; 27 belts (100 rounds each)
+			{item "geballteladung_3kg" 1}
+			{item "nbk39 grenade" 5}
+		}
+	}
+
+	{Weaponry
+		("restore_ik_time")
+		{place "gun"
+			{RestoreIKAfterAim}
+			{weapon "37mm_kwk38t" filling "bulletger_37 aphe" 1}
+			{gunner "gunner"}
+			{charger "commander"}
+			("abm_dymamic_poor"
+				zeroing(2.0)
+				dispersion(0.20)
+			)
+		}
+		{place "mgun2"
+			{type "coaxial"}
+			{weapon "mg37t" filled}
+			{foresight "foresight5"}
+			{gunner "gunner"}
+			{charger "commander"}
+			("abm_mgun")
+			{basic}
+		}
+		{place "mgun1"
+			{type "hull"}
+			{weapon "mg37t" filled}
+			{foresight "foresight4"}
+			{gunner "gunner3"}
+			{charger "gunner3"}
+			("abm_mgun")
+			{basic}
+			{ai_in_manual}
+		}
+		{##place "mgun"
+			{type "commander"}
+			{weapon "commander_vision"}
+			{foresight "vision_rot"}
+			{gunner "commander"}
+			{basic}
+			{ai_in_manual}
+		}
+	}
+
+	{mass 9850}
+	{Chassis
+		("tank_trace" fx("tracks_sm") step(0.32) len(0.12))
+		("mobility_tank"
+			speed(42) ;----------Max speed when fully accelerated on road, km/h.
+			reverse(10) ;--------Max speed in reverse on road, km/h.
+			traverse(34) ;-------Track traverse, per second, in degrees.
+			weight(9.85) ;-------Weight in Tonnes.
+			power(125) ;---------Engine Power, in hp.
+			track(5) ;-----------Track performance: (0,10], 10=ideal. Sluggish tanks and vehicles with narrow and non-gripping tracks have a lower performance.
+			fuel(220) ;----------Fuel capacity in Litres.
+			type(fuel) ;---------Fuel type. (diesel OR fuel)
+			range(100) ;---------Range in km, off-road.
+		)
+	}
+
+	{bone "gun_rot"
+		{limits -10 25}
+		{speed2 10}
+	}
+	{bone "turret"
+		{speed2 8}
+	}
+	{##bone "commander_rot"
+		{speed2 180}
+	}
+}

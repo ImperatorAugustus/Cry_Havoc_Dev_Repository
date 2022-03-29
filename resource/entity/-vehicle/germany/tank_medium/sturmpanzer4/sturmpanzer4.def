@@ -1,0 +1,109 @@
+{game_entity
+	(include "/properties/tank_assaultgun.ext")
+	(include "/properties/shadow/tank.inc"  scale(1.0))
+	(include "/properties/selection/vehicle.inc"  scale(1.2))
+	{props "spg" "medium" "-turret" "mantlet" "vision_lev06" "muzzle_122mm_128mm" "shield" "detect_spg"}
+	{extension "sturmpanzer4.mdl"}
+	(include "sturmpanzer4.ext")
+	{collider "tank.heavy"}
+	{PatherId "tiger"}
+	{targetclass "tank_medium"}
+	{targetSelector "supergun"}
+
+	{extender "enumerator"
+		{digit_folder "ger"}
+	}
+	("crew_5_human_2")
+	("charger_visible")
+
+	{boarder
+		{anm "left"
+			{forward	{begin	"board_tank_right"} {end "pose_mgun_pz6"}}
+			{reverse 	{end	"emit_tank_2_hold"}}
+		}
+		{anm "right"
+			{forward	{begin	"board_tank_left"} {end "pose_mgun_pz6"}}
+			{reverse 	{end	"emit_tank_2_hold"}}
+		}
+		{anm "armor"
+			{forward	{begin	"board_HighArmor"} 	{end "pose_seat_armor_1"}}
+			{reverse 	{end	"emit_tank_1"}}
+		}
+	}
+
+	("seat_human" place(seat1) bone(seat01) door(emit3)  animation(armor))
+	("seat_human" place(seat2) bone(seat02) door(emit4)  animation(armor))
+	("seat_human" place(seat3) bone(seat03) door(emit5)  animation(armor))
+	("seat_human" place(seat4) bone(seat04) door(emit6)  animation(armor))
+
+	{sensor
+		{visor "main"
+			{bone "visor1"}
+		}
+		{visor "around"
+			{bone "visor"}
+		}
+	}
+
+	{extender "shield" {on}}
+
+	{extender "inventory"
+		{weapon "mgun" {mask "mountable"}}
+		{box
+			{item "bulletger_150_l11 he" 31}			; 32 rounds
+			{item "ammo mgun_ger drum" 550}			; 12 drums (50 rounds each)
+			{item "mg34_drum" filling "ammo mgun_ger drum" 50 {user "mgun"}}
+			{item "geballteladung_3kg" 1}
+		}
+	}
+
+	{Weaponry
+		("restore_ik_time")
+		{place "gun"
+			{RestoreIKAfterAim}
+			{weapon "150mm_stuh43" filling "bulletger_150_l11 he" 1}
+			{gunner "gunner"}
+			{charger "charger2"}
+			("abm_dymamic"
+				zeroing(4.0)
+				dispersion(0.25)
+			)
+		}
+		{place "mgun"
+			{type "aa"}
+			{gunner "charger"}
+			{charger "charger"}
+			{LinkBone "mgun_rot"}
+			{LinkAnimation "off"}
+			("abm_mgun")
+			{rotate}
+			{basic}
+			{ai_in_manual}
+		}
+	}
+
+	{mass 65000}
+	{Chassis
+		("tank_trace" fx("tracks_big") step(0.47) len(0.82))
+		("mobility_tank"
+			speed(35) ;----------Max speed when fully accelerated on road, km/h.
+			reverse(6) ;---------Max speed in reverse on road, km/h.
+			traverse(18) ;-------Track traverse, per second, in degrees.
+			weight(24) ;---------Weight in Tonnes.
+			power(265) ;---------Engine Power, in hp.
+			track(3) ;-----------Track performance: (0,10], 10=ideal. Sluggish tanks and vehicles with narrow and non-gripping tracks have a lower performance.
+			fuel(470) ;----------Fuel capacity in Litres.
+			type(fuel) ;---------Fuel type. (diesel OR fuel)
+			range(130) ;---------Range in km, off-road.
+		)
+	}
+
+	{bone "gun_rot"
+		{limits -8 30}
+		{speed2 6}
+	}
+	{bone "turret"
+		{limits -15 15}
+		{speed2 8}
+	}
+}

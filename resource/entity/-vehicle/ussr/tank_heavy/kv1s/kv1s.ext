@@ -1,0 +1,119 @@
+;SDL
+	
+	;notes
+	;tracks and wheels 20mm
+	;gun 30mm
+	;armor plates 25mm
+
+	("tank_heavy_tier1")
+
+	("tracks" repair(30) thickness(20))
+	("gun" repair(30) thickness(30))
+
+	("fuel" args "fuel1")
+	("fuel" args "fuel2")
+	("ammo" args "ammo1")
+	("ammo" args "ammo2")
+	("transmission" args "transmission")
+
+	{volume "body1"			; Hull
+		{thickness
+			{front 60}
+			{top 50}		; Glacis
+			{right 60}
+			{left 60}
+			{rear 10}
+			{bottom 40}
+		}
+	}
+	{volume "body2"			; Superstructure
+		{thickness 40
+			{front 75}
+			{top 40}
+			{right 60}
+			{left 60}
+			{rear 10}
+		}
+	}
+	{volume "engine1"		; Hull
+		{thickness 30
+			{front 10}
+			{right 60}
+			{left 60}
+			{rear 60}
+			{bottom 30}
+		}
+	}
+	{volume "engine2"		; Superstructure
+		{thickness 30
+			{front 10}
+			{top 30}
+			{right 60}
+			{left 60}
+			{rear 60}
+		}
+	}
+	{volume "armor"			; Nose Armor Plate
+		{thickness 25}
+		{CastSteel 0.8063}
+	}
+	{volume "turret1"		; Main Turret
+		{thickness 75
+			{front 82}
+			{top 30}
+			{rear 40}		;Top Front
+		}
+		{CastSteel 0.8063}
+	}
+	{volume "turret2"		; Rear Bubble
+		{thickness 75
+			{top 30}
+			{bottom 40}
+		}
+		{CastSteel 0.8063}
+	}
+	{volume "turret3"		; Front left cheek
+		{thickness 82}
+		{CastSteel 0.8063}
+	}
+	{volume "turret4"		; Front right cheek
+		{thickness 82}
+		{CastSteel 0.8063}
+	}
+	{volume "turret5"		; Front center cheek
+		{thickness 82
+			{front 5}
+		}
+		{CastSteel 0.8063}
+	}
+	{volume "turret6"		; Rear MG
+		{thickness 75}
+		{CastSteel 0.8063}
+	}
+	{volume "turret7"		; Turret base ring
+		{thickness 75}
+		{CastSteel 0.8063}
+	}
+	{volume "mantlet1"		; Front
+		{thickness 55
+			{front 90}
+		}
+		{CastSteel 0.8063}
+	}
+	{volume "mantlet2"		; Back
+		{thickness 55
+			{front 55}
+			{top 50}
+			{left 75}
+		}
+		{CastSteel 0.8063}
+	}
+	{volume "cupola"
+		{thickness 60
+			{top 30}
+		}
+		{CastSteel 0.8063}
+	}
+	{volume "hatch"
+		{thickness 30}
+	}

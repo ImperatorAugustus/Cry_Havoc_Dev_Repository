@@ -1,0 +1,84 @@
+;SDL
+
+	; armor notes
+	; wheels 10mm (wheels did not deflate when piereced by bullet)
+	; gun 20mm
+	; shields 2-8mm
+
+	("armoredcar_tier2")
+
+	("solid_wheel" args "wheelleft1")
+	("solid_wheel" args "wheelleft2")
+	("solid_wheel" args "wheelleft3")
+	("solid_wheel" args "wheelleft4")
+	("solid_wheel" args "wheelright1")
+	("solid_wheel" args "wheelright2")
+	("solid_wheel" args "wheelright3")
+	("solid_wheel" args "wheelright4")
+
+	("turret" repair(50))
+	("mantlet" repair(30))
+	("gun" repair(30) thickness(20))
+
+	("shield_tear" args "detail10" 10)
+	("shield_group" args "shield1" 8 "shield")
+	("shield_group" args "shield1a" 2 "shield")
+	("shield_group" args "shield1b" 2 "shield")
+	("shield" args "shield2" 8)
+
+	("ammo" args "ammo1")
+	("ammo" args "ammo2")
+	("ammo" args "ammo3")
+	("fuel" args "fuel")
+	("transmission" args "transmission")
+
+	{volume "transmission" {able {NoWoundDecal 0}}}
+
+	{volume "body1"			; Under Hull
+		{thickness 8
+			{front 10}
+		}
+	}
+	{volume "body2"			; Superstructure
+		{thickness 8
+			{front 30}		; Nose
+			{top 15}		; Glacis
+		}
+	}
+	{volume "body3"			; Top Superstructure
+		{thickness 8
+			{front 30}
+			{top 5}
+		}
+	}
+	{volume "turret1"		; Main turret
+		{thickness 14.5
+			{front 30}
+			{top 8}
+		}
+	}
+	{volume "turret2"		; Inside Mantlet
+		{thickness 30}
+		{CastSteel 0.8063}
+	}
+	{volume "mantlet1"		; Nose
+		{thickness 50
+			{front 100}
+		}
+		{CastSteel 0.8063}
+	}
+	{volume "mantlet2"
+		{thickness 50}
+		{CastSteel 0.8063}
+	}
+	{volume "engine1"		; Hull
+		{thickness 8
+			{rear 10}
+		}
+	}
+	{volume "engine2"		; Superstructure
+		{thickness 8
+			{top 5}
+			{rear 10}
+		}
+	}

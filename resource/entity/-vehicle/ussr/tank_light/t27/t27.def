@@ -1,0 +1,67 @@
+{game_entity
+	(include "/properties/tank_unarmed.ext")
+	(include "/properties/shadow/tank.inc" scale(1.0))
+	(include "/properties/selection/vehicle.inc" scale(0.7))
+	{props "light" "vision_lev02" "tractor" "tractor_medium" "detect_tank_mg"}
+	{extension "t27.mdl"}
+	(include "t27.ext")
+	{targetclass "tank_light"}
+	{targetSelector "tank_bullet"}
+	{patherId "t27"}
+	{collider "tank.light"}
+
+	("crew_2_human")
+
+	{sensor
+		{visor "around"
+			{vision "tank_main_mg"}
+			{bone "visor1"}
+		}
+	}
+
+	{boarder
+		{anm "left"
+			{forward {begin "board_tank_left"}}
+			{reverse {end "emit_tank_1_hold"}}
+		}
+		{anm "right"
+			{forward {begin "board_tank_right"}}
+			{reverse {end "emit_tank_1_hold"}}
+		}
+	}
+
+	{extender "inventory"
+		{weapon "mgun" {mask "mountable"}}
+		{box
+			{item "ammo mgun_rus dt" 1701}		;28 drums
+			{item "dt" filling "ammo mgun_rus dt" 63 {user "mgun"}}
+		}
+	}
+
+	{Weaponry
+		{place "mgun"
+			{type "hull"}
+			{LinkBone "mgun"}
+			{gunner "gunner"}
+			{charger "gunner"}
+			("abm_mgun")
+			{rotate}
+		}
+	}
+
+	{mass 2700}
+	{Chassis "track"
+		("tank_trace" fx("tracks_sm2") step(0.15) len(0.57))
+		("mobility_tank"
+			speed(40) ;----------Max speed when fully accelerated on road, km/h.
+			reverse(13) ;--------Max speed in reverse on road, km/h.
+			traverse(35) ;-------Track traverse, per second, in degrees.
+			weight(2.7) ;--------Weight in Tonnes.
+			power(40) ;----------Engine Power, in hp.
+			track(7) ;---------Track performance: (0,10], 10=ideal. Sluggish tanks and vehicles with narrow and non-gripping tracks have a lower performance.
+			fuel(42) ;-----------Fuel capacity in Litres.
+			type(fuel) ;---------Fuel type. (diesel OR fuel)
+			range(60) ;----------Range in km, off-road.
+		)
+	}
+}

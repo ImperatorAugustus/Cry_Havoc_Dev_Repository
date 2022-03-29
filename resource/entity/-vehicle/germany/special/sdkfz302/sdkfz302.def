@@ -1,0 +1,72 @@
+{game_entity
+	(include "/properties/tank_unarmed.ext")
+	(include "/properties/shadow/tank.inc" scale(1.0))
+	(include "/properties/selection/vehicle.inc" scale(0.5))
+	{props "armored_car" "vision_lev01" "-tank" "goliath"}
+	{extension "sdkfz302.mdl"}
+	{targetClass "car"}
+	{targetSelector "tank_heavy"}
+	{patherId "goliath"}
+	{collider "car"}
+
+	{volume "body1"
+		{thickness 5}
+	}
+	{volume "body2"
+		{thickness 5}
+	}
+	{volume "engine"
+		{thickness 2}
+	}
+	("tracks" repair(15) thickness(5))
+	("general_durability" body(75) engine(50) turret(1) mantlet(1) gun(1) track(50))
+	
+	{sensor
+		{visor "main"
+			{vision "none"}
+		}
+	}
+
+	{placer
+		{crew 0}
+		{place "driver" remove}
+	}
+
+	{extender "inventory"
+		{box
+			{Size 0 0}
+			{clear}
+		}
+	}
+
+	{Weaponry
+		{place "explosive"
+			{weapon "weapon goliath" filling "ammo goliath 60kg" 1}
+			{gunner "driver"}
+			{charger "driver"}
+			{rotate}
+		}
+	}
+
+	{mass 370}
+	{Chassis
+		("tank_trace" fx("tracks_sm2") step(0.3) len(0.28))
+		("mobility_goliath"
+			speed(10) ;----------Max speed when fully accelerated on road, km/h.
+			reverse(7) ;---------Max speed in reverse on road, km/h.
+			traverse(80) ;-------Track traverse, per second, in degrees.
+			weight(0.370) ;------Weight in Tonnes.
+			power(6.85) ;--------Engine Power, in hp.
+			track(10) ;----------Track performance: (0,10], 10=ideal. Sluggish tanks and vehicles with narrow and non-gripping tracks have a lower performance.
+			fuel(2) ;------------Fuel capacity in Litres. // was 2 batteries in real life
+			type(fuel) ;---------Fuel type. (diesel OR fuel) // was electricity in real life
+			range(32.0) ;--------Range in km, off-road. // was 0.8km in real life
+		)
+	}
+	{bone "gun_rot"
+		{speed2 360}
+	}
+	{bone "turret"
+		{speed2 360}
+	}
+}

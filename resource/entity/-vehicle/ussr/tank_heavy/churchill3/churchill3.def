@@ -1,0 +1,125 @@
+{game_entity
+	(include "/properties/tank.ext")
+	(include "/properties/shadow/tank.inc" scale(1.2))
+	(include "/properties/selection/vehicle.inc" scale(1.2))
+	{props "heavy" "vision_lev05" "muzzle_50mm_57mm" "diesel" "smoke" "2in" "detect_tank_heavy"}
+	{extension "churchill3.mdl"}
+	(include "churchill3.ext")
+	{targetclass "tank_heavy"}
+	{targetSelector "tank_heavy"}
+	{PatherId "churchill"}
+	{collider "tank.heavy"}
+
+	{extender "enumerator"
+		{digit_folder "ru1"}
+	}
+
+	("crew_5_human_extended")
+	("crew_gunner3" door(emit3) door2(emit1) door3(emit2))
+
+	{boarder
+		{anm "driver"
+			{forward {begin "board_t34_driver"} {end "seat_gunner_stand"} {base "open_driver"}}
+			{reverse {end "emit_t34_hold"} {base "open_driver"}}
+		}
+		{anm "gunner3"
+			{forward {begin "board_t34_driver"} {end "seat_gunner_stand"} {base "open_gunner3"}}
+			{reverse {end "emit_t34_hold"} {base "open_gunner3"}}
+		}
+		{anm "left"
+			{forward {begin "board_Is-2"} {end "seat_commander_hatch"}}
+			{reverse {end "emit_tank_1_hold"}}
+		}
+		{anm "right"
+			{forward {begin "board_Is-2"} {end "seat_commander_hatch"}}
+			{reverse {end "emit_tank_1_hold"}}
+		}
+		{anm "armor1"
+			{forward {begin "board_HighArmor"} {end "pose_seat_armor_1"}}
+			{reverse {end "emit_tank_2"}}
+		}
+		{anm "armor2"
+			{forward {begin "board_HighArmor"} {end "pose_seat_armor_1"}}
+			{reverse {end "emit_tank_2"}}
+		}
+	}
+
+	("seat_human" place(seat1) bone(seat01) door(emit4) animation(armor1))
+	("seat_human" place(seat2) bone(seat02) door(emit5) animation(armor1))
+	("seat_human" place(seat3) bone(seat03) door(emit6) animation(armor1))
+	("seat_human" place(seat4) bone(seat04) door(emit7) animation(armor2))
+
+	{extender "shield" {on}}
+
+	{extender "smokescreen"
+		{cooldown 5}
+		{itemTags "mortareng_50 sm"}
+	}
+
+	{extender "inventory"
+		{box
+			{item "bulleteng_57 apcbc" 43}		;84 rounds
+			{item "bulleteng_57 he" 40}
+			{item "ammo mgun_ger belt mk2" 9000}	;40 belts (225 rounds per belt)
+			{item "satchel_charge_rus" 1}
+			{item "mortareng_50 sm" 18}
+		}
+	}
+
+	{Weaponry
+		("restore_ik_time")
+		{place "gun"
+			{RestoreIKAfterAim}
+			{weapon "57mm_qf6_mk3" filling "bulleteng_57 apcbc" 1}
+			{gunner "gunner"}
+			{charger "charger"}
+			("abm_dymamic"
+				zeroing(3.0)
+				dispersion(0.20)
+			)
+		}
+		{place "mgun2"
+			{type "coaxial"}
+			{weapon "besa" filling "ammo mgun_ger belt mk2" 225}
+			{foresight "foresight5"}
+			{gunner "gunner"}
+			{charger "charger"}
+			("abm_mgun")
+			{basic}
+		}
+		{place "mgun1"
+			{type "hull"}
+			{weapon "besa" filling "ammo mgun_ger belt mk2" 225}
+			{foresight "foresight4"}
+			{gunner "gunner3"}
+			{charger "gunner3"}
+			("abm_mgun")
+			{basic}
+			{ai_in_manual}
+		}
+	}
+
+	{mass 39000}
+	{Chassis
+		("tank_trace" fx("tracks_big") step(0.47) len(0.8))
+		("mobility_tank"
+			speed(20) ;----------Max speed when fully accelerated on road, km/h.
+			reverse(3) ;---------Max speed in reverse on road, km/h.
+			traverse(20) ;-------Track traverse, per second, in degrees.
+			weight(39.0) ;-------Weight in Tonnes.
+			power(350) ;---------Engine Power, in hp.
+			track(4.0) ;---------Track performance: (0,10], 10=ideal. Sluggish tanks and vehicles with narrow and non-gripping tracks have a lower performance.
+			fuel(568) ;----------Fuel capacity in Litres.
+			type(fuel) ;---------Fuel type. (diesel OR fuel)
+			range(97) ;----------Range in km, off-road.
+		)
+	}
+
+	{bone "gun_rot"
+		{limits -12.5 20}
+		{speed2 4}
+	}
+	{bone "turret"
+		{speed2 14}
+	}
+}

@@ -1,0 +1,63 @@
+;SDL
+	
+	; armor notes
+	; tracks and wheels 20mm
+	; gun 30mm
+
+	{volume "body1"			; Hull
+		{thickness 75
+			{front 75}		; Lower Nose
+			{top 70}		; Glacis
+			{rear 1}
+			{bottom 20}
+		}
+	}
+	{volume "body2"			; Superstructure
+		{thickness 75
+			{top 30}
+			{rear 1}
+			{bottom 1}
+		}
+	}
+	{volume "engine1"
+		{thickness 75
+			{front 20}
+			{top 1}
+			{rear 70}
+			{bottom 20}
+		}
+	}
+	{volume "engine2"
+		{thickness 75
+			{front 20}
+			{top 30}
+			{rear 70}
+			{bottom 1}
+		}
+	}
+	{volume "turret1"		; Main Turret
+		{thickness 75
+			{top 30}
+			{bottom 40}
+		}
+		{able {holed}}
+	}
+	{volume "turret2"		; Turret Ring
+		{thickness 75}
+	}
+	{volume "mantlet1"
+		{thickness 75
+			{front 90}
+		}
+	}
+	{volume "mantlet2"
+		{thickness 75
+			{front 90}
+		}
+	}
+	{volume "mantlet3"		; Fixed Left Side
+		{thickness 75}
+	}
+	{volume "mantlet4"		; Fixed Right Side
+		{thickness 75}
+	}

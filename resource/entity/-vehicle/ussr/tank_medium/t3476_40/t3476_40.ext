@@ -1,0 +1,98 @@
+;SDL
+
+	; armor notes
+	; tracks and wheels 20mm
+	; gun 20mm
+	; track guards 5mm
+
+	("shield" args "shieldl1" 5)
+	("shield" args "shieldl2" 5)
+	("shield" args "shieldr1" 5)
+	("shield" args "shieldr2" 5)
+
+	("fuel" args "fuel1")
+	("fuel" args "fuel2")
+	("fuel" args "fuel3")
+	("fuel" args "fuel4")
+	("ammo" args "ammo1")
+	("ammo" args "ammo2")
+	("ammo" args "ammo3")
+	("ammo" args "ammo4")
+	("transmission" args "transmission")
+
+	{volume "body1"			; Hull
+		{thickness 45
+			{front 45}		; Glacis & Lower Hull
+			{rear 10}
+			{bottom 10}
+		}
+		{HighHardness}
+	}
+	{volume "body2"			; Superstructure
+		{thickness 40
+			{front 45}		; Glacis
+			{top 20}
+			{rear 10}
+			{bottom 13}
+		}
+		{HighHardness}
+	}
+	{volume "body3"			; Nose
+		{thickness 45
+			{front 100}
+		}
+		{HighHardness}
+	}
+	{volume "body4"			; Hull MG Port
+		{thickness 45
+			{front 70}
+		}
+		{HighHardness}
+		{CastSteel 0.8063}
+	}
+	{volume "body5"			; Drivers Hatch
+		{thickness 45}
+		{HighHardness}
+		{CastSteel 0.8063}
+	}
+	{volume "engine1"		; Hull
+		{thickness 45
+			{front 10}
+			{rear 40}
+			{bottom 13}
+		}
+		{HighHardness}
+	}
+	{volume "engine2"		; Superstructure
+		{thickness 40
+			{front 20}
+			{top 20}
+			{bottom 13}
+		}
+		{HighHardness}
+	}
+	{volume "turret1"		; Turret Ring
+		{thickness 45}
+		{HighHardness}
+	}
+	{volume "turret2"		; Turret
+		{thickness 45
+			{top 15}
+		}
+		{HighHardness}
+	}
+	{volume "mantlet"
+		{thickness 15}
+		{HighHardness}
+		{CastSteel 0.8063}
+	}
+	{volume "barrel2"
+		{thickness 25}
+		{HighHardness}
+		{CastSteel 0.8063}
+	}
+
+	{component "shieldl1" {tags "cut_part"}}
+	{component "shieldl2" {tags "cut_part"}}
+	{component "shieldr1" {tags "cut_part"}}
+	{component "shieldr2" {tags "cut_part"}}

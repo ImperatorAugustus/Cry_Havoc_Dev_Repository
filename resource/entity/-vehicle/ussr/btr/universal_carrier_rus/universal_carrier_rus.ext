@@ -1,0 +1,39 @@
+
+	; armor notes
+	; tracks and wheels 15mm
+
+	("armoredcar_tier1")
+
+	("shield" args "detail1" 15)
+	("shield" args "detail2" 15)
+	("shield" args "detail3" 15)
+
+	("fuel" args "fuel")
+	("transmission" args "transmission")
+	("tracks" repair(30) thickness(15))
+
+	{volume "body1"			; Front Hull
+		{thickness 10
+			{top 7}			; Glacis
+		}
+	}
+	{volume "body2"			; Front Superstructure
+		{thickness 10}
+		{able {holed}}
+	}
+	{volume "body3"			; Rear Superstructure
+		{thickness 10}
+		{able {holed}}
+	}
+	{volume "body4"			; Rear Hull
+		{thickness 10}
+	}
+	{volume "body5"			; Gunner Armor
+		{thickness 10}
+	}
+	{volume "engine"		; Inside Rear Hull and Superstructure
+		{thickness 10}
+	}
+	{volume "transmission"
+		{thickness 5}
+	}

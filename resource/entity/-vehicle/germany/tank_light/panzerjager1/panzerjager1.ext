@@ -1,0 +1,81 @@
+;SDL
+
+	; armor notes
+	; tracks and wheels 15mm
+	; gun 20mm
+	; spare tracks 15mm
+
+	("tank_light_tier1")
+
+	("shield" args "shield1" 15)
+	("shield" args "shield2" 15)
+	("shield" args "gun_shield" 8)
+	("shield_group" args "tshield1" 14.5 "shieldt")
+	("shield_group" args "tshield2" 14.5 "shieldt")
+	("shield_group" args "tshield3" 14.5 "shieldt")
+
+	("tracks" repair(30) thickness(15))
+	("gun" repair(30) thickness(20))
+
+	("ammo" args "ammo1")
+	("ammo" args "ammo2")
+	("ammo" args "ammo3")
+	("fuel" args "fuel")
+	("transmission" args "transmission")
+
+	{volume "body"			; Hull
+		{thickness 13
+			{top 8}			; Glacis
+			{rear 5}
+			{bottom 5}
+		}
+		{able {holed}}
+	}
+	{volume "body1"			; Superstructure
+		{thickness 13
+			{top 5}
+			{rear 8}
+			{bottom 5}
+		}
+		{able {holed}}
+	}
+	{volume "body2"			; Superstructure
+		{thickness 13
+			{front 8}
+			{rear 8}
+			{bottom 5}
+		}
+	}
+	{volume "engine1"		; Hull
+		{thickness 13
+			{front 5}
+			{top 5}
+			{bottom 5}
+		}
+	}
+	{volume "engine2"		; Superstructure
+		{thickness 13
+			{front 5}
+			{top 8}
+			{bottom 5}
+		}
+	}
+	{Volume "tshield1"			; Superstructure
+		{tags "gun_shield"}
+	}
+	{Volume "tshield2"			; Superstructure
+		{tags "gun_shield"}
+		{able {holed}}
+	}
+	{Volume "tshield3"			; Superstructure
+		{tags "gun_shield"}
+	}
+	{Volume "1"
+		{thickness 1}
+	}
+	{Volume "2"
+		{thickness 1}
+	}
+	{Volume "3"
+		{thickness 1}
+	}

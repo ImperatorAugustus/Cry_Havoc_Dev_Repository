@@ -1,0 +1,105 @@
+;SDL
+	
+	; armor notes
+	; tracks and wheels 15mm
+	; gun 25mm
+	; schürzen 5mm
+	; spare tracks 15mm
+	; mg shield 10mm
+
+	("tank_light_tier2")
+
+	("shield" args "shieldL1" 5)	; Schürzen
+	("shield" args "shieldL2" 5)	; Schürzen
+	("shield" args "shieldL3" 5)	; Schürzen
+	("shield" args "shieldR1" 5)	; Schürzen
+	("shield" args "shieldR2" 5)	; Schürzen
+	("shield" args "shieldR3" 5)	; Schürzen
+	("shield" args "shield1" 15)	; Spare Tracks
+	("shield" args "shield2" 15)	; Spare Tracks
+	("shield" args "shield3" 15)	; Spare Tracks
+	("shield_group" args "shield4" 10 "shield4")		; MG Shield
+	("shield_group" args "shield5" 10 "shield4")		; MG Shield
+
+	("ammo" args "ammo1")
+	("ammo" args "ammo2")
+	("ammo" args "ammo3")
+	("fuel" args "fuel")
+	("transmission" args "transmission")
+
+	{volume "body1"			; Hull Nose
+		{thickness 20
+			{front 60}		; Lower Front (Standard RHA armor)
+			{top 60}		; Glacis (Standard RHA armor)
+		}
+	}
+	{volume "body2"			; Rear Hull
+		{thickness 20		; Sides (20mm Siemens-Marteneit armor) ; Source Hilary Doyle - Panzer Tracts
+			{front 60}		; Lower Front
+			{top 60}		; Glacis
+			{rear 8}
+			{bottom 10}
+		}
+		{Quality "large_flaw"}
+		{CastSteel 0.8063}
+	}
+	{volume "body3"			; Superstructure Front
+		{thickness 20
+			{front 60}		; Glacis (Standard RHA armor)
+			{top 8}
+			{bottom 8}
+		}
+	}
+	{volume "body4"			; Superstructure
+		{thickness 20		; Sides (20mm Siemens-Marteneit armor)  ; Source Hilary Doyle - Panzer Tracts
+			{front 60}		; Glacis
+			{top 8}
+			{rear 8}
+			{bottom 8}
+		}
+		{Quality "large_flaw"}
+		{CastSteel 0.8063}
+	}
+	{volume "body5"			; Structure behind mantlet (Cast Armor)
+		{thickness 60}
+		{CastSteel 0.8063}
+	}
+	{volume "engine1"		; Hull
+		{thickness 20		; Sides/Rear (20mm Siemens-Marteneit armor)  ; Source Hilary Doyle - Panzer Tracts
+			{front 10}
+			{top 10}
+			{bottom 10}
+		}
+		{Quality "large_flaw"}
+	}
+	{volume "engine2"		; Superstructure
+		{thickness 20		; Sides/Rear (20mm Siemens-Marteneit armor)  ; Source Hilary Doyle - Panzer Tracts
+			{front 8}
+			{top 8}
+			{bottom 8}
+		}
+		{Quality "large_flaw"}
+	}
+	{volume "mantlet1"		; (Cast Armor)
+		{thickness 60}
+		{CastSteel 0.8063}
+	}
+	{volume "mantlet2"		; (Cast Armor)
+		{thickness 60}
+		{CastSteel 0.8063}
+	}
+	{volume "mantlet3"		; (Cast Armor)
+		{thickness 60}
+		{CastSteel 0.8063}
+	}
+	{volume "mantlet4"		; (Cast Armor)
+		{thickness 60}
+		{CastSteel 0.8063}
+	}
+
+	{component "shieldl1" {tags "cut_part"}}
+	{component "shieldl2" {tags "cut_part"}}
+	{component "shieldl3" {tags "cut_part"}}
+	{component "shieldr1" {tags "cut_part"}}
+	{component "shieldr2" {tags "cut_part"}}
+	{component "shieldr3" {tags "cut_part"}}

@@ -1,0 +1,95 @@
+;SDL
+	
+	; armor notes
+	; tracks and wheels 30mm
+	; gun 80mm
+	; mud guards 4mm
+
+	("tank_heavy_tier2")
+
+	("shield" args "shieldl3" 4)
+	("shield" args "shieldl4" 4)
+	("shield" args "shieldl5" 4)
+	("shield" args "shieldl6" 4)
+	("shield" args "shieldr3" 4)
+	("shield" args "shieldr4" 4)
+	("shield" args "shieldr5" 4)
+	("shield" args "shieldr6" 4)
+
+	("gun" repair(30) thickness(80))
+	("tracks" repair(30) thickness(30))
+
+	("ammo" args "ammo1")
+	("ammo" args "ammo2")
+	("ammo" args "ammo3")
+	("ammo" args "ammo4")
+	("fuel" args "fuel1")
+	("fuel" args "fuel2")
+	("transmission" args "transmission")
+
+
+	{volume "body1"			; Hull
+		{thickness 60
+			{front 150}		; Lower Nose // 100mm base + 50mm plate bolted on
+			{top 60}		; Glacis
+			{bottom 25}
+		}
+	}
+	{volume "body2"			; Superstructure Bottom
+		{thickness 80
+			{front 150}
+			{bottom 25}
+		}
+	}
+	{volume "body3"			; Superstructure Top
+		{thickness 80
+			{front 150}
+			{top 40}
+		}
+	}
+	{volume "body4"			; MG port
+		{thickness 150}
+		{tags "mg_port"}
+	}
+	{volume "engine1"		; Hull
+		{thickness 60
+			{front 30}
+			{rear 80}
+			{bottom 25}
+		}
+	}
+	{volume "engine2"		; Superstructure
+		{thickness 80
+			{front 30}
+			{top 25}
+			{rear 80}
+		}
+	}
+	{volume "mantlet"		; Armor on Gun
+		{thickness 110}
+		{able {holed}}
+	}
+	{volume "mantlet1"		; Left Cheek
+		{thickness 110}
+		{able {holed}}
+	}
+	{volume "mantlet2"		; Right Cheek
+		{thickness 110}
+	}
+	{volume "barrel"
+		{thickness 80}
+		{able {holed} {Contact 1}}
+	}
+	{volume "rocket"
+		{thickness 10}
+	}
+
+
+	{component "shieldl3" {tags "cut_part"}}
+	{component "shieldl4" {tags "cut_part"}}
+	{component "shieldl5" {tags "cut_part"}}
+	{component "shieldl6" {tags "cut_part"}}
+	{component "shieldr3" {tags "cut_part"}}
+	{component "shieldr4" {tags "cut_part"}}
+	{component "shieldr5" {tags "cut_part"}}
+	{component "shieldr6" {tags "cut_part"}}

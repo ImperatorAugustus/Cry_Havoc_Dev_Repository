@@ -1,0 +1,73 @@
+{game_entity
+	(include "/properties/tank_unarmed.ext")
+	(include "/properties/shadow/tank.inc" scale(0.9))
+	(include "/properties/selection/vehicle.inc" scale(0.8))
+	{props "vehicle" "armored_car" "-turret" "tank" "explosion_throw_crew" "vision_lev02" "tractor" "tractor_heavy"}
+	{extension "stalinetz60.mdl"}
+	{targetclass "armoredcar" "bullet"}
+	{targetSelector "tank_bullet"}
+	{patherId "t40"}
+
+	("armoredcar_tier1")
+
+	{Volume "body1"
+		{thickness 2}
+	}
+	{Volume "body2"
+		{thickness 2}
+	}
+	{Volume "body3"
+		{thickness 2}
+	}
+	{Volume "body4"
+		{thickness 2}
+	}
+	{Volume "fuel"
+		{thickness 2}
+	}
+	{Volume "engine1"
+		{thickness 2}
+	}
+	{Volume "engine2"
+		{thickness 2}
+	}
+	{Volume "engine3"
+		{thickness 2}
+	}
+	{Volume "trackleft"
+		{thickness 10}
+	}
+	{Volume "trackright"
+		{thickness 10}
+	}
+
+	{boarder
+		{anm "right"
+			{forward	{begin	"board_HighArmor"} {end "seat_driver_car"}}
+			{reverse 	{end	"emit_tank_2"}}
+		}
+	}
+
+	("crew_human_visible_anm" place(driver) door(emit1) door2(emit1) visor(main) anm_left(right) anm_right(right))
+
+	{extender "inventory"
+		{box
+		}
+	}
+
+	{mass 9520}
+	{Chassis "track"
+		("tank_trace" fx("tracks_mid") step(0.32) len(1.24))
+		("mobility_tank"
+			speed(6) ;-----------Max speed when fully accelerated on road, km/h.
+			reverse(5) ;---------Max speed in reverse on road, km/h.
+			traverse(12) ;-------Track traverse, per second, in degrees.
+			weight(9.5) ;--------Weight in Tonnes.
+			power(150) ;---------Engine Power, in hp.
+			track(6) ;-----------Track performance: (0,10], 10=ideal. Sluggish tanks and vehicles with narrow and non-gripping tracks have a lower performance.
+			fuel(309) ;----------Fuel capacity in Litres.
+			type(fuel) ;---------Fuel type. (diesel OR fuel)
+			range(100) ;---------Range in km, off-road.
+		)
+	}
+}

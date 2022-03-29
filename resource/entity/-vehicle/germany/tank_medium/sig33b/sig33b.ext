@@ -1,0 +1,47 @@
+; armor notes
+	; tracks and wheels 20mm
+	; gun 30mm
+	; spare tracks 20mm
+
+	("tank_medium_tier2")
+
+	("tracks" repair(30) thickness(15))
+	("gun" repair(30) thickness(15))
+
+	("ammo" args "ammo1")
+	("ammo" args "ammo2")
+	("fuel" args "fuel")
+	("transmission" args "transmission")
+
+	{volume "body1"			; Hull
+		{thickness 30
+			{front 80}		; 50 + 30
+			{top 25}
+			{rear 30}
+			{bottom 15}
+		}
+	}
+	{volume "body2"			; between hull and sups
+		{thickness 50
+			{front 80}		; 50 + 30
+			{top 20}
+			{rear 30}
+			{bottom 15}
+		}
+	}
+	{volume "body3"			; Superstructure
+		{thickness 50
+			{front 80}		; 50 + 30
+			{top 20}
+			{rear 30}
+			{bottom 15}
+		}
+	}
+	{volume "engine"
+		{thickness 30
+			{front 30}
+			{top 16}
+			{rear 30}
+			{bottom 15}
+		}
+	}

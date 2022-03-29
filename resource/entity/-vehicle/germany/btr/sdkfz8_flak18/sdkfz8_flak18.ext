@@ -1,0 +1,56 @@
+;SDL
+
+	("armoredcar_tier2")
+
+	("wheel" args "wheelright1")
+	("wheel" args "wheelleft1")
+
+	("turret" repair(50))
+	("tracks" repair(30) thickness(20))
+	("gun" repair(30) thickness(20))
+
+	("shield_group" args "shield1" 8 "shield")
+	("shield_group" args "shield2" 8 "shield")
+
+	("fuel" args "fuel")
+	("transmission" args "transmission")
+
+	{volume "body1"
+		{thickness 14.5}
+	}
+	{volume "body2"
+		{thickness 14.5
+			{top 8}
+		}
+	}
+	{volume "body3"
+		{thickness 14.5
+			{top 8}
+		}
+		{able {holed}}
+	}
+	{volume "body4"
+		{thickness 14.5
+			{top 8}
+		}
+	}
+	{volume "body5"
+		{thickness 14.5
+			{top 8}
+		}
+	}
+	{volume "body6"
+		{thickness 14.5}
+	}
+	{volume "body7"
+		{thickness 14.5}
+	}
+	{volume "engine"
+		{thickness 2}
+	}
+	{Volume "turret1"
+		{thickness 14.5}
+	}
+	{Volume "turret2"
+		{thickness 14.5}
+	}

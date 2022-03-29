@@ -1,0 +1,91 @@
+;SDL
+	
+	; armor notes
+	; tracks and wheels 15mm
+	; gun 15mm
+	; spare tracks 15mm
+	; 25mm & 15mm plates were add to the hull, superstructure and turret.
+
+	("tank_light_tier1")
+
+	("shield" args "shieldL1" 15)
+	("shield" args "shieldL2" 15)
+	("shield" args "shieldR1" 15)
+
+	("tracks" repair(30) thickness(15))
+	("gun" repair(30) thickness(15))
+
+	("ammo" args "ammo1")
+	("ammo" args "ammo2")
+	("ammo" args "ammo3")
+	("ammo" args "ammo4")
+	("fuel" args "fuel1")
+	("fuel" args "fuel2")
+	("transmission" args "transmission")
+
+	{volume "body1"			; Hull
+		{thickness 15
+			{front 50}		; One plate
+			{top 12}		; Glacis
+			{rear 8}
+			{bottom 8}
+		}
+	}
+	{volume "body2"			; Superstructure
+		{thickness 
+			{front 50}		; One plate
+			{top 8}
+			{left 30}		; 15mm base + 15mm plate
+			{right 30}		; 15mm base + 15mm plate
+			{rear 15}
+			{bottom 8}
+		}
+	}
+	{volume "engine1"		; Hull
+		{thickness 15
+			{front 8}
+			{top 8}
+			{bottom 8}
+		}
+	}
+	{volume "engine2"		; Superstructure
+		{thickness 15
+			{front 8}
+			{top 10}
+			{bottom 8}
+		}
+	}
+	{volume "turret"		; Front side (box shape)
+		{thickness 30
+			{front 50}		; One plate
+			{top 12}
+			{rear 12}
+			{bottom 30}
+		}
+	}
+	{volume "turret1"		; Front half
+		{thickness 30
+			{top 12}
+			{rear 12}
+			{bottom 12}
+		}
+	}
+	{volume "turret2"		; Rear half
+		{thickness 30
+			{front 8}
+			{top 12}
+			{rear 25}
+			{bottom 8}
+		}
+	}
+	{volume "mantlet1"
+		{thickness 25}
+	}
+	{volume "mantlet2"
+		{thickness 25}
+	}
+	{volume "cupola"
+		{thickness 15
+			{top 12}
+		}
+	}

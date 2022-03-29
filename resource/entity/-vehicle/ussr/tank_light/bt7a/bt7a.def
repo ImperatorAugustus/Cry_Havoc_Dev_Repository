@@ -1,0 +1,118 @@
+{game_entity
+	(include "/properties/tank.ext")
+	(include "/properties/shadow/tank.inc" scale(1.0))
+	(include "/properties/selection/vehicle.inc" scale(1.2))
+	{props "light" "turret_rotator" "vision_lev03" "muzzle_75mm_76mm" "diesel" "detect_tank_light"}
+	{extension "bt7a.mdl"}
+	(include "bt7a.ext")
+	{targetclass "tank_light"}
+	{targetSelector "tank_light"}
+	{patherId "bt"}
+	{collider "tank.light"}
+
+	("crew_3_human_2_extended")
+	("crew_human" place(commander) door(emit1) door2(emit2) visor(back))
+
+	{boarder
+		{anm "driver"
+			{forward {begin "board_t26_driver"} {end "pose_t26_driver"} {base "open_driver"}}
+			{reverse {end "board_t26_driver" -1} {base "open_driver" -1}}
+		}
+		{anm "left"
+			{forward {begin "board_kv"}}
+			{reverse {end "emit_tank_1_hold"}}
+		}
+		{anm "right"
+			{forward {begin "board_tank_right"}}
+			{reverse {end "emit_tank_1_hold"}}
+		}
+		{anm "armor"
+			{forward {begin "board_MiddleArmor"} {end "pose_seat_armor_1"}}
+			{reverse {end "emit_tank_1"}}
+		}
+		{anm "armor1"
+			{forward {begin "board_MiddleArmor"} {end "pose_seat_armor_2"}}
+			{reverse {end "emit_body"}}
+		}
+	}
+
+	{extender "shield" {on}}
+
+	("seat_human" place(seat1) bone(seat01) door(emit4) animation(armor))
+	("seat_human" place(seat2) bone(seat02) door(emit5) animation(armor1))
+	("seat_human" place(seat3) bone(seat03) door(emit6) animation(armor))
+	("seat_human" place(seat4) bone(seat04) door(emit7) animation(armor))
+
+	{sensor
+		{visor "back"
+			{vision "tank_back"}
+			{bone "foresight6"}
+		}
+	}
+
+	{extender "inventory"
+		{box
+			{item "bulletrus_76 aphebc" 19}		;50 rounds
+			{item "bulletrus_76 he" 30}
+			{item "ammo mgun_rus dt" 3213}		;53 drums
+			{item "satchel_charge_rus" 1}
+		}
+	}
+
+	{Weaponry
+		("restore_ik_time")
+		{place "gun"
+			{RestoreIKAfterAim}
+			{weapon "76mm_kt26" filling "bulletrus_76 aphebc" 1}
+			{gunner "gunner"}
+			{charger "commander"}
+			("abm_dymamic"
+				zeroing(2.0)
+				dispersion(0.20)
+			)
+		}
+		{place "mgun"
+			{type "coaxial"}
+			{weapon "dt" filling "ammo mgun_rus dt" 63}
+			{foresight "foresight3"}
+			{gunner "gunner"}
+			{charger "commander"}
+			("abm_mgun")
+			{basic}
+		}
+		{place "mgun3"
+			{type "rear"}
+			{weapon "dt" filling "ammo mgun_rus dt" 63}
+			{foresight "foresight6"}
+			{gunner "commander"}
+			{charger "commander"}
+			("abm_mgun")
+			{basic}
+			{ai_in_manual}
+		}
+	}
+
+	{mass 14000}
+	{Chassis
+		("tank_trace" fx("tracks_sm") step(0.3) len(1.05))
+		("mobility_tank"
+			speed(52) ;----------Max speed when fully accelerated on road, km/h.
+			reverse(19) ;--------Max speed in reverse on road, km/h.
+			traverse(30) ;-------Track traverse, per second, in degrees.
+			weight(14.0) ;-------Weight in Tonnes.
+			power(400) ;---------Engine Power, in hp.
+			track(4.5) ;---------Track performance: (0,10], 10=ideal. Sluggish tanks and vehicles with narrow and non-gripping tracks have a lower performance.
+			fuel(650) ;----------Fuel capacity in Litres.
+			type(diesel) ;-------Fuel type. (diesel OR fuel)
+			range(150) ;---------Range in km, off-road.
+		)
+	}
+
+	{bone "gun_rot"
+		{limits -8 25}
+		{speed2 8}
+	}
+	{bone "turret"
+		{speed2 12}
+	}
+}

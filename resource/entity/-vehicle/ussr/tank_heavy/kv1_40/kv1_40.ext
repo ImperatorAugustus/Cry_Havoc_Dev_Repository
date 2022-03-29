@@ -1,0 +1,75 @@
+;SDL
+
+	;notes
+	;tracks and wheels 20mm
+	;gun 30mm
+	;armor plates 25mm
+
+	{volume "body1"
+		{thickness 40
+			{front 75}
+			{top 40}
+			{right 75}
+			{left 75}
+			{rear 10}
+			{bottom 40}
+		}
+	}
+	{volume "body2"
+		{thickness 40
+			{front 75}
+			{top 40}
+			{right 75}
+			{left 75}
+			{rear 10}
+		}
+	}
+	{volume "engine1"
+		{thickness 30
+			{front 10}
+			{right 75}
+			{left 75}
+			{rear 70}
+			{bottom 30}
+		}
+	}
+	{volume "engine2"
+		{thickness 30
+			{front 10}
+			{top 30}
+			{right 75}
+			{left 75}
+			{rear 70}
+		}
+	}
+	{volume "armor"
+		{thickness 25}
+	}
+	{volume "turret1"
+		{thickness 75
+			{top 40}
+			{bottom 40}
+		}
+	}
+	{volume "turret2"
+		{thickness 75
+			{bottom 40}
+		}
+	}
+	{volume "turret3"
+		{thickness 75}
+	}
+	{volume "mantlet"
+		{thickness 90}
+	}
+	{volume "mantlet1"
+		{thickness 75}
+	}
+	{volume "mantlet2"
+		{thickness 75}
+		{CastSteel 0.8063}
+	}
+	{volume "mantlet3"
+		{thickness 75}
+		{CastSteel 0.8063}
+	}

@@ -1,0 +1,59 @@
+{game_entity
+	(include "/properties/armoredcar.ext")
+	(include "/properties/shadow/tank.inc" scale(1.0))
+	(include "/properties/selection/vehicle.inc" scale(1.0))
+	{props "armored_car" "aero_sled" "tank" "wheeled" "vision_lev02" "detect_tank_mg"}
+	{able "emit_passengers_on_enemy"}
+	{extension "nkl26.mdl"}
+	(include "nkl26.ext")
+	{extension "crew.ext"}
+	{patherId "nkl"}
+	{targetclass "armoredcar"}
+	{targetSelector "tank_bullet"}
+
+	{sensor
+		{visor "human"
+			{vision "recon_main"}
+			{bone "visor1"}
+		}
+	}
+
+	{extender "inventory"
+		{weapon "mgun" {mask "mountable"}}
+		{box
+			{item "ammo mgun_rus dt" 567}		; 10 drums (63 rounds each)
+			{item "f1 grenade" 10}
+			{item "dt" filling "ammo mgun_rus dt" 63 {user "mgun"}}
+		}
+	}
+
+	{Weaponry
+		{place "mgun"
+			{gunner "gunner"}
+			{charger "gunner"}
+			{LinkBone "mgun"}
+			{LinkAnimation "off"}
+			("abm_mgun")
+			{basic}
+		}
+	}
+
+	{mass 715}
+	{Chassis "wheel"
+		("car_trace" fx("traceski01") step(0.08) wheell("wlf") wheelr("wrf") bonel("FXtraceL1") boner("FXtraceR1"))
+		("car_trace" fx("traceski01") step(0.08) wheell("wlr") wheelr("wrr") bonel("FXtraceL2") boner("FXtraceR2"))
+		("mobility_car"
+			speed(70) ;-----------Max speed when fully accelerated, km/h.
+			speedatmaxturn(25) ;--Max speed at max turn.
+			reverse(3) ;----------Max speed in reverse, km/h.
+			weight(1.284) ;-------Weight in Tonnes.
+			power(110) ;----------Engine Power, in hp.
+			fuel(140) ;-----------Fuel capacity in Litres.
+			type(fuel) ;----------Fuel type. (diesel OR fuel)
+			range(100) ;----------Range in km, off-road.
+		)
+	}
+	{bone "turret"
+		{speed2 20}
+	}
+}

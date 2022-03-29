@@ -1,0 +1,59 @@
+;SDL
+	
+	; armor notes
+	; tracks and wheels 20mm
+	; gun 30mm
+
+	("tank_heavy_tier1")
+
+	("gun" repair(30) thickness(30))
+
+	("fuel" args "fuel1")
+	("fuel" args "fuel2")
+	("ammo" args "ammo1")
+	("ammo" args "ammo2")
+	("ammo" args "ammo3")
+	("transmission" args "transmission")
+
+	{volume "body1"			; Nose
+		{thickness 60
+			{rear 20}
+			{bottom 20}
+		}
+	}
+	{volume "body2"			; Hull
+		{thickness 60
+			{top 25}
+			{rear 20}
+			{bottom 20}
+		}
+	}
+	{volume "body3"			; Superstructure
+		{thickness 60
+			{top 25}
+			{bottom 20}
+		}
+	}
+	{volume "armor"			; Nose Armor Plate
+		{thickness 25}
+	}
+	{volume "engine1"		; Hull
+		{thickness 60
+			{front 20}
+			{top 20}
+			{bottom 20}
+		}
+	}
+	{volume "engine2"		; Superstructure
+		{thickness 60
+			{top 20}
+			{bottom 20}
+		}
+	}
+	{volume "mantlet1"		; Front Mantlet
+		{thickness 50}
+	}
+	{volume "mantlet2"		; Rear Mantlet
+		{thickness 60}
+		{able {holed}}
+	}

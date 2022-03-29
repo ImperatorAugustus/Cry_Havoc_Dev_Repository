@@ -1,0 +1,45 @@
+;SDL
+
+	; armor notes
+
+	("armoredcar_tier1")
+
+	("shield" args "shield" 8)
+
+	("fuel" args "fuel")
+
+	("solid_wheel" args "wheelright1")
+	("solid_wheel" args "wheelleft1")
+	("solid_wheel" args "wheelright2")
+	("solid_wheel" args "wheelleft2")
+
+	{volume "body"			; Hull
+		{thickness 3}
+		{material "wood"}
+		{tags "wood"}
+	}
+	{volume "body1"			; Metal Plate on Front of Hull
+		{thickness 10}
+	}
+	{volume "engine1"		; Front Cone of Engine
+		{thickness 3}
+	}
+	{volume "engine2"		; Main Engine
+		{thickness 3}
+	}
+
+	{volume "propeller1"
+		{tags "propeller" "still"}
+		{material "wood"}
+		{tags "wood"}
+		{thickness 3.0}
+		{able clear {bullet} {blast} {touch} {contact} {NoWoundDecal}}
+	}
+	
+	{volume "propeller_spin"
+		{tags "propeller" "spin"}
+		{material "wood"}
+		{tags "wood"}
+		{thickness 3.0}
+		{able clear {NoWoundDecal}}
+	}

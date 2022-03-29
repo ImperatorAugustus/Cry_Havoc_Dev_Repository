@@ -1,0 +1,49 @@
+{game_entity
+	(include "/properties/car.ext")
+	(include "/properties/shadow/tank.inc"  scale(1.0))
+	(include "/properties/selection/vehicle.inc"  scale(1.1))
+	{props "vehicle" "car" "wheeled" "truck" "vision_lev02"}
+	{able "emit_on_attack"}
+	{extension "sdah_57.mdl"}
+	
+	("wheel" args "wheelright")
+	("wheel" args "wheelleft")
+
+	("crew_2_human")
+	
+	("crew_human" place(driver) bone(driver) door(emit1) group(crew))
+	("crew_human" place(commander) bone(commander) door(emit2) group(crew))
+
+	{boarder
+		{anm "driver"
+		    {forward	{begin "cannon_lg40_driver2" 10}{end "cannon_lg40_driver2" 10}}
+			{reverse	{end "cannon_lg40_driver2" 10}}
+		}
+		{anm "commander"
+			{forward	{begin "cannon_pak40_pusher_left" 10} {end "cannon_pak40_pusher_left" 10}}
+			{reverse	{end "cannon_pak40_pusher_left" 10}}
+		}
+	}
+	
+	{extender "cannon"
+		{animation
+			{switch "close"}
+			{move "cannon_lg40_driver2" "cannon_pak40_pusher_left"}
+		}
+		{move {obstacle "close"}}
+		{attack {obstacle "open"}}
+	}
+	
+	{volume "ammorack"
+	}
+	{volume "inventory"
+	}
+	{volume "body2"
+	}
+	{volume "body"
+	}
+	{volume "wheell"
+	}
+	{volume "wheelr"
+	}
+}
