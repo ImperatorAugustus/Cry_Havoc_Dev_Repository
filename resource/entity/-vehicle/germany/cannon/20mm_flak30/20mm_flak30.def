@@ -66,10 +66,7 @@
 		{place "gun"
 			{weapon "20mm_flak30" filling "bulletger_20_auto he" 20}
 			{charger "commander"}
-			("abm_dymamic_aaa"
-				zeroing(1.2)
-				dispersion(0.15)
-			)
+			("abm_dymamic_aaa")
 		}
 	}
 

@@ -80,10 +80,7 @@
 		{place "gun"
 			{weapon "28mm_pzb41" filling "bulletger_28 apcr" 1}
 			{RestoreIKAfterAim}
-			("abm_dymamic_gun"
-				zeroing(1.00)
-				dispersion(0.35)
-			)
+			("abm_dymamic_gun")
 		}
 	}
 

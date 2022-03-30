@@ -1,7 +1,7 @@
 ;Changelog
 ;	-V 1.00.00
 ;		-Hangemhighs Realistic Damage Mod and Sounds used as base
-;		-Integrated Conquest Enhanced reverse button and medic auto heal mission script ;
+;		-Integrated Conquest Enhanced reverse button and medic auto heal mission script ;not done yet this is a reminder
 ;		-Increased camera zoom in and out to max
 ;		-Removed ability to see penetration value and damage reports in BZ
 ;		-Turned off lose on zero points by default in BZ
@@ -11,8 +11,8 @@
 ;								{restore	"4.00	1.1	0.75 	0.25	0.10	0.05"}
 ;								;Should help players get back on their feet early game and promote players staying at half cp the rest.
 ;		-Removed all timers from mp buys
-;
-;
+;		-Multiplied all base dispersion by 4; in the works
+;		-Synced ABM for the time being, complex rework later; in the works
 ;
 ;
 ;

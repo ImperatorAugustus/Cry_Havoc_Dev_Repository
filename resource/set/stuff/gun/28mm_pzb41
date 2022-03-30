@@ -21,5 +21,5 @@
 
 	; Sprgr. 41
 
-	("accuracy_direct" r1(0.53) range_ap(160) range_he(160) range_heat(160))
+	("accuracy_direct" r1(2.12) range_ap(160) range_he(160) range_heat(160))
 }
