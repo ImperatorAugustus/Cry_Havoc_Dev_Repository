@@ -105,8 +105,7 @@
 		{place "gun"
 			{weapon "210mm_morser" filling "bulletger_210 he" 1}
 			("abm_dymamic_gun"
-				zeroing(6.0)	; // time it takes to aim until the reticle shrinks. Bigger values, more control.
-				dispersion(1)   ; // time it takes to distort the reticle when you move the gun (how abrupt it loses zeroing). Bigger values, more control.
+
 			)
 		}
 	}
@@ -126,11 +125,11 @@
 	}
 	{bone "gun_rot"
 		{limits -20 50}		;// starting point is +20° elevation range = 0° +70°
-		{speed2 2}
+		{speed2 1}
 	}
 	{bone "turret"
 		{limits -6 6}
-		{speed2 2}
+		{speed2 1}
 	}
 	(mod "mp"
 		{brain

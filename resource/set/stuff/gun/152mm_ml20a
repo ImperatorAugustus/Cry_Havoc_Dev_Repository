@@ -26,5 +26,5 @@
 	("penetration_medium" shell(aphebc) range(200) a(135) b(128) c(119) d(114) e(110))  ;RHA
  ;//("penetration_medium" shell(aphebc) range(200) a(148) b(142) c(135) d(128) e(122))  ;FHA
 
-	("accuracy_spg" r1(0.95) range_ap(200) range_he(200) range_heat(200))
+	("accuracy_spg" r1(3.8) range_ap(200) range_he(200) range_heat(200))
 }

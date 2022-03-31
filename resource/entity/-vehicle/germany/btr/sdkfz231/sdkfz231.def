@@ -39,8 +39,7 @@
 			{gunner "gunner"}
 			{charger "charger"}
 			("abm_dymamic_autocannon"
-				zeroing(2.5)
-				dispersion(0.15)
+
 			)
 		}
 		{place "mgun2"
@@ -72,9 +71,9 @@
 
 	{bone "gun_rot"
 		{limits -10 20}
-		{speed2 15}
+		{speed2 7.5}
 	}
 	{bone "turret"
-		{speed2 15}
+		{speed2 7.5}
 	}
 }

@@ -74,7 +74,7 @@
 	}
 	{bone "turret"
 		{limits -10 10}
-		{speed2 20}
+		{speed2 10}
 	}
 	{bone "foresight"
 		{limits -25 20}

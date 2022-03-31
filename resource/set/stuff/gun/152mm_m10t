@@ -20,5 +20,5 @@
 	; G-530 (Anti-Concrete)? Some sources say, shell was too powerful for KV2 and was not supplied to units
 	("penetration_medium" shell(aphe) range(190) a(122) b(112) c(101) d(91) e(82))
 
-	("accuracy_spg" r1(1.00) range_ap(190) range_he(190) range_heat(190))
+	("accuracy_spg" r1(4.00) range_ap(190) range_he(190) range_heat(190))
 }

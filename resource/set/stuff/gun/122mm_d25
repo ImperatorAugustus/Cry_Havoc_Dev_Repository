@@ -26,5 +26,5 @@
 	("penetration_long" shell(aphebc) range(220) a(205) b(191) c(178) d(166) e(155))  ;RHA
  ;//("penetration_long" shell(aphebc) range(220) a(175) b(166) c(155) d(144) e(135))  ;FHA
 
-	("accuracy_direct" r1(0.60) range_ap(220) range_he(220) range_heat(220))
+	("accuracy_direct" r1(2.4) range_ap(220) range_he(220) range_heat(220))
 }

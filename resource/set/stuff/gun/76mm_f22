@@ -27,5 +27,5 @@
 	("penetration_medium" shell(heat) range(170) a(75) b(75) c(75) d(75) e(75))	; issued sometime in '43
 
 
-	("accuracy_direct" r1(0.85) range_ap(190) range_he(190) range_heat(170))
+	("accuracy_direct" r1(3.4) range_ap(190) range_he(190) range_heat(170))
 }

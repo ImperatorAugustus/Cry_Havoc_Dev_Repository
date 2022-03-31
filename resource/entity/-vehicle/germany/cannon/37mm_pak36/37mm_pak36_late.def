@@ -91,8 +91,7 @@
 			{weapon "37mm_pak35" filling "bulletger_37 aphe" 1}
 			{RestoreIKAfterAim}
 			("abm_dymamic_gun"
-				zeroing(1.00)
-				dispersion(0.35)
+
 			)
 		}
 	}
@@ -111,10 +110,10 @@
 	}
 	{bone "gun_rot"
 		{limits -5 25}
-		{speed2 10}
+		{speed2 5}
 	}
 	{bone "turret"
 		{limits -30 30}
-		{speed2 18}
+		{speed2 9}
 	}
 }

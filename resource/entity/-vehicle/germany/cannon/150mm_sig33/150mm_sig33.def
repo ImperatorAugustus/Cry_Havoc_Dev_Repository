@@ -84,8 +84,7 @@
 			{weapon "150mm_sig33" filling "bulletger_150_l11 he" 1}
 			{RestoreIKAfterAim}
 			("abm_dymamic_gun"
-				zeroing(4.5)
-				dispersion(0.25)
+
 			)
 		}
 	}
@@ -104,10 +103,10 @@
 	}
 	{bone "gun_rot"
 		{limits -4 75}
-		{speed2 8}
+		{speed2 4}
 	}
 	{bone "turret"
 		{limits -5.5 5.5}
-		{speed2 5}
+		{speed2 2.5}
 	}
 }

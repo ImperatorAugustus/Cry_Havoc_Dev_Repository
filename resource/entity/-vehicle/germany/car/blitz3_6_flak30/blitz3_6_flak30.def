@@ -49,8 +49,7 @@
 		{place "gun"
 			{weapon "20mm_flak30" filling "bulletger_20_auto he" 20}
 			("abm_dymamic_aaa"
-				zeroing(2.9)
-				dispersion(0.08)
+
 			)
 		}
 	}
@@ -72,10 +71,10 @@
 	}
 	{bone "gun_rot"
 		{limits -5 88}
-		{speed2 60}
+		{speed2 30}
 	}
 	{bone "turret"
 		{limits -145 145}
-		{speed2 60}
+		{speed2 30}
 	}
 }

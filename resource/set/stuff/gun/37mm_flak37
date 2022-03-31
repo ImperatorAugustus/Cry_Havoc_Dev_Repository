@@ -27,5 +27,5 @@
 		(mod "mp" {unlimitedRangeTPC 1})	;// unrestricts range in TPC/FPC for shooting at aircraft
 	}
 
-	("accuracy_direct" r1(0.55) range_ap(160) range_he(160) range_heat(160))
+	("accuracy_direct" r1(2.2) range_ap(160) range_he(160) range_heat(160))
 }

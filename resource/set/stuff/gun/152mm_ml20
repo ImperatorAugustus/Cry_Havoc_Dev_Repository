@@ -28,7 +28,7 @@
  ;//("penetration_medium" shell(aphebc) range(200) a(148) b(142) c(135) d(128) e(122))  ;FHA
 	
 	("accuracy_indirect"   ; // Applies logic for accuracy of indirect weapons over 200m
-		r1(0.95) 				; // Accuracy radius for direct-fire munitions
+		r1(3.8) 				; // Accuracy radius for direct-fire munitions
 		r2(8) 					; // Accuracy radius for indirect fire
 		rmax(38) 				; // Accuracy radius for indirect fire at maximum range
 		range_ap(200) 			; // Range after which accuracy drops to prevent farshooting.

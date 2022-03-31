@@ -74,8 +74,7 @@
 			{gunner "gunner"}
 			{charger "charger"}
 			("abm_dymamic_stabilised"
-				zeroing(3.0)
-				dispersion(0.20)
+
 			)
 		}
 		{place "mgun2"
@@ -127,9 +126,9 @@
 
 	{bone "gun_rot"
 		{limits -8 18}
-		{speed2 4}
+		{speed2 2}
 	}
 	{bone "turret"
-		{speed2 12} ;// could rotate anywhere from 4° - 20° per second with variable speed hydraulic traverse ; governed
+		{speed2 6} ;// could rotate anywhere from 4° - 20° per second with variable speed hydraulic traverse ; governed
 	}
 }

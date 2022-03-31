@@ -26,5 +26,5 @@
 	; Steil.Gr.41 	;tank guns cannot use the Steilgranate HEAT rounds
 	("penetration_medium" shell(heat) range(0) a(0) b(0) c(0) d(0) e(0))
 
-	("accuracy_direct" r1(0.81) range_ap(160) range_he(160) range_heat(160))
+	("accuracy_direct" r1(3.24) range_ap(160) range_he(160) range_heat(160))
 }

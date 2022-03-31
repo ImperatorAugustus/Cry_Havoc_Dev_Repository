@@ -8,5 +8,5 @@
 	("reload time" seconds(6))
 	{reloadSound "INT/reload/reload_small_6s_INT"}
 
-	("accuracy_direct" r1(0.75) range_ap(190) range_he(190) range_heat(190))
+	("accuracy_direct" r1(2.8) range_ap(190) range_he(190) range_heat(190))
 }

@@ -34,5 +34,5 @@
 	; APDS shot Mk.IT ;March 1944
 	("penetration_medium" shell(apds) range(190) a(177) b(160) c(140) d(123) e(108))
 
-	("accuracy_direct" r1(0.70) range_ap(190) range_he(190) range_heat(190))
+	("accuracy_direct" r1(2.8) range_ap(190) range_he(190) range_heat(190))
 }

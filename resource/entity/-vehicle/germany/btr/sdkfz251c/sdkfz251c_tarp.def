@@ -125,9 +125,9 @@
 		)
 	}
 	{bone "mgun_a_rot1"
-		{speed2 60}
+		{speed2 30}
 	}
 	{bone "mgun_a_rot2"
-		{speed2 60}
+		{speed2 30}
 	}
 }

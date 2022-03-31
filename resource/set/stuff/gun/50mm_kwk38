@@ -33,5 +33,5 @@
 		{range 160 160}
 	}
 
-	("accuracy_direct" r1(0.85) range_ap(170) range_he(160) range_heat(160)) ;// doesn't set range so HEAT doesnt matter
+	("accuracy_direct" r1(3.4) range_ap(170) range_he(160) range_heat(160)) ;// doesn't set range so HEAT doesnt matter
 }

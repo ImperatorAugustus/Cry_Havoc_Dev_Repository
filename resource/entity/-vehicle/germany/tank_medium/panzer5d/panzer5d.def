@@ -74,8 +74,7 @@
 			{gunner "gunner"}
 			{charger "charger"}
 			("abm_dymamic_stabilised"
-				zeroing(3.0)
-				dispersion(0.20)
+
 			)
 		}
 		{place "mgun2"
@@ -117,9 +116,9 @@
 
 	{bone "gun_rot"
 		{limits -8 18}
-		{speed2 4}
+		{speed2 2}
 	}
 	{bone "turret"
-		{speed2 6} ;// could rotate anywhere from 4° - 24° per second with variable speed hydraulic traverse ; panther D has very low traverse rate, hydraulic but not connected to the engine rpm like later models
+		{speed2 3} ;// could rotate anywhere from 4° - 24° per second with variable speed hydraulic traverse ; panther D has very low traverse rate, hydraulic but not connected to the engine rpm like later models
 	}
 }

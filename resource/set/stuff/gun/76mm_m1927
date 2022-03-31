@@ -18,6 +18,6 @@
 	; BP-350M
 	("penetration_medium" shell(heat) range(160) a(75) b(75) c(75) d(75) e(75))	; issued sometime in '43
 
-	("accuracy_spg" r1(1.20) range_ap(160) range_he(160) range_heat(160))
+	("accuracy_spg" r1(4.80) range_ap(160) range_he(160) range_heat(160))
 	{unlimitedRangeTPC 0}   ;// restrict range in TPC/FPC
 }

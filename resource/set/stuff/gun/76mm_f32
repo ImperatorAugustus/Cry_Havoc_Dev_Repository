@@ -27,5 +27,5 @@
 	; BP-350A  ; only issued to ZiS-3,5 & F-34 guns
 	("penetration_medium" shell(heat) range(170) a(75) b(75) c(75) d(75) e(75))	; issued sometime in '43
 
-	("accuracy_direct" r1(0.93) range_ap(190) range_he(190) range_heat(170))
+	("accuracy_direct" r1(3.72) range_ap(190) range_he(190) range_heat(170))
 }

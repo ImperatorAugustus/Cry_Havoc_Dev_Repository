@@ -80,9 +80,9 @@
 	}
 	{bone "gun_rot"
 		{limits -12 88}
-		{speed2 60}
+		{speed2 30}
 	}
 	{bone "turret"
-		{speed2 60}
+		{speed2 30}
 	}
 }

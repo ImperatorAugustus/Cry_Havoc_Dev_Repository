@@ -19,5 +19,5 @@
 	; Gr.39 Hl/A
 	("penetration_medium" shell(heat) range(170) a(185) b(185) c(185) d(185) e(185))
 
-	("accuracy_spg" r1(1.20) range_ap(170) range_he(170) range_heat(170))
+	("accuracy_spg" r1(4.8) range_ap(170) range_he(170) range_heat(170))
 }

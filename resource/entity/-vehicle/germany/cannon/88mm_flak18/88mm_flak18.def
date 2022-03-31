@@ -116,8 +116,7 @@
 			{RestoreIKAfterAim}
 			{weapon "88mm_flak18" filling "bulletger_88_l56 apcbche" 1}
 			("abm_dymamic_aa"
-				zeroing(2.25)
-				dispersion(0.50)
+
 			)
 		}
 	}
@@ -135,9 +134,9 @@
 
 	{bone "gun_rot"
 		{limits -3 85}
-		{speed2 15}
+		{speed2 7.5}
 	}
 	{bone "turret"
-		{speed2 20}
+		{speed2 10}
 	}
 }

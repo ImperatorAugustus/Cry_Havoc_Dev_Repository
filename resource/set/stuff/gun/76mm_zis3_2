@@ -9,5 +9,5 @@
   	{reloadSound 		"tank/reload_medium"}
 
 	("reload time" seconds(5.0))
-	("accuracy_direct" r1(0.85) range_ap(190) range_he(190) range_heat(170))
+	("accuracy_direct" r1(3.4) range_ap(190) range_he(190) range_heat(170))
 }

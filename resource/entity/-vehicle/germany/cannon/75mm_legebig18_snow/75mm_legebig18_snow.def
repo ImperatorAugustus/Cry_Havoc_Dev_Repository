@@ -88,8 +88,7 @@
 			{weapon "75mm_leig18" filling "bulletger_75_l24 he" 1}
 			{RestoreIKAfterAim}
 			("abm_dymamic_gun"
-				zeroing(4)
-				dispersion(0.25)
+
 			)
 		}
 	}
@@ -108,10 +107,10 @@
 	}
 	{bone "gun_rot"
 		{limits -10 75}
-		{speed2 4}
+		{speed2 2}
 	}
 	{bone "turret"
 		{limits -12 12}
-		{speed2 3}
+		{speed2 1.5}
 	}
 }

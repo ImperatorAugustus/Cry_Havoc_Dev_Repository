@@ -88,8 +88,7 @@
 			{weapon "47mm_pakt" filling "bulletger_47 apche" 1}
 			{RestoreIKAfterAim}
 			("abm_dymamic_gun"
-				zeroing(1.25)
-				dispersion(0.35)
+
 			)
 		}
 	}
@@ -108,10 +107,10 @@
 	}
 	{bone "gun_rot"
 		{limits -8 26}
-		{speed2 10}
+		{speed2 5}
 	}
 	{bone "turret"
 		{limits -25 25}
-		{speed2 15}
+		{speed2 7.5}
 	}
 }

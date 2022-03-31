@@ -8,5 +8,5 @@
 	{fireSoundClose "gun/Shared/int/medium/"}
 	{reloadSound "INT/reload/reload_medium_6s_INT"}
 
-	("accuracy_direct" r1(0.85) range_ap(170) range_he(170) range_heat(170))
+	("accuracy_direct" r1(3.4) range_ap(170) range_he(170) range_heat(170))
 }

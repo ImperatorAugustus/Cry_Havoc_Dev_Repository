@@ -88,8 +88,7 @@
 			{weapon "105mm_lefh18" filling "ammo bulletger_105 he" 1}
 			{RestoreIKAfterAim}
 			("abm_dymamic_gun"
-				zeroing(4.0)	; // time it takes to aim until the reticle shrinks. Bigger values, more control.
-				dispersion(1)   ; // time it takes to distort the reticle when you move the gun (how abrupt it loses zeroing). Bigger values, more control.
+
 			)
 		}
 	}
@@ -108,10 +107,10 @@
 	}
 	{bone "gun_rot"
 		{limits -6 40}
-		{speed2 5}
+		{speed2 2.5}
 	}
 	{bone "turret"
 		{limits -28 28}
-		{speed2 5}
+		{speed2 2.5}
 	}
 }
