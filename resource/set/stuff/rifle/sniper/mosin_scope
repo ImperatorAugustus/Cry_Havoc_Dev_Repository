@@ -9,6 +9,8 @@
 	{calibre 7.62}
 	{mass 4}
 
+	{range 166 166}
+
 	("velocity" mps(865))
 	
 	("scopeview" scope(zoom_vignette_scope_rus_pe))

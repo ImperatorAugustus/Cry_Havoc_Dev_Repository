@@ -25,8 +25,8 @@
 
 	("accuracy_indirect"		; // Applies logic for accuracy of indirect weapons over 200m
 		r1(4.2) 				; // Accuracy radius for direct-fire munitions
-		r2(8) 					; // Accuracy radius for indirect fire
-		rmax(17) 				; // Accuracy radius for indirect fire at maximum range
+		r2(24) 					; // Accuracy radius for indirect fire
+		rmax(51) 				; // Accuracy radius for indirect fire at maximum range
 		range_ap(180) 			; // Range after which accuracy drops to prevent farshooting
 		range_heat(180) 		; // Range after which accuracy drops to prevent farshooting
 		range_he(360)			; // Range after which accuracy drops to prevent farshooting

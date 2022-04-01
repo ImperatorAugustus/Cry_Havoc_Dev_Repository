@@ -14,10 +14,11 @@
 	{cursor "ironsights/mg"}
 	{cursorReloading "carbine_reload"}
 
-	{range 132 132}
+	{range 125 125}
 	("sway")
 	{Spreading
-		{SpreadXYRatio	1.2}
+		{SpreadXYRatio	0.7}
+		{SpreadPower 1.5}
 	}
 
 	("reload time" seconds(5))

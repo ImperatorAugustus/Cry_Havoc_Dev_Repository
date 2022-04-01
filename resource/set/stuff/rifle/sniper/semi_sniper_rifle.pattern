@@ -11,7 +11,7 @@
 
 	{cursor "ironsights/mg"}
 
-	{range 132 132}
+	{range 125 125}
 
 	{spreading
 		{BurstAccuracy 100 90 80 70 60 50}

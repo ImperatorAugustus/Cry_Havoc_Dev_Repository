@@ -8,6 +8,9 @@
 	{reloadSound "kar98"}
 	{calibre 7.92}
 	{mass 3.9}
+	
+	{range 172 172}
+	
 	("velocity" mps(760))
 
 	("scopeview" scope(zoom_vignette_scope_ger_k98))

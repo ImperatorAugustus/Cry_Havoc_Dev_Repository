@@ -16,7 +16,8 @@
 
 	("reload time" seconds(6))
 	("fire rate" rpm(29))
-
+	
+	("sway")
 
 	("armor health" damage(4))
 

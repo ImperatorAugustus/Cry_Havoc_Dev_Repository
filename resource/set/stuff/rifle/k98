@@ -12,6 +12,7 @@
 
 	("bolt_action")
 	("k98_rate")
+	("accuracy_3_MoA")
 
 	{curve "rifle_heavy_ball"}
 	("muzzle_energy_rifle_caliber" j(3603.29))		; SmE 1940

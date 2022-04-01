@@ -17,7 +17,10 @@
 
 	{SpreadTolerance 0.3}			;// AI needs to aim 30%
 	
-	("spreading")
+	{spreading
+	{SpreadPower 2}
+	{SpreadXYRatio	0.5}
+	}
 	("burst")
 	("zero")
 	("sway")

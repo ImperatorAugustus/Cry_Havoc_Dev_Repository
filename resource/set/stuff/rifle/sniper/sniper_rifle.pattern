@@ -20,7 +20,7 @@
 	{cursor "ironsights/mg"}
 	{foresight "foresight12"}
 
-	{range 132 132}
+	{range 125 125}
 
 	{ZeroingAccuracy 0.9 0.8 0.7 0.6 0.5}
 

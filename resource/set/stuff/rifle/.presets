@@ -40,7 +40,7 @@
 
 
 (define "marksman"
-	{range 120 120}
+	{range 125 125}
 	{ZeroingAccuracy 0.9 0.85 0.8 0.75 0.7 0.65 0.6}
 	("fire rate" rpm(50))
 )
@@ -58,7 +58,7 @@
 ;/*=========================*/ Weapon Profiles BEGIN
 (define "bolt_action"
 	{tag "bolt_action"}
-	{range 120 120}
+	{range 125 125}
 	("sway")
 	("accuracy_3_MoA")
 	("zero_short")
@@ -74,7 +74,7 @@
 )
 (define "semi_rifle"
 	{tag "auto_eject"}
-	{range 120 120}
+	{range 88 125}
 	{Automatic}
 	("sway")
 	("accuracy_3_MoA")
@@ -88,7 +88,7 @@
 )
 (define "semi_rifle_inter" ; Intermediate Caliber, with Semi-Auto Only; SKS
 	{tag "auto_eject"}
-	{range 96 120}					; Intermediate-Caliber Weapons have Point-Target Max-Effective Range of 300m, 500m for Area-Target
+	{range 70 100}					; Intermediate-Caliber Weapons have Point-Target Max-Effective Range of 300m, 500m for Area-Target
 	{Automatic}
 	("sway")
 	("accuracy_3_MoA")
@@ -102,7 +102,7 @@
 (define "auto_rifle" ; Rifle Caliber, with Select-Fire Capability; AVS 36, AVT 40, FG 42, M 14, FAL
 	{tag "autorifle_sup auto_eject"}
 	{Automatic}
-	{range 120 120}
+	{range 63 125}
 	("sway")
 	("accuracy_3_MoA")
 	("burst_select_fire")
@@ -117,7 +117,7 @@
 
 (define "assault_rifle"	; Intermediate Caliber, with Select-Fire Capability; StG 44, AK 47/AKM, M16 	
 	{tag "autorifle_sup auto_eject"}
-	{range 96 120}
+	{range 50 100}
 	{Automatic}
 	("sway")
 	("accuracy_3_MoA")

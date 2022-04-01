@@ -421,12 +421,10 @@
 	{SpreadTolerance 0.60}		;// Zeroing up to 60% needed before fire
 	{ZeroingAccuracy 0.8 0.65 0.55 0.5 0.45}
 	{spreading {SpreadXYRatio 0.4}}
-	{parameters "he" {spreading {SpreadXYRatio 1.5}}}
 )
 (define "indirect_settings"
 	{SpreadTolerance 0.75}		;// Zeroing up to 75% needed before fire
 	{ZeroingAccuracy 0.8 0.65 0.55 0.5 0.45}
-	{spreading {SpreadXYRatio 3}}
 )
 
 ;/*============================== RANGES AND SPECIFICS ==============================*/
@@ -435,10 +433,11 @@
 	("standard_firing_arc")
 	{range 150 150}
 	{automatic}
+	{ZeroingAccuracy 0.9 0.83 0.78 0.76 0.74}
 	{aimingTolerance 10}
 	{SpreadTolerance 0}			;// Zeroing up to 0% needed before fire
 	{spreading
-		{SpreadPower 1}
+		{SpreadPower 2}
 		{BurstRecoveryTime 0.5}
 		{BurstAccuracy 100 95 90 85 80}
 		{SpreadXYRatio	0.5}
@@ -456,6 +455,7 @@
 	("standard_firing_arc")
 	{range 150 150}
 	{automatic}
+	{ZeroingAccuracy 0.9 0.83 0.78 0.76 0.74}
 	{aimingTolerance 3}
 	{SpreadTolerance 0}			;// Zeroing up to 0% needed before fire
 	{spreading
@@ -477,6 +477,7 @@
 	("standard_firing_arc")
 	{range 160 160}
 	{automatic}
+	{ZeroingAccuracy 0.9 0.83 0.78 0.76 0.74}
 	{aimingTolerance 3}
 	{SpreadTolerance 0}			;// Zeroing up to 0% needed before fire
 	{spreading
@@ -504,65 +505,109 @@
 (define "range_170"
 	("standard_firing_arc")
 	{range 170 170}
+	{spreading
+	{SpreadPower 2}
+	{SpreadXYRatio	0.5}
+	}
 	("direct_settings")
 )
 (define "range_180"
 	("standard_firing_arc")
 	{range 180 180}
+	{spreading
+	{SpreadPower 2}
+	{SpreadXYRatio	0.5}
+	}
 	("direct_settings")
 )
 (define "range_190"
 	("standard_firing_arc")
 	{range 190 190}
+	{spreading
+	{SpreadPower 2}
+	{SpreadXYRatio	0.5}
+	}
 	("direct_settings")
 )
 (define "range_200"
 	("standard_firing_arc")
 	{range 200 200}
+	{spreading
+	{SpreadPower 2}
+	{SpreadXYRatio	0.5}
+	}
 	("direct_settings")
 )
 (define "range_210"
 	("standard_firing_arc")
 	{range 210 210}
+	{spreading
+	{SpreadPower 2}
+	{SpreadXYRatio	0.5}
+	}
 	("direct_settings")
 )
 (define "range_220"
 	("standard_firing_arc")
 	{range 220 220}
+	{spreading
+	{SpreadPower 2}
+	{SpreadXYRatio	0.5}
+	}
 	("direct_settings")
 )
 
 (define "range_160_howitzer"
 	("curved_firing_arc")
 	{range 160 160}
+	{spreading
+	{SpreadPower 2}
+	{SpreadXYRatio	0.5}
+	}
 	("indirect_settings")
 )
 (define "range_170_howitzer"
 	("curved_firing_arc")
 	{range 170 170}
+	{spreading
+	{SpreadPower 2}
+	{SpreadXYRatio	0.5}
+	}
 	("indirect_settings")
 )
 (define "range_180_howitzer"
 	("curved_firing_arc")
 	{range 180 180}
+	{spreading
+	{SpreadPower 2}
+	{SpreadXYRatio	0.5}
+	}
 	("indirect_settings")
 )
 (define "range_190_howitzer"
 	("curved_firing_arc")
 	{range 190 190}
+	{spreading
+	{SpreadPower 2}
+	{SpreadXYRatio	0.5}
+	}
 	("indirect_settings")
 )
 (define "range_200_howitzer"
 	("curved_firing_arc")
 	{range 200 200}
+	{spreading
+	{SpreadPower 2}
+	{SpreadXYRatio	0.5}
+	}
 	("indirect_settings")
 )
 
 (define "medium_artillery"
-	{spreading 1 
-		{SpreadPower 1.00}    ;// Shot has en equal chance of landing anywhere on the aiming circle, no centre-bias
-		{SpreadXYRatio 0.75}  ;// Shots land more longitudinally than traversely.
-	} 
+	{spreading
+	{SpreadPower 2}
+	{SpreadXYRatio	0.5}
+	}
 	{ZeroingAccuracy 0.9 0.8 0.7 0.6 0.5 0.4}
 	("artillery_firing_arc")
 	{SpreadTolerance 0.85}		;// Zeroing up to 85% needed before fire
@@ -573,8 +618,8 @@
 
 (define "heavy_artillery"
 	{spreading 1 
-		{SpreadPower 1.00}    ;// Shot has en equal chance of landing anywhere on the aiming circle, no centre-bias
-		{SpreadXYRatio 0.75}  ;// Shots land more longitudinally than traversely.
+		{SpreadPower 2.00}    ;// Shot has en equal chance of landing anywhere on the aiming circle, no centre-bias
+		{SpreadXYRatio 0.5}  ;// Shots land more longitudinally than traversely.
 	} 
 	{ZeroingAccuracy 0.9 0.8 0.7 0.6 0.5 0.4}
 	("artillery_firing_arc")
@@ -585,10 +630,10 @@
 )
 
 (define "super_heavy_artillery"
-	{spreading 1 
-		{SpreadPower 1.00}    ;// Shot has en equal chance of landing anywhere on the aiming circle, no centre-bias
-		{SpreadXYRatio 0.75}  ;// Shots land more longitudinally than traversely.
-	} 
+	{spreading 
+		{SpreadPower 1.25}    ;// Shot has en equal chance of landing anywhere on the aiming circle, no centre-bias
+		{SpreadXYRatio 0.5}  ;// Shots land more longitudinally than traversely.
+	}
 	{ZeroingAccuracy 0.9 0.8 0.7 0.6 0.5}
 	("artillery_firing_arc")
 	{SpreadTolerance 0.85}		;// Zeroing up to 85% needed before fire

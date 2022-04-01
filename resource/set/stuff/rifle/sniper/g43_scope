@@ -8,6 +8,8 @@
 	{reloadSound "g43"}
 	{calibre 7.92}
 	{mass 4.4}
+	
+	{range 172 172}
 
 	("velocity" mps(745))
 	("zeroing_boost")

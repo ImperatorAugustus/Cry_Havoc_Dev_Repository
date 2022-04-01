@@ -31,8 +31,13 @@
 	{FiringTimeout 3 0.5}
 
 	("recoil_high")
+	
+	{spreading
+	{SpreadPower 2}
+	{SpreadXYRatio	0.5}
+	}
 
-	{range 120 120}
+	{range 180 180}
 
 	{ZeroingAccuracy 0.85 0.75 0.7 0.65}
 

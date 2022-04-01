@@ -25,7 +25,7 @@
 	("accuracy_by_motion"
 		max_linear(10) accuracy_by_linear(0.25)
 		max_angular(8) accuracy_by_angular(0.35)
-		disorder_time(%dispersion) order_time(%zeroing)
+        disorder_time(1.0) order_time(2)
 	)
 )
 
@@ -41,7 +41,7 @@
 	("accuracy_by_motion"
 		max_linear(10) accuracy_by_linear(0.4)
 		max_angular(8) accuracy_by_angular(0.50)
-		disorder_time(%dispersion) order_time(%zeroing)
+        disorder_time(1.0) order_time(2)
 	)
 )
 
@@ -57,7 +57,7 @@
 	("accuracy_by_motion"
 		max_linear(10) accuracy_by_linear(0.30)
 		max_angular(12) accuracy_by_angular(0.35)
-		disorder_time(%dispersion) order_time(%zeroing)
+        disorder_time(1.0) order_time(2)
 	)
 )
 (define "abm_dymamic_aaa" ; aa auto cannons
@@ -89,7 +89,7 @@
     ("accuracy_by_motion"
         max_linear(10) accuracy_by_linear(0.6)
         max_angular(4) accuracy_by_angular(0.5)
-        disorder_time(1.0) order_time(1.6)
+        disorder_time(1.0) order_time(2)
     )
 )
 (define "abm_dymamic_stabilised"
@@ -104,7 +104,7 @@
 	("accuracy_by_motion"
 		max_linear(20) accuracy_by_linear(0.55)
 		max_angular(10) accuracy_by_angular(0.55)
-		disorder_time(%dispersion) order_time(%zeroing)
+        disorder_time(1.0) order_time(2)
 	)
 )
 (define "abm_dymamic_poor"
@@ -119,7 +119,7 @@
 	("accuracy_by_motion"
 		max_linear(10) accuracy_by_linear(0.25)
 		max_angular(5) accuracy_by_angular(0.25)
-		disorder_time(%dispersion) order_time(%zeroing)
+        disorder_time(1.0) order_time(2)
 	)
 )
 
@@ -135,7 +135,7 @@
     ("accuracy_by_motion"
         max_linear(3) accuracy_by_linear(0.5)
         max_angular(2) accuracy_by_angular(0.6)
-        disorder_time(1.0) order_time(4.0)
+        disorder_time(1.0) order_time(2)
     )
 )     
 
@@ -147,10 +147,11 @@
 ;    )
 ;)
 ;OLD ROBZ MOWAS2
+
     ("accuracy_by_motion"
         max_linear(12) accuracy_by_linear(0.9)
         max_angular(4) accuracy_by_angular(0.9)
-        disorder_time(1.6) order_time(2)
+        disorder_time(1.0) order_time(2)
     )
 )
 
@@ -169,7 +170,7 @@
 	("accuracy_by_motion"
 		max_linear(8) accuracy_by_linear(0.4)
 		max_angular(30) accuracy_by_angular(0.5)
-		disorder_time(0.6) order_time(2)
+		disorder_time(1.0) order_time(3)
 	)
 )
 (define "abm_human"
@@ -184,7 +185,7 @@
 	("accuracy_by_motion"
 		max_linear(15) accuracy_by_linear(0.4)				;// aim accuracy on actor movement
 		max_angular(45) accuracy_by_angular(0.4)				;// aim accuracy on aim movement
-		disorder_time(0.5) order_time(2.0)
+		disorder_time(1.0) order_time(3.0)
 	)
 )
 

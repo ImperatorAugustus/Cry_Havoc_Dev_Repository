@@ -92,25 +92,29 @@
 ;------------------------------	Spreading 
 (define "spreading_mounted"					;// Reduction in Accuracy with subsequent shots
 	{spreading
-		{SpreadPower 1.25} 
+		{SpreadXYRatio	0.7}
+		{SpreadPower 1.5}
 		{BurstAccuracy 100 98 94 88 83 76 72 67 62 57 52}
 	}
 )
 (define "spreading_low"
 	{spreading
-		{SpreadPower 1.25}
+		{SpreadXYRatio	0.7}
+		{SpreadPower 1.5}
 		{BurstAccuracy 100 99.1 97.8 95.7 92.7 88.1 81.3 71.0 55.7 32.6}
 	}
 )
 (define "spreading_medium"
 	{spreading
-		{SpreadPower 1.25}
+		{SpreadXYRatio	0.7}
+		{SpreadPower 1.5}
 		{BurstAccuracy 100 98.6 96.5 93.4 88.6 81.5 70.9 55.0 31.0}
 	}
 )
 (define "spreading_high"
 	{spreading
-		{SpreadPower 1.25} 
+		{SpreadXYRatio	0.7}
+		{SpreadPower 1.5}
 		{BurstAccuracy 100 97.9 94.6 89.8 82.5 71.6 55.3 30.8}
 	}
 )

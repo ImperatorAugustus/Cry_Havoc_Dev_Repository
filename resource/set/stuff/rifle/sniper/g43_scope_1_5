@@ -1,0 +1,8 @@
+(from "g43_scope"
+	{desc "G 43, ZF 4"}
+	{tag "G43 rifle_shell"}
+	{filling "ammo rifle_ger" 10}
+	{entity "g43_scope"}
+	{range 143 143}
+)
+

@@ -18,6 +18,11 @@
 	("burst_medium")
 	("spreading_medium")
 
+	("sway")
+	{Spreading
+		{SpreadXYRatio	0.7}
+		{SpreadPower 1.5}
+	}
 	("accuracy_3_MoA")
 	("ap_slope_multiplier")
 	{range 144 156}

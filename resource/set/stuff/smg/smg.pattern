@@ -22,7 +22,8 @@
 
 	{spreading
 		{BurstAccuracy 100 95 90 85 80 75 70 65 60}
-		{SpreadXYRatio	1.5}
+		{SpreadXYRatio	0.5}
+		{SpreadPower 2}
 	}
 	{FiringTimeout 0.85 0.15}
 

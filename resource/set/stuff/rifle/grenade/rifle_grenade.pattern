@@ -29,7 +29,8 @@
 	("recoil_high")
 
 	{spreading 2.3
-		{SpreadXYRatio 0.75}
+		{SpreadXYRatio 0.5}
+		{SpreadPower 2}
 	}
 	{ZeroingAccuracy 0.9 0.8 0.7}
 

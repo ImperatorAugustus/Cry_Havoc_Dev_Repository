@@ -60,23 +60,24 @@
 		("plane_range" r1(1.0) globalaccuracy(0.75))
 	)
 ;/*----------- MoA Based Weapon Accuracy Model -----------*/
+;Human MOA=0.0254* MOA * n * 1.05^n 
 	(define "accuracy_1_MoA"
-		("range"	r0(0.0266) r1(0.0532) r2(0.0798) r3(0.1064) r4(0.1330) r5(0.1596) r6(0.2659) globalaccuracy(4))
+		("range"	r0(0.0263) r1(0.056) r2(0.0882) r3(0.1235) r4(0.1621) r5(0.204) r6(0.4137) globalaccuracy(6))
 	)
 	(define "accuracy_2_MoA"
-		("range"	r0(0.0532) r1(0.1064) r2(0.1596) r3(0.2128) r4(0.2659) r5(0.3191) r6(0.5319) globalaccuracy(4))
+		("range"	r0(0.0533) r1(0.112) r2(0.1764) r3(0.247) r4(0.3242) r5(0.4085) r6(0.8275) globalaccuracy(6))
 	)
 	(define "accuracy_3_MoA"
-		("range"	r0(0.0798) r1(0.1596) r2(0.2393) r3(0.3191) r4(0.3989) r5(0.4787) r6(0.7978) globalaccuracy(4))
+		("range"	r0(0.08) r1(0.168) r2(0.246) r3(0.3705) r4(0.4863) r5(0.6127) r6(1.24) globalaccuracy(6))
 	)
 	(define "accuracy_3_MoA_Pistol"
-		("pistol_range"	r0(0.0798) r1(0.1596) r2(0.7978) globalaccuracy(4.5))
+		("pistol_range"	r0(0.08) r1(0.168) r2(0.6127) globalaccuracy(6.75))
 	)
 	(define "accuracy_4_MoA"
-		("range"	r0(0.1064) r1(0.2128) r2(0.3191) r3(0.4255) r4(0.5319) r5(0.6383) r6(1.0638) globalaccuracy(4))
+		("range"	r0(0.1067) r1(0.224) r2(0.3528) r3(0.494) r4(0.6484) r5(0.8169) r6(1.655) globalaccuracy(6))
 	)
 	(define "accuracy_4_MoA_Pistol"
-		("pistol_range"	r0(0.1064) r1(0.2128) r2(1.0638) globalaccuracy(4.5))
+		("pistol_range"	r0(0.1067) r1(0.224) r2(0.8169) globalaccuracy(6.75))
 	)
 ;/*----------- MoA Based Weapon Accuracy Model -----------*/
 
@@ -85,12 +86,12 @@
 
  	(define "range"
 		{spreading
-			{radiusTable {0 0.01} {24 (* %globalaccuracy %r0)} {48 (* %globalaccuracy %r1)} {72 (* %globalaccuracy %r2)} {96 (* %globalaccuracy %r3)} {120 (* %globalaccuracy %r4)} {144 (* %globalaccuracy %r5)} {240 (* %globalaccuracy %r6)}}
+			{radiusTable {0 0.01} {25 (* %globalaccuracy %r0)} {50 (* %globalaccuracy %r1)} {75 (* %globalaccuracy %r2)} {100 (* %globalaccuracy %r3)} {125 (* %globalaccuracy %r4)} {150 (* %globalaccuracy %r5)} {250 (* %globalaccuracy %r6)}}
 		}
 	)
  	(define "pistol_range"
 		{spreading
-			{radiusTable {0 0.01} {20 (* %globalaccuracy %r0)} {40 (* %globalaccuracy %r1)} {200 (* %globalaccuracy %r2)}}
+			{radiusTable {0 0.01} {25 (* %globalaccuracy %r0)} {50 (* %globalaccuracy %r1)} {150 (* %globalaccuracy %r2)}}
 		}
 	)
 	(define "smg_range"
