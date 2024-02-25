@@ -4,7 +4,5 @@
 
 
 {from "20mm_flak38"			; "flak30"
-	{fireSound 	"gun/GER/2cm_KwK30/close/"}
-	{fireSoundclose "gun/GER/2cm_KwK30/close/"}
 	("fire rate" rpm(280))
 }

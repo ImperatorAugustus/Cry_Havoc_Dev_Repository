@@ -1,0 +1,3914 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Call to Arms (dlg_mp)\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"X-Generator: Poedit 3.0\n"
+
+msgctxt "mp/presets/unit/early"
+msgid "Early (1939-41)"
+msgstr ""
+
+msgctxt "mp/presets/unit/mid"
+msgid "Mid (1941-43)"
+msgstr ""
+
+msgctxt "mp/presets/unit/late"
+msgid "Late (1943-45)"
+msgstr ""
+
+msgctxt "mp/settings/teama"
+msgid "A Team"
+msgstr ""
+
+msgctxt "mp/msg_lobby_full"
+msgid "Lobby is full"
+msgstr ""
+
+msgctxt "mp/lobby/setup/replay.workshopid"
+msgid "Workshop ID"
+msgstr ""
+
+msgctxt "mp/lobby/setup/replay.path"
+msgid "Location"
+msgstr ""
+
+msgctxt "mp/lobby/setup/replay.duration"
+msgid "Duration"
+msgstr ""
+
+msgctxt "mp/msg_steam_connecting_failed"
+msgid "Connection failed"
+msgstr ""
+
+msgctxt "mp/scene/chat/default"
+msgid "<b+c(cec7c3)>%s"
+msgstr ""
+
+msgctxt "mp/msg_connecting"
+msgid "Connecting..."
+msgstr ""
+
+msgctxt "mp/game/auto"
+msgid "Auto-selection"
+msgstr ""
+
+msgctxt "mp/search_replay/title"
+msgid "<f(impact)s(28)c(255 255 255)>Search Replays"
+msgstr ""
+
+msgctxt "mp/presets/browser/tags/all"
+msgid "Standard"
+msgstr ""
+
+msgctxt "mp/msg_starting"
+msgid "Starting multiplayer..."
+msgstr ""
+
+msgctxt "mp/lobby/hint/game"
+msgid "Opened/Total/Available"
+msgstr ""
+
+msgctxt "mp/lobby/any_mode"
+msgid "Classic and Third Person (Interchangable)"
+msgstr ""
+
+msgctxt "mp/title_status"
+msgid "<f(pobeda)s(27)b+c(faeacb)e(shadow)x.y.>Status"
+msgstr ""
+
+msgctxt "mp/lobby/blocked/permanent"
+msgid ""
+"You have been permanently banned from internet games due to violation of "
+"online rules."
+msgstr ""
+
+msgctxt "mp/statistics2/units/title"
+msgid "UNITS"
+msgstr ""
+
+msgctxt "mp/msg_post_not_delivered"
+msgid "Message to %1% was not delivered"
+msgstr ""
+
+msgctxt "mp/lobby/txt_creatingserver"
+msgid "Creating server instance"
+msgstr ""
+
+msgctxt "mp/lobby/txt_creatingserver2"
+msgid "Creating server instance"
+msgstr ""
+
+msgctxt "mp/lobby/txt_creatingservererror"
+msgid "Failed to create server instance (Error %1%)"
+msgstr ""
+
+msgctxt "mp/lobby/charge/none"
+msgid "No restriction"
+msgstr ""
+
+msgctxt "mp/lobby/charge/normal"
+msgid "Normal restriction"
+msgstr ""
+
+msgctxt "mp/lobby/charge/double"
+msgid "Reduced restriction"
+msgstr ""
+
+msgctxt "mp/statistics2/personal/btn_profile"
+msgid "<s(21)b>YOUR PROFILE"
+msgstr ""
+
+msgctxt "mp/game_ffa"
+msgid "Free for All"
+msgstr ""
+
+msgctxt "mp/lobby/chat_others"
+msgid "<c(white)>Users [%1%]"
+msgstr ""
+
+msgctxt "mp/ds/unknown"
+msgid "-"
+msgstr ""
+
+msgctxt "mp/msg_access_denied"
+msgid "Access denied"
+msgstr ""
+
+msgctxt "mp/lobby/blocked/minutes"
+msgid ""
+"You can't enter internet games for %1% minute(s), due to your ranked trust "
+"rating. Please make sure not to quit games in progress."
+msgstr ""
+
+msgctxt "mp/statistics2/result/resources"
+msgid "%1%"
+msgstr ""
+
+msgctxt "mp/ai_player_name"
+msgid "AI Player"
+msgstr ""
+
+msgctxt "mp/lobby/hint/min_user_performance"
+msgid "Minimum performance needed to join"
+msgstr ""
+
+msgctxt "mp/msg_restarting"
+msgid "Restarting multiplayer..."
+msgstr ""
+
+msgctxt "mp/lobby/setup/replay.version#invalid"
+msgid "<c(red)>%1%"
+msgstr ""
+
+msgctxt "mp/army/generic"
+msgid "Miscellaneous"
+msgstr ""
+
+msgctxt "mp/army/germany"
+msgid "Germany"
+msgstr ""
+
+msgctxt "mp/army/ussr"
+msgid "USSR"
+msgstr ""
+
+msgctxt "mp/army/finland"
+msgid "Finland"
+msgstr ""
+
+msgctxt "mp/presets/spec/cp_160"
+msgid "160 CP"
+msgstr ""
+
+msgctxt "mp/msg_processmods"
+msgid "Processing mods..."
+msgstr ""
+
+msgctxt "mp/presets/browser/tags/artillery"
+msgid "Emplacement"
+msgstr ""
+
+msgctxt "mp/msg_searching"
+msgid "Searching session..."
+msgstr ""
+
+msgctxt "mp/gs/social/friendlist_state"
+msgid "<s(8)y(-2)>%1%"
+msgstr ""
+
+msgctxt "mp/persona_state/looking_to_play"
+msgid "Looking to play"
+msgstr ""
+
+msgctxt "mp/msg_connecting_failed"
+msgid "Connection failed"
+msgstr ""
+
+msgctxt "mp/msg_session_full"
+msgid "Session is full"
+msgstr ""
+
+msgctxt "mp/lobby/setup/settings.randomspawnpoints#hint"
+msgid "Team side and spawn points are randomly chosen."
+msgstr ""
+
+msgctxt "mp/msg_starting_in"
+msgid "Starting game in %1%..."
+msgstr ""
+
+msgctxt "mp/gs/stats/ri_top_groundcontrol"
+msgid "Ground control"
+msgstr ""
+
+msgctxt "mp/statistics_xp/rank"
+msgid "Score: %1%"
+msgstr ""
+
+msgctxt "mp/presets/game/standard"
+msgid "<c(20a601)>Standard"
+msgstr ""
+
+msgctxt "mp/msg_user_not_found"
+msgid "User not found"
+msgstr ""
+
+msgctxt "mp/lobby/header/players"
+msgid "Players"
+msgstr ""
+
+msgctxt "mp/gs/social/color_friendlist_online"
+msgid "<c(61cea9)>"
+msgstr ""
+
+msgctxt "mp/msg_client_blocked"
+msgid "You were blocked on this host"
+msgstr ""
+
+msgctxt "mp/presets/browser/tags/heavy"
+msgid "Heavy Vehicles"
+msgstr ""
+
+msgctxt "mp/gs/chat/connect_fail"
+msgid ""
+"Chat connection failed. Please check your internet and firewall settings."
+msgstr ""
+
+msgctxt "mp/presets/browser/tags/mechanized"
+msgid "Motorized Infantry"
+msgstr ""
+
+msgctxt "mp/msg_rank_unbalanced"
+msgid "Unbalanced"
+msgstr ""
+
+msgctxt "mp/lobby/session/nat"
+msgid "NAT"
+msgstr ""
+
+msgctxt "mp/presets/browser/tags/light"
+msgid "Light Vehicles"
+msgstr ""
+
+msgctxt "mp/lobby/setup/settings.useManualCharge"
+msgid "Direct Control Timers"
+msgstr ""
+
+msgctxt "mp/lobby/setup/settings.useManualCharge#hint"
+msgid "Determines whether first and third person mode usage is restricted."
+msgstr ""
+
+msgctxt "mp/lobby/setup/settings.minuserperformance"
+msgid "User Performance"
+msgstr ""
+
+msgctxt "mp/lobby/setup/settings.difficulty#/easy"
+msgid "Easy"
+msgstr ""
+
+msgctxt "mp/chat2/steamlobby"
+msgid "SESSION"
+msgstr ""
+
+msgctxt "mp/game/combined_arms/rules"
+msgid ""
+"Combined Arms\n"
+"\n"
+"In Combined Arms, your goal is to capture and hold key positions on the map, "
+"marked by flags. Whichever team that currently holds the greater number of "
+"flags will gain points over time, and once a team reaches the target number "
+"of points, they will win the game. Flags can only be captured by infantry "
+"(excluding tank crew), within the circular boundary of a flag zone.\n"
+"\n"
+"\n"
+"\"CP\"\n"
+"\n"
+"Command Points determine the maximum number of troops a player can field at "
+"any point during the game.\n"
+"\n"
+"\n"
+"\"MP\"\n"
+"\n"
+"Manpower is the resource used by players to call new troops onto the "
+"battlefield. The total amount of Manpower distributed throughout the game is "
+"determined by the host, and once the battle has begun, players will receive "
+"a steady income of Manpower until this limit has been reached. Units lost "
+"will have their purchase price refunded to the player over time, though "
+"again, the total amount of usable manpower will never exceed the limit set "
+"by the host."
+msgstr ""
+
+msgctxt "mp/lobby/filter/searchonlyfriends"
+msgid "Only friend sessions"
+msgstr ""
+
+msgctxt "mp/txt_disconnecting"
+msgid "Disconnecting..."
+msgstr ""
+
+msgctxt "mp/msg_steam_offline"
+msgid ""
+"Failed to connect to Steam servers, please check your internet settings."
+msgstr ""
+
+msgctxt "mp/presets/browser/title"
+msgid "Unit Set Options"
+msgstr ""
+
+msgctxt "mp/lobby/header/map"
+msgid "Map"
+msgstr ""
+
+msgctxt "mp/chat2/color_friend"
+msgid "<c(a5a58d)>"
+msgstr ""
+
+msgctxt "mp/presets/spec/_60"
+msgid "60 CP"
+msgstr ""
+
+msgctxt "mp/title_readystatus"
+msgid "Ready to play"
+msgstr ""
+
+msgctxt "mp/presets/spec/all_high"
+msgid "High"
+msgstr ""
+
+msgctxt "mp/presets/game/custom"
+msgid "<c(d22b2b)>Custom"
+msgstr ""
+
+msgctxt "mp/ds/btn"
+msgid "List of servers"
+msgstr ""
+
+msgctxt "mp/lobby/replay/column_version"
+msgid "Version"
+msgstr ""
+
+msgctxt "mp/title_inet"
+msgid "Internet"
+msgstr ""
+
+msgctxt "mp/lobby/title_quit_game"
+msgid "Quit game?"
+msgstr ""
+
+msgctxt "mp/lobby/button/kickoff"
+msgid "Kick off"
+msgstr ""
+
+msgctxt "mp/title_lan"
+msgid "LAN"
+msgstr ""
+
+msgctxt "mp/lobby/button/info"
+msgid "Info"
+msgstr ""
+
+msgctxt "mp/gs/qrdnserror"
+msgid "Cannot establish connection to the main server."
+msgstr ""
+
+msgctxt "mp/title_replay"
+msgid "Replays"
+msgstr ""
+
+msgctxt "mp/title_any"
+msgid "Any"
+msgstr ""
+
+msgctxt "mp/retry_btn"
+msgid "Retry"
+msgstr ""
+
+msgctxt "mp/chat2/cta"
+msgid "MAIN LOBBY"
+msgstr ""
+
+msgctxt "mp/presets/browser/tags/sniper"
+msgid "Snipers"
+msgstr ""
+
+msgctxt "mp/presets/spec/all_normal"
+msgid "Normal"
+msgstr ""
+
+msgctxt "mp/lobby/filter/searchdistance#/far"
+msgid "Far"
+msgstr ""
+
+msgctxt "mp/presets/game/test"
+msgid "<c(FFA601)>Test Mode"
+msgstr ""
+
+msgctxt "mp/sync/title_resources"
+msgid "Resources"
+msgstr ""
+
+msgctxt "mp/lobby/replay/column_score"
+msgid "Score"
+msgstr ""
+
+msgctxt "mp/presets/spec/cp_180"
+msgid "180 CP"
+msgstr ""
+
+msgctxt "mp/ds/btn_hint"
+msgid "List of servers"
+msgstr ""
+
+msgctxt "mp/presets/spec/competitive_normal"
+msgid "Normal"
+msgstr ""
+
+msgctxt "mp/presets/unit/all"
+msgid "Standard"
+msgstr ""
+
+msgctxt "mp/lobby/hint/lockon"
+msgid "Session closed, click to open"
+msgstr ""
+
+msgctxt "mp/gs/stats/hdr_games"
+msgid "#Game#Points#Games#Victories#Wins"
+msgstr ""
+
+msgctxt "mp/presets/browser/title_exclude"
+msgid "Excluded Units"
+msgstr ""
+
+msgctxt "mp/presets/unit/user"
+msgid "User Defined Set"
+msgstr ""
+
+msgctxt "mp/team/a"
+msgid "Team A"
+msgstr ""
+
+msgctxt "mp/trust_rating/banned"
+msgid "banned"
+msgstr ""
+
+msgctxt "mp/presets/spec/competitive_high"
+msgid "High"
+msgstr ""
+
+msgctxt "mp/lobby/setup/team.c.alliance"
+msgid "C Team"
+msgstr ""
+
+msgctxt "mp/statistics/title"
+msgid "<f(impact)s(28)c(255 255 255)>Game Statistics"
+msgstr ""
+
+msgctxt "mp/scene/chat/all"
+msgid "<b+c(FF8080)>%s"
+msgstr ""
+
+msgctxt "mp/presets/spec/cp_120"
+msgid "120 CP"
+msgstr ""
+
+msgctxt "mp/lobby/color_lobby"
+msgid "<c(4c4945)>"
+msgstr ""
+
+msgctxt "mp/statistics2/detail/header/effectiveness"
+msgid "<x.y.>Effectiveness"
+msgstr ""
+
+msgctxt "mp/presets/spec/cp_30"
+msgid "30 CP"
+msgstr ""
+
+msgctxt "mp/gs/social/friend_del"
+msgid "Remove from friends"
+msgstr ""
+
+msgctxt "mp/presets/spec/cp_200"
+msgid "200 CP"
+msgstr ""
+
+msgctxt "mp/presets/spec/cp_250"
+msgid "250 CP"
+msgstr ""
+
+msgctxt "mp/presets/spec/cp_300"
+msgid "300 CP"
+msgstr ""
+
+msgctxt "mp/lobby/replay/visibility/public"
+msgid "Public"
+msgstr ""
+
+msgctxt "mp/presets/spec/cp_50"
+msgid "50 CP"
+msgstr ""
+
+msgctxt "mp/presets/browser/tags/infantry"
+msgid "Infantry"
+msgstr ""
+
+msgctxt "mp/statistics2/statistics/header/effectiveness"
+msgid "<x.y.>Effectiveness"
+msgstr ""
+
+msgctxt "mp/gs/stats/global_dialog_title"
+msgid "<f(impact)s(28)c(255 255 255)>Hall of fame"
+msgstr ""
+
+msgctxt "mp/presets/spec/cp_80"
+msgid "80 CP"
+msgstr ""
+
+msgctxt "mp/reason/mm_gone"
+msgid "Player %1% is gone"
+msgstr ""
+
+msgctxt "mp/presets/spec/cp_100"
+msgid "100 CP"
+msgstr ""
+
+msgctxt "mp/statistics_xp/value"
+msgid "Mission XP: %1%"
+msgstr ""
+
+msgctxt "mp/presets/spec/cp_140"
+msgid "140 CP"
+msgstr ""
+
+msgctxt "mp/team/coop"
+msgid "Cooperative"
+msgstr ""
+
+msgctxt "mp/presets/browser/title_include"
+msgid "Included Units"
+msgstr ""
+
+msgctxt "mp/lobby/session/server_state"
+msgid "Server:"
+msgstr ""
+
+msgctxt "mp/lobby/setup/settings.minuserperformance#/normal"
+msgid "Good"
+msgstr ""
+
+msgctxt "mp/presets/browser/title_available"
+msgid "Available Units"
+msgstr ""
+
+msgctxt "mp/lobby/replay/info/invalid_handle"
+msgid "The item update handle was invalid, job might be finished."
+msgstr ""
+
+msgctxt "mp/gs/stats/player_not_found"
+msgid "Player \"%1%\" not found."
+msgstr ""
+
+msgctxt "mp/lobby2/button/results"
+msgid "RESULTS"
+msgstr ""
+
+msgctxt "mp/lobby2/pnl_mode_select"
+msgid "Select Game mode"
+msgstr ""
+
+msgctxt "mp/lobby2/pnl_map_select"
+msgid "Select Map"
+msgstr ""
+
+msgctxt "mp/lobby2/pnl_session_set2"
+msgid "Settings"
+msgstr ""
+
+msgctxt "mp/presets/browser/title_value"
+msgid "<c(20a601)>Click to browse"
+msgstr ""
+
+msgctxt "mp/presets/browser/tags/combined_arms"
+msgid "Combined Arms"
+msgstr ""
+
+msgctxt "mp/presets/browser/tags/medium"
+msgid "Medium Vehicles"
+msgstr ""
+
+msgctxt "mp/presets/browser/tags/airborne"
+msgid "Airborne"
+msgstr ""
+
+msgctxt "mp/lobby/setup/preset.unitmode"
+msgid "War Stage"
+msgstr ""
+
+msgctxt "mp/persona_state/away"
+msgid "Away"
+msgstr ""
+
+msgctxt "mp/lobby/replay/info/upload_invalid_version"
+msgid "Replays from different game versions can't be uploaded."
+msgstr ""
+
+msgctxt "mp/chat2/chat_others"
+msgid "<c(white)>Users [%1%]"
+msgstr ""
+
+msgctxt "mp/presets/browser/tags/armor"
+msgid "Armor"
+msgstr ""
+
+msgctxt "mp/lobby/army_mode/default"
+msgid "Default"
+msgstr ""
+
+msgctxt "mp/lobby/button/leave_zone"
+msgid "Leave zone"
+msgstr ""
+
+msgctxt "mp/presets/chargefactor"
+msgid "x %1%"
+msgstr ""
+
+msgctxt "mp/presets/resourcespeed"
+msgid "%1% MP"
+msgstr ""
+
+msgctxt "mp/game/cooperative"
+msgid "Cooperative"
+msgstr ""
+
+msgctxt "mp/game/cooperative/info"
+msgid "Battle through the singleplayer campaign with others!"
+msgstr ""
+
+msgctxt "mp/gs/msg_connecting"
+msgid "Connecting..."
+msgstr ""
+
+msgctxt "mp/game/cooperative/rules"
+msgid "Create a team (of up to 8 people) and battle the AI together."
+msgstr ""
+
+msgctxt "mp/gs/qrbinderror"
+msgid "Cannot find available host ports."
+msgstr ""
+
+msgctxt "mp/scene/hint_cost2/command"
+msgid "%1% CP"
+msgstr ""
+
+msgctxt "mp/scene/hint_requires/barricade"
+msgid "Requires Engineer"
+msgstr ""
+
+msgctxt "mp/game/armored_warfare/objective"
+msgid ""
+"Capture and hold territories marked by flags. The team with more flags "
+"receives points. The more flags a team captured, the more points they get."
+msgstr ""
+
+msgctxt "mp/unit_info/gun/range"
+msgid "range<x(175)>%1%<x(225)>%2%<x(275)>%3%<x(325)>%4%<x(375)>%5%"
+msgstr ""
+
+msgctxt "mp/lobby/setup/settings.lobbyMode#/public"
+msgid "Public"
+msgstr ""
+
+msgctxt "mp/lobby/setup/settings.lobbyMode#/private"
+msgid "Private"
+msgstr ""
+
+msgctxt "mp/lobby/setup/tunes.traffic#/minimum"
+msgid "Minimum"
+msgstr ""
+
+msgctxt "mp/gs/change_sort_name"
+msgid "Sort by username."
+msgstr ""
+
+msgctxt "mp/lobby/header/version"
+msgid "%1%"
+msgstr ""
+
+msgctxt "mp/game/koth"
+msgid "King of the Hill"
+msgstr ""
+
+msgctxt "mp/game/koth/info"
+msgid "Capture the key position before anyone else!"
+msgstr ""
+
+msgctxt "mp/lobby/slot/hint/open"
+msgid "Slot is open. Double click to join."
+msgstr ""
+
+msgctxt "mp/lobby/blocked/performance"
+msgid "You need at least 2 performance bars to run match-making."
+msgstr ""
+
+msgctxt "mp/game/koth/rules"
+msgid "King of the Hill"
+msgstr ""
+
+msgctxt "mp/lobby/txt_advanced_on"
+msgid ""
+"Improper use of advanced settings may negatively effect your gaming "
+"experience.\n"
+"\n"
+"Do you wish to continue?"
+msgstr ""
+
+msgctxt "mp/game/koth/objective"
+msgid ""
+"Seize the flag in the middle of the map! The team that holds the Hill "
+"receives additional Payback."
+msgstr ""
+
+msgctxt "mp/game/evacuation"
+msgid "Evacuation"
+msgstr ""
+
+msgctxt "mp/game/guerrilla"
+msgid "Guerrilla"
+msgstr ""
+
+msgctxt "mp/game/guerrilla/info"
+msgid "Cause mayhem behind enemy lines!"
+msgstr ""
+
+msgctxt "mp/game/guerrilla/objective"
+msgid ""
+"Kill waves until the enemy gives up. A new wave spawns when the old one is "
+"dealt with."
+msgstr ""
+
+msgctxt "mp/reason/timeout"
+msgid "Player %1% timed out."
+msgstr ""
+
+msgctxt "mp/lobby/color_report"
+msgid "<c(4c4945)>"
+msgstr ""
+
+msgctxt "mp/statistics2/detail/header/infantry_kills"
+msgid "<x.y.>Infantry kills"
+msgstr ""
+
+msgctxt "mp/game/evacuation/info"
+msgid "Defend your evacuation point against waves of enemies!"
+msgstr ""
+
+msgctxt "mp/lobby/button/setmaster"
+msgid "Set Host"
+msgstr ""
+
+msgctxt "mp/chat2/color_mention"
+msgid "<c(9adbf5)>"
+msgstr ""
+
+msgctxt "mp/game/evacuation/rules"
+msgid ""
+"Evacuation\n"
+"\n"
+msgstr ""
+
+msgctxt "mp/team/d"
+msgid "Team D"
+msgstr ""
+
+msgctxt "mp/statistics2/statistics/title"
+msgid "STATISTICS"
+msgstr ""
+
+msgctxt "mp/statistics/result/header"
+msgid ""
+"# #Player#<x.>Victory Points#<x.>Infantry#<x.>Vehicles#<x.>Score#<x."
+">Resources#"
+msgstr ""
+
+msgctxt "mp/lobby/button/enter_zone"
+msgid "Change zone"
+msgstr ""
+
+msgctxt "mp/game/evacuation/objective"
+msgid ""
+"Hold your position for a given time until the evacuation helicopters arrive!"
+msgstr ""
+
+msgctxt "mp/game/battle_zones"
+msgid "Battle Zones"
+msgstr ""
+
+msgctxt "mp/game/battle_zones/info"
+msgid "Capture and hold key positions on the map!"
+msgstr ""
+
+msgctxt "mp/reason/outofsync_server_cheat"
+msgid "Master %1% was logged off for using cheats."
+msgstr ""
+
+msgctxt "mp/gs/quit_confirm"
+msgid "Do you want to quit the Internet game?"
+msgstr ""
+
+msgctxt "mp/game/battle_zones/rules"
+msgid ""
+"Battle Zones\n"
+"\n"
+"Your goal is to capture and hold strategic positions marked on the map. Both "
+"Eliminating hostile troops and dominating most of the strategic positions "
+"will take you to victory! Flags can only be captured by infantry and "
+"infantry tanks.\n"
+"\n"
+"\n"
+"\"CP\"\n"
+"\n"
+"Command Points determine the maximum number of troops a player can field at "
+"any point during the game.\n"
+"\n"
+"\n"
+"\"MP\"\n"
+"\n"
+"Manpower is the resource used by players to call new troops onto the "
+"battlefield. The total amount of Manpower distributed throughout the game is "
+"determined by the host, and once the battle has begun, players will receive "
+"a steady income of Manpower until this limit has been reached. Units lost "
+"will have their purchase price refunded to the player over time, though "
+"again, the total amount of usable manpower will never exceed the limit set "
+"by the host."
+msgstr ""
+
+msgctxt "mp/lobby/setup/settings.minuserperformance#/excellent"
+msgid "Excellent"
+msgstr ""
+
+msgctxt "mp/lobby/ranked_game"
+msgid "Ranked game"
+msgstr ""
+
+msgctxt "mp/game/battle_zones/objective"
+msgid ""
+"Capture and hold territories marked by flags. Both Eliminating hostile "
+"troops and dominating most of the strategic positions will take you to "
+"victory!"
+msgstr ""
+
+msgctxt "mp/game/heroes"
+msgid "Heroes"
+msgstr ""
+
+msgctxt "mp/lobby/txt_advanced"
+msgid "<c(a60000)><x.>Advanced settings"
+msgstr ""
+
+msgctxt "mp/game/heroes/info"
+msgid "Capture and hold key positions on the map!"
+msgstr ""
+
+msgctxt "mp/lobby/msg_password_invalid"
+msgid "Incorrect password!"
+msgstr ""
+
+msgctxt "mp/game/armored_warfare/rules"
+msgid ""
+"Battle Zones\n"
+"\n"
+"In Battle Zones, your goal is to capture and hold key positions on the map, "
+"marked by flags. Whichever team that currently holds the greater number of "
+"flags will gain points over time, and once a team reaches the target number "
+"of points, they will win the game. Flags can only be captured by infantry "
+"(excluding tank crew), within the circular boundary of a flag zone.\n"
+"\n"
+"\n"
+"\"CP\"\n"
+"\n"
+"Command Points determine the maximum number of troops a player can field at "
+"any point during the game.\n"
+"\n"
+"\n"
+"\"MP\"\n"
+"\n"
+"Manpower is the resource used by players to call new troops onto the "
+"battlefield. The total amount of Manpower distributed throughout the game is "
+"determined by the host, and once the battle has begun, players will receive "
+"a steady income of Manpower until this limit has been reached. Units lost "
+"will have their purchase price refunded to the player over time, though "
+"again, the total amount of usable manpower will never exceed the limit set "
+"by the host."
+msgstr ""
+
+msgctxt "mp/statistics/units/title"
+msgid "<s(25)y(+9)>Units"
+msgstr ""
+
+msgctxt "mp/game/heroes/rules"
+msgid ""
+"Heroes\n"
+"\n"
+"In Heroes, your goal is to capture and hold key positions on the map, marked "
+"by flags."
+msgstr ""
+
+msgctxt "mp/game/heroes/objective"
+msgid ""
+"Capture and hold territories marked by flags. The team with more flags "
+"receives points. The more flags a team captured, the more points they get."
+msgstr ""
+
+msgctxt "mp/lobby/setup/preset.customchargefactors"
+msgid "Unit Timer Factor"
+msgstr ""
+
+msgctxt "mp/gs/stats/ri_top_common"
+msgid "Overall rating"
+msgstr ""
+
+msgctxt "mp/game/armored_warfare"
+msgid "Armored Combat"
+msgstr ""
+
+msgctxt "mp/statistics2/personal/progress_deluxe"
+msgid "Deluxe Bonus"
+msgstr ""
+
+msgctxt "mp/game/armored_warfare/info"
+msgid "Fight large tank battles and capture fuel depots!"
+msgstr ""
+
+msgctxt "mp/scene/hint_v2"
+msgid "Vehicles"
+msgstr ""
+
+msgctxt "mp/game/combined_arms"
+msgid "Combined Arms"
+msgstr ""
+
+msgctxt "mp/lobby/army_mode/player"
+msgid "Players"
+msgstr ""
+
+msgctxt "mp/game/combined_arms/info"
+msgid "Fight large battles with ground and air vehicles!"
+msgstr ""
+
+msgctxt "mp/unit_info/armor"
+msgid "Armor, mm.<x(175)>front<x(225)>side<x(275)>rear<x(325)>top"
+msgstr ""
+
+msgctxt "mp/lobby/button/apply"
+msgid "<f(pobeda)s(27)b>Apply"
+msgstr ""
+
+msgctxt "mp/game/combined_arms/objective"
+msgid ""
+"Capture and hold territories marked by flags. The team with more flags "
+"receives points. The more flags a team captured, the more points they get."
+msgstr ""
+
+msgctxt "mp/lobby/txt_players"
+msgid "Players: %1%"
+msgstr ""
+
+msgctxt "mp/game/modifications"
+msgid "Modded game"
+msgstr ""
+
+msgctxt "mp/lobby/slot/reserved_slot"
+msgid "<c(bf3030)>reserved"
+msgstr ""
+
+msgctxt "mp/gs/stats/player_loading_error"
+msgid "Player data failed to load."
+msgstr ""
+
+msgctxt "mp/gs/social/color_blocked"
+msgid "<c(bdbdbd)>"
+msgstr ""
+
+msgctxt "mp/game/text/frontline_preparetime"
+msgid "Preparation time"
+msgstr ""
+
+msgctxt "mp/gs/stats/armies"
+msgid "<y(+9)>Armies"
+msgstr ""
+
+msgctxt "mp/reason/gone"
+msgid "Player %1% is gone"
+msgstr ""
+
+msgctxt "mp/lobby/setup/team.f.alliance"
+msgid "F Team"
+msgstr ""
+
+msgctxt "mp/statistics_xp/victory_bonus"
+msgid "Victory Bonus (+%1%%): %2%"
+msgstr ""
+
+msgctxt "mp/session_restriction/version"
+msgid "<c(faeacb)>Can not join: Different game versions."
+msgstr ""
+
+msgctxt "mp/lobby/slot/hint/reserved"
+msgid "Slot is open to friends of host only."
+msgstr ""
+
+msgctxt "mp/lobby/session/mods"
+msgid "<y(+9)>Mods"
+msgstr ""
+
+msgctxt "mp/statistics/player/btn_profile"
+msgid "Your Profile"
+msgstr ""
+
+msgctxt "mp/game/text/captureflag_preparetime"
+msgid "Preparation time"
+msgstr ""
+
+msgctxt "mp/game/text/combat_inactivity_lose_time"
+msgid "Your team has no units left. You will lose in:"
+msgstr ""
+
+msgctxt "mp/lobby/replay/load_incomplete_replay"
+msgid "Replay is incomplete or corrupted. Try to load it anyway?"
+msgstr ""
+
+msgctxt "mp/lobby/button/back"
+msgid "<f(pobeda)s(27)b>Back"
+msgstr ""
+
+msgctxt "mp/lobby/txt_local_provider"
+msgid "local host"
+msgstr ""
+
+msgctxt "mp/chat2/color_system"
+msgid "<c(cccc00)>"
+msgstr ""
+
+msgctxt "mp/statistics2/personal/progress_xp_boost"
+msgid "XP Boost"
+msgstr ""
+
+msgctxt "mp/game/text/evacuation_wavetime"
+msgid "The %1%. wave will spawn in"
+msgstr ""
+
+msgctxt "mp/game/text/evacuation_supply_secured"
+msgid "You have secured a supply crate!"
+msgstr ""
+
+msgctxt "mp/game/text/evacuation_supply_enabled"
+msgid "An ammo crate was dropped!"
+msgstr ""
+
+msgctxt "mp/game/text/enemies_remaining"
+msgid "<f(bookman_hq)s(13)c(FFFFFF)e(shadow)>%1% enemies remain!"
+msgstr ""
+
+msgctxt "mp/sync/txt_resourcedesync"
+msgid "Resource desynchronisation detected."
+msgstr ""
+
+msgctxt "mp/game/text/koth_capturing_own"
+msgid "You are now receiving additional MP!"
+msgstr ""
+
+msgctxt "mp/lobby/setup/settings.veterancymode#/veterans"
+msgid "Veterans"
+msgstr ""
+
+msgctxt "mp/statistics/player/total"
+msgid ""
+"+%1% XP <c(25 25 25)>(%2% XP + %3% XP *Victory + %4% XP *Friends + %5% XP "
+"*Deluxe)"
+msgstr ""
+
+msgctxt "mp/session_restriction/closed"
+msgid "Can not join: Session is closed."
+msgstr ""
+
+msgctxt "mp/scene/hint_v3"
+msgid "Tanks"
+msgstr ""
+
+msgctxt "mp/game/text/koth_capturing_enemy"
+msgid "An enemy team is now receiving additional MP!"
+msgstr ""
+
+msgctxt "mp/lobby/button/replay_game"
+msgid "Replays"
+msgstr ""
+
+msgctxt "mp/statistics2/personal/xp_hint"
+msgid "To gain XP, you must play PvP matches on standard settings or conquest games, and you must not exit the battle prematurely."
+msgstr ""
+
+msgctxt "mp/army/ger_early"
+msgid "Germany (Early War)"
+msgstr ""
+
+msgctxt "mp/army/ger_mid"
+msgid "Germany (Mid War)"
+msgstr ""
+
+msgctxt "mp/army/ger_late"
+msgid "Germany (Late War)"
+msgstr ""
+
+msgctxt "mp/army/ger"
+msgid "Germany"
+msgstr ""
+
+msgctxt "mp/alliance/ger"
+msgid "Germany"
+msgstr ""
+
+msgctxt "mp/army/rus_early"
+msgid "USSR (Early War)"
+msgstr ""
+
+msgctxt "mp/army/rus_mid"
+msgid "USSR (Mid War)"
+msgstr ""
+
+msgctxt "mp/army/rus_late"
+msgid "USSR (Late War)"
+msgstr ""
+
+msgctxt "mp/army/rus"
+msgid "USSR"
+msgstr ""
+
+msgctxt "mp/alliance/rus"
+msgid "USSR"
+msgstr ""
+
+msgctxt "mp/army/fin_early"
+msgid "Finland (Early War)"
+msgstr ""
+
+msgctxt "mp/army/fin_mid"
+msgid "Finland (Mid War)"
+msgstr ""
+
+msgctxt "mp/army/fin_late"
+msgid "Finland (Late War)"
+msgstr ""
+
+msgctxt "mp/army/fin"
+msgid "Finland"
+msgstr ""
+
+msgctxt "mp/alliance/fin"
+msgid "Finland"
+msgstr ""
+
+msgctxt "mp/sync/txt_mapapply"
+msgid "The map %s will be applied."
+msgstr ""
+
+msgctxt "mp/army/civilian"
+msgid "Civilian"
+msgstr ""
+
+msgctxt "mp/lobby/slot/menu/ai_heroic"
+msgid "AI: Heroic"
+msgstr ""
+
+msgctxt "mp/army/random"
+msgid "Random"
+msgstr ""
+
+msgctxt "mp/lobby/header/ping"
+msgid "Ping"
+msgstr ""
+
+msgctxt "mp/army/spectator"
+msgid "Spectator"
+msgstr ""
+
+msgctxt "mp/gs/social/color_friend"
+msgid "<c(9ded90)>"
+msgstr ""
+
+msgctxt "mp/statistics/player/man"
+msgid "Infantry:"
+msgstr ""
+
+msgctxt "mp/army/dummy"
+msgid "Unknown"
+msgstr ""
+
+msgctxt "mp/reason/outofsync"
+msgid "Player %1% has been kicked due to 'Out of Sync' error."
+msgstr ""
+
+msgctxt "mp/gs/join"
+msgid "Join session"
+msgstr ""
+
+msgctxt "mp/army/extra"
+msgid "Extra"
+msgstr ""
+
+msgctxt "mp/team/b"
+msgid "Team B"
+msgstr ""
+
+msgctxt "mp/lobby/lbl_army"
+msgid "Army"
+msgstr ""
+
+msgctxt "mp/chat2/color_report"
+msgid "<c(4c4945)>"
+msgstr ""
+
+msgctxt "mp/lobby2/lbl_password"
+msgid "PASSWORD"
+msgstr ""
+
+msgctxt "mp/team/c"
+msgid "Team C"
+msgstr ""
+
+msgctxt "mp/lobby/setup/tunes.cheatkeys"
+msgid "##Enable dev commands"
+msgstr ""
+
+msgctxt "mp/lobby/setup/game.hardcore#hint"
+msgid "A more realistic experience."
+msgstr ""
+
+msgctxt "mp/lobby/button/results"
+msgid "Display results from previous game"
+msgstr ""
+
+msgctxt "mp/team/e"
+msgid "Team E"
+msgstr ""
+
+msgctxt "mp/lobby/army_mode/alliance"
+msgid "Axis vs Allies"
+msgstr ""
+
+msgctxt "mp/lobby/setup/settings.minuserperformance#/undefined"
+msgid "Minimum"
+msgstr ""
+
+msgctxt "mp/team/f"
+msgid "Team F"
+msgstr ""
+
+msgctxt "mp/team/g"
+msgid "Team G"
+msgstr ""
+
+msgctxt "mp/team/h"
+msgid "Team H"
+msgstr ""
+
+msgctxt "mp/team/spectator"
+msgid "Spectator"
+msgstr ""
+
+msgctxt "mp/lobby/filter/searchonlynotfull"
+msgid "Only with open slots"
+msgstr ""
+
+msgctxt "mp/alliance/axis"
+msgid "Axis"
+msgstr ""
+
+msgctxt "mp/alliance/allies"
+msgid "Allies"
+msgstr ""
+
+msgctxt "mp/lobby/button/filter"
+msgid "Filter"
+msgstr ""
+
+msgctxt "mp/reason/game_gone"
+msgid "Player %1% is gone"
+msgstr ""
+
+msgctxt "mp/lobby/setup/replay.map"
+msgid "Map"
+msgstr ""
+
+msgctxt "mp/stage/lobby"
+msgid "In lobby"
+msgstr ""
+
+msgctxt "mp/lobby/setup/settings.scorefinal#hint"
+msgid ""
+"Determines how fast the game can be won. The value will be multiplied with "
+"the amount of players in the game."
+msgstr ""
+
+msgctxt "mp/stage/session"
+msgid "Starting the game"
+msgstr ""
+
+msgctxt "mp/chat2/color_default"
+msgid "<c(cdcdcd)>"
+msgstr ""
+
+msgctxt "mp/stage/game"
+msgid "Playing the game"
+msgstr ""
+
+msgctxt "mp/stage/zone"
+msgid "In lobby"
+msgstr ""
+
+msgctxt "mp/lobby/filter/searchdistance#/default"
+msgid "Medium"
+msgstr ""
+
+msgctxt "mp/settings/disabled"
+msgid "Disabled"
+msgstr ""
+
+msgctxt "mp/reason/msg_outofsync_server_cheat"
+msgid "Cheats were used, all players offline."
+msgstr ""
+
+msgctxt "mp/stage/gslobby"
+msgid "Main room"
+msgstr ""
+
+msgctxt "mp/chat2/chat_friends"
+msgid "<c(white)>Friends [%1%]"
+msgstr ""
+
+msgctxt "mp/stage/gssession"
+msgid "Game room"
+msgstr ""
+
+msgctxt "mp/reason/session_gone"
+msgid "Player %1% is gone"
+msgstr ""
+
+msgctxt "mp/reason/slow"
+msgid "Player %1% has been kicked due to PC performance issues."
+msgstr ""
+
+msgctxt "mp/scene/hint_cost/default"
+msgid "MP: %1%"
+msgstr ""
+
+msgctxt "mp/reason/kickoff"
+msgid "Player %1% has been kicked by host!"
+msgstr ""
+
+msgctxt "mp/lobby/setup/team.a.alliance"
+msgid "A Team"
+msgstr ""
+
+msgctxt "mp/reason/disconnect"
+msgid "Connection with player %1% has been lost."
+msgstr ""
+
+msgctxt "mp/lobby/hint/not_ready"
+msgid "Not ready"
+msgstr ""
+
+msgctxt "mp/lobby/replay/column_name"
+msgid "Name"
+msgstr ""
+
+msgctxt "mp/reason/msg_outofsync"
+msgid "Kicked from the game due to out of sync conditions."
+msgstr ""
+
+msgctxt "mp/reason/msg_slow"
+msgid "Kicked from the game due to low performance of your PC."
+msgstr ""
+
+msgctxt "mp/statistics2/result/header/resources"
+msgid "<x.y.>Resources"
+msgstr ""
+
+msgctxt "mp/reason/msg_kickoff"
+msgid "You were kicked by server."
+msgstr ""
+
+msgctxt "mp/statistics/detail/title"
+msgid "<s(25)y(+9)>Detail"
+msgstr ""
+
+msgctxt "mp/reason/msg_outofsync_client_cheat"
+msgid "You were disconnected for cheating."
+msgstr ""
+
+msgctxt "mp/chat2/cta_spanish"
+msgid "ESPAÑOL"
+msgstr ""
+
+msgctxt "mp/reason/msg_disconnect"
+msgid "Connection lost"
+msgstr ""
+
+msgctxt "mp/reason/outofsync_client_cheat"
+msgid "Player %1% disconnected for cheating."
+msgstr ""
+
+msgctxt "mp/statistics_xp/friend_bonus"
+msgid "Friends Bonus (+%1%%): %2%"
+msgstr ""
+
+msgctxt "mp/lobby/button/change_map"
+msgid "Change map"
+msgstr ""
+
+msgctxt "mp/session_restriction/veterancy"
+msgid "Can not join: Higher veterancy level required."
+msgstr ""
+
+msgctxt "mp/session_restriction/performance"
+msgid "Can not join: Higher performance level required."
+msgstr ""
+
+msgctxt "mp/button/multiplayer_find_match"
+msgid "Find Match"
+msgstr ""
+
+msgctxt "mp/lobby/button/invite"
+msgid "Invite"
+msgstr ""
+
+msgctxt "mp/session_restriction/player_limit"
+msgid "Can not join: Players limit reached. Session is full."
+msgstr ""
+
+msgctxt "mp/statistics2/personal/progress"
+msgid "PROGRESS"
+msgstr ""
+
+msgctxt "mp/lobby/title_close_game"
+msgid "Close the game?"
+msgstr ""
+
+msgctxt "mp/statistics/result/resources"
+msgid "%1%"
+msgstr ""
+
+msgctxt "mp/lobby/title_close_game_xp"
+msgid ""
+"Do you really want to surrender?\n"
+"\n"
+"You will receive no XP and lose your chance for an item drop!\n"
+"Stay in-game for fair-play."
+msgstr ""
+
+msgctxt "mp/lobby/setup/settings.gameduration#hint"
+msgid "Time until victory."
+msgstr ""
+
+msgctxt "mp/scene/msg_quality_reducing"
+msgid "Video settings have been reduced for better performance."
+msgstr ""
+
+msgctxt "mp/lobby/setup/player.name"
+msgid "Player name"
+msgstr ""
+
+msgctxt "mp/lobby/title_surrender_game"
+msgid ""
+"Do you really want to surrender?\n"
+"\n"
+"You will lose all XP collected during the match, gain a loss and weaken your "
+"ranked trust rating.\n"
+"Stay in-game for fair-play."
+msgstr ""
+
+msgctxt "mp/lobby/title_zone"
+msgid "Select zone"
+msgstr ""
+
+msgctxt "mp/lobby/setup/preset.customunitset"
+msgid "Unit Set"
+msgstr ""
+
+msgctxt "mp/lobby/title_session"
+msgid "Game"
+msgstr ""
+
+msgctxt "mp/lobby/hint/kick"
+msgid "Kick player"
+msgstr ""
+
+msgctxt "mp/gs/chat/select_type"
+msgid "Select chatroom"
+msgstr ""
+
+msgctxt "mp/lobby/title_selectmap"
+msgid "Map"
+msgstr ""
+
+msgctxt "mp/gs/confirm_join_inaccessible"
+msgid ""
+"The server is not responding or inaccessible. Do you want to try to join it?"
+msgstr ""
+
+msgctxt "mp/gs/inaccessible_learn"
+msgid "LEARN MORE"
+msgstr ""
+
+msgctxt "mp/gs/qrconnerror"
+msgid ""
+"The server is behind a non-promiscuous NAT and does not support negotiation"
+msgstr ""
+
+msgctxt "mp/statistics/units/hint"
+msgid "Resources spent: %.0f / %.0f"
+msgstr ""
+
+msgctxt "mp/lobby/filter/searchonlyopen"
+msgid "Only open sessions"
+msgstr ""
+
+msgctxt "mp/statistics2/result/header/score"
+msgid "<x.y.>Score"
+msgstr ""
+
+msgctxt "mp/lobby/header/host"
+msgid "Host"
+msgstr ""
+
+msgctxt "mp/lobby/lbl_players_total"
+msgid "Number of players:"
+msgstr ""
+
+msgctxt "mp/lobby/header/game"
+msgid "Game"
+msgstr ""
+
+msgctxt "mp/lobby/hdr_session"
+msgid "<c(faeacb)># # # # # #Host [%1%]#Game#Map#Players#Ping#%2%#Mods"
+msgstr ""
+
+msgctxt "mp/lobby/txt_lookingforsessions"
+msgid "<c(white)>Looking for games"
+msgstr ""
+
+msgctxt "mp/lobby/setup/preset.customunitset#hint"
+msgid "First include then exclude units to be available."
+msgstr ""
+
+msgctxt "mp/gs/social/color_friendlist_ingame"
+msgid "<c(9ded90)>"
+msgstr ""
+
+msgctxt "mp/lobby/hdr_sessioncount"
+msgid "%1% / %2%"
+msgstr ""
+
+msgctxt "mp/lobby/txt_mm_performance_warn"
+msgid "One or more session members have low performance."
+msgstr ""
+
+msgctxt "mp/lobby/hdr_lobby"
+msgid "# #Host [%1%]#Users#Games#Ping"
+msgstr ""
+
+msgctxt "mp/gs/stats/loading_error"
+msgid "Page failed to load."
+msgstr ""
+
+msgctxt "mp/lobby/lbl_gametype"
+msgid "Game type:"
+msgstr ""
+
+msgctxt "mp/lobby/lbl_map"
+msgid "Select map:"
+msgstr ""
+
+msgctxt "mp/statistics/history/title"
+msgid "<s(25)y(+9)>History"
+msgstr ""
+
+msgctxt "mp/lobby/lbl_minplayers"
+msgid "Minimum Players"
+msgstr ""
+
+msgctxt "mp/lobby/lbl_maxplayers"
+msgid "Maximum Players"
+msgstr ""
+
+msgctxt "mp/lobby/lbl_info"
+msgid "Additional info:"
+msgstr ""
+
+msgctxt "mp/lobby/filter/searchdistance#/close"
+msgid "Closest"
+msgstr ""
+
+msgctxt "mp/unit_info/btn_info"
+msgid "Description"
+msgstr ""
+
+msgctxt "mp/gs/chat/bad_channel_pass"
+msgid "The chat channel is at its user limit."
+msgstr ""
+
+msgctxt "mp/lobby/lbl_password"
+msgid "Password:"
+msgstr ""
+
+msgctxt "mp/lobby2/lbl_performance"
+msgid "USER PERFORMANCE"
+msgstr ""
+
+msgctxt "mp/lobby/replay/visibility/friends"
+msgid "Friends"
+msgstr ""
+
+msgctxt "mp/lobby/lbl_passwordconfirm"
+msgid "Retype:"
+msgstr ""
+
+msgctxt "mp/statistics2/personal/progress_total_xp"
+msgid "TOTAL XP"
+msgstr ""
+
+msgctxt "mp/lobby/lbl_password_enter"
+msgid "Enter the password:"
+msgstr ""
+
+msgctxt "mp/lobby/ping_ms"
+msgid "%1%ms"
+msgstr ""
+
+msgctxt "mp/chat2/cta_chinese"
+msgid "中文"
+msgstr ""
+
+msgctxt "mp/lobby/ping_s"
+msgid "%1%s"
+msgstr ""
+
+msgctxt "mp/lobby/hint/remove_player"
+msgid "Remove player from team"
+msgstr ""
+
+msgctxt "mp/lobby/txt_creatingsession"
+msgid "Creating a game..."
+msgstr ""
+
+msgctxt "mp/persona_state/in_other_game"
+msgid "In-game other"
+msgstr ""
+
+msgctxt "mp/lobby/txt_creatingsession_failed"
+msgid "Failed to create a game..."
+msgstr ""
+
+msgctxt "mp/lobby/txt_closesession"
+msgid "Do you wish to close the current session?"
+msgstr ""
+
+msgctxt "mp/sync/txt_notfound"
+msgid "%s not found."
+msgstr ""
+
+msgctxt "mp/lobby/txt_lookingforsessions_empty"
+msgid "<c(white)>No games matching specified filter settings found"
+msgstr ""
+
+msgctxt "mp/lobby/replay/column_map"
+msgid "Map"
+msgstr ""
+
+msgctxt "mp/lobby/txt_lookingforservers"
+msgid "<c(white)>Looking for servers"
+msgstr ""
+
+msgctxt "mp/lobby/bots"
+msgid "Bots"
+msgstr ""
+
+msgctxt "mp/lobby/chat_officers"
+msgid "<c(white)>Officers [%1%]"
+msgstr ""
+
+msgctxt "mp/statistics/history/timestamp"
+msgid "<f(arial_hq)s(8)c(ffffff)>%02d:%02d"
+msgstr ""
+
+msgctxt "mp/sync/txt_resourcedesyncfor"
+msgid "Resources desynchronisation detected - %1%."
+msgstr ""
+
+msgctxt "mp/lobby/txt_test_mode_on"
+msgid ""
+"Test mode is a sandbox mode with unlimited resources.\n"
+"It is meant to be played only as testing grounds.\n"
+"Do you wish to continue?"
+msgstr ""
+
+msgctxt "mp/lobby/chat_friends"
+msgid "<c(white)>Friends [%1%]"
+msgstr ""
+
+msgctxt "mp/lobby/button/details"
+msgid "Details"
+msgstr ""
+
+msgctxt "mp/chat2/color_officer_chat"
+msgid "<c(ffcc00)>"
+msgstr ""
+
+msgctxt "mp/lobby/army_mode/team"
+msgid "Specific Nations"
+msgstr ""
+
+msgctxt "mp/lobby/replay/load_invalid_version_failed"
+msgid ""
+"This replay was created in a different game version. It cannot be loaded."
+msgstr ""
+
+msgctxt "mp/lobby/setup/player.team"
+msgid "Player team"
+msgstr ""
+
+msgctxt "mp/lobby/setup/player.army"
+msgid "Player army"
+msgstr ""
+
+msgctxt "mp/sync/msg_downloading"
+msgid "Downloading files..."
+msgstr ""
+
+msgctxt "mp/lobby/setup/preset.gamemode"
+msgid "Game settings"
+msgstr ""
+
+msgctxt "mp/scene/hint_cost/command"
+msgid "CP: %1%"
+msgstr ""
+
+msgctxt "mp/lobby/setup/preset.gamemode#hint"
+msgid "Further options altering the regular game."
+msgstr ""
+
+msgctxt "mp/lobby/setup/preset.unitmode#hint"
+msgid "Use standard set or specify available units."
+msgstr ""
+
+msgctxt "mp/lobby/setup/preset.specmode"
+msgid "Resource settings"
+msgstr ""
+
+msgctxt "mp/gs/copy_text"
+msgid "Copy text"
+msgstr ""
+
+msgctxt "mp/lobby/setup/preset.specmode#hint"
+msgid "A high value allows more units to be active at the same time."
+msgstr ""
+
+msgctxt "mp/statistics2/personal/replay_save_title"
+msgid "Save replay"
+msgstr ""
+
+msgctxt "mp/lobby/setup/preset.customchargefactors#hint"
+msgid "Factor on the time until a unit or unit group can be purchased again."
+msgstr ""
+
+msgctxt "mp/lobby/slot/hint/ai"
+msgid "Slot is reserved for AI player."
+msgstr ""
+
+msgctxt "mp/lobby/setup/settings.fogofwar"
+msgid "Fog of War"
+msgstr ""
+
+msgctxt "mp/lobby/setup/settings.fogofwar#hint"
+msgid ""
+"Hides undetected enemy units or reveals all to the player.\n"
+"Units will still need to detect units by themselves to react on them."
+msgstr ""
+
+msgctxt "mp/lobby/setup/settings.fogofwar#/fog_realistic"
+msgid "Realistic"
+msgstr ""
+
+msgctxt "mp/lobby/setup/settings.showpiercing#hint"
+msgid "Shows armor penetration chances on target."
+msgstr ""
+
+msgctxt "mp/lobby/replay/row_game"
+msgid "%1%"
+msgstr ""
+
+msgctxt "mp/statistics/player/elo"
+msgid "Ranked Score (ELO):"
+msgstr ""
+
+msgctxt "mp/lobby2/button/cancel"
+msgid "<f(pobeda)s(27)b>CANCEL"
+msgstr ""
+
+msgctxt "mp/lobby/hint/filter"
+msgid "Filter"
+msgstr ""
+
+msgctxt "mp/lobby/setup/settings.gameduration"
+msgid "Game duration"
+msgstr ""
+
+msgctxt "mp/scene/hint_level"
+msgid "Level: %1%"
+msgstr ""
+
+msgctxt "mp/lobby/setup/settings.difficulty"
+msgid "Difficulty"
+msgstr ""
+
+msgctxt "mp/lobby/setup/settings.difficulty#hint"
+msgid "Affects the amount of enemy presence and the player units' health."
+msgstr ""
+
+msgctxt "mp/lobby/setup/tunes.traffic"
+msgid "Bandwidth"
+msgstr ""
+
+msgctxt "mp/scene/txt_payback_rate2"
+msgid "<f(arial_hq)c(f8cf91)p(0)e(shadow)>+%1%"
+msgstr ""
+
+msgctxt "mp/lobby/setup/tunes.traffic#/optimal"
+msgid "Optimal"
+msgstr ""
+
+msgctxt "mp/lobby/setup/tunes.traffic#/maximum"
+msgid "Maximum"
+msgstr ""
+
+msgctxt "mp/statistics/units/user"
+msgid "%1%"
+msgstr ""
+
+msgctxt "mp/lobby/setup/team.a.army"
+msgid "A Team"
+msgstr ""
+
+msgctxt "mp/lobby/setup/team.b.army"
+msgid "B Team"
+msgstr ""
+
+msgctxt "mp/lobby/setup/team.c.army"
+msgid "C Team"
+msgstr ""
+
+msgctxt "mp/lobby/setup/team.d.army"
+msgid "D Team"
+msgstr ""
+
+msgctxt "mp/lobby/setup/game.hardcore"
+msgid "Enhanced Realism"
+msgstr ""
+
+msgctxt "mp/lobby/button/select"
+msgid "Select"
+msgstr ""
+
+msgctxt "mp/scene/txt_winner"
+msgid "%1% wins!"
+msgstr ""
+
+msgctxt "mp/lobby/setup/team.e.army"
+msgid "E Team"
+msgstr ""
+
+msgctxt "mp/lobby/setup/team.f.army"
+msgid "F Team"
+msgstr ""
+
+msgctxt "mp/lobby/color_my_name_dark"
+msgid "<c(c4935c)>"
+msgstr ""
+
+msgctxt "mp/lobby/session/map"
+msgid "Map:"
+msgstr ""
+
+msgctxt "mp/lobby/hint/performance4"
+msgid "PC performance (Good)"
+msgstr ""
+
+msgctxt "mp/gs/change_rank_type"
+msgid "Change statistics type"
+msgstr ""
+
+msgctxt "mp/lobby/setup/team.g.army"
+msgid "G Team"
+msgstr ""
+
+msgctxt "mp/gs/acoount_bad_name_first_number"
+msgid "Name cannot begin with a number."
+msgstr ""
+
+msgctxt "mp/lobby/setup/team.h.army"
+msgid "H Team"
+msgstr ""
+
+msgctxt "mp/lobby/hint/post_msg"
+msgid "Send message"
+msgstr ""
+
+msgctxt "mp/lobby/setup/team.b.alliance"
+msgid "B Team"
+msgstr ""
+
+msgctxt "mp/lobby/setup/team.d.alliance"
+msgid "D Team"
+msgstr ""
+
+msgctxt "mp/lobby/setup/team.e.alliance"
+msgid "E Team"
+msgstr ""
+
+msgctxt "mp/lobby/setup/team.g.alliance"
+msgid "G Team"
+msgstr ""
+
+msgctxt "mp/lobby/hint/join_team"
+msgid "Double click to join team"
+msgstr ""
+
+msgctxt "mp/statistics2/personal/unlocked"
+msgid "UNLOCKED"
+msgstr ""
+
+msgctxt "mp/lobby/setup/team.h.alliance"
+msgid "H Team"
+msgstr ""
+
+msgctxt "mp/lobby/setup/settings.fogofwar#/fog_off"
+msgid "Disabled"
+msgstr ""
+
+msgctxt "mp/lobby/setup/settings.fogofwar#/fog_simple"
+msgid "Simple"
+msgstr ""
+
+msgctxt "mp/lobby/setup/settings.friendlyfire"
+msgid "Friendly fire"
+msgstr ""
+
+msgctxt "mp/persona_state/in_match"
+msgid "In-game (playing)"
+msgstr ""
+
+msgctxt "mp/lobby/setup/settings.friendlyfire#hint"
+msgid "Allied units can also be harmed by your units' fire."
+msgstr ""
+
+msgctxt "mp/lobby/button/file_exists"
+msgid "A file with the same name already exists."
+msgstr ""
+
+msgctxt "mp/scene/txt_waitingfor"
+msgid "<f(bookman_hq)s(13)>Performance drop experienced by player"
+msgstr ""
+
+msgctxt "mp/lobby/setup/settings.resourceamount"
+msgid "Total Manpower"
+msgstr ""
+
+msgctxt "mp/lobby/button/replay_rename_title"
+msgid "Rename replay"
+msgstr ""
+
+msgctxt "mp/lobby/setup/settings.resourceamount#hint"
+msgid ""
+"Maximum amount of resources. Higher values also increase the rate of income."
+msgstr ""
+
+msgctxt "mp/lobby/replay/row_players"
+msgid "Players: %1% of %2%"
+msgstr ""
+
+msgctxt "mp/statistics/units/cost/special"
+msgid "<c(30 30 30)>%.0f DP"
+msgstr ""
+
+msgctxt "mp/lobby/setup/settings.scorefinal"
+msgid "Victory Points to win"
+msgstr ""
+
+msgctxt "mp/lobby/hint/setmaster"
+msgid "Assign a new host"
+msgstr ""
+
+msgctxt "mp/scene/msg_reinforcement_arrived"
+msgid "Reinforcement of %1% units has arrived."
+msgstr ""
+
+msgctxt "mp/lobby/setup/settings.preparationtime"
+msgid "Preparation time"
+msgstr ""
+
+msgctxt "mp/lobby/button/start"
+msgid "Start"
+msgstr ""
+
+msgctxt "mp/lobby/setup/settings.preparationtime#hint"
+msgid "Time until the game starts. You can buy units during this time."
+msgstr ""
+
+msgctxt "mp/lobby/setup/settings.difficulty#/normal"
+msgid "Normal"
+msgstr ""
+
+msgctxt "mp/lobby/setup/settings.difficulty#/hard"
+msgid "Hard"
+msgstr ""
+
+msgctxt "mp/unit_info/armor_angle_desc"
+msgid ""
+"<s(8)c(20 20 20)f(arial_hq)>* - Slope angles are shown in degrees from a "
+"horizontal surface. The smaller <x(0)y(12)> the angle, the greater the "
+"chance of a projectile ricochet."
+msgstr ""
+
+msgctxt "mp/lobby/setup/settings.difficulty#/heroic"
+msgid "Hardcore"
+msgstr ""
+
+msgctxt "mp/lobby/setup/settings.showpiercing"
+msgid "Show armor penetration"
+msgstr ""
+
+msgctxt "mp/lobby/slot/closed_slot"
+msgid "<c(bf3030)>closed"
+msgstr ""
+
+msgctxt "mp/chat2/color_neutral"
+msgid "<c(gray)>"
+msgstr ""
+
+msgctxt "mp/gs/stats/rank"
+msgid "Score"
+msgstr ""
+
+msgctxt "mp/lobby/setup/settings.showdamagereports"
+msgid "Show damage information"
+msgstr ""
+
+msgctxt "mp/lobby/setup/settings.showdamagereports#hint"
+msgid "Shows information about the damage when an allied vehicle was hit"
+msgstr ""
+
+msgctxt "mp/lobby/replay/column_date"
+msgid "Date"
+msgstr ""
+
+msgctxt "mp/lobby/setup/settings.enablespectators"
+msgid "Enable spectators"
+msgstr ""
+
+msgctxt "mp/lobby/lbl_players_selected"
+msgid "Team lineup:"
+msgstr ""
+
+msgctxt "mp/lobby/setup/settings.enablespectators#hint"
+msgid "Enables additional player slots for watching the game."
+msgstr ""
+
+msgctxt "mp/gs/pathcing_cancel"
+msgid "Continue"
+msgstr ""
+
+msgctxt "mp/lobby/setup/settings.armyselectionmode"
+msgid "Army Selection Mode"
+msgstr ""
+
+msgctxt "mp/lobby/setup/mission_options"
+msgid "Mission Options"
+msgstr ""
+
+msgctxt "mp/lobby/setup/settings.armyselectionmode#hint"
+msgid "Determines how players can pick a faction."
+msgstr ""
+
+msgctxt "mp/gs/stats/select_game_type"
+msgid "Select game type"
+msgstr ""
+
+msgctxt "mp/lobby/setup/settings.randomspawnpoints"
+msgid "Random Spawn Points"
+msgstr ""
+
+msgctxt "mp/lobby/setup/settings.minuserperformance#/impossible"
+msgid "Impossible"
+msgstr ""
+
+msgctxt "mp/lobby/hint/kickban"
+msgid "Kickban player"
+msgstr ""
+
+msgctxt "mp/lobby/setup/settings.minuserperformance#/low"
+msgid "Medium"
+msgstr ""
+
+msgctxt "mp/lobby/setup/settings.minuserperformance#/fast"
+msgid "Fast"
+msgstr ""
+
+msgctxt "mp/lobby/setup/settings.veterancymode"
+msgid "User Experience"
+msgstr ""
+
+msgctxt "mp/lobby/setup/settings.veterancymode#/all"
+msgid "Free for All"
+msgstr ""
+
+msgctxt "mp/sync/txt_reschecking"
+msgid "Checking resource..."
+msgstr ""
+
+msgctxt "mp/lobby/setup/settings.veterancymode#/beginners"
+msgid "Beginners"
+msgstr ""
+
+msgctxt "mp/lobby/setup/replay.version"
+msgid "Game version"
+msgstr ""
+
+msgctxt "mp/gs/chat/nik_too_long"
+msgid "Name too long"
+msgstr ""
+
+msgctxt "mp/lobby/setup/replay.map#not_found"
+msgid "<c(red)>%s (map not found)"
+msgstr ""
+
+msgctxt "mp/lobby/setup/replay.map#crc_invalid"
+msgid "<c(red)>%s (different map version)"
+msgstr ""
+
+msgctxt "mp/statistics2/personal/xp"
+msgid "%1% XP"
+msgstr ""
+
+msgctxt "mp/lobby/setup/replay.date"
+msgid "Date"
+msgstr ""
+
+msgctxt "mp/lobby/setup/replay.gametype"
+msgid "Game type"
+msgstr ""
+
+msgctxt "mp/lobby/setup/replay.players"
+msgid "Players"
+msgstr ""
+
+msgctxt "mp/sync/txt_mapcompare"
+msgid "Map %1% is installed, %2% is required."
+msgstr ""
+
+msgctxt "mp/lobby/setup/replay.players#count"
+msgid "%1% of %2%"
+msgstr ""
+
+msgctxt "mp/trust_rating/perm_banned"
+msgid "permanently banned"
+msgstr ""
+
+msgctxt "mp/gs/stats/undef_error"
+msgid "ERROR!"
+msgstr ""
+
+msgctxt "mp/lobby/button/join"
+msgid "Join"
+msgstr ""
+
+msgctxt "mp/lobby/button/new_game"
+msgid "New game"
+msgstr ""
+
+msgctxt "mp/lobby/button/create_session"
+msgid "Create"
+msgstr ""
+
+msgctxt "mp/lobby/chat_user_banned"
+msgid "You have been banned from this chat room."
+msgstr ""
+
+msgctxt "mp/lobby/button/refresh"
+msgid "Refresh"
+msgstr ""
+
+msgctxt "mp/lobby/button/ready"
+msgid "Ready"
+msgstr ""
+
+msgctxt "mp/gs/social/show_online"
+msgid "<y(+5)>Online"
+msgstr ""
+
+msgctxt "mp/lobby/button/stop"
+msgid "Stop"
+msgstr ""
+
+msgctxt "mp/gs/social/ignore_page"
+msgid "<y(+9)>Blocked"
+msgstr ""
+
+msgctxt "mp/scene/hint_cost/special"
+msgid "DP: %1%"
+msgstr ""
+
+msgctxt "mp/lobby/button/desync"
+msgid "Desync."
+msgstr ""
+
+msgctxt "mp/gs/social/color_officer"
+msgid "<c(ffcc00)>"
+msgstr ""
+
+msgctxt "mp/lobby/button/download"
+msgid "Download"
+msgstr ""
+
+msgctxt "mp/lobby/replay/info/uploading"
+msgid "Uploading (%.0f%)"
+msgstr ""
+
+msgctxt "mp/unit_info/gun/piercing"
+msgid "penetration (mm)<x(175)>%1%<x(225)>%2%<x(275)>%3%<x(325)>%4%<x(375)>%5%"
+msgstr ""
+
+msgctxt "mp/lobby/button/result"
+msgid "Results"
+msgstr ""
+
+msgctxt "mp/lobby/blocked/seconds"
+msgid ""
+"You can't enter internet games for %1% second(s), due to your ranked trust "
+"rating. Please make sure not to quit games in progress."
+msgstr ""
+
+msgctxt "mp/lobby/button/rename"
+msgid "Rename"
+msgstr ""
+
+msgctxt "mp/lobby/filter/reset"
+msgid "<f(pobeda)s(27)b>Reset"
+msgstr ""
+
+msgctxt "mp/lobby/button/delete"
+msgid "Delete"
+msgstr ""
+
+msgctxt "mp/lobby/hint/performance"
+msgid "PC performance"
+msgstr ""
+
+msgctxt "mp/chat/steamclan"
+msgid "Community"
+msgstr ""
+
+msgctxt "mp/lobby/button/upload"
+msgid "Upload"
+msgstr ""
+
+msgctxt "mp/gs/chat/user_banned_by_channel"
+msgid "User banned from this channel."
+msgstr ""
+
+msgctxt "mp/lobby/button/browse"
+msgid "Browse"
+msgstr ""
+
+msgctxt "mp/lobby/slot/ai_slot"
+msgid "AI Player"
+msgstr ""
+
+msgctxt "mp/lobby/hint/ready"
+msgid "Ready"
+msgstr ""
+
+msgctxt "mp/statistics2/personal/progress_xp"
+msgid "XP Collected"
+msgstr ""
+
+msgctxt "mp/gs/stats/common_page"
+msgid "<y(+9)>Common"
+msgstr ""
+
+msgctxt "mp/lobby/button/rules"
+msgid "Info"
+msgstr ""
+
+msgctxt "mp/lobby/color_mention"
+msgid "<c(9adbf5)>"
+msgstr ""
+
+msgctxt "mp/lobby/lbl_players_to_selected"
+msgid "Available players:"
+msgstr ""
+
+msgctxt "mp/lobby/button/advanced"
+msgid "Advanced settings"
+msgstr ""
+
+msgctxt "mp/gs/game_temporarily_unavailable"
+msgid ""
+"Online services have been temporarily shut down for maintenance. Please try "
+"again later."
+msgstr ""
+
+msgctxt "mp/lobby/button/replay_start"
+msgid "Start"
+msgstr ""
+
+msgctxt "mp/lobby/button/replay_delete"
+msgid "Delete"
+msgstr ""
+
+msgctxt "mp/lobby/slot/menu/ai_easy"
+msgid "AI: Rookie"
+msgstr ""
+
+msgctxt "mp/lobby/button/replay_rename"
+msgid "Rename"
+msgstr ""
+
+msgctxt "mp/lobby/slot/empty_slot"
+msgid "<c(7e7e7e)>empty"
+msgstr ""
+
+msgctxt "mp/lobby2/lbl_passwordconfirm"
+msgid "RETYPE"
+msgstr ""
+
+msgctxt "mp/lobby/slot/reserved_slot_canjoin"
+msgid "<c(60bf68)>reserved"
+msgstr ""
+
+msgctxt "mp/lobby2/no_enemies_warning"
+msgid "Start with empty enemy team?"
+msgstr ""
+
+msgctxt "mp/gs/stats/looking_for_player"
+msgid "Searching for player \"%1%\". Please wait."
+msgstr ""
+
+msgctxt "mp/lobby/slot/menu/open"
+msgid "Open slot"
+msgstr ""
+
+msgctxt "mp/search_replay/search_subscribed"
+msgid "<s(25)y(+9)>Subscribed"
+msgstr ""
+
+msgctxt "mp/lobby/slot/menu/closed"
+msgid "Close slot"
+msgstr ""
+
+msgctxt "mp/scene/pause"
+msgid "<f(pobeda)e(shadow)s(42)b>Pause"
+msgstr ""
+
+msgctxt "mp/scene/txt_waitingfor_master"
+msgid "<f(pobeda)s(21)b+c(faeacb)e(shadow)x.y.>Waiting for server"
+msgstr ""
+
+msgctxt "mp/lobby/slot/menu/reserved"
+msgid "Reserve slot"
+msgstr ""
+
+msgctxt "mp/lobby/replay/column_desc"
+msgid "Description"
+msgstr ""
+
+msgctxt "mp/lobby/slot/menu/ai_normal"
+msgid "AI: Average"
+msgstr ""
+
+msgctxt "mp/unit_info/gun"
+msgid "Gun<x(75)>%1%"
+msgstr ""
+
+msgctxt "mp/lobby/slot/menu/ai_hard"
+msgid "AI: Veteran"
+msgstr ""
+
+msgctxt "mp/gs/stats/first"
+msgid "Move to start"
+msgstr ""
+
+msgctxt "mp/lobby/slot/hint/closed"
+msgid "Slot is closed."
+msgstr ""
+
+msgctxt "mp/lobby/hint/desynced"
+msgid "Desynchronised."
+msgstr ""
+
+msgctxt "mp/lobby/hint/password_protected"
+msgid "Password protected"
+msgstr ""
+
+msgctxt "mp/statistics2/statistics/header/score"
+msgid "<x.y.>Score"
+msgstr ""
+
+msgctxt "mp/gs/stats/wins"
+msgid "Wins"
+msgstr ""
+
+msgctxt "mp/gs/stats/prev"
+msgid "Previous page"
+msgstr ""
+
+msgctxt "mp/lobby/hint/refresh"
+msgid "Refresh"
+msgstr ""
+
+msgctxt "mp/lobby/hint/show_smileys"
+msgid "Show emoticon menu"
+msgstr ""
+
+msgctxt "mp/lobby/hint/lockoff"
+msgid "Session opened, click to close"
+msgstr ""
+
+msgctxt "mp/lobby/chat_system_prefix"
+msgid ">>>>>>"
+msgstr ""
+
+msgctxt "mp/lobby/hint/players"
+msgid "Total/Available"
+msgstr ""
+
+msgctxt "mp/lobby/hint/performance0"
+msgid "PC performance (Unknown)"
+msgstr ""
+
+msgctxt "mp/scene/chat/prefix_all"
+msgid "<c(d4d4d4)>(All) </c>"
+msgstr ""
+
+msgctxt "mp/lobby/hint/performance1"
+msgid "PC performance (Very Low)"
+msgstr ""
+
+msgctxt "mp/gs/social/dialog_title"
+msgid "<f(impact)s(28)c(255 255 255)>Community"
+msgstr ""
+
+msgctxt "mp/gs/stats/games"
+msgid "Games"
+msgstr ""
+
+msgctxt "mp/lobby/hint/performance2"
+msgid "PC performance (Low)"
+msgstr ""
+
+msgctxt "mp/gs/chat/undef_error"
+msgid ""
+"Chat connection failed. Please check your internet and firewall settings."
+msgstr ""
+
+msgctxt "mp/lobby/hint/performance3"
+msgid "PC performance (Normal)"
+msgstr ""
+
+msgctxt "mp/lobby/hint/performance5"
+msgid "PC performance (Very Good)"
+msgstr ""
+
+msgctxt "mp/gs/xp_gain"
+msgid "XP gain (%1%%)"
+msgstr ""
+
+msgctxt "mp/lobby/hint/add_player"
+msgid "Add player to team"
+msgstr ""
+
+msgctxt "mp/lobby/hint/session_info"
+msgid "Detailed session information"
+msgstr ""
+
+msgctxt "mp/lobby/hint/strategy_enabled"
+msgid "Direct Control disabled"
+msgstr ""
+
+msgctxt "mp/lobby/hint/dc"
+msgid "Classic Top-down Direct Control enabled"
+msgstr ""
+
+msgctxt "mp/lobby/hint/tpc"
+msgid "Third Person disabled"
+msgstr ""
+
+msgctxt "mp/lobby/hint/search_options"
+msgid "Session search options"
+msgstr ""
+
+msgctxt "mp/lobby/hint/unranked"
+msgid "%1% games played"
+msgstr ""
+
+msgctxt "mp/lobby/hint/ranked"
+msgid "%1% ranked games played"
+msgstr ""
+
+msgctxt "mp/lobby/hint/veterancy_mode"
+msgid "Level of experience allowed to join"
+msgstr ""
+
+msgctxt "mp/gs/chat/to_session_hint"
+msgid "Messages will be visible in the game room only."
+msgstr ""
+
+msgctxt "mp/lobby/hint/hardcore_enabled"
+msgid "Enhanced Realism enabled"
+msgstr ""
+
+msgctxt "mp/lobby/title_rules"
+msgid "Information"
+msgstr ""
+
+msgctxt "mp/lobby/session/game_time"
+msgid "Game time:"
+msgstr ""
+
+msgctxt "mp/lobby/color_my_name"
+msgid "<c(f2aa5a)>"
+msgstr ""
+
+msgctxt "mp/lobby/color_private"
+msgid "<c(9adbf5)>"
+msgstr ""
+
+msgctxt "mp/chat2/color_private"
+msgid "<c(9adbf5)>"
+msgstr ""
+
+msgctxt "mp/lobby/txt_advanced_off"
+msgid ""
+"Network game settings will be reset to default. Do you wish to continue?"
+msgstr ""
+
+msgctxt "mp/lobby/txt_provider"
+msgid "%1%.ds"
+msgstr ""
+
+msgctxt "mp/lobby/session/team_color"
+msgid "<c(790505)>"
+msgstr ""
+
+msgctxt "mp/gs/msg_connecting_failed"
+msgid "Connection failed"
+msgstr ""
+
+msgctxt "mp/lobby/session/title"
+msgid "<f(impact)s(28)c(255 255 255)>%1%"
+msgstr ""
+
+msgctxt "mp/unit_info/btn_tech"
+msgid "Specifications"
+msgstr ""
+
+msgctxt "mp/lobby/session/common"
+msgid "<y(+9)>Game"
+msgstr ""
+
+msgctxt "mp/lobby/session/teams"
+msgid "<y(+9)>Teams"
+msgstr ""
+
+msgctxt "mp/gs/social/friend_blocked"
+msgid "(Blocked)"
+msgstr ""
+
+msgctxt "mp/scene/txt_mp_rate2"
+msgid "<f(pobeda)c(efb570)p(0)e(shadow)>+%1%"
+msgstr ""
+
+msgctxt "mp/lobby/session/players"
+msgid "Players:"
+msgstr ""
+
+msgctxt "mp/gs/paste_text"
+msgid "Paste text"
+msgstr ""
+
+msgctxt "mp/lobby/session/game_type"
+msgid "Game mode:"
+msgstr ""
+
+msgctxt "mp/lobby/session/password"
+msgid "password"
+msgstr ""
+
+msgctxt "mp/gs/xp_gain_ranked"
+msgid "Ranked + XP gain (%1%%)"
+msgstr ""
+
+msgctxt "mp/scene/chat/team"
+msgid "<b+c(b1db73)>%s"
+msgstr ""
+
+msgctxt "mp/sync/txt_mapdesync"
+msgid "Map desynchronisation detected."
+msgstr ""
+
+msgctxt "mp/gs/chat/session"
+msgid "Game room"
+msgstr ""
+
+msgctxt "mp/scene/hint_transfer"
+msgid "Transfer units to another player."
+msgstr ""
+
+msgctxt "mp/ds/s_lobby_full"
+msgid "too many users"
+msgstr ""
+
+msgctxt "mp/statistics2/personal/plus_percent"
+msgid "+%1%%"
+msgstr ""
+
+msgctxt "mp/chat2/cta_german"
+msgid "DEUTSCH"
+msgstr ""
+
+msgctxt "mp/sync/lbl_requiredmods"
+msgid "Required mods:"
+msgstr ""
+
+msgctxt "mp/unit_info/mguns"
+msgid "Machine guns"
+msgstr ""
+
+msgctxt "mp/scene/hint_s2"
+msgid "Support Squads"
+msgstr ""
+
+msgctxt "mp/lobby/filter/title"
+msgid "<f(pobeda)s(27)b+c(faeacb)e(shadow)x.y.>Session search options"
+msgstr ""
+
+msgctxt "mp/lobby2/lbl_players"
+msgid "PLAYERS %1%"
+msgstr ""
+
+msgctxt "mp/lobby/filter/apply"
+msgid "<f(pobeda)s(27)b>Apply"
+msgstr ""
+
+msgctxt "mp/lobby/filter/searchdistance"
+msgid "Distance to host"
+msgstr ""
+
+msgctxt "mp/lobby/filter/searchdistance#/worldwide"
+msgid "Worldwide"
+msgstr ""
+
+msgctxt "mp/lobby/filter/searchonlypublic"
+msgid "Only without password"
+msgstr ""
+
+msgctxt "mp/ds/cfg_load"
+msgid "Loading configuration..."
+msgstr ""
+
+msgctxt "mp/lobby/filter/searchonlysameversion"
+msgid "Only same version"
+msgstr ""
+
+msgctxt "mp/lobby/filter/searchgametype"
+msgid "Game types"
+msgstr ""
+
+msgctxt "mp/lobby/lbl_players_mine"
+msgid "Your team:"
+msgstr ""
+
+msgctxt "mp/lobby/color_system"
+msgid "<c(cccc00)>"
+msgstr ""
+
+msgctxt "mp/lobby/chat_private_message"
+msgid "%1% to %2%"
+msgstr ""
+
+msgctxt "mp/lobby/replay/row_version"
+msgid "Version: %1%"
+msgstr ""
+
+msgctxt "mp/lobby/chat_user_kicked"
+msgid "You have been kicked from this chat room."
+msgstr ""
+
+msgctxt "mp/gs/stats/ri_top_auto"
+msgid "Automatic"
+msgstr ""
+
+msgctxt "mp/lobby/chat_unable_to_connect"
+msgid "Send a message to connect to the global chat!"
+msgstr ""
+
+msgctxt "mp/lobby/replay/column_mods"
+msgid "Mods"
+msgstr ""
+
+msgctxt "mp/lobby/replay/column_creator"
+msgid "Creator"
+msgstr ""
+
+msgctxt "mp/result/hdr"
+msgid ""
+"# # #Player#<x.>Victory Points#<x.>Infantry#<x.>Vehicles#<x.>Score#Ping#PC"
+msgstr ""
+
+msgctxt "mp/lobby/replay/row_duration"
+msgid "Duration: %1%"
+msgstr ""
+
+msgctxt "mp/lobby/replay/row_team"
+msgid "Team %1%:"
+msgstr ""
+
+msgctxt "mp/lobby/replay/title_delete_replay"
+msgid "Delete selected replay?"
+msgstr ""
+
+msgctxt "mp/lobby/replay/leave_replay_session"
+msgid "Do you really want to leave replays page?"
+msgstr ""
+
+msgctxt "mp/gs/social/color_neutral"
+msgid "<c(25 25 25)>"
+msgstr ""
+
+msgctxt "mp/lobby/replay/load_invalid_version"
+msgid "Replay is from a different game version. Try to load it anyway?"
+msgstr ""
+
+msgctxt "mp/lobby/replay/title_upload_replay"
+msgid "Do you really want to upload the selected replay to your Steam cloud?"
+msgstr ""
+
+msgctxt "mp/lobby/replay/error_incomplete_replay"
+msgid "This replay wasn't recorded successfully or corrupted."
+msgstr ""
+
+msgctxt "mp/button/multiplayer_join_game"
+msgid "Join Game"
+msgstr ""
+
+msgctxt "mp/statistics/player/early_exit"
+msgid "<c(25 25 25)> +1 Early Exit"
+msgstr ""
+
+msgctxt "mp/lobby/replay/visibility/private"
+msgid "Private"
+msgstr ""
+
+msgctxt "mp/lobby/replay/info/cloud_not_available"
+msgid "Steam cloud is not available."
+msgstr ""
+
+msgctxt "mp/lobby/replay/info/upload_not_a_player"
+msgid "You can't upload replays of games you didn't play."
+msgstr ""
+
+msgctxt "mp/lobby/replay/info/publishing"
+msgid "Publishing..."
+msgstr ""
+
+msgctxt "mp/lobby/replay/info/preparing_config"
+msgid "Processing configuration data..."
+msgstr ""
+
+msgctxt "mp/lobby/replay/info/preparing_content"
+msgid "Reading and processing content files..."
+msgstr ""
+
+msgctxt "mp/lobby/replay/info/uploading_content"
+msgid "Uploading content changes to Steam..."
+msgstr ""
+
+msgctxt "mp/lobby/replay/info/uploading_preview_file"
+msgid "Uploading preview file image..."
+msgstr ""
+
+msgctxt "mp/lobby/replay/info/committing_changes"
+msgid "Committing all changes..."
+msgstr ""
+
+msgctxt "mp/lobby/replay/info/commit_successful"
+msgid "Replay successfully uploaded."
+msgstr ""
+
+msgctxt "mp/statistics2/result/header/vehicles"
+msgid "<x.y.>Vehicles"
+msgstr ""
+
+msgctxt "mp/lobby/replay/info/commit_error"
+msgid "Error on uploading user generated content. (ErrorCode: %1%)"
+msgstr ""
+
+msgctxt "mp/lobby2/lbl_info"
+msgid "ADDITIONAL INFO"
+msgstr ""
+
+msgctxt "mp/lobby2/lbl_veterancy"
+msgid "USER EXPERIENCE"
+msgstr ""
+
+msgctxt "mp/lobby2/vac_secured"
+msgid "VAC SECURED"
+msgstr ""
+
+msgctxt "mp/lobby2/lbl_lobby_type"
+msgid "LOBBY TYPE"
+msgstr ""
+
+msgctxt "mp/lobby2/maps"
+msgid "MAPS"
+msgstr ""
+
+msgctxt "mp/gs/stats/hdr_armies_page"
+msgid "#Party#Games#Wins#Wins"
+msgstr ""
+
+msgctxt "mp/lobby2/session_comment"
+msgid "<x.y.c(dddddd)>%1%"
+msgstr ""
+
+msgctxt "mp/lobby2/button/reset_settings"
+msgid "<f(pobeda)e(shadow)>RESET"
+msgstr ""
+
+msgctxt "mp/lobby2/button/create_session"
+msgid "<f(pobeda)e(shadow)>CREATE"
+msgstr ""
+
+msgctxt "mp/lobby2/button/ready"
+msgid "Ready"
+msgstr ""
+
+msgctxt "mp/sync/txt_desyncwarning"
+msgid ""
+"Playing with desynchronised resources could lead to an Out-of-Sync error."
+msgstr ""
+
+msgctxt "mp/lobby2/button/start"
+msgid "START"
+msgstr ""
+
+msgctxt "mp/lobby2/button/kick"
+msgid "KICK"
+msgstr ""
+
+msgctxt "mp/lobby2/button/advanced"
+msgid "<f(pobeda)e(shadow)>ADVANCED"
+msgstr ""
+
+msgctxt "mp/persona_state/offline"
+msgid "<y(+5)>Offline"
+msgstr ""
+
+msgctxt "mp/persona_state/online"
+msgid "<y(+5)>Online"
+msgstr ""
+
+msgctxt "mp/statistics2/statistics/header/your_top_units"
+msgid "<x-y.>Your top units"
+msgstr ""
+
+msgctxt "mp/statistics/player/ranked_score"
+msgid "%1% <c(25 25 25)>(%2% *Total)"
+msgstr ""
+
+msgctxt "mp/persona_state/busy"
+msgid "Busy"
+msgstr ""
+
+msgctxt "mp/persona_state/snooze"
+msgid "Snooze"
+msgstr ""
+
+msgctxt "mp/persona_state/looking_to_trade"
+msgid "Looking to trade"
+msgstr ""
+
+msgctxt "mp/persona_state/in_game"
+msgid "In-game"
+msgstr ""
+
+msgctxt "mp/gs/ranked_game"
+msgid "Ranked game"
+msgstr ""
+
+msgctxt "mp/persona_state/in_lobby"
+msgid "In-game (open session)"
+msgstr ""
+
+msgctxt "mp/sync/title_autojoin"
+msgid "Join"
+msgstr ""
+
+msgctxt "mp/sync/title_download"
+msgid "Download"
+msgstr ""
+
+msgctxt "mp/sync/lbl_mastermods"
+msgid "Host MODs:"
+msgstr ""
+
+msgctxt "mp/sync/lbl_masterversion"
+msgid ""
+"Host Version: %1%\n"
+"Host Platform: %2%"
+msgstr ""
+
+msgctxt "mp/sync/lbl_clientmods"
+msgid "Installed mods:"
+msgstr ""
+
+msgctxt "mp/sync/txt_prepare"
+msgid ""
+"The system will attempt to prepare the game resources necessary to join the "
+"game."
+msgstr ""
+
+msgctxt "mp/sync/txt_download"
+msgid "The item(s) %s will be downloaded."
+msgstr ""
+
+msgctxt "mp/sync/txt_modapply"
+msgid "The mod(s) %s will be applied."
+msgstr ""
+
+msgctxt "mp/sync/txt_missingmods"
+msgid "Missing mods:"
+msgstr ""
+
+msgctxt "mp/gs/social/player_add_dialog_title"
+msgid "<f(impact)s(28)c(255 255 255)>Add player"
+msgstr ""
+
+msgctxt "mp/gs/chat/bad_channel_name"
+msgid "The chat channel name was invalid."
+msgstr ""
+
+msgctxt "mp/statistics/detail/units_header"
+msgid ""
+"# #Units#<x.>Infantry kills#<x.>Vehicle kills#<x.>Score#<x.>Effectiveness#"
+msgstr ""
+
+msgctxt "mp/sync/txt_exedesync"
+msgid "Desynchronisation of executable files detected."
+msgstr ""
+
+msgctxt "mp/sync/txt_mapnotfound"
+msgid "Map is not found."
+msgstr ""
+
+msgctxt "mp/sync/txt_nodesyncresfound"
+msgid "No desynchronised resources found."
+msgstr ""
+
+msgctxt "mp/sync/txt_rescheckingfailed"
+msgid "Failed to check resource!"
+msgstr ""
+
+msgctxt "mp/sync/msg_downloadingfailed"
+msgid "Failed to download files!"
+msgstr ""
+
+msgctxt "mp/scene/round"
+msgid "Round %1% of %2%"
+msgstr ""
+
+msgctxt "mp/scene/title_transfer"
+msgid "Unit transfer"
+msgstr ""
+
+msgctxt "mp/scene/hint_cp"
+msgid "Used CP / Total CP"
+msgstr ""
+
+msgctxt "mp/scene/msg_transfered"
+msgid "%1% unit(s) are transferred to %2%"
+msgstr ""
+
+msgctxt "mp/scene/txt_comingup"
+msgid "<f(bookman_hq)s(13)>Finding server"
+msgstr ""
+
+msgctxt "mp/scene/txt_draw"
+msgid "Game draw"
+msgstr ""
+
+msgctxt "mp/scene/hint_cost2/default"
+msgid "%1% MP"
+msgstr ""
+
+msgctxt "mp/scene/hint_cost2/special"
+msgid "%1% DP"
+msgstr ""
+
+msgctxt "mp/gs/stats/disconnects"
+msgid "Early exits"
+msgstr ""
+
+msgctxt "mp/scene/hint_time"
+msgid "Time: %1%"
+msgstr ""
+
+msgctxt "mp/scene/hint_time2"
+msgid "Time: %1% (%2%)"
+msgstr ""
+
+msgctxt "mp/statistics2/result/title"
+msgid "GAME RESULT"
+msgstr ""
+
+msgctxt "mp/scene/hint_score"
+msgid "Score: %1%"
+msgstr ""
+
+msgctxt "mp/scene/chat/say_all"
+msgid "<s(19)>Say all"
+msgstr ""
+
+msgctxt "mp/scene/chat/say_team"
+msgid "<s(19)>Say team"
+msgstr ""
+
+msgctxt "mp/scene/chat/prefix_team"
+msgid "<c(d4d4d4)>(Team) </c>"
+msgstr ""
+
+msgctxt "mp/scene/chat/private"
+msgid "<b+c(b070ee)>%s"
+msgstr ""
+
+msgctxt "mp/scene/txt_cp"
+msgid "<f(roboto_mono)c(588157)><e(shadow)>CP %1% / %2%"
+msgstr ""
+
+msgctxt "mp/scene/txt_mp"
+msgid "<f(roboto_mono)c(ffcb69)><e(shadow)>MP %1% / %2%"
+msgstr ""
+
+msgctxt "mp/scene/txt_mp_rate"
+msgid "<f(arial_hq)s(8)c(d8e2dc)p(0)e(shadow)>+ %1% MP"
+msgstr ""
+
+msgctxt "mp/scene/txt_payback_rate"
+msgid "<f(arial_hq)s(8)c(d8e2dc)p(0)e(shadow)>+ %1% MP"
+msgstr ""
+
+msgctxt "mp/scene/txt_sp"
+msgid "<f(roboto_mono)c(b7b7a4)><e(shadow)>DP %1% / %2% "
+msgstr ""
+
+msgctxt "mp/scene/txt_ap"
+msgid "<f(roboto_mono)c(aa998f)><e(shadow)>AP %1% / %2% "
+msgstr ""
+
+msgctxt "mp/scene/txt_level"
+msgid "<f(arial_narrow)s(16)c(e5e1df)><e(shadow)>level %1%"
+msgstr ""
+
+msgctxt "mp/gs/stats/ranked_games"
+msgid "Ranked games"
+msgstr ""
+
+msgctxt "mp/scene/txt_growspeed"
+msgid "<f(arial_narrow)s(16)>%1%%"
+msgstr ""
+
+msgctxt "mp/scene/hint_growspeed"
+msgid "Point gain rate"
+msgstr ""
+
+msgctxt "mp/scene/hint_squad1"
+msgid "Infantry Squads"
+msgstr ""
+
+msgctxt "mp/scene/hint_squad2"
+msgid "Specialized Squads"
+msgstr ""
+
+msgctxt "mp/scene/hint_s1"
+msgid "Infantry Squads"
+msgstr ""
+
+msgctxt "mp/scene/hint_v1"
+msgid "Support"
+msgstr ""
+
+msgctxt "mp/statistics/player/units_header"
+msgid ""
+"# #Your top units#<x.>Infantry kills#<x.>Vehicle kills#<x.>Score#<x."
+">Effectiveness#"
+msgstr ""
+
+msgctxt "mp/result/title"
+msgid "Game Result"
+msgstr ""
+
+msgctxt "mp/gs/social/global_chat"
+msgid "Global chat"
+msgstr ""
+
+msgctxt "mp/statistics_xp/deluxe_bonus"
+msgid "Deluxe Edition Bonus (+%1%%): %2%"
+msgstr ""
+
+msgctxt "mp/statistics_xp/total"
+msgid "Total XP: %1%"
+msgstr ""
+
+msgctxt "mp/statistics_xp/leave"
+msgid "You lost your XP for leaving the match."
+msgstr ""
+
+msgctxt "mp/statistics/player/title"
+msgid "<s(25)y(+9)>Personal Statistics"
+msgstr ""
+
+msgctxt "mp/statistics/player/score"
+msgid "Score:"
+msgstr ""
+
+msgctxt "mp/gs/social/btn_info"
+msgid "Info"
+msgstr ""
+
+msgctxt "mp/statistics/player/veh"
+msgid "Vehicles:"
+msgstr ""
+
+msgctxt "mp/gs/stats/winratio"
+msgid "Win ratio"
+msgstr ""
+
+msgctxt "mp/statistics/player/experience"
+msgid "Experience:"
+msgstr ""
+
+msgctxt "mp/statistics/player/btn_replay"
+msgid "Save Replay"
+msgstr ""
+
+msgctxt "mp/statistics/result/title"
+msgid "<s(25)y(+9)>Game Result"
+msgstr ""
+
+msgctxt "mp/statistics/resources/title"
+msgid "<s(25)y(+9)>Resources"
+msgstr ""
+
+msgctxt "mp/statistics/units/cost/default"
+msgid "<c(30 30 30)>%.0f MP"
+msgstr ""
+
+msgctxt "mp/search_replay/search_all"
+msgid "<s(25)y(+9)>All"
+msgstr ""
+
+msgctxt "mp/search_replay/search_friends"
+msgid "<s(25)y(+9)>Friends"
+msgstr ""
+
+msgctxt "mp/search_replay/search_published"
+msgid "<s(25)y(+9)>Published"
+msgstr ""
+
+msgctxt "mp/search_replay/subscribe"
+msgid "Subscribe"
+msgstr ""
+
+msgctxt "mp/search_replay/unsubscribe"
+msgid "Unsubscribe"
+msgstr ""
+
+msgctxt "mp/trust_rating/okay"
+msgid "okay"
+msgstr ""
+
+msgctxt "mp/settings/teamb"
+msgid "B Team"
+msgstr ""
+
+msgctxt "mp/chat2/cta_ukrainian"
+msgid "УКРАЇНСЬКИЙ"
+msgstr ""
+
+msgctxt "mp/gs/social/player_not_found"
+msgid "Player \"%1%\" not found"
+msgstr ""
+
+msgctxt "mp/chat2/cta_polish"
+msgid "POLSKIE"
+msgstr ""
+
+msgctxt "mp/gs/social/friends_page"
+msgid "<y(+9)>Friends"
+msgstr ""
+
+msgctxt "mp/gs/stats/armies_page"
+msgid "<y(+9)>Armies"
+msgstr ""
+
+msgctxt "mp/gs/game_unavailable"
+msgid "Online services are not available."
+msgstr ""
+
+msgctxt "mp/gs/patching_dialog_title"
+msgid "Game patch"
+msgstr ""
+
+msgctxt "mp/gs/patching_available"
+msgid "New patch is available (version %1%)."
+msgstr ""
+
+msgctxt "mp/gs/patching_mandatory"
+msgid "Multiplayer games require this patch!"
+msgstr ""
+
+msgctxt "mp/chat2/cta_russian"
+msgid "РУССКИЙ"
+msgstr ""
+
+msgctxt "mp/gs/pathcing_download"
+msgid "Download"
+msgstr ""
+
+msgctxt "mp/ds/dlg/title"
+msgid "<f(impact)s(28)c(255 255 255)> List of available servers"
+msgstr ""
+
+msgctxt "mp/gs/patching_check_msg"
+msgid "Checking game version."
+msgstr ""
+
+msgctxt "mp/gs/stats/player_loading"
+msgid "Data on player \"%1%\" loading. Please wait."
+msgstr ""
+
+msgctxt "mp/gs/stats_unknow_error"
+msgid "Unspecified error while interacting with stat server."
+msgstr ""
+
+msgctxt "mp/gs/cancel_session_question"
+msgid "Close the current game session?"
+msgstr ""
+
+msgctxt "mp/gs/vac_secured"
+msgid "VAC secured"
+msgstr ""
+
+msgctxt "mp/gs/vac_secured_hint"
+msgid "Protected by Valve Anti-Cheat"
+msgstr ""
+
+msgctxt "mp/gs/xp_gain_lobby"
+msgid "You will receive XP for playing this game"
+msgstr ""
+
+msgctxt "mp/gs/xp_gain_hint"
+msgid "You will receive %1%% XP for playing a non-ranked game"
+msgstr ""
+
+msgctxt "mp/gs/xp_gain_hint_ranked"
+msgid "You will receive %1%% XP and ranked score for playing a ranked game"
+msgstr ""
+
+msgctxt "mp/gs/chat/login_fail"
+msgid "Login to chat failed. Please check your internet and firewall settings."
+msgstr ""
+
+msgctxt "mp/statistics2/units/cost/special"
+msgid "%.0f DP"
+msgstr ""
+
+msgctxt "mp/gs/chat/channel_invite_only"
+msgid "The chat channel is invite only."
+msgstr ""
+
+msgctxt "mp/gs/chat/bad_channel_mask"
+msgid "Chat connection failed."
+msgstr ""
+
+msgctxt "mp/gs/chat/invalid_nick"
+msgid "Invalid name"
+msgstr ""
+
+msgctxt "mp/chat2/color_ignore"
+msgid "<c(bdbdbd)>"
+msgstr ""
+
+msgctxt "mp/gs/chat/main"
+msgid "General chat"
+msgstr ""
+
+msgctxt "mp/gs/stats/next"
+msgid "Next page"
+msgstr ""
+
+msgctxt "mp/gs/chat/txt_send_to"
+msgid "Send to:"
+msgstr ""
+
+msgctxt "mp/gs/chat/to_lobby"
+msgid "General chat"
+msgstr ""
+
+msgctxt "mp/gs/chat/to_lobby_hint"
+msgid "Messages will be visible in both game and main rooms."
+msgstr ""
+
+msgctxt "mp/gs/chat/to_session"
+msgid "Game room"
+msgstr ""
+
+msgctxt "mp/gs/qrwsockerror"
+msgid "Winsock initialization error."
+msgstr ""
+
+msgctxt "mp/gs/qrnochallengeerror"
+msgid ""
+"The main server is not responding. Possible reasons: firewall is blocking "
+"UDP packets or server is offline."
+msgstr ""
+
+msgctxt "mp/gs/change_sort_number"
+msgid "Sort by total games."
+msgstr ""
+
+msgctxt "mp/gs/change_sort_picture"
+msgid "Sort by global rank/ELO."
+msgstr ""
+
+msgctxt "mp/gs/player_info"
+msgid "Steam profile"
+msgstr ""
+
+msgctxt "mp/gs/player_profile"
+msgid "Profile"
+msgstr ""
+
+msgctxt "mp/gs/send_message"
+msgid "Send message"
+msgstr ""
+
+msgctxt "mp/gs/invite"
+msgid "Invite to session"
+msgstr ""
+
+msgctxt "mp/gs/invite_party"
+msgid "Invite to party"
+msgstr ""
+
+msgctxt "mp/gs/stats/player_dialog_title"
+msgid "<f(impact)s(28)c(255 255 255)>Stats \"%1%\""
+msgstr ""
+
+msgctxt "mp/gs/stats/common"
+msgid "<y(+9)>General"
+msgstr ""
+
+msgctxt "mp/gs/stats/hdr_common"
+msgid "#Games#Points#Rank games#Victories#Wins#Quits"
+msgstr ""
+
+msgctxt "mp/gs/stats/hdr_armies"
+msgid "#Side#Games#Victories#Wins"
+msgstr ""
+
+msgctxt "mp/gs/social/friend_add"
+msgid "Add to friends"
+msgstr ""
+
+msgctxt "mp/gs/stats/hdr_toplist"
+msgid "# #Name#Score#Games#Wins, %"
+msgstr ""
+
+msgctxt "mp/gs/stats/ri_top_frontline"
+msgid "Frontline"
+msgstr ""
+
+msgctxt "mp/gs/stats/ri_top_captureflag"
+msgid "Day of Victory"
+msgstr ""
+
+msgctxt "mp/gs/stats/ri_top_heavyload"
+msgid "Valuable Cargo"
+msgstr ""
+
+msgctxt "mp/gs/stats/ri_top_battle_zones"
+msgid "Battle Zones"
+msgstr ""
+
+msgctxt "mp/gs/stats/ri_top_modification"
+msgid "Modded game"
+msgstr ""
+
+msgctxt "mp/gs/stats/init_msg"
+msgid "Initializing rating system"
+msgstr ""
+
+msgctxt "mp/gs/stats/games_page"
+msgid "<y(+9)>Games"
+msgstr ""
+
+msgctxt "mp/statistics2/units/hint"
+msgid "Resources spent: %.0f / %.0f"
+msgstr ""
+
+msgctxt "mp/gs/stats/hdr_games_page"
+msgid "#Game#Score#Games#Wins#Wins"
+msgstr ""
+
+msgctxt "mp/gs/stats/last"
+msgid "Move to end"
+msgstr ""
+
+msgctxt "mp/gs/social/ignore_add"
+msgid "Block"
+msgstr ""
+
+msgctxt "mp/gs/stats/il_search_hint"
+msgid "Enter full name to search for player"
+msgstr ""
+
+msgctxt "mp/gs/stats/il_search_txt"
+msgid "Search"
+msgstr ""
+
+msgctxt "mp/gs/stats/btn_search"
+msgid "Find"
+msgstr ""
+
+msgctxt "mp/statistics2/detail/title"
+msgid "DETAIL"
+msgstr ""
+
+msgctxt "mp/gs/stats/page"
+msgid "Page"
+msgstr ""
+
+msgctxt "mp/gs/stats/position"
+msgid "Rating position"
+msgstr ""
+
+msgctxt "mp/gs/stats/page_loading"
+msgid "Page loading. Please wait."
+msgstr ""
+
+msgctxt "mp/mow_config_getting_fail"
+msgid "Failed to receive dedicated servers configuration"
+msgstr ""
+
+msgctxt "mp/gs/stats/player_not_in_ladder"
+msgid "Player \"%1%\" not found on this rating board."
+msgstr ""
+
+msgctxt "mp/gs/rejects_transfer"
+msgid "File transfer is not supported."
+msgstr ""
+
+msgctxt "mp/gs/diff_lobby_version"
+msgid "Different versions of server connection protocol."
+msgstr ""
+
+msgctxt "mp/gs/social/color_online"
+msgid "<c(000000)>"
+msgstr ""
+
+msgctxt "mp/gs/social/color_offline"
+msgid "<c(100 100 100)>"
+msgstr ""
+
+msgctxt "mp/gs/social/color_ignore"
+msgid "<c(bdbdbd)>"
+msgstr ""
+
+msgctxt "mp/gs/social/color_officer_chat"
+msgid "<c(ffcc00)>"
+msgstr ""
+
+msgctxt "mp/gs/social/color_friendlist_offline"
+msgid "<c(4c4945)>"
+msgstr ""
+
+msgctxt "mp/gs/social/ignore_del"
+msgid "Remove from blocked"
+msgstr ""
+
+msgctxt "mp/gs/social/social"
+msgid "Community"
+msgstr ""
+
+msgctxt "mp/gs/social/impossible_to_add_my_name"
+msgid "Cannot add yourself"
+msgstr ""
+
+msgctxt "mp/gs/social/btn_add"
+msgid "Add"
+msgstr ""
+
+msgctxt "mp/gs/social/hdr_friends_page"
+msgid "#Player name#Status"
+msgstr ""
+
+msgctxt "mp/gs/social/hdr_ignore_page"
+msgid "#Player name"
+msgstr ""
+
+msgctxt "mp/unit_info/speed"
+msgid "Speed<x(70)>%1%"
+msgstr ""
+
+msgctxt "mp/unit_info/crew"
+msgid "Crew<x(70)>%1%."
+msgstr ""
+
+msgctxt "mp/unit_info/armor/body"
+msgid "<x(20)>hull<x(175)>%1%<x(225)>%2%<x(275)>%3%<x(325)>%4%"
+msgstr ""
+
+msgctxt "mp/unit_info/armor/turret"
+msgid "<x(20)>turret<x(175)>%1%<x(225)>%2%<x(275)>%3%<x(325)>%4%"
+msgstr ""
+
+msgctxt "mp/unit_info/armor_angle"
+msgid "Armor slope angles*"
+msgstr ""
+
+msgctxt "mp/unit_info/gun/recharge_time"
+msgid "reload time (s)<x(175)>%1%"
+msgstr ""
+
+msgctxt "mp/unit_info/mgun"
+msgid "Machine gun<x(75)>%1%"
+msgstr ""
+
+msgctxt "mp/unit_info/mguns/text"
+msgid "%1%<x(175)>%2%"
+msgstr ""
+
+msgctxt "mp/ds/cfg_none"
+msgid "Configuration unavailable"
+msgstr ""
+
+msgctxt "mp/ds/cfg_load_complete"
+msgid "#name#ip#status#games#ping#"
+msgstr ""
+
+msgctxt "mp/ds/dlg/btn_close"
+msgid "Close"
+msgstr ""
+
+msgctxt "mp/ds/s_avail"
+msgid "available"
+msgstr ""
+
+msgctxt "mp/trust_rating/abysmal"
+msgid "abysmal"
+msgstr ""
+
+msgctxt "mp/ds/s_closed"
+msgid "no free space"
+msgstr ""
+
+msgctxt "mp/ds/s_offline"
+msgid "unavailable"
+msgstr ""
+
+msgctxt "mp/ds/s_diff_version"
+msgid "another version"
+msgstr ""
+
+msgctxt "mp/trust_rating/great"
+msgid "great"
+msgstr ""
+
+msgctxt "mp/ds/s_deny_connect"
+msgid "access denied"
+msgstr ""
+
+msgctxt "mp/button/multiplayer_host_game"
+msgid "Host Game"
+msgstr ""
+
+msgctxt "mp/trust_rating/bad"
+msgid "bad"
+msgstr ""
+
+msgctxt "mp/chat/steamlobby"
+msgid "Lobby"
+msgstr ""
+
+msgctxt "mp/statistics2/history/title"
+msgid "HISTORY"
+msgstr ""
+
+msgctxt "mp/chat2/dms"
+msgid "COMMON LOBBY"
+msgstr ""
+
+msgctxt "mp/chat2/cta_tester"
+msgid "BETA TESTER"
+msgstr ""
+
+msgctxt "mp/chat2/cta_french"
+msgid "FRANÇAIS"
+msgstr ""
+
+msgctxt "mp/chat2/cta_portuguese"
+msgid "PORTUGUÊS"
+msgstr ""
+
+msgctxt "mp/chat2/cta_czech"
+msgid "ČESKÝ"
+msgstr ""
+
+msgctxt "mp/chat2/cta_korean"
+msgid "한국어"
+msgstr ""
+
+msgctxt "mp/chat2/cta_thai"
+msgid "ไทย"
+msgstr ""
+
+msgctxt "mp/chat2/cta_italian"
+msgid "ITALIANO"
+msgstr ""
+
+msgctxt "mp/chat2/lanlobby"
+msgid "LAN LOBBY"
+msgstr ""
+
+msgctxt "mp/chat2/party"
+msgid "PARTY"
+msgstr ""
+
+msgctxt "mp/chat2/chat_officers"
+msgid "<c(white)>Developers [%1%]"
+msgstr ""
+
+msgctxt "mp/chat2/color_my_name"
+msgid "<c(fece99)>"
+msgstr ""
+
+msgctxt "mp/chat2/color_lobby"
+msgid "<c(4c4945)>"
+msgstr ""
+
+msgctxt "mp/chat2/color_officer"
+msgid "<c(ffcc00)>"
+msgstr ""
+
+msgctxt "mp/statistics2/title"
+msgid "GAME STATISTICS"
+msgstr ""
+
+msgctxt "mp/statistics2/personal/title"
+msgid "PERSONAL"
+msgstr ""
+
+msgctxt "mp/statistics2/personal/progress_victory"
+msgid "Victory Bonus"
+msgstr ""
+
+msgctxt "mp/statistics2/personal/progress_friend"
+msgid "Friend Bonus"
+msgstr ""
+
+msgctxt "mp/statistics2/personal/plus_xp"
+msgid "+%1% XP"
+msgstr ""
+
+msgctxt "mp/statistics2/personal/btn_replay"
+msgid "<s(21)b>SAVE REPLAY"
+msgstr ""
+
+msgctxt "mp/statistics2/statistics/header/infantry_kills"
+msgid "<x.y.>Infantry kills"
+msgstr ""
+
+msgctxt "mp/statistics2/statistics/header/vehicle_kills"
+msgid "<x.y.>Vehicle kills"
+msgstr ""
+
+msgctxt "mp/statistics2/result/header/player"
+msgid "<y.>Player"
+msgstr ""
+
+msgctxt "mp/statistics2/result/header/victory_points"
+msgid "<x.y.>Victory Points"
+msgstr ""
+
+msgctxt "mp/statistics2/result/header/infantry"
+msgid "<x.y.>Infantry"
+msgstr ""
+
+msgctxt "mp/statistics2/detail/header/units"
+msgid "<y.>Units"
+msgstr ""
+
+msgctxt "mp/statistics2/detail/header/vehicle_kills"
+msgid "<x.y.>Vehicle kills"
+msgstr ""
+
+msgctxt "mp/statistics2/detail/header/score"
+msgid "<x.y.>Score"
+msgstr ""
+
+msgctxt "mp/statistics2/units/user"
+msgid "%1%"
+msgstr ""
+
+msgctxt "mp/statistics2/units/cost/default"
+msgid "%.0f MP"
+msgstr ""
+
+msgctxt "mp/statistics2/history/timestamp"
+msgid "<f(arial_hq)s(8)c(ffffff)>%02d:%02d"
+msgstr ""
+
+msgctxt "mp/statistics2/result/header/lag"
+msgid "<x.>Lag"
+msgstr ""
+
+msgctxt "mp/scene/txt_defeat"
+msgid "Defeat"
+msgstr ""
+
+msgctxt "mp/scene/txt_defeat_desc"
+msgid "Your team loses!"
+msgstr ""
+
+msgctxt "mp/scene/txt_victory"
+msgid "Victory"
+msgstr ""
+
+msgctxt "mp/scene/txt_victory_desc"
+msgid "Your team won!"
+msgstr ""
+
+msgctxt "mp/result/best_unit"
+msgid "-BEST UNIT-"
+msgstr ""
+
+msgctxt "mp/result/best_player"
+msgid "-BEST PLAYER-"
+msgstr ""
+
+msgctxt "mp/result/best_unit_hint"
+msgid ""
+"Player: %1%\n"
+"Score: %2%\n"
+"Effectiveness: %3%%"
+msgstr ""
+
+msgctxt "mp/result/best_player_hint"
+msgid ""
+"Name: %1%\n"
+"Personal Score: %2%"
+msgstr ""
+
+msgctxt "mp/lobby/title_finish_campaign"
+msgid "You have won the match. Proceed?"
+msgstr ""
+
+msgctxt "mp/lobby/title_abandon_campaign"
+msgid "You will return to the campaign screen prior to the beginning of this battle. Proceed?"
+msgstr ""
+
+msgctxt "mp/lobby/title_retreat_campaign"
+msgid "You will lose this battle and leave with your remaining forces. Proceed?"
+msgstr ""
+
+msgctxt "mp/lobby/title_saving_campaign"
+msgid "Saving..."
+msgstr ""
+
+msgctxt "mp/game/campaign_capture_the_flag"
+msgid "Conquest"
+msgstr ""
+
+msgctxt "mp/game/campaign_capture_the_flag/info"
+msgid ""
+"Cooperation! Distribute units to your comrades to accomplish this conquest "
+"mission together."
+msgstr ""
+
+msgctxt "mp/lobby/setup/settings.manualControlMode"
+msgid "Direct Control"
+msgstr ""
+
+msgctxt "mp/lobby/setup/settings.manualControlMode#hint"
+msgid "Select a mode how players can control units directly."
+msgstr ""
+
+msgctxt "mp/lobby/tpc_mode"
+msgid "Third Person"
+msgstr ""
+
+msgctxt "mp/lobby/dc_mode"
+msgid "Classic Top-down"
+msgstr ""
+
+msgctxt "mp/lobby/rts_mode"
+msgid "No Direct Control"
+msgstr ""
+
+msgctxt "mp/statistics2/result/header/best_units"
+msgid "<x.y.>Best Units"
+msgstr ""
+
+msgctxt "mp/statistics2/personal/game_resource_reward"
+msgid "Resources Gained"
+msgstr ""
+
+msgctxt "mp/statistics2/personal/game_resource_bonus"
+msgid "Map Resource Bonus"
+msgstr ""
+
+msgctxt "mp/statistics2/personal/game_resource_risk_factor"
+msgid "Risk Factor Bonus"
+msgstr ""
+
+msgctxt "mp/statistics2/personal/game_resource_payback"
+msgid "Payback"
+msgstr ""
+
+msgctxt "mp/statistics2/personal/game_resource_total"
+msgid "Total Gained"
+msgstr ""
+
+msgctxt "mp/game/campaign_defender_name"
+msgid "Defender AI"
+msgstr ""
+
+msgctxt "mp/lobby2/pnl_session_set"
+msgid "<f(pobeda)s(27)b>ORDER OF BATTLE"
+msgstr ""
+
+msgctxt "mp/lobby2/sess_create_mode"
+msgid "<f(pobeda)s(27)b>SELECT MODE"
+msgstr ""
+
+msgctxt "mp/lobby2/sess_create_map"
+msgid "<f(pobeda)s(27)b>SELECT MAP"
+msgstr ""
+
+msgctxt "mp/lobby2/sess_settings"
+msgid "<f(pobeda)s(27)b>SESSION SETTINGS"
+msgstr ""
+
+msgctxt "mp/game/capture_weight_format"
+msgid "<f(pobeda)s(15)b>"
+msgstr ""
+
+msgctxt "mp/lobby/setup/settings.loseOnZeroPoints"
+msgid "Defeat at zero points"
+msgstr ""

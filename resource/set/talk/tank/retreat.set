@@ -1,8 +1,0 @@
-{talk
-	{immediate}
-	{priority 5}
-	{timeout 20 5}
-	{condition
-		{enemy_ratio 2.5}
-	}
-}

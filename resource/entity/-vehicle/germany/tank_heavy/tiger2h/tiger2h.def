@@ -1,7 +1,7 @@
 {game_entity
 	(include "/properties/tank.ext")
-	(include "/properties/shadow/tank.inc" scale(1.3))
-	(include "/properties/selection/vehicle.inc" scale(1.2))
+	
+	(include "/properties/selection/vehicle_big.inc" scale(1.0))
 	{props "heavy" "vision_lev05" "muzzle_85mm_93mm_sides" "shield" "smoke" "nvw" "detect_tank_heavy"}
 	{extension "tiger2h.mdl"}
 	(include "tiger2h.ext")
@@ -16,7 +16,7 @@
 
 	{sensor
 		{visor "main"
-			{vision "tank_range_250"}
+			{vision "tank_range_220"}
 		}
 	}
 
@@ -51,7 +51,7 @@
 
 	{extender "smokescreen"
 		{cooldown 5}
-		{itemTags "grenade nbk39"}
+		{itemTags "grenade nbks"}
 	}
 
 	{extender "inventory"
@@ -59,10 +59,12 @@
 		{box
 			{item "bulletger_88_l71 apcbche" 42}	; 86 rounds
 			{item "bulletger_88_l71 he" 43}
+			{item "bulletger_88_l71 apcr" 4}
+			{item "bulletger_88_l71 heat" 6}
 			{item "ammo mgun_ger belt" 4500}		; 32 belts (150 rounds each)
 			{item "mg34_drum" filled {user "mgun"}}
 			{item "geballteladung_3kg" 1}
-			{item "nbk39 grenade" 6}
+			{item "nbks grenade" 6}
 		}
 	}
 
@@ -74,7 +76,8 @@
 			{gunner "gunner"}
 			{charger "charger"}
 			("abm_dymamic_stabilised"
-
+				zeroing(3.0)
+				dispersion(0.20)
 			)
 		}
 		{place "mgun2"
@@ -126,10 +129,10 @@
 
 	{bone "gun_rot"
 		{limits -8 15}
-		{speed2 1.5}
+		{speed2 3}
 	}
 	{bone "turret"
-		{speed2 3}
+		("turret_heavy" power_traverse(19))
 	}
 
 	{texmod "camo"}

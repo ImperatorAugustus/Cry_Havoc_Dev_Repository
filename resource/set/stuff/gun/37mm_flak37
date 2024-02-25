@@ -5,8 +5,8 @@
 
 {from "pattern gun"			; L/87 "flak37"
 	{filling "bulletger_37_auto" 12}
-	{fireSound 	"gun/GER/3,7cm_FlaK37/close/"}
-	{fireSoundclose "gun/GER/3,7cm_FlaK37/close/"}
+	{fireSound "gun/gun_auto"}
+	{fireSoundclose "gun/gun_auto"}
 	{reloadSound "tank/reload_small"}
 	("range_autocannon_37-40")
 	{cursor "ironsights/aa"}
@@ -17,15 +17,17 @@
 	("reload time" seconds(1.5))
 
 	("velocity" mps(770))
-	("armor health" damage(55))
+	("armor health" damage(100))
 	("armor health custom" shell(ap) damage(55) filler(22)) ;pzgr.18 has filler
+	("37_slope_multipliers")
 
-	; PzGr.18   ;//Source http://www.panzerworld.com/armor-penetration-table x AP Slope Multiplier
-	("penetration_medium" shell(ap) range(160) a(47) b(32) c(24) d(18) e(11))
+	; PzGr.18
+	("penetration_medium" shell(ap) range(170) a(53) b(43) c(33) d(26) e(20))
+
+	("accuracy_direct_auto" r1(0.55) range_ap(170) range_he(170) range_heat(160))
 
 	{parameters "he"										; SPgGr.
 		(mod "mp" {unlimitedRangeTPC 1})	;// unrestricts range in TPC/FPC for shooting at aircraft
+		{FalloffStrength 0}
 	}
-
-	("accuracy_direct" r1(2.2) range_ap(160) range_he(160) range_heat(160))
 }

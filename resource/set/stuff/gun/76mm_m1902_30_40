@@ -1,0 +1,34 @@
+;_________________________________________
+; modernised USSR infantry support gun
+;=========================================
+
+
+{from "pattern gun"			; L/40 "M1902 1930"
+	{filling "bulletrus_76"}
+	{fireSound "gun/gun_75_105_short"}
+	{fireSoundclose "gun/gun_75_105_short"}
+	{reloadSound "tank/reload_medium"}
+	("range_190")
+	{calibre 76.2}
+	("reload time" seconds(6.5))
+
+	("velocity m/s" ap(662) apcr(965) he(662) heat(400))
+	("armor health" damage(200))
+	("armor health custom" shell(aphebc) damage(200) filler(150))
+	("armor health custom" shell(aphebc2) damage(200) filler(88))
+	("76_rus_slope_multipliers")
+
+	; BR-350A
+	("penetration_medium" shell(aphebc) range(190) a(76) b(67) c(58) d(53) e(49))
+
+	; BR-350B
+	("penetration_medium" shell(aphebc2) range(190) a(83) b(75) c(66) d(60) e(55))
+
+	; BR-350P
+	("penetration_medium" shell(apcr) range(190) a(132) b(94) c(62) d(41) e(27))
+
+	; BP-350A
+	("penetration_medium" shell(heat) range(190) a(75) b(75) c(75) d(75) e(75))	; issued sometime in '43
+
+	("accuracy_direct" r1(1.01) range_ap(190) range_he(190) range_heat(190))
+}

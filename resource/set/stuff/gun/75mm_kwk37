@@ -5,29 +5,30 @@
 
 {from "pattern gun"			; L/24 "panzer4d", "panzer4f"
 	{filling "bulletger_75_l24"}
-	{fireSound 	"gun/Shared/close/medium/75-76mm_low-velocity/"}
-	{fireSoundClose "gun/Shared/int/medium/"}
-	{reloadSound "INT/reload/reload_medium_6s_INT"}
-	("range_170_howitzer")
+	{fireSound "gun/gun_75_105_short"}
+	{fireSoundclose "gun/gun_interior/size3"}
+	{reloadSound "interior/large/medium_reload_interior"}
+	("range_180_howitzer")
 	{calibre 75}
 	("reload time" seconds(6))
 
 	("velocity m/s" ap(385) apcr(1) he(450) heat(450))
 	("armor health" damage(200))
 	("armor health custom" shell(apcbche) damage(200) filler(133))
+	("75_ger_slope_multipliers")
 
 	; K.Gr.rot.Pz.
 	("penetration_medium" shell(apcbche) range(170) a(50) b(47) c(44) d(41) e(38))
 
 	; Gr.38 Hl
-	("penetration_medium" shell(heat) range(170) a(52) b(52) c(52) d(52) e(52))
+	("penetration_medium" shell(heat) range(180) a(52) b(52) c(52) d(52) e(52))
 	; Gr.38 Hl/A
-	("penetration_medium" shell(heata) range(170) a(81) b(81) c(81) d(81) e(81))
+	("penetration_medium" shell(heata) range(180) a(81) b(81) c(81) d(81) e(81))
 	; Gr.38 Hl/B
-	("penetration_medium" shell(heatb) range(170) a(87) b(87) c(87) d(87) e(87))
+	("penetration_medium" shell(heatb) range(180) a(87) b(87) c(87) d(87) e(87))
 	; Gr.38 Hl/C
-	("penetration_medium" shell(heatc) range(170) a(115) b(115) c(115) d(115) e(115))
+	("penetration_medium" shell(heatc) range(180) a(115) b(115) c(115) d(115) e(115))
 
 
-	("accuracy_direct" r1(4.2) range_ap(170) range_he(170) range_heat(170))
+	("accuracy_direct" r1(1.05) range_ap(180) range_he(180) range_heat(180))
 }

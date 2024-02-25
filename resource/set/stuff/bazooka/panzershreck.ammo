@@ -1,9 +1,0 @@
-{from "pattern rpg_ammo"
-	{tag "size2 no_ricochet"}
-	{desc "8.8cm Rackete, RPzB Gr.4322 [<c(c9a6ff)>HEAT</c>]"}
-	{entity "panzershreck_ammo"}
-	{view "panzershreck_ammo"
-		{tail "bazooka_tail_rpzb" "tail"}
-	}
-	{mass 3.3}
-}

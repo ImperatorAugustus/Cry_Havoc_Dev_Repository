@@ -1,0 +1,169 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CtA - Gates of Hell (doctrine overhaul)\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+
+#msgctxt "mp/presets/unit/early"
+#msgid "Early (1939-41)"
+#msgstr ""
+#
+#msgctxt "mp/presets/unit/mid"
+#msgid "Mid (1941-43)"
+#msgstr ""
+#
+#msgctxt "mp/presets/unit/late"
+#msgid "Late (1943-45)"
+#msgstr ""
+
+msgctxt "mp/presets/unit/full"
+msgid "Full War (1939-45)"
+msgstr ""
+
+msgctxt "mp/scene/txt_sp"
+msgid "<f(roboto_mono)c(b7b7a4)><e(shadow)>doctrineless"
+msgstr ""
+
+msgctxt "mp/lobby/setup/player.doctrine"
+msgid "Doctrine"
+msgstr ""
+
+msgctxt "mp/lobby/setup/player.doctrine#hint"
+msgid "Specialise your army with a doctrine. Actually, it doesn't matter."
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/early_fin_allround"
+msgid "[Early] War"
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/early_fin_allround#hint"
+msgid ""
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/early_ger_allround"
+msgid "[Early] War"
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/early_ger_allround#hint"
+msgid ""
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/early_rus_allround"
+msgid "[Early] War"
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/early_rus_allround#hint"
+msgid ""
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/early_usa_allround"
+msgid "[Early] War"
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/early_usa_allround#hint"
+msgid ""
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/mid_fin_allround"
+msgid "[Mid] War"
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/mid_fin_allround#hint"
+msgid ""
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/mid_ger_allround"
+msgid "[Mid] War"
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/mid_ger_allround#hint"
+msgid ""
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/mid_rus_allround"
+msgid "[Mid] War"
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/mid_rus_allround#hint"
+msgid ""
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/mid_usa_allround"
+msgid "[Mid] War"
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/mid_usa_allround#hint"
+msgid ""
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/late_fin_allround"
+msgid "[Late] War"
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/late_fin_allround#hint"
+msgid ""
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/late_ger_allround"
+msgid "[Late] War"
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/late_ger_allround#hint"
+msgid ""
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/late_rus_allround"
+msgid "[Late] War"
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/late_rus_allround#hint"
+msgid ""
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/late_usa_allround"
+msgid "[Late] War"
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/late_usa_allround#hint"
+msgid ""
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/full_fin_allround"
+msgid "Total War!"
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/full_fin_allround#hint"
+msgid ""
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/full_ger_allround"
+msgid "Total War!"
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/full_ger_allround#hint"
+msgid ""
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/full_rus_allround"
+msgid "Total War!"
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/full_rus_allround#hint"
+msgid ""
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/full_usa_allround"
+msgid "Total War!"
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/full_usa_allround#hint"
+msgid ""
+msgstr ""

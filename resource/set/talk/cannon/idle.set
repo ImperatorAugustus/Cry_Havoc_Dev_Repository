@@ -1,7 +1,0 @@
-{talk
-	{priority 1}
-	{timeout 180 30}
-	{condition
-		{idle}
-	}
-}

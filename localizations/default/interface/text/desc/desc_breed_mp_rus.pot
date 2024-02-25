@@ -1,0 +1,2101 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Gates of Hell Soviet MP soldiers\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Poedit 2.3\n"
+
+msgctxt "desc/human/mp/rus/early/antitank_1"
+msgid "AT. Inf."
+msgstr ""
+
+msgctxt "desc/human/mp/rus/early/antitank_2"
+msgid "AT Support"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/early/antitank_3"
+msgid "Rifle grenadier"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/early/antitank_4"
+msgid "Rifle AT grenadier"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/early/antitank_5"
+msgid "Rifle AT Ammo Bearer"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/early/artilleryman"
+msgid "Artilleryman"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/early/commisar2"
+msgid "Political Commissar"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/early/commisar"
+msgid "Commissar"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/early/conscript_nco"
+msgid "Conscript squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/early/conscript_rifle"
+msgid "Conscript Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/early/cossack_1"
+msgid "Cossack"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/early/cossack_2"
+msgid "Cossack"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/early/cossack_3"
+msgid "Cossack"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/early/cossack_nco"
+msgid "Cossack Squad Leader"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/early/engineer_1"
+msgid "Field Engineer"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/early/engineer_2"
+msgid "Field Engineer"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/early/flamer"
+msgid "Flamethrower Inf."
+msgstr ""
+
+msgctxt "desc/human/mp/rus/early/guard_1"
+msgid "Guard's Inf."
+msgstr ""
+
+msgctxt "desc/human/mp/rus/early/guard_2"
+msgid "Guard's Inf."
+msgstr ""
+
+msgctxt "desc/human/mp/rus/early/guard_3"
+msgid "Guard's Inf."
+msgstr ""
+
+msgctxt "desc/human/mp/rus/early/guard_4"
+msgid "Guard's Inf."
+msgstr ""
+
+msgctxt "desc/human/mp/rus/early/guard_5"
+msgid "Guard's Inf."
+msgstr ""
+
+msgctxt "desc/human/mp/rus/early/marine_1"
+msgid "Marine"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/early/marine_2"
+msgid "Marine"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/early/marine_3"
+msgid "Marine"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/early/marine_4"
+msgid "Marine"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/early/medic"
+msgid "Medic"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/early/mg_crew"
+msgid "MG crew"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/early/mg_crew_asst"
+msgid "MG crew Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/rus/early/mgun_1"
+msgid "MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/early/mgun_2"
+msgid "MG Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/rus/early/militia_1"
+msgid "Border Militia Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/early/militia_2"
+msgid "Border Militia"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/early/militia_3"
+msgid "Border Militia"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/early/miner-ap"
+msgid "AP-Mine Engineer"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/early/miner-at"
+msgid "AT-Mine Engineer"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/early/mountain_1"
+msgid "Mountain Trooper"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/early/mountain_2"
+msgid "Mountain Trooper"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/early/mountain_3"
+msgid "Mountain Trooper"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/early/mountain_mg"
+msgid "Mountain Trooper MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/early/mountain_mg_asst"
+msgid "Mountain Trooper MG Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/rus/early/mountain_nco"
+msgid "Mountain Trooper Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/early/mountain_senior"
+msgid "Senior Mountain Trooper"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/early/nco"
+msgid "Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/early/nco_rifle"
+msgid "Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/early/nco_sa"
+msgid "Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/early/nkvd_1"
+msgid "Political Officer"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/early/nkvd_2"
+msgid "Convicted Recruit"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/early/nkvd_3"
+msgid "Convicted Recruit"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/early/nkvd_4"
+msgid "Convicted Recruit"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/early/para_1"
+msgid "Desantnik Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/early/para_2"
+msgid "Desantnik"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/early/para_3"
+msgid "Desantnik"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/early/para_4"
+msgid "Desantnik"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/early/para_5"
+msgid "Desantnik"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/early/para_mg"
+msgid "Desantnik MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/early/para_mg_asst"
+msgid "Desantnik MG Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/rus/early/para_nco"
+msgid "Desantnik Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/early/partisan_1"
+msgid "Partisan"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/early/partisan_2"
+msgid "Partisan"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/early/partisan_3"
+msgid "Partisan"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/early/partisan_4"
+msgid "Partisan"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/early/pilot"
+msgid "Pilot"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/early/recon_nco"
+msgid "Recon Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/early/recon_rifle"
+msgid "Recon"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/early/rifle-avs"
+msgid "Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/early/rifle-svt"
+msgid "Veteran Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/early/rifleman_1"
+msgid "Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/early/rifleman_2"
+msgid "Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/early/rifleman_3"
+msgid "Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/early/rifleman_sniper"
+msgid "Marksman"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/early/senior_sa"
+msgid "Senior Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/early/signaller"
+msgid "Artillery Signaller"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/early/smg_1"
+msgid "SMG Inf."
+msgstr ""
+
+msgctxt "desc/human/mp/rus/early/smg_2"
+msgid "SMG Inf."
+msgstr ""
+
+msgctxt "desc/human/mp/rus/early/smg_3"
+msgid "SMG Inf."
+msgstr ""
+
+msgctxt "desc/human/mp/rus/early/sniper"
+msgid "Sniper"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/early/spetsnaz_1"
+msgid "Recon Special Ops"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/early/spetsnaz_2"
+msgid "Recon Special Ops"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/early/spetsnaz_3"
+msgid "Recon Special Ops"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/early/tank_commander"
+msgid "Leytenant"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/early/tankman"
+msgid "Tankman"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/antitank_1"
+msgid "AT. Inf."
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/antitank_2"
+msgid "AT Support"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/antitank_3"
+msgid "AT. Inf."
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/antitank_4"
+msgid "AT. Inf."
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/antitank_5"
+msgid "AT. Inf."
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/antitank_6"
+msgid "AT. Inf."
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/antitank_asst2"
+msgid "AT Support"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/antitank_asst"
+msgid "AT Support"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/antitank_ptrs"
+msgid "AT. Inf."
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/artilleryman"
+msgid "Artilleryman"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/assault-sap_1"
+msgid "Assault Sapper"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/assault-sap_2"
+msgid "Assault Sapper"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/assault-sap_3"
+msgid "Assault Sapper MG Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/assault-sap_4"
+msgid "Assault Sapper"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/assault-sap_at"
+msgid "Assault Sapper AT inf."
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/assault-sap_atr"
+msgid "Assault Sapper AT Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/assault-sap_sl"
+msgid "Assault Sapper Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/assault-sap_sl_asst"
+msgid "Assault Sapper Asst. Leader"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/assault-sap_sl_asst_mg"
+msgid "Assault Sapper Asst. Leader"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/commisar2"
+msgid "Political Commissar"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/commisar"
+msgid "Commissar"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/conscript_nco"
+msgid "Conscript Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/conscript_rifle"
+msgid "Conscript Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/engineer_1"
+msgid "Field Engineer"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/engineer_2"
+msgid "Field Engineer"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/flamer"
+msgid "Flamethrower Inf."
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/guard_1"
+msgid "Guard's Inf."
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/guard_2"
+msgid "Guard's Inf."
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/guard_3"
+msgid "Guard's Inf."
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/guard_4"
+msgid "Guard's Inf."
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/guard_5"
+msgid "Guard's Inf."
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/guards_marine_mg"
+msgid "Guards Marine MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/guards_marine_mg_asst"
+msgid "Guards Marine MG Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/guards_marine_nco"
+msgid "Guards Marine Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/guards_marine_rifle"
+msgid "Guards Marine"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/guards_marine_sa"
+msgid "Guards Marine"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/guards_marine_sa_pzf"
+msgid "Guards Marine"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/guards_marine_senior"
+msgid "Guards Senior Marine"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/guards_marine_smg"
+msgid "Guards Marine"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/guards_mgun_1"
+msgid "Guards MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/guards_mgun_2"
+msgid "Guards MG Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/guards_mgun_3"
+msgid "Guards MG Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/guards_nco"
+msgid "Guards Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/guards_rifleman_1"
+msgid "Guards Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/guards_rifleman_2"
+msgid "Guards Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/guards_rifleman_3"
+msgid "Guards Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/guards_senior_smg"
+msgid "Guards senior SMG inf."
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/guards_smg_1"
+msgid "Guards SMG inf."
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/guards_smg_2"
+msgid "Guards SMG inf."
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/guards_smg_3"
+msgid "Guards SMG inf."
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/marine_1"
+msgid "Marine"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/marine_2"
+msgid "Marine"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/marine_3"
+msgid "Marine MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/marine_4"
+msgid "Marine"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/marine_5"
+msgid "Marine"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/marine_mg_asst"
+msgid "Marine MG Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/marine_nco"
+msgid "Marine Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/marine_senior"
+msgid "Senior Marine"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/medic"
+msgid "Medic"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/mg_crew"
+msgid "MG crew"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/mg_crew_asst"
+msgid "MG crew Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/mgun_1"
+msgid "MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/mgun_2"
+msgid "MG Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/mgun_3"
+msgid "MG Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/miner-ap"
+msgid "AP-Mine Engineer"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/miner-at"
+msgid "AT-Mine Engineer"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/nco"
+msgid "Serzhant"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/nkvd_1"
+msgid "Political Officer"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/nkvd_2"
+msgid "Convicted Recruit"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/nkvd_3"
+msgid "Convicted Recruit"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/nkvd_4"
+msgid "Convicted Recruit"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/partisan_1"
+msgid "Partisan"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/partisan_2"
+msgid "Partisan"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/partisan_3"
+msgid "Partisan"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/partisan_4"
+msgid "Partisan"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/partisan_5"
+msgid "Partisan"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/partisan_6"
+msgid "Partisan"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/pilot"
+msgid "Pilot"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/recon_nco"
+msgid "Recon Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/recon_rifle"
+msgid "Recon"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/recon_sa"
+msgid "Recon"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/recon_smg2"
+msgid "Recon"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/recon_smg"
+msgid "Recon"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/rifle-svt"
+msgid "Veteran Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/rifleman_1"
+msgid "Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/rifleman_2"
+msgid "Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/rifleman_3"
+msgid "Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/sapper_builder"
+msgid "Sapper"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/sapper_miner_ap"
+msgid "Sapper"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/sapper_miner_at"
+msgid "Sapper"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/senior_smg"
+msgid "Senior SMG inf."
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/signaller"
+msgid "Artillery Signaller"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/smg_1"
+msgid "SMG Inf."
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/smg_2"
+msgid "SMG Inf."
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/smg_3"
+msgid "SMG Inf."
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/sniper"
+msgid "Sniper"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/spetsnaz_1"
+msgid "Recon Special Ops"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/spetsnaz_2"
+msgid "Recon Special Ops"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/spetsnaz_3"
+msgid "Recon Special Ops"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/spetsnaz_4"
+msgid "Recon MG Special Ops"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/spetsnaz_5"
+msgid "Recon AT Special Ops"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/tank_commander"
+msgid "Tank commander"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/tankman"
+msgid "Tankman"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/tank_commander_ace"
+msgid "Ace Tank commander"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/tankman_ace"
+msgid "Ace Tankman"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/antitank_1"
+msgid "AT. Inf."
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/antitank_2"
+msgid "AT Support"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/antitank_3"
+msgid "Rifle grenadier"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/antitank_4"
+msgid "Rifle AT grenadier"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/antitank_ptrs"
+msgid "AT. Inf."
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/artilleryman"
+msgid "Artilleryman"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/assault-sap_1"
+msgid "Assault Sapper"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/assault-sap_2"
+msgid "Assault Sapper"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/assault-sap_3"
+msgid "Assault Sapper MG Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/assault-sap_4"
+msgid "Assault Sapper"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/assault-sap_at"
+msgid "Assault Sapper AT inf."
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/assault-sap_atr"
+msgid "Assault Sapper AT Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/assault-sap_sl"
+msgid "Assault Sapper Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/assault-sap_sl_asst"
+msgid "Assault Sapper Asst. Leader"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/assault-sap_sl_asst_mg"
+msgid "Assault Sapper Asst. Leader"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/commisar2"
+msgid "Political Commissar"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/commisar"
+msgid "Commissar"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/conscript_nco"
+msgid "Conscript Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/conscript_rifle"
+msgid "Conscript Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/engineer_1"
+msgid "Field Engineer"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/engineer_2"
+msgid "Field Engineer"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/flamer"
+msgid "Flamethrower Inf."
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/guard_1"
+msgid "Guards Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/guard_2"
+msgid "Guards Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/guard_3"
+msgid "Guards SMG inf."
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/guard_4"
+msgid "Guards MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/guard_5"
+msgid "Guards MG Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/guard_nco"
+msgid "Guards Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/guard_senior"
+msgid "Guards senior Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/marine_1"
+msgid "BSF Marine"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/marine_2"
+msgid "BSF Marine Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/marine_3"
+msgid "BSF Marine MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/marine_3"
+msgid "BSF Marine"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/marine_4"
+msgid "BSF Marine"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/marine_5"
+msgid "BSF Marine"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/marine_mg_asst"
+msgid "BSF Marine MG Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/marine_senior"
+msgid "Senior BSF Marine"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/medic"
+msgid "Medic"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/mg_crew"
+msgid "MG crew"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/mg_crew_asst"
+msgid "MG crew Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/mgun_1"
+msgid "MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/mgun_2"
+msgid "MG Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/militia_1"
+msgid "Border Militia"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/militia_2"
+msgid "Border Militia"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/militia_3"
+msgid "Border Militia"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/miner-ap"
+msgid "AP-Mine Engineer"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/miner-at"
+msgid "AT-Mine Engineer"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/mountain_1"
+msgid "Mountain Trooper"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/mountain_2"
+msgid "Mountain Trooper"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/mountain_3"
+msgid "Mountain Trooper"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/mountain_mg"
+msgid "Mountain Trooper MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/mountain_mg_asst"
+msgid "Mountain Trooper MG Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/mountain_nco"
+msgid "Mountain Trooper Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/mountain_senior"
+msgid "Senior Mountain Trooper"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/nco"
+msgid "Serzhant"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/nco_42"
+msgid "Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/nco_rifle"
+msgid "Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/nkvd_1"
+msgid "Political Officer"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/nkvd_2"
+msgid "Convicted Recruit"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/nkvd_3"
+msgid "Convicted Recruit"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/nkvd_4"
+msgid "Convicted Recruit"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/para_1"
+msgid "Desantnik"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/para_2"
+msgid "Desantnik"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/para_3"
+msgid "Desantnik"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/para_4"
+msgid "Desantnik"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/para_5"
+msgid "Desantnik"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/para_mg"
+msgid "Desantnik MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/para_mg_asst"
+msgid "Desantnik MG Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/para_nco"
+msgid "Desantnik Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/partisan_1"
+msgid "Partisan"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/partisan_2"
+msgid "Partisan"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/partisan_3"
+msgid "Partisan"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/partisan_4"
+msgid "Partisan"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/partisan_5"
+msgid "Partisan"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/pilot"
+msgid "Pilot"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/recon_nco"
+msgid "Recon Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/recon_rifle"
+msgid "Recon"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/recon_smg"
+msgid "Recon"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/rifle-svt"
+msgid "Veteran Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/rifleman_1"
+msgid "Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/rifleman_2"
+msgid "Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/rifleman_3"
+msgid "Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/senior_sa"
+msgid "Senior Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/signaller"
+msgid "Artillery Signaller"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/smg_1"
+msgid "SMG Inf."
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/smg_2"
+msgid "SMG Inf."
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/smg_3"
+msgid "SMG Inf."
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/sniper"
+msgid "Sniper"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/spetsnaz_1"
+msgid "Recon Special Ops"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/spetsnaz_2"
+msgid "Recon Special Ops"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/spetsnaz_3"
+msgid "Recon Special Ops"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/tank_commander"
+msgid "Tank commander"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/tankman"
+msgid "Tankman"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/early/cav_mg"
+msgid "Cavalry MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/early/cav_mg_asst"
+msgid "Cavalry MG Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/rus/early/cav_nco"
+msgid "Cavalry Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/early/cav_nco_rifle"
+msgid "Cavalry Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/early/cav_nco_sa"
+msgid "Cavalry Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/early/cav_rifle"
+msgid "Cavalry Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/early/cav_sa"
+msgid "Cavalry Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/early/cav_sap_mg"
+msgid "Cavalry Sapper MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/early/cav_sap_mg_asst"
+msgid "Cavalry Sapper MG Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/rus/early/cav_sap_nco"
+msgid "Cavalry Sapper Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/early/cav_sap_recon_mg"
+msgid "Cavalry Recon Sapper MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/early/cav_sap_recon_mg_asst"
+msgid "Cavalry Recon Sapper MG Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/rus/early/cav_sap_recon_nco_sa"
+msgid "Cavalry Recon Sapper Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/early/cav_sap_recon_rifle"
+msgid "Cavalry Recon Sapper"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/early/cav_sap_rifle"
+msgid "Cavalry Sapper"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/early/cav_senior_sa"
+msgid "Cavalry Senior Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/early/cav_smg"
+msgid "Cavalry SMG inf."
+msgstr ""
+
+msgctxt "desc/human/mp/rus/early/cossack_mg"
+msgid "Cossack MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/early/cossack_mg_asst"
+msgid "Cossack MG Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/rus/early/cossack_recon_nco"
+msgid "Cossack Recon Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/early/cossack_recon_rifle"
+msgid "Cossack Recon Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/early/cossack_recon_sa"
+msgid "Cossack Recon Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/early/mountain_recon_mg"
+msgid "Mountain Recon MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/early/mountain_recon_mg_asst"
+msgid "Mountain Recon MG Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/rus/early/mountain_recon_nco"
+msgid "Mountain Recon Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/early/mountain_recon_rifle"
+msgid "Mountain Recon Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/early/mountain_sapper_builder"
+msgid "Mountain Sapper Engineer"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/early/mountain_sapper_nco"
+msgid "Mountain Sapper Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/early/mountain_sapper_rifle"
+msgid "Mountain Sapper"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/early/para_flamer"
+msgid "Desantnik Flamer inf."
+msgstr ""
+
+msgctxt "desc/human/mp/rus/early/para_glider_flamer"
+msgid "Glider Flamer inf."
+msgstr ""
+
+msgctxt "desc/human/mp/rus/early/para_glider_mg"
+msgid "Glider MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/early/para_glider_mg_asst"
+msgid "Glider MG Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/rus/early/para_glider_nco"
+msgid "Glider Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/early/para_glider_nco_asst"
+msgid "Glider Asst. Leader"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/early/para_glider_recon_nco"
+msgid "Glider Recon Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/early/para_glider_recon_rifle"
+msgid "Glider Recon Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/early/para_glider_recon_sa"
+msgid "Glider Recon Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/early/para_glider_recon_smg"
+msgid "Glider Recon SMG inf."
+msgstr ""
+
+msgctxt "desc/human/mp/rus/early/para_glider_rifle"
+msgid "Glider Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/early/para_glider_sa"
+msgid "Glider Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/early/para_nco_asst"
+msgid "Desantnik Asst. Leader"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/early/para_recon_nco"
+msgid "Desantnik Recon Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/early/para_recon_rifle"
+msgid "Desantnik Recon Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/early/para_recon_sa"
+msgid "Desantnik Recon Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/early/para_recon_smg"
+msgid "Desantnik Recon SMG inf."
+msgstr ""
+
+msgctxt "desc/human/mp/rus/early/recon_mg"
+msgid "Recon MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/early/recon_mg_asst"
+msgid "Recon MG Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/rus/early/sapper_builder"
+msgid "Sapper Engineer"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/early/sapper_nco"
+msgid "Sapper Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/early/sapper_rifle"
+msgid "Sapper"
+msgstr ""
+
+
+
+
+
+
+msgctxt "desc/human/mp/rus/mid/conscript_smg"
+msgid "Conscript SMG inf."
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/elite_guard_mg"
+msgid "Elite Guards MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/elite_guard_mg_asst"
+msgid "Elite Guards MG Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/elite_guard_nco"
+msgid "Elite Guards Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/elite_guard_rifle"
+msgid "Elite Guards Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/elite_guard_sa"
+msgid "Elite Guards Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/elite_guard_senior_sa"
+msgid "Elite Guards Senior Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/elite_guard_smg_drum"
+msgid "Elite Guards SMG inf."
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/guard_para_mg"
+msgid "Guards Desantnik MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/guard_para_mg_asst"
+msgid "Guards Desantnik MG Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/guard_para_mg_asst_dt"
+msgid "Guards Desantnik MG Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/guard_para_mg_dt"
+msgid "Guards Desantnik MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/guard_para_nco"
+msgid "Guards Desantnik Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/guard_para_nco_asst_sa"
+msgid "Guards Desantnik Asst. Leader"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/guard_para_nco_asst_smg"
+msgid "Guards Desantnik Asst. Leader"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/guard_para_rifle"
+msgid "Guards Desantnik Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/guard_para_sa"
+msgid "Guards Desantnik Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/guard_para_smg"
+msgid "Guards Desantnik SMG inf."
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/marine_reg_mg"
+msgid "Marine MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/marine_reg_mg_asst"
+msgid "Marine MG Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/marine_reg_nco"
+msgid "Marine Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/marine_reg_rifle"
+msgid "Marine"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/marine_reg_sa"
+msgid "Marine"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/marine_reg_senior"
+msgid "Senior Marine"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/marine_reg_smg_m1928"
+msgid "Marine"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/marine_smg_m1928"
+msgid "BSF Marine"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/mg_asst_dt"
+msgid "MG Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/mg_dt"
+msgid "MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/mountain_cav_mg"
+msgid "Mountain Cavalry MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/mountain_cav_mg_asst"
+msgid "Mountain Cavalry MG Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/mountain_cav_nco"
+msgid "Mountain Cavalry Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/mountain_cav_rifle"
+msgid "Mountain Cavalry Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/mountain_cav_sa"
+msgid "Mountain Cavalry Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/mountain_cav_senior"
+msgid "Mountain Cavalry Senior"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/mountain_cav_smg"
+msgid "Mountain Cavalry SMG inf."
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/nkvd_at_asst"
+msgid "AT Support"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/nkvd_at_rifle"
+msgid "AT inf."
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/nkvd_mg"
+msgid "MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/nkvd_mg_asst"
+msgid "MG Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/nkvd_mountain_cav_mg"
+msgid "Mountain Cavalry MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/nkvd_mountain_cav_mg_asst"
+msgid "Mountain Cavalry MG Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/nkvd_mountain_cav_nco"
+msgid "Mountain Cavalry Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/nkvd_mountain_cav_rifle"
+msgid "Mountain Cavalry Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/nkvd_mountain_cav_sa"
+msgid "Mountain Cavalry Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/nkvd_mountain_cav_senior"
+msgid "Mountain Cavalry Senior"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/nkvd_mountain_cav_smg"
+msgid "Mountain Cavalry SMG inf."
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/nkvd_mountain_mg"
+msgid "Mountain MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/nkvd_mountain_mg_asst"
+msgid "Mountain MG Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/nkvd_mountain_nco"
+msgid "Mountain Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/nkvd_mountain_rifle"
+msgid "Mountain Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/nkvd_mountain_sa"
+msgid "Mountain Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/nkvd_mountain_senior"
+msgid "Mountain Senior"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/nkvd_mountain_smg_stick"
+msgid "Mountain SMG inf."
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/nkvd_nco_rifle"
+msgid "Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/nkvd_nco_smg"
+msgid "Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/nkvd_recon_nco"
+msgid "Recon Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/nkvd_recon_rifle"
+msgid "Recon"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/nkvd_recon_smg"
+msgid "Recon"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/nkvd_rifle"
+msgid "Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/nkvd_sa"
+msgid "Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/nkvd_sapper_builder"
+msgid "Sapper Engineer"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/nkvd_sapper_nco_rifle"
+msgid "Sapper Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/nkvd_sapper_rifle"
+msgid "Sapper"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/nkvd_senior_rifle"
+msgid "Senior Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/nkvd_senior_sa"
+msgid "Senior Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/nkvd_senior_smg_stick"
+msgid "Senior SMG inf."
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/nkvd_smg_drum"
+msgid "SMG inf."
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/nkvd_smg_stick"
+msgid "SMG inf."
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/penal_rifle"
+msgid "Penal Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/penal_smg"
+msgid "Penal SMG inf."
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/recon_mg"
+msgid "Recon MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/recon_mg_asst"
+msgid "Recon MG Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/rifle"
+msgid "Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/sapper_builder"
+msgid "Sapper Engineer"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/sapper_mine_ap"
+msgid "Sapper"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/sapper_mine_at"
+msgid "Sapper"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/sapper_nco_rifle"
+msgid "Sapper Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/sapper_rifle"
+msgid "Sapper"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/senior_rifle"
+msgid "Senior Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/senior_smg"
+msgid "Senior SMG inf."
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/smg_drum"
+msgid "SMG inf."
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/smg_m1928"
+msgid "SMG inf."
+msgstr ""
+
+msgctxt "desc/human/mp/rus/mid/tank_commander_m1928"
+msgid "Tank Commander"
+msgstr ""
+
+
+
+
+
+
+msgctxt "desc/human/mp/rus/late/cav_mg"
+msgid "Cavalry MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/cav_mg_asst"
+msgid "Cavalry MG Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/cav_mg_asst_smg"
+msgid "Cavalry MG Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/cav_nco"
+msgid "Cavalry Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/cav_nco_pps43"
+msgid "Cavalry Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/cav_nco_stick"
+msgid "Cavalry Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/cav_rifle"
+msgid "Cavalry Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/cav_sa"
+msgid "Cavalry Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/cav_senior_rifle"
+msgid "Cavalry Senior Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/cav_senior_sa"
+msgid "Cavalry Senior Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/cav_senior_smg"
+msgid "Cavalry Senior SMG inf."
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/cav_senior_smg_pps43"
+msgid "Cavalry Senior SMG inf."
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/cav_senior_smg_stick"
+msgid "Cavalry Senior SMG inf."
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/cav_smg_drum"
+msgid "Cavalry SMG inf."
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/cav_smg_pps43"
+msgid "Cavalry SMG inf."
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/cav_smg_stick"
+msgid "Cavalry SMG inf."
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/elite_guards_mg"
+msgid "Elite Guards MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/elite_guards_mg_asst"
+msgid "Elite Guards MG Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/elite_guards_mg_asst_smg"
+msgid "Elite Guards MG Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/elite_guards_nco"
+msgid "Elite Guards Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/elite_guards_nco_pps43"
+msgid "Elite Guards Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/elite_guards_nco_stick"
+msgid "Elite Guards Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/elite_guards_rifle"
+msgid "Elite Guards Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/elite_guards_sa"
+msgid "Elite Guards Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/elite_guards_senior_rifle"
+msgid "Elite Guards Senior Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/elite_guards_senior_sa"
+msgid "Elite Guards Senior Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/elite_guards_senior_smg"
+msgid "Elite Guards Senior SMG inf."
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/elite_guards_senior_smg_pps43"
+msgid "Elite Guards Senior SMG inf."
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/elite_guards_senior_smg_stick"
+msgid "Elite Guards Senior SMG inf."
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/elite_guards_smg_drum"
+msgid "Elite Guards SMG inf."
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/elite_guards_smg_pps43"
+msgid "Elite Guards SMG inf."
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/elite_guards_smg_stick"
+msgid "Elite Guards SMG inf."
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/guards_cav_mg"
+msgid "Guards Cavalry MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/guards_cav_mg_asst"
+msgid "Guards Cavalry MG Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/guards_cav_mg_asst_smg"
+msgid "Guards Cavalry MG Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/guards_cav_nco"
+msgid "Guards Cavalry Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/guards_cav_nco_pps43"
+msgid "Guards Cavalry Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/guards_cav_nco_stick"
+msgid "Guards Cavalry Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/guards_cav_rifle"
+msgid "Guards Cavalry Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/guards_cav_sa"
+msgid "Guards Cavalry Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/guards_cav_senior_rifle"
+msgid "Guards Cavalry Senior Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/guards_cav_senior_sa"
+msgid "Guards Cavalry Senior Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/guards_cav_senior_smg"
+msgid "Guards Cavalry Senior SMG inf."
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/guards_cav_senior_smg_pps43"
+msgid "Guards Cavalry Senior SMG inf."
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/guards_cav_senior_smg_stick"
+msgid "Guards Cavalry Senior SMG inf."
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/guards_cav_smg_drum"
+msgid "Guards Cavalry SMG inf."
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/guards_cav_smg_pps43"
+msgid "Guards Cavalry SMG inf."
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/guards_cav_smg_stick"
+msgid "Guards Cavalry SMG inf."
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/guards_nco"
+msgid "Guards Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/guards_nco_pps43"
+msgid "Guards Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/guards_nco_stick"
+msgid "Guards Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/guards_senior_rifle"
+msgid "Guards Senior Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/guards_senior_sa"
+msgid "Guards Senior Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/guards_senior_smg"
+msgid "Guards Senior SMG inf."
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/guards_senior_smg_pps43"
+msgid "Guards Senior SMG inf."
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/guards_senior_smg_stick"
+msgid "Guards Senior SMG inf."
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/guards_smg_stick"
+msgid "Guards SMG inf."
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/marine_nco"
+msgid "Marine Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/marine_nco_pps43"
+msgid "Marine Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/marine_nco_stick"
+msgid "Marine Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/marine_senior"
+msgid "Senior Marine"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/marine_senior_pps43"
+msgid "Senior Marine"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/marine_senior_stick"
+msgid "Senior Marine"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/mountain_cav_mg"
+msgid "Mountain Cavalry MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/mountain_cav_mg_asst"
+msgid "Mountain Cavalry MG Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/mountain_cav_nco"
+msgid "Mountain Cavalry Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/mountain_cav_rifle"
+msgid "Mountain Cavalry Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/mountain_cav_sa"
+msgid "Mountain Cavalry Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/mountain_cav_senior"
+msgid "Mountain Cavalry Senior"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/mountain_cav_smg"
+msgid "Mountain Cavalry SMG inf."
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/nco"
+msgid "Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/nco_pps43"
+msgid "Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/nco_stick"
+msgid "Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/partisan_dp"
+msgid "Partisan MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/partisan_drum"
+msgid "Partisan"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/partisan_stick"
+msgid "Partisan"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/sapper_flamer"
+msgid "Sapper Flamer inf."
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/sapper_nco"
+msgid "Sapper Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/sapper_rifle"
+msgid "Sapper"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/sapper_senior"
+msgid "Sapper Senior"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/sapper_smg_pps43"
+msgid "Sapper"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/sapper_smg_stick"
+msgid "Sapper"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/senior_rifle"
+msgid "Senior Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/senior_sa"
+msgid "Senior Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/senior_smg"
+msgid "Senior SMG inf."
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/senior_smg_pps43"
+msgid "Senior SMG inf."
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/senior_smg_stick"
+msgid "Senior SMG inf."
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/smg_stick"
+msgid "SMG inf."
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/tank_commander_m1928"
+msgid "Tank Commander"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/vet_nco"
+msgid "Veteran Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/vet_nco_pps43"
+msgid "Veteran Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/vet_nco_stick"
+msgid "Veteran Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/vet_partisan_dp"
+msgid "Veteran Partisan MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/vet_partisan_drum"
+msgid "Veteran Partisan"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/vet_partisan_drum_pzf"
+msgid "Veteran Partisan"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/vet_partisan_k98"
+msgid "Veteran Partisan"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/vet_partisan_mg34"
+msgid "Veteran Partisan MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/vet_partisan_mg42"
+msgid "Veteran Partisan MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/vet_partisan_mosin"
+msgid "Veteran Partisan"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/vet_partisan_mosin_pzf"
+msgid "Veteran Partisan"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/vet_partisan_mp40"
+msgid "Veteran Partisan"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/vet_partisan_mp40_pzf"
+msgid "Veteran Partisan"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/vet_partisan_pps43"
+msgid "Veteran Partisan"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/vet_partisan_stick"
+msgid "Veteran Partisan"
+msgstr ""
+
+msgctxt "desc/human/mp/rus/late/vet_partisan_svt40"
+msgid "Veteran Partisan"
+msgstr ""
+

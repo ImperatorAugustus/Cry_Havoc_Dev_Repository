@@ -5,10 +5,10 @@
 
 {from "pattern gun"			; L/42 "panzer3f", "panzer3j"
 	{filling "bulletger_50_l42"}
-	{fireSound 		"gun/Shared/close/medium/50-57mm/"}
-	{fireSoundClose 	"gun/Shared/int/medium/"}
-	{reloadSound 		"INT/reload/reload_small_5s_INT"}
-	("range_170")
+	{fireSound "gun/gun_37_57_short"}
+	{fireSoundclose "gun/gun_interior/size2"}
+	{reloadSound "interior/large/small_reload_interior"}
+	("range_190")
 	{calibre 50}
 
 	("reload time" seconds(5))
@@ -16,22 +16,23 @@
 	("velocity m/s" ap(685) apcr(1050) he(550) heat(1))
 	("armor health" damage(140))
 	("armor health custom" shell(apche) damage(140) filler(41))
+	("57_slope_multipliers")
 
 	; Pzgr.
-	("penetration_medium" shell(ap) range(170) a(76) b(58) c(41) d(29) e(21))
+	("penetration_medium" shell(ap) range(190) a(76) b(58) c(41) d(29) e(21))
 
 	; Pzgr.39
-	("penetration_medium" shell(apche) range(170) a(74) b(59) c(45) d(34) e(26))
+	("penetration_medium" shell(apche) range(190) a(74) b(59) c(45) d(34) e(26))
 
 	; Pzgr.40
-	("penetration_medium" shell(apcr) range(170) a(130) b(94) c(63) d(42) e(28))
+	("penetration_medium" shell(apcr) range(190) a(130) b(94) c(63) d(42) e(28))
 
 	; Steil.Gr.42 	;tank guns cannot use the Steilgranate HEAT rounds
 	("penetration_medium" shell(heat) range(0) a(0) b(0) c(0) d(0) e(0))
 
 	{parameters "he"
-		{range 160 160}
+		{range 180 180}
 	}
 
-	("accuracy_direct" r1(3.4) range_ap(170) range_he(160) range_heat(160)) ;// doesn't set range so HEAT doesnt matter
+	("accuracy_direct_arrowhead" r1(0.85) range_ap(190) range_he(190) range_heat(160)) ;// doesn't set range so HEAT doesnt matter
 }

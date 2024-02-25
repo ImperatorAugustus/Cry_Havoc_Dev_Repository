@@ -7,11 +7,11 @@
 		{size 4 2}
 		{weight 1000}
 	}
-	{mass 1000}										
+	{mass 1000}
 	{foresight "Foresight1"}							;// bone for muzzleflash fx
 	{aimRange 15}										;// Maximum fire range for AI. Expressed as {range 15 25} equals the same thing.
 	{maxRange 25}										;//	Maximum fire range for player in direct control.
-	{spreading 1 {SpreadPower 1}}                 	    ;//	Skews the distribution of shells more biased toward the centre (>1) or away (<1)
+	{spreading 1 {SpreadPower 1}}						;//	Skews the distribution of shells more biased toward the centre (>1) or away (<1)
 	("reload time" seconds(5))							;// Shell reload or full magazine reload in autoloaders 
 	("velocity m/s" ap(100) apcr(100) he(100) heat(100));// Muzzle velocity in m/s
 	{aimingTolerance 0.5}								;// Measure in degrees of IK error when AI is allowed to shoot
@@ -25,7 +25,7 @@
 	{crosshair "crosshair_tank"}						;// third person crosshair
 	{crosshairReloading "crosshair_tank_reload"}		;// third person reload crosshair. 
 
-	{SyncedProjectiles 1} 								;// visually syncs decal/crater spawn in multiplayer
+	{SyncedProjectiles 1}								;// visually syncs decal/crater spawn in multiplayer
 
 	{toplayerVignette ""}
 
@@ -46,51 +46,48 @@
 
 	{parameters "ap"
 		{cursorReloading "gun_ap"}
-		("ap_slope_multiplier")
+	}
+	{parameters "api"
+		{cursorReloading "gun_api"}
 	}
 	{parameters "apc"
 		{cursorReloading "gun_apc"}
-		("apc_slope_multiplier")
 	}
 	{parameters "apche"
 		{cursorReloading "gun_apc"}
-		("apc_slope_multiplier")
 	}
 	{parameters "apbc"
 		{cursorReloading "gun_apbc"}
-		("apbc_slope_multiplier")
+	}
+	{parameters "apbche"
+		{cursorReloading "gun_apbc"}
 	}
 	{parameters "aphe"
 		{cursorReloading "gun_aphe"}
-		("ap_slope_multiplier")
 	}
 	{parameters "apcbc"
 		{cursorReloading "gun_apcbc"}
-		("apc_slope_multiplier")
 	}
 	{parameters "apcbche"
 		{cursorReloading "gun_apcbc"}
-		("apc_slope_multiplier")
+	}
+	{parameters "apcbche2"
+		{cursorReloading "gun_apcbc"}
 	}
 	{parameters "aphebc"
 		{cursorReloading "gun_aphebc"}
-		("apbc_slope_multiplier")
 	}
 	{parameters "aphebc2"
 		{cursorReloading "gun_aphebc"}
-		("apbc_slope_multiplier")
 	}
 	{parameters "apcr"
 		{cursorReloading "gun_apcr"}
-		("apcr_slope_multiplier")
 	}
 	{parameters "hvap"
 		{cursorReloading "gun_hvap"}
-		("apcr_slope_multiplier")
 	}
 	{parameters "apds"
 		{cursorReloading "gun_apds"}
-		("apds_slope_multiplier")
 	}
 	{parameters "he"
 		{cursorReloading "gun_he"}
@@ -104,26 +101,22 @@
 		{cursorReloading "gun_sm"}
 	}
 	{parameters "wp"
-		{cursorReloading "gun_sm"}
+		{cursorReloading "gun_wp"}
 	}
 	{parameters "heat"
 		{cursorReloading "gun_heat"}
-		("heat_slope_multiplier")
 		(mod "mp" {unlimitedRangeTPC 0})	;// restrict range in TPC/FPC in multiplayer only
 	}
 	{parameters "heata"
 		{cursorReloading "gun_heat"}
-		("heat_slope_multiplier")
 		(mod "mp" {unlimitedRangeTPC 0})	;// restrict range in TPC/FPC in multiplayer only
 	}
 	{parameters "heatb"
 		{cursorReloading "gun_heat"}
-		("heat_slope_multiplier")
 		(mod "mp" {unlimitedRangeTPC 0})	;// restrict range in TPC/FPC in multiplayer only
 	}
 	{parameters "heatc"
 		{cursorReloading "gun_heat"}
-		("heat_slope_multiplier")
 		(mod "mp" {unlimitedRangeTPC 0})	;// restrict range in TPC/FPC in multiplayer only
 	}
 	{parameters "ic"

@@ -1,0 +1,98 @@
+{game_entity
+	(include "/properties/vehicle_xx.ext")
+	{Extension "tiger1mid#aa_xx.mdl"}
+
+	{Volume "barrel1"
+		{thickness 30}
+	}
+	{Volume "barrel2"
+		{thickness 30}
+	}
+	{volume "body1"			; Hull
+		{thickness 62
+			{front 102}		; Nose
+			{top 62}		; Glacis
+			{rear 25}
+			{bottom 25}
+		}
+	}
+	{volume "body2"			; Superstructure
+		{thickness 82
+			{front 102}
+			{top 26}
+			{rear 25}
+			{bottom 25}
+		}
+	}
+	{volume "engine1"		; Hull
+		{thickness 62
+			{front 25}
+			{rear 82}
+			{top 25}
+			{bottom 25}
+		}
+	}
+	{volume "engine2"		; Superstructure
+		{thickness 82
+			{front 25}
+			{top 26}
+			{bottom 25}
+		}
+	}
+	{volume "turret1"
+		{thickness 80
+			{front 100}
+			{top 25}
+		}
+	}
+	{volume "turret2"		; Turret Ring
+		{thickness 80}
+	}
+	{volume "mantlet"
+		{thickness 100}
+		{able {holed}}
+		{CastSteel 0.8063}
+	}
+	{volume "cupola"
+		{thickness 80
+			{top 15}
+		}
+		{CastSteel 0.8063}
+	}
+	{volume "hatch"
+		{thickness 26}
+		{CastSteel 0.8063}
+	}
+	{volume "basket"
+		{thickness 5}
+	}
+	{Volume "part3"
+		{thickness 25}
+	}
+	{Volume "part5"
+		{thickness 25}
+	}
+	{Volume "shieldl1"
+		{thickness 4}
+	}
+	{Volume "shieldl2"
+		{thickness 4}
+	}
+	{Volume "shieldl4"
+		{thickness 4}
+	}
+	{Volume "shieldl6"
+		{thickness 4}
+	}
+	{Volume "shieldr2"
+		{thickness 4}
+	}
+	{Volume "shieldr5"
+		{thickness 4}
+	}
+	{Volume "shieldr7"
+		{thickness 4}
+	}
+	("tracks" thickness(30))
+}
+

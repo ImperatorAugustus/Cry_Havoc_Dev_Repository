@@ -1,0 +1,4 @@
+{sound
+	(include "\sound\defines.inc")
+	("explosion_small_mid")
+}

@@ -1,6 +1,0 @@
-{from "weapon panzershreck_43"
-	{desc "RPzB 54 'Panzerschreck'"}
-	{entity "panzershreck_54"}
-	{mass 11}
-}
-

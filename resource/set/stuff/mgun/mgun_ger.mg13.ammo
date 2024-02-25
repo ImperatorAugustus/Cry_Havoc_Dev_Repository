@@ -1,6 +1,5 @@
 {bullet 
-	{desc "MG 13 Magazin, 7.92x57mm [<c(ff6a00)>BALL</c>-<c(eeeb95)>TRACER</c>] <c(65696d)>SmE 40 L'spur</c>"}
-	{tag "Ball_Heavy bullet stackable pierce"}
+	{tag "bullet small_arms stackable pierce"}
 	{tag "bullet_fx size2"}
 	{inventory
 		{weight 4}
@@ -12,10 +11,11 @@
 	{mass 0.03}
 
 	{trace
-		{view "/texture/fx/tracer_new/trace_scattered_yellow.mtl"
+		{view "/texture/fx/tracer_new/trace_solid_green.mtl"
 			{ScaleY 0.15}
+			{ScaleX 1.75}
 			{Light 1}
 		}
-		{length 6}
+		{length 3}
 	}
 }

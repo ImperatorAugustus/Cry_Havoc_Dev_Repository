@@ -1,34 +1,16 @@
 {from "pattern mgun"
-	{desc "DT"}
-	{tag "DP27"}
-	{filling "ammo mgun_rus dt" 63}
+	{filling "mgun_rus" 63}
 	{entity "dt"}
-	{fireSound 		"small_arms/RUS/DP27/close/"}
-	{fireSoundClose 	"small_arms/RUS/DP27/1p_vic/"}
-	{reloadSound 		"INT/reload/Coax_reload_INT_5s"}
+	{fireSound "smallarms/s3/d1/RUS/DP27/"}
+	{fireSoundclose "smallarms/s3/int/RUS/DP27/"}
+	{reloadSound "interior/small/dt_reload_interior"}
 	{calibre 7.62}
 	{mass 9.12}
 
 	("fire rate" rpm(550))
 	("velocity" mps(840))
-	
-	("recoil_medium")
-	("burst_long")
+
+	("burst_medium")
 	("spreading_mounted")
-	("zero_short")
-
-	{curve "rifle_light_ball"}
-	("muzzle_energy_rifle_caliber" j(3390))
-	("penetration" a(12.78) b(10.22) c(7.99) d(3.46))
-
-	{parameters "Ball_Heavy"
-		{curve "rifle_heavy_ball"}
-		("muzzle_energy_rifle_caliber" j(3637))
-		("penetration" a(13) b(11) c(8) d(5))
-	}
-	{parameters "AP"
-		{curve "rifle_heavy_ball"}
-		("muzzle_energy_rifle_caliber" j(3637))
-		("penetration" a(20) b(17) c(15) d(11))
-	}
+	{traceFreq 1}
 }

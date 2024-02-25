@@ -1,0 +1,41 @@
+;_________________________________________
+; German Aircraft Autocannon
+;=========================================
+
+
+{from "pattern gun"			; "sdkfz251/21"
+	{filling "bulletger_15_auto" 450}  ;// irl was 1000 (2x 250 + 500) but barrels to be changed every 150rds (150 x 3 barrels = 450)
+	{fireSound " "}
+	{fireSound " "}
+	{reloadSound "interior/large/auto_reload_interior"}
+	("range_autocannon_12-20")
+	{cursor "ironsights/aa"}
+	{calibre 15}
+	("light_aa")
+
+	{spreading
+		{BurstAccuracy 100 98 95 90 85 80 50 30}
+	}
+
+	("fire rate" rpm(1400))
+	("reload time" seconds(20))
+
+	("velocity m/s" ap(850) apcr(1) he(960) heat(1))
+	("armor health" damage(25))
+	("20_slope_multipliers")
+
+	{burst
+		{short 6 3}				;// short burst shots on long distance, rand (+-)shots
+		{long 21 3}				;// long burst shots on short distance, rand (+-)shots
+		{rangeKoef 0.85}		;// rangeKoef * aimRange = max long burst distance
+	}
+
+	("penetration" a(36) b(24) c(22) d(13) e(7))
+
+	("accuracy_direct_auto" r1(0.8) range_ap(160) range_he(160) range_heat(150))
+
+	{parameters "he"										; Sprgr.
+		(mod "mp" {unlimitedRangeTPC 1})	;// unrestricts range in TPC/FPC for shooting at aircraft
+		{FalloffStrength 0}
+	}
+}

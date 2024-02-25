@@ -1,8 +1,0 @@
-{from "dt"
-	{desc "DT x2"}
-	{filling "ammo mgun_rus dt" 300}
-	{mass 24.2}
-	("fire rate" rpm(1600))
-
-	("reload time" seconds(10))
-}

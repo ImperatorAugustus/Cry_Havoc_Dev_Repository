@@ -3,17 +3,15 @@
 	{filling "mortar"}
 	{fillingVisible "rocket"}
 	{fireSound "mortar\mortar_shot"}
-	{reloadSound "mortar_reload_01"}
 	{foresight "foresight"}
 
-	{ZeroingAccuracy 0.92 0.84 0.76 0.68 0.60 0.52 0.44}
+	{ZeroingAccuracy 0.85 0.75 0.7 0.65 0.6}
 	{AimingTolerance 1.5}
-	;//{RelaxationTime 1}
 
 	{curve "gun_std"}
 	{aimtype curved}
-	{spreading 
-		{SpreadPower 1}
+	{spreading 1
+		{SpreadXYRatio 1}
 	}
 
 	{unlimitedRangeTPC 0}
@@ -27,11 +25,17 @@
 	{parameters "he"
 		{cursorReloading "gun_he"}
 	}
+	{parameters "he2"
+		{cursorReloading "gun_he"}
+	}
 	{parameters "ic"
 		{cursorReloading "gun_ic"}
 	}
 	{parameters "sm"
 		{cursorReloading "gun_sm"}
+	}
+	{parameters "wp"
+		{cursorReloading "gun_wp"}
 	}
 
 	{overmatchCalibre

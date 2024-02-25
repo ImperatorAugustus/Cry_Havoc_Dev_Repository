@@ -4,10 +4,8 @@
 
 
 {from "45mm_20k"			; L/46 "m37"
-	
-	{fireSound 		"gun/Shared/close/small/40-47mm/"}
-	{fireSoundClose 	"gun/Shared/close/small/40-47mm/"}
-	{reloadSound "tank/reload_small"}
-  
-  ("reload time" seconds(3.5)) 
+
+	{fireSoundclose "gun/gun_37_57_short"}
+
+	("reload time" seconds(3.5))
 }

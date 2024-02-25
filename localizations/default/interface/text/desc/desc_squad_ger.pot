@@ -1,0 +1,1114 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Gates of Hell Squads\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+msgctxt "desc/squad/conquest_bf110"
+msgid "Bf-110 250kg Bomb"
+msgstr ""
+
+msgctxt "desc/squad/conquest_bf109"
+msgid "Bf-109 50kg Bomb"
+msgstr ""
+
+msgctxt "desc/squad/conquest_fi156"
+msgid "Fi-156 Recon"
+msgstr ""
+
+msgctxt "desc/squad/single_Officer(ger)"
+msgid "Officer"
+msgstr ""
+
+msgctxt "desc/squad/single_ap_miner(ger)"
+msgid "AP Miners"
+msgstr ""
+
+msgctxt "desc/squad/single_at(ger)"
+msgid "AT Detachment"
+msgstr ""
+
+msgctxt "desc/squad/single_at_miner(ger)"
+msgid "AT Miners"
+msgstr ""
+
+msgctxt "desc/squad/single_at_pzs_late_con(ger)"
+msgid "Panzerschreck Team"
+msgstr ""
+
+msgctxt "desc/squad/single_auxiliary(ger)"
+msgid "Filler Detachment"
+msgstr ""
+
+msgctxt "desc/squad/single_bazooker(ger)"
+msgid "AT Detachment"
+msgstr ""
+
+msgctxt "desc/squad/single_engineer(ger)"
+msgid "Field Engineer"
+msgstr ""
+
+msgctxt "desc/squad/single_flamer(ger)"
+msgid "Flamer"
+msgstr ""
+
+msgctxt "desc/squad/single_medic(ger)"
+msgid "Medic"
+msgstr ""
+
+msgctxt "desc/squad/single_mg(ger)"
+msgid "MG Detachment"
+msgstr ""
+
+msgctxt "desc/squad/single_riflegrenade(ger)"
+msgid "Gren. Riflemen"
+msgstr ""
+
+msgctxt "desc/squad/single_scout(ger)"
+msgid "Aufklärer"
+msgstr ""
+
+msgctxt "desc/squad/single_sniper(ger)"
+msgid "Sniper"
+msgstr ""
+
+msgctxt "desc/squad/single_tankman(ger)"
+msgid "Tank Crew"
+msgstr ""
+
+msgctxt "desc/squad/squad_at_late_con(ger)"
+msgid "Anti-Tank Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_at_rifles_early(ger)"
+msgid "Anti-tank Rifle squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_blau(ger)"
+msgid "Blau Division"
+msgstr ""
+
+msgctxt "desc/squad/squad_blau_con(ger)"
+msgid "Blau division squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_brandenburger(ger)"
+msgid "Brandenburger"
+msgstr ""
+
+msgctxt "desc/squad/squad_brandenburger_con(ger)"
+msgid "Brandenburger squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_brandenburger_early(ger)"
+msgid "Brandenburger"
+msgstr ""
+
+msgctxt "desc/squad/squad_brandenburger_late(ger)"
+msgid "Brandenburger"
+msgstr ""
+
+msgctxt "desc/squad/squad_brandenburger_mid(ger)"
+msgid "Brandenburger"
+msgstr ""
+
+msgctxt "desc/squad/squad_fallschirmjaeger(ger)"
+msgid "Fallschirmjäger"
+msgstr ""
+
+msgctxt "desc/squad/squad_fallschirmjaeger_con(ger)"
+msgid "Fallschirmjäger squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_fallschirmjaeger_late(ger)"
+msgid "Fallschirmjäger"
+msgstr ""
+
+msgctxt "desc/squad/squad_fallschirmjaeger_motor_con"
+msgid "Motorized Fallschirmjäger squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_feldgendarmerie(ger)"
+msgid "Feldgendarmerie squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_fusilier_late(ger)"
+msgid "Fusilier squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_gd_early(ger)"
+msgid "Großdeutschland Rifle squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_gd_mid(ger)"
+msgid "Großdeutschland Rifle squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_gd_motor_con"
+msgid "Großdeutschland Motorized Rifle squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_gebirgsjaeger(ger)"
+msgid "Gebirgsjäger"
+msgstr ""
+
+msgctxt "desc/squad/squad_gebirgsjaeger_con(ger)"
+msgid "Gebirgsjäger squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_gebirgsjaeger_early(ger)"
+msgid "Gebirgsjäger squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_gebirgsjaeger_late(ger)"
+msgid "Gebirgsjäger squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_grenadiere(ger)"
+msgid "Grenadiere"
+msgstr ""
+
+msgctxt "desc/squad/squad_grenadiere_late(ger)"
+msgid "Grenadier squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_heavy(ger)"
+msgid "Regular Inf."
+msgstr ""
+
+msgctxt "desc/squad/squad_jaeger_con(ger)"
+msgid "Jäger squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_jager_late(ger)"
+msgid "Jäger squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_landwehr_early(ger)"
+msgid "Landesschützen"
+msgstr ""
+
+msgctxt "desc/squad/squad_light(ger)"
+msgid "Light Inf."
+msgstr ""
+
+msgctxt "desc/squad/squad_luftwaffe(ger)"
+msgid "LW. field unit"
+msgstr ""
+
+msgctxt "desc/squad/squad_luftwaffe_con(ger)"
+msgid "Luftwaffe Rifle squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_luftwaffe_early(ger)"
+msgid "LW. field unit"
+msgstr ""
+
+msgctxt "desc/squad/squad_luftwaffe_late(ger)"
+msgid "LW. field unit"
+msgstr ""
+
+msgctxt "desc/squad/squad_luftwaffe_mid(ger)"
+msgid "LW. field unit"
+msgstr ""
+
+msgctxt "desc/squad/squad_lw_fusilier_late(ger)"
+msgid "LW. Fusilier squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_officer_250_3_con"
+msgid "Sd.Kfz 250/3 (Command)"
+msgstr ""
+
+msgctxt "desc/squad/squad_officer_con(ger)"
+msgid "Command squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_officer_kubel_con"
+msgid "Kfz. 1 (Command)"
+msgstr ""
+
+msgctxt "desc/squad/squad_osttruppen(ger)"
+msgid "Osttruppen"
+msgstr ""
+
+msgctxt "desc/squad/squad_osttruppen_con(ger)"
+msgid "Osttruppen squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_pionier(ger)"
+msgid "Pionier squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_pionier_con(ger)"
+msgid "Pionier squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_pionier_early(ger)"
+msgid "Pionier squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_pionier_late(ger)"
+msgid "Pionier squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_pz_pio_con"
+msgid "Armored Pz-Pionier squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_pz_pio_302_con(ger)"
+msgid "Pz-Pionier team (Goliath)"
+msgstr "" 
+
+msgctxt "desc/squad/squad_pz_pio_303b_con(ger)"
+msgid "Pz-Pionier team (Goliath)"
+msgstr ""
+
+msgctxt "desc/squad/squad_pzgrenadiere_gd_late(ger)"
+msgid "Großdeutschland Panzergrenadier squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_pzgrenadiere_late(ger)"
+msgid "Panzergrenadier squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_recon(ger)"
+msgid "Aufklärer squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_recon_armor_con"
+msgid "Armored Aufklärer squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_recon_con(ger)"
+msgid "Aufklärer squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_recon_early(ger)"
+msgid "Aufklärer squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_recon_late(ger)"
+msgid "Aufklärer squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_recon_motor_con"
+msgid "Motorized Aufklärer squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_regular(ger)"
+msgid "Rifle squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_regular_armor_con"
+msgid "Armored Rifle squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_regular_armored(ger)"
+msgid "Armored Rifle squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_regular_con(ger)"
+msgid "Rifle squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_regular_early(ger)"
+msgid "Rifle squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_regular_motor_con"
+msgid "Motorized Rifle squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_regular_motorised"
+msgid "Sd.Kfz 251 + Inf."
+msgstr ""
+
+msgctxt "desc/squad/squad_regular_motorised(ger)"
+msgid "Sd.Kfz 251 + Inf."
+msgstr ""
+
+msgctxt "desc/squad/squad_regular_vet(ger)"
+msgid "Veteran Rifle squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_regular_vet_con(ger)"
+msgid "Veteran Rifle squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_reserve(ger)"
+msgid "Reserves"
+msgstr ""
+
+msgctxt "desc/squad/squad_sicherung_con(ger)"
+msgid "Sicherungs squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_stosstrupp"
+msgid "Stosstrupp"
+msgstr ""
+
+msgctxt "desc/squad/squad_stosstrupp(ger)"
+msgid "Stosstrupp"
+msgstr ""
+
+msgctxt "desc/squad/squad_strafbatallion(ger)"
+msgid "Strafbatallion squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_strafbatallion_con(ger)"
+msgid "Strafbatallion squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_sturm(ger)"
+msgid "Sturmgrenadiere"
+msgstr ""
+
+msgctxt "desc/squad/squad_sturmpionier(ger)"
+msgid "Sturmpioniere"
+msgstr ""
+
+msgctxt "desc/squad/squad_volkssturm(ger)"
+msgid "Volkssturm"
+msgstr ""
+
+msgctxt "desc/squad/squad_volkssturm_con(ger)"
+msgid "Volkssturm squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_grenadier_con(ger)"
+msgid "Grenadier squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_sturmgren_con(ger)"
+msgid "Sturmgrenadier squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_sturmgren_heavy_con(ger)"
+msgid "Heavy Sturmgrenadier squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_volksg_con(ger)"
+msgid "Volksgrenadier squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_volksg_sturm_con(ger)"
+msgid "Sturm Volksgrenadier squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_volksg_heavy_con(ger)"
+msgid "Heavy Volksgrenadier squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_pzgren_motor_con"
+msgid "Motorized Panzergrenadier squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_pzgren_armor_con"
+msgid "Armored Panzergrenadier squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_sturm_pzgren_armor_con"
+msgid "Armored Pz.Sturmgrenadier squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_sturmjager_con(ger)"
+msgid "Sturmjäger squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_sturm_begleitgren_motor_con"
+msgid "Motorized Sturm Begleitgrenadier squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_pzg_gd_armor_con"
+msgid "Armored Großdeutschland Pz.grenadier squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_gebirgsjaeger_late_con(ger)"
+msgid "Gebirgsjäger 44 squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_fallschirmjaeger_late_con(ger)"
+msgid "Fallschirmjäger 44 squad"
+msgstr ""
+
+msgctxt "desc/squad/single_rifle(ger)"
+msgid "Rifleman"
+msgstr ""
+
+msgctxt "desc/squad/single_smg(ger)"
+msgid "SMG Soldier"
+msgstr ""
+
+msgctxt "desc/squad/single_sa(ger)"
+msgid "Semi-Auto Rifleman"
+msgstr ""
+
+msgctxt "desc/squad/squad_ersatz_rifle_early_all(ger)"
+msgid "Ersatz Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_recon_early_all(ger)"
+msgid "Aufklärer Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_early_all(ger)"
+msgid "Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_at_rifle_early_all(ger)"
+msgid "AT-Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_vet_early_all(ger)"
+msgid "Veteran Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_vet_early_irr(ger)"
+msgid "Veteran Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_elite_early_all(ger)"
+msgid "Elite Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_gebirgs_pio_early_all(ger)"
+msgid "Gebirgspionier Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_gebirgs_recon_early_all(ger)"
+msgid "Gebirgsaufklärer Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_gebirgs_early_all(ger)"
+msgid "Gebirgsjäger Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_landwehr_early_def(ger)"
+msgid "Landwehr Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_recon_early_def(ger)"
+msgid "Aufklärer Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_feldg_early_def_1(ger)"
+msgid "Feldgendarmerie Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_feldg_early_def_2(ger)"
+msgid "Feldgendarmerie Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_feldg_early_def_3(ger)"
+msgid "Feldgendarmerie Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_pio_early_def_1(ger)"
+msgid "Pionier Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_pio_early_def_2(ger)"
+msgid "Pionier Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_pio_early_def_3(ger)"
+msgid "Pionier Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_at_rifle_early_def(ger)"
+msgid "AT-Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_gd_early_def(ger)"
+msgid "Großdeutschland Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_gebirgs_early_def(ger)"
+msgid "Gebirgsjäger Squad"
+msgstr ""
+
+
+msgctxt "desc/squad/squad_ersatz_rifle_early_irr(ger)"
+msgid "Ersatz Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_luft_rifle_early_irr(ger)"
+msgid "Luftwaffe Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_early_irr(ger)"
+msgid "Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_at_rifle_early_irr(ger)"
+msgid "AT-Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_marine_stoss_irr(ger)"
+msgid "Marine-Stoßtrupp Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_fallschirm_recon_early_irr(ger)"
+msgid "Fallschirmaufklärer Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_fallschirm_pio_early_irr(ger)"
+msgid "Fallschirmpionier Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_fallschirm_early_irr(ger)"
+msgid "Fallschirmjäger Squad"
+msgstr ""
+
+
+msgctxt "desc/squad/squad_pz_recon_early_off(ger)"
+msgid "Panzeraufklärer Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_pz_rifle_early_off(ger)"
+msgid "Panzerschütze Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_pz_pio_early_off_1(ger)"
+msgid "Panzerpionier Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_pz_pio_early_off_2(ger)"
+msgid "Panzerpionier Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_pz_pio_early_off_3(ger)"
+msgid "Panzerpionier Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_gd_pio_early_off(ger)"
+msgid "Großdeutschland Pionier Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_gd_early_off(ger)"
+msgid "Großdeutschland Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_gebirgs_early_off(ger)"
+msgid "Gebirgsjäger Squad"
+msgstr ""
+
+
+msgctxt "desc/squad/squad_ersatz_rifle_early_sup(ger)"
+msgid "Ersatz Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_km_rifle_early_sup(ger)"
+msgid "Kriegsmarine Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_at_rifle_early_sup(ger)"
+msgid "AT-Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_vet_early_sup(ger)"
+msgid "Veteran Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_marine_stoss_sup(ger)"
+msgid "Marine-Stoßtrupp Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_gebirgs_recon_early_sup(ger)"
+msgid "Gebirgsaufklärer Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_gebirgs_pio_early_sup(ger)"
+msgid "Gebirgspionier Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_gebirgs_early_sup(ger)"
+msgid "Gebirgsjäger Squad"
+msgstr ""
+
+
+msgctxt "desc/squad/squad_ersatz_rifle_mid_all(ger)"
+msgid "Ersatz Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_recon_mid_all(ger)"
+msgid "Aufklärer Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_mid_all(ger)"
+msgid "Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_motor_mid_all_1(ger)"
+msgid "Motorized Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_motor_mid_all_2(ger)"
+msgid "Motorized Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_motor_mid_all_3(ger)"
+msgid "Motorized Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_vet_mid_all(ger)"
+msgid "Veteran Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_elite_mid_all(ger)"
+msgid "Elite Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_gebirgs_recon_mid_all(ger)"
+msgid "Gebirgsaufklärer Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_gebirgs_mid_all(ger)"
+msgid "Gebirgsjäger Squad"
+msgstr ""
+
+
+msgctxt "desc/squad/squad_ost_rifle_mid_def(ger)"
+msgid "Osttruppen Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_recon_mid_def(ger)"
+msgid "Aufklärer Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_mid_def(ger)"
+msgid "Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_pio_mid_def_1(ger)"
+msgid "Pionier Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_pio_mid_def_2(ger)"
+msgid "Pionier Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_pio_mid_def_3(ger)"
+msgid "Pionier Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_sturm_pio_mid_def(ger)"
+msgid "Sturmpionier Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_blau_mid_def(ger)"
+msgid "Blau Div. Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_blau_late_def(ger)"
+msgid "Blau Legion Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_gd_mid_def(ger)"
+msgid "Großdeutschland Rifle Squad"
+msgstr ""
+
+
+msgctxt "desc/squad/squad_straf_mid_irr_1(ger)"
+msgid "Strafbataillon Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_straf_mid_irr_2(ger)"
+msgid "Strafbataillon Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_straf_mid_irr_3(ger)"
+msgid "Strafbataillon Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_recon_mid_irr(ger)"
+msgid "Aufklärer Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_mid_irr(ger)"
+msgid "Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_sturm_pio_mid_irr(ger)"
+msgid "Sturmpionier Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_fallschirm_recon_mid_irr(ger)"
+msgid "Fallschirmaufklärer Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_fallschirm_pio_mid_irr(ger)"
+msgid "Fallschirmpionier Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_fallschirm_mid_irr(ger)"
+msgid "Fallschirmjäger Squad"
+msgstr ""
+
+
+msgctxt "desc/squad/squad_ersatz_rifle_mid_off(ger)"
+msgid "Ersatz Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_pz_recon_mid_off(ger)"
+msgid "Panzeraufklärer Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_pz_rifle_mid_off(ger)"
+msgid "Panzerschütze Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_pz_pio_mid_off(ger)"
+msgid "Panzerpionier Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_pz_rifle_vet_mid_off(ger)"
+msgid "Veteran Panzerschütze Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_gd_pio_mid_off(ger)"
+msgid "Großdeutschland Pionier Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_gd_mid_off(ger)"
+msgid "Großdeutschland Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_fallschirm_mid_off(ger)"
+msgid "Fallschirmjäger Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_ersatz_rifle_mid_sup(ger)"
+msgid "Ersatz Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_recon_mid_sup(ger)"
+msgid "Aufklärer Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_mid_sup(ger)"
+msgid "Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_vet_mid_sup(ger)"
+msgid "Veteran Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_gebirgs_pio_mid_sup(ger)"
+msgid "Gebirgspionier Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_gebirgs_mid_sup(ger)"
+msgid "Gebirgsjäger Squad"
+msgstr ""
+
+
+msgctxt "desc/squad/squad_ersatz_gren_late_all(ger)"
+msgid "Ersatz-Grenadier Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_volksg_late_all(ger)"
+msgid "Volksgrenadier Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_volksg_sturm_late_all_1(ger)"
+msgid "Volksg. Sturm Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_volksg_sturm_late_all_2(ger)"
+msgid "Volksg. Sturm Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_volksg_sturm_late_all_3(ger)"
+msgid "Volksg. Sturm Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_volksg_h_sturm_late_all_1(ger)"
+msgid "Volksg. Heavy Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_volksg_h_sturm_late_all_2(ger)"
+msgid "Volksg. Heavy Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_volksg_h_sturm_late_all_3(ger)"
+msgid "Volksg. Heavy Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_fus_smg_late_all_1(ger)"
+msgid "Füsilier SMG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_fus_smg_late_all_2(ger)"
+msgid "Füsilier SMG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_fus_smg_late_all_3(ger)"
+msgid "Füsilier SMG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_jager_late_all(ger)"
+msgid "Jäger Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_jager_late_irr(ger)"
+msgid "Jäger Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_gebirgs_recon_late_all_1(ger)"
+msgid "Gebirgsaufklärer Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_gebirgs_recon_late_all_2(ger)"
+msgid "Gebirgsaufklärer Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_gebirgs_recon_late_all_3(ger)"
+msgid "Gebirgsaufklärer Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_gebirgs_late_all(ger)"
+msgid "Gebirgsjäger Squad"
+msgstr ""
+
+
+msgctxt "desc/squad/squad_volkssturm_late_def_1(ger)"
+msgid "Volkssturm Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_volkssturm_late_def_2(ger)"
+msgid "Volkssturm Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_volkssturm_late_def_3(ger)"
+msgid "Volkssturm Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_km_late_def_1(ger)"
+msgid "Kriegsmarine Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_km_late_def_2(ger)"
+msgid "Kriegsmarine Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_km_late_def_3(ger)"
+msgid "Kriegsmarine Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_gren_late_def(ger)"
+msgid "Grenadier Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_pzgren_late_def_1(ger)"
+msgid "Panzergrenadier Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_pzgren_late_def_2(ger)"
+msgid "Panzergrenadier Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_pzgren_late_def_3(ger)"
+msgid "Panzergrenadier Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_pio_late_def(ger)"
+msgid "Pionier Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_fusilier_late_def_1(ger)"
+msgid "Füsilier Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_fusilier_late_def_2(ger)"
+msgid "Füsilier Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_fusilier_late_def_3(ger)"
+msgid "Füsilier Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_gebirgs_late_def(ger)"
+msgid "Gebirgsjäger Squad"
+msgstr ""
+
+
+msgctxt "desc/squad/squad_lw_fusilier_late_irr(ger)"
+msgid "LW. Füsilier Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_lw_recon_late_irr(ger)"
+msgid "LW. Aufklärer Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_lw_jager_late_irr_1(ger)"
+msgid "LW. Jäger Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_lw_jager_late_irr_2(ger)"
+msgid "LW. Jäger Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_lw_jager_late_irr_3(ger)"
+msgid "LW. Jäger Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_lw_pio_late_irr_1(ger)"
+msgid "LW. Pionier Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_lw_pio_late_irr_2(ger)"
+msgid "LW. Pionier Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_fallschirm_recon_late_irr_1(ger)"
+msgid "Fallschirmaufklärer Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_fallschirm_recon_late_irr_2(ger)"
+msgid "Fallschirmaufklärer Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_fallschirm_recon_late_irr_3(ger)"
+msgid "Fallschirmaufklärer Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_fallschirm_pio_late_irr_1(ger)"
+msgid "Fallschirmpionier Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_fallschirm_pio_late_irr_2(ger)"
+msgid "Fallschirmpionier Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_fallschirm_pio_late_irr_3(ger)"
+msgid "Fallschirmpionier Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_fallschirm_late_irr_1(ger)"
+msgid "Fallschirmjäger Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_fallschirm_late_irr_2(ger)"
+msgid "Fallschirmjäger Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_fallschirm_late_irr_3(ger)"
+msgid "Fallschirmjäger Squad"
+msgstr ""
+
+
+msgctxt "desc/squad/squad_pz_recon_late_off(ger)"
+msgid "Panzeraufklärer Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_pzgren_late_off(ger)"
+msgid "Panzergrenadier Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_pz_sturmgren_late_off(ger)"
+msgid "Pz.Sturmgrenadier Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_pz_pio_late_off(ger)"
+msgid "Panzerpionier Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_begleitgren_late_off(ger)"
+msgid "Begleitgrenadier Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_sturmjager_late_off(ger)"
+msgid "Sturmjäger Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_pz_pio_gd_late_off(ger)"
+msgid "Großdeutschland Pz.Pionier Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_pzgren_gd_late_off(ger)"
+msgid "Großdeutschland Pz.Gren Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_fallschirm_late_off_1(ger)"
+msgid "Fallschirmjäger Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_fallschirm_late_off_2(ger)"
+msgid "Fallschirmjäger Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_landes_late_sup(ger)"
+msgid "Landesschützen"
+msgstr ""
+
+msgctxt "desc/squad/squad_recon_late_sup(ger)"
+msgid "Aufklärer Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_gren_late_sup(ger)"
+msgid "Grenadier Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_sturmgren_late_sup(ger)"
+msgid "Sturmgrenadier Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_h_sturmgren_late_sup(ger)"
+msgid "Heavy Sturmgrenadier Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_begleit_pio_late_sup(ger)"
+msgid "Begleitpionier Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_begleit_sturm_late_sup(ger)"
+msgid "Begleitgrenadier Sturm Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_gebirgs_late_sup(ger)"
+msgid "Gebirgsjäger Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_ersatz_gren_late_all2(ger)"
+msgid "Ersatz-Grenadier Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_gren_late_all2(ger)"
+msgid "Grenadier Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_pzlehr_recon_late_all2(ger)"
+msgid "Pz-Lehr Pz.Aufklärer Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_pzlehr_pio_late_all2(ger)"
+msgid "Pz-Lehr Pz.Pionier Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_pzlehr_pzgren_late_all2(ger)"
+msgid "Pz-Lehr Pz.Gren Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_pzlehr_pzgren_late_mech_all2(ger)"
+msgid "Pz-Lehr Armored Pz.Gren Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_pzlehr_pz_sturmgren_late_all2(ger)"
+msgid "Pz-Lehr Pz.Sturmgrenadier Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_pzlehr_pz_sturmgren_late_mech_all2(ger)"
+msgid "Pz-Lehr Armored Pz.Sturmgrenadier Squad"
+msgstr ""
+
+

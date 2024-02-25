@@ -3,9 +3,9 @@
 ;=========================================
 
 
-{from "57mm_zis2"			; L/73  "t3457"
+{from "57mm_zis2"			; L/73  "t3457_41"
 	("reload time" seconds(9))
-	{fireSound 		"gun/Shared/close/medium/50-57mm_high-velocity/"}
-	{fireSoundClose 	"gun/Shared/int/medium/"}
-	{reloadSound "INT/reload/reload_small_6s_INT"}
+	{fireSound "gun/gun_37_57"}
+	{fireSoundclose "gun/gun_interior/size2"}
+	{reloadSound "interior/large/medium_reload_interior"}
 }

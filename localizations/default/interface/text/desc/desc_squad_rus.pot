@@ -1,0 +1,1039 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Gates of Hell Soviet Squads\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Poedit 2.4.2\n"
+
+msgctxt "desc/squad/conquest_il2"
+msgid "IL-2 250kg Bomb"
+msgstr ""
+
+msgctxt "desc/squad/conquest_po2"
+msgid "U-2 Recon"
+msgstr ""
+
+msgctxt "desc/squad/conquest_yak1"
+msgid "Yak-1 50kg Bomb"
+msgstr ""
+
+msgctxt "desc/squad/single_Officer(rus)"
+msgid "Commissar"
+msgstr ""
+
+msgctxt "desc/squad/single_ap_miner(rus)"
+msgid "AP Miners"
+msgstr ""
+
+msgctxt "desc/squad/single_at2(rus)"
+msgid "AT Detachment (PTRS)"
+msgstr ""
+
+msgctxt "desc/squad/single_at(rus)"
+msgid "AT Detachment"
+msgstr ""
+
+msgctxt "desc/squad/single_atgrenade(rus)"
+msgid "AT Detachment"
+msgstr ""
+
+msgctxt "desc/squad/single_at_late_con(rus)"
+msgid "Anti-Tank Team"
+msgstr ""
+
+msgctxt "desc/squad/single_at_miner(rus)"
+msgid "AT Miners"
+msgstr ""
+
+msgctxt "desc/squad/single_at_pzs_late_con(rus)"
+msgid "Panzerschreck Team"
+msgstr ""
+
+msgctxt "desc/squad/single_auxiliary(rus)"
+msgid "Auxiliary Detachment"
+msgstr ""
+
+msgctxt "desc/squad/single_battlerifle(rus)"
+msgid "Battle Rifles"
+msgstr ""
+
+msgctxt "desc/squad/single_bazooker(rus)"
+msgid "AT Detachment"
+msgstr ""
+
+msgctxt "desc/squad/single_engineer(rus)"
+msgid "Field Engineer"
+msgstr ""
+
+msgctxt "desc/squad/single_flamer(rus)"
+msgid "Flamer"
+msgstr ""
+
+msgctxt "desc/squad/single_medic(rus)"
+msgid "Medic"
+msgstr ""
+
+msgctxt "desc/squad/single_mg(rus)"
+msgid "MG Detachment"
+msgstr ""
+
+msgctxt "desc/squad/single_riflegrenade(rus)"
+msgid "Gren. Riflemen"
+msgstr ""
+
+msgctxt "desc/squad/single_sniper(rus)"
+msgid "Sniper"
+msgstr ""
+
+msgctxt "desc/squad/single_tankman(rus)"
+msgid "Tank Crew"
+msgstr ""
+
+msgctxt "desc/squad/squad_assaultsappers(rus)"
+msgid "Assault Sappers"
+msgstr ""
+
+msgctxt "desc/squad/squad_assaultsappers_con(rus)"
+msgid "Assault-engineer sapper squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_assaultsappers_flame_con(rus)"
+msgid "Assault-engineer flamer squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_at_rifle(rus)"
+msgid "Anti-tank rifle squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_at_rifle_con(rus)"
+msgid "AT rifle squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_basic(rus)"
+msgid "Light Inf."
+msgstr ""
+
+msgctxt "desc/squad/squad_border(rus)"
+msgid "Border guards squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_border_early(rus)"
+msgid "Border guards squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_conscripts(rus)"
+msgid "Conscript rifle squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_conscripts_con(rus)"
+msgid "Conscript Rifle squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_conscripts_late(rus)"
+msgid "Conscript rifle squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_guards(rus)"
+msgid "Guards Inf."
+msgstr ""
+
+msgctxt "desc/squad/squad_guards_heavy(rus)"
+msgid "Heavy Guards Inf."
+msgstr ""
+
+msgctxt "desc/squad/squad_guards_smg_con(rus)"
+msgid "Guards SMG squad (heavy)"
+msgstr ""
+
+msgctxt "desc/squad/squad_guards_smg_heavy(rus)"
+msgid "Guards SMG squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_guardsrifle(rus)"
+msgid "Guards Rifle squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_guardsrifle_con(rus)"
+msgid "Guards Rifle squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_guardsrifle_motorised_con"
+msgid "Motorized Guards Rifle squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_heavy(rus)"
+msgid "Heavy Inf."
+msgstr ""
+
+msgctxt "desc/squad/squad_marines(rus)"
+msgid "Black sea Marine squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_marines_con(rus)"
+msgid "Black sea marine squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_marines_late(rus)"
+msgid "Guards Marine squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_mountain_rifle_early(rus)"
+msgid "Mountain Rifle squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_mountainrifles(rus)"
+msgid "Mountain Rifles"
+msgstr ""
+
+msgctxt "desc/squad/squad_mountainrifles_con(rus)"
+msgid "Mountain Rifle squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_nkvd(rus)"
+msgid "Penal Unit"
+msgstr ""
+
+msgctxt "desc/squad/squad_officer_con(rus)"
+msgid "Command squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_officer_gaz_con"
+msgid "GAZ-67 (Command)"
+msgstr ""
+
+msgctxt "desc/squad/squad_paras(rus)"
+msgid "Paratrooper squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_paras_con(rus)"
+msgid "Paratrooper squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_paras_early(rus)"
+msgid "Paratrooper squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_paratrooper(rus)"
+msgid "Paratroopers"
+msgstr ""
+
+msgctxt "desc/squad/squad_paratrooper_early(rus)"
+msgid "Paratroopers"
+msgstr ""
+
+msgctxt "desc/squad/squad_partisan(rus)"
+msgid "Partisans"
+msgstr ""
+
+msgctxt "desc/squad/squad_partisan_con(rus)"
+msgid "Partisan squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_penal(rus)"
+msgid "Penal Battalion"
+msgstr ""
+
+msgctxt "desc/squad/squad_penal_con(rus)"
+msgid "Penal batallion squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_recon(rus)"
+msgid "Recon squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_recon_con(rus)"
+msgid "Recon squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_recon_early(rus)"
+msgid "Recon squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_recon_late(rus)"
+msgid "Recon squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_heavy_early(rus)"
+msgid "Heavy Rifle squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_motorised"
+msgid "Motorised rifle squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_motorised_con"
+msgid "Motorized Rifle squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifleunit(rus)"
+msgid "Rifle squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifleunit_42(rus)"
+msgid "Rifle squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifleunit_44(rus)"
+msgid "Rifle squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifleunit_alt(rus)"
+msgid "Rifle squad (No LMG)"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifleunit_alt_con(rus)"
+msgid "Rifle squad (No LMG)"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifleunit_con(rus)"
+msgid "Rifle squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifleunit_early(rus)"
+msgid "Rifle squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_heavy_rifleunit(rus)"
+msgid "Rifle squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_sappers(rus)"
+msgid "Assault Sappers"
+msgstr ""
+
+msgctxt "desc/squad/squad_shock(rus)"
+msgid "Shock Inf."
+msgstr ""
+
+msgctxt "desc/squad/squad_assault_shock_squad(rus)"
+msgid "Assault Shock Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_assault_shock_rifle_squad(rus)"
+msgid "Assault Shock Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_smg(rus)"
+msgid "SMG squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_smg_con(rus)"
+msgid "SMG squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_smg_heavy(rus)"
+msgid "SMG squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_spetsnaz(rus)"
+msgid "Osnaz Unit"
+msgstr ""
+
+msgctxt "desc/squad/squad_spetsnaz_early(rus)"
+msgid "Osnaz Unit"
+msgstr ""
+
+msgctxt "desc/squad/squad_spetsnaz_late(rus)"
+msgid "Osnaz Unit"
+msgstr ""
+
+msgctxt "desc/squad/squad_spetsnaz_mid(rus)"
+msgid "Osnaz Unit"
+msgstr ""
+
+msgctxt "desc/squad/squad_suppression(rus)"
+msgid "Suppression Inf."
+msgstr ""
+
+msgctxt "desc/squad/single_rifle(rus)"
+msgid "Rifleman"
+msgstr ""
+
+msgctxt "desc/squad/single_smg(rus)"
+msgid "SMG Soldier"
+msgstr ""
+
+msgctxt "desc/squad/single_sa(rus)"
+msgid "Semi-Auto Rifleman"
+msgstr ""
+
+msgctxt "desc/squad/squad_recon_early_all(rus)"
+msgid "Recon Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_early_all(rus)"
+msgid "Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_cav_sap_recon_early_all(rus)"
+msgid "Cavalry Recon Sapper Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_cav_early_all(rus)"
+msgid "Cavalry Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_para_early_all(rus)"
+msgid "Paratrooper Squad"
+msgstr ""
+
+
+msgctxt "desc/squad/squad_recon_early_def(rus)"
+msgid "Recon Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_early_def(rus)"
+msgid "Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_sapper_early_def(rus)"
+msgid "Sapper Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_mountain_early_def(rus)"
+msgid "Mountain Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_mountain_sapper_early_def(rus)"
+msgid "Mountain Sapper Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_para_glider_early_def(rus)"
+msgid "Glider Squad"
+msgstr ""
+
+
+msgctxt "desc/squad/squad_rifle_early_irr(rus)"
+msgid "Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_heavy_early_irr_1(rus)"
+msgid "Heavy Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_heavy_early_irr_2(rus)"
+msgid "Heavy Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_heavy_early_irr_3(rus)"
+msgid "Heavy Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_mountain_recon_early_irr(rus)"
+msgid "Mountain Recon Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_mountain_early_irr(rus)"
+msgid "Mountain Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_para_recon_early_irr(rus)"
+msgid "Paratrooper Recon Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_para_early_irr(rus)"
+msgid "Paratrooper Squad"
+msgstr ""
+
+
+msgctxt "desc/squad/squad_recon_early_off(rus)"
+msgid "Recon Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_early_off(rus)"
+msgid "Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_cav_early_off(rus)"
+msgid "Cavalry Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_cav_sapper_early_off(rus)"
+msgid "Cavalry Sapper Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_para_early_off(rus)"
+msgid "Paratrooper Squad"
+msgstr ""
+
+
+msgctxt "desc/squad/squad_cossack_recon_early_sup(rus)"
+msgid "Cossack Recon Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_cossack_early_sup(rus)"
+msgid "Cossack Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_mountain_early_sup(rus)"
+msgid "Mountain Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_mountain_sapper_early_sup(rus)"
+msgid "Mountain Sapper Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_para_glider_recon_early_sup(rus)"
+msgid "Glider Recon Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_para_glider_early_sup(rus)"
+msgid "Glider Squad"
+msgstr ""
+
+
+msgctxt "desc/squad/squad_conscript_mid_all(rus)"
+msgid "Conscript Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_recon_mid_all(rus)"
+msgid "Recon Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_mid_all(rus)"
+msgid "Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_at_rifle_mid_all(rus)"
+msgid "AT-Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_guards_rifle_mid_all(rus)"
+msgid "Guards Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_elite_guards_rifle_mid_all(rus)"
+msgid "Elite Guards Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_elite_guards_rifle_mid_off(rus)"
+msgid "Elite Guards Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_penal_mid_def(rus)"
+msgid "Penal Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_nkvd_recon_mid_def(rus)"
+msgid "NKVD Recon Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_nkvd_rifle_mid_def(rus)"
+msgid "NKVD Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_nkvd_sapper_mid_def(rus)"
+msgid "NKVD Sapper Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_nkvd_at_rifle_mid_def(rus)"
+msgid "NKVD AT-Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_nkvd_mountain_mid_def(rus)"
+msgid "NKVD Mountain Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_nkvd_mountain_cav_mid_def(rus)"
+msgid "NKVD Mountain Cavalry Squad"
+msgstr ""
+
+
+msgctxt "desc/squad/squad_partisan_mid_irr(rus)"
+msgid "Partisan Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_recon_mid_irr(rus)"
+msgid "Recon Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_mid_irr(rus)"
+msgid "Rifle Squad (SMG)"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_mid_irr_1(rus)"
+msgid "Rifle Squad (MG)"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_mid_irr_2(rus)"
+msgid "Rifle Squad (MG)"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_mid_irr_3(rus)"
+msgid "Rifle Squad (MG)"
+msgstr ""
+
+msgctxt "desc/squad/squad_at_rifle_mid_irr(rus)"
+msgid "AT-Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_mountain_mid_irr(rus)"
+msgid "Mountain Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_mountain_cav_mid_irr(rus)"
+msgid "Mountain Cavalry Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_mountain_cav_mid_all(rus)"
+msgid "Mountain Cavalry Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_mountain_cav_late_def(rus)"
+msgid "Mountain Cavalry Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_mountain_cav_late_len(rus)"
+msgid "Mountain Cavalry Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_conscript_mid_off(rus)"
+msgid "Conscript Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_recon_mid_off(rus)"
+msgid "Recon Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_mid_off(rus)"
+msgid "Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_smg_mid_off(rus)"
+msgid "SMG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_at_rifle_mid_off(rus)"
+msgid "AT-Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_guards_rifle_mid_off(rus)"
+msgid "Guards Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_guards_para_mid_off_1(rus)"
+msgid "Guards Paratrooper Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_guards_para_mid_off_2(rus)"
+msgid "Guards Paratrooper Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_guards_para_mid_off_3(rus)"
+msgid "Guards Paratrooper Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_guards_para_mid_all_1(rus)"
+msgid "Guards Paratrooper Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_guards_para_mid_all_2(rus)"
+msgid "Guards Paratrooper Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_guards_para_mid_all_3(rus)"
+msgid "Guards Paratrooper Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_conscript_mid_sup(rus)"
+msgid "Conscript Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_scout_mid_sup(rus)"
+msgid "Scout Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_mid_sup(rus)"
+msgid "Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_sapper_mid_sup(rus)"
+msgid "Sapper Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_at_rifle_mid_sup(rus)"
+msgid "AT-Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_marine_mid_sup(rus)"
+msgid "Marine Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_bsf_marine_mid_sup(rus)"
+msgid "BSF Marine Rifle Squad"
+msgstr ""
+
+
+msgctxt "desc/squad/squad_conscript_mid_len(rus)"
+msgid "Conscript Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_recon_mid_len(rus)"
+msgid "Recon Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_mid_len(rus)"
+msgid "Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_at_rifle_mid_len(rus)"
+msgid "AT-Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_marine_mid_len(rus)"
+msgid "Marine Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_bsf_marine_mid_len(rus)"
+msgid "BSF Marine Rifle Squad"
+msgstr ""
+
+
+msgctxt "desc/squad/squad_rifle_late_all_1(rus)"
+msgid "Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_late_all_2(rus)"
+msgid "Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_late_all_3(rus)"
+msgid "Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_smg_late_all_1(rus)"
+msgid "SMG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_smg_late_all_2(rus)"
+msgid "SMG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_smg_late_all_3(rus)"
+msgid "SMG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_sap_late_all(rus)"
+msgid "Sapper Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_guard_rifle_late_all_1(rus)"
+msgid "Guards Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_guard_rifle_late_all_2(rus)"
+msgid "Guards Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_guard_rifle_late_all_3(rus)"
+msgid "Guards Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_assault_eng_late_all(rus)"
+msgid "Assault Engineer Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_assault_eng_late_irr(rus)"
+msgid "Assault Engineer Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_assault_eng_late_sup(rus)"
+msgid "Assault Engineer Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_assault_eng_flame_at_late_all(rus)"
+msgid "AT/Flamer Assault Engineer Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_elite_guard_rifle_late_all_1(rus)"
+msgid " Elite Guards Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_elite_guard_rifle_late_all_2(rus)"
+msgid " Elite Guards Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_elite_guard_rifle_late_all_3(rus)"
+msgid " Elite Guards Rifle Squad"
+msgstr ""
+
+
+msgctxt "desc/squad/squad_conscript_late_def(rus)"
+msgid "Conscript Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_recon_late_def(rus)"
+msgid "Recon Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_late_def_1(rus)"
+msgid "Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_late_def_2(rus)"
+msgid "Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_late_def_3(rus)"
+msgid "Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_sap_late_def(rus)"
+msgid "Sapper Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_at_rifle_late_def(rus)"
+msgid "AT-Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_marine_late_def_1(rus)"
+msgid "Marine Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_marine_late_def_2(rus)"
+msgid "Marine Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_marine_late_def_3(rus)"
+msgid "Marine Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_guard_marine_late_def(rus)"
+msgid "Guards Marine Rifle Squad"
+msgstr ""
+
+
+msgctxt "desc/squad/squad_partisan_late_irr_1(rus)"
+msgid "Partisan Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_partisan_late_irr_2(rus)"
+msgid "Partisan Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_partisan_late_irr_3(rus)"
+msgid "Partisan Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_recon_late_irr(rus)"
+msgid "Recon Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_late_irr_1(rus)"
+msgid "Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_late_irr_2(rus)"
+msgid "Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_late_irr_3(rus)"
+msgid "Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_vet_partisan_rifle_late_irr_1(rus)"
+msgid "Vet Partisan Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_vet_partisan_rifle_late_irr_2(rus)"
+msgid "Vet Partisan Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_vet_partisan_rifle_late_irr_3(rus)"
+msgid "Vet Partisan Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_vet_partisan_smg_late_irr_1(rus)"
+msgid "Vet Partisan SMG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_vet_partisan_smg_late_irr_2(rus)"
+msgid "Vet Partisan SMG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_vet_partisan_smg_late_irr_3(rus)"
+msgid "Vet Partisan SMG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_at_rifle_late_irr(rus)"
+msgid "AT-Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_guard_rifle_late_irr_1(rus)"
+msgid "Guards Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_guard_rifle_late_irr_2(rus)"
+msgid "Guards Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_guard_rifle_late_irr(rus)"
+msgid "Guards Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_elite_guard_rifle_late_irr_1(rus)"
+msgid "Elite Guards Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_elite_guard_rifle_late_irr_2(rus)"
+msgid "Elite Guards Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_elite_guard_rifle_late_irr(rus)"
+msgid "Elite Guards Rifle Squad"
+msgstr ""
+
+
+msgctxt "desc/squad/squad_conscript_late_len(rus)"
+msgid "Conscript Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_recon_late_len(rus)"
+msgid "Recon Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_late_len_1(rus)"
+msgid "Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_late_len_2(rus)"
+msgid "Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_late_len_3(rus)"
+msgid "Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_smg_late_len_1(rus)"
+msgid "SMG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_smg_late_len_2(rus)"
+msgid "SMG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_smg_late_len_3(rus)"
+msgid "SMG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_at_rifle_late_len(rus)"
+msgid "AT-Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_cav_late_len_1(rus)"
+msgid "Cavalry Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_cav_late_len_2(rus)"
+msgid "Cavalry Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_cav_late_len_3(rus)"
+msgid "Cavalry Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_guard_cav_late_len_1(rus)"
+msgid "Guards Cavalry Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_guard_cav_late_len_2(rus)"
+msgid "Guards Cavalry Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_guard_cav_late_len_3(rus)"
+msgid "Guards Cavalry Squad"
+msgstr ""
+
+
+msgctxt "desc/squad/squad_recon_late_sup(rus)"
+msgid "Recon Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_late_sup_1(rus)"
+msgid "Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_late_sup_3(rus)"
+msgid "Rifle Squad"
+msgstr ""
+
+
+msgctxt "desc/squad/squad_rifle_late_sup_2(rus)"
+msgid "Heavy Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_late_sup_4(rus)"
+msgid "Heavy Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_smg_late_sup_1(rus)"
+msgid "SMG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_smg_late_sup_3(rus)"
+msgid "SMG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_smg_late_sup_2(rus)"
+msgid "Heavy SMG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_smg_late_sup_4(rus)"
+msgid "Heavy SMG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_guard_rifle_late_sup_1(rus)"
+msgid "Guards Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_guard_rifle_late_sup_2(rus)"
+msgid "Guards Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_guard_rifle_late_sup(rus)"
+msgid "Guards Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_guard_smg_late_sup_1(rus)"
+msgid "Guards SMG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_guard_smg_late_sup_2(rus)"
+msgid "Guards SMG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_guard_smg_late_sup(rus)"
+msgid "Guards SMG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_elite_guard_rifle_late_sup_1(rus)"
+msgid "Elite Guards Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_elite_guard_rifle_late_sup_2(rus)"
+msgid "Elite Guards Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_elite_guard_rifle_late_sup(rus)"
+msgid "Elite Guards Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_elite_guard_smg_late_sup_1(rus)"
+msgid "Elite Guards SMG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_elite_guard_smg_late_sup(rus)"
+msgid "Elite Guards SMG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_elite_guard_smg_late_sup_3(rus)"
+msgid "Elite Guards SMG Squad"
+msgstr ""

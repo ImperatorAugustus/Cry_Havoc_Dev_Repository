@@ -1,0 +1,27 @@
+;_________________________________________
+; short barreled USSR tank gun
+;=========================================
+
+ 
+{from "76mm_kt26"			; L/26 "t28_38"
+
+	("velocity m/s" ap(555) apcr(809) he(560) heat(560))
+	("range_180")
+
+	("armor health custom" shell(aphebc) damage(200) filler(150))
+	("armor health custom" shell(aphebc2) damage(200) filler(88))
+
+	; BR-350A
+	("penetration_medium" shell(aphebc) range(180) a(58) b(53) c(48) d(44) e(40))
+
+	; BR-350B
+	("penetration_medium" shell(aphebc2) range(180) a(66) b(61) c(56) d(52) e(48))
+
+	; BR-350P  ; only issued to ZiS-5 & F-34 guns; theoretical performance
+	("penetration_medium" shell(apcr) range(180) a(102) b(70) c(44) d(27) e(17))
+
+	; BP-350A
+	("penetration_medium" shell(heat) range(180) a(75) b(75) c(75) d(75) e(75))	; issued sometime in '43
+
+	("accuracy_direct" r1(0.95) range_ap(180) range_he(180) range_heat(180))
+}

@@ -1,0 +1,50 @@
+;SDL
+{boarder
+	{anm "gunner"
+		{forward {begin "board_sd222_driver"} {end "seat_driver_car"}}
+		{reverse {end "emit_sd222_driver"}}
+		}
+	{anm "charger"
+		{forward {begin "board_sd222_driver"} {end "seat_sdkfz234_driver"}}
+		{reverse {end "emit_sd222_driver"}}
+		}
+	{anm "driver"
+		{forward {begin "board_sd222_driver"} {end "seat_sdkfz234_driver"}}
+		{reverse {end "emit_sd222_driver"}}
+		}
+	{anm "commander"
+		{forward {begin "board_sd222_driver"} {end "seat_driver_car"}}
+		{reverse {end "emit_sd222_driver"}}
+		}
+}
+
+(define "crew_human"
+	{placer
+		{place "%place" {group "%group"} {linkbone "%bone"} {turnoff {shadow}}}
+	}
+	{boarder
+		{door "%door"}
+		{link "%door" "%place" {anm "%animation"} {forward putoff} {reverse puton}}
+	}
+)
+
+{sensor
+	{visor "main"
+		{vision "tank_range_200"}
+		{bone "foresight1"}
+	}
+	{visor "around"
+			{vision "vehicle_around"}		;// better vision than a in-closed turret 
+	}
+}
+
+{placer
+	{place "gunner" {visor "main"}}
+	{place "driver" {turnoff {targetable}}}		;// sits out of view from top of turret
+	{place "charger" {turnoff {targetable}}}	;// sits out of view from top of turret
+}
+
+("crew_human" place(driver)		door(emit2) bone(driver)	animation(driver)		group(crew))
+("crew_human" place(commander)	door(emit2) bone(commander)	animation(commander)	group(crew))
+("crew_human" place(gunner)		door(emit1) bone(gunner)	animation(gunner)		group(crew))
+("crew_human" place(charger)	door(emit1) bone(charger)	animation(charger)		group(crew))

@@ -1,37 +1,38 @@
 {"tank"
-(include "\set\interaction_terrain\effects\effects-defines.inc")
+
+	{on "burst_mode"
+		{if tagged "full_auto_mode"
+			{tags remove "full_auto_mode"}
+			{damage_report "mgun" "Unit changed to burst mode"}
+		else
+			{tags add "full_auto_mode"}
+			{damage_report "mgun" "Unit changed to full auto mode"}
+		}
+	}
+	
 	{on spawn
 		{set "smoke1" 0}				;// used in burn_emit call
 		{set "smoke2" 0}				;// used in burn_emit call
 		{set "turret" 0}  				;// allows for extra code to applied to mantlet damage when tank has no turret
-		;{call "shield_checker"}			;// randomizes shield bones
-		{call "update_hatch_on_spawn"}			;// updates vehicle hatches
-		{call "add_overlay_sound"}			;// adds terrain specific sounds to enhance the tank track sounds
-		{call "crew_able"}	
+		;{call "shield_checker"}		;// randomizes shield bones
+		{call "update_hatch_on_spawn"}	;// updates vehicle hatches
+		{call "add_overlay_sound"}		;// adds terrain specific sounds to enhance the tank track sounds
+		{call "crew_able"}				;// re-enables seats for conquest on unit respawn
+
 
 		;/*=========== Sounds Begin ===========*/
 
-		;//{example    "name used in code" 	   	"sound file or folder"}
-		{link_sound 	"flame"				"fire/metal"}
-		{link_sound 	"flame_1"			"fire/metal"}
-;		{link_sound 	"move"				"vehicle/tracks/trackclank"}
-;		{link_sound 	"heavy_move"			"vehicle/tracks/heavy"}
-		{link_sound 	"engine_idle"			"vehicle/engine/tank"}
-		{link_sound 	"brake"				"vehicle/tracks/brake"}
-		{link_sound 	"rotate_gun"			"vehicle/turret/gun/gun_vertical"}
-		{link_sound 	"rotate_gun_INT"		"vehicle/turret/INT/gun/gun_vertical"}
+		;//{example    "name used in code" 	    "sound file or folder"}
+		{link_sound "flame"						"fire/metal"}
+		{link_sound "flame_1"					"fire/metal"}
+;		{link_sound "move"						"vehicle/tracks/trackclank"}
+;		{link_sound "heavy_move"				"vehicle/tracks/heavy"}
+		{link_sound "engine_idle"				"vehicle/engine/tank"}
+		{link_sound "brake"						"vehicle/tracks/brake"}
+		{link_sound "rotate_gun"				"vehicle/turret/gun/gun_vertical"}
 
-		{link_sound	"wheel_ground"			"vehicle/tracks/overlay/track_overlay_ground"}
-		{link_sound	"wheel_sand"			"vehicle/tracks/overlay/track_overlay_ground"}
-		{link_sound	"wheel_grass"			"vehicle/tracks/overlay/track_overlay_ground"}
-		{link_sound	"wheel_water"			"vehicle/tracks/overlay/track_overlay_water"}
-		{link_sound	"wheel_puddle"			"vehicle/tracks/overlay/track_overlay_water"}
-		{link_sound	"wheel_mud"			"vehicle/tracks/overlay/track_overlay_mud_snow"}
-		{link_sound	"wheel_snow"			"vehicle/tracks/overlay/track_overlay_mud_snow"}
-		{link_sound	"wheel_road"				"vehicle/tracks/overlay/track_overlay_road"}
-		{link_sound	"wheel_rock"				"vehicle/tracks/overlay/track_overlay_rock"}
-		{link_sound	"wheel_wood"				"vehicle/tracks/overlay/track_overlay_wood"}
 
+		{link_sound "bkg_mg" "weapon/shot/bkg/gun/mg/"}
 		{link_sound "contact" "fire/loops/big"}
 		;/*=========== Sounds End ===========*/
 
@@ -103,7 +104,15 @@
 		{add_view	"smoke_black"					"smoke2"				 "turret"} ;// turret break smoke
 
 		{add_view	"fire_cooking_aftersmoke"		"smoke3"				"FXfire3"} ;// burn out fx for mp destroy. turret hatch.
+		{add_view	"fire_cooking_aftersmoke"		"smoke3"				"FXfire3_2"} ;// burn out fx for mp destroy. turret hatch.
 		{add_view	"smoke_dead_norm"				"smoke3"				"FXfire5"} ;// burn out fx for mp destroy. open top vehicles.
+		
+		{add_view	"fire_vehicle_death_hatch"		"fire_vehicle_death"	"FXfire3"}
+		{add_view	"fire_vehicle_death_hatch"		"fire_vehicle_death"	"FXfire3_2"}
+		{add_view	"smoke_vehicle_death_hatch"		"smoke_vehicle_death"	"FXfire3"}
+		{add_view	"smoke_vehicle_death_hatch"		"smoke_vehicle_death"	"FXfire3_2"}
+		{add_view	"fire_vehicle_death"			"fire_vehicle_death"	"FXfire5"}
+		{add_view	"smoke_vehicle_death"			"smoke_vehicle_death"	"FXfire5"}
 
 		{add_view	"smoke_dead_small2"				"smoke3_1"				"FXfire3"}
 		{add_view	"fire_cooking_smoke"			"smoke3_2"				"FXfire3"}
@@ -122,12 +131,24 @@
 		{add_view	"cooking_presmoke_2"		"cooking_presmoke_2"	"FXfire3"}
 		{add_view	"cooking_presmoke_3"		"cooking_presmoke_3"	"FXfire3"}
 		{add_view	"cooking_high"				"cooking_high"			"FXfire3"}
-		{view hide	"cooking_high"}	;// fx has a glow that will show unless hidden until later called
+		{view hide  "cooking_high"}	;// fx has a glow that will show unless hidden until later called
 		{add_view	"cooking_high_2"			"cooking_high_2"	"FXfire3"}
-		{view hide  	"cooking_high_2"}	;// fx has a glow that will show unless hidden until later called
+		{view hide  "cooking_high_2"}	;// fx has a glow that will show unless hidden until later called
 		{add_view	"cooking_hatch_fire"		"cooking_hatch_fire"	"FXfire3"}
-		{view hide  	"cooking_hatch_fire"}	;// fx has a glow that will show unless hidden until later called
+		{view hide  "cooking_hatch_fire"}	;// fx has a glow that will show unless hidden until later called
 		{add_view	"cooking_hatch_smoke"		"cooking_hatch_smoke"	"FXfire3"}
+		
+		{add_view	"cooking_presmoke_1"		"cooking_presmoke_1"	"FXfire3_2"}
+		{add_view	"cooking_presmoke_2"		"cooking_presmoke_2"	"FXfire3_2"}
+		{add_view	"cooking_presmoke_3"		"cooking_presmoke_3"	"FXfire3_2"}
+		{add_view	"cooking_high"				"cooking_high"			"FXfire3_2"}
+		{view hide  "cooking_high"}	;// fx has a glow that will show unless hidden until later called
+		{add_view	"cooking_high_2"			"cooking_high_2"	"FXfire3_2"}
+		{view hide  "cooking_high_2"}	;// fx has a glow that will show unless hidden until later called
+		{add_view	"cooking_hatch_fire"		"cooking_hatch_fire"	"FXfire3_2"}
+		{view hide  "cooking_hatch_fire"}	;// fx has a glow that will show unless hidden until later called
+		{add_view	"cooking_hatch_smoke"		"cooking_hatch_smoke"	"FXfire3_2"}
+		
 		{add_view	"cooking_turret_ring"		"cooking_turret_fire"	"FXfire4"} ;// turret base
 		{add_view	"cooking_turret_smoke"		"cooking_turret_smoke"	"FXfire4"}
 		{add_view	"smoke_after_pen_hatch"		"smoke_after_pen_hatch"	"turret"}
@@ -205,7 +226,7 @@
 
 	{on "cut_parts"					;// called on "_explosion" in vehicle prop
 		(define "cut_part"
-			{if rand 0.6
+			{if rand %1
 				{if tagged "ammo_broken"
 					{tear "piece_medium_steel" bone %0
 						{impulse up 8 1 dir 5 2 cx 5 2 cy 5 2 rnd_dir 10 no_position}
@@ -219,16 +240,16 @@
 				}
 			}
 		)
-		("cut_part" args "part1")
-		("cut_part" args "part2")
-		("cut_part" args "part3")
-		("cut_part" args "part4")
-		("cut_part" args "part5")
-		("cut_part" args "part6")
-		("cut_part" args "part7")
-		("cut_part" args "part8")
-		("cut_part" args "part9")
-		("cut_part" args "part10")
+		("cut_part" args "part1" 0.6)
+		("cut_part" args "part2" 0.6)
+		("cut_part" args "part3" 0.6)
+		("cut_part" args "part4" 0.6)
+		("cut_part" args "part5" 0.6)
+		("cut_part" args "part6" 0.6)
+		("cut_part" args "part7" 0.6)
+		("cut_part" args "part8" 0.6)
+		("cut_part" args "part9" 0.6)
+		("cut_part" args "part10" 0.6)
 	}
 
 	{on "check_burn_emit"								;// re-visit in future for efficiency
@@ -259,14 +280,20 @@
 		{ani_play "fire"}
 	}
 
+	{on fire "gun1"
+		{view start "flashbarrel2s"}
+		{ani_play "fire1"}
+	}
+
 	{on fire "gun2"
 		{view start "flashbarrel2s"}
+		{ani_play "fire2"}
 	}
 
 	{on fire "gun3"
 		{view start "flashbarrel12"}
 		{view start "flashbarrel12s"}
-		{ani_play "fire1"}
+		{ani_play "fire3"}
 	}
 
 	;/*=========== Generic Calls End ===========*/
@@ -296,7 +323,6 @@
 	{on break_armor					;// volume breaks
 		{if volume "cupola"
 			{call "kill_commander"}
-			{tags add "test"}
 		else volume "mg_port"
 			{call "kill_gunner3"}
 		}
@@ -325,11 +351,8 @@
 				{unlink_trailer}
 			else component "engine"
 				{tags add "engine_brake"}
-				{play_sound "engine_fail"}
-				{play_sound "engine_fail_INT"}
 				{spawn "tank_die_particle" "engine"}
 				{view start "smoke1_1"}
-				{play_sound "damage_steam" 1}
 				{set "smoke1" 1}
 				{delay 30
 					{view pause "smoke1_1"}
@@ -376,6 +399,12 @@
 				("cut_shield_part" args "shield7")
 				("cut_shield_part" args "shield8")
 				("cut_shield_part" args "shield9")
+				("cut_shield_part" args "shield10")
+				("cut_shield_part" args "shield11")
+				
+				("cut_shield_part" args "shieldt11")
+				("cut_shield_part" args "shieldt12")
+				("cut_shield_part" args "shieldt13")
 
 				("cut_shield_part" args "detail1")
 				("cut_shield_part" args "detail2")
@@ -386,6 +415,27 @@
 				("cut_shield_part" args "detail7")
 				("cut_shield_part" args "detail8")
 				("cut_shield_part" args "detail9")
+				("cut_shield_part" args "detail10")
+				("cut_shield_part" args "detail11")
+				("cut_shield_part" args "detail12")
+				("cut_shield_part" args "detail13")
+				("cut_shield_part" args "detail14")
+				("cut_shield_part" args "detail15")
+				("cut_shield_part" args "detail16")
+				("cut_shield_part" args "detail17")
+				("cut_shield_part" args "detail18")
+				("cut_shield_part" args "detail19")
+				("cut_shield_part" args "detail20")
+
+				("cut_shield_part" args "fenderr")
+				("cut_shield_part" args "fenderl")
+				("cut_shield_part" args "fenderr2")
+				("cut_shield_part" args "fenderl2")
+				("cut_shield_part" args "turret_armor1")
+				("cut_shield_part" args "turret_armor2")
+				("cut_shield_part" args "turret_armor3")
+				("cut_shield_part" args "turret_armor4")
+				("cut_shield_part" args "turret_armor5")
 
 				("shed_shield_part" args "shieldw1")
 				("shed_shield_part" args "shieldw2")
@@ -403,6 +453,9 @@
 	{on destroy overload
 		{if not tagged "exploded"
 			{if component "body"
+				{if not tagged "ammo_cooked"
+					{tags add "ammo_broken"}
+				}
 				{call "explosion"}
 			else component "engine"
 				{call "_burn"}
@@ -413,7 +466,7 @@
 	{on "hull_destroyed"
 		{if not tagged "hull_destroyed"
 			{tags add "hull_destroyed"}
-			{tags add "destroyed"}
+			{tags add "no_scavenge"}
 			{if not tagged "body_break"
 				{components "body" break}
 			}
@@ -423,6 +476,7 @@
 			{able minimap 0}
 			{delay 2
 				{kick_entity_manager}
+				{tags add "destroyed"}
 			}
 			{delay 10
 				{call "hatch_fire"}
@@ -441,19 +495,126 @@
 		}
 	}
 
+	{on "vehicle_destroyed"
+		{if not tagged "vehicle_destroyed"
+			{if not tagged "ammo_cooked"
+				{tags add "vehicle_destroyed"}
+				{ani_wind "open" end}
+				{ani_wind "open1" end}
+				{tags add "no_scavenge"}		;// tag for conquest so that vehicle cannot be repaired/recovered
+				{if not tagged "body_break"
+					{components "body" break}
+				}
+				;//{damage_report "body" "component/body_destroyed"}
+				{able select 0}
+				{able repaired 0}
+				{able minimap 0}
+				{delay 2
+					{kick_entity_manager}
+					{tags add "destroyed"}
+				}
+				{if not tagged "exploded"
+					;//{view pause "cooking_presmoke_1"}
+					{view start "fire_vehicle_death"}
+					{play_sound "flame_1" 1}
+					{clear_inventory}
+					{delay 500 60
+						{if not tagged "exploded"
+							{view pause "fire_vehicle_death"}
+							{view start "smoke_vehicle_death"}
+							{stop_sound "flame_1"}
+							{tags add "ammo_cooked"}
+						}
+					}
+				}
+				{delay 200 200
+					{if rand 0.3
+						{call_synced "rand_break_ammo"}
+					}
+				}
+			}
+		}
+	}
+
 	{on "hatch_fire"
-		{view start "smoke3"}
-		{play_sound "flame_1" 1}
+		{if not tagged "exploded"
+			{view start "smoke3"}
+			{play_sound "flame_1" 1}
+		}
+	}
+
+	{on "death_counter_check"
+		{if tagged "death_counter_final"
+			{call_synced "vehicle_destroyed"}
+		}
+		{if tagged "body_break"
+			{if not tagged "death_counter_start"
+				{tags add "death_counter_start"}
+				{if stuff "size4"
+					{tags add "death_counter_2"}
+				else stuff "size3"
+					{tags add "death_counter_2"}
+				else
+					{tags add "death_counter_1"}
+				}
+			}
+		}
+	}
+
+	{on "death_counter"
+		{if stuff "rocketlauncher"
+			{if tagged "death_counter_1"
+				{tags add "death_counter_2"}
+				{tags remove "death_counter_1"}
+			else tagged "death_counter_2"
+				{tags add "death_counter_3"}
+				{tags remove "death_counter_2"}
+			}
+			{if tagged "death_counter_3"
+				{tags add "death_counter_final"}
+				{tags remove "death_counter_3"}
+			}
+		else stuff "small_arms"
+			;//nothing
+		else stuff "auto"
+			;// nothing
+		else stuff "ptr"
+			;// nothing
+		else
+			{if tagged "death_counter_1"
+				{tags add "death_counter_2"}
+				{tags remove "death_counter_1"}
+			else tagged "death_counter_2"
+				{tags add "death_counter_3"}
+				{tags remove "death_counter_2"}
+			}
+			{if tagged "death_counter_3"
+				{tags add "death_counter_final"}
+				{tags remove "death_counter_3"}
+			}
+		}
+	}
+
+	{on "death_counter_blast"
+		{if min_energy 3.5
+			{tags add "death_counter_final"}
+			{tags remove "death_counter_1"}
+			{tags remove "death_counter_2"}
+			{tags remove "death_counter_3"}
+		}
 	}
 
 	(define "hull_death_fx"			;// defines fx size and burn time in specific tank props (light, medium, heavy..)
 		{add_view "fire_dead_%3" "deathfx" "basis"}
 		{add_view "smoke_dead_%3" "deathfx_smoke" "basis"}
+		{add_view "smoke_dead_turret" "deathfx2" "basis"}
 		{if tagged "ammo_broken"
 			{view start "deathfx"}
+			{play_sound "flame_1" 1}
 			{delay %0 %1
 				{view stop "deathfx"}
 				{view start "deathfx_smoke"}
+				{play_sound "flame_1" 0}
 				{delay %0 %2
 					{view stop "deathfx_smoke"}
 				}
@@ -529,24 +690,38 @@
 	)
 
 	;// defines all crew positions/names used in game
-	("kill_crewman" args driver)
 	("kill_crewman" args gunner)
 	("kill_crewman" args gunner2)
 	("kill_crewman" args gunner3)
+	("kill_crewman" args gunner4)
+	("kill_crewman" args gunner5)
+	("kill_crewman" args gunner6)
 	("kill_crewman" args charger)
 	("kill_crewman" args charger2)
 	("kill_crewman" args charger3)
+	("kill_crewman" args charger4)
+	("kill_crewman" args charger5)
+	("kill_crewman" args charger6)
 	("kill_crewman" args commander)
+	("kill_crewman" args driver)
 
 	{on "crew_able"						;// called on spawn. re-enables seats for conquest on unit respawn
-		{crew_enable place "driver" 1}
 		{crew_enable place "gunner" 1}
+		{crew_enable place "gunner1" 1}
 		{crew_enable place "gunner2" 1}
 		{crew_enable place "gunner3" 1}
+		{crew_enable place "gunner4" 1}
+		{crew_enable place "gunner5" 1}
+		{crew_enable place "gunner6" 1}
 		{crew_enable place "charger" 1}
+		{crew_enable place "charger1" 1}
 		{crew_enable place "charger2" 1}
 		{crew_enable place "charger3" 1}
+		{crew_enable place "charger4" 1}
+		{crew_enable place "charger5" 1}
+		{crew_enable place "charger6" 1}
 		{crew_enable place "commander" 1}
+		{crew_enable place "driver" 1}
 	}
 
 	;/*=========== Crew End  ===========*/
@@ -555,7 +730,6 @@
 
 	{on repair
 		{if component "turret"
-			{view pause "smoke2"}
 			{call "update_turret"}
 			{tags remove "turret_brake"}
 		else component "body"
@@ -565,6 +739,11 @@
 			{tags remove "body_break"}
 			{able "select" 1}
 			{call "activate_vehicle"}
+			{tags remove "death_counter_1"}
+			{tags remove "death_counter_2"}
+			{tags remove "death_counter_3"}
+			{tags remove "death_counter_4"}
+			{tags remove "death_counter_start"}
 		else component "engine"
 			{tags remove "engine_brake"}
 			{view pause "smoke1_1"}
@@ -616,6 +795,9 @@
 			{spawn "flash_grenade_launcher" "fx%1" x}	;// plays flash at grenade spawn/launch
 			{bone hide "%1_cap"}
 		}
+		{delay %5
+			{bone show "%1_cap"}
+		}
 	)
 
 	{on "deploy_smoke"					;// UI button to deploy vehicle smoke screen
@@ -627,6 +809,22 @@
 	}
 
 	;/*=========== Smoke End  ===========*/
+
+	{on "rand_break_body"
+		{components "body" break}
+	}
+	{on "rand_break_engine"
+		{components "engine" break}
+	}
+	{on "rand_break_trackleft"
+		{components "trackleft" break}
+	}
+	{on "rand_break_trackright"
+		{components "trackright" break}
+	}
+	{on "rand_break_ammo"
+		{components "ammo" break}
+	}
 }
 
 ;/*=========== Tank End ===========*/
@@ -667,6 +865,8 @@
 	{on "commander_hatch_close"}
 	{on "charger_hatch_open"}
 	{on "charger_hatch_close"}
+	{on "charger2_hatch_open"}
+	{on "charger2_hatch_close"}
 
 	(define "places"
 		{if has_place "%0"
@@ -690,10 +890,12 @@
 			else
 				{call "event_with_crew"}
 			}
+			("places" args gunner)
 			("places" args gunner2)
 			("places" args gunner4)
 			("places" args commander)
 			("places" args charger)
+			("places" args charger2)
 		}
 	)
 	{on "update_hatch_on_spawn"
@@ -710,19 +912,6 @@
 	("update_hatch_event" event(crew out))
 
 	;/*=========== Hatch Animation End ===========*/
-	
-	{on "rand_break_body"
-		{components "body" break}
-	}
-	{on "rand_break_engine"
-		{components "engine" break}
-	}
-	{on "rand_break_trackleft"
-		{components "trackleft" break}
-	}
-	{on "rand_break_trackright"
-		{components "trackright" break}
-	}
 }
 
 {"smoke nkav"						;// Nebelkerzenabwurfvorrichtung - German rear grenade dispenser
@@ -756,12 +945,12 @@
 
 {"smoke nwg"					;// Nebelwurfgerät - German smoke grenade launcher
 	{on "smoke_screen"
-		("smoke_shot" args "nbk39" smoke_shot1 -17 0.5 0)
-		("smoke_shot" args "nbk39" smoke_shot4 -17 0.5 0.1)
-		("smoke_shot" args "nbk39" smoke_shot2 -17 0.5 0.2)
-		("smoke_shot" args "nbk39" smoke_shot5 -17 0.5 0.3)
-		("smoke_shot" args "nbk39" smoke_shot3 -17 0.5 0.4)
-		("smoke_shot" args "nbk39" smoke_shot6 -17 0.5 0.5)
+		("smoke_shot" args "nbk39" smoke_shot1 -17 0.5 0 20)
+		("smoke_shot" args "nbk39" smoke_shot4 -17 0.5 0.1 20)
+		("smoke_shot" args "nbk39" smoke_shot2 -17 0.5 0.2 20)
+		("smoke_shot" args "nbk39" smoke_shot5 -17 0.5 0.3 20)
+		("smoke_shot" args "nbk39" smoke_shot3 -17 0.5 0.4 20)
+		("smoke_shot" args "nbk39" smoke_shot6 -17 0.5 0.5 20)
 	}
 }
 
@@ -773,7 +962,13 @@
 
 {"smoke 2in"					;// Bomb Thrower 2in - British smoke launcher
 	{on "smoke_screen"
-		("smoke_shot" args "50mm_eng_mortar_sm" smoke_shot1 17 0.5 0)
+		("smoke_shot" args "51mm_eng_mortar_sm" smoke_shot1 17 0.5 0)
+	}
+}
+
+{"smoke 2in_wp"					;// Bomb Thrower 2in WP - British smoke launcher
+	{on "smoke_screen"
+		("smoke_shot" args "51mm_eng_mortar_wp" smoke_shot1 17 0.5 0)
 	}
 }
 
@@ -829,11 +1024,6 @@
 			{if component "turret"
 				("turret_break_effects" n())
 				{talk "broken_turret"}
-				;{view start "smoke2"}
-				;{delay 10
-				;	{view pause "smoke2"}
-				;	{set "smoke2" 0}
-				;}
 			else component "body"
 				{call "update_turret"}
 			else component "mantlet"
@@ -861,8 +1051,9 @@
 	(define "turret_torn"
 		{on "tear_turret"
 			{if not "turret_teared"
+				{clear_inventory}
 				{set "turret_teared" 1}
-				{components "turret" destroy}
+				{components "turret" break}
 				{call "hull_destroyed"}
 				{delay_ex 0
 					{tear "piece_large_steel" bone "turret" id "turret"
@@ -885,6 +1076,14 @@
 	)
 }
 
+{"tank bunker"					;// for emplacement tanks and turrets without engines
+	{on spawn {set "engine_on" 0}}
+	{on "impulse" overload}
+	{on "engine_toggle" overload}	;// disables engine toggle for cannons
+	{on "engine_on"	overload}		;// disables engine fx and sound for cannons
+	{on "engine_check" overload}	;// disables engine turned on if crewed on spawn
+}
+
 {"tank turret light"			;// light tanks with a turret
 	{on bullet_hit
 		{if component "turret"
@@ -893,6 +1092,8 @@
 			else stuff "shell size4"		;// 150-169mm cannon shells
 				{call "tear_turret"}
 			else stuff "shell size5"		;// 170+mm cannon shells
+				{call "tear_turret"}
+			else stuff "shell size6"		;// 240+mm cannon shells
 				{call "tear_turret"}
 			}
 		}
@@ -918,80 +1119,103 @@
 			else component "aux_turret2"
 				{call "update_multi_turret"}
 				{damage_report "turret" "component/turret_broken"}
+			else component "aux_turret3"
+				{call "update_multi_turret"}
+				{damage_report "turret" "component/turret_broken"}
+			else component "aux_turret4"
+				{call "update_multi_turret"}
+				{damage_report "turret" "component/turret_broken"}
 			}
 		}
 	}
 	{on "update_multi_turret"
-		{if work "aux_turret1"
-			{if work "body"
-				{ik_enable "aux_turret1" 1}
-			 else
-				{ik_enable "aux_turret1" 0}
+		(define "multi_turret_work"
+			{if work "%0"
+				{if work "body"
+					{ik_enable "%0" 1}
+				 else
+					{ik_enable "%0" 0}
+				}
+			else
+				{ik_enable "%0" 0}
 			}
-		else
-			{ik_enable "aux_turret1" 0}
-		}
-		{if work "aux_turret2"
-			{if work "body"
-				{ik_enable "aux_turret2" 1}
-			 else
-				{ik_enable "aux_turret2" 0}
-			}
-		else
-			{ik_enable "aux_turret2" 0}
-		}
+		)
+		("multi_turret_work" args aux_turret1)
+		("multi_turret_work" args aux_turret2)
+		("multi_turret_work" args aux_turret3)
+		("multi_turret_work" args aux_turret4)
 	}
 	{on repair
 		{if component "aux_turret1"
 			{call "update_multi_turret"}
 		else component "aux_turret2"
 			{call "update_multi_turret"}
+		else component "aux_turret3"
+			{call "update_multi_turret"}
+		else component "aux_turret4"
+			{call "update_multi_turret"}
 		}
 	}
-}
+	(define "multi_turret_rotate"
+		{on ik begin "%0"
+			{kill_delay "rotate_turret"}
+			{if not "rotate_turret"
+				{play_sound "rotate_turret" 1}
+				{set "rotate_turret" 1}
+			}
+		}
+		{on ik end "%0"
+			{delay 0.25 "rotate_turret"
+				{stop_sound "rotate_turret"}
+				{set "rotate_turret" 0}
+			}
+		}
+	)
+	("multi_turret_rotate" args aux_turret1)
+	("multi_turret_rotate" args aux_turret2)
+	("multi_turret_rotate" args aux_turret3)
+	("multi_turret_rotate" args aux_turret4)
 
+	(define "multi_gun_rotate"
+		{on ik begin "%0"
+			{kill_delay "rotate_gun"}
+			{if not "rotate_gun"
+				{play_sound "rotate_gun" 1}
+				{set "rotate_gun" 1}
+			}
+		}
+		{on ik end "%0"
+			{delay 0.25 "rotate_gun"
+				{stop_sound "rotate_gun"}
+				{set "rotate_gun" 0}
+			}
+		}
+	)
+	("multi_gun_rotate" args gun1)
+	("multi_gun_rotate" args gun2)
+}
 {"armored_car"
 	{on "explosion_blastwave" overload
 		{impulse up 0.1 0.1 dir 0.2 0.1}
 		{if tagged "ammo_broken"
 			{blastwave c4 3 r0 2.5 r1 10}
 			{spawn "tank_die_light" "basis"}
-			{start_sound "detonation/explosion_mechanical/trickle/long_metal"}
-			("explosion_large")
-			{if terrain_fx "snow"
-				{spawn "tank_die_snow_light" "basis"}
-			else terrain_fx "ice"
-				{spawn "tank_die_snow_light" "basis"}
-			else
-				{if rain
-				else
-					{spawn "tank_die_dust_light" "basis"}
-				}
-			}
+			{start_sound "detonation/explosion_vehicle/bkg/"}
 		else
 			{spawn "tank_die_peaceful_light" "basis"}
 			{stop_sound "flame"}
 			{stop_sound "flame_1"}
-			{start_sound "detonation/explosion_mechanical/shockwave/long/" use_position}
-			{start_sound "detonation/explosion_mechanical/trickle/long/" use_position}
-			{start_sound "detonation/explosion_mechanical/trickle/long_metal"}
-			{if terrain_fx "snow"
-				{spawn "tank_die_snow_light" "basis"}
-			else terrain_fx "ice"
-				{spawn "tank_die_snow_light" "basis"}
-			else
-				{if rain
-				else
-					{spawn "tank_die_dust_light" "basis"}
-				}
-			}
 		}
 	}
 	{on "cut_parts"										;// called on "_explosion" in vehicle prop
 		("hull_death_fx" args 500 75 100 tank_light)	;// defined in "tank" prop
 	}
 	{on "death_counter" overload
-		{if stuff "bullet"
+		{if stuff "rocketlauncher"
+			{tags add "death_counter_final"}
+			{tags remove "death_counter_1"}
+			{tags remove "death_counter_2"}
+		else stuff "small_arms"
 			;//nothing
 		else stuff "auto"
 			;// nothing
@@ -1036,36 +1260,6 @@
 			}
 		}
 	}
-	{on contact
-		{if effector "armored_car"
-			{if effector_velocity 22
-				{if rand 0.4 {call_synced "rand_break_engine"}}
-			}
-		}
-		{if effector "light tank"
-			{if effector_velocity 22
-				{if rand 0.4 {call_synced "rand_break_engine"}}
-			}
-		}
-		{if effector "medium tank"
-			{if effector_velocity 24
-				{if rand 0.5 {call_synced "rand_break_engine"}}
-				{if rand 0.4 {call_synced "rand_break_body"}}
-			else effector_velocity 16
-				{if rand 0.5 {call_synced "rand_break_engine"}}
-				{if rand 0.1 {call_synced "rand_break_body"}}
-			}
-		}
-		{if effector "heavy tank"
-			{if effector_velocity 20
-				{if rand 0.7 {call_synced "rand_break_engine"}}
-				{if rand 0.5 {call_synced "rand_break_body"}}
-			else effector_velocity 12
-				{if rand 0.3 {call_synced "rand_break_engine"}}
-				{if rand 0.1 {call_synced "rand_break_body"}}
-			}
-		}
-	}
 	(include "damage-armoredcar.inc")
 }
 
@@ -1076,35 +1270,26 @@
 		{if tagged "ammo_broken"
 			{blastwave c4 4 r0 2.5 r1 10 offset 0 0 60}
 			{blastwave c4 2 r0 6 r1 12 offset 0 0 60}
+
 			{spawn "tank_die_light" "basis"}
-			{start_sound "detonation/explosion_mechanical/trickle/long_metal"}
-			("explosion_large")
+			{start_sound "detonation/explosion_vehicle/bkg/"}
 			{if terrain_fx "snow"
 				{spawn "tank_die_snow_light" "basis"}
 			else terrain_fx "ice"
 				{spawn "tank_die_snow_light" "basis"}
 			else
-				{if rain
-				else
-					{spawn "tank_die_dust_light" "basis"}
-				}
+				{spawn "tank_die_dust_light" "basis"}
 			}
 		else
 			{spawn "tank_die_peaceful_light" "basis"}
 			{stop_sound "flame"}
 			{stop_sound "flame_1"}
-			{start_sound "detonation/explosion_mechanical/shockwave/long/" use_position}
-			{start_sound "detonation/explosion_mechanical/trickle/long/" use_position}
-			{start_sound "detonation/explosion_mechanical/trickle/long_metal"}
 			{if terrain_fx "snow"
 				{spawn "tank_die_snow_light" "basis"}
 			else terrain_fx "ice"
 				{spawn "tank_die_snow_light" "basis"}
 			else
-				{if rain
-				else
-					{spawn "tank_die_dust_light" "basis"}
-				}
+				{spawn "tank_die_dust_light" "basis"}
 			}
 		}
 	}
@@ -1112,7 +1297,11 @@
 		("hull_death_fx" args 600 100 125 tank_light)	;// defined in "tank" prop
 	}
 	{on "death_counter" overload
-		{if stuff "bullet"
+		{if stuff "rocketlauncher"
+			{tags add "death_counter_final"}
+			{tags remove "death_counter_1"}
+			{tags remove "death_counter_2"}
+		else stuff "small_arms"
 			;//nothing
 		else stuff "auto"
 			;// nothing
@@ -1157,46 +1346,6 @@
 			}
 		}
 	}
-	{on contact
-		{if effector "light tank"
-			{if effector_velocity 26
-				{if rand 0.4 {call_synced "rand_break_trackleft"}}
-				{if rand 0.4 {call_synced "rand_break_trackright"}}
-			}
-		}
-		{if effector "medium tank"
-			{if effector_velocity 30
-				{if rand 0.5 {call_synced "rand_break_body"}}
-				{if rand 0.5 {call_synced "rand_break_engine"}}
-				{if rand 0.8 {call_synced "rand_break_trackleft"}}
-				{if rand 0.8 {call_synced "rand_break_trackright"}}
-			else effector_velocity 24
-				{if rand 0.5 {call_synced "rand_break_engine"}}
-				{if rand 0.6 {call_synced "rand_break_trackleft"}}
-				{if rand 0.6 {call_synced "rand_break_trackright"}}
-			else effector_velocity 16
-				{if rand 0.2 {call_synced "rand_break_engine"}}
-				{if rand 0.35 {call_synced "rand_break_trackleft"}}
-				{if rand 0.35 {call_synced "rand_break_trackright"}}
-			}
-		}
-		{if effector "heavy tank"
-			{if effector_velocity 20
-				{if rand 0.7 {call_synced "rand_break_engine"}}
-				{if rand 0.5 {call_synced "rand_break_body"}}
-				{if rand 0.7 {call_synced "rand_break_trackleft"}}
-				{if rand 0.7 {call_synced "rand_break_trackright"}}
-			else effector_velocity 16
-				{if rand 0.2 {call_synced "rand_break_engine"}}
-				{if rand 0.2 {call_synced "rand_break_body"}}
-				{if rand 0.5 {call_synced "rand_break_trackleft"}}
-				{if rand 0.5 {call_synced "rand_break_trackright"}}
-			else effector_velocity 12
-				{if rand 0.35 {call_synced "rand_break_trackleft"}}
-				{if rand 0.35 {call_synced "rand_break_trackright"}}
-			}
-		}
-	}
 	(include "damage-light.inc")
 }
 
@@ -1208,34 +1357,24 @@
 			{blastwave c4 5 r0 2.5 r1 10 offset 0 0 75}
 			{blastwave c4 2 r0 10 r1 15 offset 0 0 75}
 			{spawn "tank_die_medium" "basis"}
-			{start_sound "detonation/explosion_mechanical/trickle/long_metal"}
-			("explosion_massive")
+			{start_sound "detonation/explosion_vehicle/bkg/"}
 			{if terrain_fx "snow"
 				{spawn "tank_die_snow" "basis"}
 			else terrain_fx "ice"
 				{spawn "tank_die_snow" "basis"}
 			else
-				{if rain
-				else
-					{spawn "tank_die_dust_light" "basis"}
-				}
+				{spawn "tank_die_dust" "basis"}
 			}
 		else
 			{spawn "tank_die_peaceful" "basis"}
 			{stop_sound "flame"}
 			{stop_sound "flame_1"}
-			{start_sound "detonation/explosion_mechanical/shockwave/long/" use_position}
-			{start_sound "detonation/explosion_mechanical/trickle/long/" use_position}
-			{start_sound "detonation/explosion_mechanical/trickle/long_metal"}
 			{if terrain_fx "snow"
 				{spawn "tank_die_snow_light" "basis"}
 			else terrain_fx "ice"
 				{spawn "tank_die_snow_light" "basis"}
 			else
-				{if rain
-				else
-					{spawn "tank_die_dust_light" "basis"}
-				}
+				{spawn "tank_die_dust_light" "basis"}
 			}
 		}
 	}
@@ -1251,7 +1390,16 @@
 		}
 	}
 	{on "death_counter" overload
-		{if stuff "bullet"
+		{if stuff "rocketlauncher"
+			{if tagged "death_counter_1"
+				{tags add "death_counter_3"}
+				{tags remove "death_counter_1"}
+			else
+				{tags add "death_counter_final"}
+				{tags remove "death_counter_2"}
+				{tags remove "death_counter_3"}
+			}
+		else stuff "small_arms"
 			;//nothing
 		else stuff "auto"
 			;// nothing
@@ -1319,36 +1467,6 @@
 			}
 		}
 	}
-	{on contact
-		{if effector "medium tank"
-			{if effector_velocity 30
-				{if rand 0.5 {call_synced "rand_break_engine"}}
-				{if rand 0.8 {call_synced "rand_break_trackleft"}}
-				{if rand 0.8 {call_synced "rand_break_trackright"}}
-			else effector_velocity 24
-				{if rand 0.4 {call_synced "rand_break_engine"}}
-				{if rand 0.6 {call_synced "rand_break_trackleft"}}
-				{if rand 0.6 {call_synced "rand_break_trackright"}}
-			else effector_velocity 16
-				{if rand 0.4 {call_synced "rand_break_trackleft"}}
-				{if rand 0.4 {call_synced "rand_break_trackright"}}
-			}
-		}
-		{if effector "heavy tank"
-			{if effector_velocity 20
-				{if rand 0.4 {call_synced "rand_break_engine"}}
-				{if rand 0.7 {call_synced "rand_break_trackleft"}}
-				{if rand 0.7 {call_synced "rand_break_trackright"}}
-			else effector_velocity 17
-				{if rand 0.3 {call_synced "rand_break_engine"}}
-				{if rand 0.6 {call_synced "rand_break_trackleft"}}
-				{if rand 0.6 {call_synced "rand_break_trackright"}}
-			else effector_velocity 13
-				{if rand 0.45 {call_synced "rand_break_trackleft"}}
-				{if rand 0.45 {call_synced "rand_break_trackright"}}
-			}
-		}
-	}
 	(include "damage-medium.inc")
 }
 
@@ -1360,34 +1478,24 @@
 			{blastwave c4 5 r0 2.5 r1 10 offset 0 0 75}
 			{blastwave c4 2 r0 10 r1 20 offset 0 0 75}
 			{spawn "tank_die_heavy" "basis"}
-			{start_sound "detonation/explosion_mechanical/trickle/long_metal"}
-			("explosion_massive")
+			{start_sound "detonation/explosion_vehicle/bkg/"}
 			{if terrain_fx "snow"
 				{spawn "tank_die_snow" "basis"}
 			else terrain_fx "ice"
 				{spawn "tank_die_snow" "basis"}
 			else
-				{if rain
-				else
-					{spawn "tank_die_dust_light" "basis"}
-				}
+				{spawn "tank_die_dust" "basis"}
 			}
 		else
 			{spawn "tank_die_peaceful" "basis"}
 			{stop_sound "flame"}
 			{stop_sound "flame_1"}
-			{start_sound "detonation/explosion_mechanical/shockwave/long/" use_position}
-			{start_sound "detonation/explosion_mechanical/trickle/long/" use_position}
-			{start_sound "detonation/explosion_mechanical/trickle/long_metal"}
 			{if terrain_fx "snow"
 				{spawn "tank_die_snow_light" "basis"}
 			else terrain_fx "ice"
 				{spawn "tank_die_snow_light" "basis"}
 			else
-				{if rain
-				else
-					{spawn "tank_die_dust_light" "basis"}
-				}
+				{spawn "tank_die_dust_light" "basis"}
 			}
 		}
 	}
@@ -1403,7 +1511,19 @@
 		}
 	}
 	{on "death_counter" overload
-		{if stuff "bullet"
+		{if stuff "rocketlauncher"
+			{if tagged "death_counter_1"
+				{tags add "death_counter_3"}
+				{tags remove "death_counter_1"}
+			else tagged "death_counter_2"
+				{tags add "death_counter_4"}
+				{tags remove "death_counter_2"}
+			else
+				{tags add "death_counter_final"}
+				{tags remove "death_counter_3"}
+				{tags remove "death_counter_4"}
+			}
+		else stuff "small_arms"
 			;//nothing
 		else stuff "auto"
 			;// nothing
@@ -1489,39 +1609,54 @@
 			}
 		}
 	}
-	{on contact
-		{if effector "medium tank"
-			{if effector_velocity 30
-				{if rand 0.15 {call_synced "rand_break_engine"}}
-				{if rand 0.8 {call_synced "rand_break_trackleft"}}
-				{if rand 0.8 {call_synced "rand_break_trackright"}}
-			else effector_velocity 24
-				{if rand 0.05 {call_synced "rand_break_engine"}}
-				{if rand 0.6 {call_synced "rand_break_trackleft"}}
-				{if rand 0.6 {call_synced "rand_break_trackright"}}
-			else effector_velocity 18
-				{if rand 0.35 {call_synced "rand_break_trackleft"}}
-				{if rand 0.35 {call_synced "rand_break_trackright"}}
-			}
-		}
-		{if effector "heavy tank"
-			{if effector_velocity 22
-				{if rand 0.1 {call_synced "rand_break_engine"}}
-				{if rand 0.8 {call_synced "rand_break_trackleft"}}
-				{if rand 0.8 {call_synced "rand_break_trackright"}}
-			else effector_velocity 18
-				{if rand 0.6 {call_synced "rand_break_trackleft"}}
-				{if rand 0.6 {call_synced "rand_break_trackright"}}
-			else effector_velocity 14
-				{if rand 0.35 {call_synced "rand_break_trackleft"}}
-				{if rand 0.35 {call_synced "rand_break_trackright"}}
-			}
-		}
-	}
 	(include "damage-heavy.inc")
 }
 
 {"mine_exploder"
+	{on blast overload			;// blast-wave hits specific volume
+		{if not volume "wheel_work"
+			{inherited}
+		else
+			{ani_play "explosion"}
+		}
+	}
+}
+
+{"mine_exploder roller"
+	{on spawn
+		{add_view	"dustrun_small"			"on_ground_slow"			"FXWheel_Work1"}
+		{add_view	"dustrun_small"			"on_ground_slow"			"FXWheel_Work2"}
+		{add_view	"tank_grit_small"		"on_grass_slow"				"FXWheel_Work1"}
+		{add_view	"tank_grit_small"		"on_grass_slow"				"FXWheel_Work2"}
+		{add_view	"dustrun_sand_small"	"on_sand_slow"				"FXWheel_Work1"}
+		{add_view	"dustrun_sand_small"	"on_sand_slow"				"FXWheel_Work2"}
+		{add_view	"dustrun_medium_grass2"	"on_snow_slow"				"FXWheel_Work1"}
+		{add_view	"dustrun_medium_grass2"	"on_snow_slow"				"FXWheel_Work2"}
+		{add_view	"dustrun_small"			"on_country_road_slow"		"FXWheel_Work1"}
+		{add_view	"dustrun_small"			"on_country_road_slow"		"FXWheel_Work2"}
+
+		{add_view	"tank_grit_small"		"on_ground"				"FXWheel_Work1"}
+		{add_view	"tank_grit_small"		"on_ground"				"FXWheel_Work2"}
+		{add_view	"tank_grit_big"			"on_ground_time_short"	"FXWheel_Work1"}
+		{add_view	"tank_grit_big"			"on_ground_time_short"	"FXWheel_Work2"}
+		{add_view	"tank_grit_small"		"on_grass"				"FXWheel_Work1"}
+		{add_view	"tank_grit_small"		"on_grass"				"FXWheel_Work2"}
+		{add_view	"tank_grit_big"			"on_grass_time_short"	"FXWheel_Work1"}
+		{add_view	"tank_grit_big"			"on_grass_time_short"	"FXWheel_Work2"}
+		{add_view	"drops_water"			"on_water"				"FXWheel_Work1"}
+		{add_view	"drops_water"			"on_water"				"FXWheel_Work2"}
+		{add_view	"tank_grit_big_mud"		"on_mud"				"FXWheel_Work1"}
+		{add_view	"tank_grit_big_mud"		"on_mud"				"FXWheel_Work2"}
+		{add_view	"tank_grit_big_snow"	"on_snow"				"FXWheel_Work1"}
+		{add_view	"tank_grit_big_snow"	"on_snow"				"FXWheel_Work2"}
+		{add_view	"drops_water_moto"		"on_puddle"				"FXWheel_Work1"}
+		{add_view	"drops_water_moto"		"on_puddle"				"FXWheel_Work2"}
+		{add_view	"tank_grit_small_w"		"on_puddle"				"FXWheel_Work1"}
+		{add_view	"tank_grit_small_w"		"on_puddle"				"FXWheel_Work2"}
+	}
+}
+
+{"mine_exploder flail"
 	{on spawn
 		{bone hide "wheel_work"}
 		{add_view "dustrun_sand_big"	"wheel_work_dust"	"FXWheel_Work1"}
@@ -1543,13 +1678,6 @@
 		{view pause "wheel_work_dust"}
 		{volumes "wheel_work" disable all}
 		{volumes "wheel" enable all}
-	}
-	{on blast overload			;// blast-wave hits specific volume
-		{if not volume "wheel_work"
-			{inherited}
-		else
-			{ani_play "explosion"}
-		}
 	}
 }
 
@@ -1599,7 +1727,7 @@
 	}
 }
 
-{"tank shell_eject"
+{"shell_eject"
 	{on fire "gun"
 		{call "spawn_shell"}
 	}
@@ -1621,41 +1749,52 @@
 						{add_view "smoke_empty_shell" "smoke_shell" "fx_shellsmoke"}
 						{view start "smoke_shell"}
 						{delay_effect 3 1 "stop"}
-						{##delay 3 0.5
-							{hide 3}
-						}
 					}
+				}
+				{delay 1
+					{ani_play "shell_hatch" -1.0}
 				}
 			}
 		)
 	}
 
 	{on "spawn_shell_delay"
-		("shell_eject_delay" args 0 0)
+		("shell_eject_delay" args 0.15 0.05)
 	}
 
 	{on "reload"
 		{call "reload_delay"}
-		(define "reload_delay"
+		{call "crew_reload_ani"}
+		(define "reload_time"
 			{if tagged "gun_fired"
-				{delay %0 ;4.5
+				{delay (- %0 0.5) ;4.5
 					{tags remove "gun_fired"}
-					{ani_play "shell_eject" -1.0}
-					{ani_play "shell_hatch" -1.0}
+					{call "tank_reloaded"}
 				}
-			else
-				{delay %1 ;0.5
+			else ;//switching ammo
+				{delay 0.75
 					{ani_play "shell_eject" 1.0}
+					{talk "reload"}
 				}
-				{delay %2 ;5
-					{ani_play "shell_eject" -1.0}
+				{delay (- %0 0.5)
+					{call "tank_reloaded"}
 				}
 			}
 		)
+		{delay 2
+			{talk "reload"}
+		}
+	}
+
+	{on "tank_reloaded"
+		{ani_play "shell_eject" -1.0}
+		{delay 0.5
+			{talk "reloaded"}
+		}
 	}
 
 	{on "reload_delay"
-		("reload_delay" args 4.5 0.5 5)
+		("reload_time" args 4.5)	;// weapon reload time
 	}
 }
 

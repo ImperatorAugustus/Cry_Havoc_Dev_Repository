@@ -1,0 +1,3320 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Gates of Hell German MP soldiers\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Poedit 2.3\n"
+
+msgctxt "desc/human/mp/ger/early/Officer"
+msgid "Leutnant"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/officer_lw"
+msgid "Supplies Officer"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/antitank_1"
+msgid "Panzerbüchse. Inf."
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/antitank_2"
+msgid "AT support Inf."
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/antitank_3"
+msgid "Rifle grenadier"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/antitank_4"
+msgid "Rifle grenadier"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/artilleryman"
+msgid "Artilleryman"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/brand_1"
+msgid "Brandenburger Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/brand_2"
+msgid "Brandenburger MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/brand_3"
+msgid "Brandenburger"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/brand_4"
+msgid "Brandenburger MG Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/brand_5"
+msgid "Brandenburger Asst. Leader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/brand_6"
+msgid "Brandenburger"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/engineer_1"
+msgid "Field Engineer"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/engineer_2"
+msgid "Field Engineer"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/fallsch_1"
+msgid "Fallschirmjäger NCO"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/fallsch_2"
+msgid "Fallschirmjäger"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/fallsch_3"
+msgid "Fallschirmjäger"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/fallsch_4"
+msgid "Fallschirmjäger"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/fallsch_mg"
+msgid "Fallschirmjäger MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/fallsch_mg_ammo"
+msgid "Fallschirmjäger MG Ammo Bearer"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/fallsch_mg_asst"
+msgid "Fallschirmjäger MG Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/fallsch_crew"
+msgid "Fallschirmjäger"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/fallsch_rifle"
+msgid "Fallschirmjäger"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/fallsch_rifle_scope"
+msgid "Fallschirmjäger Sniper"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/fallsch_sl"
+msgid "Fallschirmjäger Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/fallsch_sl_asst"
+msgid "Fallschirmjäger Asst. Leader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/fallsch_smg"
+msgid "Fallschirmjäger"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/feldg_nco"
+msgid "Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/feldg_rifle"
+msgid "Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/feldg_smg"
+msgid "SMG Inf."
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/flamer"
+msgid "Flamethrower Inf."
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/gd_mg"
+msgid "Großdeutschland MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/gd_mg_ammo"
+msgid "Großdeutschland MG Ammo Bearer"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/gd_mg_asst"
+msgid "Großdeutschland MG Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/gd_rifle"
+msgid "Großdeutschland Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/gd_sl"
+msgid "Großdeutschland Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/gd_sl_asst"
+msgid "Großdeutschland Asst. Leader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/gebirgs_1"
+msgid "Gebirgsjäger"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/gebirgs_2"
+msgid "Gebirgsjäger"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/gebirgs_3"
+msgid "Gebirgsjäger"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/gebirgs_mg"
+msgid "Gebirgsjäger MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/gebirgs_mg_asst"
+msgid "Gebirgsjäger MG Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/gebirgs_rifle"
+msgid "Gebirgsjäger"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/gebirgs_sl"
+msgid "Gebirgsjäger Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/gebirgs_sl_asst"
+msgid "Gebirgsjäger Asst. Leader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/gebirgs_smg"
+msgid "Gebirgsjäger"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/landwehr_mg"
+msgid "Landesschütze MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/landwehr_mg_ammo"
+msgid "Landesschütze MG Ammo Bearer"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/landwehr_mg_asst"
+msgid "Landesschütze MG Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/landwehr_rifle"
+msgid "Landesschütze"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/landwehr_sl"
+msgid "Landesschütze Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/landwehr_sl_asst"
+msgid "Landesschütze Asst. Leader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/luft_1"
+msgid "LW Field Inf."
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/luft_2"
+msgid "LW Field Inf."
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/luft_3"
+msgid "LW Field Inf."
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/luft_mg"
+msgid "LW MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/luft_mg_ammo"
+msgid "LW MG Ammo Bearer"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/luft_mg_asst"
+msgid "LW MG Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/luft_rifle"
+msgid "LW Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/luft_sl"
+msgid "LW Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/luft_sl_asst"
+msgid "LW Asst. Leader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/marine_mg"
+msgid "Marine MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/marine_mg_ammo"
+msgid "Marine MG Ammo Bearer"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/marine_mg_asst"
+msgid "Marine MG Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/marine_rifle"
+msgid "Marine"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/marine_sl"
+msgid "Marine Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/marine_sl_asst"
+msgid "Marine Asst. Leader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/medic"
+msgid "Medic"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/mg_crew"
+msgid "MG crew"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/mg_crew_asst"
+msgid "MG crew Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/mgun_1"
+msgid "MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/mgun_2"
+msgid "MG Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/mgun_2_rifle"
+msgid "MG Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/mgun_3"
+msgid "MG Ammo Bearer"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/miner-ap"
+msgid "AP-Mine Engineer"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/miner-at"
+msgid "AT-Mine Engineer"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/nco"
+msgid "Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/nco_asst"
+msgid "Asst. Leader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/pilot"
+msgid "Pilot"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/pioneer_1"
+msgid "Pionier NCO"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/pioneer_2"
+msgid "Pionier"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/pioneer_3"
+msgid "Pionier"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/pioneer_4"
+msgid "Pionier"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/pioneer_flame"
+msgid "Pionier"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/pioneer_mgun"
+msgid "Pionier MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/pioneer_mgun_ammo_carrier"
+msgid "Pionier MG Ammo Bearer"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/pioneer_mgun_asst"
+msgid "Pionier MG Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/pioneer_rifle"
+msgid "Pionier"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/pioneer_rifle_gren"
+msgid "Pionier"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/pioneer_rifle_mine"
+msgid "Pionier"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/pioneer_sl"
+msgid "Pionier Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/pioneer_sl_asst"
+msgid "Pionier Asst. Leader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/pz_pio_flame"
+msgid "Panzerpionier"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/pz_pio_mg"
+msgid "Panzerpionier MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/pz_pio_mg_ammo_carrier"
+msgid "Panzerpionier MG Ammo Bearer"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/pz_pio_mg_asst"
+msgid "Panzerpionier MG Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/pz_pio_rifle"
+msgid "Panzerpionier"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/pz_pio_rifle_gren"
+msgid "Panzerpionier"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/pz_pio_rifle_mine"
+msgid "Panzerpionier"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/pz_pio_sl"
+msgid "Panzerpionier Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/pz_pio_sl_asst"
+msgid "Panzerpionier Asst. Leader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/recon_mg"
+msgid "Aufklärer MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/recon_mg_asst"
+msgid "Aufklärer MG Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/recon_rifle"
+msgid "Aufklärer"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/recon_sl"
+msgid "Aufklärer Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/recon_sl_asst"
+msgid "Aufklärer Asst. Leader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/rifleman_1"
+msgid "Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/rifleman_2"
+msgid "Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/rifleman_3"
+msgid "Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/scout_1"
+msgid "Aufklärer"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/scout_2"
+msgid "Aufklärer"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/signaller"
+msgid "Artillery Signaller"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/smg_1"
+msgid "SMG Inf."
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/smg_2"
+msgid "SMG Inf."
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/smg_3"
+msgid "SMG Inf."
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/sniper"
+msgid "Sniper"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/sniper_elite"
+msgid "Elite Sniper"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/sturmp_1"
+msgid "Sturmpionier"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/sturmp_2"
+msgid "Sturmpionier"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/sturmp_3"
+msgid "Sturmpionier"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/tank_commander"
+msgid "Tank Commander"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/tank_commander_stug"
+msgid "Tank Commander"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/tankman"
+msgid "Tankman"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/tankman_stug"
+msgid "Tankman"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/Officer"
+msgid "Leutnant"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/officer_lw"
+msgid "Supplies Officer"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/antitank_1"
+msgid "AT Inf."
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/antitank_2"
+msgid "AT support Inf."
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/antitank_3"
+msgid "AT support Inf."
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/antitank_4"
+msgid "Rifle grenadier"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/antitank_5"
+msgid "Rifle grenadier"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/artilleryman"
+msgid "Artilleryman"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/begleitgren_mg"
+msgid "Begleitgrenadier MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/begleitgren_mg_asst"
+msgid "Begleitgrenadier MG Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/begleitgren_sa"
+msgid "Begleitgrenadier"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/begleitgren_sa_pzf"
+msgid "Begleitgrenadier"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/begleitgren_sl"
+msgid "Begleitgrenadier Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/begleitgren_sl_asst"
+msgid "Begleitgrenadier Asst. Leader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/begleitgren_stg"
+msgid "Begleitgrenadier"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/brand_1"
+msgid "Brandenburger Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/brand_2"
+msgid "Brandenburger MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/brand_3"
+msgid "Brandenburger"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/brand_4"
+msgid "Brandenburger MG Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/brand_5"
+msgid "Brandenburger Asst. Leader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/brand_6"
+msgid "Brandenburger"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/engineer_1"
+msgid "Field Engineer"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/engineer_2"
+msgid "Field Engineer"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/fallsch_1"
+msgid "Fallschirmjäger NCO"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/fallsch_2"
+msgid "Fallschirmjäger"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/fallsch_3"
+msgid "Fallschirmjäger"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/fallsch_4"
+msgid "Fallschirmjäger"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/fallsch_fg"
+msgid "Fallschirmjäger"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/fallsch_mg"
+msgid "Fallschirmjäger MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/fallsch_mg_asst"
+msgid "Fallschirmjäger MG Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/fallsch_pio_mg"
+msgid "Fallschirmpionier MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/fallsch_pio_mg_asst"
+msgid "Fallschirmpionier MG Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/fallsch_pio_rifle"
+msgid "Fallschirmpionier"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/fallsch_pio_rifle_grenadier"
+msgid "Fallschirmpionier"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/fallsch_pio_sl"
+msgid "Fallschirmpionier Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/fallsch_pio_sl_asst"
+msgid "Fallschirmpionier Asst. Leader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/fallsch_crew"
+msgid "Fallschirmjäger"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/fallsch_rifle"
+msgid "Fallschirmjäger"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/fallsch_rifle_grenadier"
+msgid "Fallschirmjäger"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/fallsch_rifle_scope"
+msgid "Fallschirmjäger Sniper"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/fallsch_sa"
+msgid "Fallschirmjäger"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/fallsch_sa_scope"
+msgid "Fallschirmjäger"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/fallsch_sl"
+msgid "Fallschirmjäger Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/fallsch_sl_asst"
+msgid "Fallschirmjäger Asst. Leader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/fallsch_sl_asst_stg"
+msgid "Fallschirmjäger Asst. Leader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/fallsch_stg"
+msgid "Fallschirmjäger"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/flamer"
+msgid "Flamethrower Inf."
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/fusilier_mg"
+msgid "Füsilier MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/fusilier_mg_asst"
+msgid "Füsilier MG Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/fusilier_rifle"
+msgid "Füsilier"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/fusilier_rifle_grenadier"
+msgid "Füsilier"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/fusilier_rifle_pzf"
+msgid "Füsilier"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/fusilier_sa"
+msgid "Füsilier"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/fusilier_sl"
+msgid "Füsilier Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/fusilier_sl_asst"
+msgid "Füsilier Asst. Leader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/fusilier_smg"
+msgid "Füsilier"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/gd_pzgren_mg"
+msgid "GD.Pz.Grenadier MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/gd_pzgren_mg_asst"
+msgid "GD.Pz.Grenadier MG Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/gd_pzgren_rifle"
+msgid "GD.Pz.Grenadier"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/gd_pzgren_rifle_pzf"
+msgid "GD.Pz.Grenadier"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/gd_pzgren_sa"
+msgid "GD.Pz.Grenadier"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/gd_pzgren_sa_pzf"
+msgid "GD.Pz.Grenadier"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/gd_pzgren_sl"
+msgid "GD.Pz.Grenadier Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/gd_pzgren_sl_asst"
+msgid "GD.Pz.Grenadier Asst. Leader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/gd_pzgren_stg"
+msgid "GD.Pz.Grenadier"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/gebirgs_1"
+msgid "Gebirgsjäger"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/gebirgs_2"
+msgid "Gebirgsjäger"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/gebirgs_3"
+msgid "Gebirgsjäger"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/gebirgs_mg"
+msgid "Gebirgsjäger MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/gebirgs_mg_asst"
+msgid "Gebirgsjäger MG Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/gebirgs_rifle"
+msgid "Gebirgsjäger"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/gebirgs_sl"
+msgid "Gebirgsjäger Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/gebirgs_sl_asst"
+msgid "Gebirgsjäger Asst. Leader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/gebirgs_smg"
+msgid "Gebirgsjäger"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/gebirgs_smg_pzf"
+msgid "Gebirgsjäger"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/gebirgs_stg"
+msgid "Gebirgsjäger"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/gren_mg"
+msgid "Grenadier MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/gren_mg_asst"
+msgid "Grenadier MG Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/gren_rifle"
+msgid "Grenadier"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/gren_rifle_grenadier"
+msgid "Grenadier"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/gren_sa"
+msgid "Grenadier"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/gren_sl"
+msgid "Grenadier Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/gren_sl_asst"
+msgid "Grenadier Asst. Leader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/gren_sl_asst_smg"
+msgid "Grenadier Asst. Leader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/gren_sl_asst_sniper"
+msgid "Grenadier Asst. Leader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/gren_smg"
+msgid "Grenadier"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/gren_sturm_mg"
+msgid "Sturmgrenadier MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/gren_sturm_mg_asst"
+msgid "Sturmgrenadier MG Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/gren_sturm_pzf"
+msgid "Sturmgrenadier"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/gren_sturm_sa_scope"
+msgid "Sturmgrenadier"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/gren_sturm_sl"
+msgid "Sturmgrenadier Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/gren_sturm_sl_asst"
+msgid "Sturmgrenadier Asst. Leader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/gren_sturm_stg"
+msgid "Sturmgrenadier"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/jager_mg"
+msgid "Jäger MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/jager_mg_asst"
+msgid "Jäger MG Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/jager_rifle"
+msgid "Jäger"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/jager_rifle_pzf"
+msgid "Jäger"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/jager_sl"
+msgid "Jäger Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/jager_sl_asst"
+msgid "Jäger Asst. Leader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/jager_smg"
+msgid "Jäger"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/jager_smg_pzf"
+msgid "Jäger"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/jager_sturm_mg"
+msgid "Sturmjäger MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/jager_sturm_mg_asst"
+msgid "Sturmjäger MG Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/jager_sturm_sa"
+msgid "Sturmjäger"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/jager_sturm_sl"
+msgid "Sturmjäger Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/jager_sturm_sl_asst"
+msgid "Sturmjäger Asst. Leader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/jager_sturm_stg"
+msgid "Sturmjäger"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/jager_sturm_stg_pzf"
+msgid "Sturmjäger"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/luft_1"
+msgid "LW Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/luft_2"
+msgid "LW Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/luft_3"
+msgid "LW MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/lw_fus_mg"
+msgid "LW Füsilier MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/lw_fus_mg_asst"
+msgid "LW Füsilier MG Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/lw_fus_rifle"
+msgid "LW Füsilier"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/lw_fus_sl"
+msgid "LW Füsilier Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/lw_fus_sl_asst"
+msgid "LW Füsilier Asst. Leader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/lw_fus_smg"
+msgid "LW Füsilier"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/marine_rifle"
+msgid "Marine"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/marine_sl"
+msgid "Marine Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/marine_sl_asst"
+msgid "Marine Asst. Leader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/medic"
+msgid "Medic"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/mg_crew"
+msgid "MG crew"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/mg_crew_asst"
+msgid "MG crew Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/mgun_1"
+msgid "MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/mgun_2"
+msgid "MG Support"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/miner-ap"
+msgid "AP-Mine Engineer"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/miner-at"
+msgid "AT-Mine Engineer"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/nco"
+msgid "Feldwebel"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/pilot"
+msgid "Pilot"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/pio_builder"
+msgid "Pionier Engineer"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/pio_demo"
+msgid "Pionier"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/pio_miner_ap"
+msgid "Pionier"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/pio_miner_at"
+msgid "Pionier"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/pioneer_1"
+msgid "Pionier"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/pioneer_2"
+msgid "Pionier"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/pioneer_3"
+msgid "Pionier"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/pioneer_4"
+msgid "Pionier"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/pioneer_at"
+msgid "Pionier AT.inf"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/pioneer_mgun"
+msgid "Pionier MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/pioneer_mgun_asst"
+msgid "Pionier MG Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/pioneer_pzf"
+msgid "Pionier"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/pioneer_rifle_grenadier"
+msgid "Pionier"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/pioneer_sa"
+msgid "Pionier"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/pioneer_sl"
+msgid "Pionier Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/pioneer_sl_asst"
+msgid "Pionier Asst. Leader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/pioneer_sl_stg"
+msgid "Pionier Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/pzgren_at"
+msgid "Panzergrenadier AT inf."
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/pzgren_mg"
+msgid "Panzergrenadier MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/pzgren_mg_asst"
+msgid "Panzergrenadier MG Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/pzgren_rifle"
+msgid "Panzergrenadier"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/pzgren_rifle_pzf2"
+msgid "Panzergrenadier"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/pzgren_rifle_pzf"
+msgid "Panzergrenadier"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/pzgren_sa"
+msgid "Panzergrenadier"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/pzgren_sl"
+msgid "Panzergrenadier Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/pzgren_sl_asst"
+msgid "Panzergrenadier Asst. Leader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/pzgren_stg"
+msgid "Panzergrenadier"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/pzgren_sturm_pzf"
+msgid "Pz.Sturmgrenadier"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/pzgren_sturm_sa_scope"
+msgid "Pz.Sturmgrenadier"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/pzgren_sturm_sl"
+msgid "Pz.Sturmgrenadier Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/pzgren_sturm_sl_asst"
+msgid "Pz.Sturmgrenadier Asst. Leader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/pzgren_sturm_stg"
+msgid "Pz.Sturmgrenadier"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/recon_mg"
+msgid "Aufklärer MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/recon_mg_asst"
+msgid "Aufklärer MG Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/recon_rifle"
+msgid "Aufklärer"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/recon_sl_asst_rifle"
+msgid "Aufklärer Asst. Leader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/recon_sl_asst_sa"
+msgid "Aufklärer Asst. Leader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/recon_sl_asst_stg"
+msgid "Aufklärer Asst. Leader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/recon_sl_rifle"
+msgid "Aufklärer Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/recon_sl_smg"
+msgid "Aufklärer Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/rifleman_1"
+msgid "Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/rifleman_2"
+msgid "Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/rifleman_3"
+msgid "Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/signaller"
+msgid "Artillery Signaller"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/smg_1"
+msgid "SMG Inf."
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/smg_2"
+msgid "SMG Inf."
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/smg_3"
+msgid "SMG Inf."
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/smg_stg"
+msgid "LW Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/sniper2"
+msgid "Sniper"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/sniper"
+msgid "Sniper"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/sturm_1"
+msgid "Sturmgrenadier"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/sturm_2"
+msgid "Sturmgrenadier"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/sturm_3"
+msgid "Sturmgrenadier"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/sturm_4"
+msgid "Sturmgrenadier"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/tank_commander"
+msgid "Tank commander"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/tank_commander_ace"
+msgid "Ace Tank commander"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/tank_commander_stug"
+msgid "Tank commander"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/tank_commander_vet"
+msgid "Tank Commander"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/tankman"
+msgid "Tankman"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/tankman_ace"
+msgid "Ace Tankman"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/tankman_stug"
+msgid "Tankman"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/tankman_vet"
+msgid "Tankman"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/volksg_1"
+msgid "Volksgrenadier"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/volksg_2"
+msgid "Volksgrenadier"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/volksg_3"
+msgid "Volksgrenadier"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/volksg_4"
+msgid "Volksgrenadier"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/volksg_at2"
+msgid "Volksgrenadier AT Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/volksg_at"
+msgid "Volksgrenadier AT inf."
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/volksg_mg"
+msgid "Volksgrenadier MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/volksg_mg_asst"
+msgid "Volksgrenadier MG Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/volksg_mg_asst_sa"
+msgid "Volksgrenadier MG Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/volksg_rifle"
+msgid "Volksgrenadier"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/volksg_rifle_pzf"
+msgid "Volksgrenadier"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/volksg_rifle_grenadier2"
+msgid "Volksgrenadier"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/volksg_rifle_grenadier"
+msgid "Volksgrenadier"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/volksg_sa"
+msgid "Volksgrenadier"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/volksg_sa_pzf"
+msgid "Volksgrenadier"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/volksg_sa_scope"
+msgid "Volksgrenadier"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/volksg_sl"
+msgid "Volksgrenadier Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/volksg_sl_asst"
+msgid "Volksgrenadier Asst. Leader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/volksg_sl_asst_smg"
+msgid "Volksgrenadier Asst. Leader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/volksg_sl_smg"
+msgid "Volksgrenadier Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/volksg_smg"
+msgid "Volksgrenadier"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/volksg_smg_pzf"
+msgid "Volksgrenadier"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/volksg_stg"
+msgid "Volksgrenadier"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/volksg_stg_pzf"
+msgid "Volksgrenadier"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/volkssturm_1"
+msgid "Volkssturmmann"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/volkssturm_2"
+msgid "Volkssturmmann"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/volkssturm_3"
+msgid "Volkssturmmann"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/volkssturm_4"
+msgid "Volkssturmmann"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/volkssturm_mg"
+msgid "Volkssturmmann MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/volkssturm_pol"
+msgid "Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/volkssturm_pzf"
+msgid "Volkssturmmann"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/volkssturm_rifle"
+msgid "Volkssturmmann"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/volkssturm_smg"
+msgid "Volkssturmmann"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/Officer"
+msgid "Leutnant"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/officer_lw"
+msgid "Supplies Officer"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/antitank_1"
+msgid "AT Inf."
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/antitank_2"
+msgid "AT support Inf."
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/antitank_3"
+msgid "Rifle grenadier"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/antitank_4"
+msgid "Rifle grenadier"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/artilleryman"
+msgid "Artilleryman"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/blau_1"
+msgid "Blau Div. SMG Inf."
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/blau_2"
+msgid "Blau Div. Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/blau_3"
+msgid "Blau Div. Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/blau_4"
+msgid "Blau Div. MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/blau_5"
+msgid "Blau Div. Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/blau_6"
+msgid "Blau Div. MG Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/blau_sl_asst"
+msgid "Blau Div. Asst. Leader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/brand_1"
+msgid "Brandenburger Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/brand_2"
+msgid "Brandenburger MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/brand_3"
+msgid "Brandenburger"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/brand_4"
+msgid "Brandenburger MG Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/brand_5"
+msgid "Brandenburger Asst. Leader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/brand_6"
+msgid "Brandenburger"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/convict_1"
+msgid "Convict"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/convict_2"
+msgid "Convict"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/convict_3"
+msgid "Feldwebel"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/engineer_1"
+msgid "Field Engineer"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/engineer_2"
+msgid "Field Engineer"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/fallsch_1"
+msgid "Fallschirmjäger NCO"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/fallsch_2"
+msgid "Fallschirmjäger"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/fallsch_3"
+msgid "Fallschirmjäger"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/fallsch_4"
+msgid "Fallschirmjäger"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/fallsch_mg"
+msgid "Fallschirmjäger MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/fallsch_mg_asst"
+msgid "Fallschirmjäger MG Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/fallsch_crew"
+msgid "Fallschirmjäger"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/fallsch_rifle"
+msgid "Fallschirmjäger"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/fallsch_rifle_grenadier"
+msgid "Fallschirmjäger"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/fallsch_rifle_scope"
+msgid "Fallschirmjäger Sniper"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/fallsch_sa"
+msgid "Fallschirmjäger"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/fallsch_sl"
+msgid "Fallschirmjäger Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/fallsch_sl_asst"
+msgid "Fallschirmjäger Asst. Leader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/fallsch_sl_asst_fg"
+msgid "Fallschirmjäger Asst. Leader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/fallsch_smg"
+msgid "Fallschirmjäger"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/flamer"
+msgid "Flamethrower Inf."
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/gd_mg"
+msgid "MG Operator 'Großdeutschland'"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/gd_mg_asst"
+msgid "MG Asst. 'Großdeutschland'"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/gd_rifle"
+msgid "Rifleman 'Großdeutschland'"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/gd_sa"
+msgid "Rifleman 'Großdeutschland'"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/gd_sl"
+msgid "Squadleader 'Großdeutschland'"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/gd_sl_asst"
+msgid "Asst. Leader 'Großdeutschland'"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/gebirgs_1"
+msgid "Gebirgsjäger"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/gebirgs_2"
+msgid "Gebirgsjäger"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/gebirgs_3"
+msgid "Gebirgsjäger"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/gebirgs_mg"
+msgid "Gebirgsjäger MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/gebirgs_mg_asst"
+msgid "Gebirgsjäger MG Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/gebirgs_rifle"
+msgid "Gebirgsjäger"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/gebirgs_sl"
+msgid "Gebirgsjäger Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/gebirgs_sl_asst"
+msgid "Gebirgsjäger Asst. Leader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/gebirgs_smg"
+msgid "Gebirgsjäger"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/gren_mg"
+msgid "Grenadier MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/gren_mg_asst"
+msgid "Grenadier MG Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/gren_rifle"
+msgid "Grenadier"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/gren_rifle_grenadier"
+msgid "Grenadier"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/gren_sa"
+msgid "Grenadier"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/gren_sl"
+msgid "Grenadier Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/gren_sl_asst"
+msgid "Grenadier Asst. Leader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/grenadier_1"
+msgid "Grenadier"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/grenadier_2"
+msgid "Grenadier"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/grenadier_3"
+msgid "Grenadier"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/jager_mg"
+msgid "Jäger MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/jager_mg_asst"
+msgid "Jäger MG Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/jager_rifle"
+msgid "Jäger"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/jager_sl"
+msgid "Jäger Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/jager_sl_asst"
+msgid "Jäger Asst. Leader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/jager_smg"
+msgid "Jäger"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/luft_1"
+msgid "LW Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/luft_2"
+msgid "LW Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/luft_3"
+msgid "LW MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/luft_4"
+msgid "LW MG Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/luft_5"
+msgid "LW Asst. Leader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/medic"
+msgid "Medic"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/mg_crew"
+msgid "MG crew"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/mg_crew_asst"
+msgid "MG crew Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/mgun_1"
+msgid "MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/mgun_2"
+msgid "MG Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/mgun_2_rifle"
+msgid "MG Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/mgun_3"
+msgid "MG Ammo Bearer"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/miner-ap"
+msgid "AP-Mine Engineer"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/miner-at"
+msgid "AT-Mine Engineer"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/nco"
+msgid "Feldwebel"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/nco_asst"
+msgid "Asst. Leader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/nco_asst_sa"
+msgid "Asst. Leader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/osttrupp_1"
+msgid "Ostlegionär"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/osttrupp_2"
+msgid "Ostlegionär"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/pilot"
+msgid "Pilot"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/pioneer_1"
+msgid "Pionier"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/pioneer_2"
+msgid "Pionier"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/pioneer_3"
+msgid "Pionier"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/pioneer_4"
+msgid "Pionier"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/pioneer_at"
+msgid "Pionier AT Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/pioneer_mgun"
+msgid "Pionier MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/pioneer_mgun_ammo_carrier"
+msgid "Pionier MG Ammo Bearer"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/pioneer_mgun_asst"
+msgid "Pionier MG Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/pioneer_sl"
+msgid "Pionier Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/pioneer_sl_asst"
+msgid "Pionier Asst. Leader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/pz_pio_flame"
+msgid "Panzerpionier"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/pz_pio_mg"
+msgid "Panzerpionier MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/pz_pio_mg_ammo_carrier"
+msgid "Panzerpionier MG Ammo Bearer"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/pz_pio_mg_asst"
+msgid "Panzerpionier MG Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/pz_pio_rifle"
+msgid "Panzerpionier"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/pz_pio_rifle_gren"
+msgid "Panzerpionier"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/pz_pio_rifle_mine"
+msgid "Panzerpionier"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/pz_pio_sl"
+msgid "Panzerpionier Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/pz_pio_sl_asst"
+msgid "Panzerpionier Asst. Leader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/pz_recon_mg"
+msgid "Panzeraufklärer MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/pz_recon_mg_asst"
+msgid "Panzeraufklärer MG Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/pz_recon_rifle"
+msgid "Panzeraufklärer"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/pz_recon_sl"
+msgid "Panzeraufklärer Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/pz_recon_sl_asst"
+msgid "Panzeraufklärer Asst. Leader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/recon_mg"
+msgid "Aufklärer MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/recon_mg_asst"
+msgid "Aufklärer MG Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/recon_rifle"
+msgid "Aufklärer"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/recon_sl"
+msgid "Aufklärer Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/recon_sl_asst"
+msgid "Aufklärer Asst. Leader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/rifleman_1"
+msgid "Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/rifleman_2"
+msgid "Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/rifleman_3"
+msgid "Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/scout_1"
+msgid "Aufklärer"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/scout_2"
+msgid "Aufklärer"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/signaller"
+msgid "Artillery Signaller"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/smg_1"
+msgid "SMG Inf."
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/smg_2"
+msgid "SMG Inf."
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/smg_3"
+msgid "SMG Inf."
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/smg_mkb"
+msgid "SMG Inf."
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/sniper"
+msgid "Sniper"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/sniper_elite"
+msgid "Mountain Sniper"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/sturmp_1"
+msgid "Sturmpionier"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/sturmp_2"
+msgid "Sturmpionier"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/sturmp_3"
+msgid "Sturmpionier"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/tank_commander"
+msgid "Tank commander"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/tank_commander_ace"
+msgid "Ace Tank commander"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/tank_commander_stug"
+msgid "Tank commander"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/tankman"
+msgid "Tankman"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/tankman_ace"
+msgid "Ace Tankman"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/tankman_stug"
+msgid "Tankman"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/vet_mg"
+msgid "Veteran MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/vet_mg_asst"
+msgid "Veteran MG Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/vet_nco"
+msgid "Veteran Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/vet_nco_asst"
+msgid "Veteran Asst. Leader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/vet_rifle"
+msgid "Veteran Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/vet_sa"
+msgid "Veteran Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/elite_mg"
+msgid "Elite MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/elite_mg_ammo"
+msgid "Elite MG Ammo Bearer"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/elite_mg_asst"
+msgid "Elite MG Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/elite_rifle"
+msgid "Elite Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/elite_sl"
+msgid "Elite Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/elite_sl_asst"
+msgid "Elite Asst. Leader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/elite_sl_smg"
+msgid "Elite Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/ersatz_rifle"
+msgid "Ersatz-Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/ersatz_sl"
+msgid "Ersatz-Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/ersatz_sl_asst"
+msgid "Ersatz-Asst. Leader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/fallsch_pio_mg"
+msgid "Fallschirmpionier MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/fallsch_pio_mg_ammo"
+msgid "Fallschirmpionier MG Ammo Bearer"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/fallsch_pio_mg_asst"
+msgid "Fallschirmpionier MG Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/fallsch_pio_rifle"
+msgid "Fallschirmpionier"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/fallsch_pio_sl"
+msgid "Fallschirmpionier Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/fallsch_pio_sl_asst"
+msgid "Fallschirmpionier Asst. Leader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/fallsch_recon_mg"
+msgid "Fallschirmaufklärer MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/fallsch_recon_mg_asst"
+msgid "Fallschirmaufklärer MG Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/fallsch_recon_rifle"
+msgid "Fallschirmaufklärer"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/fallsch_recon_sl"
+msgid "Fallschirmaufklärer Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/fallsch_recon_sl_asst"
+msgid "Fallschirmaufklärer Asst. Leader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/fallsch_rifle_marksman"
+msgid "Fallschirmjäger Marksman"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/feldg_mg"
+msgid "MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/gd_pio_flame"
+msgid "Großdeutschland Pionier Flamer"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/gd_pio_mg"
+msgid "Großdeutschland Pionier MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/gd_pio_mg_ammo"
+msgid "Großdeutschland Pionier MG Ammo Bearer"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/gd_pio_mg_asst"
+msgid "Großdeutschland Pionier MG Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/gd_pio_rifle"
+msgid "Großdeutschland Pionier"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/gd_pio_rifle_gren"
+msgid "Großdeutschland Pionier"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/gd_pio_rifle_mine"
+msgid "Großdeutschland Pionier"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/gd_pio_sl"
+msgid "Großdeutschland Pionier Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/gd_pio_sl_asst"
+msgid "Großdeutschland Pionier Asst. Leader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/gebirgs_pio_mg"
+msgid "Gebirgspionier MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/gebirgs_pio_mg_ammo"
+msgid "Gebirgspionier MG Ammo Bearer"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/gebirgs_pio_mg_asst"
+msgid "Gebirgspionier MG Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/gebirgs_pio_rifle"
+msgid "Gebirgspionier"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/gebirgs_pio_sl"
+msgid "Gebirgspionier Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/gebirgs_pio_sl_asst"
+msgid "Gebirgspionier Asst. Leader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/gebirgs_recon_mg"
+msgid "Gebirgsaufklärer MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/gebirgs_recon_mg_asst"
+msgid "Gebirgsaufklärer MG Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/gebirgs_recon_rifle"
+msgid "Gebirgsaufklärer"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/gebirgs_recon_sl"
+msgid "Gebirgsaufklärer Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/gebirgs_recon_sl_asst"
+msgid "Gebirgsaufklärer Asst. Leader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/marine_stoss_mg"
+msgid "Marine-Stoßtrupp MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/marine_stoss_mg_asst"
+msgid "Marine-Stoßtrupp MG Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/marine_stoss_rifle"
+msgid "Marine-Stoßtrupp"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/marine_stoss_sl"
+msgid "Marine-Stoßtrupp Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/marine_stoss_sl_asst"
+msgid "Marine-Stoßtrupp Asst. Leader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/mg_26t"
+msgid "MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/mg_asst_26t"
+msgid "MG Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/pioneer_at_rifle"
+msgid "Pionier AT inf."
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/pioneer_builder"
+msgid "Pionier Engineer"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/pioneer_builder"
+msgid "Pionier"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/pioneer_builder"
+msgid "Pionier"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/pz_mg"
+msgid "Panzerschütze MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/pz_mg_ammo"
+msgid "Panzerschütze MG Ammo Bearer"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/pz_mg_asst"
+msgid "Panzerschütze MG Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/pz_pio_at_rifle"
+msgid "Panzerpionier AT inf."
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/pz_recon_mg"
+msgid "Panzeraufklärer MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/pz_recon_mg_asst"
+msgid "Panzeraufklärer MG Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/pz_recon_rifle"
+msgid "Panzeraufklärer"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/pz_recon_sl"
+msgid "Panzeraufklärer Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/pz_recon_sl_asst"
+msgid "Panzeraufklärer Asst. Leader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/pz_rifle"
+msgid "Panzerschütze"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/pz_sl"
+msgid "Panzerschütze Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/pz_sl_asst"
+msgid "Panzerschütze Asst. Leader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/pz_sl_smg"
+msgid "Panzerschütze Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/sl"
+msgid "Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/sl_asst"
+msgid "Asst. Leader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/sl_smg"
+msgid "Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/vet_mg"
+msgid "Veteran MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/vet_mg_ammo"
+msgid "Veteran MG Ammo Bearer"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/vet_mg_asst"
+msgid "Veteran MG Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/vet_rifle"
+msgid "Veteran Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/vet_sl"
+msgid "Veteran Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/vet_sl_asst"
+msgid "Veteran Asst. Leader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/vet_sl_smg"
+msgid "Veteran Squadleader"
+msgstr ""
+
+
+
+msgctxt "desc/human/mp/ger/mid/elite_mg"
+msgid "Elite MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/elite_mg_ammo"
+msgid "Elite MG Ammo Bearer"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/elite_mg_asst"
+msgid "Elite MG Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/elite_rifle"
+msgid "Elite Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/elite_sl"
+msgid "Elite Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/elite_sl_asst"
+msgid "Elite Asst. Leader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/elite_sl_smg"
+msgid "Elite Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/convict_mg"
+msgid "Convict MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/ersatz_rifle"
+msgid "Ersatz-Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/ersatz_sl"
+msgid "Ersatz-Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/ersatz_sl_asst"
+msgid "Ersatz-Asst. Leader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/fallsch_pio_mg"
+msgid "Fallschirmpionier MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/fallsch_pio_mg_asst"
+msgid "Fallschirmpionier MG Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/fallsch_pio_rifle"
+msgid "Fallschirmpionier"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/fallsch_pio_rifle_grenadier"
+msgid "Fallschirmpionier"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/fallsch_pio_sl"
+msgid "Fallschirmpionier Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/fallsch_pio_sl_asst"
+msgid "Fallschirmpionier Asst. Leader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/fallsch_recon_mg"
+msgid "Fallschirmaufklärer MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/fallsch_recon_mg_asst"
+msgid "Fallschirmaufklärer MG Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/fallsch_recon_mg_asst_gren"
+msgid "Fallschirmaufklärer MG Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/fallsch_recon_mg34"
+msgid "Fallschirmaufklärer MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/fallsch_recon_sl"
+msgid "Fallschirmaufklärer Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/fallsch_recon_sl_asst"
+msgid "Fallschirmaufklärer Asst. Leader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/fallsch_rifle_marksman"
+msgid "Fallschirmjäger Marksman"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/gd_pio_flame"
+msgid "Großdeutschland Pionier Flamer"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/gd_pio_mg"
+msgid "Großdeutschland Pionier MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/gd_pio_mg_asst"
+msgid "Großdeutschland Pionier MG Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/gd_pio_rifle"
+msgid "Großdeutschland Pionier"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/gd_pio_sa"
+msgid "Großdeutschland Pionier"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/gd_pio_sl"
+msgid "Großdeutschland Pionier Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/gd_pio_sl_asst"
+msgid "Großdeutschland Pionier Asst. Leader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/gebirgs_pio_mg"
+msgid "Gebirgspionier MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/gebirgs_pio_mg_asst"
+msgid "Gebirgspionier MG Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/gebirgs_pio_rifle"
+msgid "Gebirgspionier"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/gebirgs_pio_sl"
+msgid "Gebirgspionier Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/gebirgs_pio_sl_asst"
+msgid "Gebirgspionier Asst. Leader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/gebirgs_recon_mg"
+msgid "Gebirgsaufklärer MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/gebirgs_recon_mg_asst"
+msgid "Gebirgsaufklärer MG Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/gebirgs_recon_rifle"
+msgid "Gebirgsaufklärer"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/gebirgs_recon_sl"
+msgid "Gebirgsaufklärer Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/gebirgs_recon_sl_asst"
+msgid "Gebirgsaufklärer Asst. Leader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/gebirgs_recon_smg"
+msgid "Gebirgsaufklärer"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/mg_26t"
+msgid "MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/mg_asst_26t"
+msgid "MG Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/mgun_42"
+msgid "MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/pioneer_builder"
+msgid "Pionier Engineer"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/pz_mg_asst"
+msgid "Panzerschütze MG Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/pz_mg34"
+msgid "Panzerschütze MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/pz_mg42"
+msgid "Panzerschütze MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/pz_rifle"
+msgid "Panzerschütze"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/pz_sa"
+msgid "Panzerschütze"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/pz_sl"
+msgid "Panzerschütze Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/pz_sl_asst"
+msgid "Panzerschütze Asst. Leader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/pz_sl_asst_sa"
+msgid "Panzerschütze Asst. Leader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/recon_mg42"
+msgid "Aufklärer MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/rifle_gren"
+msgid "Rifle Grenadier"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/sl"
+msgid "Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/sl_asst"
+msgid "Asst. Leader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/sl_asst_sa"
+msgid "Asst. Leader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/sturm_pio_flame"
+msgid "Sturmpionier Flamer"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/sturm_pio_mg"
+msgid "Sturmpionier MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/sturm_pio_mg_asst"
+msgid "Sturmpionier MG Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/sturm_pio_rifle"
+msgid "Sturmpionier"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/sturm_pio_rifle_gren"
+msgid "Sturmpionier"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/sturm_pio_rifle_mine"
+msgid "Sturmpionier"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/sturm_pio_sl"
+msgid "Sturmpionier Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/sturm_pio_sl_asst"
+msgid "Sturmpionier Asst. Leader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/tank_commander_pzjag"
+msgid "Tank Commander"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/tank_commander_scout"
+msgid "Tank Commander"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/tankman_pzjag"
+msgid "Tankman"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/tankman_scout"
+msgid "Tankman"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/mid/vet_mg_ammo"
+msgid "Veteran MG Ammo Bearer"
+msgstr ""
+
+
+
+
+
+msgctxt "desc/human/mp/ger/late/blau_1"
+msgid "Blau Legion SMG Inf."
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/blau_2"
+msgid "Blau Legion Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/blau_3"
+msgid "Blau Legion Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/blau_4"
+msgid "Blau Legion MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/blau_5"
+msgid "Blau Legion Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/blau_6"
+msgid "Blau Legion MG Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/blau_sl_asst"
+msgid "Blau Legion Asst. Leader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/begleitgren_at"
+msgid "Begleitgrenadier AT inf."
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/begleitgren_rifle"
+msgid "Begleitgrenadier"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/begleitgren_rifle_pzf"
+msgid "Begleitgrenadier"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/begleitgren_sl"
+msgid "Begleitgrenadier Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/begleitgren_sl_asst"
+msgid "Begleitgrenadier Asst. Leader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/begleitgren_sl_asst_stg"
+msgid "Begleitgrenadier Asst. Leader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/begleitgren_sl_stg"
+msgid "Begleitgrenadier Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/begleitpio_flame"
+msgid "Begleitpionier Flamer"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/begleitpio_mg"
+msgid "Begleitpionier MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/begleitpio_mg_asst"
+msgid "Begleitpionier MG Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/begleitpio_rifle"
+msgid "Begleitpionier"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/begleitpio_rifle_pzf"
+msgid "Begleitpionier"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/begleitpio_sl_asst_stg"
+msgid "Begleitpionier Asst. Leader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/begleitpio_sl_stg"
+msgid "Begleitpionier Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/begleitpio_stg"
+msgid "Begleitpionier"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/company_com"
+msgid "Company Commander"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/company_com_stg"
+msgid "Company Commander"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/company_hauptfeldwebel"
+msgid "Company Hauptfeldwebel"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/company_tl"
+msgid "Company Teamleader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/company_tl_stg"
+msgid "Company Teamleader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/ersatz_gren_rifle"
+msgid "Ersatz-Grenadier"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/ersatz_gren_rifle_pzf"
+msgid "Ersatz-Grenadier"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/ersatz_gren_rifle_pzf2"
+msgid "Ersatz-Grenadier"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/ersatz_gren_sl"
+msgid "Ersatz-Grenadier Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/ersatz_gren_sl_asst"
+msgid "Ersatz-Grenadier Asst. Leader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/fallsch_pio_rifle"
+msgid "Fallschirmpionier"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/fallsch_pio_rifle_pzf"
+msgid "Fallschirmpionier"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/fallsch_pio_rifle_scope"
+msgid "Fallschirmpionier"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/fallsch_pio_sl_asst"
+msgid "Fallschirmpionier Asst. Leader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/fallsch_pio_sl_asst_stg"
+msgid "Fallschirmpionier Asst. Leader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/fallsch_recon_mg"
+msgid "Fallschirmaufklärer MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/fallsch_recon_mg_asst"
+msgid "Fallschirmaufklärer MG Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/fallsch_recon_mg_asst_gren"
+msgid "Fallschirmaufklärer MG Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/fallsch_recon_mg34"
+msgid "Fallschirmaufklärer MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/fallsch_recon_sl"
+msgid "Fallschirmaufklärer Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/fallsch_recon_sl_asst"
+msgid "Fallschirmaufklärer Asst. Leader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/fallsch_recon_sl_asst_fg"
+msgid "Fallschirmaufklärer Asst. Leader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/fallsch_recon_sl_asst_stg"
+msgid "Fallschirmaufklärer Asst. Leader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/fallsch_rifle_pzf"
+msgid "Fallschirmjäger"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/fallsch_sa_pzf"
+msgid "Fallschirmjäger"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/fallsch_sl_asst_fg"
+msgid "Fallschirmjäger Asst. Leader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/fusilier_mg_asst_smg"
+msgid "Füsilier MG Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/fusilier_sl_asst_sa_scope"
+msgid "Füsilier Asst. Leader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/fusilier_sl_asst_scope"
+msgid "Füsilier Asst. Leader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/fusilier_sl_asst_smg"
+msgid "Füsilier Asst. Leader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/fusilier_smg_pzf"
+msgid "Füsilier"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/fusilier_smg_pzf2"
+msgid "Füsilier"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/fusilier_stg"
+msgid "Füsilier"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/gd_pz_pio_at"
+msgid "GD.Pz.Pionier AT inf."
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/gd_pz_pio_builder"
+msgid "GD.Pz.Pionier Engineer"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/gd_pz_pio_flame"
+msgid "GD.Pz.Pionier Flamer"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/gd_pz_pio_mg"
+msgid "GD.Pz.Pionier MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/gd_pz_pio_mg_asst"
+msgid "GD.Pz.Pionier MG Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/gd_pz_pio_rifle"
+msgid "GD.Pz.Pionier"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/gd_pz_pio_rifle_pzf"
+msgid "GD.Pz.Pionier"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/gd_pz_pio_sa"
+msgid "GD.Pz.Pionier"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/gd_pz_pio_sl"
+msgid "GD.Pz.Pionier Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/gd_pz_pio_sl_asst"
+msgid "GD.Pz.Pionier Asst. Leader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/gebirgs_recon_mg"
+msgid "Gebirgsaufklärer MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/gebirgs_recon_mg_asst"
+msgid "Gebirgsaufklärer MG Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/gebirgs_recon_mg34"
+msgid "Gebirgsaufklärer MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/gebirgs_recon_rifle"
+msgid "Gebirgsaufklärer"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/gebirgs_recon_rifle_pzf"
+msgid "Gebirgsaufklärer"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/gebirgs_recon_rifle_pzf2"
+msgid "Gebirgsaufklärer"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/gebirgs_recon_sl"
+msgid "Gebirgsaufklärer Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/gebirgs_recon_sl_asst"
+msgid "Gebirgsaufklärer Asst. Leader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/gebirgs_recon_sl_asst_smg"
+msgid "Gebirgsaufklärer Asst. Leader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/gebirgs_recon_smg"
+msgid "Gebirgsaufklärer"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/gebirgs_recon_smg_pzf"
+msgid "Gebirgsaufklärer"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/gebirgs_recon_smg_pzf2"
+msgid "Gebirgsaufklärer"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/gren_rifle_pzf"
+msgid "Grenadier"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/gren_sl_asst"
+msgid "Grenadier Asst. Leader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/gren_sl_asst_smg"
+msgid "Grenadier Asst. Leader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/gren_sl_asst_sniper"
+msgid "Grenadier Asst. Leader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/landes_rifle"
+msgid "Landesschütze"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/landes_sl"
+msgid "Landesschütze Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/landes_sl_asst"
+msgid "Landesschütze Asst. Leader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/lehr_pz_pio_at"
+msgid "Pz-Lehr Pz.Pionier AT inf."
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/lehr_pz_pio_builder"
+msgid "Pz-Lehr Pz.Pionier Engineer"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/lehr_pz_pio_flame"
+msgid "Pz-Lehr Pz.Pionier Flamer"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/lehr_pz_pio_mg"
+msgid "Pz-Lehr Pz.Pionier MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/lehr_pz_pio_mg_asst"
+msgid "Pz-Lehr Pz.Pionier MG Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/lehr_pz_pio_rifle"
+msgid "Pz-Lehr Pz.Pionier"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/lehr_pz_pio_rifle_pzf"
+msgid "Pz-Lehr Pz.Pionier"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/lehr_pz_pio_sa"
+msgid "Pz-Lehr Pz.Pionier"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/lehr_pz_pio_sl"
+msgid "Pz-Lehr Pz.Pionier Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/lehr_pz_pio_sl_asst"
+msgid "Pz-Lehr Pz.Pionier Asst. Leader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/lehr_pz_recon_mg"
+msgid "Pz-Lehr Pz.Aufklärer MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/lehr_pz_recon_mg_asst"
+msgid "Pz-Lehr Pz.Aufklärer MG Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/lehr_pz_recon_rifle"
+msgid "Pz-Lehr Pz.Aufklärer"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/lehr_pz_recon_rifle_pzf"
+msgid "Pz-Lehr Pz.Aufklärer"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/lehr_pz_recon_sl"
+msgid "Pz-Lehr Pz.Aufklärer Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/lehr_pz_recon_sl_asst"
+msgid "Pz-Lehr Pz.Aufklärer Asst. Leader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/lehr_pz_recon_sl_asst_sa"
+msgid "Pz-Lehr Pz.Aufklärer Asst. Leader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/lehr_pz_recon_sl_asst_stg"
+msgid "Pz-Lehr Pz.Aufklärer Asst. Leader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/lehr_pz_recon_sl_stg"
+msgid "Pz-Lehr Pz.Aufklärer Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/lehr_pzgren_at"
+msgid "Pz-Lehr Pz.Grenadier AT inf."
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/lehr_pzgren_mg"
+msgid "Pz-Lehr Pz.Grenadier MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/lehr_pzgren_mg_asst"
+msgid "Pz-Lehr Pz.Grenadier MG Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/lehr_pzgren_rifle"
+msgid "Pz-Lehr Pz.Grenadier"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/lehr_pzgren_rifle_pzf"
+msgid "Pz-Lehr Pz.Grenadier"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/lehr_pzgren_rifle_pzf2"
+msgid "Pz-Lehr Pz.Grenadier"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/lehr_pzgren_sa"
+msgid "Pz-Lehr Pz.Grenadier"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/lehr_pzgren_sa_pzf"
+msgid "Pz-Lehr Pz.Grenadier"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/lehr_pzgren_sl"
+msgid "Pz-Lehr Pz.Grenadier Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/lehr_pzgren_sl_asst"
+msgid "Pz-Lehr Pz.Grenadier Asst. Leader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/lehr_pzgren_stg"
+msgid "Pz-Lehr Pz.Grenadier"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/lehr_pzgren_sturm_sl"
+msgid "Pz-Lehr Pz.Sturmgrenadier Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/lehr_pzgren_sturm_sl_asst"
+msgid "Pz-Lehr Pz.Sturmgrenadier Asst. Leader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/lehr_pzgren_sturm_stg"
+msgid "Pz-Lehr Pz.Sturmgrenadier"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/lehr_pzgren_sturm_stg_pzf"
+msgid "Pz-Lehr Pz.Sturmgrenadier"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/lehr_pzgren_sturm_stg_pzf2"
+msgid "Pz-Lehr Pz.Sturmgrenadier"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/lw_fus_sl_asst"
+msgid "LW Füsilier Asst. Leader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/lw_jag_mg"
+msgid "LW Jäger MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/lw_jag_mg_asst"
+msgid "LW Jäger MG Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/lw_jag_mg34"
+msgid "LW Jäger MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/lw_jag_rifle"
+msgid "LW Jäger"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/lw_jag_rifle_gren"
+msgid "LW Jäger"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/lw_jag_rifle_pzf"
+msgid "LW Jäger"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/lw_jag_sa"
+msgid "LW Jäger"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/lw_jag_sl"
+msgid "LW Jäger Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/lw_jag_sl_asst"
+msgid "LW Jäger Asst. Leader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/lw_jag_sl_asst_scope"
+msgid "LW Jäger Asst. Leader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/lw_jag_smg"
+msgid "LW Jäger"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/lw_pio_builder"
+msgid "LW Pionier Engineer"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/lw_pio_mg"
+msgid "LW Pionier MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/lw_pio_mg_asst"
+msgid "LW Pionier MG Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/lw_pio_mg34"
+msgid "LW Pionier MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/lw_pio_rifle"
+msgid "LW Pionier"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/lw_pio_rifle_pzf"
+msgid "LW Pionier"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/lw_pio_sa"
+msgid "LW Pionier"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/lw_pio_sl"
+msgid "LW Pionier Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/lw_pio_sl_asst"
+msgid "LW Pionier Asst. Leader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/lw_recon_mg"
+msgid "LW Aufklärer MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/lw_recon_mg_asst"
+msgid "LW Aufklärer MG Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/lw_recon_rifle"
+msgid "LW Aufklärer"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/lw_recon_rifle_gren"
+msgid "LW Aufklärer"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/lw_recon_rifle_pzf"
+msgid "LW Aufklärer"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/lw_recon_sl"
+msgid "LW Aufklärer Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/lw_recon_sl_asst"
+msgid "LW Aufklärer Asst. Leader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/marine_mg"
+msgid "Marine MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/marine_mg_asst"
+msgid "Marine MG Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/marine_rifle_pzf"
+msgid "Marine"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/platoon_nco"
+msgid "Platoon Leader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/platoon_nco_stg"
+msgid "Platoon Leader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/platoon_officer"
+msgid "Platoon Commander"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/platoon_officer_stg"
+msgid "Platoon Commander"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/pz_pio_at"
+msgid "Panzerpionier AT inf."
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/pz_pio_flame"
+msgid "Panzerpionier Flamer"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/pz_pio_gren"
+msgid "Panzerpionier"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/pz_pio_mg"
+msgid "Panzerpionier MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/pz_pio_mg_asst"
+msgid "Panzerpionier MG Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/pz_pio_mine"
+msgid "Panzerpionier"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/pz_pio_pzf"
+msgid "Panzerpionier"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/pz_pio_rifle"
+msgid "Panzerpionier"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/pz_pio_rifle_gren"
+msgid "Panzerpionier"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/pz_pio_sa"
+msgid "Panzerpionier"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/pz_pio_sl"
+msgid "Panzerpionier Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/pz_pio_sl_asst"
+msgid "Panzerpionier Asst. Leader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/pz_pio_sl_stg"
+msgid "Panzerpionier Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/pz_recon_mg"
+msgid "Panzeraufklärer MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/pz_recon_mg_asst"
+msgid "Panzeraufklärer MG Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/pz_recon_rifle"
+msgid "Panzeraufklärer"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/pz_recon_sl_asst_rifle"
+msgid "Panzeraufklärer Asst. Leader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/pz_recon_sl_asst_sa"
+msgid "Panzeraufklärer Asst. Leader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/pz_recon_sl_asst_stg"
+msgid "Panzeraufklärer Asst. Leader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/pz_recon_sl_rifle"
+msgid "Panzeraufklärer Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/pz_recon_sl_smg"
+msgid "Panzeraufklärer Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/tank_commander_pzjag"
+msgid "Tank Commander"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/tank_commander_scout"
+msgid "Tank Commander"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/tankman_pzjag"
+msgid "Tankman"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/tankman_scout"
+msgid "Tankman"
+msgstr ""

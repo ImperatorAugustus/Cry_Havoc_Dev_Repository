@@ -1,0 +1,40 @@
+;_________________________________________
+; Long barreled finnish AT gun
+;=========================================
+
+
+{from "pattern gun"			; L/55.7 "k44"
+	{filling "bulletger_75_l43"}
+	{fireSound "gun/gun_75_105"}
+	{fireSoundclose "gun/gun_75_105"}
+	{reloadSound "tank/reload_medium"}
+	("range_230")
+	{calibre 75}
+
+	("reload time" seconds(5.00))
+
+	("velocity m/s" ap(903) apcr(1146) he(650) heat(450))
+	("armor health" damage(200))
+	("armor health custom" shell(apcbche) damage(200) filler(29))
+
+	; Pzgr.39
+	("penetration_long" shell(apcbche) range(230) a(177) b(160) c(142) d(126) e(111))
+
+	; Pzgr.40
+	("penetration_long" shell(apcr) range(230) a(270) b(238) c(203) d(173) e(148))
+
+	; Gr.38 Hl
+	("penetration_medium" shell(heat) range(230) a(52) b(52) c(52) d(52) e(52))
+	; Gr.38 Hl/A
+	("penetration_medium" shell(heata) range(230) a(81) b(81) c(81) d(81) e(81))
+	; Gr.38 Hl/B
+	("penetration_medium" shell(heatb) range(230) a(87) b(87) c(87) d(87) e(87))
+	; Gr.38 Hl/C
+	("penetration_medium" shell(heatc) range(230) a(115) b(115) c(115) d(115) e(115))
+
+	{parameters "he"
+		{range 230 230}
+	}
+
+	("accuracy_direct" r1(0.70) range_ap(230) range_he(230) range_heat(230))
+}

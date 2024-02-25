@@ -1,5 +1,5 @@
 {"vehicle"
-	{inflammation_time 20}
+	{inflammation_time 25}
 	{on spawn
 		{add_view	"stop_signal"		"stop_signal"	"FXstop1"}
 		{add_view	"stop_signal"		"stop_signal"	"FXstop2"}
@@ -13,6 +13,8 @@
 		{add_view 	"headlight2"		"lights"		"armorlightl"}
 		{add_view 	"headlight2"		"lights"		"armorlightr"}
 		{add_view 	"headlight_dim"		"lights"		"dimlight"}
+		{add_view 	"headlight_dim"		"lights"		"dimlightl"}
+		{add_view 	"headlight_dim"		"lights"		"dimlightr"}
 
 		;// Light
 		{add_view 	"light_vehicle"		"lights"		"headlightl"}
@@ -21,6 +23,8 @@
 		{add_view 	"light_vehicle_dim"	"lights"		"armorlightl"}
 		{add_view 	"light_vehicle_dim"	"lights"		"armorlightr"}
 		{add_view 	"light_vehicle_dim"	"lights"		"dimlight"}
+		{add_view 	"light_vehicle_dim"	"lights"		"dimlightl"}
+		{add_view 	"light_vehicle_dim"	"lights"		"dimlightr"}
 
 		;// Mission helpers
 		{add_view	"ammo" 				"ammo" "body"}
@@ -32,6 +36,7 @@
 
 		{call "init_gun"}
 		{call "add_movement_sound"}
+		{call "add_weapon_sound"}
 		{call "update_moveable"}
 		{call "update_lights"}
 		{call "engine_check"}
@@ -49,7 +54,6 @@
 		{call "stop_on"}
 		{call "exhaust_on"}
 		{play_sound "move" 1}
-		{play_sound "move_INT" 1}
 		{stop_sound "engine_idle"}
 	}
 
@@ -60,10 +64,8 @@
 
 	{on move on 				;// any vehicle moves forward or reverse
 		{stop_sound "engine_idle"}
-		{stop_sound "engine_idle_INT"}
 		{stop_sound "move_end"}
 		{play_sound "move" 1}
-		{play_sound "move_INT" 1}
 		{call "exhaust_on"}
 		{if not "animated"						;// Prevents animation from playing when "stop" animation is currently playing
 			;{ani_stop "stop"}
@@ -78,7 +80,6 @@
 
 	{on move off 				;// any vehicle not moving forward or reverse
 		{stop_sound "move"}
-		{stop_sound "move_INT"}
 		{tags remove "brake_on"}
 		{play_sound "move_end"}
 		{call "exhaust_off"}
@@ -108,15 +109,15 @@
 	}
 
 	{on engine on				;// any vehicle moves forward, reverse or preforming neutral turn
+		{if "hidden"
+			{call "engine_on"}					;// added call to fix vehicles spawned through mission scripts not having sounds in Coop mode
+		}
 		{if "engine_on"							;// checks that engine is on and not toggled off while moving
 			{kill_delay "engine_stopped"}
 			{kill_delay "engine_steam_stopped"}
 			{stop_sound "engine_stop"}
-			{stop_sound "engine_stop_INT"}
 			{play_sound "exhaust"}				;// exhaust/accelerate sound
-			{play_sound "exhaust_INT"}
 			{play_sound "engine_full" 1}
-			{play_sound "engine_full_INT" 1}
 			{view start "engine_steam"}			;// used for train steam fx, and vehicle engines in rain
 			{if "hidden"
 				{call "engine_idle"}
@@ -129,7 +130,7 @@
 
 	{on engine off				;// any vehicle not moving at all
 		{if not "engine_on"
-		  {stop_sound "engine_full"}
+			{stop_sound "engine_full"}
 			{play_sound "brake"}
 			{view pause "exhaust"}
 			{view pause "exhaust2"}
@@ -141,9 +142,7 @@
 					{if work "body"
 						{if "engine_on"
 							{play_sound "engine_idle" 1}
-							{play_sound "engine_idle_INT" 1}
 							{stop_sound "engine_full"}
-							{stop_sound "engine_full_INT"}
 						}
 					}
 				}
@@ -169,10 +168,10 @@
 
 	{on operatable off
 		{unlink_trailer}
-		{kill_delay "emit1"}
-		{kill_delay "emit2"}
-		{kill_delay "emit3"}
-		{kill_delay "emit4"}
+		{tags add "_abandoned"}			;// check for "leave_unit" / self destruction
+		{delay 12 
+			{tags remove "_abandoned"}
+		}
 	}
 
 	{on break
@@ -206,7 +205,7 @@
 		}
 	}
 
-	{on contact sync
+	{on contact
 		{if volume "sticky"
 			{if effector "grenade"
 				{if not effector "contact"
@@ -215,10 +214,12 @@
 			}
 		}
 		{if not impregnable
-			{if effector_velocity 3
+			{if effector_velocity 50
 				{if effector "airborne"
 					{component break}
-				else effector "piece_big_stone"
+				}
+			else effector_velocity 3
+				{if effector "piece_big_stone"
 					{component break}
 				}
 			}
@@ -283,7 +284,9 @@
 					{if tagged "hidden" 	;// mission script that hides unit
 						{set "hidden" 1}
 					else
-						{call "engine_idle"}
+						{if not cannon_state "fire" 	;// check for motorized cannons
+							{call "engine_idle"}
+						}
 						{call "play_trace_engine"} 		;// plays dust fx for aero vehicles
 						{call "update_lights"}
 					}
@@ -310,7 +313,6 @@
 				{view show "stop_signal"}
 				{view start "stop_signal"}
 				{play_sound "engine_start"}
-				{play_sound "engine_start_INT"}
 				{ani_play "engine_work" loop}
 				{set "engine_on" 1}
 				{call "update_lights"}
@@ -340,22 +342,25 @@
 		{set "engine_on" 0}
 		{call "update_lights"}
 		{stop_sound "engine_idle"}
-		{stop_sound "engine_idle_INT"}
 		{stop_sound "move"}
-		{stop_sound "move_INT"}
 		{stop_sound "engine_full"}
-		{stop_sound "engine_full_INT"}
 		{stop_sound "engine_start"}
-		{stop_sound "engine_start_INT"}
-		{play_sound "engine_stop"}
-		{play_sound "engine_stop_INT"}
-		{tags add "engine_turned_off"}		;// tracks engine on/off status for mission save/load
-		{chassis_work 0}
+		{if not broken "engine"
+			{if not broken "body"
+				{play_sound "engine_stop"}
+			}
+		}
+		{call "chassis_off"}
 		{delay 1
 			{view pause "exhaust2"}
 			{ani_stop "engine_work"}
 			{view hide "stop_signal"}
 		}
+	}
+
+	{on "chassis_off"
+		{tags add "engine_turned_off"}		;// tracks engine on/off status for mission save/load
+		{chassis_work 0}
 	}
 
 	{on "engine_idle"					;// settings for engine while idle
@@ -370,9 +375,7 @@
 			{set "engine_on" 1}
 			{view pause "exhaust_start"}
 			{stop_sound "engine_start"}
-			{stop_sound "engine_start_INT"}
 			{play_sound "engine_idle" 1}
-			{play_sound "engine_idle_INT" 1}
 			{ani_play "engine_work" loop}
 			{view start "exhaust2"}
 			{view hide "stop_signal"}
@@ -387,11 +390,8 @@
 		{kill_delay "engine_startup3"}		;// stops engine startup sequence
 		{view pause "exhaust"}
 		{stop_sound "engine_idle"}
-		{stop_sound "engine_idle_INT"}
 		{stop_sound "engine_full"}
-		{stop_sound "engine_full_INT"}
 		{stop_sound "engine_start"}
-		{stop_sound "engine_start_INT"}
 		{ani_stop "engine_work"}
 		{view pause "exhaust2"}
 	}
@@ -405,11 +405,8 @@
 		{ani_stop "engine_work"}
 		{delay 0 "engine_stopped"
 			{stop_sound "engine_idle"}
-			{stop_sound "engine_idle_INT"}
 			{stop_sound "engine_start"}
-			{stop_sound "engine_start_INT"}
 			{stop_sound "engine_stop"}
-			{stop_sound "engine_stop_INT"}
 		}
 		{delay 0 "engine_steam_stopped"
 			{view pause "exhaust2"}
@@ -421,6 +418,7 @@
 			{call "check_work_mover"}
 		else
 			{chassis_work 0}
+			{ik_enable "basis" 0}			;// stops motorized cannons from rotating when engine or track is broken
 		}
 	}
 
@@ -429,10 +427,12 @@
 			{if not tagged "wheel_destroyed"		;// Checks if wheel has been torn off
 				{if not tagged "engine_turned_off"	;// Checks that player didn't turn off engine before repairs are made
 					{chassis_work 1}
+					{ik_enable "basis" 1}	;// allows motorized cannons to rotate when engine or track is broken
 				}
 			}
 		else
 			{chassis_work 0}
+			{ik_enable "basis" 0}			;// stops motorized cannons from rotating when engine or track is broken
 		}
 	}
 
@@ -450,7 +450,6 @@
 		{if "engine_on"						;// Prevents sounds from playing if called after engine is off/broken
 			{view start "exhaust"}
 			{play_sound "exhaust"}
-			{play_sound "exhaust_INT"}
 		}
 	}
 
@@ -514,13 +513,16 @@
 		 	{bone cut}
 	 	}
 	}
+	
+	{on "break_lamp"
+		{volume disable all}
+	 	{spawn "glass_break2" volume x}
+	}
 
 	{on "explosion"
 		{if not able "exploded"
 			{tags add "ammo_cooked"}
 			{stop_sound "cook_off"}
-			{stop_sound "engine_fail"}
-			{stop_sound "engine_fail_INT"}
 			{tags remove "ammo_overload"}
 			{tags remove "ammo_normal_load"}
 			{damage_report "body" "component/empty"}
@@ -533,7 +535,6 @@
 			{able "exploded" 1}
 			{call "_explosion"}
 			{stop_sound "engine_idle"}
-			{stop_sound "engine_idle_INT"}
 		}
 	}
 
@@ -541,16 +542,10 @@
 		{tags add "exploded"}
 		{call "break_all"}
 		{stop_sound "move"}
-		{stop_sound "move_INT"}
-		{stop_sound "engine_fail"}
-		{stop_sound "engine_fail_INT"}
 		{stop_sound "move_end"}
 		{stop_sound "engine_full"}
-		{stop_sound "engine_full_INT"}
 		{stop_sound "engine_stop"}
-		{stop_sound "engine_stop_INT"}
 		{stop_sound "exhaust"}
-		{stop_sound "exhaust_INT"}
 		{call "engine fullstop"}
 		{view stop "fire1"}
 		{view stop "fire2"}
@@ -569,13 +564,16 @@
 		{delay_ex 0
 			{set "no_burn_volumes" 1}
 			{set_skeleton "_xx" sync}
-			{impulse up 0.01}
+			{call "impulse"}
 			{ani_play "death"}
 			{call "cut_parts"}
 		}
 		{delay 0.2
-			{volumes enable blast}
+			{restore_volume_states} ; restore volume ables from .def file
 		}
+	}
+	{on "impulse"
+		{impulse up 0.01}
 	}
 
 	{on "break_all"
@@ -610,7 +608,6 @@
 			{if not able "exploded"
 				{talk "burning"}
 				{damage_report "engine" "component/engine_burn"}
-		  		{stop_sound "damage_steam"}
 				{add_view "smoke_fire_engine" "burn_fire" "FXfire1"}
 				{add_view "smoke_engine" "burn_fire_smoke" "FXfire1"}
 				;{add_view "smoke_black" "burn_fire" "FXfire1"}
@@ -622,6 +619,7 @@
 				{call "stat_break"}
 				{tags add "no_scavenge"}
 				{delay 4 2
+					{unlink_trailer}
 					{call "check_burn_emit"}
 				}
 				{delay 10 2
@@ -682,11 +680,12 @@
 	{on "leave_unit"
 		{if work "body"
 			{if operatable
+				{tags add "leave_unit"}
 				{unlink_trailer}
 				{reset_manual_control}
 
 				{if not tagged "emit_label"
-					{damage_report "crew" "leave_unit"}
+					{damage_report "crew" "component/leave_unit"}
 					{tags add "emit_label"}
 					{crew_emit}
 				}
@@ -721,17 +720,18 @@
 						{explosive 1}
 						{stat_notify leave}
 						{kick_entity_manager}
-						{damage_report "gun" "empty"}
-						{damage_report "mantlet" "empty"}
-						{damage_report "turret" "empty"}
-						{damage_report "body" "empty"}
-						{damage_report "trackright" "empty"}
-						{damage_report "trackleft" "empty"}
-						{damage_report "engine" "empty"}
+						{damage_report "gun" "component/empty"}
+						{damage_report "mantlet" "component/empty"}
+						{damage_report "turret" "component/empty"}
+						{damage_report "body" "component/empty"}
+						{damage_report "trackright" "component/empty"}
+						{damage_report "trackleft" "component/empty"}
+						{damage_report "engine" "component/empty"}
 
 						{delay 0.25
 							{explosive 0}
 							{tags add "destroyed"}
+							{tags add "ammo_broken"}
 							{call "explosion"}
 						}
 					}
@@ -748,7 +748,6 @@
 		{on terrain_fx %0 enter
 			{set %0 1}
 			{call "check_speed"}
-			{view start "on_%1"} 			;// presevers fx for non-tank vehicles
 			{view start "on_%1_time_short"}	;// gravel/mud/grass fx
 			{play_sound "wheel_%1" 1}
 			{call "%3_check"}
@@ -777,6 +776,7 @@
 	("terrain_fx" args "shallow_water"	puddle none water)
 	("terrain_fx" args "puddle"			puddle water)
 	("terrain_fx" args "mud"			mud water)
+	("terrain_fx" args "swamp"			mud water)
 	("terrain_fx" args "country_road"	ground water)
 	("terrain_fx" args "snow"			snow water)
 	("terrain_fx" args "ice"			snow none  water)
@@ -802,16 +802,23 @@
 					{view start "on_%1_fast"}
 					{view pause "on_%1_medium"}
 					{view pause "on_%1_slow"}
+					{view start "on_%1"}		;// presevers fx for non-tank vehicles
 				else velocity 15
 					{view pause "on_%1_fast"}
 					{view start "on_%1_medium"}
 					{view pause "on_%1_slow"}
-				else velocity 0.1
+					{view start "on_%1"}		;// presevers fx for non-tank vehicles
+				else velocity 5
 					{view pause "on_%1_fast"}
 					{view pause "on_%1_medium"}
 					{view start "on_%1_slow"}
+					{view start "on_%1"}		;// presevers fx for non-tank vehicles
+				else
+					{view pause "on_%1_fast"}
+					{view pause "on_%1_medium"}
+					{view pause "on_%1_slow"}
+					{view pause "on_%1"}		;// presevers fx for non-tank vehicles
 				}
-
 			}
 		)
 		("terrain_fx2" args "ground"		ground)
@@ -847,6 +854,7 @@
 		{add_view	"flash_gun_big"	"flashbarrel4"	"Foresight4"}
 		{add_view	"flash_gun_big"	"flashbarrel5"	"Foresight5"}
 		{add_view	"flash_gun_big"	"flashbarrel6"	"Foresight6"}
+		{add_view	"flash_gun_big"	"flashbarrel7"	"Foresight7"}
 		{add_view	"flash_gun_big"	"flashbarrel3"	"Foresight14"}
 	}
 
@@ -857,6 +865,50 @@
 			}
 		}
 	}
+	
+	(define "burst_stop"
+		{if not tagged "burst_stop_%mgun"
+			{tags add "burst_stop_%mgun"}
+			{delay 0.6 0.15
+				{weapon_work "%mgun" 0}
+				{delay 0.7 0.1
+					{weapon_work "%mgun" 1}
+					{tags remove "burst_stop_%mgun"}
+				}
+			}
+		}
+	)
+	(define "burst_stop_short"
+		{if not tagged "burst_stop_%mgun"
+			{tags add "burst_stop_%mgun"}
+			{delay 0.3 0.1
+				{weapon_work "%mgun" 0}
+				{delay 0.7 0.1
+					{if not tagged "commander_down"{weapon_work "%mgun" 1}}
+					{tags remove "burst_stop_%mgun"}
+				}
+			}
+		}
+	)
+
+	{on "burst_stop_mgun_short"
+		("burst_stop_short" mgun(mgun))
+	}
+	{on "burst_stop_mgun"
+		("burst_stop" mgun(mgun))
+	}
+	{on "burst_stop_mgun1"
+		("burst_stop" mgun(mgun1))
+	}
+	{on "burst_stop_mgun2"
+		("burst_stop" mgun(mgun2))
+	}
+	{on "burst_stop_mgun3"
+		("burst_stop" mgun(mgun3))
+	}
+	{on "burst_stop_mgun4"
+		("burst_stop" mgun(mgun4))
+	}
 
 	(define "on_fire_mgun"
 		{on fire "%0"
@@ -865,10 +917,15 @@
 					{call "fire"}
 				}
 			else
+				{play_sound "MG_Mid"}
+				{play_sound "MG_Far"}
 				{view start "%1"}
 				{delay 0.2
 					{view pause "%1"}
 				}
+			}
+			{if not tagged "full_auto_mode"
+				{call "burst_stop_%0"}
 			}
 		}
 	)
@@ -877,6 +934,7 @@
 	("on_fire_mgun" args mgun1 flashbarrel4)
 	("on_fire_mgun" args mgun2 flashbarrel5)
 	("on_fire_mgun" args mgun3 flashbarrel6)
+	("on_fire_mgun" args mgun4 flashbarrel7)
 
 	{on "zenite_terrain_fx"
 		{if not rain
@@ -1096,7 +1154,13 @@
 		{start_sound "vehicle/deploy/foxhole"}
 		{delay 5
 			{start_sound "vehicle/construction/entrench"}
-			{spawn %0 %1 x}
+			{if terrain_fx "ice"
+				{spawn %0 %1 x constrain_after_dir {tex_mod "win"}}
+			else terrain_fx "snow"
+				{spawn %0 %1 x constrain_after_dir {tex_mod "win"}}
+			else
+				{spawn %0 %1 x constrain_after_dir}
+			}
 			{call "activate_vehicle"}
 		}
 	)
@@ -1105,7 +1169,7 @@
 	}
 
 	{on "construction_sandbag_cannon_standard"
-		("cannon_sandbag" args "sandbag_structured_curved_big" "basis")
+		("cannon_sandbag" args "sandbag_cannon_standard" "basis")
 	}
 
 	;/*=========== Constructor End  ===========*/
@@ -1114,12 +1178,15 @@
 		{call "update_moveable"}
 		{if work "turret" {ik_enable "turret" 1}}
 		{if work "gun" {weapon_work "gun" 1}}
+		{if work "gun1" {weapon_work "gun1" 1}}
 		{if work "gun2 "{weapon_work "gun2" 1}}
+		{if work "gun3 "{weapon_work "gun3" 1}}
 		{weapon_work "mgun" 1}
 		{weapon_work "mgun1" 1}
 		{weapon_work "mgun2" 1}
 		{weapon_work "mgun3" 1}
-		{crew_enable group "gunner" 1}
+		{weapon_work "mgun4" 1}
+		{weapon_work "mgun5" 1}
 		{tags remove "deactivated"}
 	}
 
@@ -1131,28 +1198,38 @@
 		{chassis_work 0}
 		{ik_enable "turret" 0}
 		{weapon_work "gun" 0}
+		{weapon_work "gun1" 0}
 		{weapon_work "gun2" 0}
+		{weapon_work "gun3" 0}
 		{weapon_work "mgun" 0}
 		{weapon_work "mgun1" 0}
 		{weapon_work "mgun2" 0}
 		{weapon_work "mgun3" 0}
 		{weapon_work "mgun4" 0}
-		{crew_enable group "gunner" 0}
+		{weapon_work "mgun5" 0}
 		{tags add "deactivated"}
 	}
 
 	{on "emit_crew"
-		{delay 4 "emit1"
-			{crew_emit}
+		{delay 4
+			{if not tagged "_abandoned"
+				{crew_emit}
+			}
 		}
-		{delay 8 "emit2"
-			{crew_emit}
+		{delay 8
+			{if not tagged "_abandoned"
+				{crew_emit}
+			}
 		}
-		{delay 12 "emit3"
-			{crew_emit}
+		{delay 12
+			{if not tagged "_abandoned"
+				{crew_emit}
+			}
 		}
-		{delay 16 "emit4"
-			{crew_emit}
+		{delay 16
+			{if not tagged "_abandoned"
+				{crew_emit}
+			}
 		}
 	}
 
@@ -1165,14 +1242,10 @@
 	}
 
 	{on animation_event "open"					;// event created by animation
-		;{if animation playing forward
-			{play_sound "open"}
-		;}
+		{play_sound "open"}
 	}
 	{on animation_event "close"					;// event created by animation
-		;{if animation playing backward
-			{play_sound "close"}
-		;}
+		{play_sound "close"}
 	}
 	{on animation_event "open_driver"			;// event created by animation
 		{play_sound "open_driver"}
@@ -1209,10 +1282,87 @@
 			{bone cut %1}
 		}
 	)
+	(define "rand_cut_else_3"
+		{if rand 0.33
+			{bone cut %0}
+		else rand 0.33
+			{bone cut %1}
+		else
+			{bone cut %2}
+		}
+	)
+
+	(define "animation_sound"
+		{on animation_event %0
+			{play_sound %0}
+		}
+	)
 }
 
 ;/*=========== Vehicle End ===========*/
-
+{"switch_mgun_coax" ;if the unit has coax or main MG named "mgun" instead of "mgun2"
+	{on "burst_mode"
+		{if tagged "full_auto_mode_coax"
+			{tags remove "full_auto_mode_coax"}
+			{damage_report "mgun" "Unit changed to burst mode"}
+		else
+			{tags add "full_auto_mode_coax"}
+			{damage_report "mgun" "Unit changed to full auto mode"}
+		}
+	}
+}
+{"switch_mgun_special" ;if the unit has coax or main MG named "mgun" instead of "mgun2" and main gun is automatic but not zenite
+	{on "burst_mode"
+		{if tagged "full_auto_mode_coax"
+			{tags remove "full_auto_mode_coax"}
+			{damage_report "mgun" "Unit changed to burst mode"}
+		else
+			{tags add "full_auto_mode_coax"}
+			{damage_report "mgun" "Unit changed to full auto mode"}
+		}
+	}
+	{on fire "gun"
+		{if not tagged "full_auto_mode"
+			{call "burst_stop"}
+		}
+	}
+	{on "burst_stop"
+		{if not tagged "burst_stop"
+			{tags add "burst_stop"}
+			{delay 0.5 0.2
+				{weapon_work "gun" 0}
+				{delay 0.7 0.1
+					{weapon_work "gun" 1}
+					{tags remove "burst_stop"}
+				}
+			}
+		}
+	}
+}
+{"switch_mgun" ;if the unit has MG named "mgun2" which is not coax, usually halftracks with many machineguns, works for units with just 1 MG aswell and autocannon units
+	{on "burst_mode"
+		{if tagged "full_auto_mode"
+			{tags remove "full_auto_mode"}
+			{tags add "coax_burst_mode"}
+			{damage_report "mgun" "Unit changed to burst mode"}
+		else
+			{tags add "full_auto_mode"}
+			{tags remove "coax_burst_mode"}
+			{damage_report "mgun" "Unit changed to full auto mode"}
+		}
+	}
+}
+{"switch_cannon" ;if the unit has single cannon
+	{on "burst_mode"
+		{if tagged "full_auto_mode"
+			{tags remove "full_auto_mode"}
+			{damage_report "mgun" "Unit changed to burst mode"}
+		else
+			{tags add "full_auto_mode"}
+			{damage_report "mgun" "Unit changed to full auto mode"}
+		}
+	}
+}
 ;/*=========== General Props Begin ===========*/
 
 
@@ -1223,7 +1373,21 @@
 
 {"explosion_throw_crew vehicle"
 	{on "_explosion"
-		{crew_throw_off up 4 1 dir 5 1 turn 0 180 forward 2 rnd_die 0.5}
+		{call "crew_throw"}
+	}
+	
+	{on "crew_throw"
+		{crew_throw_off up 4 1 dir 5 1 turn 0 270 forward 2 rnd_die 1}
+	}
+
+	{on "break_all" overload
+		{drop_orders}
+		{components destroy}
+		{reset_manual_control}
+		{able select 0}
+		{able repaired 0}
+		{unlink_trailer}
+		{clear_inventory}
 	}
 }
 
@@ -1244,6 +1408,8 @@
 			{reset_manual_control}
 			{able "select" 0}
 			{call "engine_off"}
+			{call "stat_break"}
+			{able minimap 0}
 		else
 			{delay 0.5 "check_sinking"
 				{call "check_sinking"}
@@ -1253,6 +1419,7 @@
 	{on "check_water_level"
 		{if water_level 1.2
 			{able "sinking" 1}
+			{tags add "no_scavenge"}
 		else
 			{able "sinking" 0}
 		}
@@ -1272,6 +1439,11 @@
 				{tags add "gun_brake"}
 				{talk "broken_gun"}
 			}
+			{if component "gun1"
+				{call "update_gun"}
+				{tags add "gun1_brake"}
+				{talk "broken_gun"}
+			}
 		}
 	}
 	{on repair
@@ -1279,12 +1451,21 @@
 			{call "update_gun"}
 			{tags remove "gun_brake"}
 		}
+		{if component "gun1"
+			{call "update_gun"}
+			{tags remove "gun1_brake"}
+		}
 	}
 	{on "update_gun"
 		{if work "gun"
 			{weapon_work "gun" 1}
 		else
 			{weapon_work "gun" 0}
+		}
+		{if work "gun1"
+			{weapon_work "gun1" 1}
+		else
+			{weapon_work "gun1" 0}
 		}
 	}
 	{on ik begin "gun_rot"
@@ -1304,14 +1485,12 @@
 		{kill_delay "rotate_turret"}
 		{if not "rotate_turret"
 			{play_sound "rotate_turret" 1}
-			{play_sound "rotate_turret_INT" 1}
 			{set "rotate_turret" 1}
 		}
 	}
 	{on ik end "turret"
 		{delay 0.25 "rotate_turret"
 			{stop_sound "rotate_turret"}
-			{stop_sound "rotate_turret_INT"}
 			{set "rotate_turret" 0}
 		}
 	}
@@ -1319,7 +1498,6 @@
 		{if not crew_in_place "gunner"
 			{if "rotate_turret"
 				{stop_sound "rotate_turret"}
-				{stop_sound "rotate_turret_INT"}
 			}
 		}
 	}
@@ -1327,6 +1505,7 @@
 
 {"with_gun vehicle open_top"	;// Adds animation calls when aiming gun on open topped vehicles
 	{on "pre_cookoff" 		;//prevents open top vehicles from cooking off while they dont have animation
+		{tags add "ammo_broken"}
 		{call "explosion"}
 	}
 	{on ik begin "gun_rot" overload
@@ -1348,7 +1527,6 @@
 		{kill_delay "rotate_turret"}
 		{if not "rotate_turret"
 			{play_sound "rotate_turret" 1}
-			{play_sound "rotate_turret_INT" 1}
 			{set "rotate_turret" 1}
 			{ani_play "aim_h" loop resume}
 		}
@@ -1356,10 +1534,16 @@
 	{on ik end "turret" overload
 		{delay 0.25 "rotate_turret"
 			{stop_sound "rotate_turret"}
-			{stop_sound "rotate_turret_INT"}
 			{set "rotate_turret" 0}
 			{ani_stop "aim_h"}
 		}
+	}
+}
+
+{"with_gun vehicle no_cook"
+	{on "pre_cookoff" 		;//prevents open top vehicles from cooking off while they dont have animation
+		{tags add "ammo_broken"}
+		{call "explosion"}
 	}
 }
 
@@ -1376,15 +1560,18 @@
 				{if operatable
 					{tags remove "door_open"}
 					{ani_play "close_back" 1}
+					{call "close"}
 				}
 			}
 		else
 			{ani_play "open_back" 1}
 			{tags add "door_open"}
+			{call "open"}
 			{delay 5 "boarding"
 				{if operatable
 					{tags remove "door_open"}
 					{ani_play "close_back" 1}
+					{call "close"}
 				}
 			}
 		}
@@ -1411,6 +1598,9 @@
 	{on animation_end "dooropen"
 		{update_visibility_patch}
 	}
+	{on animation_end "open_back"
+		{update_visibility_patch}
+	}
 }
 
 {"open_without_land"
@@ -1420,9 +1610,12 @@
 	}
 	{on "close"
 		{ani_play "dooropen" -1 callback}
-		{ani_play "drift" loop}
+		{ani_play "drift" resume loop}
 	}
 	{on animation_end "dooropen"
+		{update_visibility_patch}
+	}
+	{on animation_end "close_back"
 		{update_visibility_patch}
 	}
 }
@@ -1460,15 +1653,25 @@
 		{add_view	"wash_front_norm"	"on_move"	"FX_bulb_norm_front2"}
 		{add_view	"wash_ship_motion_norm"	"on_move"	"FX_bulb_norm_front1"}
 		{add_view	"wash_ship_motion_norm"	"on_move"	"FX_bulb_norm_front2"}
-		{add_view	"wash_engine_small"	"on_move"	"FX_bulb_small_engine1"}
-		{add_view	"wash_engine_norm"	"on_move"	"FX_bulb_norm_engine1"}
+		{add_view	"wash_engine_small"		"on_move"	"FX_bulb_small_engine1"}
+		{add_view	"wash_engine_norm"		"on_move"	"FX_bulb_norm_engine1"}
+		{add_view	"wash_tank_prop"		"on_move"	"prop"}
+		{add_view	"wash_tank_prop_idle"	"on_stead"	"prop"}
+		{add_view	"wash_tank_prop"		"on_move"	"propeller1"}
+		{add_view	"wash_tank_prop_idle"	"on_stead"	"propeller1"}
+		{call "spawn_in_water"}
+	}
+	{on "spawn_in_water"
+		{if tagged "water_chassis"
+			{ani_wind "water" end}
+		}
 	}
 	{on terrain_pp "deep_water" enter
-		{set "in_water" 1}
+		;{set "in_water" 1}
 		{call "update_bulbs"}
 	}
 	{on terrain_pp "water" enter
-		{set "in_water" 1}
+		;{set "in_water" 1}
 		{call "update_bulbs"}
 	}
 	{on terrain_pp "shallow_water" enter
@@ -1476,11 +1679,11 @@
 		{call "update_bulbs"}
 	}
 	{on terrain_pp "shallow_water" leave
-		{set "in_water" 0}
+		;{set "in_water" 0}
 		{call "update_bulbs"}
 	}
 	{on "update_bulbs"
-		{if "in_water"
+		{if chassis "water"
 			{if not velocity 0.001
 				{view start "on_stead"}
 				{view pause "on_move"}
@@ -1495,13 +1698,27 @@
 			{view pause "on_move"}
 			{ani_stop "move"}
 		}
+		{call "deep_water_check"}
+	}
+	{on "deep_water_check"
+		{if chassis "water"
+			{if not tagged "water_chassis"
+				{ani_play "water"}
+				{tags add "water_chassis"}
+			}
+		else tagged "water_chassis"
+			{ani_play "water" -1}
+			{tags remove "water_chassis"}
+		}
 	}
 	{on "check_water_level" overload}
 	{on move on
 		{call "update_bulbs"}
 	}
 	{on move off
-		{call "update_bulbs"}
+		{delay 0.1
+			{call "update_bulbs"}
+		}
 	}
 }
 
@@ -1512,24 +1729,32 @@
 		{link_sound "end"		"weapon/shot/flame/vehicle/vehicle_flamer_stop"}
 	}
 	(define "flame_weapon"
-
 		{on fire "%0" overload
 			{spawn "fx_piece_flame_%1" "foresight%2" x
-				{impulse forward %3 rnd_dir 0.01} ;40
+				{impulse forward %3 rnd_dir 0.01 com}
 				{gravity 0.65}
 				{linear_damping 0}
 			}
-			{view start	"flame"}
+			{view start "%0"}
+			{delay 0.05
+				{spawn "fx_piece_flame_%1" "foresight%2" x
+					{impulse forward %3 rnd_dir 0.01 com}
+					{gravity 0.65}
+					{linear_damping 0}
+				}
+			}
 			{delay 0.1
-				{view pause	"flame"}
+				{view pause "%0"}
 			}
 			{if tagged "firing"
-				{call "play_shoot_loop"}
+				{if tagged "looping"
+					{play_sound "loop" 1}
+					{tags remove "looping"}
+				}
 			else
 				{play_sound "start"}
 				{tags add "looping"}
 			}
-
 			{tags add "firing"}
 			{delay 0.125
 				{tags remove "firing"}
@@ -1540,16 +1765,43 @@
 				}
 			}
 		}
-
-		{on "play_shoot_loop"
-			{if tagged "looping"
-				{play_sound "loop" 1}
-				{tags remove "looping"}
+	)
+}
+{"rocket vehicle"	;// disables rocket weaponry from working/firing while vehicle is moving
+	(define "rocket_weapon"
+		{on engine on
+			{weapon_work "%0" 0}
+		}
+		{on engine off
+			{if not tagged "%0_brake"
+				{if work "%0"
+					{weapon_work "%0" 1}
+				}
 			}
 		}
 	)
 }
-
+{"turn_over"
+	{on "upside_down"				;// when vehicle flips over
+		{tags add "upside_down"}
+		{area disable}
+	}
+	{on operatable on
+		{if tagged "upside_down"
+			{area enable}
+			{tags remove "upside_down"}
+		}
+	}
+	{on contact
+		{if tagged "upside_down"
+			{if not effector "human"
+				{if not effector "stuff"
+					{area enable}
+				}
+			}
+		}
+	}
+}
 ;/*=========== General Props End ===========*/
 
 {"diesel"	;// alternate fuel type
@@ -1559,14 +1811,27 @@
 	{on "add_exhaustview" overload
 		{add_view	"exhaust_dark_big_diesel"		"exhaust"			   "FXsmoke1"} ;// engine exhaust
 		{add_view	"exhaust_dark_big_diesel"		"exhaust"			   "FXsmoke2"} ;// engine exhaust
-		{add_view	"exhaust_dark_small2_diesel"	"exhaust2"			   "FXsmoke1"} ;// idle exhaust
-		{add_view	"exhaust_dark_small2_diesel"	"exhaust2"			   "FXsmoke2"} ;// idle exhaust
+		;{add_view	"exhaust_dark_small2_diesel"	"exhaust2"			   "FXsmoke1"} ;// idle exhaust
+		;{add_view	"exhaust_dark_small2_diesel"	"exhaust2"			   "FXsmoke2"} ;// idle exhaust
+		{add_view	"exhaust_dark_small2"			"exhaust2"			   "FXsmoke1"} ;// idle exhaust
+		{add_view	"exhaust_dark_small2"			"exhaust2"			   "FXsmoke2"} ;// idle exhaust
 	}
 }
-{"td"} 						;// used for minimap icons
-{"spg"} 					;// used for minimap icons
-{"sandbag_tank_near"} 		;// used for constructor
-{"sandbag_tank_far"} 		;// used for constructor
-{"cannon_sandbag_small"} 	;// used for constructor
-{"cannon_sandbag_standard"} ;// used for constructor
-{"no_sandbags"}		 		;// used for constructor
+
+{"no_scavenge"
+	{on spawn
+		{tags add "no_scavenge"}
+	}
+}
+{"no_recrew_logic"
+	{on spawn
+		{tags add "_no-recrew"} ;// used by AI mission scripts to not allow AI to recrew abandoned motorcycles
+	}
+}
+{"td"}						;// used for minimap icons
+{"spg"}						;// used for minimap icons
+{"sandbag_tank_near"}		;// used for constructor
+{"sandbag_tank_far"}		;// used for constructor
+{"cannon_sandbag_small"}	;// used for constructor
+{"cannon_sandbag_standard"}	;// used for constructor
+{"no_sandbags"}				;// used for constructor

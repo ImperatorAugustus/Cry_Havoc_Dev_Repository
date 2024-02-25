@@ -1,7 +1,0 @@
-{from "pattern smoke"
-	{desc "NbK 39 [<c(a6a6a6)>SMOKE</c>]"}
-	{tag "smoke launcher"}
-	{inventory {size 2 1}}
-	{entity "nbk39"}
-	{mass 1.5}
-}

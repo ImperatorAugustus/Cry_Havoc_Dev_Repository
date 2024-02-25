@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/_vehicle/flame_ot34"}
+	{bump "$/_vehicle/flame_ot34_bp"}
+	{specular "$/_vehicle/flame_ot34_sp"}
+	{color "255 255 255 25"}
+	{blend none}
+}

@@ -1,0 +1,1946 @@
+{mission
+	{Entity "flag_point_1" 0x802f
+		{Position -24.75 -48.78 24.92}
+		{xform zl 0.34}
+		{Placer
+			{State "ammo" {Unlinked}}
+		}
+		{Extender "map_point"
+			{name center1}
+			{zone
+				{radius 0}
+				{zoneId "f1"}
+			}
+			{phase 0}
+			{order 1}
+			{show All}
+			{visor MapPoint}
+			{allow
+				{enableCapture}
+				{enableRelease}
+			}
+		}
+		{Extender "fortification"
+			{level
+				{steps 2}
+				{radius 5}
+				{azimuth "+2"}
+				{buildTime 60}
+				{entity "sandbag_structured_curved"}
+			}
+			{level
+				{steps 1}
+				{radius 3}
+				{buildTime 60}
+				{entity "sandbag_framed_straight"}
+			}
+		}
+		{Player 0}
+		{MID 48}
+	}
+	{Entity "flag_point_3" 0x8011
+		{Position 255.25 -2755.05 -3.49}
+		{xform zl 89.79}
+		{Placer
+			{State "ammo" {Unlinked}}
+		}
+		{Extender "map_point"
+			{name team_b_back1}
+			{zone
+				{radius 0}
+				{zoneId "f3"}
+			}
+			{phase 0}
+			{order 3}
+			{show All}
+			{visor MapPoint}
+			{allow
+				{enableCapture}
+				{enableRelease}
+			}
+		}
+		{Extender "fortification"
+			{level
+				{steps 2}
+				{radius 5}
+				{azimuth "+2"}
+				{buildTime 60}
+				{entity "sandbag_structured_curved"}
+			}
+			{level
+				{steps 1}
+				{radius 3}
+				{buildTime 60}
+				{entity "sandbag_framed_straight"}
+			}
+		}
+		{Player 0}
+		{MID 17}
+	}
+	{Entity "flag_point_2" 0x8013
+		{Position -165.57 2814.63}
+		{xform zl -0.81}
+		{Placer
+			{State "ammo" {Unlinked}}
+		}
+		{Extender "map_point"
+			{name team_a_back1}
+			{zone
+				{radius 0}
+				{zoneId "f2"}
+			}
+			{phase 0}
+			{order 2}
+			{show All}
+			{visor MapPoint}
+			{allow
+				{enableCapture}
+				{enableRelease}
+			}
+		}
+		{Extender "fortification"
+			{level
+				{steps 2}
+				{radius 5}
+				{azimuth "+2"}
+				{buildTime 60}
+				{entity "sandbag_structured_straight"}
+			}
+			{level
+				{steps 1}
+				{radius 3}
+				{buildTime 60}
+				{entity "sandbag_framed_straight"}
+			}
+		}
+		{Player 0}
+		{MID 18}
+	}
+	{Entity "map_point" 0xc007
+		{Position -3999.52 3998.25}
+		{xform zl -45.25}
+		{Extender "map_point"
+			{name a1}
+			{team a}
+			{zone
+				{radius 0}
+				{zoneId ""}
+			}
+			{phase 0}
+			{order 1}
+			{visor SpawnPoint}
+			{allow
+				{enableCapture}
+				{enableRelease}
+			}
+		}
+		{Player 0}
+		{MID 9}
+	}
+	{Entity "map_point" 0x8005
+		{Position 4026.85 -3974.62}
+		{xform zl 135.12}
+		{Extender "map_point"
+			{name b1}
+			{team b}
+			{zone
+				{radius 0}
+				{zoneId ""}
+			}
+			{phase 0}
+			{order 1}
+			{visor SpawnPoint}
+			{allow
+				{enableCapture}
+				{enableRelease}
+			}
+		}
+		{Player 0}
+		{MID 4}
+	}
+	{Tags "bare" 0x4038}
+	{Tags "switch_right" 0x503c}
+	{Tags "switch_right" 0x61ad}
+	{Tags "switch_right" 0x5858}
+	{Tags "switch_right" 0x5105}
+	{Tags "flag" 0x802f}
+	{Tags "flag" 0x8011}
+	{Tags "flag" 0x8013}
+	{Environment "goh/multi/1v1_nevel/var1"}
+	{Helpers
+		{event "action"}
+		{event "ambient"}
+		{event "disabled"}
+		{event "gamestart"}
+		{event "init"}
+		{zone "poly"
+			{position 159.462 2.47147 45.798}
+			{Name "f1"}
+			{Point 951.21 -46.6404}
+			{Point 569.701 -484.22}
+			{Point 162.984 -853.485}
+			{Point -518.87 -1005.13}
+			{Point -1058.11 -544.865}
+			{Point -1087.34 29.8313}
+			{Point -221.316 1032.57}
+			{Point 366.517 1134.99}
+			{Point 835.229 736.957}
+		}
+		{zone "poly"
+			{position -60.4171 2984.49 25}
+			{Name "f2"}
+			{Point -86.1007 -855.319}
+			{Point -916.892 -34.3339}
+			{Point 75.1886 931.415}
+			{Point 927.804 -41.7627}
+		}
+		{zone "poly"
+			{position 91.5178 -2874.78 0}
+			{Name "f3"}
+			{Point -161.002 -875.603}
+			{Point -917.643 -101.036}
+			{Point 180.991 897.432}
+			{Point 897.654 79.2068}
+		}
+		{zone "poly"
+			{position -101.977 -217.772 18}
+			{Name "global"}
+			{Point -5673.65 -5247.54}
+			{Point -5410.28 5211.75}
+			{Point 5456.43 5294.24}
+			{Point 5627.5 -5258.45}
+		}
+		{reinforcements
+			{scoreTotal 0}
+			{scoreCurrent 0}
+		}
+		{vars
+			{"action_selection"}
+			{"ambient_selection"}
+			{"ambient"}
+			{"error"}
+			{"ai_on"}
+			{"user_nation"}
+			{"user_team"}
+			{"mp"}
+			(include "../bz_vars.inc")
+		}
+		{mission_options
+			{"any_weather"}
+			{"day_weather"}
+			{"night_weather"}
+		}
+		{triggers
+			(include "../bz_triggers.inc")
+			{"environment_any"
+				{condition
+					{terms
+						{"1.event"
+							{id "gamestart"}
+						}
+						{"2.mission_option"
+							{name "any_weather"}
+						}
+					}
+				}
+				{actions
+					{"switch"
+						{"case"
+							{condition
+								{type rand}
+								{value 0.2}
+							}
+							{"environment"
+								{name "goh/multi/1v1_nevel/var2"}
+								{time 1}
+								{apply}
+							}
+						}
+						{"case"
+							{condition
+								{type rand}
+								{value 0.2}
+							}
+							{"environment"
+								{name "goh/multi/1v1_nevel/var3"}
+								{time 1}
+								{apply}
+							}
+						}
+						{"case"
+							{condition
+								{type rand}
+								{value 0.08}
+							}
+							{"environment"
+								{name "goh/multi/1v1_nevel/varnight1"}
+								{time 1}
+								{apply}
+							}
+						}
+						{"case"
+							{condition
+								{type rand}
+								{value 0.08}
+							}
+							{"environment"
+								{name "goh/multi/1v1_nevel/varnight2"}
+								{time 1}
+								{apply}
+							}
+						}
+						{"case"
+							{condition
+								{type rand}
+								{value 0.08}
+							}
+							{"environment"
+								{name "goh/multi/1v1_nevel/varnight3"}
+								{time 1}
+								{apply}
+							}
+						}
+						{"default"}
+					}
+				}
+			}
+			{"environment_day"
+				{condition
+					{terms
+						{"1.event"
+							{id "gamestart"}
+						}
+						{"2.mission_option"
+							{name "day_weather"}
+						}
+					}
+				}
+				{actions
+					{"switch"
+						{"case"
+							{condition
+								{type rand}
+								{value 0.4}
+							}
+							{"environment"
+								{name "goh/multi/1v1_nevel/var2"}
+								{time 1}
+								{apply}
+							}
+						}
+						{"case"
+							{condition
+								{type rand}
+								{value 0.4}
+							}
+							{"environment"
+								{name "goh/multi/1v1_nevel/var3"}
+								{time 1}
+								{apply}
+							}
+						}
+						{"default"}
+					}
+				}
+			}
+			{"environment_night"
+				{condition
+					{terms
+						{"1.event"
+							{id "gamestart"}
+						}
+						{"2.mission_option"
+							{name "night_weather"}
+						}
+					}
+				}
+				{actions
+					{"switch"
+						{"case"
+							{condition
+								{type rand}
+								{value 0.4}
+							}
+							{"environment"
+								{name "goh/multi/1v1_nevel/varnight2"}
+								{time -1}
+								{apply}
+							}
+						}
+						{"case"
+							{condition
+								{type rand}
+								{value 0.4}
+							}
+							{"environment"
+								{name "goh/multi/1v1_nevel/varnight3"}
+								{time -1}
+								{apply}
+							}
+						}
+						{"default"
+							{"environment"
+								{name "goh/multi/1v1_nevel/varnight1"}
+								{time -1}
+								{apply}
+							}
+						}
+					}
+				}
+			}
+			{"start"
+				{condition
+				}
+				{actions
+					{"delay"
+						{time 0.1}
+					}
+					{"event"
+						{event "gamestart"}
+						{mode set}
+						{delay 0}
+					}
+					{"event"
+						{event "ambient"}
+						{mode set}
+						{delay 0}
+					}
+				}
+			}
+			{"music_new/action_playlist/action_theme_3"
+				{condition
+					{terms
+						{"1.event"
+							{id "disabled"}
+						}
+					}
+				}
+				{actions
+					{"delay"
+						{time 0.1}
+					}
+					{"music"
+						{start "/music/action_theme_3.wav"}
+						{volume game}
+						{fade 5}
+					}
+					{"delay"
+						{time 1}
+					}
+					{"trigger"
+						{name "music_new/action_playlist/action_theme_3"}
+					}
+				}
+			}
+			{"music_new/ambient_selection"
+				{condition
+					{expression "1 & (2|3)"}
+					{terms
+						{"1.event"
+							{id "gamestart"}
+						}
+						{"2.event"
+							{id "ambient"}
+						}
+						{"3.cmp_i"
+							{var "ambient$"}
+							{op ">="}
+							{value 20}
+						}
+					}
+				}
+				{actions
+					{"delay"
+						{time 0.1}
+					}
+					{"event"
+						{event "action"}
+						{mode reset}
+						{delay 0}
+					}
+					{"event"
+						{event "ambient"}
+						{mode set}
+						{delay 0}
+					}
+					{"delay"
+						{time 0.1}
+					}
+					{"trigger"
+						{name "music_new/music_fade"}
+						{on}
+					}
+					{"delay"
+						{time 0.1}
+					}
+					{"set_i"
+						{var "action_selection$"}
+						{op "="}
+						{value 0}
+					}
+					{"set_i"
+						{var "ambient$"}
+						{op "="}
+						{value 0}
+					}
+					{"delay"
+						{time 1}
+					}
+					{"trigger"
+						{name "music_new/action_selection "}
+					}
+					{"delay"
+						{time 0.1}
+					}
+					{"switch"
+						{"case"
+							{condition
+								{type cmp_i}
+								{var "ambient_selection$"}
+								{op "=="}
+								{value 0}
+							}
+							{"switch"
+								{"case"
+									{condition
+										{type rand}
+										{value 0.25}
+									}
+									{"set_i"
+										{var "ambient_selection$"}
+										{op "="}
+										{value 1}
+									}
+								}
+								{"case"
+									{condition
+										{type rand}
+										{value 0.25}
+									}
+									{"set_i"
+										{var "ambient_selection$"}
+										{op "="}
+										{value 2}
+									}
+								}
+								{"case"
+									{condition
+										{type rand}
+										{value 0.25}
+									}
+									{"set_i"
+										{var "ambient_selection$"}
+										{op "="}
+										{value 3}
+									}
+								}
+								{"case"
+									{condition
+										{type rand}
+										{value 0.33}
+									}
+									{"set_i"
+										{var "ambient_selection$"}
+										{op "="}
+										{value 4}
+									}
+								}
+								{"case"
+									{condition
+										{type rand}
+										{value 0.33}
+									}
+									{"set_i"
+										{var "ambient_selection$"}
+										{op "="}
+										{value 5}
+									}
+								}
+								{"case"
+									{condition
+										{type rand}
+										{value 0.5}
+									}
+									{"set_i"
+										{var "ambient_selection$"}
+										{op "="}
+										{value 6}
+									}
+								}
+								{"case"
+									{condition
+										{type rand}
+										{value 1}
+									}
+									{"set_i"
+										{var "ambient_selection$"}
+										{op "="}
+										{value 7}
+									}
+								}
+							}
+						}
+						{"case"
+							{condition
+								{type cmp_i}
+								{var "ambient_selection$"}
+								{op "<<"}
+								{value 7}
+							}
+							{"set_i"
+								{var "ambient_selection$"}
+								{op "+"}
+								{value 1}
+							}
+						}
+						{"case"
+							{condition
+								{type cmp_i}
+								{var "ambient_selection$"}
+								{op ">="}
+								{value 7}
+							}
+							{"switch"
+								{"case"
+									{condition
+										{type rand}
+										{value 0.25}
+									}
+									{"set_i"
+										{var "ambient_selection$"}
+										{op "="}
+										{value 1}
+									}
+								}
+								{"case"
+									{condition
+										{type rand}
+										{value 0.25}
+									}
+									{"set_i"
+										{var "ambient_selection$"}
+										{op "="}
+										{value 2}
+									}
+								}
+								{"case"
+									{condition
+										{type rand}
+										{value 0.25}
+									}
+									{"set_i"
+										{var "ambient_selection$"}
+										{op "="}
+										{value 3}
+									}
+								}
+								{"case"
+									{condition
+										{type rand}
+										{value 0.33}
+									}
+									{"set_i"
+										{var "ambient_selection$"}
+										{op "="}
+										{value 4}
+									}
+								}
+								{"case"
+									{condition
+										{type rand}
+										{value 0.33}
+									}
+									{"set_i"
+										{var "ambient_selection$"}
+										{op "="}
+										{value 5}
+									}
+								}
+								{"case"
+									{condition
+										{type rand}
+										{value 0.5}
+									}
+									{"set_i"
+										{var "ambient_selection$"}
+										{op "="}
+										{value 6}
+									}
+								}
+								{"case"
+									{condition
+										{type rand}
+										{value 1}
+									}
+									{"set_i"
+										{var "ambient_selection$"}
+										{op "="}
+										{value 7}
+									}
+								}
+							}
+						}
+					}
+					{"switch"
+						{"case"
+							{condition
+								{type cmp_i}
+								{var "ambient_selection$"}
+								{op "=="}
+								{value 1}
+							}
+							{"trigger"
+								{name "music_new/ambient_playlist/ambient_2"}
+								{on}
+							}
+							{"delay"
+								{time 105}
+							}
+							{"switch"
+								{"case"
+									{condition
+										{type cmp_i}
+										{var "ambient_selection$"}
+										{op "=="}
+										{value 1}
+									}
+									{"trigger"
+										{name "music_new/ambient_selection"}
+									}
+								}
+								{"default"}
+							}
+						}
+						{"case"
+							{condition
+								{type cmp_i}
+								{var "ambient_selection$"}
+								{op "=="}
+								{value 2}
+							}
+							{"trigger"
+								{name "music_new/ambient_playlist/ambient_4"}
+								{on}
+							}
+							{"delay"
+								{time 165}
+							}
+							{"switch"
+								{"case"
+									{condition
+										{type cmp_i}
+										{var "ambient_selection$"}
+										{op "=="}
+										{value 2}
+									}
+									{"trigger"
+										{name "music_new/ambient_selection"}
+									}
+								}
+								{"default"}
+							}
+						}
+						{"case"
+							{condition
+								{type cmp_i}
+								{var "ambient_selection$"}
+								{op "=="}
+								{value 3}
+							}
+							{"trigger"
+								{name "music_new/ambient_playlist/ger_ambient_lvl1"}
+								{on}
+							}
+							{"delay"
+								{time 135}
+							}
+							{"switch"
+								{"case"
+									{condition
+										{type cmp_i}
+										{var "ambient_selection$"}
+										{op "=="}
+										{value 3}
+									}
+									{"trigger"
+										{name "music_new/ambient_selection"}
+									}
+								}
+								{"default"}
+							}
+						}
+						{"case"
+							{condition
+								{type cmp_i}
+								{var "ambient_selection$"}
+								{op "=="}
+								{value 4}
+							}
+							{"trigger"
+								{name "music_new/ambient_playlist/intro_glushkovo"}
+								{on}
+							}
+							{"delay"
+								{time 22}
+							}
+							{"switch"
+								{"case"
+									{condition
+										{type cmp_i}
+										{var "ambient_selection$"}
+										{op "=="}
+										{value 4}
+									}
+									{"trigger"
+										{name "music_new/ambient_selection"}
+									}
+								}
+								{"default"}
+							}
+						}
+						{"case"
+							{condition
+								{type cmp_i}
+								{var "ambient_selection$"}
+								{op "=="}
+								{value 5}
+							}
+							{"trigger"
+								{name "music_new/ambient_playlist/intro_vyazma"}
+								{on}
+							}
+							{"delay"
+								{time 47}
+							}
+							{"switch"
+								{"case"
+									{condition
+										{type cmp_i}
+										{var "ambient_selection$"}
+										{op "=="}
+										{value 5}
+									}
+									{"trigger"
+										{name "music_new/ambient_selection"}
+									}
+								}
+								{"default"}
+							}
+						}
+						{"case"
+							{condition
+								{type cmp_i}
+								{var "ambient_selection$"}
+								{op "=="}
+								{value 6}
+							}
+							{"trigger"
+								{name "music_new/ambient_playlist/rus_ambient_lvl1"}
+								{on}
+							}
+							{"delay"
+								{time 90}
+							}
+							{"switch"
+								{"case"
+									{condition
+										{type cmp_i}
+										{var "ambient_selection$"}
+										{op "=="}
+										{value 6}
+									}
+									{"trigger"
+										{name "music_new/ambient_selection"}
+									}
+								}
+								{"default"}
+							}
+						}
+						{"case"
+							{condition
+								{type cmp_i}
+								{var "ambient_selection$"}
+								{op "=="}
+								{value 7}
+							}
+							{"trigger"
+								{name "music_new/ambient_playlist/action_theme2"}
+								{on}
+							}
+							{"delay"
+								{time 195}
+							}
+							{"switch"
+								{"case"
+									{condition
+										{type cmp_i}
+										{var "ambient_selection$"}
+										{op "=="}
+										{value 7}
+									}
+									{"trigger"
+										{name "music_new/ambient_selection"}
+									}
+								}
+								{"default"}
+							}
+						}
+						{"default"
+							{"trigger"
+								{name "music_new/ambient_selection"}
+							}
+						}
+					}
+				}
+			}
+			{"music_new/silent_timer"
+				{condition
+					{expression "1 & 2 & !3"}
+					{terms
+						{"1.event"
+							{id "gamestart"}
+						}
+						{"2.event"
+							{id "action"}
+						}
+						{"3.event"
+							{id "ambient"}
+						}
+					}
+				}
+				{actions
+					{"delay"
+						{time 4}
+					}
+					{"set_i"
+						{var "ambient$"}
+						{op "+"}
+						{value 4}
+					}
+					{"delay"
+						{time 0.1}
+					}
+					{"trigger"
+						{name "music_new/silent_timer"}
+					}
+				}
+			}
+			{"music_new/ambient_playlist/ambient_2"
+				{condition
+					{terms
+						{"1.event"
+							{id "disabled"}
+						}
+					}
+				}
+				{actions
+					{"delay"
+						{time 0.1}
+					}
+					{"music"
+						{start "/music/ambient_2.wav"}
+						{stop_all}
+						{volume game}
+						{fade 5}
+					}
+					{"delay"
+						{time 1}
+					}
+					{"trigger"
+						{name "music_new/ambient_playlist/ambient_2"}
+					}
+				}
+			}
+			{"music_new/ambient_playlist/ambient_4"
+				{condition
+					{terms
+						{"1.event"
+							{id "disabled"}
+						}
+					}
+				}
+				{actions
+					{"delay"
+						{time 0.1}
+					}
+					{"music"
+						{start "/music/ambient_4.wav"}
+						{volume game}
+						{fade 5}
+					}
+					{"delay"
+						{time 1}
+					}
+					{"trigger"
+						{name "music_new/ambient_playlist/ambient_4"}
+					}
+				}
+			}
+			{"music_new/ambient_playlist/ger_ambient_lvl1"
+				{condition
+					{terms
+						{"1.event"
+							{id "disabled"}
+						}
+					}
+				}
+				{actions
+					{"delay"
+						{time 0.1}
+					}
+					{"music"
+						{start "/music/ger_ambient_lvl1.wav"}
+						{volume game}
+						{fade 5}
+					}
+					{"delay"
+						{time 1}
+					}
+					{"trigger"
+						{name "music_new/ambient_playlist/ger_ambient_lvl1"}
+					}
+				}
+			}
+			{"music_new/ambient_playlist/intro_glushkovo"
+				{condition
+					{terms
+						{"1.event"
+							{id "disabled"}
+						}
+					}
+				}
+				{actions
+					{"delay"
+						{time 0.1}
+					}
+					{"music"
+						{start "/music/intro_glushkovo.wav"}
+						{volume game}
+						{fade 5}
+					}
+					{"delay"
+						{time 1}
+					}
+					{"trigger"
+						{name "music_new/ambient_playlist/intro_glushkovo"}
+					}
+				}
+			}
+			{"music_new/ambient_playlist/intro_vyazma"
+				{condition
+					{terms
+						{"1.event"
+							{id "disabled"}
+						}
+					}
+				}
+				{actions
+					{"delay"
+						{time 0.1}
+					}
+					{"music"
+						{start "/music/intro_vyazma.wav"}
+						{volume game}
+						{fade 5}
+					}
+					{"delay"
+						{time 1}
+					}
+					{"trigger"
+						{name "music_new/ambient_playlist/intro_vyazma"}
+					}
+				}
+			}
+			{"music_new/ambient_playlist/rus_ambient_lvl1"
+				{condition
+					{terms
+						{"1.event"
+							{id "disabled"}
+						}
+					}
+				}
+				{actions
+					{"delay"
+						{time 0.1}
+					}
+					{"music"
+						{start "/music/rus_ambient_lvl1.wav"}
+						{volume game}
+						{fade 5}
+					}
+					{"delay"
+						{time 1}
+					}
+					{"trigger"
+						{name "music_new/ambient_playlist/rus_ambient_lvl1"}
+					}
+				}
+			}
+			{"music_new/action_selection "
+				{condition
+					{expression "1 & (2|3)"}
+					{terms
+						{"1.event"
+							{id "gamestart"}
+						}
+						{"2.event"
+							{id "action"}
+						}
+						{"3.signal"
+							{zone "global"}
+							{signals "shot injure explosion"}
+						}
+					}
+				}
+				{actions
+					{"delay"
+						{time 0.1}
+					}
+					{"event"
+						{event "ambient"}
+						{mode reset}
+						{delay 0}
+					}
+					{"event"
+						{event "action"}
+						{mode set}
+						{delay 0}
+					}
+					{"delay"
+						{time 0.1}
+					}
+					{"trigger"
+						{name "music_new/music_fade"}
+						{on}
+					}
+					{"delay"
+						{time 0.1}
+					}
+					{"set_i"
+						{var "ambient_selection$"}
+						{op "="}
+						{value 0}
+					}
+					{"delay"
+						{time 1}
+					}
+					{"trigger"
+						{name "music_new/ambient_selection"}
+					}
+					{"delay"
+						{time 0.1}
+					}
+					{"switch"
+						{"case"
+							{condition
+								{type cmp_i}
+								{var "action_selection$"}
+								{op "=="}
+								{value 0}
+							}
+							{"switch"
+								{"case"
+									{condition
+										{type rand}
+										{value 0.25}
+									}
+									{"set_i"
+										{var "action_selection$"}
+										{op "="}
+										{value 1}
+									}
+								}
+								{"case"
+									{condition
+										{type rand}
+										{value 0.25}
+									}
+									{"set_i"
+										{var "action_selection$"}
+										{op "="}
+										{value 2}
+									}
+								}
+								{"case"
+									{condition
+										{type rand}
+										{value 0.25}
+									}
+									{"set_i"
+										{var "action_selection$"}
+										{op "="}
+										{value 3}
+									}
+								}
+								{"case"
+									{condition
+										{type rand}
+										{value 0.33}
+									}
+									{"set_i"
+										{var "action_selection$"}
+										{op "="}
+										{value 4}
+									}
+								}
+								{"case"
+									{condition
+										{type rand}
+										{value 0.33}
+									}
+									{"set_i"
+										{var "action_selection$"}
+										{op "="}
+										{value 5}
+									}
+								}
+								{"case"
+									{condition
+										{type rand}
+										{value 0.5}
+									}
+									{"set_i"
+										{var "action_selection$"}
+										{op "="}
+										{value 6}
+									}
+								}
+								{"case"
+									{condition
+										{type rand}
+										{value 1}
+									}
+									{"set_i"
+										{var "action_selection$"}
+										{op "="}
+										{value 7}
+									}
+								}
+							}
+						}
+						{"case"
+							{condition
+								{type cmp_i}
+								{var "action_selection$"}
+								{op "<<"}
+								{value 7}
+							}
+							{"set_i"
+								{var "action_selection$"}
+								{op "+"}
+								{value 1}
+							}
+						}
+						{"case"
+							{condition
+								{type cmp_i}
+								{var "action_selection$"}
+								{op ">="}
+								{value 7}
+							}
+							{"switch"
+								{"case"
+									{condition
+										{type rand}
+										{value 0.25}
+									}
+									{"set_i"
+										{var "action_selection$"}
+										{op "="}
+										{value 1}
+									}
+								}
+								{"case"
+									{condition
+										{type rand}
+										{value 0.25}
+									}
+									{"set_i"
+										{var "action_selection$"}
+										{op "="}
+										{value 2}
+									}
+								}
+								{"case"
+									{condition
+										{type rand}
+										{value 0.25}
+									}
+									{"set_i"
+										{var "action_selection$"}
+										{op "="}
+										{value 3}
+									}
+								}
+								{"case"
+									{condition
+										{type rand}
+										{value 0.33}
+									}
+									{"set_i"
+										{var "action_selection$"}
+										{op "="}
+										{value 4}
+									}
+								}
+								{"case"
+									{condition
+										{type rand}
+										{value 0.33}
+									}
+									{"set_i"
+										{var "action_selection$"}
+										{op "="}
+										{value 5}
+									}
+								}
+								{"case"
+									{condition
+										{type rand}
+										{value 0.5}
+									}
+									{"set_i"
+										{var "action_selection$"}
+										{op "="}
+										{value 6}
+									}
+								}
+								{"case"
+									{condition
+										{type rand}
+										{value 1}
+									}
+									{"set_i"
+										{var "action_selection$"}
+										{op "="}
+										{value 7}
+									}
+								}
+							}
+						}
+					}
+					{"switch"
+						{"case"
+							{condition
+								{type cmp_i}
+								{var "action_selection$"}
+								{op "=="}
+								{value 1}
+							}
+							{"trigger"
+								{name "music_new/action_playlist/action_theme_3"}
+								{on}
+							}
+							{"delay"
+								{time 165}
+							}
+							{"switch"
+								{"case"
+									{condition
+										{type cmp_i}
+										{var "action_selection$"}
+										{op "=="}
+										{value 1}
+									}
+									{"trigger"
+										{name "music_new/action_selection "}
+									}
+								}
+								{"default"}
+							}
+						}
+						{"case"
+							{condition
+								{type cmp_i}
+								{var "action_selection$"}
+								{op "=="}
+								{value 2}
+							}
+							{"trigger"
+								{name "music_new/action_playlist/ger_action_lvl3"}
+								{on}
+							}
+							{"delay"
+								{time 125}
+							}
+							{"switch"
+								{"case"
+									{condition
+										{type cmp_i}
+										{var "action_selection$"}
+										{op "=="}
+										{value 2}
+									}
+									{"trigger"
+										{name "music_new/action_selection "}
+									}
+								}
+								{"default"}
+							}
+						}
+						{"case"
+							{condition
+								{type cmp_i}
+								{var "action_selection$"}
+								{op "=="}
+								{value 3}
+							}
+							{"trigger"
+								{name "music_new/action_playlist/ger_battle_lvl1"}
+								{on}
+							}
+							{"delay"
+								{time 175}
+							}
+							{"switch"
+								{"case"
+									{condition
+										{type cmp_i}
+										{var "action_selection$"}
+										{op "=="}
+										{value 3}
+									}
+									{"trigger"
+										{name "music_new/action_selection "}
+									}
+								}
+								{"default"}
+							}
+						}
+						{"case"
+							{condition
+								{type cmp_i}
+								{var "action_selection$"}
+								{op "=="}
+								{value 4}
+							}
+							{"trigger"
+								{name "music_new/action_playlist/ger_battle_lvl2"}
+								{on}
+							}
+							{"delay"
+								{time 110}
+							}
+							{"switch"
+								{"case"
+									{condition
+										{type cmp_i}
+										{var "action_selection$"}
+										{op "=="}
+										{value 4}
+									}
+									{"trigger"
+										{name "music_new/action_selection "}
+									}
+								}
+							}
+						}
+						{"case"
+							{condition
+								{type cmp_i}
+								{var "action_selection$"}
+								{op "=="}
+								{value 5}
+							}
+							{"trigger"
+								{name "music_new/action_playlist/rus_battle_lvl1"}
+								{on}
+							}
+							{"delay"
+								{time 220}
+							}
+							{"switch"
+								{"case"
+									{condition
+										{type cmp_i}
+										{var "action_selection$"}
+										{op "=="}
+										{value 5}
+									}
+									{"trigger"
+										{name "music_new/action_selection "}
+									}
+								}
+							}
+						}
+						{"case"
+							{condition
+								{type cmp_i}
+								{var "action_selection$"}
+								{op "=="}
+								{value 6}
+							}
+							{"trigger"
+								{name "music_new/action_playlist/rus_battle_lvl2"}
+								{on}
+							}
+							{"delay"
+								{time 235}
+							}
+							{"switch"
+								{"case"
+									{condition
+										{type cmp_i}
+										{var "action_selection$"}
+										{op "=="}
+										{value 6}
+									}
+									{"trigger"
+										{name "music_new/action_selection "}
+									}
+								}
+							}
+						}
+						{"case"
+							{condition
+								{type cmp_i}
+								{var "action_selection$"}
+								{op "=="}
+								{value 7}
+							}
+							{"trigger"
+								{name "music_new/action_playlist/rus_battle_lvl3"}
+								{on}
+							}
+							{"delay"
+								{time 60}
+							}
+							{"switch"
+								{"case"
+									{condition
+										{type cmp_i}
+										{var "action_selection$"}
+										{op "=="}
+										{value 7}
+									}
+									{"trigger"
+										{name "music_new/action_selection "}
+									}
+								}
+							}
+						}
+						{"default"
+							{"trigger"
+								{name "music_new/action_selection "}
+							}
+						}
+					}
+				}
+			}
+			{"music_new/ambient_playlist/action_theme2"
+				{condition
+					{terms
+						{"1.event"
+							{id "disabled"}
+						}
+					}
+				}
+				{actions
+					{"delay"
+						{time 0.1}
+					}
+					{"music"
+						{start "/music/action_theme_2.wav"}
+						{volume game}
+						{fade 5}
+					}
+					{"delay"
+						{time 1}
+					}
+					{"trigger"
+						{name "music_new/ambient_playlist/action_theme2"}
+					}
+				}
+			}
+			{"music_new/action_playlist/ger_action_lvl3"
+				{condition
+					{terms
+						{"1.event"
+							{id "disabled"}
+						}
+					}
+				}
+				{actions
+					{"delay"
+						{time 0.1}
+					}
+					{"music"
+						{start "/music/ger_action_lvl3.wav"}
+						{volume game}
+						{fade 5}
+					}
+					{"delay"
+						{time 1}
+					}
+					{"trigger"
+						{name "music_new/action_playlist/ger_action_lvl3"}
+					}
+				}
+			}
+			{"music_new/action_playlist/ger_battle_lvl1"
+				{condition
+					{terms
+						{"1.event"
+							{id "disabled"}
+						}
+					}
+				}
+				{actions
+					{"delay"
+						{time 0.1}
+					}
+					{"music"
+						{start "/music/ger_battle_lvl1.wav"}
+						{volume game}
+						{fade 5}
+					}
+					{"delay"
+						{time 1}
+					}
+					{"trigger"
+						{name "music_new/action_playlist/ger_battle_lvl1"}
+					}
+				}
+			}
+			{"music_new/action_playlist/ger_battle_lvl2"
+				{condition
+					{terms
+						{"1.event"
+							{id "disabled"}
+						}
+					}
+				}
+				{actions
+					{"delay"
+						{time 0.1}
+					}
+					{"music"
+						{start "/music/ger_battle_lvl2.wav"}
+						{volume game}
+						{fade 5}
+					}
+					{"delay"
+						{time 1}
+					}
+					{"trigger"
+						{name "music_new/action_playlist/ger_battle_lvl2"}
+					}
+				}
+			}
+			{"music_new/action_playlist/rus_battle_lvl1"
+				{condition
+					{terms
+						{"1.event"
+							{id "disabled"}
+						}
+					}
+				}
+				{actions
+					{"delay"
+						{time 0.1}
+					}
+					{"music"
+						{start "/music/rus_battle_lvl1.wav"}
+						{volume game}
+						{fade 5}
+					}
+					{"delay"
+						{time 1}
+					}
+					{"trigger"
+						{name "music_new/action_playlist/rus_battle_lvl1"}
+					}
+				}
+			}
+			{"music_new/action_playlist/rus_battle_lvl2"
+				{condition
+					{terms
+						{"1.event"
+							{id "disabled"}
+						}
+					}
+				}
+				{actions
+					{"delay"
+						{time 0.1}
+					}
+					{"music"
+						{start "/music/rus_battle_lvl2.wav"}
+						{volume game}
+						{fade 5}
+					}
+					{"delay"
+						{time 1}
+					}
+					{"trigger"
+						{name "music_new/action_playlist/rus_battle_lvl2"}
+					}
+				}
+			}
+			{"music_new/action_playlist/rus_battle_lvl3"
+				{condition
+					{terms
+						{"1.event"
+							{id "disabled"}
+						}
+					}
+				}
+				{actions
+					{"delay"
+						{time 0.1}
+					}
+					{"music"
+						{start "/music/rus_battle_lvl3.wav"}
+						{volume game}
+						{fade 5}
+					}
+					{"delay"
+						{time 1}
+					}
+					{"trigger"
+						{name "music_new/action_playlist/rus_battle_lvl3"}
+					}
+				}
+			}
+			{"music_new/music_fade"
+				{condition
+					{terms
+						{"1.event"
+							{id "disabled"}
+						}
+					}
+				}
+				{actions
+					{"delay"
+						{time 0.1}
+					}
+					{"music"
+						{stop "/music/action_theme_3.wav"}
+						{volume game}
+						{fade 5}
+					}
+					{"delay"
+						{time 0.01}
+					}
+					{"music"
+						{stop "/music/ger_action_lvl3.wav"}
+						{volume game}
+						{fade 5}
+					}
+					{"delay"
+						{time 0.01}
+					}
+					{"music"
+						{stop "/music/ger_battle_lvl1.wav"}
+						{volume game}
+						{fade 5}
+					}
+					{"delay"
+						{time 0.01}
+					}
+					{"music"
+						{stop "/music/ger_battle_lvl2.wav"}
+						{volume game}
+						{fade 5}
+					}
+					{"delay"
+						{time 0.01}
+					}
+					{"music"
+						{stop "/music/rus_battle_lvl1.wav"}
+						{volume game}
+						{fade 5}
+					}
+					{"delay"
+						{time 0.01}
+					}
+					{"music"
+						{stop "/music/rus_battle_lvl2.wav"}
+						{volume game}
+						{fade 5}
+					}
+					{"delay"
+						{time 0.01}
+					}
+					{"music"
+						{stop "/music/rus_battle_lvl3.wav"}
+						{volume game}
+						{fade 5}
+					}
+					{"delay"
+						{time 0.1}
+					}
+					{"music"
+						{stop "/music/action_theme_2.wav"}
+						{volume game}
+						{fade 5}
+					}
+					{"delay"
+						{time 0.01}
+					}
+					{"music"
+						{stop "/music/ambient_2.wav"}
+						{volume game}
+						{fade 5}
+					}
+					{"delay"
+						{time 0.01}
+					}
+					{"music"
+						{stop "/music/ambient_4.wav"}
+						{volume game}
+						{fade 5}
+					}
+					{"delay"
+						{time 0.01}
+					}
+					{"music"
+						{stop "/music/ger_ambient_lvl1.wav"}
+						{volume game}
+						{fade 5}
+					}
+					{"delay"
+						{time 0.01}
+					}
+					{"music"
+						{stop "/music/intro_glushkovo.wav"}
+						{volume game}
+						{fade 5}
+					}
+					{"delay"
+						{time 0.01}
+					}
+					{"music"
+						{stop "/music/intro_vyazma.wav"}
+						{volume game}
+						{fade 5}
+					}
+					{"delay"
+						{time 0.01}
+					}
+					{"music"
+						{stop "/music/rus_ambient_lvl1.wav"}
+						{volume game}
+						{fade 5}
+					}
+					{"delay"
+						{time 0.1}
+					}
+					{"trigger"
+						{name "music_new/music_fade"}
+					}
+				}
+			}
+			{"music_new/silent_timer_reset"
+				{condition
+					{expression "1 & 2 & !3 & 4 & !5"}
+					{terms
+						{"1.event"
+							{id "gamestart"}
+						}
+						{"2.event"
+							{id "action"}
+						}
+						{"3.event"
+							{id "ambient"}
+						}
+						{"4.signal"
+							{zone "global"}
+							{signals "shot injure explosion"}
+						}
+						{"5.cmp_i"
+							{var "ambient$"}
+							{op "=="}
+							{value 0}
+						}
+					}
+				}
+				{actions
+					{"delay"
+						{time 0.1}
+					}
+					{"set_i"
+						{var "ambient$"}
+						{op "="}
+						{value 0}
+					}
+					{"delay"
+						{time 4}
+					}
+					{"trigger"
+						{name "music_new/silent_timer_reset"}
+					}
+				}
+			}
+			{"drumsound"
+				{condition
+					{terms
+						{"1.event"
+							{id "gamestart"}
+						}
+					}
+				}
+				{actions
+					{"sound"
+						{name "gui/matchmaking"}
+					}
+				}
+			}
+			{"notifications"
+				{condition
+					{terms
+						{"1.event"
+							{id "gamestart"}
+						}
+					}
+				}
+				{actions
+					{"delay"
+						{time 300}
+					}
+					{"sound"
+						{name "gui/level_up"}
+					}
+					{"delay"
+						{time 600}
+					}
+					{"sound"
+						{name "gui/level_up"}
+					}
+					{"delay"
+						{time 600}
+					}
+					{"sound"
+						{name "gui/level_up"}
+					}
+				}
+			}
+		}
+	}
+	{Players
+		{count 17}
+		{diplomacy
+			1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+		}
+	}
+	{Fog 0}
+	{EntityManager {Enabled}
+		{CountScale "x0.5"}
+	}
+}

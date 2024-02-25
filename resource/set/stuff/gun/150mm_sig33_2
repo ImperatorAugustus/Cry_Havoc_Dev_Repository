@@ -1,0 +1,32 @@
+;_________________________________________
+; German early-war heavy infantry support gun
+;=========================================
+
+
+{from "pattern gun"			; L/11 "grille_k"
+	{filling "bulletger_150_l11"}
+	{fireSound "gun/gun_122_152_short"}
+	{fireSoundclose "gun/gun_122_152_short"}
+	{reloadSound "tank/reload_howitzer"}
+	("heavy_artillery")
+	{calibre 150}
+	{range 280 280} ; // 4.7km
+
+	("reload time" seconds(25))
+
+	("velocity m/s" ap(1) apcr(1) he(178) heat(280))
+	("armor health" damage(450))
+	("85-155_slope_multipliers")
+
+	; Gr.39 Hl/A
+	("penetration_medium" shell(heat) range(170) a(185) b(185) c(185) d(185) e(185))
+
+	("accuracy_indirect"   ; // Applies logic for accuracy of indirect weapons over 200m
+		r1(1.25) 				; // Accuracy radius for direct-fire munitions
+		r2(8.25) 				; // Accuracy radius for indirect fire
+		rmax(22) 				; // Accuracy radius for indirect fire at maximum range
+		range_ap(170) 			; // Range after which accuracy drops to prevent farshooting.
+		range_heat(170) 		; // Range after which accuracy drops to prevent farshooting.
+		range_he(280)			; // Range after which accuracy drops to prevent farshooting.
+	)
+}

@@ -1,0 +1,682 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Gates of Hell Squads\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+msgctxt "desc/squad/conquest_p47"
+msgid "P47 500lb Bomb"
+msgstr ""
+
+msgctxt "desc/squad/conquest_p47_light"
+msgid "P47 100lb Bomb"
+msgstr ""
+
+msgctxt "desc/squad/conquest_p47_recon"
+msgid "P47 Recon"
+msgstr ""
+
+msgctxt "desc/squad/squad_101st_con(usa)"
+msgid "101st Airborne Squad"
+msgstr ""
+
+
+msgctxt "desc/squad/squad_mp_mid_all(usa)"
+msgid "Military Police Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_cav_mid_all(usa)"
+msgid "Cavalry Recon Section"
+msgstr ""
+
+msgctxt "desc/squad/squad_1st_rifle_mid_all_1(usa)"
+msgid "1st.Div Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_1st_rifle_mid_all_2(usa)"
+msgid "1st.Div Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_1st_rifle_mid_all_3(usa)"
+msgid "1st.Div Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_2nd_arm_rifle_mech_mid_all_1(usa)"
+msgid "2nd.AD Rifle Squad (Mounted)"
+msgstr ""
+
+msgctxt "desc/squad/squad_2nd_arm_rifle_mech_mid_all_2(usa)"
+msgid "2nd.AD Rifle Squad (Mounted)"
+msgstr ""
+
+msgctxt "desc/squad/squad_2nd_arm_rifle_mech_mid_all_3(usa)"
+msgid "2nd.AD Rifle Squad (Mounted)"
+msgstr ""
+
+msgctxt "desc/squad/squad_vet_rifle_mid_all_1(usa)"
+msgid "Veteran Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_vet_rifle_mid_all_2(usa)"
+msgid "Veteran Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_vet_rifle_mid_all_3(usa)"
+msgid "Veteran Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_ranger_assault_mid_all_1(usa)"
+msgid "Ranger Assault Section (Substitute)"
+msgstr ""
+
+msgctxt "desc/squad/squad_ranger_assault_mid_all_2(usa)"
+msgid "Ranger Assault Section (Substitute)"
+msgstr ""
+
+msgctxt "desc/squad/squad_ranger_assault_mg_mid_all_1(usa)"
+msgid "Ranger Assault Section (MG)"
+msgstr ""
+
+msgctxt "desc/squad/squad_ranger_assault_mg_mid_all_2(usa)"
+msgid "Ranger Assault Section (MG)"
+msgstr ""
+
+
+
+msgctxt "desc/squad/squad_45th_rifle_mid_def(usa)"
+msgid "45th.Div Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_eng_recon_mid_def(usa)"
+msgid "Engineer Recon Section"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_mid_def_1(usa)"
+msgid "Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_mid_def_2(usa)"
+msgid "Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_mid_def_3(usa)"
+msgid "Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_eng_mid_def(usa)"
+msgid "Engineer Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_82nd_glider_pio_mid_def(usa)"
+msgid "82nd Glider Pioneer Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_82nd_glider_mid_def_1(usa)"
+msgid "82nd Glider Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_82nd_glider_mid_def_2(usa)"
+msgid "82nd Glider Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_82nd_glider_mid_def_3(usa)"
+msgid "82nd Glider Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_82nd_eng_mid_def(usa)"
+msgid "82nd Airborne Engineer Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_82nd_mid_def_1(usa)"
+msgid "82nd Airborne Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_82nd_mid_def_2(usa)"
+msgid "82nd Airborne Squad"
+msgstr ""
+
+
+
+msgctxt "desc/squad/squad_mp_mid_irr(usa)"
+msgid "Military Police Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_mid_irr_1(usa)"
+msgid "Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_mid_irr_2(usa)"
+msgid "Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_mid_irr_3(usa)"
+msgid "Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_82nd_glider_pio_mid_irr(usa)"
+msgid "82nd Glider Pioneer Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_82nd_glider_mid_irr_1(usa)"
+msgid "82nd Glider Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_82nd_glider_mid_irr_2(usa)"
+msgid "82nd Glider Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_82nd_glider_mid_irr_3(usa)"
+msgid "82nd Glider Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_82nd_recon_mid_irr(usa)"
+msgid "82nd Airborne Recon Team"
+msgstr ""
+
+msgctxt "desc/squad/squad_82nd_eng_mid_irr(usa)"
+msgid "82nd Airborne Engineer Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_82nd_mid_irr_1(usa)"
+msgid "82nd Airborne Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_82nd_mid_irr_2(usa)"
+msgid "82nd Airborne Squad"
+msgstr ""
+
+
+
+msgctxt "desc/squad/squad_mp_mid_off(usa)"
+msgid "Military Police Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_1st_arm_recon_mid_off(usa)"
+msgid "1st.AD Recon Team"
+msgstr ""
+
+msgctxt "desc/squad/squad_1st_arm_rifle_mid_off_1(usa)"
+msgid "1st.AD Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_1st_arm_rifle_mid_off_2(usa)"
+msgid "1st.AD Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_1st_arm_rifle_mid_off_3(usa)"
+msgid "1st.AD Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_1st_arm_rifle_mech_mid_off_1(usa)"
+msgid "1st.AD Rifle Squad (Mounted)"
+msgstr ""
+
+msgctxt "desc/squad/squad_1st_arm_rifle_mech_mid_off_2(usa)"
+msgid "1st.AD Rifle Squad (Mounted)"
+msgstr ""
+
+msgctxt "desc/squad/squad_1st_arm_rifle_mech_mid_off_3(usa)"
+msgid "1st.AD Rifle Squad (Mounted)"
+msgstr ""
+
+msgctxt "desc/squad/squad_vet_rifle_mid_off_1(usa)"
+msgid "Veteran Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_vet_rifle_mid_off_2(usa)"
+msgid "Veteran Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_vet_rifle_mid_off_3(usa)"
+msgid "Veteran Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_ranger_assault_mid_off_1(usa)"
+msgid "Ranger Assault Section (Substitute)"
+msgstr ""
+
+msgctxt "desc/squad/squad_ranger_assault_mid_off_2(usa)"
+msgid "Ranger Assault Section (Substitute)"
+msgstr ""
+
+msgctxt "desc/squad/squad_ranger_assault_mg_mid_off_1(usa)"
+msgid "Ranger Assault Section (MG)"
+msgstr ""
+
+msgctxt "desc/squad/squad_ranger_assault_mg_mid_off_2(usa)"
+msgid "Ranger Assault Section (MG)"
+msgstr ""
+
+
+
+
+
+
+
+
+msgctxt "desc/squad/squad_mp_late_all(usa)"
+msgid "Military Police Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_cav_late_all_1(usa)"
+msgid "Cavalry Recon Team"
+msgstr ""
+
+msgctxt "desc/squad/squad_cav_late_all_2(usa)"
+msgid "Cavalry Recon Team"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_late_all_1(usa)"
+msgid "Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_late_all_2(usa)"
+msgid "Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_late_all_3(usa)"
+msgid "Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_1st_rifle_late_all_1(usa)"
+msgid "1st.Div Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_1st_rifle_late_all_2(usa)"
+msgid "1st.Div Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_1st_rifle_late_all_3(usa)"
+msgid "1st.Div Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_ranger_assault_sub_late_all(usa)"
+msgid "Ranger Assault Section (Substitute)"
+msgstr ""
+
+msgctxt "desc/squad/squad_ranger_assault_late_all(usa)"
+msgid "Ranger Assault Section (MG)"
+msgstr ""
+
+msgctxt "desc/squad/squad_ranger_special_late_all(usa)"
+msgid "Ranger Special Weapons Section"
+msgstr ""
+
+
+
+msgctxt "desc/squad/squad_mp_late_def(usa)"
+msgid "Military Police Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_cav_late_def_1(usa)"
+msgid "Cavalry Recon Team"
+msgstr ""
+
+msgctxt "desc/squad/squad_cav_late_def_2(usa)"
+msgid "Cavalry Recon Team"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_late_def_1(usa)"
+msgid "Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_late_def_2(usa)"
+msgid "Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_late_def_3(usa)"
+msgid "Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_eng_late_def_1(usa)"
+msgid "Engineer Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_eng_late_def_2(usa)"
+msgid "Engineer Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_vet_rifle_late_def_1(usa)"
+msgid "Veteran Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_vet_rifle_late_def_2(usa)"
+msgid "Veteran Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_vet_rifle_late_def_3(usa)"
+msgid "Veteran Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_101st_glider_late_def_1(usa)"
+msgid "101st Glider Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_101st_glider_late_def_2(usa)"
+msgid "101st Glider Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_101st_glider_late_def_3(usa)"
+msgid "101st Glider Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_101st_eng_late_def(usa)"
+msgid "101st Airborne Engineer Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_101st_late_def_1(usa)"
+msgid "101st Airborne Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_101st_late_def_2(usa)"
+msgid "101st Airborne Squad"
+msgstr ""
+
+
+
+
+msgctxt "desc/squad/squad_mp_late_irr(usa)"
+msgid "Military Police Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_cav_late_irr_1(usa)"
+msgid "Cavalry Recon Team"
+msgstr ""
+
+msgctxt "desc/squad/squad_cav_late_irr_2(usa)"
+msgid "Cavalry Recon Team"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_late_irr_1(usa)"
+msgid "29th.Div Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_late_irr_2(usa)"
+msgid "29th.Div Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_late_irr_3(usa)"
+msgid "29th.Div Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_82nd_glider_pio_late_irr(usa)"
+msgid "82nd Glider Pioneer Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_82nd_glider_late_irr_1(usa)"
+msgid "82nd Glider Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_82nd_glider_late_irr_2(usa)"
+msgid "82nd Glider Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_82nd_glider_late_irr_3(usa)"
+msgid "82nd Glider Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_82nd_recon_late_irr(usa)"
+msgid "82nd Airborne Recon Team"
+msgstr ""
+
+msgctxt "desc/squad/squad_82nd_demo_late_irr(usa)"
+msgid "82nd Airborne Demolitions Section"
+msgstr ""
+
+msgctxt "desc/squad/squad_82nd_late_irr_1(usa)"
+msgid "82nd Airborne Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_82nd_late_irr_2(usa)"
+msgid "82nd Airborne Squad"
+msgstr ""
+
+
+
+
+msgctxt "desc/squad/squad_arm_recon_late_off(usa)"
+msgid "Armored Recon Team"
+msgstr ""
+
+msgctxt "desc/squad/squad_arm_rifle_late_off_1(usa)"
+msgid "Armored Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_arm_rifle_late_off_2(usa)"
+msgid "Armored Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_arm_rifle_late_off_3(usa)"
+msgid "Armored Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_arm_rifle_mech_late_off_1(usa)"
+msgid "Armored Rifle Squad (Mounted)"
+msgstr ""
+
+msgctxt "desc/squad/squad_arm_rifle_mech_late_off_2(usa)"
+msgid "Armored Rifle Squad (Mounted)"
+msgstr ""
+
+msgctxt "desc/squad/squad_arm_rifle_mech_late_off_3(usa)"
+msgid "Armored Rifle Squad (Mounted)"
+msgstr ""
+
+msgctxt "desc/squad/squad_1st_arm_recon_late_off(usa)"
+msgid "1st.AD Recon Team"
+msgstr ""
+
+msgctxt "desc/squad/squad_1st_arm_rifle_late_off_1(usa)"
+msgid "1st.AD Rifle Squad (Mounted)"
+msgstr ""
+
+msgctxt "desc/squad/squad_1st_arm_rifle_late_off_2(usa)"
+msgid "1st.AD Rifle Squad (Mounted)"
+msgstr ""
+
+msgctxt "desc/squad/squad_1st_arm_rifle_late_off_3(usa)"
+msgid "1st.AD Rifle Squad (Mounted)"
+msgstr ""
+
+msgctxt "desc/squad/squad_10th_mountain_late_off_1(usa)"
+msgid "10th Mountain Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_10th_mountain_late_off_2(usa)"
+msgid "10th Mountain Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_10th_mountain_late_off_3(usa)"
+msgid "10th Mountain Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_ranger_assault_sub_late_off(usa)"
+msgid "Ranger Assault Section (Substitute)"
+msgstr ""
+
+msgctxt "desc/squad/squad_ranger_assault_late_off(usa)"
+msgid "Ranger Assault Section (MG)"
+msgstr ""
+
+msgctxt "desc/squad/squad_ranger_special_late_off(usa)"
+msgid "Ranger Special Weapons Section"
+msgstr ""
+
+
+
+
+
+msgctxt "desc/squad/single_rifle(usa)"
+msgid "Rifleman"
+msgstr ""
+
+msgctxt "desc/squad/single_smg(usa)"
+msgid "SMG Inf."
+msgstr ""
+
+msgctxt "desc/squad/single_mg(usa)"
+msgid "Automatic Rifleman Team"
+msgstr ""
+
+msgctxt "desc/squad/single_at(usa)"
+msgid "AT Team"
+msgstr ""
+
+msgctxt "desc/squad/single_at_con(usa)"
+msgid "M1 Bazooka AT Team"
+msgstr ""
+
+msgctxt "desc/squad/single_at1_con(usa)"
+msgid "M1A1 Bazooka AT Team"
+msgstr ""
+
+msgctxt "desc/squad/single_at2_con(usa)"
+msgid "M9 Bazooka AT Team"
+msgstr ""
+
+msgctxt "desc/squad/single_at3_con(usa)"
+msgid "M9A1 Bazooka AT Team"
+msgstr ""
+
+msgctxt "desc/squad/single_riflegrenade(usa)"
+msgid "AT Rifle Grenadiers"
+msgstr ""
+
+msgctxt "desc/squad/single_riflegrenade_con(usa)"
+msgid "M1903 AT Rifle Grenadiers"
+msgstr ""
+
+msgctxt "desc/squad/single_riflegrenade2_con(usa)"
+msgid "M1 AT Rifle Grenadiers"
+msgstr ""
+
+msgctxt "desc/squad/single_ap_miner(usa)"
+msgid "AP Miners"
+msgstr ""
+
+msgctxt "desc/squad/single_at_miner(usa)"
+msgid "AT Miners"
+msgstr ""
+
+msgctxt "desc/squad/single_engineer(usa)"
+msgid "Engineers"
+msgstr ""
+
+msgctxt "desc/squad/single_flamer(usa)"
+msgid "Flamer"
+msgstr ""
+
+msgctxt "desc/squad/single_tankman(usa)"
+msgid "Tank Crew"
+msgstr ""
+
+msgctxt "desc/squad/single_medic(usa)"
+msgid "Medic"
+msgstr ""
+
+msgctxt "desc/squad/single_sniper(usa)"
+msgid "Sniper"
+msgstr ""
+
+msgctxt "desc/squad/single_officer(usa)"
+msgid "Officer"
+msgstr ""
+
+msgctxt "desc/squad/squad_officer_con(usa)"
+msgid "Infantry Platoon HQ"
+msgstr ""
+
+msgctxt "desc/squad/squad_officer_m3a1_commander_con"
+msgid "Cavalry Platoon HQ"
+msgstr ""
+
+msgctxt "desc/squad/squad_officer_m3a1_halftrack_con"
+msgid "Armored Company HQ"
+msgstr ""
+
+msgctxt "desc/squad/squad_mp_con(usa)"
+msgid "Military Police Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_45th_rifle_con(usa)"
+msgid "45th Div Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_1st_arm_recon_con(usa)"
+msgid "1st.AD Recon Team"
+msgstr ""
+
+msgctxt "desc/squad/squad_cav_late_con1(usa)"
+msgid "Cavalry Recon Team (M1919)"
+msgstr ""
+
+msgctxt "desc/squad/squad_cav_late_con2(usa)"
+msgid "Cavalry Recon Team (M2HB)"
+msgstr ""
+
+msgctxt "desc/squad/squad_82nd_recon_con(usa)"
+msgid "82nd Recon Team"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_con(usa)"
+msgid "Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_1st_arm_rifle_con(usa)"
+msgid "1st.AD Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_1st_arm_rifle_mech_con(usa)"
+msgid "1st.AD Rifle Squad (Mounted)"
+msgstr ""
+
+msgctxt "desc/squad/squad_eng_con(usa)"
+msgid "Engineer Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_eng_mech_con(usa)"
+msgid "Engineer Squad (Mounted)"
+msgstr ""
+
+msgctxt "desc/squad/squad_vet_rifle_con(usa)"
+msgid "Veteran Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_82nd_glider_con(usa)"
+msgid "82nd Glider Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_82nd_glider_pio_con(usa)"
+msgid "82nd Glider Pioneer Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_ranger_assault_con(usa)"
+msgid "Ranger Assault Section"
+msgstr ""
+
+msgctxt "desc/squad/squad_ranger_assault_mg_con(usa)"
+msgid "Ranger Assault Section (MG)"
+msgstr ""
+
+msgctxt "desc/squad/squad_82nd_con(usa)"
+msgid "82nd Airborne Squad (MG)"
+msgstr ""
+
+msgctxt "desc/squad/squad_82nd_eng_con(usa)"
+msgid "82nd Airborne Engineer Squad"
+msgstr ""
+
+msgctxt "desc/squad/1st_special_con(usa)"
+msgid "1st Special Combat Section"
+msgstr ""
+
+
+

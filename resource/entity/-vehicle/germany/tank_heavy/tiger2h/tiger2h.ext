@@ -8,25 +8,25 @@
 
 	("tank_heavy_tier2")
 
-	("shield" args "shield1" 30)
-	("shield" args "shield2" 30)
-	("shield" args "shield3" 30)
-	("shield" args "shield4" 30)
-	("shield" args "shield5" 30)
-	("shield" args "shield6" 30)
-	("shield" args "shield7" 30)
-	("shield" args "shield8" 30)
+	("shield_track" args "shield1" 30)		;// 30
+	("shield_track" args "shield2" 30)		;// 30
+	("shield_track" args "shield3" 30)		;// 30
+	("shield_track" args "shield4" 30)		;// 30
+	("shield_track" args "shield5" 30)		;// 30
+	("shield_track" args "shield6" 30)		;// 30
+	("shield_track" args "shield7" 30)		;// 30
+	("shield_track" args "shield8" 30)		;// 30
 
-	("shield" args "shieldL1" 5)
-	("shield" args "shieldL2" 5)
-	("shield" args "shieldL3" 5)
-	("shield" args "shieldL4" 5)
-	("shield" args "shieldL5" 5)
-	("shield" args "shieldR1" 5)
-	("shield" args "shieldR2" 5)
-	("shield" args "shieldR3" 5)
-	("shield" args "shieldR4" 5)
-	("shield" args "shieldR5" 5)
+	("shield_tear" args "shieldL1" 5)
+	("shield_tear" args "shieldL2" 5)
+	("shield_tear" args "shieldL3" 5)
+	("shield_tear" args "shieldL4" 5)
+	("shield_tear" args "shieldL5" 5)
+	("shield_tear" args "shieldR1" 5)
+	("shield_tear" args "shieldR2" 5)
+	("shield_tear" args "shieldR3" 5)
+	("shield_tear" args "shieldR4" 5)
+	("shield_tear" args "shieldR5" 5)
 
 	("tracks" repair(30) thickness(30))
 	("gun" repair(30) thickness(30))
@@ -47,7 +47,7 @@
 			{rear 25}
 			{bottom 25}
 		}
-		{Quality "large_flaw"}
+		;{Quality "large_flaw"}
 	}
 	{volume "body2"			; Superstructure
 		{thickness 80
@@ -56,7 +56,7 @@
 			{rear 25}
 			{bottom 25}		; Overhang (above tracks)
 		}
-		{Quality "large_flaw"}
+		;{Quality "large_flaw"}
 	}
 	{volume "engine1"		; Hull
 		{thickness 80
@@ -65,7 +65,7 @@
 			{top 25}
 			{bottom 25}
 		}
-		{Quality "large_flaw"}
+		;{Quality "large_flaw"}
 	}
 	{volume "engine2"		; Superstructure
 		{thickness 80
@@ -74,30 +74,30 @@
 			{rear 80}
 			{bottom 25}		; Overhang (above tracks)
 		}
-		{Quality "large_flaw"}
+		;{Quality "large_flaw"}
 	}
-	{volume "turret"		; Main Turret
+	{volume "turret1"		; Main Turret
 		{thickness 80
 			{front 185}
 			{top 40}
 			{bottom 40}
 		}
-		{Quality "large_flaw"}
+		;{Quality "large_flaw"}
 	}
-	{volume "turret1"		; Turret Ring
+	{volume "turret2"		; Turret Ring
 		{thickness 80
 			{front 185}
 			{top 25}
 			{bottom 25}
 			{rear 30}
 		}
-		{Quality "large_flaw"}
+		;{Quality "large_flaw"}
 	}
 	{volume "mantlet"
-		{thickness 200
-			{front 300}
+		{thickness 110
+			{front 200}
 		}
-		{Quality "large_flaw"}
+		;{Quality "large_flaw"}
 		{CastSteel 0.8063}
 	}
 	{volume "cupola"
@@ -105,12 +105,13 @@
 			{top 40}
 			{bottom 25}
 		}
-		{Quality "large_flaw"}
+		;{Quality "large_flaw"}
 		{CastSteel 0.8063}
 	}
+
 	{volume "mg_port"
 		{thickness 150}
-		{Quality "large_flaw"}
+		;{Quality "large_flaw"}
 		{CastSteel 0.8063}
 		{component "body"}
 	}
@@ -123,15 +124,3 @@
 	{component "shield6" {tags "cut_part"}}
 	{component "shield7" {tags "cut_part"}}
 	{component "shield8" {tags "cut_part"}}
-
-	{component "shieldl1" {tags "cut_part"}}
-	{component "shieldl2" {tags "cut_part"}}
-	{component "shieldl3" {tags "cut_part"}}
-	{component "shieldl4" {tags "cut_part"}}
-	{component "shieldl5" {tags "cut_part"}}
-
-	{component "shieldr1" {tags "cut_part"}}
-	{component "shieldr2" {tags "cut_part"}}
-	{component "shieldr3" {tags "cut_part"}}
-	{component "shieldr4" {tags "cut_part"}}
-	{component "shieldr5" {tags "cut_part"}}

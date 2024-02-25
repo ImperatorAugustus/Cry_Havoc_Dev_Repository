@@ -1,4 +1,0 @@
-{from "pattern antitank"
-	{desc "TMi 35 [<c(ff1200)>HE</c>-AT]"}
-	{entity "mine_tmi_35"}
-}

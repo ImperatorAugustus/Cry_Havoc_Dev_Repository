@@ -1,11 +1,9 @@
 {from "pattern hmgun"
-	{desc "DShK 38"}
-	{tag "DShK38"}
 	{inventory {size 7 3}}
-	{filling "ammo hmgun_rus" 50}
+	{filling "hmgun_rus" 50}
 	{entity "dshk"}
-	{fireSound	"small_arms/RUS/DShK/close/"}
-	{fireSoundclose	"small_arms/RUS/DShK/3p/"}
+	{fireSound "smallarms/s4/d1/RUS/DShK38/"}
+	{fireSoundClose "smallarms/s4/d1/RUS/DShK38/"}
 	{reloadSound "dt"}
 	{calibre 12.7}
 	{mass 34}
@@ -13,17 +11,17 @@
 	("fire rate" rpm(600))
 	("velocity" mps(860))
 
-	("reload_drum")
+	("reload_belt")
 
-	("recoil_high")
-	("burst_short")
-	("spreading_high")
-	("zero_short")
+	{projectileDamageTable {20 26} {100 16} {165 10} {215 5} {250 3}} ;// B-30 AP
 
-	{traceFreq 4}
+	{parameters "api"
+		("armor health" damage(15))
+		("human health" damage(250))
+		{projectileDamageTable {20 24} {100 14.5} {165 9} {215 4.5} {250 2.75}} ;// B-32 API
+	}
 
-	{curve "HMG_ball"}
-	("muzzle_energy_large_rifle_caliber" j(16041))
-	("penetration" a(25.4) b(20.5) c(16.4) d(8.2))
-
+	("burst_aa")
+	("spreading_mounted")
+	{traceFreq 1}
 }

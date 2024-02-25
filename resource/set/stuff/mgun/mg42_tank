@@ -1,11 +1,18 @@
-{from "mg42_belt"
-	{desc "MG 42 Panzerlauf"}
-	{tag "MG42"}
-    	{filling "ammo mgun_ger" 150}
+{from "pattern mgun"
+    {filling "mgun_ger" 150}
 	{entity "mg42_belt"}
-	{fireSound		"small_arms/GER/MG42/close/"}
-	{fireSoundClose 	"small_arms/GER/MG34/1p_vic/"}
-	{reloadSound 		"INT/reload/Coax_reload_INT_8s"}
+	{fireSound "smallarms/s3/d1/GER/MG42/"}
+	{fireSoundclose "smallarms/s3/int/GER/MG42/"}
+	{reloadSound "interior/small/mg42_reload_interior"}
+	{calibre 7.92}
+	{mass 11.57}
+
+	("fire rate" rpm(1500))
+	("velocity" mps(740))
+
+	("reload_belt")
+
+	("ger_ap_bullets")
 
 	("burst_long")
 	("spreading_mounted")

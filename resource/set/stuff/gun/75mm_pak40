@@ -4,11 +4,11 @@
 
 
 {from "pattern gun"			; L/46 "pak40"
-	{filling 		"bulletger_75_l43"}
-	{fireSound 		"gun/Shared/close/medium/75-76mm/"}
-	{fireSoundClose 	"gun/Shared/close/medium/75-76mm/"}
-  	{reloadSound 		"tank/reload_medium"}
-	("range_190")
+	{filling "bulletger_75_l43"}
+	{fireSound "gun/gun_75_105"}
+	{fireSoundclose "gun/gun_75_105"}
+	{reloadSound "tank/reload_medium"}
+	("range_200")
 	{calibre 75}
 
 	("reload time" seconds(5.25))
@@ -16,6 +16,7 @@
 	("velocity m/s" ap(792) apcr(990) he(570) heat(450))
 	("armor health" damage(200))
 	("armor health custom" shell(apcbche) damage(200) filler(29))
+	("75_ger_slope_multipliers")
 
 	; Pzgr.39
 	("penetration_medium" shell(apcbche) range(200) a(146) b(133) c(118) d(105) e(93))
@@ -24,17 +25,17 @@
 	("penetration_medium" shell(apcr) range(200) a(195) b(170) c(144) d(121) e(102))
 
 	; Gr.38 Hl
-	("penetration_medium" shell(heat) range(170) a(52) b(52) c(52) d(52) e(52))
+	("penetration_medium" shell(heat) range(200) a(52) b(52) c(52) d(52) e(52))
 	; Gr.38 Hl/A
-	("penetration_medium" shell(heata) range(170) a(81) b(81) c(81) d(81) e(81))
+	("penetration_medium" shell(heata) range(200) a(81) b(81) c(81) d(81) e(81))
 	; Gr.38 Hl/B
-	("penetration_medium" shell(heatb) range(170) a(87) b(87) c(87) d(87) e(87))
+	("penetration_medium" shell(heatb) range(200) a(87) b(87) c(87) d(87) e(87))
 	; Gr.38 Hl/C
-	("penetration_medium" shell(heatc) range(170) a(115) b(115) c(115) d(115) e(115))
+	("penetration_medium" shell(heatc) range(200) a(115) b(115) c(115) d(115) e(115))
 
 	{parameters "he"
-		{range 180 180}
+		{range 200 200}
 	}
 
-	("accuracy_direct" r1(2.8) range_ap(200) range_he(180) range_heat(170))
+	("accuracy_direct" r1(0.70) range_ap(200) range_he(200) range_heat(200))
 }

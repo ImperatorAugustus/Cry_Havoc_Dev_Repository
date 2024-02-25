@@ -1,0 +1,27 @@
+;_________________________________________
+; USSR long-barreled AA gun
+;=========================================
+
+{from "pattern gun"			; L/55 "m1938 AA"
+	{filling "bulletrus_76_l55"}
+	{fireSound "gun/gun_75_105"}
+	{fireSoundclose "gun/gun_75_105"}
+	{reloadSound "tank/reload_big"}
+	("range_200")
+	{calibre 76.2}
+
+	("reload time" seconds(5))
+
+	("velocity m/s" ap(813) apcr(1) he(813) heat(1))
+	("armor health" damage(200))
+	("armor health custom" shell(aphebc) damage(200) filler(119))
+	("76_rus_slope_multipliers")
+
+	; BR-361
+	("penetration_medium" shell(aphebc) range(200) a(102) b(93) c(82) d(73) e(65))  ;RHA
+
+	; BR-361SP
+	("penetration_medium" shell(apbc) range(200) a(118) b(108) c(96) d(86) e(77))  ;RHA
+
+	("accuracy_direct_arrowhead" r1(0.69) range_ap(200) range_he(200) range_heat(200))
+}

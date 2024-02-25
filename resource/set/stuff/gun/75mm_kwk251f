@@ -1,0 +1,29 @@
+;_________________________________________
+; French cannon in German service
+;=========================================
+
+
+{from "pattern gun"			; L/17 "panzerb2"
+
+	{filling "bullet_75x241"}
+	{fireSound "gun/gun_75_105_short"}
+	{fireSoundclose "gun/gun_interior/size3"}
+	{reloadSound "interior/large/medium_reload_interior"}
+	("range_180_howitzer")
+	{calibre 75}
+	("reload time" seconds(10))
+
+	;// french sources has muzzle velocity at 220m/s
+	("velocity m/s" ap(220) apcr(1) he(220) heat(1))
+	("armor health" damage(200))
+	("armor health custom" shell(aphe) damage(200) filler(90))
+	("76_slope_multipliers")
+
+	; Obus de rupture Mle1910M (APHE)
+	;//("penetration_medium" shell(aphe) range(170) a(54) b(45) c(37) d(31) e(27)) mv 475m/s
+	("penetration_medium" shell(aphe) range(170) a(21) b(19) c(17) d(16) e(14)) ;// mv 220m/s
+
+	("accuracy_spg" r1(1.00) range_ap(180) range_he(180) range_heat(180))
+
+	{aimingTolerance 1.5}								;// Measure in degrees of IK error when AI is allowed to shoot
+}

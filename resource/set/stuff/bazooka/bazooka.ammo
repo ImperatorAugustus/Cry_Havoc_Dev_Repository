@@ -1,9 +1,0 @@
-{from "pattern rpg_ammo"
-	{tag "size1 no_ricochet"}
-	{desc "60mm Rocket, M6A1 [<c(c9a6ff)>HEAT</c>]"}
-	{entity "bazooka_ammo"}
-	{view "bazooka_ammo"
-		{tail "bazooka_tail" "tail"}
-	}
-	{mass 1.59}
-}

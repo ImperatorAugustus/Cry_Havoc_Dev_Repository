@@ -1,0 +1,18 @@
+{from "pattern rifle"
+        {tag "rifle_shell"}
+	{filling "ammo rifle_rus clip" 5}
+	{entity "winchester_1895"}
+	{fireSound "smallarms/s1/d1/USA/M1903_Springfield/"}
+	{fireSoundclose "smallarms/s1/3p/USA/M1903_Springfield/"}
+	{reloadSound "reload_clip"}
+	{calibre 7.62}
+	{mass 4.2}
+
+	{range 120 120}
+
+	("human health" damage(100))
+
+	("velocity" mps(850))
+	("mosin_rate")
+}
+

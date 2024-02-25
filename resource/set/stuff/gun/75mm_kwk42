@@ -5,10 +5,10 @@
 
 {from "pattern gun"			; L/70 "panzer5a", "panzer5g"
 	{filling "bulletger_75_l70"}
-	{fireSound 	"gun/Shared/close/medium/75-76mm_high-velocity/"}
-	{fireSoundClose "gun/Shared/int/medium/"}
-	{reloadSound "INT/reload/reload_medium_8s_INT"}
-	("range_210")
+	{fireSound "gun/gun_75_105"}
+	{fireSoundclose "gun/gun_interior/size3"}
+	{reloadSound "interior/large/medium_reload_interior"}
+	("range_230")
 	{calibre 75}
 
 	("reload time" seconds(8))
@@ -16,16 +16,17 @@
 	("velocity m/s" ap(935) apcr(1130) he(700) heat(1))
 	("armor health" damage(200))
 	("armor health custom" shell(apcbche) damage(200) filler(27))
+	("75_ger_slope_multipliers")
 
 	; Pzgr.39/42
-	("penetration_long" shell(apcbche) range(210) a(185) b(168) c(149) d(132) e(116))
+	("penetration_long" shell(apcbche) range(230) a(185) b(168) c(149) d(132) e(116))
 
 	; Pzgr.40/42
-	("penetration_long" shell(apcr) range(210) a(265) b(234) c(199) d(170) e(145))
+	("penetration_long" shell(apcr) range(230) a(265) b(234) c(199) d(170) e(145))
 
 	{parameters "he"
-		{range 200 200}
+		{range 230 230}
 	}
 
-	("accuracy_direct" r1(2.36) range_ap(210) range_he(200) range_heat(200))
+	("accuracy_direct" r1(0.59) range_ap(230) range_he(230) range_heat(230))
 }

@@ -1,0 +1,6 @@
+{bitmap
+    {frame "m3a1_commander_00.tga"}
+    {frame "m3a1_commander_01.tga"}
+    {frame "m3a1_commander_02.tga"}
+    {frame "m3a1_commander_03.tga"}
+}

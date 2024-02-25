@@ -3,11 +3,11 @@
 ;=========================================
 
 
-{from "76mm_f34_2"			; L/51.6 "ZIS3"
-	{fireSound 		"gun/Shared/close/medium/75-76mm/"}
-	{fireSoundClose 	"gun/Shared/close/medium/75-76mm/"}
-  	{reloadSound 		"tank/reload_medium"}
+{from "76mm_f34"			; L/51.6 "ZIS3"
+	{fireSound "gun/gun_75_105"}
+	{fireSoundclose "gun/gun_75_105"}
+	{reloadSound "tank/reload_big"}
 
 	("reload time" seconds(5.0))
-	("accuracy_direct" r1(3.4) range_ap(190) range_he(190) range_heat(170))
+	("accuracy_direct_arrowhead" r1(0.85) range_ap(190) range_he(190) range_heat(190))
 }

@@ -1,0 +1,3 @@
+{game_entity
+	{extension "munitionspanzer38t_x.mdl"} {RimLight}
+}

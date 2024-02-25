@@ -1,0 +1,7 @@
+{weapon_bullet
+	{Filling "dummy ap"}
+	{Foresight "foresight1"}
+	{AimingTolerance 3}
+	{Crosshair "crosshair_mgun"}
+	{CrosshairReloading "crosshair_mgun_reload"}
+}

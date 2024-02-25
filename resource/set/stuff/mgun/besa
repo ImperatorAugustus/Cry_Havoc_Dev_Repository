@@ -1,10 +1,9 @@
-{from "pattern mgun"
-	{desc "BESA"}
-	{filling "ammo mgun_ger belt" 225}
+{from "pattern hmgun"
+	{filling "mgun_ger belt" 225}
 	{entity "besa"}
-	{fireSound		"small_arms/Shared/ZB53/close/"}
-	{fireSoundClose		"small_arms/Shared/ZB53/1p_vic/"}
-	{reloadSound 		"INT/reload/Coax_reload_INT_8s"}
+	{fireSound "smallarms/s3/d1/Shared/ZB37/"}
+	{fireSoundclose "smallarms/s3/int/Shared/ZB37/"}
+	{reloadSound "interior/small/mg34_reload_interior"}
 	{calibre 7.92}
 	{mass 12.1}
 
@@ -13,13 +12,9 @@
 
 	("reload_belt")
 
-	("recoil_medium")
-	("burst_stand")
+	("ger_ap_bullets")
+
+	("burst_long")
 	("spreading_mounted")
-	("zero_medium")
-
-	{curve "rifle_heavy_ball"}
-	("muzzle_energy_rifle_caliber" j(3416))
-	("penetration" a(13) b(11) c(8) d(5))
-
+	{traceFreq 1}
 }

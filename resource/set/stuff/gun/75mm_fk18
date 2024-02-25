@@ -1,0 +1,36 @@
+;_________________________________________
+; German Field Artillery
+;=========================================
+
+
+{from "pattern gun"			; L/25.8 "75mm_fk18"
+	{filling "bulletger_75_l24"}
+	{fireSound "gun/gun_75_105_short"}
+	{fireSoundclose "gun/gun_75_105_short"}
+	{reloadSound "tank/reload_medium"}
+	("heavy_artillery")
+	{calibre 75}
+	{range 370 370} ; // 9.4km
+
+	("reload time" seconds(10))
+
+	("velocity m/s" ap(444) apcr(1) he(199) heat(485))
+	("armor health" damage(200))
+	("armor health custom" shell(apcbche) damage(200) filler(133))
+	("75_ger_slope_multipliers")
+
+	; K.Gr.rot.Pz.
+	("penetration_medium" shell(apcbche) range(190) a(61) b(57) c(53) d(50) e(46))
+
+	; Gr.38 Hl/A
+	("penetration_medium" shell(heata) range(190) a(81) b(81) c(81) d(81) e(81))
+
+	("accuracy_indirect"		; // Applies logic for accuracy of indirect weapons over 200m
+		r1(1.05)				; // Accuracy radius for direct-fire munitions
+		r2(5)					; // Accuracy radius for indirect fire
+		rmax(17)				; // Accuracy radius for indirect fire at maximum range
+		range_ap(190)			; // Range after which accuracy drops to prevent farshooting
+		range_heat(190)			; // Range after which accuracy drops to prevent farshooting
+		range_he(370)			; // Range after which accuracy drops to prevent farshooting
+	)
+}

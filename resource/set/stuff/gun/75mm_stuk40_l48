@@ -4,9 +4,9 @@
 
 
 {from "75mm_kwk40_l48"			; L/48 "stug3g_early" "stug4g"
-	{fireSound 	"gun/Shared/close/medium/75-76mm/"}
-	{fireSoundClose "gun/Shared/int/medium/"}
-	{reloadSound 	"INT/reload/reload_medium_7s_INT"}
+{fireSound "gun/gun_75_105"}
+{fireSoundclose "gun/gun_interior/size3"}
+{reloadSound "interior/large/medium_reload_interior"}
 
 	("reload time" seconds(7))
 }

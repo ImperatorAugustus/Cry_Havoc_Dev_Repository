@@ -1,4 +1,0 @@
-{from "pattern explosive"
-	{entity "satchel_charge_rus"}
-	{inventory {size 3 3}}
-}

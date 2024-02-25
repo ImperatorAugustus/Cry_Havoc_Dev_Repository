@@ -1,0 +1,9 @@
+;_________________________________________
+; semi-Long barreled german medium AT gun, SPG mounted (Marder)
+;=========================================
+
+
+{from "75mm_pak40"			; L/46 "pak40"
+
+	("accuracy_direct" r1(0.70) range_ap(200) range_he(200) range_heat(200))
+}

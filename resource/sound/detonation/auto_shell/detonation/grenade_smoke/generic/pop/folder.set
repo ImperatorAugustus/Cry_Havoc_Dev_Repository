@@ -1,0 +1,4 @@
+{sound
+  (include "\sound\defines.inc")
+  ("Explosion-Auto_close")
+}

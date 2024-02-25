@@ -1,6 +1,5 @@
 {game_entity
 	(include "/properties/tank_assaultgun.ext")
-	(include "/properties/shadow/tank.inc"  scale(1.2))
 	(include "/properties/selection/vehicle.inc"  scale(1.2))
 	{props "td" "heavy" "-turret" "mantlet" "vision_lev04" "muzzle_85mm_93mm_sides" "shield" "smoke" "nvw" "detect_td_heavy"}
 	{extension "jagdpanther.mdl"}
@@ -15,7 +14,7 @@
 
 	{sensor
 		{visor "main"
-			{vision "tank_range_250"}
+			{vision "tank_range_220"}
 			{bone "visor1"}
 		}
 		{visor "around"
@@ -49,17 +48,19 @@
 
 	{extender "smokescreen"
 		{cooldown 5}
-		{itemTags "grenade nbk39"}
+		{itemTags "grenade nbks"}
 	}
 
 	{extender "inventory"
 		{box
 			{item "bulletger_88_l71 apcbche" 29} 	; 60 rounds
 			{item "bulletger_88_l71 he" 30}
+			{item "bulletger_88_l71 apcr" 3}
+			{item "bulletger_88_l71 heat" 5}
 			{item "ammo mgun_ger belt" 2400}		; 17 belts (150 rounds each)
 			{item "mg42_belt" 1}
 			{item "geballteladung_3kg" 1}
-			{item "nbk39 grenade" 6}
+			{item "nbks grenade" 6}
 		}
 	}
 
@@ -69,9 +70,10 @@
 			{RestoreIKAfterAim}
 			{weapon "88mm_kwk43" filling "bulletger_88_l71 apcbche" 1}
 			{gunner "gunner"}
-			{charger "commander"}
+			{charger "charger commander" minWorkers 1}
 			("abm_dymamic_td"
-
+				zeroing(2.5)
+				dispersion(0.25)
 			)
 		}
 		{place "mgun1"
@@ -89,7 +91,7 @@
 
 	{mass 45600}
 	{Chassis
-		("tank_trace" fx("tracks_big") step(0.47) len(1.45))
+		("tank_trace" fx("tracks_big") step(0.47) len(0.78))
 		("mobility_tank"
 			speed(46) ;----------Max speed when fully accelerated on road, km/h.
 			reverse(6);----------Max speed in reverse on road, km/h.
@@ -105,10 +107,10 @@
 
 	{bone "gun_rot"
 		{limits -8 14}
-		{speed2 2.5}
+		{speed2 5}
 	}	
 	{bone "turret"
 		{limits -12 12}
-		{speed2 2.5}
+		{speed2 5}
 	}
 }

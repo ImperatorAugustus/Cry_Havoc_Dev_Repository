@@ -1,0 +1,67 @@
+;SDL
+	; armor notes
+	; tracks and wheels 20mm
+	; gun 30mm
+
+	("tank_medium_tier2")
+
+	("gun_shield" args "tshield1" 10)
+	("gun_shield" args "tshield2" 10)
+	("gun_shield" args "tshield3" 10)
+	("gun_shield" args "tshield4" 10)
+	("gun_shield" args "tshield5" 10)
+	("gun_shield" args "tshield6" 10)
+	("gun_shield" args "tshield7" 10)
+	("gun_shield" args "gun_shield1" 15)
+	("gun_shield" args "gun_shield2" 15)
+	("shield" args "shield1" 20)
+	("shield" args "shield2" 4)
+	("shield" args "shield3" 4)
+
+	{component "shield2" {tags "cut_part"}}
+	{component "shield3" {tags "cut_part"}}
+
+	("tracks" repair(30) thickness(20))
+	("gun" repair(30) thickness(30))
+
+	("ammo" args "ammo1")
+	("ammo" args "ammo2")
+	("ammo" args "ammo3")
+	("fuel" args "fuel")
+	("transmission" args "transmission")
+
+	{volume "body1"
+		{thickness 20
+			{front 30}
+			{top 15}
+			{bottom 15}
+		}
+	}
+	{volume "body2"
+		{thickness 20
+			{front 10}
+			{bottom 15}
+		}
+	}
+	{volume "body3"	
+		{thickness 20
+			{front 30}
+			{top 15}
+		}
+	}
+	{volume "barrel1"
+		{able {holed}}
+	}
+	{volume "engine1"
+		{thickness 20
+			{rear 10}
+			{front 10}
+			{bottom 15}
+		}
+	}
+	{volume "engine2"
+		{thickness 15
+			{top 10}
+			{rear 10}
+		}
+	}

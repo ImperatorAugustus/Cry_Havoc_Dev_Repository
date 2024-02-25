@@ -1,0 +1,27 @@
+;_________________________________________
+; ARTY - 280mm Br5 Soviet super-heavy gun
+;=========================================
+
+
+{from "pattern gun"			; L/14
+	{filling "bulletrus_280"}
+	{fireSound "gun/gun_203_210"}
+	{fireSoundclose "gun/gun_203_210"}
+	{reloadSound "tank/reload_howitzer"}
+	("super_heavy_artillery")
+	{calibre 280}
+	{range 315 315} ; // 7.35km F-674
+
+	("reload time" seconds(120))
+
+	("velocity" mps(186))
+
+	("accuracy_indirect"	; // Applies logic for accuracy of indirect weapons over 200m
+		r1(1.50)			; // Accuracy radius for direct-fire munitions
+		r2(12)				; // Accuracy radius for indirect fire
+		rmax(30)			; // Accuracy radius for indirect fire at maximum range
+		range_ap(210)		; // Range after which accuracy drops to prevent farshooting.
+		range_heat(210)		; // Range after which accuracy drops to prevent farshooting.
+		range_he(315)		; // Range after which accuracy drops to prevent farshooting.
+	)
+}

@@ -1,0 +1,18 @@
+{from "pattern mgun"
+	{filling "mgun_usa" 96}
+	{entity "dt"}
+	{fireSound "smallarms/s3/d1/Shared/Maxim_gun/"}
+	{fireSoundclose "smallarms/s3/d1/Shared/Maxim_gun/"}
+	{reloadSound "interior/small/dt_reload_interior"}
+	{calibre 7.62}
+	{mass 13.4}
+
+	("fire rate" rpm(950))
+	("velocity" mps(745))
+
+	("reload time" seconds(10))
+
+	("burst_aa")
+	("airborne_mg")
+	{traceFreq 1}
+}

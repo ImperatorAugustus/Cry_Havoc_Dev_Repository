@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/_vehicle/hummel/early_xx"}
+	{bump "$/_vehicle/hummel/early_xx_bp"}
+	{specular "$/_vehicle/hummel/early_x_sp"}
+	{color "230 230 230 25"}
+	{blend test}
+}

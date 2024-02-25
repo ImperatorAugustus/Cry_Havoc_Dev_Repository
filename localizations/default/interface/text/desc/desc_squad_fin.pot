@@ -1,0 +1,580 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Gates of Hell Finnish Squads\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Poedit 2.4.2\n"
+
+msgctxt "desc/squad/conquest_blenheim"
+msgid "Blenheim 250kg Bomb"
+msgstr ""
+
+msgctxt "desc/squad/conquest_blenheim_light"
+msgid "Blenheim 50kg Bomb"
+msgstr ""
+
+msgctxt "desc/squad/conquest_blenheim_recon"
+msgid "Blenheim Recon"
+msgstr ""
+
+msgctxt "desc/squad/fin_captured_v"
+msgid "Captured Vehicles"
+msgstr ""
+
+msgctxt "desc/squad/fin_captured_v_bt5"
+msgid "Captured Vehicles"
+msgstr ""
+
+msgctxt "desc/squad/fin_captured_v_t26"
+msgid "Captured Vehicles"
+msgstr ""
+
+msgctxt "desc/squad/fin_captured_v_t26_late"
+msgid "Captured Vehicles"
+msgstr ""
+
+msgctxt "desc/squad/fin_captured_v_t37a"
+msgid "Captured Vehicles"
+msgstr ""
+
+msgctxt "desc/squad/fin_captured_v_t3476"
+msgid "Captured Vehicles"
+msgstr ""
+
+msgctxt "desc/squad/fin_captured_v_t3485"
+msgid "Captured Vehicles"
+msgstr ""
+
+msgctxt "desc/squad/single_ap_miner(fin)"
+msgid "AP Miners"
+msgstr ""
+
+msgctxt "desc/squad/single_at(fin)"
+msgid "AT Detachment"
+msgstr ""
+
+msgctxt "desc/squad/single_at_miner(fin)"
+msgid "AT Miners"
+msgstr ""
+
+msgctxt "desc/squad/single_at_pzs_late_con(fin)"
+msgid "Panzerschreck Team"
+msgstr ""
+
+msgctxt "desc/squad/single_auxiliary(fin)"
+msgid "Auxiliary Detachment"
+msgstr ""
+
+msgctxt "desc/squad/single_bazooker(fin)"
+msgid "AT Detachment"
+msgstr ""
+
+msgctxt "desc/squad/single_engineer(fin)"
+msgid "Field Engineers"
+msgstr ""
+
+msgctxt "desc/squad/single_flamer(fin)"
+msgid "Flamethrower"
+msgstr ""
+
+msgctxt "desc/squad/single_medic(fin)"
+msgid "Medic"
+msgstr ""
+
+msgctxt "desc/squad/single_mg2(fin)"
+msgid "Reserve LMG Detachment"
+msgstr ""
+
+msgctxt "desc/squad/single_mg(fin)"
+msgid "LMG Detachment"
+msgstr ""
+
+msgctxt "desc/squad/single_officer(fin)"
+msgid "Officer"
+msgstr ""
+
+msgctxt "desc/squad/single_sniper(fin)"
+msgid "Sniper"
+msgstr ""
+
+msgctxt "desc/squad/single_tankman(fin)"
+msgid "Tank crew"
+msgstr ""
+
+msgctxt "desc/squad/squad_antitank_late(fin)"
+msgid "AT Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_assault(fin)"
+msgid "Assault Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_assault_mid_con(fin)"
+msgid "Assault Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_at_late_con(fin)"
+msgid "Anti-Tank Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_border_guard_early_con(fin)"
+msgid "Border Guard Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_border_jag_late(fin)"
+msgid "Border Jäger Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_border_jag_mid(fin)"
+msgid "Border Jäger Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_border_jag_mid_con(fin)"
+msgid "Border Jäger Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_cav_early(fin)"
+msgid "Cavalry Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_cav_late(fin)"
+msgid "Cavalry Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_cav_mid(fin)"
+msgid "Cavalry Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_cav_mid_con(fin)"
+msgid "Cavalry Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_civil_guard_early(fin)"
+msgid "Civil Guard Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_civil_guard_early_con(fin)"
+msgid "Civil Guard Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_engineer_mid_con(fin)"
+msgid "Engineer Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_heavy_engineer_mid_con(fin)"
+msgid "Heavy Engineers"
+msgstr ""
+
+msgctxt "desc/squad/squad_jaeger_early(fin)"
+msgid "Jäger Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_jaeger_lmg_early(fin)"
+msgid "Jaeger LMG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_jag_antitank_late(fin)"
+msgid "Jäger AT Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_jag_late(fin)"
+msgid "Jäger Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_jag_mid(fin)"
+msgid "Jäger Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_jag_mid_con(fin)"
+msgid "Jäger Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_marksmen(fin)"
+msgid "Marksmen"
+msgstr ""
+
+msgctxt "desc/squad/squad_marksmen_mid_con(fin)"
+msgid "Marksmen"
+msgstr ""
+
+msgctxt "desc/squad/squad_officer_con(fin)"
+msgid "Command Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_reserves_late(fin)"
+msgid "Reserve Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_reserves_mid(fin)"
+msgid "Reserve Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_reserves_mid_con(fin)"
+msgid "Reserve Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_early(fin)"
+msgid "Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_early_con(fin)"
+msgid "Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_late(fin)"
+msgid "Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_lmg_early(fin)"
+msgid "LMG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_lmg_early_con(fin)"
+msgid "LMG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_mid(fin)"
+msgid "Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_mid_con(fin)"
+msgid "Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_scout_early(fin)"
+msgid "Scout Section"
+msgstr ""
+
+msgctxt "desc/squad/squad_scout_late(fin)"
+msgid "Scout Section"
+msgstr ""
+
+msgctxt "desc/squad/squad_scout_mid(fin)"
+msgid "Scout Section"
+msgstr ""
+
+msgctxt "desc/squad/squad_scout_mid_con(fin)"
+msgid "Scout Section"
+msgstr ""
+
+msgctxt "desc/squad/squad_sissi_mid_con(fin)"
+msgid "Sissi Commandos"
+msgstr ""
+
+msgctxt "desc/squad/team_officer_con(fin)"
+msgid "Command Team"
+msgstr ""
+
+msgctxt "desc/squad/white_death_con(fin)"
+msgid "Elite Sniper"
+msgstr ""
+
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Gates of Hell Squads\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+msgctxt "desc/squad/single_rifle(fin)"
+msgid "Rifleman"
+msgstr ""
+
+msgctxt "desc/squad/single_smg(fin)"
+msgid "SMG Soldier"
+msgstr ""
+
+msgctxt "desc/squad/single_sa(fin)"
+msgid "Semi-Auto Rifleman"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_early_all(fin)"
+msgid "Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_mg_early_all(fin)"
+msgid "LMG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_cav_early_all(fin)"
+msgid "Cavalry Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_cav_mg_early_all(fin)"
+msgid "Cavalry LMG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_jag_early_all(fin)"
+msgid "Jäger Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_jag_mg_early_all(fin)"
+msgid "Jäger LMG Squad"
+msgstr ""
+
+
+msgctxt "desc/squad/squad_rifle_early_def(fin)"
+msgid "Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_mg_early_def(fin)"
+msgid "LMG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_eng_early_def(fin)"
+msgid "Engineer Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_border_guard_early_def(fin)"
+msgid "Border Guards Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_jag_early_def(fin)"
+msgid "Jäger Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_jag_mg_early_def(fin)"
+msgid "Jäger LMG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_pio_early(fin)"
+msgid "Heavy Pioneer Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_early_irr(fin)"
+msgid "Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_mg_early_irr(fin)"
+msgid "LMG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_cav_early_irr(fin)"
+msgid "Cavalry Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_cav_early_off(fin)"
+msgid "Cavalry Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_cav_mg_early_irr(fin)"
+msgid "Cavalry LMG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_jag_scout_irr(fin)"
+msgid "Jäger Scout Section"
+msgstr ""
+
+msgctxt "desc/squad/squad_jag_scout_mid(fin)"
+msgid "Jäger Scout Section"
+msgstr ""
+
+msgctxt "desc/squad/squad_jag_scout_late(fin)"
+msgid "Jäger Scout Section"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_early_off(fin)"
+msgid "Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_mg_early_off(fin)"
+msgid "LMG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_marksmen_rifle_early_off(fin)"
+msgid "Marksmen Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_jag_early_off(fin)"
+msgid "Jäger Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_jag_mg_early_off(fin)"
+msgid "Jäger LMG Squad"
+msgstr ""
+
+
+msgctxt "desc/squad/squad_rifle_mid_all(fin)"
+msgid "Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_vet_rifle_mid_all(fin)"
+msgid "Veteran Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_border_jag_mid_all(fin)"
+msgid "Border Jäger Squad"
+msgstr ""
+
+
+msgctxt "desc/squad/squad_rifle_mid_def(fin)"
+msgid "Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_eng_mid_def(fin)"
+msgid "Engineer Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_eng_flame_mid_def(fin)"
+msgid "Engineer Flamer Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_pio_mid(fin)"
+msgid "Heavy Pioneer Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_vet_rifle_mid_def(fin)"
+msgid "Veteran Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_elite_rifle_mid_def(fin)"
+msgid "Elite Rifle Squad"
+msgstr ""
+
+
+msgctxt "desc/squad/squad_rifle_mid_irr(fin)"
+msgid "Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_vet_scout_irr(fin)"
+msgid "Veteran Scout Section"
+msgstr ""
+
+msgctxt "desc/squad/squad_cav_mid_irr(fin)"
+msgid "Cavalry Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_cav_mid_off(fin)"
+msgid "Cavalry Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_vet_cav_mid_irr(fin)"
+msgid "Veteran Cavalry Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_vet_cav_mid_off(fin)"
+msgid "Veteran Cavalry Rifle Squad"
+msgstr ""
+
+
+msgctxt "desc/squad/squad_rifle_mid_len(fin)"
+msgid "Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_marksmen_rifle_mid_len(fin)"
+msgid "Marksmen Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_jag_mid_len(fin)"
+msgid "Jäger Squad"
+msgstr ""
+
+
+msgctxt "desc/squad/squad_rifle_late_all(fin)"
+msgid "Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_antitank_late_all(fin)"
+msgid "Anti-Tank Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_pio_late(fin)"
+msgid "Heavy Pioneer Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_vet_rifle_late_all(fin)"
+msgid "Veteran Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_border_jag_late_all(fin)"
+msgid "Border Jäger Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_border_jag_at_late_all(fin)"
+msgid "Border Jäger AT Squad"
+msgstr ""
+
+
+msgctxt "desc/squad/squad_rifle_late_def(fin)"
+msgid "Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_eng_late_def(fin)"
+msgid "Engineer Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_antitank_late_def(fin)"
+msgid "Anti-Tank Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_vet_rifle_late_def(fin)"
+msgid "Veteran Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_elite_rifle_late_def(fin)"
+msgid "Elite Rifle Squad"
+msgstr ""
+
+
+msgctxt "desc/squad/squad_rifle_late_irr(fin)"
+msgid "Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_antitank_late_irr(fin)"
+msgid "Anti-Tank Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_cav_late_irr(fin)"
+msgid "Cavalry Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_cav_late_off(fin)"
+msgid "Cavalry Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_vet_cav_late_irr(fin)"
+msgid "Veteran Cavalry Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_late_len(fin)"
+msgid "Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_antitank_late_len(fin)"
+msgid "Anti-Tank Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_marksmen_rifle_late_len(fin)"
+msgid "Marksmen Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_jag_late_len(fin)"
+msgid "Jäger Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_jag_antitank_late_len(fin)"
+msgid "Jäger AT Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_jag_mid_vet(fin)"
+msgid "Veteran Jäger Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_jag_late_vet(fin)"
+msgid "Veteran Jäger Squad"
+msgstr ""

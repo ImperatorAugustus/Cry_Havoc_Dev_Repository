@@ -1,8 +1,0 @@
-(from "k98_scope"
-	{desc "Kar 98k, ZF 39"}
-	{tag "KAR98K rifle_shell"}
-	{filling "ammo rifle_ger clip" 5}
-	{entity "k98_scope"}
-	{range 143 143}
-)
-

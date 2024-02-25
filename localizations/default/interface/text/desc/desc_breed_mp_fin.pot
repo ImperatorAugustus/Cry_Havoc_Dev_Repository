@@ -1,0 +1,1440 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Gates of Hell Finnish MP soldiers\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Poedit 2.3\n"
+
+msgctxt "desc/human/mp/fin/early/antitank_asst"
+msgid "AT support inf."
+msgstr ""
+
+msgctxt "desc/human/mp/fin/early/antitank_rifle"
+msgid "AT rifle inf."
+msgstr ""
+
+msgctxt "desc/human/mp/fin/early/artilleryman"
+msgid "Artilleryman"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/early/border_guard_mg"
+msgid "Rajavartija MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/early/border_guard_mg_asst"
+msgid "Rajavartija MG Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/fin/early/border_guard_rifle"
+msgid "Rajavartija"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/early/border_guard_sa"
+msgid "Rajavartija"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/early/border_guard_sl"
+msgid "Rajavartija Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/early/border_guard_smg"
+msgid "Rajavartija"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/early/border_guard_smg_stick"
+msgid "Rajavartija"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/early/cav_mg"
+msgid "Ratsuväki MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/early/cav_mg_asst"
+msgid "Ratsuväki MG Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/fin/early/cav_rifle"
+msgid "Ratsuväki"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/early/cav_sa"
+msgid "Ratsuväki"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/early/cav_sl"
+msgid "Ratsuväki Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/early/cav_smg"
+msgid "Ratsuväki"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/early/cav_smg_stick"
+msgid "Ratsuväki"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/early/chauchat"
+msgid "MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/early/civil_guard_mg"
+msgid "Civil Guard MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/early/civil_guard_rifle"
+msgid "Civil Guard Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/early/civil_guard_rifle_helm"
+msgid "Civil Guard Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/early/civil_guard_sl"
+msgid "Civil Guard Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/early/engineer_builder"
+msgid "Pioneeri Engineer"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/early/engineer_heavy"
+msgid "Pioneeri Heavy Engineer"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/early/engineer_mine_at"
+msgid "Pioneeri AT Miner"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/early/engineer_mine_d"
+msgid "Pioneeri"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/early/engineer_rifle"
+msgid "Pioneeri"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/early/engineer_sl"
+msgid "Pioneeri Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/early/jag_mg"
+msgid "Jääkäri MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/early/jag_mg_asst"
+msgid "Jääkäri MG Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/fin/early/jag_rifle"
+msgid "Jääkäri"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/early/jag_sa"
+msgid "Jääkäri"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/early/jag_sl"
+msgid "Jääkäri Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/early/jag_smg"
+msgid "Jääkäri"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/early/jag_smg_stick"
+msgid "Jääkäri"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/early/marksman"
+msgid "Marksman"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/early/marksman_sa"
+msgid "Marksman"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/early/medic"
+msgid "Medic"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/early/mg"
+msgid "MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/early/mg_asst"
+msgid "MG Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/fin/early/mg_crew"
+msgid "MG crew"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/early/mg_crew_asst"
+msgid "MG crew Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/fin/early/mg_madsen"
+msgid "MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/early/officer"
+msgid "Officer"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/early/officer_drum"
+msgid "Officer"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/early/rifleman"
+msgid "Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/early/rifleman_avs"
+msgid "Automatic Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/early/rifleman_cap"
+msgid "Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/early/rifleman_sa"
+msgid "Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/early/scout"
+msgid "Scout"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/early/scout_sl"
+msgid "Scout Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/early/signaller"
+msgid "Artillery Signaller"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/early/sissi_mg"
+msgid "Sissi MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/early/sissi_mg_asst"
+msgid "Sissi MG Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/fin/early/sissi_rifle"
+msgid "Sissi"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/early/sissi_sa"
+msgid "Sissi"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/early/sissi_sl"
+msgid "Sissi Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/early/sissi_smg_m20"
+msgid "Sissi"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/early/sissi_smg_stick"
+msgid "Sissi"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/early/smg_drum"
+msgid "SMG inf."
+msgstr ""
+
+msgctxt "desc/human/mp/fin/early/smg_m20"
+msgid "SMG inf."
+msgstr ""
+
+msgctxt "desc/human/mp/fin/early/smg_stick"
+msgid "SMG inf."
+msgstr ""
+
+msgctxt "desc/human/mp/fin/early/sniper"
+msgid "Sniper"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/early/squadleader"
+msgid "Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/early/summer_mg"
+msgid "MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/early/summer_mg_asst"
+msgid "MG Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/fin/early/summer_rifle"
+msgid "Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/early/summer_rifle_cap"
+msgid "Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/early/summer_smg_drum"
+msgid "SMG inf."
+msgstr ""
+
+msgctxt "desc/human/mp/fin/early/summer_smg_stick"
+msgid "SMG inf."
+msgstr ""
+
+msgctxt "desc/human/mp/fin/early/tank_commander"
+msgid "Tank commander"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/early/tankman"
+msgid "Tankman"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/early/white_death"
+msgid "Elite sniper"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/early/pilot"
+msgid "Pilot"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/late/antitank_asst"
+msgid "AT support Inf."
+msgstr ""
+
+msgctxt "desc/human/mp/fin/late/antitank_faust"
+msgid "AT inf."
+msgstr ""
+
+msgctxt "desc/human/mp/fin/late/antitank_ptrd"
+msgid "AT inf."
+msgstr ""
+
+msgctxt "desc/human/mp/fin/late/antitank_ptrd_asst"
+msgid "AT support Inf."
+msgstr ""
+
+msgctxt "desc/human/mp/fin/late/antitank_pzs"
+msgid "AT inf."
+msgstr ""
+
+msgctxt "desc/human/mp/fin/late/antitank_pzs_ammo"
+msgid "AT support Inf."
+msgstr ""
+
+msgctxt "desc/human/mp/fin/late/antitank_rifle"
+msgid "AT inf."
+msgstr ""
+
+msgctxt "desc/human/mp/fin/late/artilleryman"
+msgid "Artilleryman"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/late/border_jag_ap_mine"
+msgid "Rajajääkäri AP Miner"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/late/border_jag_at_mine"
+msgid "Rajajääkäri AT Miner"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/late/border_jag_builder"
+msgid "Rajajääkäri Engineer"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/late/border_jag_mg"
+msgid "Rajajääkäri MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/late/border_jag_mg_asst"
+msgid "Rajajääkäri MG Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/fin/late/border_jag_rifle"
+msgid "Rajajääkäri"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/late/border_jag_rifle_pzfaust"
+msgid "Rajajääkäri AT inf."
+msgstr ""
+
+msgctxt "desc/human/mp/fin/late/border_jag_sa"
+msgid "Rajajääkäri"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/late/border_jag_sl"
+msgid "Rajajääkäri Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/late/border_jag_smg"
+msgid "Rajajääkäri"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/late/border_jag_smg_stick"
+msgid "Rajajääkäri"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/late/cav_mg"
+msgid "Ratsuväki MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/late/cav_mg_asst"
+msgid "Ratsuväki MG Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/fin/late/cav_rifle"
+msgid "Ratsuväki"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/late/cav_sa"
+msgid "Ratsuväki"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/late/cav_sl"
+msgid "Ratsuväki Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/late/cav_smg"
+msgid "Ratsuväki"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/late/cav_smg_stick"
+msgid "Ratsuväki"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/late/engineer_builder"
+msgid "Pioneeri Engineer"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/late/engineer_flamer"
+msgid "Pioneeri Flamer inf."
+msgstr ""
+
+msgctxt "desc/human/mp/fin/late/engineer_heavy"
+msgid "Pioneeri Heavy Engineer"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/late/engineer_mine_ap"
+msgid "Pioneeri AP Miner"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/late/engineer_mine_at"
+msgid "Pioneeri AT Miner"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/late/engineer_mine_d"
+msgid "Pioneeri"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/late/engineer_rifle"
+msgid "Pioneeri"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/late/engineer_sl"
+msgid "Pioneeri Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/late/jag_crew"
+msgid "Jääkäri Crew"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/late/jag_crew_asst"
+msgid "Jääkäri Crew Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/fin/late/jag_engineer_flamer"
+msgid "Jääkäri Engineer Flamer inf."
+msgstr ""
+
+msgctxt "desc/human/mp/fin/late/jag_engineer_sl"
+msgid "Jääkäri Engineer Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/late/jag_mg"
+msgid "Jääkäri MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/late/jag_mg_asst"
+msgid "Jääkäri MG Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/fin/late/jag_pzfaust"
+msgid "Jääkäri AT inf."
+msgstr ""
+
+msgctxt "desc/human/mp/fin/late/jag_pzs"
+msgid "Jääkäri AT inf."
+msgstr ""
+
+msgctxt "desc/human/mp/fin/late/jag_pzs_asst"
+msgid "Jääkäri AT Support inf."
+msgstr ""
+
+msgctxt "desc/human/mp/fin/late/jag_rifle"
+msgid "Jääkäri"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/late/jag_sa"
+msgid "Jääkäri"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/late/jag_sl"
+msgid "Jääkäri Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/late/jag_sl_smg"
+msgid "Jääkäri Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/late/jag_smg"
+msgid "Jääkäri"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/late/jag_smg_pzfaust"
+msgid "Jääkäri AT inf."
+msgstr ""
+
+msgctxt "desc/human/mp/fin/late/jag_smg_stick"
+msgid "Jääkäri"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/late/marksman"
+msgid "Marksman"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/late/marksman_sa"
+msgid "Marksman"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/late/medic"
+msgid "Medic"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/late/mg"
+msgid "MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/late/mg_asst"
+msgid "MG Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/fin/late/mg_crew"
+msgid "MG crew"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/late/mg_crew_asst"
+msgid "MG crew Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/fin/late/mg_dp"
+msgid "MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/late/mg_dp_asst"
+msgid "MG Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/fin/late/officer"
+msgid "Officer"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/late/reservist_mg"
+msgid "Reserve MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/late/reservist_mg_asst"
+msgid "Reserve MG Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/fin/late/reservist_rifle"
+msgid "Reserve Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/late/reservist_rifle_helm"
+msgid "Reserve Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/late/reservist_sl"
+msgid "Reserve Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/late/reservist_smg_helm"
+msgid "Reserve SMG inf."
+msgstr ""
+
+msgctxt "desc/human/mp/fin/late/rifleman"
+msgid "Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/late/rifleman_cap"
+msgid "Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/late/rifleman_sa"
+msgid "Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/late/scout"
+msgid "Scout"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/late/scout_sl"
+msgid "Scout Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/late/signaller"
+msgid "Artillery Signaller"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/late/sissi_mg"
+msgid "Sissi MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/late/sissi_mg_asst"
+msgid "Sissi MG Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/fin/late/sissi_rifle"
+msgid "Sissi"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/late/sissi_sa"
+msgid "Sissi"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/late/sissi_sl"
+msgid "Sissi Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/late/sissi_smg_stick"
+msgid "Sissi"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/late/smg_drum"
+msgid "SMG inf."
+msgstr ""
+
+msgctxt "desc/human/mp/fin/late/smg_pps"
+msgid "SMG inf."
+msgstr ""
+
+msgctxt "desc/human/mp/fin/late/smg_ppsh"
+msgid "SMG inf."
+msgstr ""
+
+msgctxt "desc/human/mp/fin/late/smg_stick"
+msgid "SMG inf."
+msgstr ""
+
+msgctxt "desc/human/mp/fin/late/sniper"
+msgid "Sniper"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/late/squadleader"
+msgid "Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/late/summer_mg"
+msgid "MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/late/summer_mg_asst"
+msgid "MG Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/fin/late/summer_rifle"
+msgid "Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/late/summer_rifle_cap"
+msgid "Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/late/summer_smg_drum"
+msgid "SMG inf."
+msgstr ""
+
+msgctxt "desc/human/mp/fin/late/summer_smg_stick"
+msgid "SMG inf."
+msgstr ""
+
+msgctxt "desc/human/mp/fin/late/tank_commander"
+msgid "Tank commander"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/late/tankman"
+msgid "Tankman"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/late/white_death"
+msgid "Elite sniper"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/late/pilot"
+msgid "Pilot"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/mid/antitank_asst"
+msgid "AT support inf."
+msgstr ""
+
+msgctxt "desc/human/mp/fin/mid/antitank_rifle"
+msgid "AT rifle inf."
+msgstr ""
+
+msgctxt "desc/human/mp/fin/mid/artilleryman"
+msgid "Artilleryman"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/mid/border_jag_ap_mine"
+msgid "Rajajääkäri AP Miner"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/mid/border_jag_at_mine"
+msgid "Rajajääkäri AT Miner"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/mid/border_jag_builder"
+msgid "Rajajääkäri Engineer"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/mid/border_jag_mg"
+msgid "Rajajääkäri MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/mid/border_jag_mg_asst"
+msgid "Rajajääkäri MG Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/fin/mid/border_jag_rifle"
+msgid "Rajajääkäri"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/mid/border_jag_sa"
+msgid "Rajajääkäri"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/mid/border_jag_sl"
+msgid "Rajajääkäri Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/mid/border_jag_smg"
+msgid "Rajajääkäri"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/mid/border_jag_smg_stick"
+msgid "Rajajääkäri"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/mid/cav_mg"
+msgid "Ratsuväki MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/mid/cav_mg_asst"
+msgid "Ratsuväki MG Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/fin/mid/cav_rifle"
+msgid "Ratsuväki"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/mid/cav_sa"
+msgid "Ratsuväki"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/mid/cav_sl"
+msgid "Ratsuväki Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/mid/cav_smg"
+msgid "Ratsuväki"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/mid/cav_smg_stick"
+msgid "Ratsuväki"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/mid/chauchat"
+msgid "MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/mid/engineer_builder"
+msgid "Pioneeri Engineer"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/mid/engineer_flamer"
+msgid "Pioneeri Flamer inf."
+msgstr ""
+
+msgctxt "desc/human/mp/fin/mid/engineer_heavy"
+msgid "Pioneeri Heavy Engineer"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/mid/engineer_mine_ap"
+msgid "Pioneeri AP Miner"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/mid/engineer_mine_at"
+msgid "Pioneeri AT Miner"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/mid/engineer_mine_d"
+msgid "Pioneeri"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/mid/engineer_rifle"
+msgid "Pioneeri"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/mid/engineer_sl"
+msgid "Pioneeri Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/mid/jag_mg"
+msgid "Jääkäri MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/mid/jag_mg_asst"
+msgid "Jääkäri MG Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/fin/mid/jag_rifle"
+msgid "Jääkäri"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/mid/jag_sa"
+msgid "Jääkäri"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/mid/jag_sl"
+msgid "Jääkäri Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/mid/jag_smg"
+msgid "Jääkäri"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/mid/jag_smg_stick"
+msgid "Jääkäri"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/mid/marksman"
+msgid "Marksman"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/mid/marksman_sa"
+msgid "Marksman"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/mid/medic"
+msgid "Medic"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/mid/mg"
+msgid "MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/mid/mg_asst"
+msgid "MG Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/fin/mid/mg_crew"
+msgid "MG crew"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/mid/mg_crew_asst"
+msgid "MG crew Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/fin/mid/mg_dp"
+msgid "MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/mid/mg_dp_asst"
+msgid "MG Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/fin/mid/officer"
+msgid "Officer"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/mid/reservist_mg"
+msgid "Reserve MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/mid/reservist_rifle"
+msgid "Reserve Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/mid/reservist_rifle_helm"
+msgid "Reserve Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/mid/reservist_sl"
+msgid "Reserve Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/mid/rifleman"
+msgid "Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/mid/rifleman_avs"
+msgid "Automatic Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/mid/rifleman_cap"
+msgid "Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/mid/rifleman_sa"
+msgid "Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/mid/scout"
+msgid "Scout"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/mid/scout_sl"
+msgid "Scout Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/mid/signaller"
+msgid "Artillery Signaller"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/mid/sissi_mg"
+msgid "Sissi MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/mid/sissi_mg_asst"
+msgid "Sissi MG Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/fin/mid/sissi_rifle"
+msgid "Sissi"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/mid/sissi_sa"
+msgid "Sissi"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/mid/sissi_sl"
+msgid "Sissi Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/mid/sissi_smg_stick"
+msgid "Sissi"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/mid/smg_drum"
+msgid "SMG inf."
+msgstr ""
+
+msgctxt "desc/human/mp/fin/mid/smg_m20"
+msgid "SMG inf."
+msgstr ""
+
+msgctxt "desc/human/mp/fin/mid/smg_stick"
+msgid "SMG inf."
+msgstr ""
+
+msgctxt "desc/human/mp/fin/mid/sniper"
+msgid "Sniper"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/mid/squadleader"
+msgid "Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/mid/summer_mg"
+msgid "MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/mid/summer_mg_asst"
+msgid "MG Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/fin/mid/summer_rifle"
+msgid "Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/mid/summer_rifle_cap"
+msgid "Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/mid/summer_smg_drum"
+msgid "SMG inf."
+msgstr ""
+
+msgctxt "desc/human/mp/fin/mid/summer_smg_stick"
+msgid "SMG inf."
+msgstr ""
+
+msgctxt "desc/human/mp/fin/mid/tank_commander"
+msgid "Tank commander"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/mid/tankman"
+msgid "Tankman"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/mid/white_death"
+msgid "Elite sniper"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/mid/pilot"
+msgid "Pilot"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/early/jag_scout_rifle"
+msgid "Jääkäri Scout"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/early/jag_scout_sa"
+msgid "Jääkäri Scout"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/early/jag_scout_sl"
+msgid "Jääkäri Scout Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/early/vet_mg"
+msgid "Veteran MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/early/vet_mg_asst"
+msgid "Veteran MG Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/fin/early/vet_squadleader"
+msgid "Veteran Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/early/pio_builder"
+msgid "Pioneeri Engineer"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/early/pio_mg"
+msgid "Pioneeri"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/early/pio_rifle"
+msgid "Pioneeri"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/early/pio_sa"
+msgid "Pioneeri"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/early/pio_sl"
+msgid "Pioneeri Squadleader"
+msgstr ""
+
+
+
+
+
+msgctxt "desc/human/mp/fin/mid/jag_scout_rifle"
+msgid "Jääkäri Scout"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/mid/jag_scout_sa"
+msgid "Jääkäri Scout"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/mid/jag_scout_sl"
+msgid "Jääkäri Scout Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/mid/elite_mg_dp"
+msgid "Elite MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/mid/elite_mg_dp_asst"
+msgid "Elite MG Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/fin/mid/elite_rifleman"
+msgid "Elite Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/mid/elite_rifleman_sa"
+msgid "Elite Automatic Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/mid/elite_smg_drum"
+msgid "Elite SMG inf."
+msgstr ""
+
+msgctxt "desc/human/mp/fin/mid/elite_smg_stick"
+msgid "Elite SMG inf."
+msgstr ""
+
+msgctxt "desc/human/mp/fin/mid/elite_squadleader"
+msgid "Elite Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/mid/mg_dt"
+msgid "MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/mid/mg_dt_asst"
+msgid "MG Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/fin/mid/vet_cav_mg"
+msgid "Veteran Ratsuväki MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/mid/vet_cav_mg_asst"
+msgid "Veteran Ratsuväki MG Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/fin/mid/vet_cav_rifle"
+msgid "Veteran Ratsuväki"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/mid/vet_cav_sa"
+msgid "Veteran Ratsuväki"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/mid/vet_cav_sl"
+msgid "Veteran Ratsuväki Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/mid/vet_cav_smg"
+msgid "Veteran Ratsuväki"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/mid/vet_cav_smg_stick"
+msgid "Veteran Ratsuväki"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/mid/vet_mg_dp"
+msgid "Veteran MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/mid/vet_mg_dp_asst"
+msgid "Veteran MG Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/fin/mid/vet_rifleman"
+msgid "Veteran Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/mid/vet_rifleman_sa"
+msgid "Veteran Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/mid/vet_scout"
+msgid "Veteran Scout"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/mid/vet_scout_sl"
+msgid "Veteran Scout Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/mid/vet_smg_drum"
+msgid "Veteran SMG inf."
+msgstr ""
+
+msgctxt "desc/human/mp/fin/mid/vet_smg_stick"
+msgid "Veteran SMG inf."
+msgstr "" 
+
+msgctxt "desc/human/mp/fin/mid/vet_squadleader"
+msgid "Veteran Squadleader"
+msgstr "" 
+
+msgctxt "desc/human/mp/fin/mid/pio_builder"
+msgid "Pioneeri Engineer"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/mid/pio_mg"
+msgid "Pioneeri"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/mid/pio_rifle"
+msgid "Pioneeri"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/mid/pio_sa"
+msgid "Pioneeri"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/mid/pio_sl"
+msgid "Pioneeri Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/mid/vet_jag_mg"
+msgid "Veteran Jääkäri MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/mid/vet_jag_mg_asst"
+msgid "Veteran Jääkäri MG Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/fin/mid/vet_jag_rifle"
+msgid "Veteran Jääkäri"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/mid/vet_jag_sa"
+msgid "Veteran Jääkäri"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/mid/vet_jag_sl"
+msgid "Veteran Jääkäri Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/mid/vet_jag_smg"
+msgid "Veteran Jääkäri"
+msgstr ""
+
+
+
+msgctxt "desc/human/mp/fin/late/jag_scout_rifle"
+msgid "Jääkäri Scout"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/late/jag_scout_sa"
+msgid "Jääkäri Scout"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/late/jag_scout_sl"
+msgid "Jääkäri Scout Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/late/border_jag_ptrd"
+msgid "Rajajääkäri AT rifle inf."
+msgstr ""
+
+msgctxt "desc/human/mp/fin/late/border_jag_ptrd_asst"
+msgid "Rajajääkäri AT support Inf."
+msgstr ""
+
+msgctxt "desc/human/mp/fin/late/border_jag_pzs"
+msgid "Rajajääkäri AT inf."
+msgstr ""
+
+msgctxt "desc/human/mp/fin/late/border_jag_pzs_ammo"
+msgid "Rajajääkäri AT support Inf."
+msgstr ""
+
+msgctxt "desc/human/mp/fin/late/border_jag_sl_smg"
+msgid "Rajajääkäri Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/late/cav_mg"
+msgid "Ratsuväki MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/late/cav_mg_asst"
+msgid "Ratsuväki MG Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/fin/late/cav_rifle"
+msgid "Ratsuväki"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/late/cav_sa"
+msgid "Ratsuväki"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/late/cav_sl"
+msgid "Ratsuväki Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/late/cav_smg"
+msgid "Ratsuväki"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/late/cav_smg_stick"
+msgid "Ratsuväki"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/late/elite_mg"
+msgid "Elite MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/late/elite_mg_asst"
+msgid "Elite MG Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/fin/late/elite_mg_dp"
+msgid "Elite MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/late/elite_mg_dp_asst"
+msgid "Elite MG Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/fin/late/elite_rifle"
+msgid "Elite Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/late/elite_rifle_sa"
+msgid "Elite Automatic Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/late/elite_smg_drum"
+msgid "Elite SMG inf."
+msgstr ""
+
+msgctxt "desc/human/mp/fin/late/elite_smg_pps"
+msgid "Elite SMG inf."
+msgstr ""
+
+msgctxt "desc/human/mp/fin/late/elite_smg_ppsh"
+msgid "Elite SMG inf."
+msgstr ""
+
+msgctxt "desc/human/mp/fin/late/elite_smg_stick"
+msgid "Elite SMG inf."
+msgstr ""
+
+msgctxt "desc/human/mp/fin/late/elite_squadleader"
+msgid "Elite Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/late/mg_dt"
+msgid "MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/late/mg_dt_asst"
+msgid "MG Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/fin/late/pio_builder"
+msgid "Pioneeri Engineer"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/late/pio_mg"
+msgid "Pioneeri"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/late/pio_rifle"
+msgid "Pioneeri"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/late/pio_sa"
+msgid "Pioneeri"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/late/pio_sl"
+msgid "Pioneeri Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/late/vet_cav_mg"
+msgid "Veteran Ratsuväki MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/late/vet_cav_mg_asst"
+msgid "Veteran Ratsuväki MG Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/fin/late/vet_cav_rifle"
+msgid "Veteran Ratsuväki"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/late/vet_cav_sa"
+msgid "Veteran Ratsuväki"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/late/vet_cav_sl"
+msgid "Veteran Ratsuväki Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/late/vet_cav_smg"
+msgid "Veteran Ratsuväki"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/late/vet_cav_smg_stick"
+msgid "Veteran Ratsuväki"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/late/vet_mg"
+msgid "Veteran MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/late/vet_mg_asst"
+msgid "Veteran MG Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/fin/late/vet_mg_dp"
+msgid "Veteran MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/late/vet_mg_dp_asst"
+msgid "Veteran MG Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/fin/late/vet_rifle"
+msgid "Veteran Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/late/vet_rifle_sa"
+msgid "Veteran Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/late/vet_scout"
+msgid "Veteran Scout"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/late/vet_scout_sl"
+msgid "Veteran Scout Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/late/vet_smg_drum"
+msgid "Veteran SMG inf."
+msgstr ""
+
+msgctxt "desc/human/mp/fin/late/vet_smg_pps"
+msgid "Veteran SMG inf."
+msgstr ""
+
+msgctxt "desc/human/mp/fin/late/vet_smg_ppsh"
+msgid "Veteran SMG inf."
+msgstr ""
+
+msgctxt "desc/human/mp/fin/late/vet_smg_stick"
+msgid "Veteran SMG inf."
+msgstr "" 
+
+msgctxt "desc/human/mp/fin/late/vet_squadleader"
+msgid "Veteran Squadleader"
+msgstr "" 
+
+msgctxt "desc/human/mp/fin/late/vet_jag_mg"
+msgid "Veteran Jääkäri MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/late/vet_jag_mg_asst"
+msgid "Veteran Jääkäri MG Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/fin/late/vet_jag_rifle"
+msgid "Veteran Jääkäri"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/late/vet_jag_sa"
+msgid "Veteran Jääkäri"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/late/vet_jag_sl"
+msgid "Veteran Jääkäri Squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/fin/late/vet_jag_smg"
+msgid "Veteran Jääkäri"
+msgstr ""

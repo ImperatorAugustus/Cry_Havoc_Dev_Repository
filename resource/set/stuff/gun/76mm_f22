@@ -2,30 +2,35 @@
 ; USSR long-barreled early medium Gun
 ;=========================================
 
-{from "pattern gun"			; L/51.2 "f22"
+{from "pattern gun"			; L/48.4 "f22"
 	{filling "bulletrus_76"}
-	{fireSound 		"gun/Shared/close/medium/75-76mm/"}
-	{fireSoundClose 	"gun/Shared/close/medium/75-76mm/"}
-  	{reloadSound 		"tank/reload_medium"}
+	{fireSound "gun/gun_75_105"}
+	{fireSoundclose "gun/gun_75_105"}
+	{reloadSound "tank/reload_big"}
 	("range_190")
 	{calibre 76.2}
 
 	("reload time" seconds(5.6))
 
-	("velocity m/s" ap(690) apcr(1) he(706) heat(1))
+	("velocity m/s" ap(690) apcr(991) he(706) heat(1))
 	("armor health" damage(200))
 	("armor health custom" shell(aphebc) damage(200) filler(150))
+	("armor health custom" shell(aphebc2) damage(200) filler(88))
+	("76_rus_slope_multipliers")
 
 	; BR-350A
-	("penetration_medium" shell(aphebc) range(190) a(75) b(66) c(57) d(52) e(48))  ;RHA
+	("penetration_medium" shell(aphebc) range(190) a(81) b(71) c(62) d(56) e(51))  ;RHA
 ;//	("penetration_medium" shell(aphebc) range(190) a(78) b(71) c(63) d(56) e(50))  ;FHA
 
-	; BR-350P  ; only issued to ZiS-5 & F-34 guns
-	("penetration_medium" shell(apcr) range(190) a(130) b(92) c(60) d(39) e(26))	; issued in Oct. '43. 8 rounds per vehicle where the Germans were expected to attack. Spring '44 all vehicles had at least 4 rounds.
+	; BR-350B
+	("penetration_medium" shell(aphebc2) range(190) a(89) b(81) c(70) d(62) e(57))  ;RHA
+
+	; BR-350P  ; only issued to ZiS-5 & F-34 guns; theoretical performance
+	("penetration_medium" shell(apcr) range(190) a(137) b(99) c(66) d(44) e(29))	; issued in Oct. '43. 8 rounds per vehicle where the Germans were expected to attack. Spring '44 all vehicles had at least 4 rounds.
 
 	; BP-350A  ; only issued to ZiS-3,5 & F-34 guns
-	("penetration_medium" shell(heat) range(170) a(75) b(75) c(75) d(75) e(75))	; issued sometime in '43
+	("penetration_medium" shell(heat) range(190) a(75) b(75) c(75) d(75) e(75))	; issued sometime in '43
 
 
-	("accuracy_direct" r1(3.4) range_ap(190) range_he(190) range_heat(170))
+	("accuracy_direct_arrowhead" r1(0.85) range_ap(190) range_he(190) range_heat(190))
 }

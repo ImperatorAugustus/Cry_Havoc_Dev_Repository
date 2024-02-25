@@ -5,25 +5,36 @@
 
 {from "pattern gun"			; L/11 "sig33", "bison"
 	{filling "bulletger_150_l11"}
-	{fireSound 		"gun/Shared/close/very_large/"}
-	{fireSoundclose 	"gun/Shared/close/very_large/"}
-  	{reloadSound 		"tank/reload_medium"}	
-	("range_170_howitzer")
+	{fireSound "gun/gun_122_152_short"}
+	{fireSoundclose "gun/gun_122_152_short"}
+	{reloadSound "tank/reload_howitzer"}
+	("range_190_howitzer")
 	{calibre 150}
 
 	("reload time" seconds(25))
 
 	("velocity m/s" ap(1) apcr(1) he(280) heat(280))
 	("armor health" damage(450))
+	("85-155_slope_multipliers")
 
 	; Gr.39 Hl/A
 
 	("penetration_medium" shell(heat) range(170) a(185) b(185) c(185) d(185) e(185))
-	("accuracy_spg" r1(5) range_ap(170) range_he(170) range_heat(170))
+	("accuracy_spg" r1(1.25) range_ap(190) range_he(190) range_heat(190))
 
 	(mod not "mp"
-		("accuracy_spg" r1(5) range_ap(170) range_he(210) range_heat(170))
+		("accuracy_spg" r1(1.25) range_ap(190) range_he(190) range_heat(190))
 		{range 210 210}
 	)
-    {unlimitedRangeTPC 0}   ;// restrict range in TPC/FPC
+	{unlimitedRangeTPC 0}   ;// restrict range in TPC/FPC
+
+	{parameters "he2" ;// stielgranate 42
+		("reload time" seconds(30))
+		{speed 100}
+		{gravity 3}
+		{range 150 150}
+		{spreading
+			{radiusTable {0 0} {50 5} {100 10} {150 15} {155 50}}
+		}
+	}
 }

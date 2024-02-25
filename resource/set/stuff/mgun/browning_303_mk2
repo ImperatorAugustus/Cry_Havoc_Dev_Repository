@@ -1,0 +1,17 @@
+{from "pattern mgun"		;Blenheim mk1
+	{tag "gun aa"}
+	{filling "mgun_usa" 500}
+	{entity "browning_m19a4"}
+	{fireSound "smallarms/s3/d1/USA/M1919A4/"}
+	{fireSoundclose "smallarms/s3/USA/RUS/M1919A4/"}
+	{reloadSound "dt"}
+	{calibre 7.7}
+	{mass 9.12}
+
+	("fire rate" rpm(1150))
+	("velocity" mps(850))
+
+	("burst_aa")
+	("airborne_mg")
+	{traceFreq 1}
+}

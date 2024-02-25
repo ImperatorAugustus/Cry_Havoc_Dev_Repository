@@ -1,0 +1,85 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Gates of Hell German vehicles\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+msgctxt "desc/entity/munitionspanzer38t"
+msgid "Munitionspanzer 38(t)"
+msgstr ""
+
+msgctxt "info/special/munitionspanzer38t"
+msgid "<c(c3baae)>Armored Ammo Carrier</c>"
+msgstr ""
+
+msgctxt "desc/entity/105mm_lefh18m"
+msgid "10.5cm leFH 18M"
+msgstr ""
+
+msgctxt "info/special/105mm_lefh18m"
+msgid "<c(c3baae)>Light Field Howitzer</c>"
+msgstr ""
+
+msgctxt "desc/entity/tiger1mid"
+msgid "Pz.VI Tiger Ausf.E"
+msgstr ""
+
+msgctxt "info/special/tiger1mid"
+msgid "<c(c3baae)>Heavy Tank</c>"
+msgstr ""
+
+msgctxt "desc/entity/tiger1mid#aa"
+msgid "Pz.VI Tiger Ausf.E"
+msgstr ""
+
+msgctxt "info/special/tiger1mid#aa"
+msgid "<c(c3baae)>Heavy Tank</c>"
+msgstr ""
+
+msgctxt "desc/entity/flammpanzer38t"
+msgid "Flammpanzer 38(t)"
+msgstr ""
+
+msgctxt "info/special/flammpanzer38t"
+msgid "<c(c3baae)>Self-Propelled Flamethrower</c>"
+msgstr ""
+
+msgctxt "desc/entity/tiger1e"
+msgid "Pz.VI Tiger Ausf.E (Late)"
+msgstr ""
+
+msgctxt "info/special/tiger1e"
+msgid "<c(c3baae)>Heavy Tank</c>"
+msgstr ""
+
+msgctxt "desc/entity/hummel_early"
+msgid "Hummel (Early)"
+msgstr ""
+
+msgctxt "info/special/hummel_early"
+msgid "<c(c3baae)>Self-Propelled Howitzer</c>"
+msgstr ""
+
+msgctxt "desc/entity/elefant"
+msgid "Panzerjäger Tiger (P) 'Elefant'"
+msgstr ""
+
+msgctxt "info/special/elefant"
+msgid "<c(c3baae)>Tank Destroyer</c>"
+msgstr ""
+
+msgctxt "desc/entity/sdkfz251d_23"
+msgid "Sd.Kfz 251/23"
+msgstr ""
+
+msgctxt "info/special/sdkfz251d_23"
+msgid "<c(c3baae)>Medium Halftrack</c>"
+msgstr ""

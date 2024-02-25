@@ -1,11 +1,9 @@
 {from "pattern mgun"
-	{desc "PM obr. 1910/30"}
-	{tag "PM1910"}
-	{filling "ammo mgun_rus belt" 250}
+	{filling "mgun_rus" 250}
 	{entity "maxim_1910_30"}
 	{inventory {size 7 2}}
-	{fireSound	"small_arms/RUS/PM1910/close/"}
-	{fireSoundclose	"small_arms/RUS/PM1910/3p/"}
+	{fireSound "smallarms/s3/d1/Shared/Maxim_gun/"}
+	{fireSoundclose "smallarms/s3/d1/Shared/Maxim_gun/"}
 	{reloadSound "dt"}
 	{calibre 7.62}
 	{mass 27.2}
@@ -13,25 +11,10 @@
 	("fire rate" rpm(600))
 	("velocity" mps(740))
 
+	("rus_ap_bullets")
 	("reload_belt")
-	
-	("recoil_medium")
+
 	("burst_stand")
-	("spreading_mounted")
-	("zero_medium")
-
-	{curve "rifle_light_ball"}
-	("muzzle_energy_rifle_caliber" j(3114))
-	("penetration" a(13.00) b(10.40) c(8.13) d(3.52))
-
-	{parameters "Ball_Heavy"
-		{curve "rifle_heavy_ball"}
-		("muzzle_energy_rifle_caliber" j(3229))
-		("penetration" a(13) b(11) c(8) d(5))
-	}
-	{parameters "AP"
-		{curve "rifle_heavy_ball"}
-		("muzzle_energy_rifle_caliber" j(3229))
-		("penetration" a(20) b(17) c(15) d(11))
-	}
+	("spreading_mounted_low")
+	{traceFreq 1}
 }

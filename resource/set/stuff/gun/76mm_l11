@@ -3,10 +3,10 @@
 ;=========================================
 
 
-{from "76mm_f32"			; L/30.5 "t3476_40"
-	{fireSound 	"gun/Shared/close/medium/75-76mm/"}
-	{fireSoundClose "gun/Shared/int/medium/"}
-	{reloadSound "INT/reload/reload_medium_15s_INT"}
+{from "76mm_f32"			; L/30.5 "t3476_40" "kv1_39"
+{fireSound "gun/gun_75_105_short"}
+{fireSoundclose "gun/gun_interior/size3"}
+{reloadSound "interior/large/medium_reload_interior"}
 
 	("reload time" seconds(15))
 }

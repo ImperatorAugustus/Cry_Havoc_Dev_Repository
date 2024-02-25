@@ -1,0 +1,29 @@
+;_________________________________________
+; Finnish light AT rifle
+;=========================================
+
+
+{from "pattern gun"			; "Lahti L39"
+	{filling "bulletfin_20" 10}
+	{fireSound "rifle/20mm_m39_shot"}
+	{fireSoundclose "rifle/20mm_m39_shot/3p/"}
+	{reloadSound "ptrd"}
+	("range_autocannon_12-20")
+	{cursor "ironsights/aa"}
+	{calibre 20}
+
+	("fire rate" rpm(25))
+	("reload time" seconds(7))
+
+	("velocity" mps(830))
+	("armor health" damage(75))
+	("20_slope_multipliers")
+	{SyncedProjectiles 1}
+	{SpreadTolerance 0.20}		;// Zeroing up to 20% needed before fire
+	{ZeroingAccuracy 0.9 0.8 0.7 0.65}
+
+	{range 150 150};//	0m	100m	300m	500m
+	{projectileDamageTable {0 35} {40 31} {110 25} {140 20} {150 18} {160 0}}
+
+	("accuracy_direct" r1(0.80) range_ap(160) range_he(160) range_heat(150))
+}

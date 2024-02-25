@@ -1,9 +1,0 @@
-{
-	(include "lafette.inc")
-
-	{extender "inventory"
-		{box
-			{item "mg34_belt" filled {user "mgun"}}
-		}
-	}
-}

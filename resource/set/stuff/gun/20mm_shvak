@@ -4,9 +4,9 @@
 
 
 {from "pattern gun"			; "Yak1"
-	{tag "aa" "-tank_gun"}
 	{filling "bullet_20_auto aphe" 120}
-	{fireSound 	"gun/SOV/20mm_TNSh/close/"}
+	{fireSound "gun/gun_auto"}
+	{fireSoundclose "gun/gun_interior/size1"}
 	{reloadSound "interior/large/auto_reload_interior"}
 	("range_aircraft_gun")
 	{cursor "ironsights/aa"}
@@ -16,7 +16,8 @@
 	("reload time" seconds(20))
 
 	("velocity" mps(800))
-	("armor health" damage(30))
+	("armor health" damage(40))
+	("20_slope_multipliers")
 
 	{parameters "aphe" 										; ?
 		("penetration" a(28) b(19) c(16) d(12) e(7))

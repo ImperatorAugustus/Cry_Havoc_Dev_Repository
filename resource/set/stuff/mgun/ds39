@@ -1,0 +1,20 @@
+{from "pattern mgun"
+	{filling "mgun_rus" 250}
+	{entity "ds39"}
+	{fireSound "smallarms/s3/d1/RUS/DS39/"}
+	{fireSoundclose "smallarms/s3/d1/RUS/DS39/"}
+	{reloadSound "interior/small/dt_reload_interior"}
+	{reloadSound "dt"}
+	{calibre 7.62}
+	{mass 14.3}
+
+	("fire rate" rpm(600))
+	("velocity" mps(800))
+
+	("rus_ap_bullets")
+	("reload_belt")
+
+	("burst_medium")
+	("spreading_mounted_low")
+	{traceFreq 1}
+}

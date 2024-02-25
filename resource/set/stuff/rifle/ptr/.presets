@@ -8,16 +8,3 @@
 (define "armor health"
 	{minimumDamageModifier (* 1.0 %damage)}
 )
-
-;/*=========================*/ 	Recoil Profiles
-
-(define "recoil_high"
-	{recoil
-		{shoot {5.75 0.35} {-4.0 0.35}}
-		{maxAngle 50 50}
-		{restoreTime 0.5 0.25}
-		{restoreDelay 0.25}
-	}
-)
-
-;/*=========================*/

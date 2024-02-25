@@ -1,10 +1,9 @@
 {from "pattern mgun"
-	{desc "MG 37(t)"}
-	{filling "ammo mgun_ger belt" 100}
-	{entity "mg34_tank"}			;temp
-	{fireSound		"small_arms/Shared/ZB53/close/"}
-	{fireSoundClose		"small_arms/Shared/ZB53/1p_vic/"}
-	{reloadSound 		"INT/reload/Coax_reload_INT_8s"}
+	{filling "mgun_ger" 100}
+	{entity "besa"}
+	{fireSound "smallarms/s3/d1/Shared/ZB37/"}
+	{fireSoundclose "smallarms/s3/int/Shared/ZB37/"}
+	{reloadSound "interior/small/mg34_reload_interior"}
 	{calibre 7.92}
 	{mass 21}
 
@@ -13,18 +12,9 @@
 
 	("reload_belt")
 
-	("recoil_medium")
-	("burst_stand")
+	("ger_ap_bullets")
+
+	("burst_long")
 	("spreading_mounted")
-	("zero_medium")
-
-	{curve "rifle_heavy_ball"}
-	("muzzle_energy_rifle_caliber" j(4006.23))		; SmE 1940
-	("penetration" a(13) b(11) c(8) d(5))
-
-	{parameters "AP"
-		{curve "rifle_heavy_ball"}
-		("muzzle_energy_rifle_caliber" j(3965))
-		("penetration" a(20) b(17) c(15) d(11))
-	}
+	{traceFreq 1}
 }

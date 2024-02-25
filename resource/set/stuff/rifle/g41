@@ -1,31 +1,14 @@
 {from "pattern rifle"
-	{desc "G 41(W)"}
-	{tag "G41 rifle_shell shoot_walking_ai"}
+	{tag "rifle_shell"}
 	{filling "ammo rifle_ger clip" 10}
 	{entity "g41"}
-	{fireSound "small_arms/GER/G41/close/"}
-	{fireSoundclose "small_arms/GER/G41/3p/"}
-	{reloadSound "g43"}
+	{fireSound "smallarms/s3/d1/GER/G41/"}
+	{fireSoundclose "smallarms/s3/3p/GER/G41/"}
+	{reloadSound "reload_clip_x2"}
 	{calibre 7.92}
 	{mass 4.9}
 
-	("reload time" seconds(10))
+	("reload time" seconds(7))
 	("velocity" mps(776))
-
 	("semi_rifle")
-
-	{curve "rifle_heavy_ball"}
-	("muzzle_energy_rifle_caliber" j(3750.73))		; SmE 1940
-	("penetration" a(11.92) b(10.32) c(8.86) d(6.53) e(4.76))
-
-	{parameters "AP"				;Placeholder
-		{curve "rifle_heavy_ball"}
-		("muzzle_energy_rifle_caliber" j(3652))
-		("penetration" a(20.25) b(18.45) c(16.81) d(14.19) e(12.20))
-	}
-	{parameters "HE"				;Placeholder
-		{curve "rifle_light_ball"}
-		("muzzle_energy_rifle_caliber" j(3471))
-		("penetration" a(11.96) b(9.57) c(7.49) d(4.72) e(3.26))
-	}
 }

@@ -1,0 +1,104 @@
+{game_entity
+	(include "/properties/tank_assaultgun.ext")
+	
+	(include "/properties/selection/vehicle.inc" scale(1.1))
+	{props "td" "light" "-turret" "mantlet" "vision_lev03" "flame" "shield" "detect_td_light"}
+	{extension "flammpanzer38t.mdl"}
+	(include "flammpanzer38t.ext")
+	{patherId "panzer38"}
+	{collider "tank.light"}
+	{targetclass "tank_medium"}
+	{targetSelector "tank_medium"}
+
+	{extender "enumerator"
+		{digit_folder "ger"}
+	}
+
+	{sensor
+		{visor "main"
+			{bone "visor1"}
+		}
+		{visor "around"
+			{vision "none"}
+			{bone "visor"}
+		}
+		{visor "top"
+			{vision "tank_remote-mg"}
+			{bone "mgun"}
+		}
+	}
+
+	("crew_4_human")
+	("crew_human" place(commander) door(emit1) door2(emit2) visor(top))
+
+	{boarder
+		{anm "left"
+			{forward {begin "board_hetzer"} {end "seat_armor"}}
+			{reverse {end "emit_tank_1"}}
+		}
+		{anm "right"
+			{forward {begin "board_hetzer"} {end "seat_gunner_stand"}}
+			{reverse {end "emit_tank_2_hold"}}
+		}
+	}
+
+	{extender "shield" {on}}
+
+	{extender "inventory"
+		{weapon "mgun" {mask "mountable"}}
+		{box
+			{item "ammo mgun_ger drum" 550}				; 12 drums (50 rounds each)
+			{item "mg34_drum" filling "ammo mgun_ger drum" 50 {user "mgun"}}
+			{item "geballteladung_3kg" 1}
+		}
+	}
+
+	{Weaponry
+		("restore_ik_time")
+		{place "gun"
+			{RestoreIKAfterAim}
+			{weapon "14mm_flammenwerfer_pz3" filled}
+			{gunner "gunner"}
+			{charger "charger"}
+			("abm_dymamic"
+				zeroing(2.0)
+				dispersion(0.15)
+			)
+		}
+		{place "mgun"
+			{type "aa"}
+			{gunner "commander"}
+			{charger "commander"}
+			{LinkBone "mgun"}
+			{LinkAnimation "off"}
+			("abm_mgun")
+			{basic}
+			{ai_in_manual}
+		}
+	}
+
+	{mass 16000}
+	{Chassis
+		("tank_trace" fx("tracks_mid") step(0.52) len(-0.45))
+		("mobility_tank"
+			speed(40) ;----------Max speed when fully accelerated on road, km/h.
+			reverse(10) ;--------Max speed in reverse on road, km/h.
+			traverse(25) ;-------Track traverse, per second, in degrees.
+			weight(16.0) ;-------Weight in Tonnes.
+			power(150) ;---------Engine Power, in hp.
+			track(3) ;-----------Track performance: (0,10], 10=ideal. Sluggish tanks and vehicles with narrow and non-gripping tracks have a lower performance.
+			fuel(320) ;----------Fuel capacity in Litres.
+			type(fuel) ;---------Fuel type. (diesel OR fuel)
+			range(130) ;---------Range in km, off-road.
+		)
+	}
+
+	{bone "gun_rot"
+		{limits -6 10}
+		{speed2 8}
+	}
+	{bone "turret"
+		{limits -5 11}
+		{speed2 8}
+	}
+}

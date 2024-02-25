@@ -1,7 +1,6 @@
 {game_entity
 	(include "/properties/tank_assaultgun.ext")
-	(include "/properties/shadow/tank.inc" scale(1.2))
-	(include "/properties/selection/vehicle.inc" scale(1.2))
+	(include "/properties/selection/vehicle_big.inc" scale(0.95))
 	{props "td" "heavy" "-turret" "vision_lev05" "muzzle_85mm_93mm_sides" "shell_eject" "detect_td_heavy"}
 	{extension "ferdinand.mdl"}
 	(include "ferdinand.ext")
@@ -16,7 +15,7 @@
 
 	{sensor
 		{visor "main"
-			{vision "tank_range_250"}
+			{vision "tank_range_220"}
 			{bone "visor1"}
 		}
 		{visor "around"
@@ -49,14 +48,17 @@
 		}
 	}
 
-	("seat_human" place(seat1) bone(seat01) door(emit5)  animation(armor))
-	("seat_human" place(seat2) bone(seat02) door(emit3)  animation(armor1))
-	("seat_human" place(seat3) bone(seat03) door(emit6)  animation(armor1))
+	("seat_human" place(seat1) bone(seat01) door(emit3)  animation(armor))
+	("seat_human" place(seat2) bone(seat02) door(emit4)  animation(armor))
+	("seat_human" place(seat3) bone(seat03) door(emit5)  animation(armor))
+	("seat_human" place(seat4) bone(seat04) door(emit6)  animation(armor))
 
 	{extender "inventory"
 		{box
-			{item "bulletger_88_l71 apcbche" 29}	;50 rounds
-			{item "bulletger_88_l71 he" 20}
+			{item "bulletger_88_l71 apcbche" 24}	;50 rounds
+			{item "bulletger_88_l71 he" 25}
+			{item "bulletger_88_l71 apcr" 2}
+			{item "bulletger_88_l71 heat" 3}
 			{item "geballteladung_3kg" 1}
 		}
 	}
@@ -66,10 +68,11 @@
 		{place "gun"
 			{RestoreIKAfterAim}
 			{weapon "88mm_kwk43" filling "bulletger_88_l71 apcbche" 1}
-			{gunner "gunner"}
-			{charger "charger"}
+			{gunner "gunner gunner3" minWorkers 1}
+			{charger "charger charger2" minWorkers 1}
 			("abm_dymamic_td"
-
+				zeroing(3.0)
+				dispersion(0.25)
 			)
 		}
 	}
@@ -92,10 +95,10 @@
 
 	{bone "gun_rot"
 		{limits -5 14}
-		{speed2 2}
+		{speed2 4}
 	}
 	{bone "turret"
 		{limits -14 14}
-		{speed2 2.25}
+		{speed2 4.5}
 	}
 }

@@ -5,10 +5,10 @@
 
 {from "pattern gun"			; L/56 "tiger1e", "tiger1h", "tiger1hunt"
 	{filling "bulletger_88_l56"}
-	{fireSound 		"gun/Shared/close/medium/85-100mm/"}
-	{fireSoundClose 	"gun/Shared/int/medium/"}
-	{reloadSound 		"INT/reload/reload_medium_8s_INT"}
-	("range_210")
+	{fireSound "gun/gun_88"}
+	{fireSoundclose "gun/gun_interior/size3"}
+	{reloadSound "interior/large/big_reload_interior"}
+	("range_230")
 	{calibre 88}
 
 	("reload time" seconds(8))
@@ -16,19 +16,20 @@
 	("velocity m/s" ap(780) apcr(930) he(820) heat(600))
 	("armor health" damage(240))
 	("armor health custom" shell(apcbche) damage(240) filler(102))
+	("88_ger_slope_multipliers")
 
 	; Pzgr.39
-	("penetration_long" shell(apcbche) range(210) a(162) b(151) c(138) d(126) e(116))
+	("penetration_long" shell(apcbche) range(230) a(162) b(151) c(138) d(126) e(116))
 
 	; Pzgr.40
-	("penetration_long" shell(apcr) range(210) a(219) b(200) c(179) d(160) e(143))
+	("penetration_long" shell(apcr) range(230) a(219) b(200) c(179) d(160) e(143))
 	{parameters "apcr" ; Pzgr.40
 		("large_apcr_slope_multiplier")
 	}
 
 	; Gr.39 Hl
-	("penetration_long" shell(heat) range(210) a(110) b(110) c(110) d(110) e(110))
+	("penetration_long" shell(heat) range(230) a(110) b(110) c(110) d(110) e(110))
 
 
-	("accuracy_direct" r1(2.6) range_ap(210) range_he(210) range_heat(210))
+	("accuracy_direct" r1(0.65) range_ap(230) range_he(230) range_heat(230))
 }

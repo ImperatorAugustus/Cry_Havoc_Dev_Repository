@@ -1,8 +1,0 @@
-{talk
-	{immediate}
-	{priority 1}
-	{timeout 90 30}
-	{condition
-		{seen enemy airborne 1}
-	}
-}

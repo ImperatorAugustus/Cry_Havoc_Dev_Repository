@@ -1,10 +1,6 @@
-{from "pattern bullet"
-	{tag "weapon mgun at_rifle -bullet to_hand nokeep mountable ap"}
-	{inventory
-		{size 8 2}
-		{link_bone "gun_back"}
-		{weight 100}
-	}
+{from "pattern rifle"
+	{tag "weapon at_rifle ptr_shell -bullet to_hand mountable ap -shoot_walking -shoot_walking_ai shoot_walking_manual"}
+	{inventory {size 8 2}}
 
 	{states
 		{reload		"reload"}
@@ -14,7 +10,6 @@
 		{can_aim	"can-aim-bolt"}
 	}
 
-	{cursor "ironsights/rifle"}
 	{cursorReloading "gun_ap"}
 
 	{special
@@ -22,33 +17,30 @@
 	}
 
 	{foresight "foresight18"}
-	{RelaxationTime 1}
-	{SpreadTolerance 0.6}			;// AI needs to aim 70%
-	{aimingTolerance 0.1}
+	{RelaxationTime 0.5}
+	{SpreadTolerance 0.20}			;// AI needs to aim 20%
+	{aimingTolerance 1}
 
 	("reload time" seconds(5))
-	("fire rate" rpm(29))
-	{FiringTimeout 3 0.5}
+	{FiringTimeout 4.0 0.25}
 
-	("recoil_high")
-	
-	{spreading
-	{SpreadPower 2}
-	{SpreadXYRatio	0.5}
+	{range 150 150}
+
+	{spreading 
+		{BurstAccuracy 100 90 80}
 	}
 
-	{range 180 180}
+	{ZeroingAccuracy 0.9 0.8 0.75}
 
-	{ZeroingAccuracy 0.85 0.75 0.7 0.65}
+	("human health" damage(160))
+	("armor health" damage(45))
 
-	("human health" damage(350))
-	("armor health" damage(85))
-
-	("accuracy_4_MoA")
-	("ap_slope_multiplier")
+	("accuracy_rifle_at")
+	("at_rifle_slope_multiplier")
+	("recoil_rifle_at")
+	("sway_rifle")
 
 	{AccuracyByMotionK 0.75}
 
 	{thirdpersonparams inherit "human default"}
-	{SyncedProjectiles 1} 			;// visually syncs decal/crater spawn in multiplayer
 }

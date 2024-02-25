@@ -5,10 +5,10 @@
 
 {from "pattern gun"			; L/71 "sdkfz182h", "Elefant", "Jagdpanther"
 	{filling "bulletger_88_l71"}
-	{fireSound 		"gun/Shared/close/medium/85-100mm_high-velocity/"}
-	{fireSoundClose 	"gun/Shared/int/medium/"}
-	{reloadSound 		"INT/reload/reload_medium_8s_INT"}
-	("range_220")
+	{fireSound "gun/gun_88"}
+	{fireSoundclose "gun/gun_interior/size3"}
+	{reloadSound "interior/large/big_reload_interior"}
+	("range_250")
 	{calibre 88}
 
 	("reload time" seconds(10))
@@ -16,22 +16,23 @@
 	("velocity m/s" ap(1000) apcr(1130) he(750) heat(600))
 	("armor health" damage(240))
 	("armor health custom" shell(apcbche) damage(240) filler(102))
+	("88_ger_slope_multipliers")
 
 	; Pzgr.39
-	("penetration_long" shell(apcbche) range(220) a(232) b(219) c(204) d(190) e(176))
+	("penetration_long" shell(apcbche) range(250) a(232) b(219) c(204) d(190) e(176))
 
 	; Pzgr.40
-	("penetration_long" shell(apcr) range(220) a(304) b(282) c(257) d(234) e(213))
+	("penetration_long" shell(apcr) range(250) a(304) b(282) c(257) d(234) e(213))
 	{parameters "apcr" ; Pzgr.40
 		("large_apcr_slope_multiplier")
 	}
 
 	; Gr.39 Hl
-	("penetration_long" shell(heat) range(210) a(110) b(110) c(110) d(110) e(110))
+	("penetration_long" shell(heat) range(250) a(110) b(110) c(110) d(110) e(110))
 
 	{parameters "he"
-		{range 210 210}
+		{range 250 250}
 	}
 
-	("accuracy_direct" r1(2) range_ap(220) range_he(210) range_heat(210))
+	("accuracy_direct" r1(0.50) range_ap(250) range_he(250) range_heat(250))
 }

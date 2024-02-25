@@ -12,87 +12,466 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 
-msgctxt "desc/stuff/mgun_usa"
-msgid ".30-06 Springfield"
+msgctxt "desc/stuff/flare_usa"
+msgid "Artillery Flare"
 msgstr ""
 
-msgctxt "desc/ammo/mgun_usa belt"
-msgid ".30-06 Springfield"
+msgctxt "desc/ammo/flare_usa"
+msgid "Artillery Flare"
 msgstr ""
 
-msgctxt "desc/stuff/hmgun_usa"
-msgid "Caliber .50"
+msgctxt "desc/ammo/flare_usa artillery_105"
+msgid "Flare (USA 105mm)"
 msgstr ""
 
-msgctxt "desc/ammo/hmgun_usa"
-msgid "Caliber .50"
+msgctxt "desc/ammo/flare_usa artillery_105_vt"
+msgid "Flare (USA 105mm 'Air')"
+msgstr ""
+
+msgctxt "desc/ammo/flare_usa artillery_155"
+msgid "Flare (USA 155mm)"
+msgstr ""
+
+msgctxt "desc/ammo/flare_usa artillery_155_vt"
+msgid "Flare (USA 155mm 'Air')"
+msgstr ""
+
+msgctxt "desc/ammo/flare_usa artillery_203"
+msgid "Flare (USA 203mm)"
+msgstr ""
+
+msgctxt "desc/ammo/flare_usa artillery_203_vt"
+msgid "Flare (USA 203mm 'Air')"
+msgstr ""
+
+msgctxt "desc/ammo/flare_usa artillery_240"
+msgid "Flare (USA 240mm)"
+msgstr ""
+
+msgctxt "desc/ammo/flare_usa mortar_60"
+msgid "Flare (USA 60mm)"
+msgstr ""
+
+msgctxt "desc/ammo/flare_usa mortar_81"
+msgid "Flare (USA 81mm)"
+msgstr ""
+
+msgctxt "desc/ammo/usa_grenade"
+msgid "Rifle Grenade"
+msgstr ""
+
+msgctxt "desc/ammo/air_bomb_usa_100lb"
+msgid "AN-M30 100lb GP Bomb"
+msgstr ""
+
+msgctxt "desc/ammo/air_bomb_usa_500lb"
+msgid "AN-M64 500lb GP Bomb"
+msgstr ""
+
+msgctxt "desc/ammo/127mm_hvar aphe"
+msgid "5-inch APHE, HVAR [<c(ff6a00)>APHE</c>]"
+msgstr ""
+
+msgctxt "desc/ammo/127mm_hvar he"
+msgid "5-inch HE, HVAR [<c(ff1200)>HE</c>]"
+msgstr ""
+
+msgctxt "desc/ammo/bullet_155_l15 usa he"
+msgid "155mm HE, Shell M101 [<c(ff1200)>HE</c>] <c(65696d)>L15</c>"
+msgstr ""
+
+msgctxt "desc/ammo/50mm_rocket_grapnel"
+msgid "2-inch Rocket, Grapnel Head"
+msgstr ""
+
+msgctxt "desc/ammo/114mm_m8"
+msgid "4.5-inch Rockets [<c(ff1200)>HE</c>]"
+msgstr ""
+
+msgctxt "desc/ammo/bar_mag"
+msgid ".30 cal BAR Magazine"
 msgstr ""
 
 msgctxt "desc/ammo/bazooka"
-msgid "60mm Rocket"
+msgid "60mm Bazooka Rocket"
+msgstr ""
+
+msgctxt "desc/ammo/bazooka heat"
+msgid "[<c(c9a6ff)>HEAT</c>] M6 Bazooka Rocket"
+msgstr ""
+
+msgctxt "desc/ammo/bazooka heata"
+msgid "[<c(c9a6ff)>HEAT</c>] M6A1 Bazooka Rocket"
+msgstr ""
+
+msgctxt "desc/ammo/bazooka heatb"
+msgid "[<c(c9a6ff)>HEAT</c>] M6A3 Bazooka Rocket"
+msgstr ""
+
+msgctxt "desc/ammo/bazooka wp"
+msgid "[<c(FFFFFF)>WP</c>] M10 Bazooka Rocket"
+msgstr ""
+
+msgctxt "desc/ammo/bullet_40x331_auto usa apbc"
+msgid "40mm AP-T, Shot M81A1 [<c(ff6a00)>APBC</c>] <c(65696d)>L/60</c>"
+msgstr ""
+
+msgctxt "desc/ammo/bullet_40x331_auto usa he"
+msgid "40mm HE-T, Shell Mk.II [<c(ff1200)>HE</c>] <c(65696d)>L/60</c>"
+msgstr ""
+
+msgctxt "desc/ammo/bullet_57x441 usa ap"
+msgid "57mm AP-T, Shot M70 [<c(ff6a00)>AP</c>] <c(65696d)>L/50</c>"
+msgstr ""
+
+msgctxt "desc/ammo/bullet_57x441 usa apcbche"
+msgid "57mm APC-T, Projectile M86 [<c(ff6a00)>APCBC-HE</c>] <c(65696d)>L/50</c>"
+msgstr ""
+
+msgctxt "desc/ammo/bullet_57x441 usa he"
+msgid "57mm HE-T, Shell T18E1 [<c(ff1200)>HE</c>] <c(65696d)>L/50</c>"
 msgstr ""
 
 msgctxt "desc/ammo/bulletusa_37 ap"
-msgid "37mm AP M74 Shot [<c(ff6a00)>AP</c>] <c(65696d)>L/53</c>"
+msgid "37mm AP-T, Shot M74 [<c(ff6a00)>AP</c>] <c(65696d)>L/53</c>"
+msgstr ""
+
+msgctxt "desc/ammo/bulletusa_37 apcbc"
+msgid "37mm APC-T, Shot M51 [<c(ff6a00)>APCBC</c>] <c(65696d)>L/53</c>"
 msgstr ""
 
 msgctxt "desc/ammo/bulletusa_37 he"
-msgid "37mm HE M63 Shell [<c(ff1200)>HE</c>] <c(65696d)>L/53</c>"
+msgid "37mm HE, Shell M63 [<c(ff1200)>HE</c>] <c(65696d)>L/53</c>"
 msgstr ""
 
-msgctxt "desc/ammo/bulletusa_57 ap"
-msgid "57mm AP M70 Shot [<c(ff6a00)>AP</c>] <c(65696d)>L/43 L/50</c>"
+msgctxt "desc/ammo/bulletusa_37_auto apc"
+msgid "37mm APC-T, Shot M59A1 [<c(ff6a00)>APC</c>] <c(65696d)>L/54</c>"
 msgstr ""
 
-msgctxt "desc/ammo/bulletusa_57 apcbche"
-msgid "57mm APCBC M86 Shell [<c(ff6a00)>APCBC-HE</c>] <c(65696d)>L/43 L/50</c>"
+msgctxt "desc/ammo/bulletusa_37_auto he"
+msgid "37mm HE-T, Shell M54 [<c(ff1200)>HE</c>] <c(65696d)>L/54</c>"
 msgstr ""
 
-msgctxt "desc/ammo/bulletusa_57 he"
-msgid "57mm HE T18 Shell [<c(ff1200)>HE</c>] <c(65696d)>L/43 L/50</c>"
+msgctxt "desc/ammo/bulletusa_75x272 he"
+msgid "75mm HE, Shell M48 [<c(ff1200)>HE</c>] <c(65696d)>L/15.9</c>"
 msgstr ""
 
-msgctxt "desc/ammo/bulletusa_75 ap"
-msgid "75mm AP M72 Shot [<c(ff6a00)>AP</c>] <c(65696d)>L/31 L/39 L/40</c>"
+msgctxt "desc/ammo/bulletusa_75x272 heat"
+msgid "75mm HEAT-T, Shell M66 [<c(c9a6ff)>HEAT</c>] <c(65696d)>L/15.9</c>"
 msgstr ""
 
-msgctxt "desc/ammo/bulletusa_75 apcbche"
-msgid "75mm APC M61 Shell [<c(ff6a00)>APCBC-HE</c>] <c(65696d)>L/31 L/39 L/40</c>"
+msgctxt "desc/ammo/bulletusa_75x272 wp"
+msgid "75mm Smoke WP, Shell M64 [<c(FFFFFF)>WP</c>] <c(65696d)>L/15.9</c>"
 msgstr ""
 
-msgctxt "desc/ammo/bulletusa_75 he"
-msgid "75mm HE M48 Shell [<c(ff1200)>HE</c>] <c(65696d)>L/31 L/39 L/40</c>"
+msgctxt "desc/ammo/bulletusa_75x350 ap"
+msgid "75mm AP-T, Shot M72 [<c(ff6a00)>AP</c>] <c(65696d)>L/31 L/39 L/40</c>"
 msgstr ""
 
-msgctxt "desc/ammo/bulletusa_76_l40 ap"
-msgid "3-inch AP M79 Shot [<c(ff6a00)>AP</c>] <c(65696d)>L/40</c>"
+msgctxt "desc/ammo/bulletusa_75x350 apcbc"
+msgid "75mm APC-T, Shot M61 [<c(ff6a00)>APCBC</c>] <c(65696d)>L/31 L/39 L/40</c>"
 msgstr ""
 
-msgctxt "desc/ammo/bulletusa_76_l40 apcbche"
-msgid "3-inch APC M62 Shell [<c(ff6a00)>APCBC-HE</c>] <c(65696d)>L/40</c>"
+msgctxt "desc/ammo/bulletusa_75x350 apcbche"
+msgid "75mm APC-T, Projectile M61 [<c(ff6a00)>APCBC-HE</c>] <c(65696d)>L/31 L/39 L/40</c>"
 msgstr ""
 
-msgctxt "desc/ammo/bulletusa_76_l40 hvap"
-msgid "3-inch HVAP M93 Shot [<c(48c445)>HVAP</c>] <c(65696d)>L/40</c>"
+msgctxt "desc/ammo/bulletusa_75x350 he"
+msgid "75mm HE, Shell M48 [<c(ff1200)>HE</c>] <c(65696d)>L/31 L/39 L/40</c>"
 msgstr ""
 
-msgctxt "desc/ammo/bulletusa_76_l40 he"
-msgid "3-inch HE M42A1 Shell [<c(ff1200)>HE</c>] <c(65696d)>L/40</c>"
+msgctxt "desc/ammo/bulletusa_75x350 wp"
+msgid "75mm WP, Shell M64 [<c(FFFFFF)>WP</c>] <c(65696d)>L/31 L/39 L/40</c>"
 msgstr ""
 
-msgctxt "desc/ammo/bulletusa_76 ap"
-msgid "76mm AP M79 Shot [<c(ff6a00)>AP</c>] <c(65696d)>L/52</c>"
+msgctxt "desc/ammo/bulletusa_76x539 ap"
+msgid "76mm AP-T, Shot M79 [<c(ff6a00)>AP</c>] <c(65696d)>L/52</c>"
 msgstr ""
 
-msgctxt "desc/ammo/bulletusa_76 apcbche"
-msgid "76mm APC M62 Shell [<c(ff6a00)>APCBC-HE</c>] <c(65696d)>L/52</c>"
+msgctxt "desc/ammo/bulletusa_76x539 apcbche"
+msgid "76mm APC-T, Projectile M62 [<c(ff6a00)>APCBC-HE</c>] <c(65696d)>L/52</c>"
 msgstr ""
 
-msgctxt "desc/ammo/bulletusa_76 hvap"
-msgid "76mm HVAP T4 Shot [<c(48c445)>HVAP</c>] <c(65696d)>L/52</c>"
+msgctxt "desc/ammo/bulletusa_76x539 he"
+msgid "76mm HE, Shell M42A1 [<c(ff1200)>HE</c>] <c(65696d)>L/52</c>"
 msgstr ""
 
-msgctxt "desc/ammo/bulletusa_76 he"
-msgid "76mm HE M42A1 Shell [<c(ff1200)>HE</c>] <c(65696d)>L/52</c>"
+msgctxt "desc/ammo/bulletusa_76x539 hvap"
+msgid "76mm HVAP-T, Shot M93 [<c(48c445)>HVAP</c>] <c(65696d)>L/52</c>"
 msgstr ""
 
+msgctxt "desc/ammo/bulletusa_76x539 sm"
+msgid "76mm Smoke, Shell M88 [<c(FFFFFF)>SMOKE</c>] <c(65696d)>L/52</c>"
+msgstr ""
+
+msgctxt "desc/ammo/bulletusa_76x585 ap"
+msgid "3-inch AP-T, Shot M79 [<c(ff6a00)>AP</c>] <c(65696d)>L/45</c>"
+msgstr ""
+
+msgctxt "desc/ammo/bulletusa_76x585 apcbche"
+msgid "3-inch APC-T, Projectile M62 [<c(ff6a00)>APCBC-HE</c>] <c(65696d)>L/45</c>"
+msgstr ""
+
+msgctxt "desc/ammo/bulletusa_76x585 he"
+msgid "3-inch HE, Shell M42A1 [<c(ff1200)>HE</c>] <c(65696d)>L/45</c>"
+msgstr ""
+
+msgctxt "desc/ammo/bulletusa_76x585 hvap"
+msgid "3-inch HVAP-T, Shot M93 [<c(48c445)>HVAP</c>] <c(65696d)>L/45</c>"
+msgstr ""
+
+msgctxt "desc/ammo/bulletusa_76x585 sm"
+msgid "3-inch Smoke, Shell M88 [<c(FFFFFF)>SMOKE</c>] <c(65696d)>L/45</c>"
+msgstr ""
+
+msgctxt "desc/ammo/bulletusa_90x600 ap"
+msgid "90mm AP-T, Shot M77 [<c(ff6a00)>AP</c>] <c(65696d)>L/53</c>"
+msgstr ""
+
+msgctxt "desc/ammo/bulletusa_90x600 apbc"
+msgid "90mm AP-T, Shot T33 [<c(ff6a00)>APBC</c>] <c(65696d)>L/53</c>"
+msgstr ""
+
+msgctxt "desc/ammo/bulletusa_90x600 apcbche"
+msgid "90mm APC-T, Projectile M82 [<c(ff6a00)>APCBC-HE</c>] <c(65696d)>L/53</c>"
+msgstr ""
+
+msgctxt "desc/ammo/bulletusa_90x600 he"
+msgid "90mm HE, Shell M71 [<c(ff1200)>HE</c>] <c(65696d)>L/53</c>"
+msgstr ""
+
+msgctxt "desc/ammo/bulletusa_90x600 hvap"
+msgid "90mm HVAP-T, Shot T30E16 [<c(48c445)>HVAP</c>] <c(65696d)>L/53</c>"
+msgstr ""
+
+msgctxt "desc/ammo/bulletusa_90x1270 apbc"
+msgid "90mm AP-T, Shot T43 [<c(ff6a00)>APBC</c>] <c(65696d)>L/73</c>"
+msgstr ""
+
+msgctxt "desc/ammo/bulletusa_90x1270 apcbche"
+msgid "90mm APC-T, Projectile T41 [<c(ff6a00)>APCBC-HE</c>] <c(65696d)>L/73</c>"
+msgstr ""
+
+msgctxt "desc/ammo/bulletusa_90x1270 he"
+msgid "90mm HE, Shell T42 [<c(ff1200)>HE</c>] <c(65696d)>L/73</c>"
+msgstr ""
+
+msgctxt "desc/ammo/bulletusa_90x1270 hvap"
+msgid "90mm HVAP-T, Shot T44 [<c(48c445)>HVAP</c>] <c(65696d)>L/73</c>"
+msgstr ""
+
+msgctxt "desc/ammo/bulletusa_105 he"
+msgid "105mm HE, Shell M1 [<c(ff1200)>HE</c>] <c(65696d)>L/22</c>"
+msgstr ""
+
+msgctxt "desc/ammo/bulletusa_105 heat"
+msgid "105mm HEAT-T, Shell M67 [<c(c9a6ff)>HEAT</c>] <c(65696d)>L/22</c>"
+msgstr ""
+
+msgctxt "desc/ammo/bulletusa_105 sm"
+msgid "105mm HC,BE, Shell M84 [<c(FFFFFF)>SMOKE</c>] <c(65696d)>L/22</c>"
+msgstr ""
+
+msgctxt "desc/ammo/bulletusa_105 wp"
+msgid "105mm Smoke WP, Shell M60 [<c(FFFFFF)>WP</c>] <c(65696d)>L/22</c>"
+msgstr ""
+
+msgctxt "desc/ammo/bullet_155 usa aphebc"
+msgid "155mm AP, Projectile M112 [<c(ff6a00)>APBC-HE</c>] <c(65696d)>L38.2 L/45</c>"
+msgstr ""
+
+msgctxt "desc/ammo/bullet_155 usa he2"
+msgid "155mm HE, Shell M102 [<c(ff1200)>HE</c>] <c(65696d)>L38.2 L/45</c>"
+msgstr ""
+
+msgctxt "desc/ammo/bullet_155 usa he"
+msgid "155mm HE, Shell M101 [<c(ff1200)>HE</c>] <c(65696d)>L38.2 L/45</c>"
+msgstr ""
+
+msgctxt "desc/ammo/bullet_155 usa sm2"
+msgid "155mm HC,BE, Shell M115 [<c(FFFFFF)>WP</c>] <c(65696d)>L38.2 L/45</c>"
+msgstr ""
+
+msgctxt "desc/ammo/bullet_155 usa sm"
+msgid "155mm HC,BE, Shell M117 [<c(FFFFFF)>SMOKE</c>] <c(65696d)>L38.2 L/45</c>"
+msgstr ""
+
+msgctxt "desc/ammo/bullet_155 usa wp2"
+msgid "155mm Smoke WP, Shell M105 [<c(FFFFFF)>WP</c>] <c(65696d)>L38.2 L/45</c>"
+msgstr ""
+
+msgctxt "desc/ammo/bullet_155 usa wp"
+msgid "155mm Smoke WP, Shell M104 [<c(FFFFFF)>WP</c>] <c(65696d)>L38.2 L/45</c>"
+msgstr ""
+
+msgctxt "desc/ammo/bulletusa_155_m1 he"
+msgid "155mm HE, Shell M107 [<c(ff1200)>HE</c>] <c(65696d)>L23</c>"
+msgstr ""
+
+msgctxt "desc/ammo/bulletusa_155_m1 sm"
+msgid "155mm HC,BE, Shell M116 [<c(FFFFFF)>SMOKE</c>] <c(65696d)>L23</c>"
+msgstr ""
+
+msgctxt "desc/ammo/bulletusa_155_m1 wp"
+msgid "155mm Smoke WP, Shell M110 [<c(FFFFFF)>WP</c>] <c(65696d)>L23</c>"
+msgstr ""
+
+msgctxt "desc/ammo/bulletusa_203 he"
+msgid "8-inch HE, Shell M106 [<c(ff1200)>HE</c>] <c(65696d)>L23</c>"
+msgstr ""
+
+msgctxt "desc/ammo/hdm_mag"
+msgid ".22 LR HDM Rounds"
+msgstr ""
+
+msgctxt "desc/ammo/hmgun_usa api"
+msgid ".50 cal API M8 Rounds"
+msgstr ""
+
+msgctxt "desc/ammo/hmgun_usa"
+msgid ".50 cal AP M2 Rounds"
+msgstr ""
+
+msgctxt "desc/ammo/m1_carbine_mag"
+msgid ".30 cal Carbine Magazine"
+msgstr ""
+
+msgctxt "desc/ammo/m3_grease_mag"
+msgid ".45 cal Grease Gun Magazine"
+msgstr ""
+
+msgctxt "desc/ammo/m1911_mag"
+msgid ".45 cal M1911 Rounds"
+msgstr ""
+
+msgctxt "desc/ammo/mgun_usa belt"
+msgid ".30 cal AP M2 Rounds"
+msgstr ""
+
+msgctxt "desc/ammo/mortarusa_60 he"
+msgid "60mm HE, Shell M49A2 [<c(ff1200)>HE</c>]"
+msgstr ""
+
+msgctxt "desc/ammo/mortarusa_60 wp"
+msgid "60mm Smoke WP, Shell T-6 [<c(FFFFFF)>WP</c>]"
+msgstr ""
+
+msgctxt "desc/ammo/mortarusa_81 he2"
+msgid "81mm Heavy HE, Shell M56 [<c(ff1200)>HE</c>]"
+msgstr ""
+
+msgctxt "desc/ammo/mortarusa_81 he"
+msgid "81mm Light HE, Shell M43A1 [<c(ff1200)>HE</c>]"
+msgstr ""
+
+msgctxt "desc/ammo/mortarusa_81 sm"
+msgid "81mm Smoke FS, Shell M57 [<c(FFFFFF)>SMOKE</c>]"
+msgstr ""
+
+msgctxt "desc/ammo/mortarusa_81 wp"
+msgid "81mm Smoke WP, Shell M57 [<c(FFFFFF)>WP</c>]"
+msgstr ""
+
+msgctxt "desc/ammo/mortarusa_107 he"
+msgid "4.2-inch HE, Shell M3 [<c(ff1200)>HE</c>]"
+msgstr ""
+
+msgctxt "desc/ammo/mortarusa_107 sm"
+msgid "4.2-inch Smoke FS, Shell M2 [<c(FFFFFF)>SMOKE</c>]"
+msgstr ""
+
+msgctxt "desc/ammo/mortarusa_107 wp"
+msgid "4.2-inch Smoke WP, Shell M2 [<c(FFFFFF)>WP</c>]"
+msgstr ""
+
+msgctxt "desc/ammo/recoilless"
+msgid "57mm Recoilless Rocket"
+msgstr ""
+
+msgctxt "desc/ammo/recoilless he"
+msgid "[<c(ff1200)>HE</c>] 57mm M306 Recoilless"
+msgstr ""
+
+msgctxt "desc/ammo/recoilless heat"
+msgid "[<c(c9a6ff)>HEAT</c>] 57mm M307 Recoilless"
+msgstr ""
+
+msgctxt "desc/ammo/recoilless wp"
+msgid "[<c(FFFFFF)>WP</c>] 57mm M308 Recoilless"
+msgstr ""
+
+msgctxt "desc/ammo/rifle_usa clip ap"
+msgid ".30 cal AP M2 Rifle Clip"
+msgstr ""
+
+msgctxt "desc/ammo/rifle_usa clip trace"
+msgid ".30 cal Tracer M2 Rifle Clip"
+msgstr ""
+
+msgctxt "desc/ammo/rifle_usa clip"
+msgid ".30 cal Ball M2 Rifle Clip"
+msgstr ""
+
+msgctxt "desc/ammo/rifle_usa garand_clip ap"
+msgid ".30 cal AP M2 Garand Clip"
+msgstr ""
+
+msgctxt "desc/ammo/rifle_usa garand_clip trace"
+msgid ".30 cal Tracer M2 Garand Clip"
+msgstr ""
+
+msgctxt "desc/ammo/rifle_usa garand_clip"
+msgid ".30 cal Ball M2 Garand Clip"
+msgstr ""
+
+msgctxt "desc/ammo/rifle_usa"
+msgid ".30 cal Rifle Rounds"
+msgstr ""
+
+msgctxt "desc/ammo/thompson_mag drum"
+msgid ".45 cal Thompson Drum Magazine"
+msgstr ""
+
+msgctxt "desc/ammo/thompson_mag stick 20"
+msgid ".45 cal Thompson Stick Magazine (20)"
+msgstr ""
+
+msgctxt "desc/ammo/thompson_mag stick 30"
+msgid ".45 cal Thompson Stick Magazine (30)"
+msgstr ""
+
+msgctxt "desc/ammo/thompson_mag stick"
+msgid ".45 cal Thompson Stick Magazine"
+msgstr ""
+
+msgctxt "desc/ammo/thompson_mag"
+msgid ".45 cal Thompson Drum Magazine"
+msgstr ""
+
+msgctxt "desc/ammo/usa_grenade he2"
+msgid "[<c(ff1200)>HE</c>] M1 Adapter with Mk.II Grenade"
+msgstr ""
+
+msgctxt "desc/ammo/usa_grenade he"
+msgid "[<c(ff1200)>HE</c>] M17"
+msgstr ""
+
+msgctxt "desc/ammo/usa_grenade heat"
+msgid "[<c(c9a6ff)>HEAT</c>] M9"
+msgstr ""
+
+msgctxt "desc/ammo/usa_grenade heata"
+msgid "[<c(c9a6ff)>HEAT</c>] M9A1"
+msgstr ""
+
+msgctxt "desc/ammo/usa_grenade wp"
+msgid "[<c(FFFFFF)>WP</c>] M19"
+msgstr ""
+
+msgctxt "desc/stuff/hmgun_usa"
+msgid ".50 cal Heavy MG"
+msgstr ""
+
+msgctxt "desc/stuff/mgun_usa"
+msgid ".30 cal Medum MG"
+msgstr ""

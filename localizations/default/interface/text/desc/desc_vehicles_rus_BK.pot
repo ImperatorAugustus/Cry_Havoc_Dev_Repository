@@ -1,0 +1,22 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Product Name (desc_vehicles_rus)\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Poedit 2.4.2\n"
+
+msgctxt "desc/entity/ot3476_42"
+msgid "OT-34 M1942"
+msgstr ""
+
+msgctxt "info/special/ot3476_42"
+msgid "<c(c3baae)>Medium Tank</c>"
+msgstr ""

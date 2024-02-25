@@ -1,0 +1,339 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Gates of Hell Doctrine Squads\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+msgctxt "desc/squad/doctrine_50cal_quad_m45_mid"
+msgid "<c(B29557)>( I )</c> M45 Quadmount"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_m13_mgmc_mid"
+msgid "<c(B29557)>( I )</c> MGMC M13"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_m3a1_stuart_mid"
+msgid "<c(B29557)>( I )</c> M3A1"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_m4_mortar_carrier_mid"
+msgid "<c(B29557)>( I )</c> Mortar Carrier M4"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_m4_75_early_armor_mid"
+msgid "<c(B29557)>( II )</c> M4 (Early) Up-armored"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_squad_usa_signaller_155_mid(usa)"
+msgid "<c(B29557)>( II )</c> 155mm Artillery Signaller"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_m7_hmc_mid"
+msgid "<c(B29557)>( II )</c> 105mm HMC M7"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_squad_usa_signaller_203_mid(usa)"
+msgid "<c(B29557)>( III )</c> 8-inch Artillery Signaller"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_3x_m4_75_early_armor_mid"
+msgid "<c(B29557)>( III )</c> 3x M4 (Early) Up-armored"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_155mm_gpf_us_mid"
+msgid "<c(B29557)>( III )</c> 155mm GPF"
+msgstr ""
+
+
+msgctxt "desc/squad/doctrine_cckw_engineer_mid"
+msgid "<c(B29557)>( I )</c> CCKW Engineer truck"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_40mm_m1_mid"
+msgid "<c(B29557)>( I )</c> 40mm M1 Bofors"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_t30_hmc_mid"
+msgid "<c(B29557)>( I )</c> 75mm HMC T30"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_107mm_m2_mid"
+msgid "<c(B29557)>( II )</c> 4.2-inch Mortar M2"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_76mm_m5_m1_mid"
+msgid "<c(B29557)>( II )</c> 76mm M5 AT Gun"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_t19_hmc_mid"
+msgid "<c(B29557)>( II )</c> 105mm HMC T19"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_90mm_m1a1_mid"
+msgid "<c(B29557)>( III )</c> 90mm M1A1"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_203mm_m1_mid"
+msgid "<c(B29557)>( III )</c> 8-inch Howitzer M1"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_155mm_m1a1_longtom_mid"
+msgid "<c(B29557)>( III )</c> 155mm M1A1 Long Tom"
+msgstr ""
+
+
+msgctxt "desc/squad/doctrine_squad_1st_special_mid(usa)"
+msgid "<c(B29557)>( I )</c> 1st Special Combat Section"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_m6_gmc_mid"
+msgid "<c(B29557)>( I )</c> 37mm GMC M6"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_75mm_m1a1_mid"
+msgid "<c(B29557)>( I )</c> 75mm M8 Pack Howitzer"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_p47_250_mid"
+msgid "<c(B29557)>( II )</c> P47 250lb Bomb"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_m10_gmc_mid"
+msgid "<c(B29557)>( II )</c> 3-inch GMC M10"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_105mm_m3_mid"
+msgid "<c(B29557)>( II )</c> 105mm Howitzer M3"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_p47_500_mid"
+msgid "<c(B29557)>( III )</c> P47 500lb Bomb"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_114mm_m1_mid"
+msgid "<c(B29557)>( III )</c> 4.5-inch Gun M1"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_155mm_schneider_us_mid"
+msgid "<c(B29557)>( III )</c> 155mm Schneider"
+msgstr ""
+
+
+msgctxt "desc/squad/doctrine_m3a1_commander_mid"
+msgid "<c(B29557)>( I )</c> M3A1 Command Car"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_m15a1_cgmc_mid"
+msgid "<c(B29557)>( I )</c> CGMC M15A1"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_m8_hmc_mid"
+msgid "<c(B29557)>( I )</c> 75mm HMC M8"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_m3_gmc_mid"
+msgid "<c(B29557)>( II )</c> 75mm GMC M3"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_m4a1_75_mid_armor_mid"
+msgid "<c(B29557)>( II )</c> M4A1 (Mid) Up-armored"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_squad_usa_signaller_105_mid(usa)"
+msgid "<c(B29557)>( II )</c> 105mm Artillery Signaller"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_squad_usa_signaller_240_mid(usa)"
+msgid "<c(B29557)>( III )</c> 8-inch Artillery Signaller"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_3x_m4a1_75_mid_armor_mid"
+msgid "<c(B29557)>( III )</c> 3x M4A1 (Mid) Up-armored"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_155mm_m1_mid"
+msgid "<c(B29557)>( III )</c> 155mm Howitzer M1"
+msgstr ""
+
+
+
+
+
+
+
+
+msgctxt "desc/squad/doctrine_m16_mgmc_late"
+msgid "<c(B29557)>( I )</c> MGMC M16"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_m4a1_mortar_carrier_late"
+msgid "<c(B29557)>( I )</c> Mortar Carrier M4A1"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_75mm_m3a3_late"
+msgid "<c(B29557)>( I )</c> 75mm M3A3"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_squad_usa_signaller_155_late(usa)"
+msgid "<c(B29557)>( II )</c> 155mm Artillery Signaller"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_m7b1_hmc_late"
+msgid "<c(B29557)>( II )</c> 105mm HMC M7B1"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_m4a3e2_76_late"
+msgid "<c(B29557)>( II )</c> M4A3E2(76)W"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_squad_usa_signaller_240_late(usa)"
+msgid "<c(B29557)>( III )</c> 240mm Artillery Signaller"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_m12_gmc_late"
+msgid "<c(B29557)>( III )</c> 155mm GMC M12"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_m26_pershing_late"
+msgid "<c(B29557)>( III )</c> M26"
+msgstr ""
+
+
+msgctxt "desc/squad/doctrine_cckw_engineer_late"
+msgid "<c(B29557)>( I )</c> CCKW Engineer Truck"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_40mm_m1_late"
+msgid "<c(B29557)>( I )</c> 40mm M1 Bofors"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_m3a1_gmc_late"
+msgid "<c(B29557)>( I )</c> 75mm GMC M3A1"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_107mm_m2_late"
+msgid "<c(B29557)>( II )</c> 4.2-inch Mortar M2"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_90mm_m2_late"
+msgid "<c(B29557)>( II )</c> 90mm M1A1"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_t19_hmc_late"
+msgid "<c(B29557)>( II )</c> 105mm HMC T19"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_m36b1_gmc_t33_late"
+msgid "<c(B29557)>( III )</c> 90mm GMC M36B1"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_203mm_m1_late"
+msgid "<c(B29557)>( III )</c> 8-inch Howitzer M1"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_155mm_m1a1_longtom_late"
+msgid "<c(B29557)>( III )</c> 155mm M1A1 Long Tom"
+msgstr ""
+
+
+msgctxt "desc/squad/doctrine_squad_1st_special_late(usa)"
+msgid "<c(B29557)>( I )</c> 1st Special Combat Section"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_75mm_m1a1_late"
+msgid "<c(B29557)>( I )</c> 75mm M8 Pack Howitzer"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_cckw_redball_late"
+msgid "<c(B29557)>( I )</c> 2x CCKW 'Redball' Ammo Trucks"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_p47_250_late"
+msgid "<c(B29557)>( II )</c> P47 250lb Bomb"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_105mm_m3_late"
+msgid "<c(B29557)>( II )</c> 105mm Howitzer M3"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_m4a3_105_hvss_late"
+msgid "<c(B29557)>( II )</c> M4A3(105) HVSS"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_m4a3_75w_e4_5_late"
+msgid "<c(B29557)>( II )</c> M4A3(75)W 'E4-5'"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_p47_500_late"
+msgid "<c(B29557)>( III )</c> P47 500lb Bomb"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_114mm_m1_late"
+msgid "<c(B29557)>( III )</c> 4.5-inch Gun M1"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_m4a3_calliope_late"
+msgid "<c(B29557)>( III )</c> M4A3(75)W 'Calliope'"
+msgstr ""
+
+
+msgctxt "desc/squad/doctrine_m3a1_commander_late"
+msgid "<c(B29557)>( I )</c> M3A1 Command Car"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_m15a1_cgmc_late"
+msgid "<c(B29557)>( I )</c> CGMC M15A1"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_m8_hmc_late"
+msgid "<c(B29557)>( I )</c> 75mm HMC M8"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_m18_hellcat_late"
+msgid "<c(B29557)>( II )</c> 76mm GMC M18"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_squad_usa_signaller_155_vt_late(usa)"
+msgid "<c(B29557)>( II )</c> 155mm VT Artillery Signaller"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_m4a3_76w_field3_late"
+msgid "<c(B29557)>( II )</c> M4A3(76)W HVSS 'Field Mod'"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_squad_usa_signaller_203_vt_late(usa)"
+msgid "<c(B29557)>( III )</c> 8-inch VT Artillery Signaller"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_155mm_m1_late"
+msgid "<c(B29557)>( III )</c> 155mm Howitzer M1"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_t26e4_late"
+msgid "<c(B29557)>( III )</c> T26E4"
+msgstr ""
+
+
+msgctxt "desc/squad/inf_crate_usa"
+msgid "American Ammo Crate"
+msgstr ""
+
+msgctxt "desc/squad/inf_crate_usa_early"
+msgid "American Ammo Crate"
+msgstr ""
+
+msgctxt "desc/squad/inf_crate_usa_mid"
+msgid "American Ammo Crate"
+msgstr ""
+
+msgctxt "desc/squad/inf_crate_usa_late"
+msgid "American Ammo Crate"
+msgstr ""

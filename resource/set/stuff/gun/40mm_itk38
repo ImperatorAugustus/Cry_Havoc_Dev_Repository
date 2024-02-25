@@ -1,0 +1,36 @@
+;_________________________________________
+; Finnish medium AA gun
+;=========================================
+
+
+{from "pattern gun"			; "40mm_itk38b"
+	{filling "bullet_40x331_auto" 4}
+	{fireSound "gun/gun_auto"}
+	{fireSoundclose "gun/gun_auto"}
+	{reloadSound "tank/reload_small"}
+	("range_autocannon_37-40")
+	{cursor "ironsights/aa"}
+	{calibre 40}
+	("medium_aa")
+
+	("fire rate" rpm(120))
+	("reload time" seconds(1.5))
+
+	("velocity" mps(865))
+	("armor health" damage(110))
+	("40_slope_multipliers")
+
+	; 40 psa - Vj4, APBC-T		;//Source http://www.jaegerplatoon.net/AA_GUNS2.htm
+	("penetration_medium" shell(apbc) range(170) a(65) b(57) c(48) d(41) e(35))
+
+	{parameters "apbc"
+		("ap_slope_multiplier")
+	}
+
+	("accuracy_direct_auto" r1(0.58) range_ap(170) range_he(170) range_heat(170))
+
+	{parameters "he"										; SPgGr.
+		(mod "mp" {unlimitedRangeTPC 1})	;// unrestricts range in TPC/FPC for shooting at aircraft
+		{FalloffStrength 0}
+	}
+}

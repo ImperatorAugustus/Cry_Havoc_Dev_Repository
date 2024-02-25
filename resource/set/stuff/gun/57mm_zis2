@@ -5,9 +5,9 @@
 
 {from "pattern gun"			; L/73 "zis2"
 	{filling "bulletrus_57"}
-	{fireSound 		"gun/Shared/close/medium/50-57mm_high-velocity/"}
-	{fireSoundClose 	"gun/Shared/close/medium/50-57mm_high-velocity/"}
-	{reloadSound 		"tank/reload_medium"}
+	{fireSound "gun/gun_37_57"}
+	{fireSoundclose "gun/gun_37_57"}
+	{reloadSound "tank/reload_medium"}
 	("range_200")
 	{calibre 57}
 
@@ -17,6 +17,7 @@
 	("armor health" damage(150))
 	("armor health custom" shell(aphe) damage(150) filler(24))
 	("armor health custom" shell(aphebc) damage(150) filler(24))
+	("57_rus_slope_multipliers")
 
 	; BR-271K  Higher Penetration than BR-271 on flat armor but less penetration against sloped armor
 	("penetration_medium" shell(aphe) range(200) a(134) b(111) c(87) d(69) e(54))  ;RHA
@@ -33,5 +34,5 @@
 		{range 180 180}
 	}
 
-	("accuracy_direct" r1(2.64) range_ap(200) range_he(180) range_heat(180))
+	("accuracy_direct_arrowhead" r1(0.66) range_ap(200) range_he(200) range_heat(180))
 }
