@@ -1,0 +1,4 @@
+{health_regeneration
+	(include "level_generic.inc")
+	("level_standard")
+}

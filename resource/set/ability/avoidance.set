@@ -1,0 +1,57 @@
+; Skill levels and settings for avoiding damage
+
+;	{level "lvl_5"
+;		{drop_weapon 0}				;// on death. higher value = less likely to drop
+;		{knockdown_melee 0.4}		;// resistance to being pushed back and knocked unconscious. higher = better
+;		{fire 0.25}					;// resistance to being set on fire. higher = better
+;		{aimed_shot 0.2}			;// resistance to being hit with aimed sniper shot. higher = better
+;	}
+
+
+{avoidance
+	{level "lvl_1"
+		{drop_weapon 0}
+		{knockdown_melee 0.0}
+		{fire 0.1}
+	}
+	{level "lvl_2"
+		{drop_weapon 0}
+		{knockdown_melee 0.1}
+		{fire 0.1}
+	}
+	{level "lvl_3"
+		{drop_weapon 0}
+		{knockdown_melee 0.2}
+		{fire 0.15}
+	}
+	{level "lvl_4"
+		{drop_weapon 0}
+		{knockdown_melee 0.3}
+		{fire 0.2}
+		{aimed_shot 0.15}
+	}
+	{level "lvl_5"
+		{drop_weapon 0}
+		{knockdown_melee 0.4}
+		{fire 0.25}
+		{aimed_shot 0.2}
+	}
+	{level "lvl_6"
+		{drop_weapon 0}
+		{knockdown_melee 0.5}
+		{fire 0.3}
+		{aimed_shot 0.25}
+	}
+	{level "lvl_7"
+		{drop_weapon 0}
+		{knockdown_melee 0.6}
+		{fire 0.3}
+		{aimed_shot 0.3}
+	}
+	{level "lvl_8"
+		{drop_weapon 0}
+		{knockdown_melee 0.65}
+		{fire 0.3}
+		{aimed_shot 0.35}
+	}
+}
