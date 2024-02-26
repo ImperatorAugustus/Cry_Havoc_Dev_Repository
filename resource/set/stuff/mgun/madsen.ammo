@@ -2,16 +2,16 @@
 	{tag "bullet small_arms stackable pierce 7-92_rifle"}
 	{tag "bullet_fx size2"}
 	{inventory
-		{weight 2.0}
-		{block 50}
-		{size 1 1}
+		{weight 4}
+		{block 30}
+		{size 1 2}
 		{fsm "belt"}
 	}
-	{entity "mg34_ammo"}
+	{entity "madsen_ammo"}
 	{mass 0.03}
 
 	{trace
-		{view "/texture/fx/tracer_new/trace_solid_green.mtl"
+		{view "/texture/fx/tracer_new/trace_scattered_green.mtl"
 			{ScaleY 0.15}
 			{ScaleX 1.75}
 			{Light 1}

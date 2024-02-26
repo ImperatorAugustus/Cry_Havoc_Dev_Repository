@@ -1,0 +1,12 @@
+{from "pattern pistol"
+	{tag "pistol2_shell"}
+	{filling "ammo tt33" 8}
+	{entity "tt33"}
+	{fireSound "smallarms/s1/d1/RUS/TT33/"}
+	{fireSoundclose "smallarms/s1/3p/RUS/TT33/"}
+	{reloadSound "tt"}
+	{calibre 7.62}
+	{mass 0.85}
+
+	("velocity" mps(420))
+}

@@ -2,20 +2,20 @@
 	{tag "bullet small_arms stackable pierce 7-92_rifle"}
 	{tag "bullet_fx size2"}
 	{inventory
-		{weight 4}
+		{weight 5.50}
 		{block 25}
-		{size 1 2}
+		{size 2 1}
 		{fsm "belt"}
 	}
-	{entity "mg13_ammo"}
+	{entity "chauchat_ammo"}
 	{mass 0.03}
-
+	
 	{trace
-		{view "/texture/fx/tracer_new/trace_solid_green.mtl"
-			{ScaleY 0.15}
-			{ScaleX 1.75}
+		{view "/texture/fx/tracers/trace_empty"
+			{ScaleY 0.2}
+			{ScaleX 1.5}
 			{Light 1}
 		}
-		{length 3}
+		{length 2.1}
 	}
 }

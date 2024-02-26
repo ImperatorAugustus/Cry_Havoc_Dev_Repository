@@ -1,0 +1,12 @@
+{from "pattern pistol"
+	{tag "pistol_shell"}
+	{filling "ammo m1911_mag" 7}
+	{entity "m1911"}
+	{fireSound 		"smallarms/s1/d1/USA/M1911A1/"}
+	{fireSoundclose 	"smallarms/s1/3p/USA/M1911A1/"}
+	{reloadSound "weapon_reload_M1911A1"}
+	{calibre 7.62}
+	{mass 1.1}
+
+	("velocity" mps(253))
+}
