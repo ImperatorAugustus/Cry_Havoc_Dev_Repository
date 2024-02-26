@@ -35,7 +35,7 @@
 
 (define "battle_rifle" ;full size rifle calibers with full auto capability; AVT40
 	{tag "autorifle_sup auto_eject rifle_shell"}
-	{range 130 130}
+	{range 140 140}
 	{spreading
 		{BurstAccuracy 100 90 80 70 60}
 	}
@@ -85,7 +85,7 @@
 	{tag "autorifle_sup auto_eject"}
 	{range 130 130}
 	{spreading
-		{BurstAccuracy 100 95 90 60 40 20 10}
+		{BurstAccuracy 100 95 90 60 40}
 	}
 
 	{Automatic}

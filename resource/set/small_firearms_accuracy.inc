@@ -28,7 +28,7 @@
 ;/*----------------------*/
 
 	(define "accuracy_smg"
-		("smg_range"  r1(0.9) r2(2.2) globalaccuracy(1.00))
+		("smg_range"  r1(0.9) r2(2.2) globalaccuracy(1.50))
 	)
 
 ;/*----------------------*/
@@ -46,7 +46,7 @@
 		("sniper_range" r0(0.3) r1(0.4) r2(0.7) r3(0.90) globalaccuracy(1.00))
 	)
 	(define "accuracy_assault_rifle"
-		("rifle_range"	r0(0.3) r1(0.6) r2(1.25) r3(2.00) globalaccuracy(1.00))
+		("rifle_range"	r0(0.7) r1(1.0) r2(1.25) r3(1.50) globalaccuracy(1.10))
 	)
 	(define "accuracy_shotgun"
 		("rifle_range"	r0(0.2) r1(1.4) r2(0.9) r3(1.25) globalaccuracy(1.00))
