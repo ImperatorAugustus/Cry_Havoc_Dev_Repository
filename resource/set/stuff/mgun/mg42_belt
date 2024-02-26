@@ -7,7 +7,7 @@
 	{calibre 7.92}
 	{mass 11.57}
 
-	("fire rate" rpm(1800))
+	("fire rate" rpm(1200))
 	("velocity" mps(740))
 
 	("reload_belt")

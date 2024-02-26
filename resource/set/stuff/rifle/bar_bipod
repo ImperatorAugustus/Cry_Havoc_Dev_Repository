@@ -8,13 +8,13 @@
 	{calibre 7.62}
 	{mass 8.8}
 
-	("fire rate" rpm(500))
+	("fire rate" rpm(650))
 	("velocity" mps(860))
 	("battle_rifle")
 	("penetration" args 17.3 8 4 2 0) ;// AP, M2
 
 	{spreading
-		{BurstAccuracy 100 90 70 50 30 10}
+		{BurstAccuracy 100 90 70 50}
 	}
 	{burst	;// doctrinal usage as squad heavy weapon for suppressive fire
 		{short 3 1}		; burst shots on long distance, rand (+-)shots

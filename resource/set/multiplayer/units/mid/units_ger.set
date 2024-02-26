@@ -516,7 +516,7 @@
 
 ("squad_with1types" side(ger) name(single_rifle)		period(mid) year(mid) cd(0)   ci(3)   g(single_1) c1(rifleman_1:1)					b(single) t())
 ("squad_with1types" side(ger) name(single_smg)			period(mid) year(mid) cd(0)   ci(5)   g(single_1) 	c1(smg_1:1)							b(single) t())
-("squad_with2types" side(ger) name(single_mg)			period(mid) year(mid) cd(0)   ci(60)  g(single_mg)		c1(mgun_1:1) c2(mgun_2:1)			b(single) t())
+("squad_with2types" side(ger) name(single_mg)			period(mid) year(mid) cd(0)   ci(90)  g(single_mg)		c1(mgun_1:1) c2(mgun_2:1)			b(single) t())
 ("squad_with2types" side(ger) name(single_at)			period(mid) year(mid) cd(0)   ci(0)   g(single_at)		c1(antitank_1:1) c2(antitank_2:1)	b(single) t())
 ("squad_with2types" side(ger) name(single_riflegrenade)	period(mid) year(mid) cd(0)   ci(30)  g(single_rifleg)	c1(antitank_3:1) c2(antitank_4:1)	b(single) t())
 ("squad_with1types" side(ger) name(single_ap_miner)		period(mid) year(mid) cd(0)   ci(60)  g(single_apmine)	c1(miner-ap:2)						b(single) t(engineer))

@@ -463,27 +463,47 @@
 
 
 ("squad_with1types" side(usa) name(single_rifle)		period(late) year(late) cd(0)   ci(0)   g(single_1) c1(rifle:1)							b(single) t())
+
 ("squad_with1types" side(usa) name(single_sa)			period(late) year(late) cd(0)   ci(0)   g(single_1) c1(rifle_sa:1)							b(single) t())
+
 ("squad_with1types" side(usa) name(single_smg)			period(late) year(late) cd(0)   ci(0)   g(single_1) c1(smg:1)								b(single) t())
-("squad_with3types" side(usa) name(single_bar)			period(late) year(late) cd(0)   ci(0)  g(single_bar) c1(rifle_bar:1) c2(rifle_bar_asst:1) c3(rifle_bar_ammo:1) b(single) t())
-("squad_with3types" side(usa) name(single_mg)			period(late) year(late) cd(0)   ci(0)  g(single_bar) c1(rifle_mg:1) c2(rifle_mg_asst:1) c3(rifle_mg_ammo:1) b(single) t())
-("squad_with3types" side(usa) name(single_mg_101)		period(late) year(late) cd(180) ci(60)  g(single_bar) c1(101st_late_mg:1) c2(101st_late_mg_asst:1) c3(101st_late_mg_ammo:1) b(single) t())
+
+("squad_with3types" side(usa) name(single_bar)			period(late) year(late) cd(0)   ci(60)  g(single_bar) c1(rifle_bar:1) c2(rifle_bar_asst:1) c3(rifle_bar_ammo:1) b(single) t())
+
+("squad_with1types_man" side(usa) name(single_artillerymen)		period(late) year(late) cost(25) cd(0)   ci(0)   g(single_1) 		c1(artilleryman:2)						b(single) t())
+
 ("squad_with2types" side(usa) name(single_at)			period(late) year(late) cd(0)   ci(0)   g(single_at) c1(antitank_m1a1:1) c2(antitank_asst:1)	b(single) t())
+
 ("squad_with1types" side(usa) name(single_riflegrenade)	period(late) year(late) cd(0)   ci(0)  g(single_rifleg) c1(antitank_gren:2) 					b(single) t())
+
 ("squad_with1types" side(usa) name(single_ap_miner)		period(late) year(late) cd(0)   ci(0)  g(single_apmine) c1(engineer_mine_ap:2)				b(single) t(engineer))
+
 ("squad_with1types" side(usa) name(single_at_miner)		period(late) year(late) cd(0)   ci(0)  g(single_atmine) c1(engineer_mine_at:2)				b(single) t(engineer))
+
 ("squad_with1types" side(usa) name(single_engineer)		period(late) year(late) cd(0)   ci(0)  g(single_eng) c1(engineer_builder:2) 					b(single) t(engineer))
+
 ("squad_with1types" side(usa) name(single_flamer)		period(late) year(late) cd(0)   ci(60)  g(single_flamer) c1(engineer_flamer:1) 				b(single) t(flamer))
+
 ("squad_with2types" side(usa) name(single_tankman)		period(late) year(late) cd(150) ci(0) g(single_crew) c1(tank_commander:1) c2(tankman:4)		b(single) t())
+
 ("squad_with1types" side(usa) name(single_medic)		period(late) year(late) cd(0)   ci(0)   g(single_medic) c1(medic:2)							b(single) t(medic))
+
 ("squad_with1types" side(usa) name(single_sniper)		period(late) year(late) cd(120) ci(30) g(single_sniper) c1(rifle_sniper:1) 					b(single) t(sniper))
-("squad_with1types" side(usa) name(single_officer)		period(late) year(late) cd(120) ci(0) g(single_officer) c1(officer_cpt:1)					b(single) t(officer))
+
+("squad_with1types" side(usa) name(single_officer)		period(late) year(late) cd(120) ci(180) g(single_officer) c1(officer_cpt:1)					b(single) t(officer))
+
 ("squad_with1types_man" side(usa) name(radioman_mortar) period(late) year(late) cd(300) ci(180) 	g(radioman) c1(101st_company_radio:1) cost(200) b(single) t(signaller))
+
 ("squad_with1types_man" side(usa) name(radioman_105) period(late) year(late) cd(420) ci(180) 	g(radioman) c1(late_fo_radio_105:1) cost(450)		b(single) t(signaller))
+
 ("squad_with1types_man" side(usa) name(radioman_155) period(late) year(late) cd(750) ci(180) 	g(radioman) c1(late_fo_radio_155:1) cost(500)		b(single) t(signaller))
+
 ("squad_with1types_man" side(usa) name(radioman_203) period(late) year(late) cd(820) ci(180) 	g(radioman) c1(late_fo_radio_203:1) cost(700)		b(single) t(signaller))
+
 ("squad_with1types_man" side(usa) name(radioman_155_vt) period(late) year(late) cd(820) ci(180) 	g(radioman) c1(late_fo_radio_155_vt:1) cost(600)		b(single) t(signaller))
+
 ("squad_with1types_man" side(usa) name(radioman_203_vt) period(late) year(late) cd(900) ci(180) 	g(radioman) c1(late_fo_radio_203_vt:1) cost(800)		b(single) t(signaller))
+
 ("squad_with1types_man" side(usa) name(radioman_240) period(late) year(late) cd(900) ci(180) 	g(radioman) c1(late_fo_radio_240:1) cost(750)		b(single) t(signaller))
 
 ;_________________________________________________

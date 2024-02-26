@@ -413,19 +413,35 @@
 ;|________________________________________________|
 
 ("squad_with1types" side(fin) name(single_rifle)		period(late) year(late) cd(0)   ci(0)   g(single_1) 		c1(rifleman:1)						b(single) t())
+
 ("squad_with1types" side(fin) name(single_smg)			period(late) year(late) cd(0)   ci(0)   g(single_1) 		c1(smg_stick:1)						b(single) t())
-("squad_with1types" side(fin) name(single_sa)			period(late) year(late) cd(0)   ci(0)   g(single_1) 		c1(rifleman_sa:1)					b(single) t())
-("squad_with2types" side(fin) name(single_mg)			period(late) year(late) cd(0)   ci(0)  g(single_mg)		c1(mg_dp:1) c2(mg_dp_asst:1)		b(single) t())
+
+("squad_with1types" side(fin) name(single_sa)			period(late) year(late) cd(0)   ci(15)   g(single_1) 		c1(rifleman_sa:1)					b(single) t())
+
+("squad_with2types" side(fin) name(single_mg)			period(late) year(late) cd(0)   ci(90)  g(single_mg)		c1(mg_dp:1) c2(mg_dp_asst:1)		b(single) t())
+
+("squad_with1types_man" side(fin) name(single_artillerymen)		period(late) year(late) cost(25) cd(0)   ci(0)   g(single_1) 		c1(artilleryman:2)						b(single) t())
+
+
 ("squad_with2types" side(fin) name(single_at)			period(late) year(late) cd(0)   ci(0)   g(single_at)		c1(antitank_rifle:1) c2(antitank_asst:1)	b(single) t())
+
 ("squad_with2types" side(fin) name(single_bazooker)		period(late) year(late) cd(0)   ci(0)   g(single_at)		c1(antitank_pzs:1) c2(antitank_pzs_ammo:1)	b(single) t())
+
 ("squad_with1types" side(fin) name(single_ap_miner)		period(late) year(late) cd(0)   ci(0)  g(single_apmine)	c1(engineer_mine_ap:3)				b(single) t(engineer))
+
 ("squad_with1types" side(fin) name(single_at_miner)		period(late) year(late) cd(0)   ci(0)  g(single_atmine)	c1(engineer_mine_at:3)				b(single) t(engineer))
+
 ("squad_with1types" side(fin) name(single_engineer)		period(late) year(late) cd(0)   ci(0)  g(single_eng)		c1(engineer_builder:2)				b(single) t(engineer))
+
 ("squad_with1types" side(fin) name(single_flamer)		period(late) year(late) cd(0)   ci(60)  g(single_flamer)	c1(engineer_flamer:1)				b(single) t(flamer))
+
 ("squad_with2types" side(fin) name(single_tankman)		period(late) year(late) cd(150) ci(0) g(single_crew)		c1(tank_commander:1) c2(tankman:4)	b(single) t())
+
 ("squad_with1types" side(fin) name(single_medic)		period(late) year(late) cd(0)   ci(0)   g(single_medic)	c1(medic:2)							b(single) t(medic))
+
 ("squad_with1types" side(fin) name(single_sniper)		period(late) year(late) cd(0) ci(30) g(single_sniper)	c1(sniper:1)						b(single) t(sniper))
-("squad_with1types" side(fin) name(single_officer)		period(late) year(late) cd(0) ci(0) g(single_officer)	c1(officer:1)						b(single) t(officer))
+
+("squad_with1types" side(fin) name(single_officer)		period(late) year(late) cd(0) ci(180) g(single_officer)	c1(officer:1)						b(single) t(officer))
 
 ;_________________________________________________
 ;|               Wheeled vehicles                 |

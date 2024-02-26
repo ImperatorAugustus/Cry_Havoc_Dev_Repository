@@ -16,15 +16,15 @@
 
 ;k98 			= 8
 ;mp40/mp38 		= 10
-;g41 			= 13
-;g43 			= 13
+;g41 			= 11
+;g43 			= 11
 ;mkb42(h)		= 20
 ;stg44			= 20
 ;fg42 			= 22
-;mg34 drum 		= 40
-;mg34 belt 		= 45
-;mg42 drum 		= 40
-;mg42 belt 		= 45
+;mg34 drum 		= 50
+;mg34 belt 		= 50
+;mg42 drum 		= 50
+;mg42 belt 		= 50
 ;rifle grenade	= +20
 ;marksman 		= +2
 ;any % pzfaust 	= +2

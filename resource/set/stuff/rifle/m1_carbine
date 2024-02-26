@@ -12,11 +12,11 @@
 	("velocity" mps(590))
 	("semi_rifle")
 
-	{range 120 120}
+	{range 130 130}
 	{spreading 
 		{BurstAccuracy 100 90 80 70 60}
 	}
-	("human health" damage(50))
+	("human health" damage(100))
 	{FiringTimeout 1.5 0.5}
 	("penetration" args 5 3 1 0.5 0)
 }
