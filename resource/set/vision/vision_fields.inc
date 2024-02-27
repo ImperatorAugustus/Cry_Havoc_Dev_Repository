@@ -72,7 +72,7 @@
 	{uncover 25}
 	{h_fov 30}
 	{v_fov 170}
-	("spotting2" r(1.5) r_human(0.66) veh_vis(50) can_vis(50) can_fire(70))
+	("spotting2" r(1.5) r_human(1) veh_vis(0) can_vis(0) can_fire(0))
 }
 
 {"cannon_mortar"						; // All mortars
@@ -86,42 +86,42 @@
 	{uncover 25}
 	{h_fov 30}
 	{v_fov 170}
-	("spotting2" r(1.5) r_human(0.66) veh_vis(50) can_vis(50) can_fire(70))
+	("spotting2" r(1.5) r_human(1) veh_vis(0) can_vis(0) can_fire(0))
 }
 
 {"cannon_range_210"						; // Gunner Vision - Gun range 210m (direct fire only)
 	{uncover 25}
 	{h_fov 30}
 	{v_fov 170}
-	("spotting2" r(1.5) r_human(0.66) veh_vis(60) can_vis(60) can_fire(80))
+	("spotting2" r(1.5) r_human(1) veh_vis(0) can_vis(0) can_fire(0))
 }
 
 {"cannon_range_220"						; // Gunner Vision - Gun range 220m (direct fire only)
 	{uncover 25}
 	{h_fov 30}
 	{v_fov 170}
-	("spotting2" r(1.5) r_human(0.66) veh_vis(70) can_vis(70) can_fire(90))
+	("spotting2" r(1.5) r_human(1) veh_vis(0) can_vis(0) can_fire(0))
 }
 
 {"cannon_range_230"						; // Gunner Vision - Gun range 230m (direct fire only)
 	{uncover 25}
 	{h_fov 30}
 	{v_fov 170}
-	("spotting2" r(1.5) r_human(0.66) veh_vis(80) can_vis(80) can_fire(100))
+	("spotting2" r(1.5) r_human(1) veh_vis(0) can_vis(0) can_fire(0))
 }
 
 {"cannon_range_240"						; // Gunner Vision - Gun range 240m (direct fire only)
 	{uncover 25}
 	{h_fov 30}
 	{v_fov 170}
-	("spotting2" r(1.5) r_human(0.66) veh_vis(90) can_vis(90) can_fire(110))
+	("spotting2" r(1.5) r_human(1) veh_vis(0) can_vis(0) can_fire(0))
 }
 
 {"cannon_range_250"						; // Gunner Vision - Gun range 250m (direct fire only)
 	{uncover 25}
 	{h_fov 30}
 	{v_fov 170}
-	("spotting2" r(1.5) r_human(0.66) veh_vis(100) can_vis(100) can_fire(120))
+	("spotting2" r(1.5) r_human(1) veh_vis(0) can_vis(0) can_fire(0))
 }
 
 ;/*=============== Cannon End ===============*/
@@ -164,7 +164,7 @@
 	{uncover 25}
 	{h_fov 60}
 	{v_fov 90}
-	("spotting2" r(1.75) r_human(0.85) veh_vis(80) can_vis(80) can_fire(100))
+	("spotting2" r(1.75) r_human(1) veh_vis(0) can_vis(0) can_fire(0))
 }
 
 {"recon_open"							; // Open Top Recon gunner vision
@@ -185,111 +185,110 @@
 	{uncover 20}
 	{h_fov 15}
 	{v_fov 30}
-	("spotting2" r(1.5) r_human(0.66) veh_vis(50) can_vis(50) can_fire(70))
+	("spotting2" r(1.5) r_human(1) veh_vis(0) can_vis(0) can_fire(0))
 }
 
 {"tank_main-m"							; // Medium tank gunner vision
 	{uncover 20}
 	{h_fov 15}
 	{v_fov 30}
-	("spotting2" r(1.5) r_human(0.66) veh_vis(50) can_vis(50) can_fire(70))
+	("spotting2" r(1.5) r_human(1) veh_vis(0) can_vis(0) can_fire(0))
 }
 
 {"tank_main-h"							; // Heavy tank gunner vision
 	{uncover 20}
 	{h_fov 15}
 	{v_fov 30}
-	("spotting2" r(1.5) r_human(0.66) veh_vis(50) can_vis(50) can_fire(70))
+	("spotting2" r(1.5) r_human(1) veh_vis(0) can_vis(0) can_fire(0))
 }
 
 {"tank_main-aa"							; // Tank's that have a AA gun from main weapon
 	{uncover 20}
 	{h_fov 30}
 	{v_fov 170}
-	("spotting2" r(1.5) r_human(0.66) veh_vis(50) can_vis(50) can_fire(70))
+	("spotting2" r(1.5) r_human(1) veh_vis(0) can_vis(0) can_fire(0))
 }
 
- ;/*=============== Individual Tank Sight Begin ===============*/
+;/*=============== Individual Tank Sight Begin ===============*/
  
 {"tank_main_us_3x"						; // US tanks with 3x13 main sight
 	{uncover 20}
 	{h_fov 13}
 	{v_fov 13}
-	("spotting2" 
-	;args 1.0 0.88)	; // secound value is spotting vehicles, lower is better
+	("spotting2" r(1.5) r_human(1) veh_vis(0) can_vis(0) can_fire(0))
+;args 1.0 0.88)	; // secound value is spotting vehicles, lower is better
 }
 {"tank_main_us_5x"						; // US tanks with 5x13 main sight
 	{uncover 20}
 	{h_fov 13}
 	{v_fov 13}
-	("spotting2" r(1.5) r_human(0.66) veh_vis(50) can_vis(50) can_fire(70))
-	;args 1.0 0.8)
+	("spotting2" r(1.5) r_human(1) veh_vis(0) can_vis(0) can_fire(0))
+;args 1.0 0.8)
 }
 
 {"tank_main_eng_1_9x"					; // British tanks with 1.9x9 main sight
 	{uncover 20}
 	{h_fov 9}
 	{v_fov 9}
-	("spotting2" r(1.5) r_human(0.66) veh_vis(50) can_vis(50) can_fire(70))
-	;args 1.0 0.95)
+	("spotting2" r(1.5) r_human(1) veh_vis(0) can_vis(0) can_fire(0))
+;args 1.0 0.95)
 }
 {"tank_main_eng_6x"						; // British tanks with 6x9 main sight
 	{uncover 20}
 	{h_fov 9}
 	{v_fov 9}
-	("spotting2" r(1.5) r_human(0.66) veh_vis(50) can_vis(50) can_fire(70))
-	;args 1.0 0.76)
+	("spotting2" r(1.5) r_human(1) veh_vis(0) can_vis(0) can_fire(0))
+;args 1.0 0.76)
 }
 
 {"tank_main_ger_1x11"					; // German tanks with 1x11 main sight
 	{uncover 20}
 	{h_fov 11}
 	{v_fov 11}
-	("spotting2" r(1.5) r_human(0.66) veh_vis(50) can_vis(50) can_fire(70))
-	;args 1.0 1.0)
+	("spotting2" r(1.5) r_human(1) veh_vis(0) can_vis(0) can_fire(0))
+;args 1.0 1.0)
 }
 {"tank_main_ger_3x8"					; // German tanks with 3x8 main sight
 	{uncover 20}
 	{h_fov 8}
 	{v_fov 8}
-	("spotting2" r(1.5) r_human(0.66) veh_vis(50) can_vis(50) can_fire(70))
-	;args 1.0 0.88)
+	("spotting2" r(1.5) r_human(1) veh_vis(0) can_vis(0) can_fire(0))
+;args 1.0 0.88)
 }
 {"tank_main_ger_5x8"					; // German tanks with 5x8 main sight
 	{uncover 20}
 	{h_fov 8}
 	{v_fov 8}
-	("spotting2" r(1.5) r_human(0.66) veh_vis(50) can_vis(50) can_fire(70))
-	;args 1.0 0.8)
+	("spotting2" r(1.5) r_human(1) veh_vis(0) can_vis(0) can_fire(0))
+;args 1.0 0.8)
 }
 {"tank_main_ger_2_5x"					; // German tanks with 2.5x28 main sight
 	{uncover 20}
 	{h_fov 28}
 	{v_fov 28}
-	("spotting2" r(1.5) r_human(0.66) veh_vis(50) can_vis(50) can_fire(70))
-	;args 1.0 0.9)
+	("spotting2" r(1.5) r_human(1) veh_vis(0) can_vis(0) can_fire(0))
+;args 1.0 0.9)
 }
 {"tank_main_ger_5x"						; // German tanks with 5x14 main sight
 	{uncover 20}
 	{h_fov 14}
 	{v_fov 14}
-	("spotting2" r(1.5) r_human(0.66) veh_vis(50) can_vis(50) can_fire(70))
-	;args 1.0 0.8)
+	("spotting2" r(1.5) r_human(1) veh_vis(0) can_vis(0) can_fire(0))
+;args 1.0 0.8)
 }
-
 {"tank_main_rus_2_5x"					; // Soviet tanks with 2.5x15 main sight
 	{uncover 20}
 	{h_fov 15}
 	{v_fov 15}
-	("spotting2" r(1.5) r_human(0.66) veh_vis(50) can_vis(50) can_fire(70))
-	;args 1.0 0.9)
+	("spotting2" r(1.5) r_human(1) veh_vis(0) can_vis(0) can_fire(0))
+;args 1.0 0.9)
 }
 {"tank_main_rus_4x"						; // Soviet tanks with 4x16 main sight
 	{uncover 20}
 	{h_fov 16}
 	{v_fov 16}
-	("spotting2" r(1.5) r_human(0.66) veh_vis(50) can_vis(50) can_fire(70))
-	;args 1.0 0.84)
+	("spotting2" r(1.5) r_human(1) veh_vis(0) can_vis(0) can_fire(0))
+;args 1.0 0.84)
 }
 
  ;/*=============== Individual Tank Sight End ===============*/
@@ -344,42 +343,42 @@
 	{uncover 20}
 	{h_fov 15}
 	{v_fov 30}
-	("spotting2" r(1.5) r_human(0.66) veh_vis(50) can_vis(50) can_fire(70))
+	("spotting2" r(1.5) r_human(1) veh_vis(0) can_vis(0) can_fire(0))
 }
 
 {"tank_range_210"							; // Gunner Vision - Gun range 210m (direct fire only)
 	{uncover 20}
 	{h_fov 15}
 	{v_fov 30}
-	("spotting2" r(1.5) r_human(0.66) veh_vis(60) can_vis(60) can_fire(80))
+	("spotting2" r(1.5) r_human(1) veh_vis(0) can_vis(0) can_fire(0))
 }
 
 {"tank_range_220"							; // Gunner Vision - Gun range 220m (direct fire only)
 	{uncover 20}
 	{h_fov 15}
 	{v_fov 30}
-	("spotting2" r(1.5) r_human(0.66) veh_vis(70) can_vis(70) can_fire(90))
+	("spotting2" r(1.5) r_human(1) veh_vis(0) can_vis(0) can_fire(0))
 }
 
 {"tank_range_230"							; // Gunner Vision - Gun range 230m (direct fire only)
 	{uncover 20}
 	{h_fov 15}
 	{v_fov 30}
-	("spotting2" r(1.5) r_human(0.66) veh_vis(80) can_vis(80) can_fire(100))
+	("spotting2" r(1.5) r_human(1) veh_vis(0) can_vis(0) can_fire(0))
 }
 
 {"tank_range_240"							; // Gunner Vision - Gun range 240m (direct fire only)
 	{uncover 20}
 	{h_fov 15}
 	{v_fov 30}
-	("spotting2" r(1.5) r_human(0.66) veh_vis(90) can_vis(90) can_fire(110))
+	("spotting2" r(1.5) r_human(1) veh_vis(0) can_vis(0) can_fire(0))
 }
 
 {"tank_range_250"							; // Gunner Vision - Gun range 250m (direct fire only)
 	{uncover 20}
 	{h_fov 15}
 	{v_fov 30}
-	("spotting2" r(1.5) r_human(0.66) veh_vis(100) can_vis(100) can_fire(120))
+	("spotting2" r(1.5) r_human(1) veh_vis(0) can_vis(0) can_fire(0))
 }
 
 ;/*=============== New Setup End ===============*/
