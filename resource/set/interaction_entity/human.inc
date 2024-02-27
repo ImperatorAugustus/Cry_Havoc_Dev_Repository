@@ -329,68 +329,73 @@
 				{if volume_armored
 					;{play_sound "hit/small/metal"}
 					;{spawn "metal_hit_bul"}
-					{if stuff "7-62_pistol" {if rand 0.95 
-												("human_health" c(350))
-											else
-												("human_health" c(10))
-											}
-					else stuff "8_pistol" {if rand 0.95 
-												("human_health" c(350))
-											else
-												("human_health" c(10))
-											}
-					else stuff "9_pistol" {if rand 0.95 
-												("human_health" c(350))
-											else
-												("human_health" c(10))
-											}
-					else stuff "45_pistol" {if rand 0.95 
-												("human_health" c(350))
-											else
-												("human_health" c(10))
-											}
-					else stuff "30_carbine" {if rand 0.95 
-												("human_health" c(350))
-											else
-												("human_health" c(10))
-											}
-					else stuff "7-92_kurz" {if rand 0.95 
-												("human_health" c(350))
-											else
-												("human_health" c(10))
-											}
-					else stuff "6-5_rifle" {if rand 0.95 
-												("human_health" c(350))
-											else
-												("human_health" c(10))
-											}
-					else stuff "7-62_rifle" {if rand 0.95 
-												("human_health" c(350))
-											else
-												("human_health" c(10))
-											}
-					else stuff "7-7_rifle" {if rand 0.95 
-												("human_health" c(350))
-											else
-												("human_health" c(10))
-											}
-					else stuff "7-92_rifle" {if rand 0.95 
-												("human_health" c(350))
-											else
-												("human_health" c(10))
-											}
-					else 					{if rand 0.95 
-												("human_health" c(350))
-											else
-												("human_health" c(10))
-											}
+					{if stuff "7-62_pistol" 
+						{if rand 0.95 
+							("human_health" c(350))
+						else
+							("human_health" c(10))
+						}
+					else stuff "8_pistol" 
+						{if rand 0.95 
+							("human_health" c(350))
+						else
+							("human_health" c(10))
+						}
+					else stuff "9_pistol" 
+						{if rand 0.95 
+							("human_health" c(350))
+						else
+							("human_health" c(10))
+						}
+					else stuff "45_pistol" 
+						{if rand 0.95 
+							("human_health" c(350))
+						else
+							("human_health" c(10))
+						}
+					else stuff "30_carbine" 
+						{if rand 0.95 
+							("human_health" c(350))
+						else					
+							("human_health" c(10))
+						}
+					else stuff "7-92_kurz" 
+						{if rand 0.95 
+							("human_health" c(350))
+						else
+							("human_health" c(10))
+						}
+					else stuff "6-5_rifle" 
+						{if rand 0.95 
+							("human_health" c(350))
+						else
+							("human_health" c(10))
+						}
+					else stuff "7-62_rifle" 
+						{if rand 0.95 
+							("human_health" c(350))
+						else
+							("human_health" c(10))
+						}
+					else stuff "7-7_rifle" 
+						{if rand 0.95 
+							("human_health" c(350))
+						else
+							("human_health" c(10))
+						}
+					else stuff "7-92_rifle" 
+						{if rand 0.95 
+							("human_health" c(350))
+						else
+							("human_health" c(10))
+						}
+					else 					
+						{if rand 0.95 
+							("human_health" c(350))
+						else
+							("human_health" c(10))
+						}
 					}
-				else
-										{if rand 0.95 
-											("human_health" c(350))
-										else
-											("human_health" c(10))
-										}
 				}
 			}
 		else volume "face"
@@ -1903,6 +1908,11 @@
 
 	{on "start_healing"
 		{view start ally neutral "marker_healing"}
+		{if tagged "human_bleeding"
+			{delay 5
+				{tags remove "human_bleeding"}
+			}
+		}
 	}
 
 	{on "stop_healing"
