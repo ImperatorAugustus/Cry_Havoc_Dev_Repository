@@ -236,7 +236,7 @@
 			}
 			{call "process_bullet_hit"}
 			{if tagged "start_personage"
-				{if rand 0.5
+				{if rand 0.2
 					{call_synced "unhealable"}
 				}
 			}
@@ -331,67 +331,89 @@
 					;{spawn "metal_hit_bul"}
 					{if stuff "7-62_pistol" 
 						{if rand 0.95 
-							("human_health" c(350))
+							{damage_report "head" "<c(EE4B2B)>Head Explodes"}
+							{tags add "no_revive"}
+							{call "die"}
 						else
 							("human_health" c(10))
 						}
 					else stuff "8_pistol" 
 						{if rand 0.95 
-							("human_health" c(350))
+							{damage_report "head" "<c(EE4B2B)>Head Explodes"}
+							{tags add "no_revive"}
+							{call "die"}
 						else
 							("human_health" c(10))
 						}
 					else stuff "9_pistol" 
 						{if rand 0.95 
-							("human_health" c(350))
+							{damage_report "head" "<c(EE4B2B)>Head Explodes"}
+							{tags add "no_revive"}
+							{call "die"}
 						else
 							("human_health" c(10))
 						}
 					else stuff "45_pistol" 
 						{if rand 0.95 
-							("human_health" c(350))
+							{damage_report "head" "<c(EE4B2B)>Head Explodes"}
+							{tags add "no_revive"}
+							{call "die"}
 						else
 							("human_health" c(10))
 						}
 					else stuff "30_carbine" 
 						{if rand 0.95 
-							("human_health" c(350))
+							{damage_report "head" "<c(EE4B2B)>Head Explodes"}
+							{tags add "no_revive"}
+							{call "die"}
 						else					
 							("human_health" c(10))
 						}
 					else stuff "7-92_kurz" 
 						{if rand 0.95 
-							("human_health" c(350))
+							{damage_report "head" "<c(EE4B2B)>Head Explodes"}
+							{tags add "no_revive"}
+							{call "die"}
 						else
 							("human_health" c(10))
 						}
 					else stuff "6-5_rifle" 
 						{if rand 0.95 
-							("human_health" c(350))
+							{damage_report "head" "<c(EE4B2B)>Head Explodes"}
+							{tags add "no_revive"}
+							{call "die"}
 						else
 							("human_health" c(10))
 						}
 					else stuff "7-62_rifle" 
 						{if rand 0.95 
-							("human_health" c(350))
+							{damage_report "head" "<c(EE4B2B)>Head Explodes"}
+							{tags add "no_revive"}
+							{call "die"}
 						else
 							("human_health" c(10))
 						}
 					else stuff "7-7_rifle" 
 						{if rand 0.95 
-							("human_health" c(350))
+							{damage_report "head" "<c(EE4B2B)>Head Explodes"}
+							{tags add "no_revive"}
+							{call "die"}
 						else
 							("human_health" c(10))
 						}
 					else stuff "7-92_rifle" 
 						{if rand 0.95 
-							("human_health" c(350))
+							{damage_report "head" "<c(EE4B2B)>Head Explodes"}
+							{tags add "no_revive"}
+							{call "die"}
 						else
 							("human_health" c(10))
 						}
 					else 					
 						{if rand 0.95 
-							("human_health" c(350))
+							{damage_report "head" "<c(EE4B2B)>Head Explodes"}
+							{tags add "no_revive"}
+							{call "die"}
 						else
 							("human_health" c(10))
 						}
@@ -399,7 +421,9 @@
 				}
 			}
 		else volume "face"
-			("human_health" c(350))
+			{damage_report "head" "<c(EE4B2B)>Head Explodes"}
+			{tags add "no_revive"}
+			{call "die"}
 		}
 		{if volume "body"
 			{if not dead
@@ -410,7 +434,9 @@
 								{tags add "human_bleeding"}{call "bleeding"}
 							}
 					else
-						("human_health" c(350))
+						{damage_report "body" "<c(EE4B2B)>Vital Organ Hit"}
+						{tags add "no_revive"}
+						{call "die"}
 					}
 				}
 				{if stuff "8_pistol"
@@ -420,7 +446,9 @@
 								{tags add "human_bleeding"}{call "bleeding"}
 							}
 					else
-						("human_health" c(350))
+						{damage_report "body" "<c(EE4B2B)>Vital Organ Hit"}
+						{tags add "no_revive"}
+						{call "die"}
 					}
 				}
 				{if stuff "9_pistol"
@@ -430,7 +458,9 @@
 									{tags add "human_bleeding"}{call "bleeding"}
 							}
 					else
-						("human_health" c(350))
+						{damage_report "body" "<c(EE4B2B)>Vital Organ Hit"}
+						{tags add "no_revive"}
+						{call "die"}
 					}
 				}
 				{if stuff "45_pistol"
@@ -440,7 +470,9 @@
 									{tags add "human_bleeding"}{call "bleeding"}
 							}
 					else
-						("human_health" c(350))
+						{damage_report "body" "<c(EE4B2B)>Vital Organ Hit"}
+						{tags add "no_revive"}
+						{call "die"}
 					}
 				}
 				{if stuff "30_carbine"
@@ -451,7 +483,9 @@
 									{tags add "human_bleeding"}{call "bleeding"}
 							}
 					else
-						("human_health" c(350))
+						{damage_report "body" "<c(EE4B2B)>Vital Organ Hit"}
+						{tags add "no_revive"}
+						{call "die"}
 					}
 				}
 				{if stuff "7-92_kurz" ;1.9k J ;german 7.92 kurz ; stg44
@@ -462,7 +496,9 @@
 									{tags add "human_bleeding"}{call "bleeding"}
 							}
 					else
-						("human_health" c(350))
+						{damage_report "body" "<c(EE4B2B)>Vital Organ Hit"}
+						{tags add "no_revive"}
+						{call "die"}
 					}
 				}
 				{if stuff "6-5_rifle"
@@ -473,7 +509,9 @@
 									{tags add "human_bleeding"}{call "bleeding"}
 							}
 					else
-						("human_health" c(350))
+						{damage_report "body" "<c(EE4B2B)>Vital Organ Hit"}
+						{tags add "no_revive"}
+						{call "die"}
 					}
 				}
 				{if stuff "7-62_rifle" ;3.6-3.7k J ;soviet and US 7.62
@@ -481,10 +519,12 @@
 					{if rand 0.80
 						("rand_damage" args 75 100 125 150 200)
 							{if not dead
-									{tags add "human_bleeding"}{call "bleeding"}
+								{tags add "human_bleeding"}{call "bleeding"}
 							}
 					else
-						("human_health" c(350))
+						{damage_report "body" "<c(EE4B2B)>Vital Organ Hit"}
+						{tags add "no_revive"}
+						{call "die"}
 					}
 				}
 				{if stuff "7-7_rifle" ;3.1-3.2k J ;british .303
@@ -492,10 +532,12 @@
 					{if rand 0.80 
 						("rand_damage" args 70 95 120 145 195)
 							{if not dead
-									{tags add "human_bleeding"}{call "bleeding"}
+								{tags add "human_bleeding"}{call "bleeding"}
 							}
 					else
-						("human_health" c(350))
+						{damage_report "body" "<c(EE4B2B)>Vital Organ Hit"}
+						{tags add "no_revive"}
+						{call "die"}
 					}
 				}
 				{if stuff "7-92_rifle" ;3.7k J ;german 7.92 mauser
@@ -503,10 +545,12 @@
 					{if rand 0.80
 						("rand_damage" args 75 100 125 150 200)
 							{if not dead
-									{tags add "human_bleeding"}{call "bleeding"}
+								{tags add "human_bleeding"}{call "bleeding"}
 							}
 					else
-						("human_health" c(350))
+						{damage_report "body" "<c(EE4B2B)>Vital Organ Hit"}
+						{tags add "no_revive"}
+						{call "die"}
 					}
 				}
 				{if stuff "rifle_fg"
@@ -514,10 +558,12 @@
 					{if rand 0.7
 						("rand_damage" args 140 150 200 225 250)
 							{if not dead
-									{tags add "human_bleeding"}{call "bleeding"}
+								{tags add "human_bleeding"}{call "bleeding"}
 							}
 					else
-						("human_health" c(350))
+						{damage_report "body" "<c(EE4B2B)>Vital Organ Hit"}
+						{tags add "no_revive"}
+						{call "die"}
 					}
 				}
 				{if stuff "hmgun"
@@ -525,10 +571,12 @@
 					{if rand 0.7
 						("rand_damage" args 100 125 150 175 200)
 							{if not dead
-									{tags add "human_bleeding"}{call "bleeding"}
+								{tags add "human_bleeding"}{call "bleeding"}
 							}
 					else
-						("human_health" c(350))
+						{damage_report "body" "<c(EE4B2B)>Vital Organ Hit"}
+						{tags add "no_revive"}
+						{call "die"}
 					}
 				}
 			}
@@ -2364,6 +2412,7 @@
 		{view pause "marker_repair"}
 		{view pause "marker_personage_acute"}
 		{view start ally neutral "marker_personage"}
+		{tags remove "human_bleeding"}
 		{tags add "start_personage"}
 	}
 
