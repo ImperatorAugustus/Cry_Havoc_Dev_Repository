@@ -109,7 +109,7 @@ msgid "<c(c3baae)>Light Field Howitzer</c>"
 msgstr ""
 
 msgctxt "desc/entity/75mm_legebig18"
-msgid "7.5cm leGebIG 18"
+msgid "7.5cm leGeIG 18"
 msgstr ""
 
 msgctxt "info/special/75mm_legebig18"
@@ -117,7 +117,7 @@ msgid "<c(c3baae)>Light Infantry Gun</c>"
 msgstr ""
 
 msgctxt "desc/entity/75mm_legebig18_snow"
-msgid "7.5cm leGebIG 18"
+msgid "7.5cm leGeIG 18"
 msgstr ""
 
 msgctxt "info/special/75mm_legebig18_snow"
@@ -218,6 +218,14 @@ msgstr ""
 
 msgctxt "info/special/88mm_pak4341"
 msgid "<c(c3baae)>Heavy AT Gun</c>"
+msgstr ""
+
+msgctxt "desc/entity/128mm_pak44"
+msgid "12.8cm PaK 44/3"
+msgstr ""
+
+msgctxt "info/special/128mm_pak44"
+msgid "<c(c3baae)>Super-Heavy AT Gun</c>"
 msgstr ""
 
 msgctxt "desc/entity/100mm_nbw35"
@@ -453,7 +461,7 @@ msgid "<c(c3baae)>Engineering Truck</c>"
 msgstr ""
 
 msgctxt "desc/entity/blitz3_6_flak30"
-msgid "Opel Blitz mit FlaK 38"
+msgid "FlaK 30 (Sf.) auf Opel Blitz"
 msgstr ""
 
 msgctxt "info/special/blitz3_6_flak30"
@@ -1244,6 +1252,14 @@ msgctxt "info/special/sdkfz251d_1"
 msgid "<c(c3baae)>Medium Halftrack</c>"
 msgstr ""
 
+msgctxt "desc/entity/sdkfz251c_10"
+msgid "Sd.Kfz 251/10"
+msgstr ""
+
+msgctxt "info/special/sdkfz251c_10"
+msgid "<c(c3baae)>AT Halftrack</c>"
+msgstr ""
+
 msgctxt "desc/entity/sdkfz302"
 msgid "Sd.Kfz 302"
 msgstr ""
@@ -1530,4 +1546,12 @@ msgstr ""
 
 msgctxt "info/special/sdkfz6_ammo"
 msgid "<c(c3baae)>Ammo Halftrack</c>"
+msgstr ""
+
+msgctxt "desc/entity/sdkfz251_9"
+msgid "Sd.Kfz 251/9"
+msgstr ""
+
+msgctxt "info/special/sdkfz251_9"
+msgid "<c(c3baae)>Medium Halftrack</c>"
 msgstr ""

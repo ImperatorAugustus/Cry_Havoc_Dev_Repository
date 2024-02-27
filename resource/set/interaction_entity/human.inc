@@ -1700,6 +1700,7 @@
 	}
 
 	{on "die"
+		{tags remove "human_bleeding"}
 		{view stop "officer"}
 		{view stop "documents"}
 		{call "personage_check"}
@@ -1749,6 +1750,7 @@
 	}
 
 	{on "die_with_blood"
+		{tags remove "human_bleeding"}
 		;{if not senseless
 			{if not able "personage"
 				{if not burned
@@ -2412,7 +2414,6 @@
 		{view pause "marker_repair"}
 		{view pause "marker_personage_acute"}
 		{view start ally neutral "marker_personage"}
-		{tags remove "human_bleeding"}
 		{tags add "start_personage"}
 	}
 
@@ -2425,11 +2426,6 @@
 					{spawn "bloodstain" "basis" x}		;// spawns a pool of blood that spreads
 					{tags add "_bleedout_"}
 				}
-			}
-		}
-		{if tagged "human_bleeding"
-			{delay 5
-				{tags remove "human_bleeding"}
 			}
 		}
 		{tags remove "start_personage"}

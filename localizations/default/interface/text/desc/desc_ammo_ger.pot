@@ -133,7 +133,7 @@ msgid "3cm Pzgr.40 [<c(48c445)>APCR</c>] "
 msgstr ""
 
 msgctxt "desc/ammo/bulletger_30_auto he"
-msgid "3cm Minengeschoss [<c(ff1200)>HE</c>]"
+msgid "3cm Minengeschoß-Patrone [<c(ff1200)>HE</c>]"
 msgstr ""
 
 msgctxt "desc/ammo/bulletger_37 apcr"
@@ -409,7 +409,7 @@ msgid "[<c(c9a6ff)>HEAT</c>] Faustpatrone 30 Rocket"
 msgstr ""
 
 msgctxt "desc/ammo/fg42"
-msgid "7.92mm FG-42 Magazine"
+msgid "7.92mm FG-42 s.S. Box Magazine"
 msgstr ""
 
 msgctxt "desc/ammo/flame_thrower"
@@ -477,11 +477,11 @@ msgid "7.92mm SmK Belt-Fed Rounds"
 msgstr ""
 
 msgctxt "desc/ammo/mgun_ger belt"
-msgid "7.92mm Belt-Fed Rounds"
+msgid "7.92mm s.S. Belt-Fed Rounds"
 msgstr ""
 
 msgctxt "desc/ammo/mgun_ger doubledrum"
-msgid "7.92mm Drum (double)"
+msgid "7.92mm s.S. Drum (double)"
 msgstr ""
 
 msgctxt "desc/ammo/mgun_ger doubledrum ap"
@@ -497,11 +497,11 @@ msgid "7.92mm Drum-fed Rounds"
 msgstr ""
 
 msgctxt "desc/ammo/mgun_ger mg13"
-msgid "7.92mm MG-13 Rounds"
+msgid "7.92mm s.S. Box Magazine"
 msgstr ""
 
 msgctxt "desc/ammo/zb26_mag"
-msgid "7.92mm ZB-26 Rounds"
+msgid "7.92mm s.S. Box Magazine"
 msgstr ""
 
 msgctxt "desc/ammo/mgun_ita belt"
@@ -513,19 +513,19 @@ msgid "7mm Rounds"
 msgstr ""
 
 msgctxt "desc/ammo/mortarger_50 he"
-msgid "[<c(ff1200)>HE</c>] 5cm Wgr.36 Mortar"
+msgid "[<c(ff1200)>HE</c>] 5cm Wgr.36"
 msgstr ""
 
 msgctxt "desc/ammo/mortarger_80 he"
-msgid "[<c(ff1200)>HE</c>] 8cm Wgr.34 Mortar"
+msgid "[<c(ff1200)>HE</c>] 8cm Wgr.34"
 msgstr ""
 
 msgctxt "desc/ammo/mortarger_80 sm"
-msgid "[SMOKE] 8cm Wgr.34 Mortar"
+msgid "[SMOKE] 8cm Wgr.34"
 msgstr ""
 
 msgctxt "desc/ammo/mortarger_100 he"
-msgid "[<c(ff1200)>HE</c>] 10cm Wgr.37 Mortar"
+msgid "[<c(ff1200)>HE</c>] 10cm Wgr.37"
 msgstr ""
 
 msgctxt "desc/ammo/mortarger_100 sm"
@@ -533,23 +533,23 @@ msgid "[SMOKE] 10cm Wgr.35 Nb St Mortar"
 msgstr ""
 
 msgctxt "desc/ammo/mortarger_120 he"
-msgid "[<c(ff1200)>HE</c>] 12cm Wgr.42 Mortar"
+msgid "[<c(ff1200)>HE</c>] 12cm Wgr.42"
 msgstr ""
 
 msgctxt "desc/ammo/mortarger_120 sm"
-msgid "[SMOKE] 12cm Wgr.42 Mortar"
+msgid "[SMOKE] 12cm Wgr.42"
 msgstr ""
 
 msgctxt "desc/ammo/mortarger_200 he"
-msgid "[<c(ff1200)>HE</c>] 20cm Wgr.40 Mortar"
+msgid "[<c(ff1200)>HE</c>] 20cm Wgr.40"
 msgstr ""
 
 msgctxt "desc/ammo/mortarger_200 sm"
-msgid "[SMOKE] 20cm Nb.40 Mortar"
+msgid "[SMOKE] 20cm Nb.40"
 msgstr ""
 
 msgctxt "desc/ammo/mp40"
-msgid "9mm MP38/40 Magazine"
+msgid "9mm m.E. Box Magazine"
 msgstr ""
 
 msgctxt "desc/ammo/panzerfaust60"
@@ -561,27 +561,27 @@ msgid "[<c(c9a6ff)>HEAT</c>] Panzerfaust 100 Rocket"
 msgstr ""
 
 msgctxt "desc/ammo/panzershreck"
-msgid "[<c(c9a6ff)>HEAT</c>] Panzerschreck Rocket"
+msgid "[<c(c9a6ff)>HEAT</c>] R.PzB.Gr.4322"
 msgstr ""
 
 msgctxt "desc/ammo/pistol"
-msgid "9mm Parabellum"
+msgid "9mm Parabellum m.E."
 msgstr ""
 
 msgctxt "desc/ammo/rifle_fra"
-msgid "7.92mm Rifle Rounds"
+msgid "7.92mm s.S. Rounds"
 msgstr ""
 
 msgctxt "desc/ammo/rifle_ger clip"
-msgid "7.92mm Mauser Rounds"
+msgid "7.92mm s.S. clip"
 msgstr ""
 
 msgctxt "desc/ammo/rifle_ger gewehr"
-msgid "7.92mm Gewehr Rifle Magazine"
+msgid "7.92mm s.S. Box Magazine"
 msgstr ""
 
 msgctxt "desc/ammo/rifle_ger"
-msgid "7.92mm Mauser Rounds"
+msgid "7.92mm s.S. Mauser Rounds"
 msgstr ""
 
 msgctxt "desc/ammo/shotgun"
@@ -589,7 +589,7 @@ msgid "Shotgun Shells"
 msgstr ""
 
 msgctxt "desc/ammo/stg44"
-msgid "7.92mm-K. MP-44 Magazine"
+msgid "7.92mm-K. MP-44 Box Magazine"
 msgstr ""
 
 msgctxt "desc/ammo/torpedo"
@@ -605,19 +605,19 @@ msgid "Flare"
 msgstr ""
 
 msgctxt "desc/stuff/mgun_ger belt"
-msgid "7.92mm Belt-Fed Rounds"
+msgid "7.92mm s.S. Belt"
 msgstr ""
 
 msgctxt "desc/stuff/mgun_ger doubledrum"
-msgid "7.92mm Drum-Fed Rounds (double)"
+msgid "7.92mm s.S. Drum (double)"
 msgstr ""
 
 msgctxt "desc/stuff/mgun_ger"
-msgid "7.92mm Belt-Fed Rounds"
+msgid "7.92mm s.S. Belt"
 msgstr ""
 
 msgctxt "desc/stuff/mgun_ger mg13"
-msgid "7.92mm MG-13 Magazine"
+msgid "7.92mm s.S. Box Magazine"
 msgstr ""
 
 msgctxt "desc/ammo/bulletger_15_auto ap"

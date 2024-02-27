@@ -41,7 +41,7 @@ msgid "Specialise your army with a doctrine. Actually, it doesn't matter."
 msgstr ""
 
 msgctxt "mp/lobby/doctrine/early_fin_allround"
-msgid "[Early] War"
+msgid "Into the Fire: 39-41"
 msgstr ""
 
 msgctxt "mp/lobby/doctrine/early_fin_allround#hint"
@@ -49,7 +49,7 @@ msgid ""
 msgstr ""
 
 msgctxt "mp/lobby/doctrine/early_ger_allround"
-msgid "[Early] War"
+msgid "Into the Fire: 39-41"
 msgstr ""
 
 msgctxt "mp/lobby/doctrine/early_ger_allround#hint"
@@ -57,7 +57,7 @@ msgid ""
 msgstr ""
 
 msgctxt "mp/lobby/doctrine/early_rus_allround"
-msgid "[Early] War"
+msgid "Into the Fire: 39-41"
 msgstr ""
 
 msgctxt "mp/lobby/doctrine/early_rus_allround#hint"
@@ -65,7 +65,7 @@ msgid ""
 msgstr ""
 
 msgctxt "mp/lobby/doctrine/early_usa_allround"
-msgid "[Early] War"
+msgid "Into the Fire: 39-41"
 msgstr ""
 
 msgctxt "mp/lobby/doctrine/early_usa_allround#hint"
@@ -73,7 +73,7 @@ msgid ""
 msgstr ""
 
 msgctxt "mp/lobby/doctrine/mid_fin_allround"
-msgid "[Mid] War"
+msgid "Into the Fire: 41-43"
 msgstr ""
 
 msgctxt "mp/lobby/doctrine/mid_fin_allround#hint"
@@ -81,7 +81,7 @@ msgid ""
 msgstr ""
 
 msgctxt "mp/lobby/doctrine/mid_ger_allround"
-msgid "[Mid] War"
+msgid "Into the Fire: 41-43"
 msgstr ""
 
 msgctxt "mp/lobby/doctrine/mid_ger_allround#hint"
@@ -89,7 +89,7 @@ msgid ""
 msgstr ""
 
 msgctxt "mp/lobby/doctrine/mid_rus_allround"
-msgid "[Mid] War"
+msgid "Into the Fire: 41-43"
 msgstr ""
 
 msgctxt "mp/lobby/doctrine/mid_rus_allround#hint"
@@ -97,7 +97,7 @@ msgid ""
 msgstr ""
 
 msgctxt "mp/lobby/doctrine/mid_usa_allround"
-msgid "[Mid] War"
+msgid "Into the Fire: 41-43"
 msgstr ""
 
 msgctxt "mp/lobby/doctrine/mid_usa_allround#hint"
@@ -105,7 +105,7 @@ msgid ""
 msgstr ""
 
 msgctxt "mp/lobby/doctrine/late_fin_allround"
-msgid "[Late] War"
+msgid "Into the Fire: 44-45"
 msgstr ""
 
 msgctxt "mp/lobby/doctrine/late_fin_allround#hint"
@@ -113,7 +113,7 @@ msgid ""
 msgstr ""
 
 msgctxt "mp/lobby/doctrine/late_ger_allround"
-msgid "[Late] War"
+msgid "Into the Fire: 44-45"
 msgstr ""
 
 msgctxt "mp/lobby/doctrine/late_ger_allround#hint"
@@ -121,7 +121,7 @@ msgid ""
 msgstr ""
 
 msgctxt "mp/lobby/doctrine/late_rus_allround"
-msgid "[Late] War"
+msgid "Into the Fire: 44-45"
 msgstr ""
 
 msgctxt "mp/lobby/doctrine/late_rus_allround#hint"
@@ -129,7 +129,7 @@ msgid ""
 msgstr ""
 
 msgctxt "mp/lobby/doctrine/late_usa_allround"
-msgid "[Late] War"
+msgid "Into the Fire: 44-45"
 msgstr ""
 
 msgctxt "mp/lobby/doctrine/late_usa_allround#hint"
@@ -137,7 +137,7 @@ msgid ""
 msgstr ""
 
 msgctxt "mp/lobby/doctrine/full_fin_allround"
-msgid "Total War!"
+msgid "Into the Fire: 39-45"
 msgstr ""
 
 msgctxt "mp/lobby/doctrine/full_fin_allround#hint"
@@ -145,7 +145,7 @@ msgid ""
 msgstr ""
 
 msgctxt "mp/lobby/doctrine/full_ger_allround"
-msgid "Total War!"
+msgid "Into the Fire: 39-45"
 msgstr ""
 
 msgctxt "mp/lobby/doctrine/full_ger_allround#hint"
@@ -153,7 +153,7 @@ msgid ""
 msgstr ""
 
 msgctxt "mp/lobby/doctrine/full_rus_allround"
-msgid "Total War!"
+msgid "Into the Fire: 39-45"
 msgstr ""
 
 msgctxt "mp/lobby/doctrine/full_rus_allround#hint"
@@ -161,7 +161,7 @@ msgid ""
 msgstr ""
 
 msgctxt "mp/lobby/doctrine/full_usa_allround"
-msgid "Total War!"
+msgid "Into the Fire: 39-45"
 msgstr ""
 
 msgctxt "mp/lobby/doctrine/full_usa_allround#hint"

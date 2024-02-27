@@ -5032,6 +5032,10 @@ msgctxt "desc/human/mp/usa/late/rifle"
 msgid "Rifleman"
 msgstr ""
 
+msgctxt "desc/human/mp/usa/late/rifle_sa"
+msgid "Rifleman"
+msgstr ""
+
 msgctxt "desc/human/mp/usa/late/rifle_at"
 msgid "Rifleman"
 msgstr ""
@@ -5074,6 +5078,18 @@ msgstr ""
 
 msgctxt "desc/human/mp/usa/late/rifle_bar_asst2"
 msgid "Automatic Rifleman Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/usa/late/rifle_mg"
+msgid "Machine Gunner"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/late/rifle_bar_asst"
+msgid "Machine Gunner Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/usa/late/rifle_bar_ammo"
+msgid "Machine Gunner Ammo Bearer"
 msgstr ""
 
 msgctxt "desc/human/mp/usa/late/rifle_gren"

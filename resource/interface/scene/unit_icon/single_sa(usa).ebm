@@ -1,0 +1,6 @@
+{bitmap
+    {frame "single_rifle(usa)_00.tga"}
+    {frame "single_rifle(usa)_01.tga"}
+    {frame "single_rifle(usa)_02.tga"}
+    {frame "single_rifle(usa)_03.tga"}
+}

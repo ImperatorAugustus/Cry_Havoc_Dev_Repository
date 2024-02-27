@@ -89,6 +89,18 @@ msgctxt "desc/squad/squad_ranger_assault_mg_mid_all_2(usa)"
 msgid "Ranger Assault Section (MG)"
 msgstr ""
 
+msgctxt "desc/squad/squad_rifle(usa)"
+msgid "Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_assault(usa)"
+msgid "Assault Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_bar(usa)"
+msgid "Rifle Squad w/2 BARs"
+msgstr ""
+
 
 
 msgctxt "desc/squad/squad_45th_rifle_mid_def(usa)"
@@ -515,15 +527,27 @@ msgstr ""
 
 
 msgctxt "desc/squad/single_rifle(usa)"
-msgid "Rifleman"
+msgid "M1 Garand Rifleman"
+msgstr ""
+
+msgctxt "desc/squad/single_sa(usa)"
+msgid "M1 Carbine Rifleman"
 msgstr ""
 
 msgctxt "desc/squad/single_smg(usa)"
-msgid "SMG Inf."
+msgid "Thompson SMG"
+msgstr ""
+
+msgctxt "desc/squad/single_bar(usa)"
+msgid "M1918 BAR Team"
 msgstr ""
 
 msgctxt "desc/squad/single_mg(usa)"
-msgid "Automatic Rifleman Team"
+msgid "M1919A6 Browning Team"
+msgstr ""
+
+msgctxt "desc/squad/single_mg_101(usa)"
+msgid "Airborne M1919A6 Browning Team"
 msgstr ""
 
 msgctxt "desc/squad/single_at(usa)"
@@ -547,7 +571,7 @@ msgid "M9A1 Bazooka AT Team"
 msgstr ""
 
 msgctxt "desc/squad/single_riflegrenade(usa)"
-msgid "AT Rifle Grenadiers"
+msgid "M1 Garand AT Rifle Grenadiers"
 msgstr ""
 
 msgctxt "desc/squad/single_riflegrenade_con(usa)"
@@ -589,6 +613,35 @@ msgstr ""
 msgctxt "desc/squad/single_officer(usa)"
 msgid "Officer"
 msgstr ""
+
+msgctxt "desc/squad/radioman_mortar(usa)"
+msgid "81mm Mortar Signaller (call-in)"
+msgstr ""
+
+msgctxt "desc/squad/radioman_105(usa)"
+msgid "105mm Artillery Signaller (call-in)"
+msgstr ""
+
+msgctxt "desc/squad/radioman_155(usa)"
+msgid "155mm Artillery Signaller (call-in)"
+msgstr ""
+
+msgctxt "desc/squad/radioman_203(usa)"
+msgid "8-inch Artillery Signaller (call-in)"
+msgstr ""
+
+msgctxt "desc/squad/radioman_155_vt(usa)"
+msgid "155mm VT Artillery Signaller (call-in)"
+msgstr ""
+
+msgctxt "desc/squad/radioman_203_vt(usa)"
+msgid "8-inch VT Artillery Signaller (call-in)"
+msgstr ""
+
+msgctxt "desc/squad/radioman_240(usa)"
+msgid "240mm Artillery Signaller (call-in)"
+msgstr ""
+
 
 msgctxt "desc/squad/squad_officer_con(usa)"
 msgid "Infantry Platoon HQ"

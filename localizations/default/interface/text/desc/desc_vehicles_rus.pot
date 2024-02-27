@@ -1166,7 +1166,7 @@ msgid "<c(c3baae)>Medium Tank</c>"
 msgstr ""
 
 msgctxt "desc/entity/t3485_44b"
-msgid "T-34-85 M1944"
+msgid "T-34-85 M1944 (Shielded)"
 msgstr ""
 
 msgctxt "info/special/t3485_44b"

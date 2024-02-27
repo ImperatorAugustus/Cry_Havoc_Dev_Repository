@@ -69,7 +69,7 @@ msgid "<c(c3baae)>Self-Propelled Howitzer</c>"
 msgstr ""
 
 msgctxt "desc/entity/elefant"
-msgid "Panzerj‰ger Tiger (P) 'Elefant'"
+msgid "Panzerj√§ger Tiger (P) 'Elefant'"
 msgstr ""
 
 msgctxt "info/special/elefant"

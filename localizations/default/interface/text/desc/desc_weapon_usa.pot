@@ -1,0 +1,389 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Gates of Hell Soviet weaponry\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+msgctxt "desc/weapon/bomb_dropper_usa_250x3"
+msgid "3x GP 500lb Bomb"
+msgstr ""
+
+msgctxt "desc/weapon/37mm_m1a2"
+msgid "37mm Gun M1A2 L/54"
+msgstr ""
+
+msgctxt "desc/weapon/37mm_m3"
+msgid "37mm Gun M3 L/53.5"
+msgstr ""
+
+msgctxt "desc/weapon/37mm_m5"
+msgid "37mm Gun M5 L/49.9"
+msgstr ""
+
+msgctxt "desc/weapon/37mm_m6"
+msgid "37mm Gun M6 L/53.5"
+msgstr ""
+
+msgctxt "desc/weapon/40mm_m1"
+msgid "Bofors 40mm Gun M1 L/60"
+msgstr ""
+
+msgctxt "desc/weapon/50mm_rocketprojector"
+msgid "2-inch Rocket Projector"
+msgstr ""
+
+msgctxt "desc/weapon/50mm_rocketprojector_x4"
+msgid "2-inch Rocket Projector"
+msgstr ""
+
+msgctxt "desc/weapon/57mm_m1"
+msgid "57mm Gun M1 L/50"
+msgstr ""
+
+msgctxt "desc/weapon/60mm_m2"
+msgid "60mm M2 Mortar"
+msgstr ""
+
+msgctxt "desc/weapon/75mm_m1a1_how"
+msgid "75mm Howitzer M1A1 L/15.9"
+msgstr ""
+
+msgctxt "desc/weapon/75mm_m2"
+msgid "75mm Gun M2 L/31"
+msgstr ""
+
+msgctxt "desc/weapon/75mm_m2_how"
+msgid "75mm Howitzer M2 L/15.9"
+msgstr ""
+
+msgctxt "desc/weapon/75mm_m3"
+msgid "75mm Gun M3 L/40"
+msgstr ""
+
+msgctxt "desc/weapon/75mm_m3_how"
+msgid "75mm Howitzer M3 L/15.9"
+msgstr ""
+
+msgctxt "desc/weapon/75mm_m6"
+msgid "75mm Gun M6 L/39"
+msgstr ""
+
+msgctxt "desc/weapon/75mm_m1897a4"
+msgid "75mm Gun M1897A4 L/36"
+msgstr ""
+
+msgctxt "desc/weapon/76mm_m1a1"
+msgid "76mm Gun M1A1 L/52"
+msgstr ""
+
+msgctxt "desc/weapon/76mm_m1a1_m18"
+msgid "76mm Gun M1A1 L/52"
+msgstr ""
+
+msgctxt "desc/weapon/76mm_m1a1c"
+msgid "76mm Gun M1A1C L/52"
+msgstr ""
+
+msgctxt "desc/weapon/76mm_m1a2"
+msgid "76mm Gun M1A2 L/52"
+msgstr ""
+
+msgctxt "desc/weapon/76mm_m1a2_m18"
+msgid "76mm Gun M1A2 L/52"
+msgstr ""
+
+msgctxt "desc/weapon/76mm_m5"
+msgid "3-inch Gun M5 L/45"
+msgstr ""
+
+msgctxt "desc/weapon/76mm_m7"
+msgid "3-inch Gun M7 L/45"
+msgstr ""
+
+msgctxt "desc/weapon/81mm_m1"
+msgid "81mm M1 Mortar"
+msgstr ""
+
+msgctxt "desc/weapon/90mm_m1a1"
+msgid "90mm Gun M1A1 L/55"
+msgstr ""
+
+msgctxt "desc/weapon/90mm_m2"
+msgid "90mm Gun M2 L/55"
+msgstr ""
+
+msgctxt "desc/weapon/90mm_m3"
+msgid "90mm Gun M3 L/53"
+msgstr ""
+
+msgctxt "desc/weapon/90mm_t15e1"
+msgid "90mm Gun T15E1 L/73"
+msgstr ""
+
+msgctxt "desc/weapon/105mm_m2a1"
+msgid "105mm Howitzer M2A1 L/22"
+msgstr ""
+
+msgctxt "desc/weapon/105mm_m3"
+msgid "105mm Howitzer M3 L/17.9"
+msgstr ""
+
+msgctxt "desc/weapon/105mm_m4"
+msgid "105mm Howitzer M4 L/22.5"
+msgstr ""
+
+msgctxt "desc/weapon/107mm_m2"
+msgid "4.2-inch M2 Mortar"
+msgstr ""
+
+msgctxt "desc/weapon/114mm_m1"
+msgid "4.5-inch Gun M1 L/43"
+msgstr ""
+
+msgctxt "desc/weapon/114mm_t34_calliope"
+msgid "Rocket Launcher T34 (60x114mm Rockets)"
+msgstr ""
+
+msgctxt "desc/weapon/127mm_hvar_4"
+msgid "4x 5-inch HVAR"
+msgstr ""
+
+msgctxt "desc/weapon/127mm_hvar_10"
+msgid "10x 5-inch HVAR"
+msgstr ""
+
+msgctxt "desc/weapon/155mm_gpf"
+msgid "155mm GPF L/38.2"
+msgstr ""
+
+msgctxt "desc/weapon/155mm_m1"
+msgid "155mm Howitzer M1 L/23"
+msgstr ""
+
+msgctxt "desc/weapon/155mm_m1a1_longtom"
+msgid "155mm Gun M1A1 L/45"
+msgstr ""
+
+msgctxt "desc/weapon/155mm_m1918m1"
+msgid "155mm Gun M1918M1 L/38.2"
+msgstr ""
+
+msgctxt "desc/weapon/155mm_schneider"
+msgid "155mm Schneider L/15"
+msgstr ""
+
+msgctxt "desc/weapon/203mm_m1"
+msgid "8-inch Howitzer M1 L/25"
+msgstr ""
+
+msgctxt "desc/weapon/flaregun_anm8"
+msgid "AN-M8 Flare Pistol"
+msgstr ""
+
+msgctxt "desc/weapon/bar"
+msgid "M1918A2 BAR"
+msgstr ""
+
+msgctxt "desc/weapon/bar_bipod"
+msgid "M1918A2 BAR"
+msgstr ""
+
+msgctxt "desc/weapon/bazooka_m1"
+msgid "M1 'Bazooka' Anti-tank Launcher"
+msgstr ""
+
+msgctxt "desc/weapon/bazooka_m1a1"
+msgid "M1A1 'Bazooka' Anti-tank Launcher"
+msgstr ""
+
+msgctxt "desc/weapon/bazooka_m9"
+msgid "M9 'Bazooka' Anti-tank Launcher"
+msgstr ""
+
+msgctxt "desc/weapon/bazooka_m9a1"
+msgid "M9A1 'Bazooka' Anti-tank Launcher"
+msgstr ""
+
+msgctxt "desc/weapon/bomb_dropper_p47"
+msgid "4x Fab-100"
+msgstr ""
+
+msgctxt "desc/weapon/browning_m2"
+msgid ".50 cal M2HB Browning"
+msgstr ""
+
+msgctxt "desc/weapon/browning_m2_nomag"
+msgid ".50 cal M2HB Browning"
+msgstr ""
+
+msgctxt "desc/weapon/browning_m2_x2"
+msgid "Dual .50 cal M2HB Browning"
+msgstr ""
+
+msgctxt "desc/weapon/browning_m2_x4"
+msgid "Quad .50 cal M2HB Browning"
+msgstr ""
+
+msgctxt "desc/weapon/browning_m2_x8"
+msgid "AN/M2 .50 cal Browning"
+msgstr ""
+
+msgctxt "desc/weapon/browning_m17a1"
+msgid ".30 cal M1917A1 Browning"
+msgstr ""
+
+msgctxt "desc/weapon/browning_m19a4"
+msgid ".30 cal M1919A4 Browning"
+msgstr ""
+
+msgctxt "desc/weapon/browning_m19a4_100"
+msgid ".30 cal M1919A4 Browning"
+msgstr ""
+
+msgctxt "desc/weapon/browning_m19a4_left"
+msgid ".30 cal M1919A4 Browning"
+msgstr ""
+
+msgctxt "desc/weapon/browning_m19a4_right"
+msgid ".30 cal M1919A4 Browning"
+msgstr ""
+
+msgctxt "desc/weapon/browning_m19a4_rear"
+msgid ".30 cal M1919A4 Browning"
+msgstr ""
+
+msgctxt "desc/weapon/browning_m19a4_tank"
+msgid ".30 cal M1919A4 Browning"
+msgstr ""
+
+msgctxt "desc/weapon/browning_m19a4_x2"
+msgid ".30 cal M1919A4 Browning"
+msgstr ""
+
+msgctxt "desc/weapon/browning_m19a5"
+msgid ".30 cal M1919A5 Browning"
+msgstr ""
+
+msgctxt "desc/weapon/browning_m19a6"
+msgid ".30 cal M1919A6 Browning"
+msgstr ""
+
+msgctxt "desc/weapon/e4_5_flame_thrower"
+msgid "E4-5 Flamethrower"
+msgstr ""
+
+msgctxt "desc/weapon/garand"
+msgid "M1 Garand"
+msgstr ""
+
+msgctxt "desc/weapon/garand_grenade_launcher"
+msgid "M1 Garand M7 Rifle Grenade"
+msgstr ""
+
+msgctxt "desc/weapon/garand_scope"
+msgid "M1E7/M1C Garand (Scope)"
+msgstr ""
+
+msgctxt "desc/weapon/hdm"
+msgid "High Standard HDM (Silenced)"
+msgstr ""
+
+msgctxt "desc/weapon/m1_carbine"
+msgid "M1 Carbine"
+msgstr ""
+
+msgctxt "desc/weapon/m1_carbine_grenade_launcher"
+msgid "M1 Carbine M8 Rifle Grenade"
+msgstr ""
+
+msgctxt "desc/weapon/m1_flame_thrower"
+msgid "M1 Flamethrower"
+msgstr ""
+
+msgctxt "desc/weapon/m1a1_carbine"
+msgid "M1A1 Carbine"
+msgstr ""
+
+msgctxt "desc/weapon/m1a1_carbine_grenade_launcher"
+msgid "M1A1 Carbine M8 Rifle Grenade"
+msgstr ""
+
+msgctxt "desc/weapon/m1a1_flame_thrower"
+msgid "M1A1 Flamethrower"
+msgstr ""
+
+msgctxt "desc/weapon/m2_flame_thrower"
+msgid "M2 Flamethrower"
+msgstr ""
+
+msgctxt "desc/weapon/m3_grease"
+msgid "M3 'Grease Gun'"
+msgstr ""
+
+msgctxt "desc/weapon/m12_shotgun"
+msgid "M12 Shotgun"
+msgstr ""
+
+msgctxt "desc/weapon/m1903"
+msgid "M1903A3 Springfield"
+msgstr ""
+
+msgctxt "desc/weapon/m1903_grenade_launcher"
+msgid "M1903A3 Springfield M1 Rifle Grenade"
+msgstr ""
+
+msgctxt "desc/weapon/m1903a4"
+msgid "M1903A4 Springfield (Scope)"
+msgstr ""
+
+msgctxt "desc/weapon/m1911"
+msgid "M1911A1"
+msgstr ""
+
+msgctxt "desc/weapon/recoilless_m18"
+msgid "M18 Recoilless Rifle"
+msgstr ""
+
+msgctxt "desc/weapon/thompson_m1_20"
+msgid "M1 Thompson (Stick 20)"
+msgstr ""
+
+msgctxt "desc/weapon/thompson_m1_30"
+msgid "M1 Thompson (Stick 30)"
+msgstr ""
+
+msgctxt "desc/weapon/thompson_m1a1_20"
+msgid "M1A1 Thompson (Stick 20)"
+msgstr ""
+
+msgctxt "desc/weapon/thompson_m1a1_30"
+msgid "M1A1 Thompson (Stick 30)"
+msgstr ""
+
+msgctxt "desc/weapon/thompson_m1928_20"
+msgid "M1928 Thompson (Stick 20)"
+msgstr ""
+
+msgctxt "desc/weapon/thompson_m1928_50"
+msgid "M1928 Thompson (Drum)"
+msgstr ""
+
+msgctxt "desc/weapon/thompson_m1928a1_20"
+msgid "M1928A1 Thompson (Stick 20)"
+msgstr ""
+
+msgctxt "desc/weapon/thompson_m1928a1_30"
+msgid "M1928A1 Thompson (Stick 30)"
+msgstr ""
+
+msgctxt "desc/weapon/thompson_m1928a1_50"
+msgid "M1928A1 Thompson (Drum)"
+msgstr ""

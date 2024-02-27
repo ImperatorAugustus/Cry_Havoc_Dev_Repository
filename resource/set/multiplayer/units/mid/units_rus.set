@@ -607,11 +607,11 @@
 ;|________________________________________________|
 
 
-("squad_with1types" side(rus) name(single_rifle)		period(mid) year(mid) cd(0)   ci(0)   g(single_1) 		c1(rifleman_1:1)					b(single) t())
-("squad_with1types" side(rus) name(single_smg)			period(mid) year(mid) cd(0)   ci(0)   g(single_1) 		c1(smg_2:1)							b(single) t())
-("squad_with1types" side(rus) name(single_sa)			period(mid) year(mid) cd(0)   ci(15)   g(single_1) 		c1(rifleman_2:1)						b(single) t())
+("squad_with1types" side(rus) name(single_rifle)		period(mid) year(mid) cd(0)   ci(3)   g(single_1) 		c1(rifleman_1:1)					b(single) t())
+("squad_with1types" side(rus) name(single_smg)			period(mid) year(mid) cd(0)   ci(5)   g(single_1) 		c1(smg_2:1)							b(single) t())
+("squad_with1types" side(rus) name(single_sa)			period(mid) year(mid) cd(0)   ci(10)   g(single_1) 		c1(rifleman_2:1)						b(single) t())
 ;("squad_with1types" side(rus) name(single_auxiliary)	period(mid) year(mid) cd(0)   ci(5)   g(single_rifle)		c1(rifleman_1:2)					b(single) t())
-("squad_with2types" side(rus) name(single_mg)			period(mid) year(mid) cd(0)   ci(90)  g(single_mg)		c1(mgun_1:1) c2(mgun_2:1)			b(single) t())
+("squad_with2types" side(rus) name(single_mg)			period(mid) year(mid) cd(0)   ci(60)  g(single_mg)		c1(mgun_1:1) c2(mgun_2:1)			b(single) t())
 ("squad_with2types" side(rus) name(single_at)			period(mid) year(mid) cd(0)   ci(0)   g(single_at)		c1(antitank_1:1) c2(antitank_2:1)	b(single) t())
 ("squad_with2types" side(rus) name(single_riflegrenade)	period(mid) year(mid) cd(0)   ci(30)  g(single_grenade)	c1(antitank_3:1) c2(antitank_4:1)	b(single) t())
 ("squad_with1types" side(rus) name(single_ap_miner)		period(mid) year(mid) cd(0)   ci(60)  g(single_apmine)	c1(miner-ap:2)						b(single) t(engineer))

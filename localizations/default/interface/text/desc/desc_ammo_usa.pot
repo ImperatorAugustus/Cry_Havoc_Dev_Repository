@@ -473,5 +473,5 @@ msgid ".50 cal Heavy MG"
 msgstr ""
 
 msgctxt "desc/stuff/mgun_usa"
-msgid ".30 cal Medum MG"
+msgid ".30 cal Medium MG"
 msgstr ""

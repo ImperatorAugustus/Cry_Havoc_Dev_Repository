@@ -1,0 +1,465 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Gates of Hell Soviet weaponry\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+msgctxt "desc/weapon/20mm_shvak"
+msgid "20mm ShVAK"
+msgstr ""
+
+msgctxt "desc/weapon/20mm_tns"
+msgid "20mm TNSh L/107"
+msgstr ""
+
+msgctxt "desc/weapon/23mm_vya"
+msgid "23mm VYa-23"
+msgstr ""
+
+msgctxt "desc/weapon/25mm_72k"
+msgid "25mm M1940 L/76.6"
+msgstr ""
+
+msgctxt "desc/weapon/37mm_1k"
+msgid "37mm 1K L/45"
+msgstr ""
+
+msgctxt "desc/weapon/37mm_5k"
+msgid "37mm 5K L/45"
+msgstr ""
+
+msgctxt "desc/weapon/37mm_61k"
+msgid "37mm M1939 L/62.1"
+msgstr ""
+
+msgctxt "desc/weapon/45mm_20k"
+msgid "45mm M1938 L/46"
+msgstr ""
+
+msgctxt "desc/weapon/45mm_m37"
+msgid "45mm M1938 L/46"
+msgstr ""
+
+msgctxt "desc/weapon/45mm_m42"
+msgid "45mm M1942 L/66"
+msgstr ""
+
+msgctxt "desc/weapon/57mm_zis2"
+msgid "57mm ZIS-2 L/72.9"
+msgstr ""
+
+msgctxt "desc/weapon/57mm_zis2_2"
+msgid "57mm ZIS-2 L/72.9"
+msgstr ""
+
+msgctxt "desc/weapon/57mm_zis4"
+msgid "57mm ZIS-4 L/73"
+msgstr ""
+
+msgctxt "desc/weapon/57mm_zis4_2"
+msgid "57mm ZIS-4 L/73"
+msgstr ""
+
+msgctxt "desc/weapon/76mm_bpk76"
+msgid "76mm BPK-76 L/30"
+msgstr ""
+
+msgctxt "desc/weapon/76mm_f22"
+msgid "76mm F22 L/51.2"
+msgstr ""
+
+msgctxt "desc/weapon/76mm_f32"
+msgid "76mm F32 L/31.5"
+msgstr ""
+
+msgctxt "desc/weapon/76mm_f34"
+msgid "76mm F34 M1940 L/41.5"
+msgstr ""
+
+msgctxt "desc/weapon/76mm_f34_2"
+msgid "76mm F34 M1942 L/41.5"
+msgstr ""
+
+msgctxt "desc/weapon/76mm_kt26"
+msgid "76mm KT-28 L/16.5"
+msgstr ""
+
+msgctxt "desc/weapon/76mm_l10"
+msgid "76mm L10 L/26"
+msgstr ""
+
+msgctxt "desc/weapon/76mm_l11"
+msgid "76mm L11 L/30.5"
+msgstr ""
+
+msgctxt "desc/weapon/76mm_m1902"
+msgid "76mm M1902 L/30"
+msgstr ""
+
+msgctxt "desc/weapon/76mm_m1902_30_40"
+msgid "76mm M1902/30 L/40"
+msgstr ""
+
+msgctxt "desc/weapon/76mm_m1927"
+msgid "76.2mm M1927 L/16.5"
+msgstr ""
+
+msgctxt "desc/weapon/76mm_m1933"
+msgid "76mm M1933 L/50.3"
+msgstr ""
+
+msgctxt "desc/weapon/76mm_m1943"
+msgid "76.2mm M1943 L/16.5"
+msgstr ""
+
+msgctxt "desc/weapon/76mm_zis3"
+msgid "76mm ZIS-3 L/51.6"
+msgstr ""
+
+msgctxt "desc/weapon/76mm_zis3_2"
+msgid "76mm ZIS-3 L/51.6"
+msgstr ""
+
+msgctxt "desc/weapon/76mm_zis5"
+msgid "76mm ZIS-5 L/42.5"
+msgstr ""
+
+msgctxt "desc/weapon/82mm_bm37"
+msgid "82mm BM-37"
+msgstr ""
+
+msgctxt "desc/weapon/82mm_rs82"
+msgid "82mm RS-82 Rockets"
+msgstr ""
+
+msgctxt "desc/weapon/85mm_52k"
+msgid "85mm L/55"
+msgstr ""
+
+msgctxt "desc/weapon/85mm_d5s"
+msgid "85mm D-5S L/54.6"
+msgstr ""
+
+msgctxt "desc/weapon/85mm_d5t"
+msgid "85mm D-5T L/54.6"
+msgstr ""
+
+msgctxt "desc/weapon/85mm_d5t_52k"
+msgid "85mm D-5T L/54.6"
+msgstr ""
+
+msgctxt "desc/weapon/85mm_zis53"
+msgid "85mm ZIS-53 L/51.5"
+msgstr ""
+
+msgctxt "desc/weapon/100mm_bs3"
+msgid "100mm BS-3 L/59.6"
+msgstr ""
+
+msgctxt "desc/weapon/100mm_d10c"
+msgid "100mm D-10S L/59"
+msgstr ""
+
+msgctxt "desc/weapon/107mm_m1910"
+msgid "107mm M1910/30 L/38"
+msgstr ""
+
+msgctxt "desc/weapon/120mm_pm38"
+msgid "120mm PM-38"
+msgstr ""
+
+msgctxt "desc/weapon/122mm_a19"
+msgid "122mm A-19 L/45"
+msgstr ""
+
+msgctxt "desc/weapon/122mm_d25"
+msgid "122mm D-25T L/48.5"
+msgstr ""
+
+msgctxt "desc/weapon/122mm_d25s"
+msgid "122mm D-25S L/48.5"
+msgstr ""
+
+msgctxt "desc/weapon/122mm_m30"
+msgid "122mm M-30 L/22"
+msgstr ""
+
+msgctxt "desc/weapon/122mm_m30s"
+msgid "122mm M-30s L/22"
+msgstr ""
+
+msgctxt "desc/weapon/122mm_m1910"
+msgid "122mm M1910 L/12.8"
+msgstr ""
+
+msgctxt "desc/weapon/125mm_ampulomet"
+msgid "125mm Incendiary Launcher"
+msgstr ""
+
+msgctxt "desc/weapon/130mm_b13"
+msgid "130mm B13 L/50"
+msgstr ""
+
+msgctxt "desc/weapon/152mm_br2"
+msgid "152mm Br-2 L/47.2"
+msgstr ""
+
+msgctxt "desc/weapon/152mm_d1"
+msgid "152mm D1 L/24.6"
+msgstr ""
+
+msgctxt "desc/weapon/152mm_m10t"
+msgid "152mm M-10T L/20"
+msgstr ""
+
+msgctxt "desc/weapon/152mm_ml20"
+msgid "152mm ML-20 L/29"
+msgstr ""
+
+msgctxt "desc/weapon/152mm_ml20a"
+msgid "152mm ML-20A L/29"
+msgstr ""
+
+msgctxt "desc/weapon/180mm_tm1"
+msgid "180mm B-1-K L/60"
+msgstr ""
+
+msgctxt "desc/weapon/203mm_b4"
+msgid "203mm B4 L/25"
+msgstr ""
+
+msgctxt "desc/weapon/280mm_br5"
+msgid "280mm Br-5 L/17"
+msgstr ""
+
+msgctxt "desc/weapon/305mm_gun"
+msgid "305mm"
+msgstr ""
+
+msgctxt "desc/weapon/305mm_m1907"
+msgid "Obukhovskii 305mm/52 Pattern 1907"
+msgstr ""
+
+msgctxt "desc/weapon/ato_41_flame_thrower"
+msgid "ATO-41 Flamethrower"
+msgstr ""
+
+msgctxt "desc/weapon/ato_42_flame_thrower"
+msgid "ATO-42 Flamethrower"
+msgstr ""
+
+msgctxt "desc/weapon/avt40"
+msgid "AVT-40"
+msgstr ""
+
+msgctxt "desc/weapon/berezin"
+msgid "Berezin UBT"
+msgstr ""
+
+msgctxt "desc/weapon/bomb_dropper_il2"
+msgid "4x Fab-100"
+msgstr ""
+
+msgctxt "desc/weapon/dp_bipod"
+msgid "DP-27"
+msgstr ""
+
+msgctxt "desc/weapon/ds39"
+msgid "DS-39"
+msgstr ""
+
+msgctxt "desc/weapon/dshk"
+msgid "DShK HMG"
+msgstr ""
+
+msgctxt "desc/weapon/dshk_t40"
+msgid "DShK HMG"
+msgstr ""
+
+msgctxt "desc/weapon/dt"
+msgid "DT"
+msgstr ""
+
+msgctxt "desc/weapon/dt_bipod"
+msgid "DT (Bipod)"
+msgstr ""
+
+msgctxt "desc/weapon/dt_x2"
+msgid "Dual DT"
+msgstr ""
+
+msgctxt "desc/weapon/far"
+msgid "Fedorov Avtomat"
+msgstr ""
+
+msgctxt "desc/weapon/kpvt"
+msgid "14.5mm KPVT Machine Gun"
+msgstr ""
+
+msgctxt "desc/weapon/ks_24_flame_thrower"
+msgid "KS-24 Flamethrower"
+msgstr ""
+
+msgctxt "desc/weapon/ks_25_flame_thrower"
+msgid "KS-25 Flamethrower"
+msgstr ""
+
+msgctxt "desc/weapon/ks_25_flame_thrower_fin"
+msgid "KS-25 Flamethrower"
+msgstr ""
+
+msgctxt "desc/weapon/maxim_1910_30"
+msgid "Maxim M1910/30"
+msgstr ""
+
+msgctxt "desc/weapon/maxim_1910_30_x2"
+msgid "Dual Maxim M1910/30"
+msgstr ""
+
+msgctxt "desc/weapon/maxim_1910_30_x4"
+msgid "Quad Maxim M1910/30"
+msgstr ""
+
+msgctxt "desc/weapon/mosin"
+msgid "Mosin Nagant"
+msgstr ""
+
+msgctxt "desc/weapon/mosin_antitank"
+msgid "Mosin Rifle Grenade (AT)"
+msgstr ""
+
+msgctxt "desc/weapon/mosin_bayonet"
+msgid "Mosin (Bayonet)"
+msgstr ""
+
+msgctxt "desc/weapon/mosin_carbine"
+msgid "Mosin Carbine"
+msgstr ""
+
+msgctxt "desc/weapon/mosin_grenade_launcher"
+msgid "Mosin Dyakonov (HE)"
+msgstr ""
+
+msgctxt "desc/weapon/mosin_scope"
+msgid "Mosin (Scope)"
+msgstr ""
+
+msgctxt "desc/weapon/mosin_silencer"
+msgid "Mosin (Silencer)"
+msgstr ""
+
+msgctxt "desc/weapon/nagant_revolver"
+msgid "Nagant M1895 Revolver"
+msgstr ""
+
+msgctxt "desc/weapon/nagant_silencer"
+msgid "Nagant M1895 Revolver (Silenced)"
+msgstr ""
+
+msgctxt "desc/weapon/osp30"
+msgid "OSP-30 Flare Pistol"
+msgstr ""
+
+msgctxt "desc/weapon/osp30_signal"
+msgid "OSP-30 Flare Pistol (observation flares)"
+msgstr ""
+
+msgctxt "desc/weapon/ppd40"
+msgid "PPD-40"
+msgstr ""
+
+msgctxt "desc/weapon/pps43"
+msgid "PPS-43"
+msgstr ""
+
+msgctxt "desc/weapon/ppsh41_drum"
+msgid "PPSH-41 (Drum)"
+msgstr ""
+
+msgctxt "desc/weapon/ppsh41_stick"
+msgid "PPSH-41 (Stick)"
+msgstr ""
+
+msgctxt "desc/weapon/ptrd"
+msgid "PTRD-41"
+msgstr ""
+
+msgctxt "desc/weapon/ptrs"
+msgid "PTRS-41"
+msgstr ""
+
+msgctxt "desc/weapon/roks_2_flame_thrower"
+msgid "ROKS-2 Flamethrower"
+msgstr ""
+
+msgctxt "desc/weapon/roks_3_flame_thrower"
+msgid "ROKS-3 Flamethrower"
+msgstr ""
+
+msgctxt "desc/weapon/sg43"
+msgid "SG-43"
+msgstr ""
+
+msgctxt "desc/weapon/shkas_il2"
+msgid "ShKAS"
+msgstr ""
+
+msgctxt "desc/weapon/shotgun"
+msgid "Double Barrel Shotgun"
+msgstr ""
+
+msgctxt "desc/weapon/svt38"
+msgid "SVT-38"
+msgstr ""
+
+msgctxt "desc/weapon/svt40"
+msgid "SVT-40"
+msgstr ""
+
+msgctxt "desc/weapon/svt40_carbine"
+msgid "SVT-40 Carbine"
+msgstr ""
+
+msgctxt "desc/weapon/tt33"
+msgid "TT-33"
+msgstr ""
+
+msgctxt "desc/weapon/76mm_m1931"
+msgid "76mm M1931 L/55"
+msgstr ""
+
+msgctxt "desc/weapon/76mm_m1938"
+msgid "76mm M1938 L/55"
+msgstr ""
+
+msgctxt "desc/weapon/82mm_bm8_24"
+msgid "BM-8-24 (24x82mm Rockets)"
+msgstr ""
+
+msgctxt "desc/weapon/82mm_bm8_48"
+msgid "BM-8-48 (48x82mm Rockets)"
+msgstr ""
+
+msgctxt "desc/weapon/132mm_bm13"
+msgid "BM-13-16 (16x132mm Rockets)"
+msgstr ""
+
+msgctxt "desc/weapon/300mm_m30"
+msgid "M-31-4 (4x300mm Rockets)"
+msgstr ""
+
+msgctxt "desc/weapon/300mm_m31"
+msgid "M-31-8 (8x300mm Rockets)"
+msgstr ""
+
+msgctxt "desc/weapon/300mm_bm30"
+msgid "BM-31-12 (12x300mm Rockets)"
+msgstr ""

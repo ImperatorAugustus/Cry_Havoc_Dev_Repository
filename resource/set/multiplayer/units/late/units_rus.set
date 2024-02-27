@@ -569,44 +569,34 @@
 
 ;//--------------
 
-("squad_with4types" side(rus) name(squad_recon_late)		period(late) year(late) cd(0) ci(0) g(squad_2_recon) c1(recon_nco:1) c2(recon_smg:2) c3(recon_smg2:2) c4(recon_rifle:1)													b(squad) t())
-
-("squad_with6types" side(rus) name(squad_partisan)			period(late) year(late) cd(0) ci(0) g(squad_1) c1(partisan_1:3) c2(partisan_2:1) c3(partisan_3:1) c4(partisan_4:3) c5(partisan_5:1) c6(partisan_6:1)	b(squad) t())
-
-("squad_with2types" side(rus) name(squad_conscripts_late)	period(late) year(late) cd(0) ci(0) g(squad_1) c1(conscript_nco:1) c2(conscript_rifle:8)																			b(squad) t())
+("squad_with4types" side(rus) name(squad_recon_late)		period(late) year(late) cd(0) ci(60) g(squad_2_recon) c1(recon_nco:1) c2(recon_smg:2) c3(recon_smg2:2) c4(recon_rifle:1)													b(squad) t())
+("squad_with6types" side(rus) name(squad_partisan)			period(late) year(late) cd(0) ci(60) g(squad_1) c1(partisan_1:3) c2(partisan_2:1) c3(partisan_3:1) c4(partisan_4:3) c5(partisan_5:1) c6(partisan_6:1)	b(squad) t())
+("squad_with2types" side(rus) name(squad_conscripts_late)	period(late) year(late) cd(0) ci(30) g(squad_1) c1(conscript_nco:1) c2(conscript_rifle:15)																			b(squad) t())
 
 ;("squad_with7types_i" side(rus) name(squad_vet_partisan_rifle_late_irr_1) period(late) year(late) scf(1) cd(0) ci(0) g(squad_1) c1(vet_nco_pps43:1) c2(vet_partisan_drum_pzf:1) c3(vet_partisan_mp40:1) c4(vet_partisan_k98:1) c5(vet_partisan_mosin:4) c6(vet_partisan_mosin_pzf:1) c7(vet_partisan_dp:1) b(squad) i(207) t())
-
 ;("squad_with6types_i" side(rus) name(squad_vet_partisan_smg_late_irr_1) period(late) year(late) scf(1) cd(0) ci(0) g(squad_1) c1(vet_nco_pps43:1) c2(vet_partisan_drum_pzf:2) c3(vet_partisan_mp40:3) c4(vet_partisan_pps43:2) c5(vet_partisan_drum:1) c6(vet_partisan_stick:1) b(squad) i(208) t())
 
 ;//t2
-("squad_with6types_man" side(rus) name(squad_rifleunit)			period(late) year(late) cost(120) cd(0) ci(0)  g(squad_2) c1(nco:1) c2(senior_smg:1) c3(rifleman_3:1) c4(rifleman_2:4) c5(mgun_1:1) c6(mgun_2:1)					b(squad) t())
-
-("squad_with7types_man" side(rus) name(squad_assault_rifle)			period(late) year(late) cost(130) cd(0) ci(0)  g(squad_2) c1(nco:1) c2(senior_smg:1) c3(smg_3:1) c4(rifleman_3:2) c5(rifleman_2:2) c6(mgun_1:1) c7(mgun_2:1)					b(squad) t())
-
-("squad_with7types_man" side(rus) name(squad_heavy_rifleunit)			period(late) year(late) cost(160) cd(0) ci(120)  g(squad_2) c1(nco:1) c2(senior_smg:1) c3(smg_3:1) c4(rifleman_3:1) c5(rifleman_2:1) c6(mgun_1:2) c7(mgun_2:2)					b(squad) t())
-
-("squad_with4types_man" side(rus) name(squad_smg)				period(late) year(late) cost(150) cd(0) ci(0)  g(squad_2) c1(nco:1) c2(senior_smg:1) c3(smg_2:2) c4(smg_3:6)										b(squad) t())
-
-("squad_with8types_man" side(rus) name(squad_sappers)			period(late) year(late) cost(190) cd(0) ci(0)  g(squad_2) c1(sapper_nco:1) c2(sapper_builder:2) c3(sapper_flamer:1) c4(sapper_miner_ap:1) c5(sapper_miner_at:1) c6(sapper_senior:1) c7(sapper_smg_pps43:2) c8(sapper_smg_stick:1)					b(squad) t())
+("squad_with6types" side(rus) name(squad_rifleunit)			period(late) year(late) cd(0) ci(0)  g(squad_2) c1(nco:1) c2(senior_smg:1) c3(rifleman_3:1) c4(rifleman_2:4) c5(mgun_1:1) c6(mgun_2:1)					b(squad) t())
+("squad_with7types" side(rus) name(squad_assault_rifle)			period(late) year(late) cd(0) ci(0)  g(squad_2) c1(nco:1) c2(senior_smg:1) c3(smg_3:2) c4(rifleman_3:1) c5(rifleman_2:3) c6(mgun_1:1) c7(mgun_2:1)					b(squad) t())
+("squad_with7types" side(rus) name(squad_heavy_rifleunit)			period(late) year(late) cd(60) ci(10)  g(squad_2) c1(nco:1) c2(senior_smg:1) c3(smg_3:1) c4(rifleman_3:1) c5(rifleman_2:1) c6(mgun_1:2) c7(mgun_2:2)					b(squad) t())
+("squad_with4types" side(rus) name(squad_smg)				period(late) year(late) cd(0) ci(0)  g(squad_2) c1(nco:1) c2(senior_smg:1) c3(smg_2:2) c4(smg_3:6)										b(squad) t())
+("squad_with8types" side(rus) name(squad_sappers)			period(late) year(late) cd(300) ci(300)  g(squad_2) c1(sapper_nco:1) c2(sapper_builder:2) c3(sapper_flamer:1) c4(sapper_miner_ap:1) c5(sapper_miner_at:1) c6(sapper_senior:1) c7(sapper_smg_pps43:2) c8(sapper_smg_stick:1)					b(squad) t())
 
 ;//t3
-("squad_with7types_man" side(rus) name(squad_guardsrifle)		period(late) year(late) cost(220) cd(0) ci(300) g(squad_3) c1(guards_nco:1) c2(guards_senior_smg:1) c3(guards_smg_3:1) c4(guards_rifleman_3:1) c5(guards_rifleman_2:4) c6(guards_mgun_1:1) c7(guards_mgun_2:1)	b(squad) t())
+("squad_with7types" side(rus) name(squad_guardsrifle)		period(late) year(late) cd(180) ci(180) g(squad_3) c1(guards_nco:1) c2(guards_senior_smg:1) c3(guards_smg_3:1) c4(guards_rifleman_3:1) c5(guards_rifleman_2:4) c6(guards_mgun_1:1) c7(guards_mgun_2:1)	b(squad) t())
 
-("squad_with3types_man" side(rus) name(squad_assault_shock_squad)	period(late) year(late) cost(210) cd(0) ci(10) g(squad_3) c1(assault-sap_sl:1) c2(assault-sap_1:7) c3(assault-sap_4:1)								b(squad) t())
-
-("squad_with5types_man" side(rus) name(squad_assault_shock_rifle_squad)	period(late) year(late) cost(200) cd(0) ci(10) g(squad_3) c1(assault-sap_sl:1) c2(assault-sap_sl_asst:2) c3(assault-sap_sl_asst_mg:1) c4(assault-sap_3:1) c5(assault-sap_2:4)							b(squad) t())
-
-("squad_with3types" side(rus) name(squad_spetsnaz)	period(late) year(late) cd(0) ci(300) g(squad_3) c1(spetsnaz_1:1) c2(spetsnaz_2:6) c3(spetsnaz_3:2)								b(squad) t())
+("squad_with5types" side(rus) name(squad_assault_shock_rifle_squad)	period(late) year(late) cd(180) ci(10) g(squad_3) c1(assault-sap_sl:1) c2(assault-sap_sl_asst:2) c3(assault-sap_sl_asst_mg:1) c4(assault-sap_3:1) c5(assault-sap_2:4)							b(squad) t())
+("squad_with3types" side(rus) name(squad_assault_shock_squad)	period(late) year(late) cd(180) ci(180) g(squad_3) c1(assault-sap_sl:1) c2(assault-sap_1:7) c3(assault-sap_4:1)								b(squad) t())
+("squad_with4types" side(rus) name(squad_assault_eng_late_irr) period(late) year(late) scf(1) cd(300) ci(180) g(squad_3) c1(assault-sap_sl:1) c2(assault-sap_sl_asst_mg:1) c3(assault-sap_3:1) c4(assault-sap_1:7) b(squad) t())
+("squad_with3types" side(rus) name(squad_spetsnaz)	period(late) year(late) cd(300) ci(240) g(squad_3) c1(spetsnaz_1:1) c2(spetsnaz_2:6) c3(spetsnaz_3:2)								b(squad) t())
 
 ;//t4
-("squad_with8types" side(rus) name(squad_marines_late)		period(late) year(late) cd(0) ci(300) g(squad_4) c1(guards_marine_nco:1) c2(guards_marine_senior:1) c3(guards_marine_smg:1) c4(guards_marine_sa:1) c5(guards_marine_sa_pzf:2) c6(guards_marine_rifle:1) c7(guards_marine_mg:1) c8(guards_marine_mg_asst:1) b(squad) t())
+("squad_with8types" side(rus) name(squad_marines_late)		period(late) year(late) cd(300) ci(300) g(squad_4) c1(guards_marine_nco:1) c2(guards_marine_senior:1) c3(guards_marine_smg:1) c4(guards_marine_sa:1) c5(guards_marine_sa_pzf:2) c6(guards_marine_rifle:1) c7(guards_marine_mg:1) c8(guards_marine_mg_asst:1) b(squad) t())
+("squad_with7types" side(rus) name(squad_elite_guards_shock) period(late) year(late) scf(1) cd(300) ci(300) g(squad_4) c1(elite_guards_nco_stick:1) c2(elite_guards_senior_rifle:1) c3(elite_guards_sa:2) c4(elite_guards_smg_stick:1) c5(elite_guards_smg_drum:3) c6(elite_guards_mg:1) c7(elite_guards_mg_asst:1) b(squad) t())
+("squad_with6types" side(rus) name(squad_elite_guards) period(late) year(late) scf(1) cd(300) ci(300) g(squad_4) c1(elite_guards_nco_stick:1) c2(elite_guards_senior_sa:1) c3(elite_guards_rifle:1) c4(elite_guards_sa:3) c5(elite_guards_mg:2) c6(elite_guards_mg_asst:2) b(squad) t())
 
-("squad_with6types" side(rus) name(squad_elite_guards) period(late) year(late) scf(1) cd(0) ci(300) g(squad_4) c1(elite_guards_nco_stick:1) c2(elite_guards_senior_sa:1) c3(elite_guards_rifle:1) c4(elite_guards_sa:3) c5(elite_guards_mg:2) c6(elite_guards_mg_asst:2) b(squad) t())
-
-("squad_with7types" side(rus) name(squad_elite_guards_shock) period(late) year(late) scf(1) cd(0) ci(300) g(squad_4) c1(elite_guards_nco_stick:1) c2(elite_guards_senior_rifle:1) c3(elite_guards_sa:2) c4(elite_guards_smg_stick:1) c5(elite_guards_smg_drum:3) c6(elite_guards_mg:1) c7(elite_guards_mg_asst:1) b(squad) t())
-
-;("squad_with7types" side(rus) name(squad_mountain_cav_late_def) period(late) year(late) scf(1) cd(0) ci(180) g(squad_4) c1(mountain_cav_nco:1) c2(mountain_cav_senior:1) c3(mountain_cav_smg:1) c4(mountain_cav_sa:1) c5(mountain_cav_rifle:1) c6(mountain_cav_mg:1) c7(mountain_cav_mg_asst:1) b(squad) t())
+;("squad_with7types" side(rus) name(squad_mountain_cav_late_def) period(late) year(late) scf(1) cd(300) ci(300) g(squad_4) c1(mountain_cav_nco:1) c2(mountain_cav_senior:1) c3(mountain_cav_smg:1) c4(mountain_cav_sa:1) c5(mountain_cav_rifle:1) c6(mountain_cav_mg:1) c7(mountain_cav_mg_asst:1) b(squad) t())
 
 
 ;_________________________________________________
@@ -615,38 +605,22 @@
 
 
 ("squad_with1types" side(rus) name(single_rifle)		period(late) year(late) cd(0)   ci(0)   g(single_1) 		c1(rifleman_1:1)						b(single) t())
-
 ("squad_with1types" side(rus) name(single_smg)			period(late) year(late) cd(0)   ci(0)   g(single_1) 		c1(smg_stick:1)							b(single) t())
-
-("squad_with1types" side(rus) name(single_sa)			period(late) year(late) cd(0)   ci(15)   g(single_1) 		c1(rifleman_3:1)						b(single) t())
-
+("squad_with1types" side(rus) name(single_sa)			period(late) year(late) cd(0)   ci(0)   g(single_1) 		c1(rifleman_3:1)						b(single) t())
 ;("squad_with2types" side(rus) name(single_auxiliary)	period(late) year(late) cd(0)   ci(0)   g(single_rifle)	c1(rifleman_1:1) c2(smg_1:1)				b(single) t())
-
-("squad_with2types" side(rus) name(single_mg)			period(late) year(late) cd(0)   ci(90)  g(single_mg)		c1(mgun_1:1) c2(mgun_2:1)				b(single) t())
-
-("squad_with1types_man" side(rus) name(single_artillerymen)		period(late) year(late) cost(25) cd(0)   ci(0)   g(single_1) 		c1(artilleryman:2)						b(single) t())
-
+("squad_with2types" side(rus) name(single_mg)			period(late) year(late) cd(0)   ci(0)  g(single_mg)		c1(mgun_1:1) c2(mgun_2:1)				b(single) t())
+("squad_with2types" side(rus) name(single_mg_elite)		period(late) year(late) cd(0)   ci(60)  g(single_mg)		c1(elite_guards_mg:1) c2(elite_guards_mg_asst:1) b(single) t())
 ("squad_with2types" side(rus) name(single_at)			period(late) year(late) cd(0)   ci(0)   g(single_at)		c1(antitank_2:1) c2(antitank_asst:1)	b(single) t())
-
 ("squad_with2types" side(rus) name(single_at_rifle)		period(late) year(late) cd(0) 	ci(0)  	g(squad_2) 			c1(antitank_ptrs:2) c2(antitank_asst:2)	b(single) t())
-
 ("squad_with2types" side(rus) name(single_bazooker)		period(late) year(late) cd(0)   ci(0)   g(single_grenade)	c1(antitank_5:1) c2(antitank_3:1)		b(single) t())
-
 ("squad_with1types" side(rus) name(single_ap_miner)		period(late) year(late) cd(0)   ci(0)  g(single_apmine)	c1(miner-ap:2)							b(single) t(engineer))
-
 ("squad_with1types" side(rus) name(single_at_miner)		period(late) year(late) cd(0)   ci(0)  g(single_atmine)	c1(miner-at:2)							b(single) t(engineer))
-
 ("squad_with2types" side(rus) name(single_engineer)		period(late) year(late) cd(0)   ci(0)  g(single_eng)		c1(engineer_1:1) c2(engineer_2:1)		b(single) t(engineer))
-
 ("squad_with1types" side(rus) name(single_flamer)		period(late) year(late) cd(0)   ci(60)  g(single_flamer)	c1(flamer:1)							b(single) t(flamer))
-
 ("squad_with2types" side(rus) name(single_tankman)		period(late) year(late) cd(150) ci(0) g(single_crew)		c1(tank_commander:1) c2(tankman:3)		b(single) t())
-
 ("squad_with1types" side(rus) name(single_medic)		period(late) year(late) cd(0)   ci(0)   g(single_medic)	c1(medic:2) 								b(single) t(medic))
-
 ("squad_with1types" side(rus) name(single_sniper)		period(late) year(late) cd(120) ci(30) g(single_sniper)	c1(sniper:1) 							b(single) t(sniper))
-
-("squad_with1types" side(rus) name(single_officer)		period(late) year(late) cd(120) ci(180) g(single_officer)	c1(commisar:1)							b(single) t(officer))
+("squad_with1types" side(rus) name(single_officer)		period(late) year(late) cd(150) ci(150) g(single_officer)	c1(commisar:1)							b(single) t(officer))
 
 ;_________________________________________________
 ;|               Wheeled vehicles                 |
