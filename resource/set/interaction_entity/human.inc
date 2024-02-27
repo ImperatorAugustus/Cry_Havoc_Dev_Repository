@@ -638,7 +638,215 @@
 			}
 		}
 		
+		{if volume "foot2l"
+			{if not dead
+				{if stuff "7-62_pistol" 
+					{if rand 0.3 ("rand_damage2" dmg(40)) 	
+						{if not dead
+							{if rand 0.03
+								{tags add "human_bleeding"}{call "bleeding"}
+							}
+						}
+					} 
+				}
+				{if stuff "8_pistol"    
+					{if rand 0.3 ("rand_damage2" dmg(40))
+						{if not dead
+							{if rand 0.03
+								{tags add "human_bleeding"}{call "bleeding"}
+							}
+						}
+					} 
+				}
+				{if stuff "9_pistol"    
+					{if rand 0.3 ("rand_damage2" dmg(40))	
+						{if not dead
+							{if rand 0.03
+								{tags add "human_bleeding"}{call "bleeding"}
+							}
+						}
+					} 
+				}
+				{if stuff "45_pistol"   
+					{if rand 0.4 ("rand_damage2" dmg(50))	
+						{if not dead
+							{if rand 0.04
+								{tags add "human_bleeding"}{call "bleeding"}
+							}
+						}
+					} 
+				}
+				{if stuff "30_carbine"  
+					{if rand 0.4 ("rand_damage2" dmg(50))
+						{if not dead
+							{if rand 0.03
+								{tags add "human_bleeding"}{call "bleeding"}
+							}
+						}
+					} 
+				}
+				{if stuff "7-92_kurz"  	
+					{if rand 0.4 ("rand_damage2" dmg(60))
+						{if not dead
+							{if rand 0.07
+								{tags add "human_bleeding"}{call "bleeding"}
+							}
+						}
+					} 
+				}
+				{if stuff "6-5_rifle"  	
+					{if rand 0.5 ("rand_damage2" dmg(50))
+						{if not dead
+							{if rand 0.07
+								{tags add "human_bleeding"}{call "bleeding"}
+							}
+						}
+					} 
+				}
+				{if stuff "7-62_rifle"  
+					{if rand 0.5 ("rand_damage2" dmg(75))	
+						{if not dead
+							{if rand 0.1
+								{tags add "human_bleeding"}{call "bleeding"}
+							}
+						}
+					} 
+				}
+				{if stuff "7-7_rifle"  	
+					{if rand 0.5 ("rand_damage2" dmg(75))
+						{if not dead
+							{if rand 0.1
+								{tags add "human_bleeding"}{call "bleeding"}
+							}
+						}
+					}
+				}
+				{if stuff "7-92_rifle"  
+					{if rand 0.5 ("rand_damage2" dmg(75))
+						{if not dead
+							{if rand 0.1
+								{tags add "human_bleeding"}{call "bleeding"}
+							}
+						}
+					} 
+				}
+				{if stuff "hmgun"  		
+					{if rand 0.7 ("rand_damage2" dmg(100))
+						{if not dead
+							{if rand 0.15
+								{tags add "human_bleeding"}{call "bleeding"}
+							}
+						}
+					}
+				}
+			}
+		}
+		
 		{if volume "foot1r"
+			{if not dead
+				{if stuff "7-62_pistol" 
+					{if rand 0.3 ("rand_damage2" dmg(40)) 	
+						{if not dead
+							{if rand 0.03
+								{tags add "human_bleeding"}{call "bleeding"}
+							}
+						}
+					} 
+				}
+				{if stuff "8_pistol"    
+					{if rand 0.3 ("rand_damage2" dmg(40))
+						{if not dead
+							{if rand 0.03
+								{tags add "human_bleeding"}{call "bleeding"}
+							}
+						}
+					} 
+				}
+				{if stuff "9_pistol"    
+					{if rand 0.3 ("rand_damage2" dmg(40))	
+						{if not dead
+							{if rand 0.03
+								{tags add "human_bleeding"}{call "bleeding"}
+							}
+						}
+					} 
+				}
+				{if stuff "45_pistol"   
+					{if rand 0.4 ("rand_damage2" dmg(50))	
+						{if not dead
+							{if rand 0.04
+								{tags add "human_bleeding"}{call "bleeding"}
+							}
+						}
+					} 
+				}
+				{if stuff "30_carbine"  
+					{if rand 0.4 ("rand_damage2" dmg(50))
+						{if not dead
+							{if rand 0.03
+								{tags add "human_bleeding"}{call "bleeding"}
+							}
+						}
+					} 
+				}
+				{if stuff "7-92_kurz"  	
+					{if rand 0.4 ("rand_damage2" dmg(60))
+						{if not dead
+							{if rand 0.07
+								{tags add "human_bleeding"}{call "bleeding"}
+							}
+						}
+					} 
+				}
+				{if stuff "6-5_rifle"  	
+					{if rand 0.5 ("rand_damage2" dmg(50))
+						{if not dead
+							{if rand 0.07
+								{tags add "human_bleeding"}{call "bleeding"}
+							}
+						}
+					} 
+				}
+				{if stuff "7-62_rifle"  
+					{if rand 0.5 ("rand_damage2" dmg(75))	
+						{if not dead
+							{if rand 0.1
+								{tags add "human_bleeding"}{call "bleeding"}
+							}
+						}
+					} 
+				}
+				{if stuff "7-7_rifle"  	
+					{if rand 0.5 ("rand_damage2" dmg(75))
+						{if not dead
+							{if rand 0.1
+								{tags add "human_bleeding"}{call "bleeding"}
+							}
+						}
+					}
+				}
+				{if stuff "7-92_rifle"  
+					{if rand 0.5 ("rand_damage2" dmg(75))
+						{if not dead
+							{if rand 0.1
+								{tags add "human_bleeding"}{call "bleeding"}
+							}
+						}
+					} 
+				}
+				{if stuff "hmgun"  		
+					{if rand 0.7 ("rand_damage2" dmg(100))
+						{if not dead
+							{if rand 0.15
+								{tags add "human_bleeding"}{call "bleeding"}
+							}
+						}
+					}
+				}
+			}
+		}
+		
+		{if volume "foot2r"
 			{if not dead
 				{if stuff "7-62_pistol" 
 					{if rand 0.3 ("rand_damage2" dmg(40)) 	
@@ -845,7 +1053,112 @@
 				}
 			}
 		}
-		{if volume "arm1l"
+		
+		{if volume "arm2l"
+			{if not dead
+				{if stuff "7-62_pistol" 
+					{if rand 0.3 ("rand_damage2" dmg(40)) 	
+						{if not dead
+							{if rand 0.03
+								{tags add "human_bleeding"}{call "bleeding"}
+							}
+						}
+					} 
+				}
+				{if stuff "8_pistol"    
+					{if rand 0.3 ("rand_damage2" dmg(40))
+						{if not dead
+							{if rand 0.03
+								{tags add "human_bleeding"}{call "bleeding"}
+							}
+						}
+					} 
+				}
+				{if stuff "9_pistol"    
+					{if rand 0.3 ("rand_damage2" dmg(40))	
+						{if not dead
+							{if rand 0.03
+								{tags add "human_bleeding"}{call "bleeding"}
+							}
+						}
+					} 
+				}
+				{if stuff "45_pistol"   
+					{if rand 0.4 ("rand_damage2" dmg(50))	
+						{if not dead
+							{if rand 0.04
+								{tags add "human_bleeding"}{call "bleeding"}
+							}
+						}
+					} 
+				}
+				{if stuff "30_carbine"  
+					{if rand 0.4 ("rand_damage2" dmg(50))
+						{if not dead
+							{if rand 0.03
+								{tags add "human_bleeding"}{call "bleeding"}
+							}
+						}
+					} 
+				}
+				{if stuff "7-92_kurz"  	
+					{if rand 0.4 ("rand_damage2" dmg(60))
+						{if not dead
+							{if rand 0.07
+								{tags add "human_bleeding"}{call "bleeding"}
+							}
+						}
+					} 
+				}
+				{if stuff "6-5_rifle"  	
+					{if rand 0.5 ("rand_damage2" dmg(50))
+						{if not dead
+							{if rand 0.07
+								{tags add "human_bleeding"}{call "bleeding"}
+							}
+						}
+					} 
+				}
+				{if stuff "7-62_rifle"  
+					{if rand 0.5 ("rand_damage2" dmg(75))	
+						{if not dead
+							{if rand 0.1
+								{tags add "human_bleeding"}{call "bleeding"}
+							}
+						}
+					} 
+				}
+				{if stuff "7-7_rifle"  	
+					{if rand 0.5 ("rand_damage2" dmg(75))
+						{if not dead
+							{if rand 0.1
+								{tags add "human_bleeding"}{call "bleeding"}
+							}
+						}
+					}
+				}
+				{if stuff "7-92_rifle"  
+					{if rand 0.5 ("rand_damage2" dmg(75))
+						{if not dead
+							{if rand 0.1
+								{tags add "human_bleeding"}{call "bleeding"}
+							}
+						}
+					} 
+				}
+				{if stuff "hmgun"  		
+					{if rand 0.7 ("rand_damage2" dmg(100))
+						{if not dead
+							{if rand 0.15
+								{tags add "human_bleeding"}{call "bleeding"}
+							}
+						}
+					}
+				}
+			}
+		}
+		
+		{if volume "arm1r"
 		{if not dead
 				{if stuff "7-62_pistol" 
 					{if rand 0.3 ("rand_damage2" dmg(25)) 	
@@ -948,6 +1261,111 @@
 				}
 			}
 		}
+		
+		{if volume "arm2r"
+		{if not dead
+				{if stuff "7-62_pistol" 
+					{if rand 0.3 ("rand_damage2" dmg(25)) 	
+						{if not dead
+							{if rand 0.03
+								{tags add "human_bleeding"}{call "bleeding"}
+							}
+						}
+					} 
+				}
+				{if stuff "8_pistol"    
+					{if rand 0.3 ("rand_damage2" dmg(25))
+						{if not dead
+							{if rand 0.03
+								{tags add "human_bleeding"}{call "bleeding"}
+							}
+						}
+					} 
+				}
+				{if stuff "9_pistol"    
+					{if rand 0.3 ("rand_damage2" dmg(25))	
+						{if not dead
+							{if rand 0.03
+								{tags add "human_bleeding"}{call "bleeding"}
+							}
+						}
+					} 
+				}
+				{if stuff "45_pistol"   
+					{if rand 0.4 ("rand_damage2" dmg(35))	
+						{if not dead
+							{if rand 0.04
+								{tags add "human_bleeding"}{call "bleeding"}
+							}
+						}
+					} 
+				}
+				{if stuff "30_carbine"  
+					{if rand 0.4 ("rand_damage2" dmg(35))
+						{if not dead
+							{if rand 0.03
+								{tags add "human_bleeding"}{call "bleeding"}
+							}
+						}
+					} 
+				}
+				{if stuff "7-92_kurz"  	
+					{if rand 0.4 ("rand_damage2" dmg(45))
+						{if not dead
+							{if rand 0.07
+								{tags add "human_bleeding"}{call "bleeding"}
+							}
+						}
+					} 
+				}
+				{if stuff "6-5_rifle"  	
+					{if rand 0.5 ("rand_damage2" dmg(35))
+						{if not dead
+							{if rand 0.07
+								{tags add "human_bleeding"}{call "bleeding"}
+							}
+						}
+					} 
+				}
+				{if stuff "7-62_rifle"  
+					{if rand 0.5 ("rand_damage2" dmg(50))	
+						{if not dead
+							{if rand 0.1
+								{tags add "human_bleeding"}{call "bleeding"}
+							}
+						}
+					} 
+				}
+				{if stuff "7-7_rifle"  	
+					{if rand 0.5 ("rand_damage2" dmg(50))
+						{if not dead
+							{if rand 0.1
+								{tags add "human_bleeding"}{call "bleeding"}
+							}
+						}
+					}
+				}
+				{if stuff "7-92_rifle"  
+					{if rand 0.5 ("rand_damage2" dmg(50))
+						{if not dead
+							{if rand 0.1
+								{tags add "human_bleeding"}{call "bleeding"}
+							}
+						}
+					} 
+				}
+				{if stuff "hmgun"  		
+					{if rand 0.7 ("rand_damage2" dmg(100))
+						{if not dead
+							{if rand 0.15
+								{tags add "human_bleeding"}{call "bleeding"}
+							}
+						}
+					}
+				}
+			}
+		}
+		
 		{health_damage_pierce
 			{effects
 				"hit-scream"
@@ -1958,6 +2376,11 @@
 					{spawn "bloodstain" "basis" x}		;// spawns a pool of blood that spreads
 					{tags add "_bleedout_"}
 				}
+			}
+		}
+		{if tagged "human_bleeding"
+			{delay 5
+				{tags remove "human_bleeding"}
 			}
 		}
 		{tags remove "start_personage"}
