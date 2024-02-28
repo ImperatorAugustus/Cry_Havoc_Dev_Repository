@@ -1,7 +1,0 @@
-{material bump
-	{diffuse "armor_plate"}
-	{bump "armor_plate_nm"}
-	{specular "armor_plate_sp"}
-	{color "230 230 230 25"}
-	{blend blend}
-}

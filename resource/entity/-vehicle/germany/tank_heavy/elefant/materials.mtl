@@ -1,7 +1,0 @@
-{material bump
-	{diffuse "$/_vehicle/elefant/cupola"}
-	{bump "$/_vehicle/elefant/cupola_bp"}
-	{specular "$/_vehicle/elefant/cupola_sp"}
-	{color "230 230 230 25"}
-	{blend test}
-}

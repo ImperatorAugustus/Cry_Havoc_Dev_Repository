@@ -1,7 +1,0 @@
-{material bump
-	{diffuse "$/_vehicle/tiger_mid/tiger_mid_xx"}
-	{bump "$/_vehicle/tiger_mid/tiger_mid_bp_xx"}
-	{specular "$/_vehicle/tiger_mid/tiger_mid_sp_x"}
-	{color "255 255 255 152"}
-	{blend test}
-}

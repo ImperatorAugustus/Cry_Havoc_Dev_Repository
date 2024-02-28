@@ -10,7 +10,7 @@
 
 (define "tier1_standard"
 	{"health" "150%"}
-	{"health_regeneration" "10%"}
+	{"health_regeneration" "0%"}
 	{"stamina" "75%"}
 	{"stamina_regeneration" "75%"}
 	{"personage" 0}			;// This means soldiers are revivable at veterancy 0
@@ -30,7 +30,7 @@
 
 (define "tier1_defense"
 	{"health" "150%"}
-	{"health_regeneration" "300%"}
+	{"health_regeneration" "0%"}
 	{"stamina" "75%"}
 	{"stamina_regeneration" "75%"}
 	{"personage" 0}			;// This means soldiers are revivable at veterancy 0
@@ -43,7 +43,7 @@
 
 (define "tier2_standard"
 	{"health" "175%"}
-	{"health_regeneration" "10%"}
+	{"health_regeneration" "0%"}
 	{"stamina" "125%"}
 	{"stamina_regeneration" "100%"}
 	{"personage" 0}			;// This means soldiers are revivable at veterancy 0
@@ -53,7 +53,7 @@
 
 (define "tier2_recon"
 	{"health" "175%"}
-	{"health_regeneration" "10%"}
+	{"health_regeneration" "0%"}
 	{"stamina" "225%"}
 	{"stamina_regeneration" "100%"}
 	{"personage" 0}			;// This means soldiers are revivable at veterancy 0
@@ -63,7 +63,7 @@
 
 (define "tier2_defense"
 	{"health" "175%"}
-	{"health_regeneration" "250%"}
+	{"health_regeneration" "0%"}
 	{"stamina" "125%"}
 	{"stamina_regeneration" "100%"}
 	{"personage" 0}			;// This means soldiers are revivable at veterancy 0
@@ -75,7 +75,7 @@
 
 (define "tier3_standard"
 	{"health" "200%"}
-	{"health_regeneration" "10%"}
+	{"health_regeneration" "0%"}
 	{"stamina" "200%"}
 	{"stamina_regeneration" "150%"}
 	{"personage" 0}			;// This means soldiers are revivable at veterancy 0
@@ -85,7 +85,7 @@
 
 (define "tier3_recon"
 	{"health" "200%"}
-	{"health_regeneration" "10%"}
+	{"health_regeneration" "0%"}
 	{"stamina" "300%"}
 	{"stamina_regeneration" "150%"}
 	{"personage" 0}			;// This means soldiers are revivable at veterancy 0
@@ -95,7 +95,7 @@
 
 (define "tier3_defense"
 	{"health" "200%"}
-	{"health_regeneration" "200%"}
+	{"health_regeneration" "0%"}
 	{"stamina" "200%"}
 	{"stamina_regeneration" "150%"}
 	{"personage" 0}			;// This means soldiers are revivable at veterancy 0
@@ -107,7 +107,7 @@
 
 (define "tier4_standard"
 	{"health" "200%"}
-	{"health_regeneration" "10%"}
+	{"health_regeneration" "0%"}
 	{"stamina" "300%"}
 	{"stamina_regeneration" "250%"}
 	{"personage" 0}			;// This means soldiers are revivable at veterancy 0
@@ -118,7 +118,7 @@
 
 (define "tier4_recon"
 	{"health" "200%"}
-	{"health_regeneration" "10%"}
+	{"health_regeneration" "0%"}
 	{"stamina" "400%"}
 	{"stamina_regeneration" "250%"}
 	{"personage" 0}			;// This means soldiers are revivable at veterancy 0
@@ -129,7 +129,7 @@
 
 (define "tier4_defense"
 	{"health" "200%"}
-	{"health_regeneration" "150%"}
+	{"health_regeneration" "0%"}
 	{"stamina" "300%"}
 	{"stamina_regeneration" "250%"}
 	{"personage" 0}			;// This means soldiers are revivable at veterancy 0

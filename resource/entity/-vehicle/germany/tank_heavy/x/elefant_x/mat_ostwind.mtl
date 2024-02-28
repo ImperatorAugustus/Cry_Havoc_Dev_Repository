@@ -1,7 +1,0 @@
-{material bump
-	{diffuse "$/_vehicle/elefant/mg_cover_x"}
-	{bump "$/_vehicle/elefant/mg_cover_x_bp"}
-	{specular "$/_vehicle/elefant/mg_cover_x_sp"}
-	{color "230 230 230 25"}
-	{blend test}
-}

@@ -1,7 +1,0 @@
-{material bump
-	{diffuse "$/_vehicle/panzer3_l_m_n"}
-	{bump "$/_vehicle/panzer3_l_m_n_bp"}
-	{specular "$/_vehicle/panzer3_l_m_n_sp"}
-	{color "230 230 230 25"}
-	{blend test}
-}

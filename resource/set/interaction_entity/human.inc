@@ -1700,7 +1700,6 @@
 	}
 
 	{on "die"
-		{tags remove "human_bleeding"}
 		{view stop "officer"}
 		{view stop "documents"}
 		{call "personage_check"}
@@ -1750,7 +1749,6 @@
 	}
 
 	{on "die_with_blood"
-		{tags remove "human_bleeding"}
 		;{if not senseless
 			{if not able "personage"
 				{if not burned

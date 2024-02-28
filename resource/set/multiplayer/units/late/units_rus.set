@@ -907,10 +907,6 @@
 	("vehicle2" period(late) year(late) cd(600) ci(10) t(medium) side(rus) crew1(tankman:3) crew2(tank_commander:1) g(medium2) b(mt) cw(6) cp(20)
 	cost(500)) ;// +30 for crew
 }
-;{"ot3476_42"
-;	("vehicle2" period(late) year(late) cd(600) ci(10) t(medium) side(rus) crew1(tankman:3) crew2(tank_commander:1) g(medium2) b(mt) cw(6) cp(20)
-;	cost(500)) ;// +30 for crew
-;}
 {"t3476_43_flame"
 	("vehicle2" period(late) year(late) cd(600) ci(10) t(medium) side(rus) crew1(tankman:3) crew2(tank_commander:1) g(medium1) b(mt) cw(6) cp(20)
 	cost(540)) ;// +30 for crew
