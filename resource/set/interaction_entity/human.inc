@@ -212,6 +212,8 @@
 			}
 		}
 	}
+	
+	;(include "human_jam.inc")
 
 	{on bullet_hit
 		{kill_flags reset}
@@ -269,8 +271,6 @@
 			}
 		}
 	}
-	
-	(include "human_jam.inc")
 	
 	(include "bleeding.inc")
 	
@@ -2008,14 +2008,6 @@
 		{view start "smoke"}
 		{delay 0.3 0.1
 			{view pause "smoke"}
-		}
-	}
-
-	{on "link_weapon"
-		{if effector "stuff weapon"		;// see interaction_entity/stuff.inc
-			{with_effector
-				{call "link_human"}
-			}
 		}
 	}
 
