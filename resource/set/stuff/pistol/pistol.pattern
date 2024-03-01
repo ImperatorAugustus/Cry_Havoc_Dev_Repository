@@ -25,7 +25,7 @@
 	}
 	{SpreadTolerance 0.3}			;// AI needs to aim 30%
 	
-	("human health" damage(60))
+	("human health" damage(20))
 
 	("penetration" args 3 0)
 	("armor health" damage(1))

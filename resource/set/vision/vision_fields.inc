@@ -15,21 +15,21 @@
 	{uncover 20}
 	{h_fov 110}
 	{v_fov 180}
-	("spotting" r(1.0))
+	("spotting" r(1.1))
 }
 
 {"human_peripheral"						; // Additional all-round (weaker) situational awareness vision for humans
 	{uncover 10}
 	{h_fov 240}
 	{v_fov 120}
-	("spotting" r(0.2))
+	("spotting" r(0.3))
 }
 
 {"human_elite"							; // Soldiers with better vision (elites, officers, snipers)
 	{uncover 20}
 	{h_fov 120}
 	{v_fov 180}
-	("spotting" r(1.1))
+	("spotting" r(1.2))
 }
 
 ;unimplemented ;human focal point vision
@@ -39,7 +39,7 @@
 	{uncover 20}
 	{h_fov 120}
 	{v_fov 180}
-	("spotting" r(1.25))
+	("spotting" r(1.35))
 }
 
 {"rifle_telescope"						; // Primary vision for sniper scopes
@@ -60,7 +60,7 @@
 	{uncover 10}
 	{h_fov 20}
 	{v_fov 90}
-	("spotting" r(1))					; // Disabled secondary vision when looking through scopes or binoculars
+	("spotting" r(1.1))					; // Disabled secondary vision when looking through scopes or binoculars
 	{wide 2}
 }
 
@@ -132,14 +132,14 @@
 	{uncover 25}
 	{h_fov 50}
 	{v_fov 100}
-	("spotting" r(1))
+	("spotting" r(1.1))
 }
 
 {"vehicle_top_mgun"						; // Top mounted Machine gunners vision (jeeps, halftracks, etc)
 	{uncover 25}
 	{h_fov 90}
 	{v_fov 170}
-	("spotting" r(1))
+	("spotting" r(1.1))
 }
 
 {"vehicle_top_turret"					; // Vision for cars with closed top / turret gunner
@@ -178,7 +178,7 @@
 	{uncover 20}
 	{h_fov 15}
 	{v_fov 30}
-	("spotting" r(1.0))
+	("spotting" r(1.1))
 }
 
 {"tank_main-l"							; // Light tank gunner vision

@@ -94,7 +94,7 @@
 
 	;// artillery
 	{cannon_05 30					;// distance at which it will be spotted when moving
-		{firing (/ 550 %r)}			;// When this unit fires its weapon, it will be spotted up to this distance. Then, it will become fogged again after remaining visible for the period of time defined in set/detect.set
+		{firing (/ 1000 %r)}			;// When this unit fires its weapon, it will be spotted up to this distance. Then, it will become fogged again after remaining visible for the period of time defined in set/detect.set
 		{visible 35}					;// once spotted, the distance the unit will remain spotted until Line Of Sight is broken.
 		{still 7}					;// unit still / not moving
 	}
@@ -146,7 +146,7 @@
 
 	;//SPG indirect  artillery vehicles (105+mm)
 	{vehicle_06 (+ 100 (/ 50 %r))	;// distance at which it will be spotted when moving, 50m past visor range.
-		{firing (/ 550 %r)}			;// When this unit fires its weapon, it will be spotted up to this distance. Then, it will become fogged again after remaining visible for the period of time defined in set/detect.set
+		{firing (/ 1000 %r)}			;// When this unit fires its weapon, it will be spotted up to this distance. Then, it will become fogged again after remaining visible for the period of time defined in set/detect.set
 		{visible 5}					;// once spotted, the distance the unit will remain spotted until Line Of Sight is broken.
 		{still 5}					;// unit still / not moving
 	}

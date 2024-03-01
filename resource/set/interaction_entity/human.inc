@@ -334,6 +334,7 @@
 							{damage_report "head" "<c(EE4B2B)>Head Explodes"}
 							{tags add "no_revive"}
 							{call "die"}
+							("human_health" c(1000))
 						else
 							("human_health" c(10))
 						}
@@ -342,6 +343,7 @@
 							{damage_report "head" "<c(EE4B2B)>Head Explodes"}
 							{tags add "no_revive"}
 							{call "die"}
+							("human_health" c(1000))
 						else
 							("human_health" c(10))
 						}
@@ -350,6 +352,7 @@
 							{damage_report "head" "<c(EE4B2B)>Head Explodes"}
 							{tags add "no_revive"}
 							{call "die"}
+							("human_health" c(1000))
 						else
 							("human_health" c(10))
 						}
@@ -358,6 +361,7 @@
 							{damage_report "head" "<c(EE4B2B)>Head Explodes"}
 							{tags add "no_revive"}
 							{call "die"}
+							("human_health" c(1000))
 						else
 							("human_health" c(10))
 						}
@@ -366,6 +370,7 @@
 							{damage_report "head" "<c(EE4B2B)>Head Explodes"}
 							{tags add "no_revive"}
 							{call "die"}
+							("human_health" c(1000))
 						else					
 							("human_health" c(10))
 						}
@@ -374,6 +379,7 @@
 							{damage_report "head" "<c(EE4B2B)>Head Explodes"}
 							{tags add "no_revive"}
 							{call "die"}
+							("human_health" c(1000))
 						else
 							("human_health" c(10))
 						}
@@ -382,6 +388,7 @@
 							{damage_report "head" "<c(EE4B2B)>Head Explodes"}
 							{tags add "no_revive"}
 							{call "die"}
+							("human_health" c(1000))
 						else
 							("human_health" c(10))
 						}
@@ -390,6 +397,7 @@
 							{damage_report "head" "<c(EE4B2B)>Head Explodes"}
 							{tags add "no_revive"}
 							{call "die"}
+							("human_health" c(1000))
 						else
 							("human_health" c(10))
 						}
@@ -398,6 +406,7 @@
 							{damage_report "head" "<c(EE4B2B)>Head Explodes"}
 							{tags add "no_revive"}
 							{call "die"}
+							("human_health" c(1000))
 						else
 							("human_health" c(10))
 						}
@@ -406,6 +415,7 @@
 							{damage_report "head" "<c(EE4B2B)>Head Explodes"}
 							{tags add "no_revive"}
 							{call "die"}
+							("human_health" c(1000))
 						else
 							("human_health" c(10))
 						}
@@ -414,6 +424,7 @@
 							{damage_report "head" "<c(EE4B2B)>Head Explodes"}
 							{tags add "no_revive"}
 							{call "die"}
+							("human_health" c(1000))
 						else
 							("human_health" c(10))
 						}
@@ -424,6 +435,7 @@
 			{damage_report "head" "<c(EE4B2B)>Head Explodes"}
 			{tags add "no_revive"}
 			{call "die"}
+			("human_health" c(1000))
 		}
 		{if volume "body"
 			{if not dead
@@ -437,6 +449,7 @@
 						{damage_report "body" "<c(EE4B2B)>Vital Organ Hit"}
 						{tags add "no_revive"}
 						{call "die"}
+						("human_health" c(1000))
 					}
 				}
 				{if stuff "8_pistol"
@@ -449,6 +462,7 @@
 						{damage_report "body" "<c(EE4B2B)>Vital Organ Hit"}
 						{tags add "no_revive"}
 						{call "die"}
+						("human_health" c(1000))
 					}
 				}
 				{if stuff "9_pistol"
@@ -461,6 +475,7 @@
 						{damage_report "body" "<c(EE4B2B)>Vital Organ Hit"}
 						{tags add "no_revive"}
 						{call "die"}
+						("human_health" c(1000))
 					}
 				}
 				{if stuff "45_pistol"
@@ -473,6 +488,7 @@
 						{damage_report "body" "<c(EE4B2B)>Vital Organ Hit"}
 						{tags add "no_revive"}
 						{call "die"}
+						("human_health" c(1000))
 					}
 				}
 				{if stuff "30_carbine"
@@ -486,12 +502,13 @@
 						{damage_report "body" "<c(EE4B2B)>Vital Organ Hit"}
 						{tags add "no_revive"}
 						{call "die"}
+						("human_health" c(1000))
 					}
 				}
 				{if stuff "7-92_kurz" ;1.9k J ;german 7.92 kurz ; stg44
 					{spawn "blood_hit"}
-					{if rand 0.80
-						("rand_damage" args 60 70 80 130 180)
+					{if rand 0.85
+						("rand_damage" args 60 70 80 80 130)
 							{if not dead
 									{tags add "human_bleeding"}{call "bleeding"}
 							}
@@ -499,12 +516,13 @@
 						{damage_report "body" "<c(EE4B2B)>Vital Organ Hit"}
 						{tags add "no_revive"}
 						{call "die"}
+						("human_health" c(1000))
 					}
 				}
 				{if stuff "6-5_rifle"
 					{spawn "blood_hit"}
-					{if rand 0.80
-						("rand_damage" args 60 70 80 130 180)
+					{if rand 0.85
+						("rand_damage" args 60 70 80 80 130)
 							{if not dead
 									{tags add "human_bleeding"}{call "bleeding"}
 							}
@@ -512,12 +530,13 @@
 						{damage_report "body" "<c(EE4B2B)>Vital Organ Hit"}
 						{tags add "no_revive"}
 						{call "die"}
+						("human_health" c(1000))
 					}
 				}
 				{if stuff "7-62_rifle" ;3.6-3.7k J ;soviet and US 7.62
 					{spawn "blood_hit"}  
-					{if rand 0.80
-						("rand_damage" args 75 100 125 150 200)
+					{if rand 0.85
+						("rand_damage" args 75 100 125 125 150)
 							{if not dead
 								{tags add "human_bleeding"}{call "bleeding"}
 							}
@@ -525,12 +544,13 @@
 						{damage_report "body" "<c(EE4B2B)>Vital Organ Hit"}
 						{tags add "no_revive"}
 						{call "die"}
+						("human_health" c(1000))
 					}
 				}
 				{if stuff "7-7_rifle" ;3.1-3.2k J ;british .303
 					{spawn "blood_hit"}  
-					{if rand 0.80 
-						("rand_damage" args 70 95 120 145 195)
+					{if rand 0.85 
+						("rand_damage" args 70 95 120 120 145)
 							{if not dead
 								{tags add "human_bleeding"}{call "bleeding"}
 							}
@@ -538,12 +558,13 @@
 						{damage_report "body" "<c(EE4B2B)>Vital Organ Hit"}
 						{tags add "no_revive"}
 						{call "die"}
+						("human_health" c(1000))
 					}
 				}
 				{if stuff "7-92_rifle" ;3.7k J ;german 7.92 mauser
 					{spawn "blood_hit"}  
-					{if rand 0.80
-						("rand_damage" args 75 100 125 150 200)
+					{if rand 0.85
+						("rand_damage" args 75 100 125 125 150)
 							{if not dead
 								{tags add "human_bleeding"}{call "bleeding"}
 							}
@@ -551,11 +572,12 @@
 						{damage_report "body" "<c(EE4B2B)>Vital Organ Hit"}
 						{tags add "no_revive"}
 						{call "die"}
+						("human_health" c(1000))
 					}
 				}
 				{if stuff "rifle_fg"
 					{spawn "blood_hit"}
-					{if rand 0.7
+					{if rand 0.75
 						("rand_damage" args 140 150 200 225 250)
 							{if not dead
 								{tags add "human_bleeding"}{call "bleeding"}
@@ -564,11 +586,12 @@
 						{damage_report "body" "<c(EE4B2B)>Vital Organ Hit"}
 						{tags add "no_revive"}
 						{call "die"}
+						("human_health" c(1000))
 					}
 				}
 				{if stuff "hmgun"
 					{spawn "blood_hit"}
-					{if rand 0.7
+					{if rand 0.75
 						("rand_damage" args 100 125 150 175 200)
 							{if not dead
 								{tags add "human_bleeding"}{call "bleeding"}
@@ -577,6 +600,7 @@
 						{damage_report "body" "<c(EE4B2B)>Vital Organ Hit"}
 						{tags add "no_revive"}
 						{call "die"}
+						("human_health" c(1000))
 					}
 				}
 			}

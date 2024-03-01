@@ -26,7 +26,7 @@
 
 (define "spot_human"			;// This section defines the distances at which a human is spotted under various conditions.
 
-	{visible (* 130 %r)}				;// once human is spotted, the distance the human will remain spotted until Line Of Sight is broken. When placed outside of a specific stance block, it becomes a master value for all stances.
+	{visible (* 120 %r)}				;// once human is spotted, the distance the human will remain spotted until Line Of Sight is broken. When placed outside of a specific stance block, it becomes a master value for all stances.
 
 	{cover (* 75 %r)					;// default value incase condition isn't defined below. Important that {cover} block comes before non-cover {stand}, {squat}, and {crawl} blocks, else cover values will be overwritten. 
 		{stand (* 75 %r)				;// "stand" stance - in cover
@@ -108,7 +108,7 @@
 	{cannon_05 180				;// distance at which it will be spotted when moving
 		;{firing (/ 500 %r)}		;// When this unit fires its weapon, it will be spotted up to this distance. Then, it will become fogged again after remaining visible for the period of time defined in set/detect.set
 		{firing (+ 5000 (/ %can_fire %r))}		;// When this unit fires its weapon, it will be spotted up to this distance. Then, it will become fogged again after remaining visible for the period of time defined in set/detect.set
-		{visible (+ 200 (/ %can_vis %r))}	;// once spotted, the distance the unit will remain spotted until Line Of Sight is broken.
+		{visible (+ 250 (/ %can_vis %r))}	;// once spotted, the distance the unit will remain spotted until Line Of Sight is broken.
 		{still 140}				;// unit still / not moving
 	}
 )
