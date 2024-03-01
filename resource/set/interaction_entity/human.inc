@@ -213,7 +213,7 @@
 		}
 	}
 	
-	;(include "human_jam.inc")
+	(include "human_jam.inc")
 
 	{on bullet_hit
 		{kill_flags reset}
@@ -2015,14 +2015,6 @@
 		{if effector "stuff weapon"		;// see interaction_entity/stuff.inc
 			{with_effector
 				{call "unlink_human"}
-			}
-		}
-	}
-
-	{on fire "hand_right"
-		{if effector "stuff weapon"		;// see interaction_entity/stuff.inc
-			{with_effector
-				{call "fire"}
 			}
 		}
 	}
