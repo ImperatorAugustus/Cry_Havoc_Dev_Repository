@@ -25,5 +25,5 @@
 	; BR-471B ;issued sometime between Sept. 1944 and Jan. 1945
 	("penetration_long" shell(aphebc) range(250) a(196) b(179) c(159) d(142) e(126))  ; // RHA
 
-	("accuracy_direct" r1(0.60) range_ap(250) range_he(250) range_heat(250))
+	("accuracy_direct" r1(0.60) range_ap(250) range_he(220) range_heat(250))
 }
