@@ -1,4 +1,4 @@
-{on "bleeding"
+{on "bleeding" sync
 	{if user_control
 		{if not linked "vehicle"
 		{delay 7

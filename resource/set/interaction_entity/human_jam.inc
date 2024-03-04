@@ -459,7 +459,7 @@
 }
 
 {on "squib"
-	{damage_report "body" "<c(FFA500)>Squib Explosion: 50 Damage"}
+	{damage_report "body" "<c(FFA500)>Squib Deflagrate: 50 Damage"}
 	{view start "grenade_debris"}
 	("human_health" c(50)) ;hangfire damage to hands
 	{delay 0.3 
