@@ -272,7 +272,7 @@
 		}
 	}
 	
-	;Reworked Internal Ballistic System - Imperaotr - Start
+	;Reworked Terminal Ballistic System - Imperator
 	
 	(include "bleeding.inc")
 	
@@ -861,9 +861,9 @@
 		;--- 7-62_pistol_body
 
 	{on "random_damage_7-62_pistol_body"
-		{if rand 0.2 
+		{if rand 0.3 
 			{call_synced "low_damage_7-62_pistol_body"}
-		else rand 0.2 
+		else rand 0.3 
 			{call_synced "mid_damage_7-62_pistol_body"}
 		else 
 			{call_synced "upper_damage_7-62_pistol_body"}
@@ -920,9 +920,9 @@
 		;--- 7-62_pistol_upper_arm
 	
 	{on "random_damage_7-62_pistol_upper_arm"
-		{if rand 0.2 
+		{if rand 0.3 
 			{call_synced "low_damage_7-62_pistol_upper_arm"}
-		else rand 0.2 
+		else rand 0.3 
 			{call_synced "mid_damage_7-62_pistol_upper_arm"}
 		else 
 			{call_synced "upper_damage_7-62_pistol_upper_arm"}
@@ -975,9 +975,9 @@
 		;--- 7-62_pistol_lower_arm
 	
 	{on "random_damage_7-62_pistol_lower_arm"
-		{if rand 0.2 
+		{if rand 0.3 
 			{call_synced "low_damage_7-62_pistol_lower_arm"}
-		else rand 0.2 
+		else rand 0.3 
 			{call_synced "mid_damage_7-62_pistol_lower_arm"}
 		else 
 			{call_synced "upper_damage_7-62_pistol_lower_arm"}
@@ -1030,9 +1030,9 @@
 		;--- 7-62_pistol_upper_leg
 	
 	{on "random_damage_7-62_pistol_upper_leg"
-		{if rand 0.2 
+		{if rand 0.3 
 			{call_synced "low_damage_7-62_pistol_upper_leg"}
-		else rand 0.2 
+		else rand 0.3 
 			{call_synced "mid_damage_7-62_pistol_upper_leg"}
 		else 
 			{call_synced "upper_damage_7-62_pistol_upper_leg"}
@@ -1085,9 +1085,9 @@
 		;--- 7-62_pistol_lower_leg
 	
 	{on "random_damage_7-62_pistol_lower_leg"
-		{if rand 0.2 
+		{if rand 0.3 
 			{call_synced "low_damage_7-62_pistol_lower_leg"}
-		else rand 0.2 
+		else rand 0.3 
 			{call_synced "mid_damage_7-62_pistol_lower_leg"}
 		else 
 			{call_synced "upper_damage_7-62_pistol_lower_leg"}
@@ -1141,9 +1141,9 @@
 			;--- 45_pistol_body
 
 	{on "random_damage_45_pistol_body"
-		{if rand 0.2 
+		{if rand 0.3 
 			{call_synced "low_damage_45_pistol_body"}
-		else rand 0.2 
+		else rand 0.3 
 			{call_synced "mid_damage_45_pistol_body"}
 		else 
 			{call_synced "upper_damage_45_pistol_body"}
@@ -1200,9 +1200,9 @@
 		;--- 45_pistol_upper_arm
 	
 	{on "random_damage_45_pistol_upper_arm"
-		{if rand 0.2 
+		{if rand 0.3 
 			{call_synced "low_damage_45_pistol_upper_arm"}
-		else rand 0.2 
+		else rand 0.3 
 			{call_synced "mid_damage_45_pistol_upper_arm"}
 		else 
 			{call_synced "upper_damage_45_pistol_upper_arm"}
@@ -1255,9 +1255,9 @@
 		;--- 45_pistol_lower_arm
 	
 	{on "random_damage_45_pistol_lower_arm"
-		{if rand 0.2 
+		{if rand 0.3 
 			{call_synced "low_damage_45_pistol_lower_arm"}
-		else rand 0.2 
+		else rand 0.3 
 			{call_synced "mid_damage_45_pistol_lower_arm"}
 		else 
 			{call_synced "upper_damage_45_pistol_lower_arm"}
@@ -1310,9 +1310,9 @@
 		;--- 45_pistol_upper_leg
 	
 	{on "random_damage_45_pistol_upper_leg"
-		{if rand 0.2 
+		{if rand 0.3 
 			{call_synced "low_damage_45_pistol_upper_leg"}
-		else rand 0.2 
+		else rand 0.3 
 			{call_synced "mid_damage_45_pistol_upper_leg"}
 		else 
 			{call_synced "upper_damage_45_pistol_upper_leg"}
@@ -1365,9 +1365,9 @@
 		;--- 45_pistol_lower_leg
 	
 	{on "random_damage_45_pistol_lower_leg"
-		{if rand 0.2 
+		{if rand 0.3 
 			{call_synced "low_damage_45_pistol_lower_leg"}
-		else rand 0.2 
+		else rand 0.3 
 			{call_synced "mid_damage_45_pistol_lower_leg"}
 		else 
 			{call_synced "upper_damage_45_pistol_lower_leg"}
@@ -1421,9 +1421,9 @@
 			;--- 7-92_kurz_body
 
 	{on "random_damage_7-92_kurz_body"
-		{if rand 0.2 
+		{if rand 0.3 
 			{call_synced "low_damage_7-92_kurz_body"}
-		else rand 0.2 
+		else rand 0.3 
 			{call_synced "mid_damage_7-92_kurz_body"}
 		else 
 			{call_synced "upper_damage_7-92_kurz_body"}
@@ -1480,9 +1480,9 @@
 		;--- 7-92_kurz_upper_arm
 	
 	{on "random_damage_7-92_kurz_upper_arm"
-		{if rand 0.2 
+		{if rand 0.3 
 			{call_synced "low_damage_7-92_kurz_upper_arm"}
-		else rand 0.2 
+		else rand 0.3 
 			{call_synced "mid_damage_7-92_kurz_upper_arm"}
 		else 
 			{call_synced "upper_damage_7-92_kurz_upper_arm"}
@@ -1535,9 +1535,9 @@
 		;--- 7-92_kurz_lower_arm
 	
 	{on "random_damage_7-92_kurz_lower_arm"
-		{if rand 0.2 
+		{if rand 0.3 
 			{call_synced "low_damage_7-92_kurz_lower_arm"}
-		else rand 0.2 
+		else rand 0.3 
 			{call_synced "mid_damage_7-92_kurz_lower_arm"}
 		else 
 			{call_synced "upper_damage_7-92_kurz_lower_arm"}
@@ -1590,9 +1590,9 @@
 		;--- 7-92_kurz_upper_leg
 	
 	{on "random_damage_7-92_kurz_upper_leg"
-		{if rand 0.2 
+		{if rand 0.3 
 			{call_synced "low_damage_7-92_kurz_upper_leg"}
-		else rand 0.2 
+		else rand 0.3 
 			{call_synced "mid_damage_7-92_kurz_upper_leg"}
 		else 
 			{call_synced "upper_damage_7-92_kurz_upper_leg"}
@@ -1645,9 +1645,9 @@
 		;--- 7-92_kurz_lower_leg
 	
 	{on "random_damage_7-92_kurz_lower_leg"
-		{if rand 0.2 
+		{if rand 0.3 
 			{call_synced "low_damage_7-92_kurz_lower_leg"}
-		else rand 0.2 
+		else rand 0.3 
 			{call_synced "mid_damage_7-92_kurz_lower_leg"}
 		else 
 			{call_synced "upper_damage_7-92_kurz_lower_leg"}
@@ -1701,9 +1701,9 @@
 			;--- 7-92_rifle_body
 
 	{on "random_damage_7-92_rifle_body"
-		{if rand 0.2 
+		{if rand 0.3 
 			{call_synced "low_damage_7-92_rifle_body"}
-		else rand 0.2 
+		else rand 0.3 
 			{call_synced "mid_damage_7-92_rifle_body"}
 		else 
 			{call_synced "upper_damage_7-92_rifle_body"}
@@ -1760,9 +1760,9 @@
 		;--- 7-92_rifle_upper_arm
 	
 	{on "random_damage_7-92_rifle_upper_arm"
-		{if rand 0.2 
+		{if rand 0.3 
 			{call_synced "low_damage_7-92_rifle_upper_arm"}
-		else rand 0.2 
+		else rand 0.3 
 			{call_synced "mid_damage_7-92_rifle_upper_arm"}
 		else 
 			{call_synced "upper_damage_7-92_rifle_upper_arm"}
@@ -1815,9 +1815,9 @@
 		;--- 7-92_rifle_lower_arm
 	
 	{on "random_damage_7-92_rifle_lower_arm"
-		{if rand 0.2 
+		{if rand 0.3 
 			{call_synced "low_damage_7-92_rifle_lower_arm"}
-		else rand 0.2 
+		else rand 0.3 
 			{call_synced "mid_damage_7-92_rifle_lower_arm"}
 		else 
 			{call_synced "upper_damage_7-92_rifle_lower_arm"}
@@ -1870,9 +1870,9 @@
 		;--- 7-92_rifle_upper_leg
 	
 	{on "random_damage_7-92_rifle_upper_leg"
-		{if rand 0.2 
+		{if rand 0.3 
 			{call_synced "low_damage_7-92_rifle_upper_leg"}
-		else rand 0.2 
+		else rand 0.3 
 			{call_synced "mid_damage_7-92_rifle_upper_leg"}
 		else 
 			{call_synced "upper_damage_7-92_rifle_upper_leg"}
@@ -1925,9 +1925,9 @@
 		;--- 7-92_rifle_lower_leg
 	
 	{on "random_damage_7-92_rifle_lower_leg"
-		{if rand 0.2 
+		{if rand 0.3 
 			{call_synced "low_damage_7-92_rifle_lower_leg"}
-		else rand 0.2 
+		else rand 0.3 
 			{call_synced "mid_damage_7-92_rifle_lower_leg"}
 		else 
 			{call_synced "upper_damage_7-92_rifle_lower_leg"}
@@ -1982,9 +1982,9 @@
 			;--- hmgun_body
 
 	{on "random_damage_hmgun_body"
-		{if rand 0.2 
+		{if rand 0.3 
 			{call_synced "low_damage_hmgun_body"}
-		else rand 0.2 
+		else rand 0.3 
 			{call_synced "mid_damage_hmgun_body"}
 		else 
 			{call_synced "upper_damage_hmgun_body"}
@@ -2041,9 +2041,9 @@
 		;--- hmgun_upper_arm
 	
 	{on "random_damage_hmgun_upper_arm"
-		{if rand 0.2 
+		{if rand 0.3 
 			{call_synced "low_damage_hmgun_upper_arm"}
-		else rand 0.2 
+		else rand 0.3 
 			{call_synced "mid_damage_hmgun_upper_arm"}
 		else 
 			{call_synced "upper_damage_hmgun_upper_arm"}
@@ -2096,9 +2096,9 @@
 		;--- hmgun_lower_arm
 	
 	{on "random_damage_hmgun_lower_arm"
-		{if rand 0.2 
+		{if rand 0.3 
 			{call_synced "low_damage_hmgun_lower_arm"}
-		else rand 0.2 
+		else rand 0.3 
 			{call_synced "mid_damage_hmgun_lower_arm"}
 		else 
 			{call_synced "upper_damage_hmgun_lower_arm"}
@@ -2151,9 +2151,9 @@
 		;--- hmgun_upper_leg
 	
 	{on "random_damage_hmgun_upper_leg"
-		{if rand 0.2 
+		{if rand 0.3 
 			{call_synced "low_damage_hmgun_upper_leg"}
-		else rand 0.2 
+		else rand 0.3 
 			{call_synced "mid_damage_hmgun_upper_leg"}
 		else 
 			{call_synced "upper_damage_hmgun_upper_leg"}
@@ -2206,9 +2206,9 @@
 		;--- hmgun_lower_leg
 	
 	{on "random_damage_hmgun_lower_leg"
-		{if rand 0.2 
+		{if rand 0.3 
 			{call_synced "low_damage_hmgun_lower_leg"}
-		else rand 0.2 
+		else rand 0.3 
 			{call_synced "mid_damage_hmgun_lower_leg"}
 		else 
 			{call_synced "upper_damage_hmgun_lower_leg"}
@@ -3670,22 +3670,22 @@
 	{on "start_healing"
 		{view start ally neutral "marker_healing"}
 		{if tagged "major_artery_bleeding"
-			{delay 2
+			{delay 5
 				{tags remove "major_artery_bleeding"}
 			}
 		}
 		{if tagged "moderate_artery_bleeding"
-			{delay 2
+			{delay 5
 				{tags remove "moderate_artery_bleeding"}
 			}
 		}
 		{if tagged "major_vein_bleeding"
-			{delay 2
+			{delay 5
 				{tags remove "major_vein_bleeding"}
 			}
 		}
 		{if tagged "moderate_vein_bleeding"
-			{delay 2
+			{delay 5
 				{tags remove "moderate_vein_bleeding"}
 			}
 		}

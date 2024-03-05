@@ -1,0 +1,5 @@
+{from "stg44"
+	{entity "stg44_scope"}
+
+	("accuracy_rifle_auto")
+}

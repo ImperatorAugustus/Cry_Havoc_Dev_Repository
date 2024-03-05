@@ -1,13 +1,22 @@
 {on "internal_bleeding_process"
 	{if not dead
 		{if tagged "internal_bleeding"
-			("human_health" c(10))
-			{damage_report "body" "<c(dd0000)>Internal Bleeding"}
-			{talk "injuring"}
-			{call_synced "internal_bleeding_process"}
+			{delay 5
+				("human_health" c(10))
+				{call "internal_bleeding_process"}
+				{if not tagged "major_artery_bleeding"
+					{if not tagged "moderate_artery_bleeding"
+						{if not tagged "major_vein_bleeding"
+							{if not tagged "moderate_vein_bleeding"
+								{damage_report "body" "<c(dd0000)>Internal Bleeding"}
+								{talk "injuring"}
+							}
+						}
+					}
+				}
+			}
 		}
 	}
-
 }
 
 {on "major_artery_bleeding_process"
@@ -20,7 +29,8 @@
 						{damage_report "body" "<c(dd0000)>Major Arterial Bleeding"}
 						{talk "injuring"}
 						{spawn "bloodstain" "basis" x}
-						{call_synced "major_artery_bleeding_process"}
+						{call "major_artery_bleeding_process"}
+						{call "stop-heal-fast"}
 					}
 				}
 			}
@@ -38,11 +48,15 @@
 			{delay 5
 				{if not dead
 					{if tagged "moderate_artery_bleeding"
+						{if not tagged "major_artery_bleeding"
+							{if not tagged "major_vein_bleeding"
+								{damage_report "body" "<c(dd0000)>Moderate Arterial Bleeding"}
+								{talk "injuring"}
+							}
+						}
 						("human_health" c(10))
-						{damage_report "body" "<c(dd0000)>Moderate Arterial Bleeding"}
-						{talk "injuring"}
-						{spawn "bloodstain" "basis" x}
-						{call_synced "moderate_artery_bleeding_process"}
+						{call "moderate_artery_bleeding_process"}
+						{call "stop-heal-fast"}
 					}
 				}
 			}
@@ -60,11 +74,14 @@
 			{delay 5
 				{if not dead
 					{if tagged "major_vein_bleeding"
+						{if not tagged "major_artery_bleeding"
+							{damage_report "body" "<c(dd0000)>Major Venous Bleeding"}
+							{talk "injuring"}
+							{spawn "bloodstain" "basis" x}
+						}
 						("human_health" c(15))
-						{damage_report "body" "<c(dd0000)>Major Venous Bleeding"}
-						{talk "injuring"}
-						{spawn "bloodstain" "basis" x}
-						{call_synced "major_vein_bleeding_process"}
+						{call "major_vein_bleeding_process"}
+						{call "stop-heal-fast"}
 					}
 				}
 			}
@@ -82,11 +99,17 @@
 			{delay 5
 				{if not dead
 					{if tagged "moderate_vein_bleeding"
+						{if not tagged "major_artery_bleeding"
+							{if not tagged "moderate_artery_bleeding"
+								{if not tagged "major_vein_bleeding"
+									{damage_report "body" "<c(dd0000)>Moderate Venous Bleeding"}
+									{talk "injuring"}
+								}
+							}
+						}
 						("human_health" c(5))
-						{damage_report "body" "<c(dd0000)>Moderate Venous Bleeding"}
-						{talk "injuring"}
-						{spawn "bloodstain" "basis" x}
-						{call_synced "moderate_vein_bleeding_process"}
+						{call "moderate_vein_bleeding_process"}
+						{call "stop-heal-fast"}
 					}
 				}
 			}

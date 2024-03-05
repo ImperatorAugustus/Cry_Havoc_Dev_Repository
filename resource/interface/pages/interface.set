@@ -1,7 +1,7 @@
 {location "main"
 	{background
-		{picture "/interface/pages/main/video_bkg"}
-		{video "/video/menu"}
+		{picture "/interface/pages/main/cry_havoc"}
+		{video "/video/menu/cry_havoc"}
 		{default "0xFFFFFFFF"}
 		{media "main"
 			{file "/music/main_theme" loop}
@@ -11,8 +11,8 @@
 }
 {location "login"
 	{background
-		{picture "/interface/pages/main/video_bkg"}
-		{video "/video/menu"}
+		{picture "/interface/pages/main/cry_havoc"}
+		{video "/video/menu/cry_havoc"}
 		{media "main"
 			{file "/music/main_theme" loop}
 		}
@@ -20,8 +20,8 @@
 }
 {location "single"
 	{background
-		{picture "/interface/pages/main/video_bkg"}
-		{video "/video/menu"}
+		{picture "/interface/pages/main/cry_havoc"}
+		{video "/video/menu/cry_havoc"}
 		{media "main"
 			{file "/music/main_theme" loop}
 		}
@@ -30,8 +30,8 @@
 }
 {location "multi"
 	{background
-		{picture "/interface/pages/main/video_bkg"}
-		{video "/video/menu"}
+		{picture "/interface/pages/main/cry_havoc"}
+		{video "/video/menu/cry_havoc"}
 		{media "main"
 			{file "/music/main_theme" loop}
 		}
@@ -41,15 +41,15 @@
 }
 {location "multi_ingame"
 	{background
-		{picture "/interface/pages/main/video_bkg"}
-		{video "/video/menu"}
+		{picture "/interface/pages/main/cry_havoc"}
+		{video "/video/menu/cry_havoc"}
 		{PerFaction}
 	}
 }
 {location "credits"
 	{background
-		{picture "/interface/pages/main/video_bkg"}
-		{video "/video/menu"}
+		{picture "/interface/pages/main/cry_havoc"}
+		{video "/video/menu/cry_havoc"}
 		{media "credits"
 			{file "/music/main_theme" loop}
 		}
