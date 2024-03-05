@@ -1,0 +1,28 @@
+{breed
+	{behaviour soldier}
+	{skin "us_m41_jacket_pistol"}
+	{portrait "usa_pilot"}
+	{icon "tech"}
+	{icon_priority 0}
+	{tags "soldier"}
+	{nationality usa}
+	{armors
+		{head us_m1_b}
+	}
+	{perks
+		(include "ability.inc")
+		("smg_skill_rank_2")("tier2_standard")
+		("skilled_repair")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "m1911" filled}
+		{item "m1911_mag ammo" 28}
+		{item "bandage_usa" 1}
+		
+		{in_hands 0}
+	}
+}

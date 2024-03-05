@@ -1,0 +1,36 @@
+{breed
+	{behaviour soldier}
+	{skin "fin_engi_heavy"}
+	{portrait "fin_engineer_heavy"}
+	{icon "tech"}
+	{icon_priority 0}
+	{tags "soldier"}
+	{nationality fin}
+	{armors
+		{head fin_ushanka}
+	}
+	{perks
+		(include "ability.inc")
+		("rifle_skill_rank_2")("tier2_defense")
+		("engineer_heavy_fin")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "lahti_l35" filled}
+		{item "pistol ammo" 64}
+
+		{item "m32_stick grenade" 1.25 0.5}
+		{item "m32_satchel grenade" 1.0 0.5}
+		{item "molotov_cocktail_fin grenade" 0.25 0.5}
+
+		{item "bandage_fin" 3.5 0.5}
+		{item "wirecutters"}
+		{item "shovel_engineer_fin"}
+		{item "pickaxe"}
+
+		{in_hands 0}
+	}
+}

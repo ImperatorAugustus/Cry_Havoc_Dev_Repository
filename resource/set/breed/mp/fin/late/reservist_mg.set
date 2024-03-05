@@ -1,0 +1,32 @@
+{breed
+	{behaviour soldier}
+	{skin "fin_reserve_mg"}
+	{portrait "fin_basic"}
+	{icon "mg"}
+	{icon_priority 0}
+	{tags "soldier"}
+	{nationality fin}
+	{armors
+		{head fin_stalhelm_ww1_tilted}
+	}
+	{perks
+		(include "ability.inc")
+		("mg_skill_rank_1")("tier1_standard")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "m26" filled}
+		{item "m26 ammo" 200}
+
+		{item "m32 grenade" 0.25 0.5}
+		{item "molotov_cocktail_fin grenade" 0.25 0.5}
+
+		{item "bandage_fin" 2.5 0.5}
+		{item "shovel_fin"}
+
+		{in_hands 0}
+	}
+}

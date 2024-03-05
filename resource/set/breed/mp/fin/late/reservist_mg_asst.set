@@ -1,0 +1,33 @@
+{breed
+	{behaviour soldier}
+	{skin "fin_reserve_rifle"}
+	{portrait "fin_basic"}
+	{icon "rifle"}
+	{icon_priority 0}
+	{tags "soldier"}
+	{nationality fin}
+	{armors
+		{head fin_fieldcap_tilted}
+	}
+	{perks
+		(include "ability.inc")
+		("rifle_skill_rank_1")("tier1_standard")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "mosin" filled}
+		{item "rifle_rus clip ammo" 30 5}
+		{item "m26 ammo" 200}
+
+		{item "m32 grenade" 0.25 0.5}
+		{item "molotov_cocktail_fin grenade" 0.75 0.5}
+
+		{item "bandage_fin" 2.5 0.5}
+		{item "shovel_fin"}
+
+		{in_hands 0}
+	}
+}
