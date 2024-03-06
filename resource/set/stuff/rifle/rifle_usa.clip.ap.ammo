@@ -1,5 +1,5 @@
 {bullet
-	{tag "bullet small_arms stackable pierce ap 7-62_rifle"}
+	{tag "bullet small_arms stackable pierce ap full_rifle"}
 	{tag "bullet_fx size2"}
 	{inventory
 		{weight 20}
