@@ -1,30 +1,34 @@
 (define "items_light_ger"
 
-;weights in kg multiplied by 10
+;weights in kg multiplied by 100
+;magazine~ 200g
+;belt ~250g
+;clip 50g
+;crate for 76mm HE 8kg per round adjust based on relative size
 
 ;// pistol
 
 ;// smg
-	{item "mp40"					"ammo" 32 {value 50}}
+	{item "mp40"					"ammo" 32 {value 45}} ;~7.5g per cart - 200g mag
 
 ;// mg
-	{item "mgun_ger" "belt" "ap"	"ammo" 50 {value 5}}
-	{item "mgun_ger" "belt" "ap2"	"ammo" 50 {value 5}}
-	{item "mgun_ger" "belt"			"ammo" 50 {value 5}}
-	{item "mgun_ger" "mg13"			"ammo" 50 {value 5}}
-	{item "mgun_ger" "drum"			"ammo" 50 {value 5}}
-	{item "mgun_ger" "doubledrum"	"ammo" 50 {value 5}}
-	{item "mgun_ger" "doubledrum" "ap" "ammo" 50 {value 5}}
-	{item "mgun_ger" "doubledrum" "ap2" "ammo" 50 {value 5}}
-	{item "zb26_mag"					"ammo" 20 {value 2}}
+	{item "mgun_ger" "belt" "ap"	"ammo" 50 {value 90}} ;~12.8g per cart 250g belt
+	{item "mgun_ger" "belt" "ap2"	"ammo" 50 {value 90}}
+	{item "mgun_ger" "belt"			"ammo" 50 {value 90}}
+	{item "mgun_ger" "mg13"			"ammo" 50 {value 90}}
+	{item "mgun_ger" "drum"			"ammo" 50 {value 90}}
+	{item "mgun_ger" "doubledrum"	"ammo" 50 {value 90}}
+	{item "mgun_ger" "doubledrum" "ap" "ammo" 50 {value 90}}
+	{item "mgun_ger" "doubledrum" "ap2" "ammo" 50 {value 90}}
+	{item "zb26_mag"					"ammo" 20 {value 46}} ;~12.8g per cart 200g mag
 
 ;// rifle
-	{item "atrifle_ger"				"ammo" 5  {value 5}}
-	{item "rifle_ger" "clip"		"ammo" 10 {value 2}}
-	{item "rifle_ger" "gewehr"		"ammo" 10 {value 2}}
-	{item "stg44"					"ammo" 30 {value 2}}
-	{item "fg42"					"ammo" 20 {value 2}}
-
+	{item "atrifle_ger"				"ammo" 5  {value 13}} ;~15g 50g clip
+	{item "rifle_ger" "clip"		"ammo" 5  {value 11}} ;~12.8g
+	{item "rifle_ger" "gewehr"		"ammo" 10 {value 33}}
+	{item "stg44"					"ammo" 30 {value 44}} ;~8.1
+	{item "fg42"					"ammo" 20 {value 46}}
+;got to here
 ;// AT
 	{item "k98_antitank"			"ammo" 1  {value 5}}
 	{item "k98_grenade"	"he"		"ammo" 1  {value 5}}
