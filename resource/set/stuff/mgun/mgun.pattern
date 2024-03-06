@@ -29,7 +29,7 @@
 
 	;//{aimingTolerance 2}
 
-	("human health" damage(35))
+	("human health" damage(80))
 
 	("accuracy_mg")
 

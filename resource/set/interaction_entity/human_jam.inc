@@ -6,7 +6,6 @@
 	
 	;Animations
 
-	{set "cant_move" 1} ;stops the unit from moving to prevent the animation from conflicting with the movement when set to "1".
 	{set "jam_fix_animations" 0} ;units get a reloading animation when trying to fix the weapon jam.
 
 	;Random/Enviroment Jam Modifiers
@@ -368,12 +367,8 @@
 		{if tagged "jam"
 			{tags remove "jam"}
 			{tags remove "fixed"}
-			{call_synced "spawn_shell"}
 			{start_sound "weapon/reload"}
 			{weapon_work "hand_right" 1}
-			{if "cant_move"
-				{chassis_work 0}
-			} ;reenables the weapon
 			{if not dead 
 				{if able "select" 
 					{if not senseless ;so the knocked out and dead wont be able to fix it they will restart
@@ -384,9 +379,6 @@
 			{talk "jubilation"}
 			{ani_stop "squat_reload_bazooka"}
 			{ani_stop "lie_reload_bazooka"} 
-			{if "cant_move"
-				{chassis_work 1}
-			}
 			{if not dead 
 				{if able "select" 
 						{if not senseless 
@@ -517,9 +509,6 @@
 					{if tagged "call_for_jamming" 
 						{tags remove "call_for_jamming"} ;so the weapon can be jammed again some time later if not tagged "jam_fixed"
 						{weapon_work "hand_right" 0} ;stops the weapon from firing
-						{if "cant_move"
-							{chassis_work 0}
-						} ;stops the soldier from moving while fixing the jam
 						{tags add "jam"} 
 						{delay 1.6 
 							{damage_report "body" "<c(FFA500)>Jammed"}

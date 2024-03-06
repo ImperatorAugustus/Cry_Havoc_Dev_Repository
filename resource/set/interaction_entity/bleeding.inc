@@ -1,7 +1,7 @@
 {on "internal_bleeding_process"
 	{if not dead
 		{if tagged "internal_bleeding"
-			{delay 5
+			{delay 10
 				("human_health" c(10))
 				{call "internal_bleeding_process"}
 				{if not tagged "major_artery_bleeding"
@@ -22,7 +22,7 @@
 {on "major_artery_bleeding_process"
 	{if user_control
 		{if not linked "vehicle"
-			{delay 5
+			{delay 10
 				{if not dead
 					{if tagged "major_artery_bleeding"
 						("human_health" c(30))
@@ -45,7 +45,7 @@
 {on "moderate_artery_bleeding_process"
 	{if user_control
 		{if not linked "vehicle"
-			{delay 5
+			{delay 10
 				{if not dead
 					{if tagged "moderate_artery_bleeding"
 						{if not tagged "major_artery_bleeding"
@@ -71,7 +71,7 @@
 {on "major_vein_bleeding_process"
 	{if user_control
 		{if not linked "vehicle"
-			{delay 5
+			{delay 10
 				{if not dead
 					{if tagged "major_vein_bleeding"
 						{if not tagged "major_artery_bleeding"
@@ -96,7 +96,7 @@
 {on "moderate_vein_bleeding_process"
 	{if user_control
 		{if not linked "vehicle"
-			{delay 5
+			{delay 10
 				{if not dead
 					{if tagged "moderate_vein_bleeding"
 						{if not tagged "major_artery_bleeding"
