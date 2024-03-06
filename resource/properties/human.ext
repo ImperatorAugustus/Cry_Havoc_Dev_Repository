@@ -10,7 +10,7 @@
 	}
 	{Stamina
 		{max		100}	;// max stamina
-		{current	100}	;// current stamina
+		{current	50}	;// current stamina
 		{inc				;// stamina regeneration/usage per second (depending on movement mode and load)
 			;// movement_mode	load[0]		load[1]		load[2]		load[3]
 			{stay				+3			+3			+2.5		+2 }
