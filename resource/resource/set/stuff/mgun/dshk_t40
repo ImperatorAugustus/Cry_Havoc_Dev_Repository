@@ -1,0 +1,10 @@
+{from "dshk"
+	{tag "gun"}
+	{foresight "foresight1"}
+	{fireSoundClose "smallarms/s4/int/RUS/DShK38/"}
+	{reloadSound "interior/small/dt_reload_interior"}
+
+	("accuracy_hmg_tank")
+	("spreading_mounted_low")
+	{traceFreq 1}
+}

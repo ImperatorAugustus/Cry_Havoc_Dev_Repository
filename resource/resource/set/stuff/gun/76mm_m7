@@ -1,0 +1,11 @@
+;_________________________________________
+; US medium tank gun
+;=========================================
+
+
+{from "76mm_m5"			; L/45 "M10 wolverine"
+	{fireSoundclose "gun/gun_interior/size3"}
+	{reloadSound "interior/large/medium_reload_interior"}
+
+	("reload time" seconds(6))
+}

@@ -1,0 +1,22 @@
+{from "pattern mgun"
+	{filling "mgun_usa" 250}
+	{entity "browning_m19a4"}
+	{fireSound "smallarms/s3/d1/USA/M1919A4/"}
+	{fireSoundclose "smallarms/s3/d1/USA/M1919A4/"}
+	{reloadSound "dt"}
+	{calibre 7.62}
+	{mass 14}
+
+	("fire rate" rpm(500))
+	("velocity" mps(850))
+
+	("reload_belt")
+
+	("penetration" args 17.3 8 4 2 0) ;// AP, M2
+	("armor health" damage(5))
+	{cursorReloading "gun_ap"}
+
+	("burst_stand")
+	("spreading_mounted")
+	{traceFreq 1}
+}

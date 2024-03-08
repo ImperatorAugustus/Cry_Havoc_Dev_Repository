@@ -1,0 +1,46 @@
+(include "\set\small_firearms_accuracy.inc")
+
+(define "burst_short"
+	{burst
+		{short 3 1}
+		{long 12 2}
+		{rangeKoef 0.4}
+	}
+)
+
+(define "burst_long"
+	{burst
+		{short 5 1}
+		{long 15 2}
+		{rangeKoef 0.4}
+	}
+)
+
+(define "spreading_mounted"
+	{spreading
+		{BurstAccuracy 100 95 90 85 80 75 70 65 60}
+	}
+)
+(define "spreading_low"
+	{spreading
+		{BurstAccuracy 100 95 90 85 80 75 70 65 60 55 53 50}
+	}
+)
+(define "spreading_medium"
+	{spreading 
+		{BurstAccuracy 100 93 86 79 72 66 60 55 40 30 20 10}
+	}
+)
+(define "spreading_high"
+	{spreading 
+		{BurstAccuracy 100 92 84 76 69 62 56 49 43 36 33 30}
+	}
+)
+
+(define "penetration"
+	{projectileDamageTable 	{25 %0} {100 0}}
+)
+
+(define "armor health"
+	{minimumDamageModifier (* 1.0 %damage)}
+)

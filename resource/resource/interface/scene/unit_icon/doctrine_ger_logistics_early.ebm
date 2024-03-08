@@ -1,0 +1,6 @@
+{bitmap
+    {frame "sdkfz6_ammo_00.tga"}
+    {frame "sdkfz6_ammo_01.tga"}
+    {frame "sdkfz6_ammo_02.tga"}
+    {frame "sdkfz6_ammo_03.tga"}
+}

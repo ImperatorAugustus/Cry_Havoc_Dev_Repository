@@ -1,0 +1,19 @@
+{from "pattern mgun"
+    {filling "mgun_ger" 150}
+	{entity "mg42_belt"}
+	{fireSound "smallarms/s3/d1/GER/MG42/"}
+	{fireSoundclose "smallarms/s3/int/GER/MG42/"}
+	{reloadSound "interior/small/mg42_reload_interior"}
+	{calibre 7.92}
+	{mass 11.57}
+
+	("fire rate" rpm(1500))
+	("velocity" mps(740))
+
+	("reload_belt")
+
+	("ger_ap_bullets")
+
+	("burst_long")
+	("spreading_mounted")
+}

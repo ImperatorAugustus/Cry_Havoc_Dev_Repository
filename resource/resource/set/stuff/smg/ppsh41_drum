@@ -1,0 +1,15 @@
+{from "pattern smg"
+	{tag "pistol2_shell"}
+	{filling "ammo ppsh_drum" 71}
+	{entity "ppsh41_drum"}
+	{fireSound "smallarms/s1/d1/RUS/PPSh41/"}
+	{fireSoundclose "smallarms/s1/3p/RUS/PPSh41/"}
+	{reloadSound "ppsh41"}
+	{calibre 7.62}
+	{mass 3.63}
+
+	("fire rate" rpm(1200))
+	("velocity" mps(488))
+	("spreading_medium")
+	("burst_long")
+}

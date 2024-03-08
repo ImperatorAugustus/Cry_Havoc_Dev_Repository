@@ -1,0 +1,32 @@
+{from "pattern at_rifle"
+	{tag "bolt_action"}
+	{states
+		{reload		"reload"}
+		{unload		"unload"}
+		{fire		"fire"	}
+		{aim 		"aim"	}
+		{can_aim	"can-aim-bolt"}
+	}
+	{filling "ammo atrifle_eng" 5}
+	{entity "boys_mk1"}
+	{fireSound "smallarms/s4/d1/RUS/PTR/"}	;Placeholder
+	{fireSoundclose "smallarms/s4/3p/RUS/PTR/"}	;Placeholder
+	{reloadSound "ptrd"}
+	{calibre 13.9}
+	{mass 16}
+
+	{parameters "ap" ;// Mk.I projectile
+							;//	0m	100m	300m	500m
+		{projectileDamageTable {0 22} {40 20} {110 16} {130 13} {135 0}}
+		("velocity" mps(760))	;// Mk.I projectile
+	}
+
+
+	{parameters "ap2" ;// Mk.II projectile
+							;//	0m	100m	300m	500m
+		{projectileDamageTable {0 25} {40 22} {110 18} {130 14} {135 0}}
+		("velocity" mps(884))
+	}
+	("fire rate" rpm(30))
+	{FiringTimeout 2.0 0.25}
+}

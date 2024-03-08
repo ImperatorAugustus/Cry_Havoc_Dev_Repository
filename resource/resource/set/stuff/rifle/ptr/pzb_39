@@ -1,0 +1,17 @@
+{from "pattern at_rifle"
+	{tag "bolt_action"}
+	{filling "ammo atrifle_ger" 10}
+	{entity "pzb_39"}
+	{fireSound "smallarms/s4/d1/RUS/PTR/"}	;Placeholder
+	{fireSoundclose "smallarms/s4/3p/RUS/PTR/"}	;Placeholder
+	{reloadSound "ptrd"}
+	{calibre 7.92}
+	{mass 11.6}
+
+	("reload time" seconds(4))
+	("penetration" args 33 30 25)
+	("fire rate" rpm(15))
+	("velocity" mps(1210))
+
+	{cursorReloading "gun_apcr"}
+}

@@ -1,0 +1,21 @@
+{bullet 
+	{tag "bullet small_arms stackable pierce 7-62_rifle"}
+	{tag "bullet_fx size2"}
+	{inventory
+		{weight 1.33}
+		{block 75}
+		{size 2 2}
+		{fsm "belt"}
+	}
+	{entity "l33_36_ammo"}
+	{mass 0.03}
+
+	{trace
+		{view "/texture/fx/tracer_new/trace_solid_green.mtl"
+			{ScaleY 0.15}
+			{ScaleX 1.75}
+			{Light 1}
+		}
+		{length 3}
+	}
+}

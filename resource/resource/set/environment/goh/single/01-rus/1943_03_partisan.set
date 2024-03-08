@@ -1,0 +1,228 @@
+{environment
+	{light
+		{direction -0.905 0.22 -0.362}
+		{ambient 0xff50545e}
+		{diffuse 0xffbbac9d}
+		{lightsIntensity 0.1}
+		{draw_sun_moon}
+		{sun_moon_radius 1}
+		{night_vision 0.6}
+		{color_correction
+			{saturation 1.5}
+			
+			{tone 0xff005348}
+			{tone_strength 0}
+			{color_shading
+				{shade_tone 0xff65bcff}
+				{intensity 0.15}
+			}
+		}
+		{rim_light
+			{color 0xff949b7b}
+			{strength 0.2}
+		}
+		{tone_mapping
+			{max_white_percentile 0.9995}
+			{min_mapping_range 1}
+			{curve "/set/curves/tonemapping/exp6.bzc"}
+		}
+		{camera_lens_effetcs
+			{vision_mode
+				{mode none}
+			}
+			{light_scattering
+				{intensity 0.5}
+				{ray_length 0.5}
+				{color_tone 0x1010101}
+			}
+			{screen_brightening
+				{intensity 0.3}
+			}
+		}
+	}
+	{wind
+		{direction 0 0 0}
+		{main_strength 0.1}
+		{detail_strength 0.1}
+		{height_amplification 1}
+	}
+	{haze
+		{enable}
+		{color 0xffaabbbe}
+		{start 0}
+		{end 5000}
+		{altitude_strength 2.5}
+		{sky_haziness 0}
+	}
+	{sky
+		{enable}
+		{texture "/texture/common/environment/environment_clouds_01_grey"}
+		{globalEnvironment "/texture/common/environment/environment_day_06"}
+		{intensity 1}
+		{azimuth 270}
+	}
+	{weather
+		{enable}
+		{density 20}
+		{fx "rain"}
+		{sound "world/wetland/qp01 0099 wetland lake birds trout"}
+		{volume 50}
+		{"sound 2" "world/insects/qp01 0035 forest quiet insects"}
+		{"volume 2" 50}
+		{"sound 3" "world/wetland/qp01 0096 wetland lake early morning"}
+		{"volume 3" 10}
+	}
+	{ocean_wave_works
+		{sea_settings
+			{global
+				{patch_scale 120.096}
+				{wind_dependency 0.07}
+				{time_factor 0.8}
+				{smoothing 0.1}
+			}
+			{waves
+				{wind_speed_mps 4.8}
+				{wave_amplitude 0.24}
+				{crest_sharpness 0}
+				{foam_threshhold 0.324}
+				{foam_amount 0.12}
+				{foam_crest_intensity 1}
+				{foam_sss_intensity 0.9}
+				{foam_falloff 0.985}
+			}
+			{ocean_look
+				{specular_color 0xffffffff}
+				{specular_power 420.004}
+				{specular_intensity 0.5}
+				{emissive_strength 0.31}
+				{enhanced_water_look
+					{costal_softalpha_depth 10}
+					{full_opaque_water_depth 500}
+					{full_opaque_view_distance 5000}
+				}
+			}
+			{shore
+				{depth_threshold 0.6925}
+				{displacement_intensity 0.03}
+				{foam_intensity 0}
+				{shore_parallelness 0}
+				{height_factor 0.512}
+				{amplitude 1.36}
+				{length 20.62}
+				{speed 2.095}
+			}
+		}
+		{lake_settings
+			{global
+				{patch_scale 750.075}
+				{wind_dependency 0.85}
+				{time_factor 2}
+				{smoothing 0.017}
+			}
+			{waves
+				{wind_speed_mps 11.2}
+				{wave_amplitude 0.15}
+				{crest_sharpness 0}
+				{foam_threshhold 0.37}
+				{foam_amount 0}
+				{foam_crest_intensity 1}
+				{foam_sss_intensity 0.9}
+				{foam_falloff 0.985}
+			}
+			{ocean_look
+				{specular_color 0xffffffff}
+				{specular_power 750}
+				{specular_intensity 0.52}
+				{emissive_strength 1}
+				{enhanced_water_look
+					{costal_softalpha_depth 5}
+					{full_opaque_water_depth 100}
+					{full_opaque_view_distance 1500}
+				}
+			}
+			{shore
+				{depth_threshold 0.7}
+				{displacement_intensity 0.07}
+				{foam_intensity 0.17}
+				{shore_parallelness 0.17}
+				{height_factor 1.4}
+				{amplitude 1.18}
+				{length 2}
+				{speed 0.5}
+			}
+		}
+		{river_settings
+			{global
+				{patch_scale 1000}
+				{wind_dependency 0.85}
+				{time_factor 0.75}
+				{smoothing 0.03}
+			}
+			{waves
+				{wind_speed_mps 4}
+				{wave_amplitude 0.3}
+				{crest_sharpness 1.2}
+				{foam_threshhold 0.37}
+				{foam_amount 0.12}
+				{foam_crest_intensity 1}
+				{foam_sss_intensity 0.9}
+				{foam_falloff 0.985}
+			}
+			{ocean_look
+				{specular_color 0xffffffff}
+				{specular_power 500}
+				{specular_intensity 0.2}
+				{emissive_strength 0.5}
+				{enhanced_water_look
+					{costal_softalpha_depth 5}
+					{full_opaque_water_depth 100}
+					{full_opaque_view_distance 1500}
+				}
+			}
+			{shore
+				{depth_threshold 0.7}
+				{displacement_intensity 0.07}
+				{foam_intensity 0.17}
+				{shore_parallelness 0.17}
+				{height_factor 1.4}
+				{amplitude 1.18}
+				{length 2}
+				{speed 0.5}
+			}
+		}
+	}
+	{thunder
+		{color 0xff686c73}
+	}
+	{video_overlay
+		{color 0xffffffff}
+	}
+	{dof
+		{enable}
+		{near_scale 1}
+		{far_scale 1}
+		{near_start 50}
+		{near_end 75}
+		{far_start 2000}
+		{far_end 4000}
+		{"3rd_Person"
+			{"3rdP_blur_strength" 1}
+		}
+		{blur_strength 3}
+		{"Scenario Settings"
+			{enable}
+			{near_scale 1}
+			{far_scale 1}
+			{near_start 20}
+			{near_end 50}
+			{far_start 2000}
+			{far_end 4000}
+			{blur_strength 3}
+		}
+	}
+	{glow
+		{enable}
+		{amount 0.07}
+		{threshold 1.1}
+	}
+}

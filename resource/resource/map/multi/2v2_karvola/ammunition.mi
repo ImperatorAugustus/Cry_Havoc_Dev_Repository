@@ -1,0 +1,3504 @@
+{mission
+	{Entity "ammo_point" 0x802f
+		{Position 323.42 -764.75}
+		{xform zl 62.86}
+		{Extender "map_point"
+			{name f1}
+			{zone
+				{radius 0}
+				{zoneId "f1"}
+			}
+			{phase 0}
+			{order 0}
+			{show All}
+			{visor MapPoint}
+			{allow
+				{enableCapture}
+				{enableRelease}
+			}
+		}
+		{Player 0}
+		{MID 48}
+		{Able "minimap"}
+	}
+	{Entity "ammo_point" 0x8011
+		{Position 4086.7 212.92}
+		{xform zl 86.63}
+		{Extender "map_point"
+			{name f3}
+			{zone
+				{radius 0}
+				{zoneId "f3"}
+			}
+			{phase 0}
+			{order 0}
+			{show All}
+			{visor MapPoint}
+			{allow
+				{enableCapture}
+				{enableRelease}
+			}
+		}
+		{Player 0}
+		{MID 17}
+		{Able "minimap"}
+	}
+	{Entity "ammo_point" 0x8013
+		{Position -838.87 153.84}
+		{xform zl -133.11}
+		{Extender "map_point"
+			{name f2}
+			{zone
+				{radius 0}
+				{zoneId "f2"}
+			}
+			{phase 0}
+			{order 0}
+			{show All}
+			{visor MapPoint}
+			{allow
+				{enableCapture}
+				{enableRelease}
+			}
+		}
+		{Player 0}
+		{MID 18}
+		{Able "minimap"}
+	}
+	{Entity "ammo_point" 0x8003
+		{Position 1075.05 -978.03}
+		{xform zl -158.49}
+		{Extender "map_point"
+			{name f5}
+			{zone
+				{radius 0}
+				{zoneId "f5"}
+			}
+			{phase 0}
+			{order 0}
+			{show All}
+			{visor MapPoint}
+			{allow
+				{enableCapture}
+				{enableRelease}
+			}
+		}
+		{Player 0}
+		{MID 2}
+		{Able "minimap"}
+	}
+	{Entity "ammo_point" 0x8004
+		{Position -205.34 -383.06}
+		{xform zl -46.27}
+		{Extender "map_point"
+			{name f4}
+			{zone
+				{radius 0}
+				{zoneId "f4"}
+			}
+			{phase 0}
+			{order 0}
+			{show All}
+			{visor MapPoint}
+			{allow
+				{enableCapture}
+				{enableRelease}
+			}
+		}
+		{Player 0}
+		{MID 3}
+		{Able "minimap"}
+	}
+	{Entity "flag_point_base" 0xe002
+		{Position -2113.62 4042.91}
+		{xform zl 90}
+		{Extender "map_point"
+			{name base_flag_a}
+			{zone
+				{radius 0}
+				{zoneId "base_a"}
+			}
+			{phase 0}
+			{order 0}
+			{allow
+				{enableCapture}
+				{enableRelease}
+			}
+		}
+		{Extender "fortification"
+			{level
+				{steps 0}
+				{radius 0}
+				{angle "90"}
+				{elementAngle "180"}
+				{buildTime 60}
+				{entity "flagpoint_ammo#win"}
+			}
+			{level
+				{steps 2}
+				{radius 13}
+				{angle "0"}
+				{buildTime 60}
+				{entity "sandbag_heap_curved#win"}
+				{manual
+					{0
+						0.079 -0.996 0
+						0.996 0.079 0
+						0 0 1
+						-2100.85 3799.78 84.77
+					}
+					{1
+						0.794 -0.606 0.031
+						0.602 0.782 -0.156
+						0.07 0.143 0.987
+						-1915.18 3886.78 60.869
+					}
+					{2
+						0.949 -0.312 -0.019
+						0.31 0.948 -0.069
+						0.04 0.059 0.997
+						-1878.25 3949.62 53.126
+					}
+					{3
+						-0.979 0.191 0.059
+						-0.181 -0.972 0.149
+						0.086 0.135 0.986
+						-2351.69 4137.79 60.955
+					}
+					{4
+						-0.996 0.064 0.048
+						-0.06 -0.995 0.075
+						0.053 0.072 0.995
+						-2367.54 4068.03 72.474
+					}
+					{5
+						-0.368 -0.929 0
+						0.929 -0.368 0
+						0 0 0.999
+						-2241.05 3826.87 81.126
+					}
+					{6
+						-0.087 -0.996 0
+						0.996 -0.087 0
+						0 0 0.999
+						-2170.85 3806.62 80.176
+					}
+					{7
+						0.358 -0.932 0.035
+						0.93 0.354 -0.09
+						0.072 0.065 0.995
+						-2030.56 3811.36 85.473
+					}
+				}
+			}
+			{level
+				{steps 6}
+				{radius 25}
+				{angle "45"}
+				{azimuth "8"}
+				{elementAngle "5"}
+				{buildTime 60}
+				{entity "sandbag_structured_straight#win"}
+				{manual
+					{0
+						0.548 0.836 0
+						-0.836 0.548 0
+						0 0 1
+						-1839.06 4436.35 50
+					}
+					{1
+						0.426 0.904 0
+						-0.904 0.426 0
+						0 0 1
+						-1896.71 4475.63 50
+					}
+					{2
+						0.296 0.954 0
+						-0.954 0.296 0
+						0 0 1
+						-1959.26 4506.5 50
+					}
+					{3
+						-0.61 0.792 0
+						-0.792 -0.61 0
+						0 0 0.999
+						-2390.52 4451.84 50
+					}
+					{4
+						-0.714 0.699 0
+						-0.699 -0.714 0
+						0 0 0.999
+						-2446.52 4410.25 50
+					}
+					{5
+						-0.804 0.593 0
+						-0.593 -0.804 0
+						0 0 1
+						-2496.19 4361.27 50
+					}
+					{6
+						-0.879 0.475 0
+						-0.475 -0.879 0
+						0 0 1
+						-2538.56 4305.85 50
+					}
+					{7
+						-0.937 0.348 0
+						-0.348 -0.937 0
+						0 0 1
+						-2572.8 4245.08 50
+					}
+					{8
+						-0.976 0.214 0
+						-0.214 -0.976 0
+						0 0 1
+						-2598.26 4180.13 51
+					}
+					{9
+						-0.238 -0.967 0.086
+						0.961 -0.223 0.159
+						-0.135 0.121 0.983
+						-2334.95 3597 114.133
+					}
+					{10
+						-0.096 -0.995 0
+						0.995 -0.096 0
+						0 0 1
+						-2267.44 3579.47 119.306
+					}
+					{11
+						0.045 -0.998 0.043
+						0.987 0.038 -0.153
+						0.151 0.049 0.987
+						-2198.12 3571.51 111.954
+					}
+					{12
+						0.181 -0.983 0
+						0.983 0.181 0
+						0 0 1
+						-2128.37 3573.27 107.575
+					}
+					{13
+						0.315 -0.946 0.06
+						0.934 0.321 0.152
+						-0.164 0.008 0.986
+						-2059.59 3584.71 114.039
+					}
+					{14
+						0.445 -0.895 0
+						0.895 0.445 0
+						0 0 1
+						-1993.04 3605.62 119.405
+					}
+					{15
+						0.709 -0.705 0
+						0.705 0.709 0
+						0 0 1
+						-1801.78 3710.94 69.657
+					}
+					{16
+						0.8 -0.599 0
+						0.599 0.8 0
+						0 0 1
+						-1751.73 3759.53 58.993
+					}
+					{17
+						0.875 -0.482 0
+						0.482 0.875 0
+						0 0 1
+						-1708.94 3814.62 52.953
+					}
+					{18
+						0.934 -0.355 0
+						0.355 0.934 0
+						0 0 1
+						-1674.23 3875.13 51.958
+					}
+					{19
+						0.974 -0.222 0
+						0.222 0.974 0
+						0 0 1
+						-1648.28 3939.88 50.048
+					}
+					{20
+						0.996 -0.084 0
+						0.084 0.996 0
+						0 0 1
+						-1631.59 4007.61 50
+					}
+					{21
+						0.841 0.54 0
+						-0.54 0.841 0
+						0 0 1
+						-1706.16 4276.47 50
+					}
+					{22
+						0.757 0.652 0
+						-0.652 0.757 0
+						0 0 1
+						-1742.85 4335.79 50
+					}
+					{23
+						0.659 0.751 0
+						-0.751 0.659 0
+						0 0 1
+						-1787.44 4389.44 50
+					}
+				}
+			}
+			{level
+				{steps 1}
+				{radius 8.5}
+				{buildTime 120}
+				{entity "watch_tower#win"}
+				{manual
+					{0
+						0.216 0.976 0
+						-0.976 0.216 0
+						0 0 0.999
+						-2076.74 4208.86 51
+					}
+					{1
+						-0.976 0.216 0
+						-0.216 -0.976 0
+						0 0 1
+						-2279.57 4079.78 67.581
+					}
+					{2
+						-0.216 -0.976 0
+						0.976 -0.216 0
+						0 0 0.999
+						-2150.49 3876.95 77.623
+					}
+					{3
+						0.976 -0.216 0
+						0.216 0.976 0
+						0 0 1
+						-1947.66 4006.03 55
+					}
+				}
+			}
+			{level
+				{steps 5}
+				{radius 9}
+				{angle "45"}
+				{azimuth "14"}
+				{buildTime 60}
+				{entity "sandbag_framed_straight#win"}
+				{skip "0 4 8 12"}
+				{manual
+					{3
+						-0.119 0.992 0
+						-0.992 -0.119 0
+						0 0 0.999
+						-2106.12 4219.72 52
+					}
+					{5
+						-0.707 0.705 -0.039
+						-0.707 -0.705 0.044
+						0.003 0.059 0.998
+						-2240.87 4170.18 55
+					}
+					{6
+						-0.857 0.514 -0.027
+						-0.514 -0.855 0.053
+						0.003 0.059 0.998
+						-2267.87 4135.61 59
+					}
+					{7
+						-0.956 0.291 -0.014
+						-0.292 -0.954 0.058
+						0.003 0.059 0.998
+						-2285.75 4095.53 66
+					}
+					{13
+						-0.006 -0.999 0.006
+						0.999 -0.006 -0.039
+						0.039 0.006 0.999
+						-2117.06 3866.51 77.462
+					}
+					{14
+						0.235 -0.971 -0.003
+						0.971 0.235 -0.039
+						0.039 0.006 0.999
+						-2073.48 3871.56 76.014
+					}
+					{15
+						0.707 -0.707 -0.003
+						0.705 0.705 -0.063
+						0.047 0.042 0.998
+						-1986.34 3915.63 65
+					}
+					{18
+						0.999 -0.011 0
+						0.011 0.999 0
+						0 0 1
+						-1932.52 4030.98 54.007
+					}
+					{19
+						0.973 0.23 0
+						-0.23 0.973 0
+						0 0 1
+						-1937.35 4074.58 53
+					}
+				}
+			}
+			{level
+				{steps 10}
+				{radius 35}
+				{azimuth "9"}
+				{buildTime 240}
+				{entity "hedgehog2#win"}
+				{manual
+					{0
+						0.996 -0.079 0
+						0.079 0.996 0
+						0 0 0.999
+						-1113.56 3844.38 50
+					}
+					{1
+						-0.233 0.972 0
+						-0.972 -0.233 0
+						0 0 1
+						-1371.69 3299.28 50
+					}
+					{2
+						0.883 0.468 0
+						-0.468 0.883 0
+						0 0 1
+						-1113.68 3973.5 50
+					}
+					{3
+						0.799 0.6 0
+						-0.6 0.799 0
+						0 0 1
+						-1180.86 4034.85 50
+					}
+					{4
+						-0.977 0.212 0
+						-0.212 -0.977 0
+						0 0 0.999
+						-3312.12 4301.93 50
+					}
+					{5
+						-0.998 0.057 0
+						-0.057 -0.998 0
+						0 0 1
+						-3322.54 4182.42 50
+					}
+					{6
+						-0.995 -0.099 0
+						0.099 -0.995 0
+						0 0 0.999
+						-3313.71 4044.12 50
+					}
+					{7
+						-0.967 -0.254 0
+						0.254 -0.967 0
+						0 0 1
+						-3273.1 3922.23 50
+					}
+					{8
+						-0.846 0.531 0
+						-0.531 -0.846 0
+						0 0 0.999
+						-3293.65 4414.1 50
+					}
+					{9
+						-0.919 0.392 0
+						-0.392 -0.919 0
+						0 0 1
+						-3193.15 4448.5 50
+					}
+					{10
+						-0.969 0.244 0
+						-0.244 -0.969 0
+						0 0 0.999
+						-3228.23 4344.42 50.503
+					}
+					{11
+						-0.995 0.089 0
+						-0.089 -0.995 0
+						0 0 1
+						-3246.61 4236.13 50.805
+					}
+					{12
+						-0.997 -0.067 0
+						0.067 -0.997 0
+						0 0 1
+						-3247.81 4126.29 50.911
+					}
+					{13
+						-0.974 -0.222 0
+						0.222 -0.974 0
+						0 0 0.999
+						-3231.82 4017.62 50.611
+					}
+					{14
+						-0.928 -0.372 0
+						0.372 -0.928 0
+						0 0 0.999
+						-3199.03 3912.78 56.692
+					}
+					{15
+						-0.539 -0.841 0
+						0.841 -0.539 0
+						0 0 1
+						-2793.37 3203.73 132.53
+					}
+					{16
+						-0.4 -0.915 0.027
+						0.915 -0.401 -0.028
+						0.037 0.013 0.999
+						-1749.98 3118.29 150.503
+					}
+					{17
+						0.765 -0.642 0
+						0.642 0.765 0
+						0 0 1
+						-1290.21 3386 49.481
+					}
+					{18
+						0.857 -0.515 0
+						0.515 0.857 0
+						0 0 1
+						-1226.41 3475.41 50.854
+					}
+					{19
+						-0.143 -0.987 -0.066
+						0.984 -0.135 -0.107
+						0.096 -0.08 0.992
+						-2355.85 3012.22 162.681
+					}
+					{20
+						0.015 -0.999 -0.018
+						0.998 0.016 -0.056
+						0.056 -0.018 0.998
+						-2246.22 3005.41 137.994
+					}
+					{21
+						0.182 -0.979 -0.081
+						0.956 0.157 0.243
+						-0.226 -0.122 0.966
+						-2136.87 3015.83 145.496
+					}
+					{22
+						0.322 -0.943 0.073
+						0.944 0.325 0.037
+						-0.059 0.056 0.996
+						-2030.5 3043.23 158.509
+					}
+					{23
+						0.468 -0.883 0
+						0.883 0.468 0
+						0 0 0.999
+						-1929.73 3086.93 150.473
+					}
+					{24
+						0.601 -0.799 0
+						0.799 0.601 0
+						0 0 1
+						-1837.03 3145.86 147.107
+					}
+					{25
+						0.718 -0.695 -0.017
+						0.694 0.718 -0.035
+						0.037 0.013 0.999
+						-1754.69 3218.56 147.901
+					}
+					{26
+						-0.262 -0.964 0
+						0.964 -0.262 0
+						0 0 1
+						-2416.19 2950.53 157.167
+					}
+					{27
+						-0.109 -0.993 -0.011
+						0.992 -0.108 -0.058
+						0.056 -0.018 0.998
+						-2306.23 2932.72 144.631
+					}
+					{28
+						0.061 -0.991 -0.111
+						0.972 0.033 0.231
+						-0.226 -0.122 0.966
+						-2196.43 2929.4 132.536
+					}
+					{29
+						0.201 -0.977 0.067
+						0.977 0.205 0.046
+						-0.059 0.056 0.996
+						-2069.87 2956 154.606
+					}
+					{30
+						0.354 -0.934 0.001
+						0.932 0.353 -0.079
+						0.074 0.029 0.996
+						-1964.44 2986.77 148.24
+					}
+					{31
+						0.612 -0.79 0
+						0.79 0.612 0
+						0 0 1
+						-1462.21 3326.21 52.458
+					}
+					{32
+						0.728 -0.684 0
+						0.684 0.728 0
+						0 0 1
+						-1380.97 3400.14 50
+					}
+					{33
+						0.827 -0.562 0
+						0.562 0.827 0
+						0 0 1
+						-1312.3 3485.87 50
+					}
+					{34
+						0.904 -0.425 0
+						0.425 0.904 0
+						0 0 1
+						-1257.88 3581.28 50
+					}
+					{35
+						0.96 -0.278 0
+						0.278 0.96 0
+						0 0 1
+						-1219.06 3684.04 50
+					}
+					{36
+						0.992 -0.125 0
+						0.125 0.992 0
+						0 0 1
+						-1196.79 3791.6 50
+					}
+					{37
+						0.999 0.031 0
+						-0.031 0.999 0
+						0 0 1
+						-1191.62 3901.32 50
+					}
+					{38
+						0.923 -0.383 0
+						0.383 0.923 0
+						0 0 1
+						-1169.72 3588.22 50
+					}
+					{39
+						0.972 -0.234 0
+						0.234 0.972 0
+						0 0 0.999
+						-1136 3717.53 50
+					}
+				}
+			}
+		}
+		{Player 0}
+		{MID 4}
+	}
+	{Entity "flag_point_base" 0xa000
+		{Position 914 -2934.56}
+		{xform zl -90}
+		{Extender "map_point"
+			{name base_flag_b}
+			{zone
+				{radius 0}
+				{zoneId "base_b"}
+			}
+			{phase 0}
+			{order 0}
+			{allow
+				{enableCapture}
+				{enableRelease}
+			}
+		}
+		{Extender "fortification"
+			{level
+				{steps 0}
+				{radius 0}
+				{angle "90"}
+				{elementAngle "180"}
+				{buildTime 60}
+				{entity "flagpoint_ammo#win"}
+			}
+			{level
+				{steps 2}
+				{radius 13}
+				{angle "0"}
+				{buildTime 60}
+				{entity "sandbag_heap_curved#win"}
+				{manual
+					{0
+						0.831 0.555 0
+						-0.555 0.831 0
+						0 0 1
+						1139.18 -2817.4 115
+					}
+					{1
+						-0.379 0.924 0
+						-0.924 -0.379 0
+						0 0 0.999
+						843.703 -2688.83 101
+					}
+					{3
+						-0.953 -0.301 0
+						0.301 -0.953 0
+						0 0 1
+						664.973 -3004.21 104.006
+					}
+					{4
+						-0.999 -0.003 0
+						0.003 -0.999 0
+						0 0 1
+						657.828 -2924.46 106
+					}
+					{5
+						-0.215 -0.976 0
+						0.976 -0.215 0
+						0 0 0.999
+						833.768 -3180.87 96.73
+					}
+					{6
+						0.04 -0.999 0
+						0.999 0.04 0
+						0 0 0.999
+						910.504 -3192.01 97
+					}
+					{7
+						0.979 0.2 0
+						-0.2 0.979 0
+						0 0 1
+						1167.43 -2889.42 118
+					}
+				}
+			}
+			{level
+				{steps 6}
+				{radius 25}
+				{angle "45"}
+				{azimuth "8"}
+				{elementAngle "5"}
+				{buildTime 60}
+				{entity "sandbag_structured_straight#win"}
+				{manual
+					{0
+						0.402 0.915 0
+						-0.915 0.402 0
+						0 0 1
+						1033.86 -2377.35 107
+					}
+					{1
+						-0.272 0.962 0
+						-0.962 -0.272 0
+						0 0 1
+						978.175 -2365.78 106
+					}
+					{2
+						0.378 -0.925 0
+						0.925 0.378 0
+						0 0 1
+						910.73 -2383.59 106.176
+					}
+					{3
+						-0.667 0.744 0
+						-0.744 -0.667 0
+						0 0 0.999
+						776.854 -2439.37 110
+					}
+					{4
+						-0.764 0.644 0
+						-0.644 -0.764 0
+						0 0 0.999
+						724.083 -2485.01 109.824
+					}
+					{5
+						-0.71 0.703 0
+						-0.703 -0.71 0
+						0 0 1
+						678.131 -2527.67 108.482
+					}
+					{6
+						-0.748 0.662 0
+						-0.662 -0.748 0
+						0 0 1
+						639.038 -2562.37 106.836
+					}
+					{7
+						0.722 0.691 0
+						-0.691 0.722 0
+						0 0 1
+						817.189 -2441.24 109.726
+					}
+					{8
+						0.783 -0.621 0
+						0.621 0.783 0
+						0 0 1
+						596.41 -2603.04 101.925
+					}
+					{9
+						-0.714 0.7 0
+						-0.7 -0.714 0
+						0 0 0.999
+						359.024 -2647.91 110.396
+					}
+					{10
+						-0.804 0.593 0
+						-0.593 -0.804 0
+						0 0 1
+						309.333 -2696.87 108.914
+					}
+					{11
+						0.655 0.755 0
+						-0.755 0.655 0
+						0 0 1
+						400.676 -2647.86 108
+					}
+					{12
+						-0.784 0.619 0
+						-0.619 -0.784 0
+						0 0 1
+						373.737 -2992.84 121.346
+					}
+					{13
+						-0.958 -0.286 0
+						0.286 -0.958 0
+						0 0 0.999
+						358.276 -3040.99 117.128
+					}
+					{14
+						-0.908 -0.416 0
+						0.416 -0.908 0
+						0 0 1
+						377.076 -3108.16 118.696
+					}
+					{15
+						0.998 -0.045 -0.002
+						0.045 0.997 -0.059
+						0.005 0.059 0.998
+						1412.66 -3003.2 124.801
+					}
+					{16
+						0.995 0.093 0
+						-0.093 0.995 0
+						0 0 1
+						1416.59 -2938.63 122
+					}
+					{17
+						0.853 0.521 0
+						-0.521 0.853 0
+						0 0 1
+						1443.3 -2722.42 127.477
+					}
+					{18
+						0.772 0.635 0
+						-0.635 0.772 0
+						0 0 1
+						1407.94 -2662.29 128.856
+					}
+					{19
+						0.773 0.634 0
+						-0.634 0.773 0
+						0 0 1
+						1373.02 -2613.25 121.154
+					}
+					{20
+						0.677 0.735 0
+						-0.735 0.677 0
+						0 0 1
+						1329.74 -2558.55 116.821
+					}
+					{21
+						0.408 0.912 0
+						-0.912 0.408 0
+						0 0 1
+						1211.35 -2472.25 111.663
+					}
+					{22
+						0.277 0.96 0
+						-0.96 0.277 0
+						0 0 1
+						1148.18 -2442.62 110.427
+					}
+					{23
+						0.526 0.85 0
+						-0.85 0.526 0
+						0 0 1
+						1092.53 -2415.1 109.493
+					}
+				}
+			}
+			{level
+				{steps 1}
+				{radius 8.5}
+				{buildTime 120}
+				{entity "watch_tower#win"}
+				{manual
+					{0
+						0.88 -0.474 0
+						0.474 0.88 0
+						0 0 0.999
+						1063.6 -3015.3 115
+					}
+					{1
+						0.474 0.88 0
+						-0.88 0.474 0
+						0 0 1
+						994.742 -2784.95 107
+					}
+					{2
+						-0.88 0.474 0
+						-0.474 -0.88 0
+						0 0 0.999
+						764.398 -2853.81 102
+					}
+					{3
+						-0.474 -0.88 0
+						0.88 -0.474 0
+						0 0 1
+						833.257 -3084.16 100.705
+					}
+				}
+			}
+			{level
+				{steps 5}
+				{radius 9}
+				{angle "45"}
+				{azimuth "14"}
+				{buildTime 60}
+				{entity "sandbag_framed_straight#win"}
+				{skip "0 4 8 12"}
+				{manual
+					{3
+						0.036 0.999 0
+						-0.999 0.036 0
+						0 0 0.999
+						926.692 -2755.84 103.895
+					}
+					{9
+						-0.446 0.894 0
+						-0.894 -0.446 0
+						0 0 1
+						822.573 -2781.92 101
+					}
+					{10
+						-0.517 -0.855 0
+						0.855 -0.517 0
+						0 0 0.999
+						803.521 -3085.87 99
+					}
+					{11
+						-0.294 -0.955 0
+						0.955 -0.294 0
+						0 0 0.999
+						843.554 -3103.82 98.863
+					}
+					{18
+						0.956 0.292 0
+						-0.292 0.956 0
+						0 0 1
+						1079.23 -2871.17 114
+					}
+					{19
+						0.642 0.766 0
+						-0.766 0.642 0
+						0 0 1
+						1040.63 -2805.52 110
+					}
+				}
+			}
+			{level
+				{steps 10}
+				{radius 35}
+				{azimuth "9"}
+				{buildTime 240}
+				{entity "hedgehog2#win"}
+				{manual
+					{0
+						0.651 -0.723 -0.225
+						0.742 0.669 0
+						0.151 -0.167 0.974
+						1283.41 -3334.94 117.474
+					}
+					{1
+						0.76 -0.61 -0.223
+						0.631 0.774 0.034
+						0.151 -0.167 0.974
+						1359.45 -3255.66 116.363
+					}
+					{2
+						0.614 -0.775 -0.143
+						0.782 0.622 -0.019
+						0.104 -0.1 0.989
+						1422 -3180.21 114.957
+					}
+					{3
+						0.703 -0.696 -0.145
+						0.703 0.71 -0.002
+						0.104 -0.1 0.989
+						1486.28 -3108.62 116.18
+					}
+					{4
+						0.804 -0.576 -0.143
+						0.584 0.81 0.02
+						0.104 -0.1 0.989
+						1557.19 -3024.73 115.812
+					}
+					{5
+						0.744 -0.651 -0.144
+						0.659 0.751 0.006
+						0.104 -0.1 0.989
+						1627.6 -2935.44 118.238
+					}
+					{6
+						0.803 -0.531 -0.268
+						0.53 0.843 -0.083
+						0.271 -0.075 0.959
+						1693.31 -2847.43 120.111
+					}
+					{7
+						0.958 -0.071 -0.276
+						0.089 0.994 0.052
+						0.271 -0.075 0.959
+						1742.02 -2760.49 126.394
+					}
+					{8
+						0.96 0.085 -0.264
+						-0.061 0.993 0.095
+						0.271 -0.075 0.959
+						1741.3 -2650.65 141.5
+					}
+					{9
+						0.95 0.263 -0.166
+						-0.221 0.946 0.233
+						0.218 -0.184 0.958
+						1723.41 -2542.27 125.08
+					}
+					{10
+						0.918 0.383 0.094
+						-0.391 0.916 0.083
+						-0.054 -0.113 0.992
+						1688.78 -2438.03 130.02
+					}
+					{11
+						0.846 0.521 0.106
+						-0.529 0.845 0.067
+						-0.054 -0.113 0.992
+						1638.27 -2340.49 139.531
+					}
+					{12
+						0.752 0.647 0.115
+						-0.655 0.753 0.05
+						-0.054 -0.113 0.992
+						1573.13 -2252.04 141.027
+					}
+					{14
+						0.655 0.755 0
+						-0.755 0.655 0
+						0 0 1
+						1505.09 -2191.45 140.97
+					}
+					{15
+						0.529 0.848 0
+						-0.848 0.529 0
+						0 0 1
+						1408.58 -2113.62 137.371
+					}
+					{16
+						0.389 0.92 0
+						-0.92 0.389 0
+						0 0 1
+						1319.25 -2075.57 130.807
+					}
+					{17
+						0.24 0.97 0
+						-0.97 0.24 0
+						0 0 1
+						1215.05 -2040.82 118
+					}
+					{18
+						0.086 0.996 0
+						-0.996 0.086 0
+						0 0 1
+						1106.68 -2022.8 114.655
+					}
+					{19
+						0.144 0.989 0
+						-0.989 0.144 0
+						0 0 0.999
+						1021.03 -2020.76 108.112
+					}
+					{20
+						-0.011 0.999 0
+						-0.999 -0.011 0
+						0 0 0.999
+						911.436 -2013.45 102.958
+					}
+					{21
+						-0.168 0.985 0
+						-0.985 -0.168 0
+						0 0 1
+						802.043 -2023.38 103
+					}
+					{22
+						-0.31 0.933 0.18
+						-0.944 -0.324 0.053
+						0.108 -0.154 0.982
+						695.55 -2050.3 108.653
+					}
+					{23
+						-0.482 0.873 0.066
+						-0.868 -0.467 -0.163
+						-0.111 -0.136 0.984
+						594.579 -2093.55 110.321
+					}
+					{24
+						-0.597 0.801 0
+						-0.801 -0.597 0
+						0 0 0.999
+						501.617 -2152.06 104.953
+					}
+					{25
+						-0.705 0.687 -0.169
+						-0.699 -0.714 0.009
+						-0.114 0.125 0.985
+						418.952 -2224.37 97.24
+					}
+					{26
+						-0.806 0.567 -0.166
+						-0.58 -0.813 0.036
+						-0.114 0.125 0.985
+						348.619 -2308.76 95.012
+					}
+					{27
+						-0.715 0.677 -0.169
+						-0.689 -0.724 0.012
+						-0.114 0.125 0.985
+						279.031 -2389.84 102.93
+					}
+					{28
+						-0.814 0.556 -0.165
+						-0.568 -0.821 0.038
+						-0.114 0.125 0.985
+						209.892 -2475.19 108.824
+					}
+					{29
+						-0.898 0.424 -0.112
+						-0.434 -0.895 0.098
+						-0.058 0.137 0.988
+						154.957 -2570.31 124.691
+					}
+					{30
+						-0.955 0.278 -0.095
+						-0.288 -0.95 0.115
+						-0.058 0.137 0.988
+						115.579 -2672.85 133.636
+					}
+					{31
+						-0.988 0.126 -0.076
+						-0.135 -0.982 0.128
+						-0.058 0.137 0.988
+						92.726 -2780.29 133.143
+					}
+					{32
+						-0.961 -0.274 -0.018
+						0.269 -0.951 0.148
+						-0.058 0.137 0.988
+						94.461 -2872.06 132.469
+					}
+					{33
+						-0.907 -0.42 0.004
+						0.416 -0.896 0.149
+						-0.058 0.137 0.988
+						132.847 -2974.98 140.116
+					}
+					{34
+						0.65 -0.725 -0.225
+						0.744 0.667 -0.001
+						0.151 -0.167 0.974
+						831.598 -3777.3 120.218
+					}
+					{35
+						0.758 -0.612 -0.223
+						0.633 0.772 0.034
+						0.151 -0.167 0.974
+						907.822 -3698.22 123.4
+					}
+					{36
+						0.596 -0.77 -0.225
+						0.788 0.615 -0.016
+						0.151 -0.167 0.974
+						976.177 -3618.4 125.431
+					}
+					{37
+						0.712 -0.664 -0.225
+						0.685 0.728 0.018
+						0.151 -0.167 0.974
+						1057.73 -3544.82 119.546
+					}
+					{38
+						0.662 -0.714 -0.225
+						0.733 0.679 0.002
+						0.151 -0.167 0.974
+						1131.39 -3472.87 122.145
+					}
+					{39
+						0.527 -0.819 -0.223
+						0.835 0.547 -0.035
+						0.151 -0.167 0.974
+						1195.92 -3401.34 118.25
+					}
+				}
+			}
+		}
+		{Player 0}
+		{MID 1}
+	}
+	{Entity "map_point" 0xc007
+		{Position -4887.52 5040.73}
+		{xform zl -90}
+		{Extender "map_point"
+			{name a2}
+			{team a}
+			{zone
+				{radius 0}
+				{zoneId ""}
+			}
+			{phase 0}
+			{order 2}
+			{visor SpawnPoint}
+			{allow
+				{enableCapture}
+				{enableRelease}
+			}
+		}
+		{Player 0}
+		{MID 9}
+	}
+	{Entity "map_point" 0x8005
+		{Position 3041.94 -5010.95}
+		{xform zl 90}
+		{Extender "map_point"
+			{name b1}
+			{team b}
+			{zone
+				{radius 0}
+				{zoneId ""}
+			}
+			{phase 0}
+			{order 1}
+			{visor SpawnPoint}
+			{allow
+				{enableCapture}
+				{enableRelease}
+			}
+		}
+		{Player 0}
+		{MID 5}
+	}
+	{Entity "map_point" 0x8000
+		{Position 2302.61 5026.97}
+		{xform zl -90}
+		{Extender "map_point"
+			{name a1}
+			{team a}
+			{zone
+				{radius 0}
+				{zoneId ""}
+			}
+			{phase 0}
+			{order 1}
+			{visor SpawnPoint}
+			{allow
+				{enableCapture}
+				{enableRelease}
+			}
+		}
+		{Player 0}
+		{MID 6}
+	}
+	{Entity "map_point" 0x8001
+		{Position -3004.16 -4975.12}
+		{xform zl 90}
+		{Extender "map_point"
+			{name b2}
+			{team b}
+			{zone
+				{radius 0}
+				{zoneId ""}
+			}
+			{phase 0}
+			{order 2}
+			{visor SpawnPoint}
+			{allow
+				{enableCapture}
+				{enableRelease}
+			}
+		}
+		{Player 0}
+		{MID 7}
+	}
+	{Entity "ammo2" 0x8007
+		{TexMod "win"}
+		{Extender "supply_zone"
+			{enabled}
+			{current 0}
+		}
+	}
+	{Entity "ammo2" 0x8008
+		{TexMod "win"}
+		{Extender "supply_zone"
+			{enabled}
+			{current 0}
+		}
+	}
+	{Entity "ammo2" 0x8009
+		{TexMod "win"}
+		{Extender "supply_zone"
+			{enabled}
+			{current 0}
+		}
+	}
+	{Entity "ammo_point" 0xa001
+		{Position -4591.24 -282.74}
+		{xform zl 16.12}
+		{Extender "map_point"
+			{name f8}
+			{zone
+				{radius 0}
+				{zoneId "f8"}
+			}
+			{phase 0}
+			{order 0}
+			{show All}
+			{visor MapPoint}
+			{allow
+				{enableCapture}
+				{enableRelease}
+			}
+		}
+		{Player 0}
+		{MID 8}
+		{Able "minimap"}
+	}
+	{Entity "ammo2" 0xa002
+		{TexMod "win"}
+		{Extender "supply_zone"
+			{enabled}
+			{current 0}
+		}
+	}
+	{Entity "ammo_point" 0xa003
+		{Position -2583.06 -844.17}
+		{xform zl 4.76}
+		{Extender "map_point"
+			{name f7}
+			{zone
+				{radius 0}
+				{zoneId "f7"}
+			}
+			{phase 0}
+			{order 0}
+			{show All}
+			{visor MapPoint}
+			{allow
+				{enableCapture}
+				{enableRelease}
+			}
+		}
+		{Player 0}
+		{MID 10}
+		{Able "minimap"}
+	}
+	{Entity "ammo2" 0xa004
+		{TexMod "win"}
+		{Extender "supply_zone"
+			{enabled}
+			{current 0}
+		}
+	}
+	{Entity "ammo_point" 0xa005
+		{Position -3215.94 173.59}
+		{xform zl -23.03}
+		{Extender "map_point"
+			{name f10}
+			{zone
+				{radius 0}
+				{zoneId "f10"}
+			}
+			{phase 0}
+			{order 0}
+			{show All}
+			{visor MapPoint}
+			{allow
+				{enableCapture}
+				{enableRelease}
+			}
+		}
+		{Player 0}
+		{MID 11}
+		{Able "minimap"}
+	}
+	{Entity "ammo2" 0xa006
+		{TexMod "win"}
+		{Extender "supply_zone"
+			{enabled}
+			{current 0}
+		}
+	}
+	{Entity "ammo_point" 0xa007
+		{Position 2238.58 122.77}
+		{xform zl -9.85}
+		{Extender "map_point"
+			{name f6}
+			{zone
+				{radius 0}
+				{zoneId "f6"}
+			}
+			{phase 0}
+			{order 0}
+			{show All}
+			{visor MapPoint}
+			{allow
+				{enableCapture}
+				{enableRelease}
+			}
+		}
+		{Player 0}
+		{MID 12}
+		{Able "minimap"}
+	}
+	{Entity "ammo2" 0xa008
+		{TexMod "win"}
+		{Extender "supply_zone"
+			{enabled}
+			{current 0}
+		}
+	}
+	{Entity "ammo_point" 0xa009
+		{Position 3208.15 -319.2}
+		{xform zl 15.58}
+		{Extender "map_point"
+			{name f9}
+			{zone
+				{radius 0}
+				{zoneId "f9"}
+			}
+			{phase 0}
+			{order 0}
+			{show All}
+			{visor MapPoint}
+			{allow
+				{enableCapture}
+				{enableRelease}
+			}
+		}
+		{Player 0}
+		{MID 13}
+		{Able "minimap"}
+	}
+	{Entity "ammo2" 0xa00a
+		{TexMod "win"}
+		{Extender "supply_zone"
+			{enabled}
+			{current 0}
+		}
+	}
+	{Entity "ammo2" 0x8006
+		{TexMod "win"}
+		{Extender "supply_zone"
+			{enabled}
+			{current 0}
+		}
+	}
+	{Entity "ammo2" 0x800a
+		{TexMod "win"}
+		{Extender "supply_zone"
+			{enabled}
+			{current 0}
+		}
+	}
+	{Entity "flagpoint_sandbags" 0x8002
+		{TexMod "win"}
+	}
+	{Entity "netting_square" 0x800b
+		{TexMod "win"}
+	}
+	{Entity "flagpoint_sandbags" 0x800c
+		{TexMod "win"}
+	}
+	{Entity "netting_square" 0x800d
+		{TexMod "win"}
+	}
+	{Entity "fly_small" 0x800e
+		{Position 3979.06 -5045.39 82.22}
+	}
+	{Entity "fly_small" 0x800f
+		{Position 469.01 -3204.24 127.22}
+	}
+	{Entity "fly_small" 0x8010
+		{Position -5009.49 2240.59 97.67}
+	}
+	{Entity "fly_small" 0x8012
+		{Position 3979.06 -5045.39 82.22}
+	}
+	{Entity "fly_small" 0x8014
+		{Position 469.01 -3204.24 127.22}
+	}
+	{Entity "fly_small" 0x8015
+		{Position -5009.49 2240.59 97.67}
+	}
+	{Entity "fly_small" 0x8016
+		{Position 3979.06 -5045.39 82.22}
+	}
+	{Entity "fly_small" 0x8017
+		{Position 469.01 -3204.24 127.22}
+	}
+	{Entity "fly_small" 0x8018
+		{Position -5009.49 2240.59 97.67}
+	}
+	{Entity "fly_small" 0x8019
+		{Position 3979.06 -5045.39 82.22}
+	}
+	{Entity "fly_small" 0x801a
+		{Position 469.01 -3204.24 127.22}
+	}
+	{Entity "fly_small" 0x801b
+		{Position -5009.49 2240.59 97.67}
+	}
+	{Entity "fly_small" 0x801c
+		{Position 3979.06 -5045.39 82.22}
+	}
+	{Entity "fly_small" 0x801d
+		{Position 469.01 -3204.24 127.22}
+	}
+	{Entity "fly_small" 0x801e
+		{Position -5009.49 2240.59 97.67}
+	}
+	{Link 0x8007 {0x802f "ammo"}}
+	{Link 0x8008 {0x8011 "ammo"}}
+	{Link 0x8009 {0x8013 "ammo"}}
+	{Link 0x8006 {0x8003 "ammo"}}
+	{Link 0x800a {0x8004 "ammo"}}
+	{Link 0x8002 {0xe002 "sandbags"}}
+	{Link 0x800b {0xe002 "ammo"}}
+	{Link 0x800c {0xa000 "sandbags"}}
+	{Link 0x800d {0xa000 "ammo"}}
+	{Link 0xa002 {0xa001 "ammo"}}
+	{Link 0xa004 {0xa003 "ammo"}}
+	{Link 0xa006 {0xa005 "ammo"}}
+	{Link 0xa008 {0xa007 "ammo"}}
+	{Link 0xa00a {0xa009 "ammo"}}
+	{Tags "switch_right" {0x384b "p_c"}}
+	{Tags "switch_right" 0x886}
+	{Tags "snow" 0x286f}
+	{Tags "snow" 0x2870}
+	{Tags "snow" 0x2871}
+	{Tags "snow" 0x502c}
+	{Tags "snow" 0x502d}
+	{Tags "snow" 0x502e}
+	{Tags "snow" 0x502f}
+	{Tags "snow" 0x5039}
+	{Tags "snow" 0x503c}
+	{Tags "snow" 0x503d}
+	{Tags "snow" 0x5044}
+	{Tags "snow" 0x5045}
+	{Tags "snow" 0x5046}
+	{Tags "snow" 0x5047}
+	{Tags "snow" 0x5048}
+	{Tags "snow" 0x5049}
+	{Tags "snow" 0x5056}
+	{Tags "snow" 0x5057}
+	{Tags "snow" 0x5058}
+	{Tags "snow" 0x505a}
+	{Tags "snow" 0x505b}
+	{Tags "snow" 0x5060}
+	{Tags "snow" 0x5061}
+	{Tags "snow" 0x5062}
+	{Tags "snow" 0x5063}
+	{Tags "snow" 0x5064}
+	{Tags "snow" 0x50c5}
+	{Tags "snow" 0x50c6}
+	{Tags "snow" 0x50c7}
+	{Tags "snow" 0x50c8}
+	{Tags "snow" 0x50c9}
+	{Tags "snow" 0x50ca}
+	{Tags "snow" 0x50cb}
+	{Tags "snow" 0x50cc}
+	{Tags "snow" 0x50cd}
+	{Tags "snow" 0x50ce}
+	{Tags "snow" 0x50cf}
+	{Tags "snow" 0x50d0}
+	{Tags "snow" 0x50d1}
+	{Tags "snow" 0x50d2}
+	{Tags "snow" 0x50d3}
+	{Tags "snow" 0x50d4}
+	{Tags "snow" 0x50d5}
+	{Tags "snow" 0x50d6}
+	{Tags "snow" 0x50d7}
+	{Tags "snow" 0x50d8}
+	{Tags "snow" 0x50d9}
+	{Tags "snow" 0x50da}
+	{Tags "snow" 0x50db}
+	{Tags "snow" 0x50dc}
+	{Tags "snow" 0x50dd}
+	{Tags "snow" 0x50de}
+	{Tags "snow" 0x50df}
+	{Tags "snow" 0x50e0}
+	{Tags "snow" 0x50e1}
+	{Tags "snow" 0x50e2}
+	{Tags "snow" 0x3044}
+	{Tags "snow" 0x3045}
+	{Tags "snow" 0x3046}
+	{Tags "snow" 0x3047}
+	{Tags "snow" 0x3048}
+	{Tags "snow" 0x3049}
+	{Tags "snow" 0x304a}
+	{Tags "snow" 0x304b}
+	{Tags "snow" 0x7164}
+	{Tags "snow" 0x7165}
+	{Tags "snow" 0x7166}
+	{Tags "snow" 0x7167}
+	{Tags "snow" 0x7168}
+	{Tags "snow" 0x7169}
+	{Tags "snow" 0x716a}
+	{Tags "snow" 0x716b}
+	{Tags "snow" 0x716c}
+	{Tags "snow" 0x716d}
+	{Tags "snow" 0x716e}
+	{Tags "snow" 0x716f}
+	{Tags "snow" 0x7170}
+	{Tags "snow" 0x7171}
+	{Tags "snow" 0x7172}
+	{Tags "snow" 0x7173}
+	{Tags "snow" 0x7174}
+	{Tags "snow" 0x7175}
+	{Tags "snow" 0x7176}
+	{Tags "snow" 0x7177}
+	{Tags "snow" 0x7178}
+	{Tags "snow" 0x7179}
+	{Tags "snow" 0x717a}
+	{Tags "snow" 0x717b}
+	{Tags "snow" 0x717c}
+	{Tags "snow" 0x1401}
+	{Tags "snow" 0x1402}
+	{Tags "snow" 0x1403}
+	{Tags "snow" 0x1404}
+	{Tags "snow" 0x1405}
+	{Tags "snow" 0x1406}
+	{Tags "snow" 0x1407}
+	{Tags "snow" 0x1408}
+	{Tags "snow" 0x1409}
+	{Tags "snow" 0x140a}
+	{Tags "snow" 0x140f}
+	{Tags "snow" 0x1410}
+	{Tags "snow" 0x1411}
+	{Tags "snow" 0x1412}
+	{Tags "snow" 0x1417}
+	{Tags "snow" 0x1418}
+	{Tags "snow" 0x1419}
+	{Tags "snow" 0x141a}
+	{Tags "snow" 0x141f}
+	{Tags "snow" 0x1420}
+	{Tags "snow" 0x1421}
+	{Tags "snow" 0x1422}
+	{Tags "snow" 0x1427}
+	{Tags "snow" 0x1428}
+	{Tags "snow" 0x1429}
+	{Tags "snow" 0x142a}
+	{Tags "snow" 0x142f}
+	{Tags "snow" 0x1430}
+	{Tags "snow" 0x1431}
+	{Tags "snow" 0x1432}
+	{Tags "snow" 0x1437}
+	{Tags "snow" 0x1438}
+	{Tags "snow" 0x1439}
+	{Tags "snow" 0x143a}
+	{Tags "snow" 0x143f}
+	{Tags "snow" 0x1440}
+	{Tags "snow" 0x1441}
+	{Tags "snow" 0x1442}
+	{Tags "snow" 0x1447}
+	{Tags "snow" 0x1448}
+	{Tags "snow" 0x1449}
+	{Tags "snow" 0x144a}
+	{Tags "snow" 0x144f}
+	{Tags "snow" 0x1450}
+	{Tags "snow" 0x1451}
+	{Tags "snow" 0x1452}
+	{Tags "snow" 0x1457}
+	{Tags "snow" 0x1458}
+	{Tags "snow" 0x1459}
+	{Tags "snow" 0x145a}
+	{Tags "snow" 0x145f}
+	{Tags "snow" 0x1460}
+	{Tags "snow" 0x1461}
+	{Tags "snow" 0x1462}
+	{Tags "snow" 0x1467}
+	{Tags "snow" 0x1468}
+	{Tags "snow" 0x1469}
+	{Tags "snow" 0x146a}
+	{Tags "snow" 0x146f}
+	{Tags "snow" 0x1470}
+	{Tags "snow" 0x1471}
+	{Tags "snow" 0x1472}
+	{Tags "snow" 0x1477}
+	{Tags "snow" 0x1478}
+	{Tags "snow" 0x1479}
+	{Tags "snow" 0x147a}
+	{Tags "snow" 0x147f}
+	{Tags "snow" 0x1480}
+	{Tags "snow" 0x1481}
+	{Tags "snow" 0x1482}
+	{Tags "snow" 0x1487}
+	{Tags "snow" 0x1488}
+	{Tags "snow" 0x1489}
+	{Tags "snow" 0x148a}
+	{Tags "snow" 0x148f}
+	{Tags "snow" 0x1490}
+	{Tags "snow" 0x1491}
+	{Tags "snow" 0x1492}
+	{Tags "snow" 0x1497}
+	{Tags "snow" 0x1498}
+	{Tags "snow" 0x1499}
+	{Tags "snow" 0x149a}
+	{Tags "snow" 0x149f}
+	{Tags "snow" 0x14a0}
+	{Tags "snow" 0x14a1}
+	{Tags "snow" 0x14a2}
+	{Tags "snow" 0x14a7}
+	{Tags "snow" 0x14a8}
+	{Tags "snow" 0x4401}
+	{Tags "snow" 0x4406}
+	{Tags "snow" 0x4407}
+	{Tags "snow" 0x4408}
+	{Tags "snow" 0x4409}
+	{Tags "snow" 0x440a}
+	{Tags "snow" 0x440b}
+	{Tags "snow" 0x440c}
+	{Tags "snow" 0x440d}
+	{Tags "snow" 0x440e}
+	{Tags "snow" 0x440f}
+	{Tags "snow" 0x4410}
+	{Tags "snow" 0x4411}
+	{Tags "snow" 0x4412}
+	{Tags "snow" 0x4413}
+	{Tags "snow" 0x4414}
+	{Tags "snow" 0x4415}
+	{Tags "snow" 0x4416}
+	{Tags "snow" 0x4417}
+	{Tags "snow" 0x4418}
+	{Tags "snow" 0x4419}
+	{Tags "snow" 0x441a}
+	{Tags "switch_right" 0x70e}
+	{Tags "switch_right" 0x44ff}
+	{Tags "switch_left" 0x4551}
+	{Tags "switch_right" 0x4552}
+	{Tags "switch_right" 0x4553}
+	{Tags "switch_right" 0x456c}
+	{Tags "switch_right" 0x4591}
+	{Tags "switch_right" 0x4595}
+	{Tags "switch_right" 0xb4d}
+	{Tags "foxhole_spawned" 0x155b}
+	{Tags "foxhole_spawned" 0x155c}
+	{Tags "foxhole_spawned" 0x155d}
+	{Tags "foxhole_spawned" 0x155e}
+	{Tags "foxhole_spawned" 0x155f}
+	{Tags "foxhole_spawned" 0x1560}
+	{Tags "snow" 0x15fa}
+	{Tags "snow" 0x15fb}
+	{Tags "snow" 0x15fc}
+	{Tags "snow" 0x1605}
+	{Tags "snow" 0x1606}
+	{Tags "snow" 0x1607}
+	{Tags "snow" 0x1610}
+	{Tags "snow" 0x1611}
+	{Tags "snow" 0x1612}
+	{Tags "snow" 0x161b}
+	{Tags "snow" 0x161c}
+	{Tags "snow" 0x161d}
+	{Tags "snow" 0x1626}
+	{Tags "snow" 0x1627}
+	{Tags "snow" 0x1628}
+	{Tags "snow" 0x1631}
+	{Tags "snow" 0x1632}
+	{Tags "snow" 0x1633}
+	{Tags "snow" 0x163c}
+	{Tags "snow" 0x163d}
+	{Tags "snow" 0x163e}
+	{Tags "snow" 0x1647}
+	{Tags "snow" 0x1648}
+	{Tags "snow" 0x1649}
+	{Tags "snow" 0x1652}
+	{Tags "snow" 0x1653}
+	{Tags "snow" 0x1654}
+	{Tags "snow" 0x165d}
+	{Tags "snow" 0x165e}
+	{Tags "snow" 0x165f}
+	{Tags "snow" 0x1668}
+	{Tags "snow" 0x1669}
+	{Tags "snow" 0x166a}
+	{Tags "snow" 0x1673}
+	{Tags "snow" 0x1674}
+	{Tags "snow" 0x1675}
+	{Tags "snow" 0x167e}
+	{Tags "snow" 0x167f}
+	{Tags "snow" 0x1680}
+	{Tags "snow" 0x1689}
+	{Tags "snow" 0x168a}
+	{Tags "snow" 0x168b}
+	{Tags "snow" 0x1694}
+	{Tags "snow" 0x1695}
+	{Tags "snow" 0x1696}
+	{Tags "snow" 0x169f}
+	{Tags "snow" 0x16a0}
+	{Tags "snow" 0x16a1}
+	{Tags "snow" 0x16aa}
+	{Tags "snow" 0x16ab}
+	{Tags "snow" 0x16ac}
+	{Tags "snow" 0x16b5}
+	{Tags "snow" 0x16b6}
+	{Tags "snow" 0x16b7}
+	{Tags "snow" 0x16c0}
+	{Tags "snow" 0x16c1}
+	{Tags "snow" 0x16c2}
+	{Tags "snow" 0x16cb}
+	{Tags "snow" 0x16cc}
+	{Tags "snow" 0x16cd}
+	{Tags "snow" 0x16d6}
+	{Tags "snow" 0x16d7}
+	{Tags "snow" 0x16d8}
+	{Tags "snow" 0x16e1}
+	{Tags "snow" 0x16e2}
+	{Tags "snow" 0x16e3}
+	{Tags "snow" 0x16ec}
+	{Tags "snow" 0x16ed}
+	{Tags "snow" 0x16ee}
+	{Tags "snow" 0x16f7}
+	{Tags "snow" 0x16f8}
+	{Tags "snow" 0x16f9}
+	{Tags "snow" 0x1702}
+	{Tags "snow" 0x1703}
+	{Tags "snow" 0x1704}
+	{Tags "snow" 0x170d}
+	{Tags "snow" 0x170e}
+	{Tags "snow" 0x170f}
+	{Tags "snow" 0x1718}
+	{Tags "snow" 0x1719}
+	{Tags "snow" 0x171a}
+	{Tags "snow" 0x1723}
+	{Tags "snow" 0x1724}
+	{Tags "snow" 0x1725}
+	{Tags "snow" 0x172e}
+	{Tags "snow" 0x172f}
+	{Tags "snow" 0x1730}
+	{Tags "snow" 0x1739}
+	{Tags "snow" 0x173a}
+	{Tags "snow" 0x173b}
+	{Tags "snow" 0x1744}
+	{Tags "snow" 0x1745}
+	{Tags "snow" 0x1746}
+	{Tags "snow" 0x174f}
+	{Tags "snow" 0x1750}
+	{Tags "snow" 0x1751}
+	{Tags "snow" 0x175a}
+	{Tags "snow" 0x175b}
+	{Tags "snow" 0x175c}
+	{Tags "snow" 0x1765}
+	{Tags "snow" 0x1766}
+	{Tags "snow" 0x1767}
+	{Tags "snow" 0x1770}
+	{Tags "snow" 0x1771}
+	{Tags "snow" 0x1772}
+	{Tags "snow" 0x177b}
+	{Tags "snow" 0x177c}
+	{Tags "snow" 0x177d}
+	{Tags "snow" 0x1786}
+	{Tags "snow" 0x1787}
+	{Tags "snow" 0x1788}
+	{Tags "snow" 0x1791}
+	{Tags "snow" 0x1792}
+	{Tags "snow" 0x1793}
+	{Tags "snow" 0x179c}
+	{Tags "snow" 0x179d}
+	{Tags "snow" 0x17a7}
+	{Tags "snow" 0x17a8}
+	{Tags "snow" 0x17b2}
+	{Tags "snow" 0x17b3}
+	{Tags "snow" 0x17b4}
+	{Tags "snow" 0x17bd}
+	{Tags "snow" 0x17be}
+	{Tags "snow" 0x17bf}
+	{Tags "snow" 0x17c8}
+	{Tags "snow" 0x17c9}
+	{Tags "snow" 0x17ca}
+	{Tags "snow" 0x17d3}
+	{Tags "snow" 0x17d4}
+	{Tags "snow" 0x17d5}
+	{Tags "snow" 0x17de}
+	{Tags "snow" 0x17df}
+	{Tags "snow" 0x17e0}
+	{Tags "snow" 0x17e9}
+	{Tags "snow" 0x17ea}
+	{Tags "snow" 0x17eb}
+	{Tags "snow" 0x17f4}
+	{Tags "snow" 0x17f5}
+	{Tags "snow" 0x17f6}
+	{Tags "snow" 0x17ff}
+	{Tags "snow" 0x1893}
+	{Tags "snow" 0x1894}
+	{Tags "snow" 0x189d}
+	{Tags "snow" 0x189e}
+	{Tags "snow" 0x189f}
+	{Tags "snow" 0x18a8}
+	{Tags "snow" 0x18a9}
+	{Tags "snow" 0x18aa}
+	{Tags "snow" 0x18b3}
+	{Tags "snow" 0x18b4}
+	{Tags "snow" 0x18b5}
+	{Tags "snow" 0x18be}
+	{Tags "snow" 0x18bf}
+	{Tags "snow" 0x18c0}
+	{Tags "snow" 0x18c9}
+	{Tags "snow" 0x18ca}
+	{Tags "snow" 0x18cb}
+	{Tags "snow" 0x18d4}
+	{Tags "snow" 0x18d5}
+	{Tags "snow" 0x18d6}
+	{Tags "snow" 0x18df}
+	{Tags "snow" 0x18e0}
+	{Tags "snow" 0x18e1}
+	{Tags "snow" 0x18ea}
+	{Tags "snow" 0x18eb}
+	{Tags "snow" 0x18ec}
+	{Tags "snow" 0x18f5}
+	{Tags "snow" 0x18f6}
+	{Tags "snow" 0x18f7}
+	{Tags "snow" 0x1900}
+	{Tags "snow" 0x1901}
+	{Tags "snow" 0x1902}
+	{Tags "snow" 0x190b}
+	{Tags "snow" 0x190c}
+	{Tags "snow" 0x190d}
+	{Tags "snow" 0x1916}
+	{Tags "snow" 0x1917}
+	{Tags "snow" 0x1918}
+	{Tags "snow" 0x1921}
+	{Tags "snow" 0x1922}
+	{Tags "snow" 0x1923}
+	{Tags "snow" 0x192c}
+	{Tags "snow" 0x192d}
+	{Tags "snow" 0x192e}
+	{Tags "snow" 0x1937}
+	{Tags "snow" 0x1938}
+	{Tags "snow" 0x1939}
+	{Tags "snow" 0x1942}
+	{Tags "snow" 0x1943}
+	{Tags "snow" 0x1944}
+	{Tags "snow" 0x194d}
+	{Tags "snow" 0x194e}
+	{Tags "snow" 0x194f}
+	{Tags "snow" 0x1958}
+	{Tags "snow" 0x1959}
+	{Tags "snow" 0x195a}
+	{Tags "snow" 0x1963}
+	{Tags "snow" 0x1964}
+	{Tags "snow" 0x1965}
+	{Tags "snow" 0x196e}
+	{Tags "snow" 0x196f}
+	{Tags "snow" 0x1970}
+	{Tags "snow" 0x1979}
+	{Tags "snow" 0x197a}
+	{Tags "snow" 0x197b}
+	{Tags "snow" 0x1984}
+	{Tags "snow" 0x1985}
+	{Tags "snow" 0x1986}
+	{Tags "snow" 0x198f}
+	{Tags "snow" 0x1990}
+	{Tags "snow" 0x1991}
+	{Tags "snow" 0x199a}
+	{Tags "snow" 0x199b}
+	{Tags "snow" 0x199c}
+	{Tags "snow" 0x19a5}
+	{Tags "snow" 0x19a6}
+	{Tags "snow" 0x19a7}
+	{Tags "snow" 0x19b0}
+	{Tags "snow" 0x19b1}
+	{Tags "snow" 0x19b2}
+	{Tags "snow" 0x19bb}
+	{Tags "snow" 0x19bc}
+	{Tags "snow" 0x19bd}
+	{Tags "snow" 0x19c6}
+	{Tags "snow" 0x19c7}
+	{Tags "snow" 0x19c8}
+	{Tags "snow" 0x19d1}
+	{Tags "snow" 0x19d2}
+	{Tags "snow" 0x19d3}
+	{Tags "snow" 0x19dc}
+	{Tags "snow" 0x19dd}
+	{Tags "snow" 0x19de}
+	{Tags "snow" 0x19e7}
+	{Tags "snow" 0x19e8}
+	{Tags "snow" 0x19e9}
+	{Tags "snow" 0x19f2}
+	{Tags "snow" 0x19f3}
+	{Tags "snow" 0x19f4}
+	{Tags "snow" 0x19fd}
+	{Tags "snow" 0x19fe}
+	{Tags "snow" 0x19ff}
+	{Tags "snow" 0x1a08}
+	{Tags "snow" 0x1a09}
+	{Tags "snow" 0x1a0a}
+	{Tags "snow" 0x1a13}
+	{Tags "snow" 0x1a14}
+	{Tags "snow" 0x1a15}
+	{Tags "snow" 0x1a1e}
+	{Tags "snow" 0x1a1f}
+	{Tags "snow" 0x1a20}
+	{Tags "snow" 0x1a29}
+	{Tags "snow" 0x1a2a}
+	{Tags "snow" 0x1a2b}
+	{Tags "snow" 0x1a34}
+	{Tags "snow" 0x1a35}
+	{Tags "snow" 0x1a36}
+	{Tags "snow" 0x1a3f}
+	{Tags "snow" 0x1a40}
+	{Tags "snow" 0x1a41}
+	{Tags "snow" 0x1a4a}
+	{Tags "snow" 0x1a4b}
+	{Tags "snow" 0x1a4c}
+	{Tags "snow" 0x1a55}
+	{Tags "snow" 0x1a56}
+	{Tags "snow" 0x1a57}
+	{Tags "snow" 0x1a60}
+	{Tags "snow" 0x1a61}
+	{Tags "snow" 0x1a62}
+	{Tags "snow" 0x1a6b}
+	{Tags "snow" 0x1a6c}
+	{Tags "snow" 0x1a6d}
+	{Tags "snow" 0x1a76}
+	{Tags "snow" 0x1a77}
+	{Tags "snow" 0x1a78}
+	{Tags "snow" 0x1a81}
+	{Tags "snow" 0x1a82}
+	{Tags "snow" 0x1a83}
+	{Tags "snow" 0x1a8c}
+	{Tags "snow" 0x1a8d}
+	{Tags "snow" 0x1a8e}
+	{Tags "snow" 0x1a97}
+	{Tags "snow" 0x1a98}
+	{Tags "snow" 0x1a99}
+	{Tags "snow" 0x1aa2}
+	{Tags "snow" 0x1aa3}
+	{Tags "snow" 0x1aa4}
+	{Tags "snow" 0x1aad}
+	{Tags "snow" 0x1aae}
+	{Tags "snow" 0x1aaf}
+	{Tags "snow" 0x1ab8}
+	{Tags "snow" 0x1ab9}
+	{Tags "snow" 0x1aba}
+	{Tags "snow" 0x1ac3}
+	{Tags "snow" 0x1ac4}
+	{Tags "snow" 0x1ac5}
+	{Tags "snow" 0x1ace}
+	{Tags "snow" 0x1acf}
+	{Tags "snow" 0x1ad0}
+	{Tags "snow" 0x1ad9}
+	{Tags "snow" 0x1ada}
+	{Tags "snow" 0x1adb}
+	{Tags "snow" 0x1ae4}
+	{Tags "snow" 0x1ae5}
+	{Tags "snow" 0x1ae6}
+	{Tags "snow" 0x1aef}
+	{Tags "snow" 0x1af0}
+	{Tags "snow" 0x1af1}
+	{Tags "snow" 0x1afa}
+	{Tags "snow" 0x1afb}
+	{Tags "snow" 0x1afc}
+	{Tags "snow" 0x1b05}
+	{Tags "snow" 0x1b06}
+	{Tags "snow" 0x1b07}
+	{Tags "snow" 0x1b10}
+	{Tags "snow" 0x1b11}
+	{Tags "snow" 0x1b12}
+	{Tags "snow" 0x1b1b}
+	{Tags "snow" 0x1b1c}
+	{Tags "snow" 0x1b1d}
+	{Tags "snow" 0x1b26}
+	{Tags "snow" 0x1b27}
+	{Tags "snow" 0x1b28}
+	{Tags "snow" 0x1b31}
+	{Tags "snow" 0x1b32}
+	{Tags "snow" 0x1b33}
+	{Tags "snow" 0x1b3c}
+	{Tags "snow" 0x1b3d}
+	{Tags "snow" 0x1b3e}
+	{Tags "snow" 0x1b47}
+	{Tags "snow" 0x1b48}
+	{Tags "snow" 0x1b49}
+	{Tags "snow" 0x1b52}
+	{Tags "snow" 0x1b53}
+	{Tags "snow" 0x1b54}
+	{Tags "snow" 0x1b5d}
+	{Tags "snow" 0x1b5e}
+	{Tags "snow" 0x1b5f}
+	{Tags "snow" 0x1b68}
+	{Tags "snow" 0x1b69}
+	{Tags "snow" 0x1b6a}
+	{Tags "snow" 0x1b73}
+	{Tags "snow" 0x1b74}
+	{Tags "snow" 0x1b75}
+	{Tags "snow" 0x1b7e}
+	{Tags "snow" 0x1b7f}
+	{Tags "snow" 0x1b80}
+	{Tags "snow" 0x1b89}
+	{Tags "snow" 0x1b8a}
+	{Tags "snow" 0x1b8b}
+	{Tags "snow" 0x1b94}
+	{Tags "snow" 0x1b95}
+	{Tags "snow" 0x1b96}
+	{Tags "snow" 0x1b9f}
+	{Tags "snow" 0x1ba0}
+	{Tags "snow" 0x1ba1}
+	{Tags "snow" 0x1baa}
+	{Tags "snow" 0x1bab}
+	{Tags "snow" 0x1bac}
+	{Tags "snow" 0x1bb5}
+	{Tags "snow" 0x1bb6}
+	{Tags "snow" 0x1bb7}
+	{Tags "snow" 0x1bc0}
+	{Tags "snow" 0x1bc1}
+	{Tags "snow" 0x1bc2}
+	{Tags "snow" 0x1bcb}
+	{Tags "snow" 0x1bcc}
+	{Tags "snow" 0x1bcd}
+	{Tags "snow" 0x1bd6}
+	{Tags "snow" 0x1bd7}
+	{Tags "snow" 0x1bd8}
+	{Tags "snow" 0x1be1}
+	{Tags "snow" 0x1be2}
+	{Tags "snow" 0x1be3}
+	{Tags "snow" 0x1bec}
+	{Tags "snow" 0x1bed}
+	{Tags "snow" 0x1bee}
+	{Tags "snow" 0x1bf7}
+	{Tags "snow" 0x1bf8}
+	{Tags "snow" 0x1bf9}
+	{Tags "snow" 0x1c02}
+	{Tags "snow" 0x1c03}
+	{Tags "snow" 0x1c04}
+	{Tags "snow" 0x1c0d}
+	{Tags "snow" 0x1c0e}
+	{Tags "snow" 0x1c0f}
+	{Tags "snow" 0x1c18}
+	{Tags "snow" 0x1c19}
+	{Tags "snow" 0x1c1a}
+	{Tags "snow" 0x1c23}
+	{Tags "snow" 0x1c24}
+	{Tags "snow" 0x1c25}
+	{Tags "snow" 0x1c2e}
+	{Tags "snow" 0x1c39}
+	{Tags "snow" 0x1c3a}
+	{Tags "snow" 0x1c3b}
+	{Tags "snow" 0x1c44}
+	{Tags "snow" 0x1c45}
+	{Tags "snow" 0x1c46}
+	{Tags "snow" 0x1c4f}
+	{Tags "snow" 0x1c50}
+	{Tags "snow" 0x1c51}
+	{Tags "snow" 0x1c5a}
+	{Tags "snow" 0x1c5b}
+	{Tags "snow" 0x1c5c}
+	{Tags "flag" 0x802f}
+	{Tags "flag" 0x8011}
+	{Tags "flag" 0x8013}
+	{Tags "flag" 0x8003}
+	{Tags "flag" 0x8004}
+	{Tags "flag" "base_a" 0xe002}
+	{Tags "flag" "base_b" 0xa000}
+	{Tags "flag" 0xa001}
+	{Tags "flag" 0xa003}
+	{Tags "flag" 0xa005}
+	{Tags "flag" 0xa007}
+	{Tags "flag" 0xa009}
+	{Environment "goh/multi/01_finland_winter/var1"}
+	{Helpers
+		(include "../am_events.inc")
+		{zone "poly"
+			{position -2192.66 3926.55 76.9195}
+			{Name "base_a"}
+			{Point -46.2834 -536.013}
+			{Point -353.684 -421.264}
+			{Point -630.772 -152.775}
+			{Point -505.535 412.238}
+			{Point -60.6904 717.395}
+			{Point 481.156 607.027}
+			{Point 754.331 -107.211}
+			{Point 361.478 -519.396}
+		}
+		{zone "poly"
+			{position 897.396 -2916.12 105}
+			{Name "base_b"}
+			{Point 240.79 -847.782}
+			{Point -432.386 -508.635}
+			{Point -705.21 -65.5418}
+			{Point -412.525 466.544}
+			{Point 10.4603 667.425}
+			{Point 494.493 492.425}
+			{Point 804.378 -204.437}
+		}
+		{zone "poly"
+			{position 269.726 -682.027 83}
+			{Name "f1"}
+			{Point 186.387 -392.558}
+			{Point -432.887 -68.9446}
+			{Point -187.904 385.035}
+			{Point 434.405 76.4676}
+		}
+		{zone "poly"
+			{position -3198.1 265.963 50.098}
+			{Name "f10"}
+			{Point 100.07 -709.017}
+			{Point -506.119 -797.34}
+			{Point -690.325 70.9905}
+			{Point -525.33 293.141}
+			{Point -188.086 482.1}
+			{Point 117.01 473.502}
+			{Point 461.764 381.092}
+			{Point 666.642 90.5486}
+			{Point 564.373 -285.016}
+		}
+		{zone "poly"
+			{position -965.822 88.4393 82}
+			{Name "f2"}
+			{Point -146.739 651.246}
+			{Point 680.315 143.59}
+			{Point 104.229 -634.617}
+			{Point -637.805 -160.22}
+		}
+		{zone "poly"
+			{position 4232.51 190.422 117}
+			{Name "f3"}
+			{Point 221.383 523.96}
+			{Point 698.177 -138.662}
+			{Point -519.164 -861.338}
+			{Point -400.396 476.04}
+		}
+		{zone "poly"
+			{position -266.055 -309.967 102.851}
+			{Name "f4"}
+			{Point -476.273 -182.877}
+			{Point 0.514891 464.479}
+			{Point 416.397 186.193}
+			{Point 59.3611 -467.794}
+		}
+		{zone "poly"
+			{position 1080.79 -987.914 83}
+			{Name "f5"}
+			{Point 422.323 255.691}
+			{Point 375.619 -19.7447}
+			{Point 213.654 -252.947}
+			{Point 13.8016 -387.717}
+			{Point -255.716 -410.308}
+			{Point -685.551 -203.37}
+			{Point -258.268 515.216}
+			{Point 174.139 503.18}
+		}
+		{zone "poly"
+			{position 2219.05 110.937 97}
+			{Name "f6"}
+			{Point -220.445 -364.271}
+			{Point -443.418 -74.0613}
+			{Point -402.672 398.435}
+			{Point 557.612 314.647}
+			{Point 508.924 -274.75}
+		}
+		{zone "poly"
+			{position -2520.49 -773.764 109}
+			{Name "f7"}
+			{Point -457.434 373.015}
+			{Point 412.19 443.009}
+			{Point 443.093 -379.662}
+			{Point -397.849 -436.363}
+		}
+		{zone "poly"
+			{position -4648.59 -248.628 30}
+			{Name "f8"}
+			{Point -39.1015 -687.664}
+			{Point -524.02 -510.691}
+			{Point -513.807 545.225}
+			{Point -6.00137 643.619}
+			{Point 525.921 461.55}
+			{Point 557.009 -452.039}
+		}
+		{zone "poly"
+			{position 3246.95 -395.207 105}
+			{Name "f9"}
+			{Point 386.464 -695.309}
+			{Point -504.77 -542.69}
+			{Point -406.571 642.374}
+			{Point 524.876 595.625}
+		}
+		{zone "poly"
+			{position -5.63135 37.3458 83}
+			{Name "global"}
+			{Point -5976.27 -5990.51}
+			{Point -5966.2 5932.68}
+			{Point 5964.08 5949.89}
+			{Point 5978.38 -5892.05}
+		}
+		{reinforcements
+			{scoreTotal 0}
+			{scoreCurrent 0}
+		}
+		{vars
+			(include "../am_vars.inc")
+		}
+		{mission_options
+			{"any_weather"}
+			{"day_weather"}
+			{"night_weather"}
+		}
+		{triggers
+			(include "../am_triggers.inc")
+			{"start"
+				{condition
+				}
+				{actions
+					{"delay"
+						{time 0.1}
+					}
+					{"event"
+						{event "gamestart"}
+						{mode set}
+						{delay 0}
+					}
+					{"delay"
+						{time 0.1}
+					}
+					{"event"
+						{event "ambient"}
+						{mode set}
+						{delay 0}
+					}
+				}
+			}
+			{"music_new/action_playlist/action_theme_3"
+				{condition
+					{terms
+						{"1.event"
+							{id "disabled"}
+						}
+					}
+				}
+				{actions
+					{"delay"
+						{time 0.1}
+					}
+					{"music"
+						{start "/music/action_theme_3.wav"}
+						{volume game}
+						{fade 5}
+					}
+					{"delay"
+						{time 1}
+					}
+					{"trigger"
+						{name "music_new/action_playlist/action_theme_3"}
+					}
+				}
+			}
+			{"music_new/ambient_selection"
+				{condition
+					{expression "1 & (2|3)"}
+					{terms
+						{"1.event"
+							{id "gamestart"}
+						}
+						{"2.event"
+							{id "ambient"}
+						}
+						{"3.cmp_i"
+							{var "ambient$"}
+							{op ">="}
+							{value 20}
+						}
+					}
+				}
+				{actions
+					{"delay"
+						{time 0.1}
+					}
+					{"event"
+						{event "action"}
+						{mode reset}
+						{delay 0}
+					}
+					{"event"
+						{event "ambient"}
+						{mode set}
+						{delay 0}
+					}
+					{"delay"
+						{time 0.1}
+					}
+					{"trigger"
+						{name "music_new/music_fade"}
+						{on}
+					}
+					{"delay"
+						{time 0.1}
+					}
+					{"set_i"
+						{var "action_selection$"}
+						{op "="}
+						{value 0}
+					}
+					{"set_i"
+						{var "ambient$"}
+						{op "="}
+						{value 0}
+					}
+					{"delay"
+						{time 1}
+					}
+					{"trigger"
+						{name "music_new/action_selection "}
+					}
+					{"delay"
+						{time 0.1}
+					}
+					{"switch"
+						{"case"
+							{condition
+								{type cmp_i}
+								{var "ambient_selection$"}
+								{op "=="}
+								{value 0}
+							}
+							{"switch"
+								{"case"
+									{condition
+										{type rand}
+										{value 0.15}
+									}
+									{"set_i"
+										{var "ambient_selection$"}
+										{op "="}
+										{value 1}
+									}
+								}
+								{"case"
+									{condition
+										{type rand}
+										{value 0.15}
+									}
+									{"set_i"
+										{var "ambient_selection$"}
+										{op "="}
+										{value 2}
+									}
+								}
+								{"case"
+									{condition
+										{type rand}
+										{value 0.3}
+									}
+									{"set_i"
+										{var "ambient_selection$"}
+										{op "="}
+										{value 3}
+									}
+								}
+								{"case"
+									{condition
+										{type rand}
+										{value 0.5}
+									}
+									{"set_i"
+										{var "ambient_selection$"}
+										{op "="}
+										{value 4}
+									}
+								}
+								{"case"
+									{condition
+										{type rand}
+										{value 1}
+									}
+									{"set_i"
+										{var "ambient_selection$"}
+										{op "="}
+										{value 5}
+									}
+								}
+							}
+						}
+						{"case"
+							{condition
+								{type cmp_i}
+								{var "ambient_selection$"}
+								{op "<<"}
+								{value 5}
+							}
+							{"set_i"
+								{var "ambient_selection$"}
+								{op "+"}
+								{value 1}
+							}
+						}
+						{"case"
+							{condition
+								{type cmp_i}
+								{var "ambient_selection$"}
+								{op ">="}
+								{value 5}
+							}
+							{"switch"
+								{"case"
+									{condition
+										{type rand}
+										{value 0.2}
+									}
+									{"set_i"
+										{var "ambient_selection$"}
+										{op "="}
+										{value 1}
+									}
+								}
+								{"case"
+									{condition
+										{type rand}
+										{value 0.2}
+									}
+									{"set_i"
+										{var "ambient_selection$"}
+										{op "="}
+										{value 2}
+									}
+								}
+								{"case"
+									{condition
+										{type rand}
+										{value 0.3}
+									}
+									{"set_i"
+										{var "ambient_selection$"}
+										{op "="}
+										{value 3}
+									}
+								}
+								{"case"
+									{condition
+										{type rand}
+										{value 0.5}
+									}
+									{"set_i"
+										{var "ambient_selection$"}
+										{op "="}
+										{value 4}
+									}
+								}
+								{"case"
+									{condition
+										{type rand}
+										{value 1}
+									}
+									{"set_i"
+										{var "ambient_selection$"}
+										{op "="}
+										{value 5}
+									}
+								}
+							}
+						}
+					}
+					{"switch"
+						{"case"
+							{condition
+								{type cmp_i}
+								{var "ambient_selection$"}
+								{op "=="}
+								{value 1}
+							}
+							{"trigger"
+								{name "music_new/ambient_playlist/ambient_2"}
+								{on}
+							}
+							{"delay"
+								{time 105}
+							}
+							{"switch"
+								{"case"
+									{condition
+										{type cmp_i}
+										{var "ambient_selection$"}
+										{op "=="}
+										{value 1}
+									}
+									{"trigger"
+										{name "music_new/ambient_selection"}
+									}
+								}
+								{"default"}
+							}
+						}
+						{"case"
+							{condition
+								{type cmp_i}
+								{var "ambient_selection$"}
+								{op "=="}
+								{value 2}
+							}
+							{"trigger"
+								{name "music_new/ambient_playlist/ambient_4"}
+								{on}
+							}
+							{"delay"
+								{time 165}
+							}
+							{"switch"
+								{"case"
+									{condition
+										{type cmp_i}
+										{var "ambient_selection$"}
+										{op "=="}
+										{value 2}
+									}
+									{"trigger"
+										{name "music_new/ambient_selection"}
+									}
+								}
+								{"default"}
+							}
+						}
+						{"case"
+							{condition
+								{type cmp_i}
+								{var "ambient_selection$"}
+								{op "=="}
+								{value 3}
+							}
+							{"trigger"
+								{name "music_new/ambient_playlist/fin_ambient_lvl1"}
+								{on}
+							}
+							{"delay"
+								{time 155}
+							}
+							{"switch"
+								{"case"
+									{condition
+										{type cmp_i}
+										{var "ambient_selection$"}
+										{op "=="}
+										{value 3}
+									}
+									{"trigger"
+										{name "music_new/ambient_selection"}
+									}
+								}
+								{"default"}
+							}
+						}
+						{"case"
+							{condition
+								{type cmp_i}
+								{var "ambient_selection$"}
+								{op "=="}
+								{value 4}
+							}
+							{"trigger"
+								{name "music_new/ambient_playlist/fin_ambient_lvl2"}
+								{on}
+							}
+							{"delay"
+								{time 115}
+							}
+							{"switch"
+								{"case"
+									{condition
+										{type cmp_i}
+										{var "ambient_selection$"}
+										{op "=="}
+										{value 4}
+									}
+									{"trigger"
+										{name "music_new/ambient_selection"}
+									}
+								}
+								{"default"}
+							}
+						}
+						{"case"
+							{condition
+								{type cmp_i}
+								{var "ambient_selection$"}
+								{op "=="}
+								{value 5}
+							}
+							{"trigger"
+								{name "music_new/ambient_playlist/fin_ambient_lvl3"}
+								{on}
+							}
+							{"delay"
+								{time 95}
+							}
+							{"switch"
+								{"case"
+									{condition
+										{type cmp_i}
+										{var "ambient_selection$"}
+										{op "=="}
+										{value 5}
+									}
+									{"trigger"
+										{name "music_new/ambient_selection"}
+									}
+								}
+								{"default"}
+							}
+						}
+						{"default"
+							{"trigger"
+								{name "music_new/ambient_selection"}
+							}
+						}
+					}
+				}
+			}
+			{"music_new/silent_timer"
+				{condition
+					{expression "1 & 2 & !3"}
+					{terms
+						{"1.event"
+							{id "gamestart"}
+						}
+						{"2.event"
+							{id "action"}
+						}
+						{"3.event"
+							{id "ambient"}
+						}
+					}
+				}
+				{actions
+					{"delay"
+						{time 4}
+					}
+					{"set_i"
+						{var "ambient$"}
+						{op "+"}
+						{value 4}
+					}
+					{"delay"
+						{time 0.1}
+					}
+					{"trigger"
+						{name "music_new/silent_timer"}
+					}
+				}
+			}
+			{"music_new/ambient_playlist/ambient_2"
+				{condition
+					{terms
+						{"1.event"
+							{id "disabled"}
+						}
+					}
+				}
+				{actions
+					{"delay"
+						{time 0.1}
+					}
+					{"music"
+						{start "/music/ambient_2.wav"}
+						{stop_all}
+						{volume game}
+						{fade 5}
+					}
+					{"delay"
+						{time 1}
+					}
+					{"trigger"
+						{name "music_new/ambient_playlist/ambient_2"}
+					}
+				}
+			}
+			{"music_new/ambient_playlist/ambient_4"
+				{condition
+					{terms
+						{"1.event"
+							{id "disabled"}
+						}
+					}
+				}
+				{actions
+					{"delay"
+						{time 0.1}
+					}
+					{"music"
+						{start "/music/ambient_4.wav"}
+						{volume game}
+						{fade 5}
+					}
+					{"delay"
+						{time 1}
+					}
+					{"trigger"
+						{name "music_new/ambient_playlist/ambient_4"}
+					}
+				}
+			}
+			{"music_new/action_selection "
+				{condition
+					{expression "1 & (2|3)"}
+					{terms
+						{"1.event"
+							{id "gamestart"}
+						}
+						{"2.event"
+							{id "action"}
+						}
+						{"3.signal"
+							{zone "global"}
+							{signals "shot injure explosion"}
+						}
+					}
+				}
+				{actions
+					{"delay"
+						{time 0.1}
+					}
+					{"event"
+						{event "ambient"}
+						{mode reset}
+						{delay 0}
+					}
+					{"event"
+						{event "action"}
+						{mode set}
+						{delay 0}
+					}
+					{"delay"
+						{time 0.1}
+					}
+					{"trigger"
+						{name "music_new/music_fade"}
+						{on}
+					}
+					{"delay"
+						{time 0.1}
+					}
+					{"set_i"
+						{var "ambient_selection$"}
+						{op "="}
+						{value 0}
+					}
+					{"delay"
+						{time 1}
+					}
+					{"trigger"
+						{name "music_new/ambient_selection"}
+					}
+					{"delay"
+						{time 0.1}
+					}
+					{"switch"
+						{"case"
+							{condition
+								{type cmp_i}
+								{var "action_selection$"}
+								{op "=="}
+								{value 0}
+							}
+							{"switch"
+								{"case"
+									{condition
+										{type rand}
+										{value 0.25}
+									}
+									{"set_i"
+										{var "action_selection$"}
+										{op "="}
+										{value 1}
+									}
+								}
+								{"case"
+									{condition
+										{type rand}
+										{value 0.3}
+									}
+									{"set_i"
+										{var "action_selection$"}
+										{op "="}
+										{value 2}
+									}
+								}
+								{"case"
+									{condition
+										{type rand}
+										{value 0.5}
+									}
+									{"set_i"
+										{var "action_selection$"}
+										{op "="}
+										{value 3}
+									}
+								}
+								{"case"
+									{condition
+										{type rand}
+										{value 1}
+									}
+									{"set_i"
+										{var "action_selection$"}
+										{op "="}
+										{value 4}
+									}
+								}
+							}
+						}
+						{"case"
+							{condition
+								{type cmp_i}
+								{var "action_selection$"}
+								{op "<<"}
+								{value 4}
+							}
+							{"set_i"
+								{var "action_selection$"}
+								{op "+"}
+								{value 1}
+							}
+						}
+						{"case"
+							{condition
+								{type cmp_i}
+								{var "action_selection$"}
+								{op ">="}
+								{value 4}
+							}
+							{"switch"
+								{"case"
+									{condition
+										{type rand}
+										{value 0.3}
+									}
+									{"set_i"
+										{var "action_selection$"}
+										{op "="}
+										{value 1}
+									}
+								}
+								{"case"
+									{condition
+										{type rand}
+										{value 0.25}
+									}
+									{"set_i"
+										{var "action_selection$"}
+										{op "="}
+										{value 2}
+									}
+								}
+								{"case"
+									{condition
+										{type rand}
+										{value 0.5}
+									}
+									{"set_i"
+										{var "action_selection$"}
+										{op "="}
+										{value 3}
+									}
+								}
+								{"case"
+									{condition
+										{type rand}
+										{value 1}
+									}
+									{"set_i"
+										{var "action_selection$"}
+										{op "="}
+										{value 4}
+									}
+								}
+							}
+						}
+					}
+					{"switch"
+						{"case"
+							{condition
+								{type cmp_i}
+								{var "action_selection$"}
+								{op "=="}
+								{value 1}
+							}
+							{"trigger"
+								{name "music_new/action_playlist/action_theme_3"}
+								{on}
+							}
+							{"delay"
+								{time 170}
+							}
+							{"switch"
+								{"case"
+									{condition
+										{type cmp_i}
+										{var "action_selection$"}
+										{op "=="}
+										{value 1}
+									}
+									{"trigger"
+										{name "music_new/action_selection "}
+									}
+								}
+								{"default"}
+							}
+						}
+						{"case"
+							{condition
+								{type cmp_i}
+								{var "action_selection$"}
+								{op "=="}
+								{value 2}
+							}
+							{"trigger"
+								{name "music_new/action_playlist/fin_battle_lvl1"}
+								{on}
+							}
+							{"delay"
+								{time 180}
+							}
+							{"switch"
+								{"case"
+									{condition
+										{type cmp_i}
+										{var "action_selection$"}
+										{op "=="}
+										{value 2}
+									}
+									{"trigger"
+										{name "music_new/action_selection "}
+									}
+								}
+								{"default"}
+							}
+						}
+						{"case"
+							{condition
+								{type cmp_i}
+								{var "action_selection$"}
+								{op "=="}
+								{value 3}
+							}
+							{"trigger"
+								{name "music_new/action_playlist/fin_battle_lvl2"}
+								{on}
+							}
+							{"delay"
+								{time 95}
+							}
+							{"switch"
+								{"case"
+									{condition
+										{type cmp_i}
+										{var "action_selection$"}
+										{op "=="}
+										{value 3}
+									}
+									{"trigger"
+										{name "music_new/action_selection "}
+									}
+								}
+								{"default"}
+							}
+						}
+						{"case"
+							{condition
+								{type cmp_i}
+								{var "action_selection$"}
+								{op "=="}
+								{value 4}
+							}
+							{"trigger"
+								{name "music_new/action_playlist/fin_battle_lvl3"}
+								{on}
+							}
+							{"delay"
+								{time 300}
+							}
+							{"switch"
+								{"case"
+									{condition
+										{type cmp_i}
+										{var "action_selection$"}
+										{op "=="}
+										{value 4}
+									}
+									{"trigger"
+										{name "music_new/action_selection "}
+									}
+								}
+							}
+						}
+						{"default"
+							{"trigger"
+								{name "music_new/action_selection "}
+							}
+						}
+					}
+				}
+			}
+			{"music_new/music_fade"
+				{condition
+					{terms
+						{"1.event"
+							{id "disabled"}
+						}
+					}
+				}
+				{actions
+					{"delay"
+						{time 0.1}
+					}
+					{"music"
+						{stop "/music/action_theme_3.wav"}
+						{volume game}
+						{fade 5}
+					}
+					{"delay"
+						{time 0.01}
+					}
+					{"music"
+						{stop "/music/fin_battle_lvl1.wav"}
+						{volume game}
+						{fade 5}
+					}
+					{"delay"
+						{time 0.01}
+					}
+					{"music"
+						{stop "/music/fin_battle_lvl2.wav"}
+						{volume game}
+						{fade 5}
+					}
+					{"delay"
+						{time 0.01}
+					}
+					{"music"
+						{stop "/music/fin_battle_lvl3.wav"}
+						{volume game}
+						{fade 5}
+					}
+					{"delay"
+						{time 0.1}
+					}
+					{"music"
+						{stop "/music/ambient_2.wav"}
+						{volume game}
+						{fade 5}
+					}
+					{"delay"
+						{time 0.01}
+					}
+					{"music"
+						{stop "/music/ambient_4.wav"}
+						{volume game}
+						{fade 5}
+					}
+					{"delay"
+						{time 0.01}
+					}
+					{"music"
+						{stop "/music/fin_ambient_lvl1.wav"}
+						{volume game}
+						{fade 5}
+					}
+					{"delay"
+						{time 0.01}
+					}
+					{"music"
+						{stop "/music/fin_ambient_lvl2.wav"}
+						{volume game}
+						{fade 5}
+					}
+					{"delay"
+						{time 0.01}
+					}
+					{"music"
+						{stop "/music/fin_ambient_lvl3.wav"}
+						{volume game}
+						{fade 5}
+					}
+					{"delay"
+						{time 0.01}
+					}
+					{"trigger"
+						{name "music_new/music_fade"}
+					}
+				}
+			}
+			{"music_new/silent_timer_reset"
+				{condition
+					{expression "1 & 2 & !3 & 4 & !5"}
+					{terms
+						{"1.event"
+							{id "gamestart"}
+						}
+						{"2.event"
+							{id "action"}
+						}
+						{"3.event"
+							{id "ambient"}
+						}
+						{"4.signal"
+							{zone "global"}
+							{signals "shot injure explosion"}
+						}
+						{"5.cmp_i"
+							{var "ambient$"}
+							{op "=="}
+							{value 0}
+						}
+					}
+				}
+				{actions
+					{"delay"
+						{time 0.1}
+					}
+					{"set_i"
+						{var "ambient$"}
+						{op "="}
+						{value 0}
+					}
+					{"delay"
+						{time 4}
+					}
+					{"trigger"
+						{name "music_new/silent_timer_reset"}
+					}
+				}
+			}
+			{"music_new/action_playlist/fin_battle_lvl1"
+				{condition
+					{terms
+						{"1.event"
+							{id "disabled"}
+						}
+					}
+				}
+				{actions
+					{"delay"
+						{time 0.1}
+					}
+					{"music"
+						{start "/music/fin_battle_lvl1.wav"}
+						{volume game}
+						{fade 5}
+					}
+					{"delay"
+						{time 1}
+					}
+					{"trigger"
+						{name "music_new/action_playlist/fin_battle_lvl1"}
+					}
+				}
+			}
+			{"music_new/action_playlist/fin_battle_lvl2"
+				{condition
+					{terms
+						{"1.event"
+							{id "disabled"}
+						}
+					}
+				}
+				{actions
+					{"delay"
+						{time 0.1}
+					}
+					{"music"
+						{start "/music/fin_battle_lvl2.wav"}
+						{volume game}
+						{fade 5}
+					}
+					{"delay"
+						{time 1}
+					}
+					{"trigger"
+						{name "music_new/action_playlist/fin_battle_lvl2"}
+					}
+				}
+			}
+			{"music_new/action_playlist/fin_battle_lvl3"
+				{condition
+					{terms
+						{"1.event"
+							{id "disabled"}
+						}
+					}
+				}
+				{actions
+					{"delay"
+						{time 0.1}
+					}
+					{"music"
+						{start "/music/fin_battle_lvl3.wav"}
+						{volume game}
+						{fade 5}
+					}
+					{"delay"
+						{time 1}
+					}
+					{"trigger"
+						{name "music_new/action_playlist/fin_battle_lvl3"}
+					}
+				}
+			}
+			{"music_new/ambient_playlist/fin_ambient_lvl1"
+				{condition
+					{terms
+						{"1.event"
+							{id "disabled"}
+						}
+					}
+				}
+				{actions
+					{"delay"
+						{time 0.1}
+					}
+					{"music"
+						{start "/music/fin_ambient_lvl1.wav"}
+						{volume game}
+						{fade 5}
+					}
+					{"delay"
+						{time 1}
+					}
+					{"trigger"
+						{name "music_new/ambient_playlist/fin_ambient_lvl1"}
+					}
+				}
+			}
+			{"music_new/ambient_playlist/fin_ambient_lvl2"
+				{condition
+					{terms
+						{"1.event"
+							{id "disabled"}
+						}
+					}
+				}
+				{actions
+					{"delay"
+						{time 0.1}
+					}
+					{"music"
+						{start "/music/fin_ambient_lvl2.wav"}
+						{volume game}
+						{fade 5}
+					}
+					{"delay"
+						{time 1}
+					}
+					{"trigger"
+						{name "music_new/ambient_playlist/fin_ambient_lvl2"}
+					}
+				}
+			}
+			{"music_new/ambient_playlist/fin_ambient_lvl3"
+				{condition
+					{terms
+						{"1.event"
+							{id "disabled"}
+						}
+					}
+				}
+				{actions
+					{"delay"
+						{time 0.1}
+					}
+					{"music"
+						{start "/music/fin_ambient_lvl3.wav"}
+						{volume game}
+						{fade 5}
+					}
+					{"delay"
+						{time 1}
+					}
+					{"trigger"
+						{name "music_new/ambient_playlist/fin_ambient_lvl3"}
+					}
+				}
+			}
+			{"drumsound"
+				{condition
+					{terms
+						{"1.event"
+							{id "gamestart"}
+						}
+					}
+				}
+				{actions
+					{"sound"
+						{name "gui/matchmaking"}
+					}
+				}
+			}
+			{"notifications"
+				{condition
+					{terms
+						{"1.event"
+							{id "gamestart"}
+						}
+					}
+				}
+				{actions
+					{"delay"
+						{time 300}
+					}
+					{"sound"
+						{name "gui/level_up"}
+					}
+					{"delay"
+						{time 600}
+					}
+					{"sound"
+						{name "gui/level_up"}
+					}
+					{"delay"
+						{time 600}
+					}
+					{"sound"
+						{name "gui/level_up"}
+					}
+				}
+			}
+		}
+	}
+	{Players
+		{count 17}
+		{diplomacy
+			1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+		}
+	}
+	{Fog 0}
+	{EntityManager {Enabled}
+		{CountScale "x0.5"}
+	}
+}

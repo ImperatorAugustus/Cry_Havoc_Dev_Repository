@@ -1,0 +1,12 @@
+;_________________________________________
+; US light tank gun
+;=========================================
+
+
+{from "37mm_m3"			; L/49.9 "m5"
+	{fireSoundclose "gun/gun_interior/size2"}
+	{reloadSound "interior/large/small_reload_interior"}
+
+
+	("reload time" seconds(5)) ;manual breech
+}

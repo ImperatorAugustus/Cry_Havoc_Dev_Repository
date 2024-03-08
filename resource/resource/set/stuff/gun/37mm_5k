@@ -1,0 +1,25 @@
+;_________________________________________
+; USSR gun used in BT-2
+;=========================================
+
+
+{from "pattern gun"			; L/45 "bt2"
+	{filling "bulletrus_37"}
+	{fireSound "gun/gun_37_57_short"}
+	{fireSoundclose "gun/gun_interior/size2"}
+	{reloadSound "interior/large/small_reload_interior"}
+	("range_180")
+	{calibre 37}
+
+	("reload time" seconds(5))
+
+	("velocity m/s" ap(740) apcr(1) he(680) heat(1))
+	("armor health" damage(100))
+	("armor health custom" shell(aphe) damage(100) filler(12))
+	("37_slope_multipliers")
+
+	;M-160
+	("penetration_medium" shell(aphe) range(180) a(44) b(35) c(25) d(18) e(13))
+
+	("accuracy_direct" r1(0.93) range_ap(180) range_he(180) range_heat(160))
+}

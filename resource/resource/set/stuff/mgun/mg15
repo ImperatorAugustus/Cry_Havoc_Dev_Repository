@@ -1,0 +1,19 @@
+{from "pattern mgun"		;Ju87/BF110 rear MG
+	{tag "gun aa"}
+	{filling "mgun_ger doubledrum" 75}
+	{entity "mg34_doubledrum"}
+	{fireSound "smallarms/s3/d1/GER/MG13/"}
+	{fireSoundclose "smallarms/s3/3p/GER/MG13/"}
+	{reloadSound "mg34"}
+	{calibre 7.92}
+	{mass 12.4}
+
+	("fire rate" rpm(1000))
+	("velocity" mps(755))
+
+	("reload time" seconds(10))
+
+	("burst_aa")
+	("airborne_mg")
+	{traceFreq 1}
+}

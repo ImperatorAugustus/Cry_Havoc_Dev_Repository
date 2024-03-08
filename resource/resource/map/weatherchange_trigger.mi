@@ -1,0 +1,434 @@
+{"weather switch"
+	{condition
+		{terms
+			{"1.entities"
+				{selector
+					{ignore_captured_by_user 0}
+					{tag weather_switch}
+				}
+			}
+		}
+	}
+	{actions
+		{"set_i" ; Increment current weather ID by 1
+			{var "weatherid$"}
+			{op "+"}
+			{value 1}
+		}
+		{"switch"  ; Check current weather ID and set environment accordingly
+			{"case"
+				{condition
+					{type cmp_i}
+					{var "weatherid$"}
+					{op "=="}
+					{value 1}
+				}
+				{"environment"
+					{name "goh/custom/clear1"}
+					{time 0.2}
+					{apply}
+				}
+			}
+			{"case"
+				{condition
+					{type cmp_i}
+					{var "weatherid$"}
+					{op "=="}
+					{value 2}
+				}
+				{"environment"
+					{name "goh/custom/clear2"}
+					{time 0.2}
+					{apply}
+				}
+			}
+			{"case"
+				{condition
+					{type cmp_i}
+					{var "weatherid$"}
+					{op "=="}
+					{value 3}
+				}
+				{"environment"
+					{name "goh/custom/clear3"}
+					{time 0.2}
+					{apply}
+				}
+			}
+			{"case"
+				{condition
+					{type cmp_i}
+					{var "weatherid$"}
+					{op "=="}
+					{value 4}
+				}
+				{"environment"
+					{name "goh/custom/clear4"}
+					{time 0.2}
+					{apply}
+				}
+			}
+			{"case"
+				{condition
+					{type cmp_i}
+					{var "weatherid$"}
+					{op "=="}
+					{value 5}
+				}
+				{"environment"
+					{name "goh/custom/clear5"}
+					{time 0.2}
+					{apply}
+				}
+			}
+			{"case"
+				{condition
+					{type cmp_i}
+					{var "weatherid$"}
+					{op "=="}
+					{value 6}
+				}
+				{"environment"
+					{name "goh/custom/colorful1"}
+					{time 0.2}
+					{apply}
+				}
+			}
+			{"case"
+				{condition
+					{type cmp_i}
+					{var "weatherid$"}
+					{op "=="}
+					{value 7}
+				}
+				{"environment"
+					{name "goh/custom/foggy1"}
+					{time 0.2}
+					{apply}
+				}
+			}
+			{"case"
+				{condition
+					{type cmp_i}
+					{var "weatherid$"}
+					{op "=="}
+					{value 8}
+				}
+				{"environment"
+					{name "goh/custom/morning1"}
+					{time 0.2}
+					{apply}
+				}
+			}
+			{"case"
+				{condition
+					{type cmp_i}
+					{var "weatherid$"}
+					{op "=="}
+					{value 9}
+				}
+				{"environment"
+					{name "goh/custom/morning2"}
+					{time 0.2}
+					{apply}
+				}
+			}
+			{"case"
+				{condition
+					{type cmp_i}
+					{var "weatherid$"}
+					{op "=="}
+					{value 10}
+				}
+				{"environment"
+					{name "goh/custom/morning3"}
+					{time 0.2}
+					{apply}
+				}
+			}
+			{"case"
+				{condition
+					{type cmp_i}
+					{var "weatherid$"}
+					{op "=="}
+					{value 11}
+				}
+				{"environment"
+					{name "goh/custom/morning4"}
+					{time 0.2}
+					{apply}
+				}
+			}
+			{"case"
+				{condition
+					{type cmp_i}
+					{var "weatherid$"}
+					{op "=="}
+					{value 12}
+				}
+				{"environment"
+					{name "goh/custom/morning5"}
+					{time 0.2}
+					{apply}
+				}
+			}
+			{"case"
+				{condition
+					{type cmp_i}
+					{var "weatherid$"}
+					{op "=="}
+					{value 13}
+				}
+				{"environment"
+					{name "goh/custom/morning6"}
+					{time 0.2}
+					{apply}
+				}
+			}
+			{"case"
+				{condition
+					{type cmp_i}
+					{var "weatherid$"}
+					{op "=="}
+					{value 14}
+				}
+				{"environment"
+					{name "goh/custom/morning7"}
+					{time 0.2}
+					{apply}
+				}
+			}
+			{"case"
+				{condition
+					{type cmp_i}
+					{var "weatherid$"}
+					{op "=="}
+					{value 15}
+				}
+				{"environment"
+					{name "goh/custom/overcast1"}
+					{time 0.2}
+					{apply}
+				}
+			}
+			{"case"
+				{condition
+					{type cmp_i}
+					{var "weatherid$"}
+					{op "=="}
+					{value 16}
+				}
+				{"environment"
+					{name "goh/custom/overcast2"}
+					{time 0.2}
+					{apply}
+				}
+			}
+			{"case"
+				{condition
+					{type cmp_i}
+					{var "weatherid$"}
+					{op "=="}
+					{value 17}
+				}
+				{"environment"
+					{name "goh/custom/overcast3"}
+					{time 0.2}
+					{apply}
+				}
+			}
+			{"case"
+				{condition
+					{type cmp_i}
+					{var "weatherid$"}
+					{op "=="}
+					{value 18}
+				}
+				{"environment"
+					{name "goh/custom/overcast4"}
+					{time 0.2}
+					{apply}
+				}
+			}
+			{"case"
+				{condition
+					{type cmp_i}
+					{var "weatherid$"}
+					{op "=="}
+					{value 19}
+				}
+				{"environment"
+					{name "goh/custom/overcast5"}
+					{time 0.2}
+					{apply}
+				}
+			}
+			{"case"
+				{condition
+					{type cmp_i}
+					{var "weatherid$"}
+					{op "=="}
+					{value 20}
+				}
+				{"environment"
+					{name "goh/custom/overcast6"}
+					{time 0.2}
+					{apply}
+				}
+			}
+			{"case"
+				{condition
+					{type cmp_i}
+					{var "weatherid$"}
+					{op "=="}
+					{value 21}
+				}
+				{"environment"
+					{name "goh/custom/overcast7"}
+					{time 0.2}
+					{apply}
+				}
+			}
+			{"case"
+				{condition
+					{type cmp_i}
+					{var "weatherid$"}
+					{op "=="}
+					{value 22}
+				}
+				{"environment"
+					{name "goh/custom/overcast8"}
+					{time 0.2}
+					{apply}
+				}
+			}
+			{"case"
+				{condition
+					{type cmp_i}
+					{var "weatherid$"}
+					{op "=="}
+					{value 23}
+				}
+				{"environment"
+					{name "goh/custom/snowy1"}
+					{time 0.2}
+					{apply}
+				}
+			}
+			{"case"
+				{condition
+					{type cmp_i}
+					{var "weatherid$"}
+					{op "=="}
+					{value 24}
+				}
+				{"environment"
+					{name "goh/custom/snowy2"}
+					{time 0.2}
+					{apply}
+				}
+			}
+			{"case"
+				{condition
+					{type cmp_i}
+					{var "weatherid$"}
+					{op "=="}
+					{value 25}
+				}
+				{"environment"
+					{name "goh/custom/snowy3"}
+					{time 0.2}
+					{apply}
+				}
+			}
+			{"case"
+				{condition
+					{type cmp_i}
+					{var "weatherid$"}
+					{op "=="}
+					{value 26}
+				}
+				{"environment"
+					{name "goh/custom/snowy4"}
+					{time 0.2}
+					{apply}
+				}
+			}
+			{"case"
+				{condition
+					{type cmp_i}
+					{var "weatherid$"}
+					{op "=="}
+					{value 27}
+				}
+				{"environment"
+					{name "goh/custom/snowy5"}
+					{time 0.2}
+					{apply}
+				}
+			}
+			{"case"
+				{condition
+					{type cmp_i}
+					{var "weatherid$"}
+					{op "=="}
+					{value 28}
+				}
+				{"environment"
+					{name "goh/custom/snowy6"}
+					{time 0.2}
+					{apply}
+				}
+			}
+			{"case"
+				{condition
+					{type cmp_i}
+					{var "weatherid$"}
+					{op "=="}
+					{value 29}
+				}
+				{"environment"
+					{name "goh/custom/stormy1"}
+					{time 0.2}
+					{apply}
+				}
+			}
+			{"case"
+				{condition
+					{type cmp_i}
+					{var "weatherid$"}
+					{op "=="}
+					{value 30}
+				}
+				{"environment"
+					{name "goh/custom/stormy2"}
+					{time 0.2}
+					{apply}
+				}
+			}
+			{"default"
+				{"environment"
+						{name "goh/custom/clear1"}
+						{time 0.2}
+						{apply}
+				}
+				{"set_i"
+					{var "weatherid$"}
+					{op "="}
+					{value 1}
+				}
+				
+			}
+		}
+		{"entity_state"
+			{selector
+				{ignore_captured_by_user 0}
+				{tag weather_switch}
+			}
+			{tag_remove weather_switch}
+		}
+		{"trigger"
+			{name "weather switch"}
+		}
+	}
+}

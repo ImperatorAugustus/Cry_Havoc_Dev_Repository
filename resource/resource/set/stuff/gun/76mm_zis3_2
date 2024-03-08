@@ -1,0 +1,13 @@
+;_________________________________________
+; USSR long-barreled medium AT Gun, mounted version (Su76,..)
+;=========================================
+
+
+{from "76mm_f34"			; L/51.6 , "SU76"
+	{fireSound "gun/gun_75_105"}
+	{fireSoundclose "gun/gun_75_105"}
+	{reloadSound "tank/reload_big"}
+
+	("reload time" seconds(5.0))
+	("accuracy_direct_arrowhead" r1(0.85) range_ap(190) range_he(190) range_heat(190))
+}

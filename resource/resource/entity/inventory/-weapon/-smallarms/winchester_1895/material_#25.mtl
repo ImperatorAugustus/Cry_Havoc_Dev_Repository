@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "body_Base_color"}
+	{bump "body_Normal_bump"}
+	{specular "body_Specular"}
+	{color "230 230 230 25"}
+	{blend none}
+}

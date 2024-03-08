@@ -1,0 +1,17 @@
+{from "pattern mgun"
+	{tag "mgun_light"}
+	{filling "ammo madsen" 25}
+	{entity "madsen"}
+	{fireSound "smallarms/s3/d1/FIN/LS26/"}
+	{fireSoundclose "smallarms/s3/3p/FIN/LS26/"}
+	{reloadSound "mg34"}
+	{calibre 7.62}
+	{mass 9.4}
+
+	("fire rate" rpm(500))
+	("velocity" mps(870))
+
+	("burst_short")
+	("spreading_low")
+	{traceFreq 1}
+}

@@ -1,0 +1,35 @@
+{breed
+	{behaviour soldier}
+	{skin "fin_jag_smg"}
+	{portrait "fin_jag"}
+	{icon "smg"}
+	{icon_priority 0}
+	{tags "soldier"}
+	{nationality fin}
+	{armors
+		{head fin_stalhelm}
+	}
+	{perks
+		(include "ability.inc")
+		("smg_skill_rank_4")("tier4_standard")		
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "suomi_m31_stick" filled}
+		{item "suomi_stick ammo" 200}
+
+		{item "m32 grenade" 1.75 0.5}
+		{item "m32_stick grenade" 1.25 0.5}
+		{item "m43_smoke grenade" 1.25 0.5}
+		{item "m32_satchel grenade" 1.25 0.5}
+		{item "faustpatrone_30 weapon" 0.25 0.5 filled}
+
+		{item "bandage_fin" 5.5 0.5}
+		{item "shovel_fin"}
+
+		{in_hands 0}
+	}
+}

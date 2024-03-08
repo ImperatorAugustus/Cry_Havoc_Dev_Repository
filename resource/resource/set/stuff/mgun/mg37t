@@ -1,0 +1,20 @@
+{from "pattern mgun"
+	{filling "mgun_ger" 100}
+	{entity "besa"}
+	{fireSound "smallarms/s3/d1/Shared/ZB37/"}
+	{fireSoundclose "smallarms/s3/int/Shared/ZB37/"}
+	{reloadSound "interior/small/mg34_reload_interior"}
+	{calibre 7.92}
+	{mass 21}
+
+	("fire rate" rpm(650))
+	("velocity" mps(722))
+
+	("reload_belt")
+
+	("ger_ap_bullets")
+
+	("burst_long")
+	("spreading_mounted")
+	{traceFreq 1}
+}

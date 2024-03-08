@@ -1,0 +1,38 @@
+;_________________________________________
+; german medium AT gun
+;=========================================
+
+
+{from "pattern gun"			; L/36 "pak9738"
+	{filling "bulletger_75_l43"}
+	{fireSound "gun/gun_75_105"}
+	{fireSoundclose "gun/gun_interior/size3"}
+	{reloadSound "interior/large/big_reload_interior"}
+	("range_190")
+	{calibre 75}
+
+	("reload time" seconds(3.5))
+
+	("velocity m/s" ap(640) apcr(1) he(550) heat(450))
+	("armor health" damage(200))
+	("armor health custom" shell(apcbche) damage(200) filler(29))
+	("75_ger_slope_multipliers")
+
+	; K.Gr.rot.Pz.
+	("penetration_medium" shell(apcbche) range(190) a(97) b(82) c(66) d(53) e(43))
+
+	; Gr.38/97 Hl
+	("penetration_medium" shell(heat) range(170) a(52) b(52) c(52) d(52) e(52))
+	; Gr.38/97 Hl/A
+	("penetration_medium" shell(heata) range(170) a(81) b(81) c(81) d(81) e(81))
+	; Gr.38/97 Hl/B
+	("penetration_medium" shell(heatb) range(170) a(87) b(87) c(87) d(87) e(87))
+	; Gr.38/97 Hl/C
+	("penetration_medium" shell(heatc) range(170) a(115) b(115) c(115) d(115) e(115))
+
+	{parameters "he"
+		{range 180 180}
+	}
+
+	("accuracy_direct" r1(0.81) range_ap(190) range_he(190) range_heat(190))
+}

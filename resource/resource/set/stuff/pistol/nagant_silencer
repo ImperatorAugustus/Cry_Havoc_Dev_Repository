@@ -1,0 +1,17 @@
+{from "pattern pistol"
+	{tag "silenced"}
+	{inventory {size 3 1}}
+	{filling "ammo revolver_clip" 7}
+	{entity "nagant_silencer"}
+	{fireSound "smallarms/s1/d1/Shared/Surpressed_Pistol/"}
+	{fireSoundclose "smallarms/s1/3p/Shared/Surpressed_Pistol/"}
+	{reloadSound "nagant"}
+	{calibre 7.62}
+	{mass 1.2}
+
+	("reload time" seconds(5.5))
+	;("human health" damage(200))
+
+	("velocity" mps(272))
+	("human health" damage(120))
+}

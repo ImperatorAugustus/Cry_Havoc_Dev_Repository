@@ -1,0 +1,8 @@
+;_________________________________________
+; ARTY - French Heavy Field Gun
+;=========================================
+
+
+{from "155mm_gpf"			; L/38.2 "155mm_gpf_platform"
+	{range 425 425} ; reduced range to elevation limit when in bunker
+}

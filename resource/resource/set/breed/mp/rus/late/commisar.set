@@ -1,0 +1,33 @@
+{breed
+	{behaviour soldier}
+	{skin "sov_rkka_43_officer"}
+	{portrait "rus_officer"}
+	{icon "smg"}
+	{icon_priority 5}
+	{tags "soldier"}
+	{nationality rus}
+	{armors
+		{head soviet_commisar_cap}
+	}
+	{perks
+		(include "ability.inc")
+		("smg_skill_rank_4")("tier3_standard")
+		("binocular_vision")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "pps43" filled}
+		{item "pps_stick ammo" 210}
+
+		{item "tt33" filled}
+		{item "tt33 ammo" 24 8}
+
+		{item "bandage_rus" 3.5 0.5}
+		{item "binocular"}
+
+		{in_hands 0}
+	}
+}

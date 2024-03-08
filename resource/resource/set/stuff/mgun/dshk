@@ -1,0 +1,27 @@
+{from "pattern hmgun"
+	{inventory {size 7 3}}
+	{filling "hmgun_rus" 50}
+	{entity "dshk"}
+	{fireSound "smallarms/s4/d1/RUS/DShK38/"}
+	{fireSoundClose "smallarms/s4/d1/RUS/DShK38/"}
+	{reloadSound "dt"}
+	{calibre 12.7}
+	{mass 34}
+
+	("fire rate" rpm(600))
+	("velocity" mps(860))
+
+	("reload_belt")
+
+	{projectileDamageTable {20 26} {100 16} {165 10} {215 5} {250 3}} ;// B-30 AP
+
+	{parameters "api"
+		("armor health" damage(15))
+		("human health" damage(250))
+		{projectileDamageTable {20 24} {100 14.5} {165 9} {215 4.5} {250 2.75}} ;// B-32 API
+	}
+
+	("burst_aa")
+	("spreading_mounted")
+	{traceFreq 1}
+}

@@ -1,0 +1,31 @@
+;_________________________________________
+; US medium AT gun
+;=========================================
+
+
+{from "pattern gun"			; L/45 "M5 AT gun"
+	{filling "bulletusa_76x585"}
+	{fireSound "gun/gun_75_105"}
+	{fireSoundclose "gun/gun_75_105"}
+	{reloadSound "tank/reload_medium"}
+	("range_200")
+	{calibre 76}
+
+	("reload time" seconds(5.25))
+
+	("velocity m/s" ap(792) apcr(1036) he(820) heat(1))
+	("armor health" damage(200))
+	("armor health custom" shell(apcbche) damage(200) filler(62))
+	("76_slope_multipliers")
+
+	("penetration_medium" shell(ap) range(200) a(154) b(131) c(107) d(88) e(72))		; M79 AP
+	("penetration_medium" shell(apcbche) range(200) a(125) b(116) c(105) d(95) e(86))	; M62 APC
+	("penetration_medium" shell(hvap) range(200) a(239) b(208) c(175) d(147) e(124))	; T-4/M93
+
+	{parameters "sm"
+		("velocity" mps(270))
+		{range 200 200}
+	}
+
+	("accuracy_direct" r1(0.80) range_ap(200) range_he(200) range_heat(200))
+}

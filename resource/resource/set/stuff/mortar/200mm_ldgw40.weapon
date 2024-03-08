@@ -1,0 +1,24 @@
+;_________________________________________
+; German Heavy Mortar - 20cm Ldg.W.40
+;=========================================
+
+
+{from "pattern mortar"
+	{filling "mortarger_200"}
+	{fillingVisible "rocket00"}
+	{calibre 200}
+
+	("medium_mortar_range")
+	("reload time" seconds(12))
+
+	{spreading
+		{radiusTable {0 5} {120 15} {259.99 30} {260 100}}
+	}
+	
+	{parameters "he"
+		{projectileDamageTable {0 30}}
+	}
+	{parameters "sm"
+		("reload time" seconds(8.0))
+	}
+}

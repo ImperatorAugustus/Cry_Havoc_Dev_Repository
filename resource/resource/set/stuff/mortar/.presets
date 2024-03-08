@@ -1,0 +1,130 @@
+
+(include "\set\blast.inc")
+
+(define "reload time"			;//reload time for magazine or shell
+	{rechargeTime %seconds}
+)
+
+(define "fire rate"				;// rate of fire in rounds per minute 
+	{recoveryTime (/ 60 %rpm)}
+)
+
+;/*--------------------------------------RANGES AND ACCURACY--------------------------------------*/
+
+
+(define "light_mortar_range"
+	{spreading 
+		{radiusTable {0 5} {180 25} {239.99 30} {240 100}} ; light mortars are more inaccurate so player buys medium mortars and not just spam 60mms like a fag
+	}
+
+	{aimRange 240}
+	{minRange 30}
+	{maxRange 240}
+	("reload time" seconds(4.5))
+
+	{parameters "he"
+		{projectileDamageTable {0 10}}
+	}
+	{parameters "sm"
+		("reload time" seconds(3.0))
+	}
+)
+
+(define "medium_mortar_range"
+	{spreading
+		{radiusTable {0 5} {180 25} {259.99 30} {260 100}}
+	}
+
+	{aimRange 260}
+	{minRange 40}
+	{maxRange 260}
+	("reload time" seconds(5))
+
+	{parameters "he"
+		{projectileDamageTable {0 15}}
+	}
+	{parameters "sm"
+		("reload time" seconds(3.3))
+	}
+)
+
+(define "medium_heavy_mortar_range"
+	{spreading
+		{radiusTable {0 5} {180 25} {279.99 30} {280 100}}
+	}
+
+	{aimRange 280}
+	{minRange 45}
+	{maxRange 280}
+	("reload time" seconds(7))
+
+	{parameters "he"
+		{projectileDamageTable {0 20}}
+	}
+	{parameters "sm"
+		("reload time" seconds(3.4))
+	}
+)
+
+(define "heavy_mortar_range"
+	{spreading
+		{radiusTable {0 5} {180 25} {240 30} {299.99 35} {300 100}}
+	}
+
+	{aimRange 300}
+	{minRange 50}
+	{maxRange 300}
+	("reload time" seconds(10))
+
+	{parameters "he"
+		{projectileDamageTable {0 30}}
+	}
+	{parameters "sm"
+		("reload time" seconds(3.5))
+	}
+)
+
+(define "super_heavy_mortar_range"
+	{spreading 
+		{radiusTable {0 5} {249.99 40} {250 100}}
+	}
+
+	{aimRange 250}
+	{minRange 25}
+	{maxRange 250}
+	("reload time" seconds(10))
+
+	{parameters "he"
+		{projectileDamageTable {0 30}}
+	}
+	{parameters "sm"
+		("reload time" seconds(3.5))
+	}
+)
+
+
+;/*-------------------------------------- AMMUNITION SETTINGS-------------------------------------*/
+
+
+(define "minimum_range_short"
+	{possibleDamageRadius 20}
+)
+
+(define "minimum_range_medium"
+	{possibleDamageRadius 25}
+)
+
+(define "he_light"
+	{detonationThickness 0.5}
+	("minimum_range_short")
+)
+
+(define "he_medium"
+	{detonationThickness 0.5}
+	("minimum_range_medium")
+)
+
+(define "he_heavy"
+	{detonationThickness 0.5}
+	("minimum_range_medium")
+)

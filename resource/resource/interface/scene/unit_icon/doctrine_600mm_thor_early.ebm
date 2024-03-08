@@ -1,0 +1,6 @@
+{bitmap
+    {frame "600mm_thor_00.tga"}
+    {frame "600mm_thor_01.tga"}
+    {frame "600mm_thor_02.tga"}
+    {frame "600mm_thor_03.tga"}
+}

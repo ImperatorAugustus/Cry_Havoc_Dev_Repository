@@ -1,0 +1,33 @@
+{breed
+	{behaviour soldier}
+	{skin "fin_late_rifle"}
+	{portrait "fin_regular"}
+	{icon "bazooka"}
+	{icon_priority 0}
+	{tags "soldier_pzscheck"}
+	{nationality fin}
+	{armors
+		{head fin_stalhelm}
+	}
+	{perks
+		(include "ability.inc")
+		("rifle_skill_rank_2")("tier2_standard")
+		("at_rank_3")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "panzershreck_54 weapon" filled}
+		{item "panzershreck ammo" 5}
+
+		{item "m32_satchel grenade" 1.15 0.5}
+		{item "m43_smoke grenade" 1.25 0.5}
+
+		{item "bandage_fin" 3.5 0.5}
+		{item "shovel_fin"}
+
+		{in_hands 0}
+	}
+}

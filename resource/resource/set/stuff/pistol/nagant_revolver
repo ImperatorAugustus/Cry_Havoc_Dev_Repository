@@ -1,0 +1,13 @@
+{from "pattern pistol"
+	{filling "ammo revolver_clip" 7}
+	{entity "nagant_revolver"}
+	{fireSound "smallarms/s1/d1/RUS/M1895/"}
+	{fireSoundclose "smallarms/s1/3p/RUS/M1895/"}
+	{reloadSound "nagant"}
+	{calibre 7.62}
+	{mass 0.8}
+
+	("reload time" seconds(5.5))
+
+	("velocity" mps(272))
+}

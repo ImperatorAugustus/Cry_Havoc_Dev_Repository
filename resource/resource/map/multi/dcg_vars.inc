@@ -1,0 +1,14 @@
+			{"ai_air_on"}
+			{"arrows"}
+			{"balance"}
+			{"bot_army"}
+			{"dcg_error"}
+			{"dcg_on"}
+			{"def_team"}
+			{"enemyid"}
+			{"music_intense"}
+			{"user_is_defender"}
+			{"user_nation"}
+			{"user_team"}
+			{"tier2"}
+			{"weatherid"}

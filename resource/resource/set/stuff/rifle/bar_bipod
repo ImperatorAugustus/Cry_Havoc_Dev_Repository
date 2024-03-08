@@ -1,0 +1,24 @@
+{from "pattern rifle"
+	{tag "-rifle smg assaultrifle"}
+	{filling "ammo bar_mag" 20}
+	{entity "bar_bipod"}
+	{fireSound "smallarms/s3/d1/USA/M1918A2_BAR/"}
+	{fireSoundclose "smallarms/s3/3p/USA/M1918A2_BAR/"}
+	{reloadSound "svt"}
+	{calibre 7.62}
+	{mass 8.8}
+
+	("fire rate" rpm(650))
+	("velocity" mps(860))
+	("battle_rifle")
+	("penetration" args 17.3 8 4 2 0) ;// AP, M2
+
+	{spreading
+		{BurstAccuracy 100 90 70 50}
+	}
+	{burst	;// doctrinal usage as squad heavy weapon for suppressive fire
+		{short 3 1}		; burst shots on long distance, rand (+-)shots
+		{long 5 1}		; burst shots on short distance, rand (+-)shots
+		{rangeKoef 0.5}		; rangeKoef * aimRange = max long burst distance
+	}
+}

@@ -1,0 +1,45 @@
+{from "pattern rifle_grenade"
+	{tag "at_rifle" "ap"}
+	{entity "garand_grenade_launcher"}
+	{filling "ammo usa_grenade" 1}
+	{fillingVisible "grenade"}
+	{fireSound	"smallarms/s3/d1/USA/M1_Garand/M7_Grenade_Launcher/"}
+	{fireSoundclose "smallarms/s3/3p/USA/M1_Garand/M7_Grenade_Launcher/"}
+	{reloadSound "kar98"}
+	{calibre 30}
+	{mass 6.3}
+	{parameters "he" ; M17
+		{cursorReloading "gun_he"}
+		{spreading 6
+			{SpreadXYRatio 0.75}
+		}
+		{range 80 80}	;//200m
+	}
+	{parameters "he2" ; M1
+		{cursorReloading "gun_he"}
+		{spreading 6
+			{SpreadXYRatio 0.75}
+		}
+		{range 80 80}	;//200m
+	}
+
+	{parameters "heat" ; M9
+		{cursorReloading "gun_heat"}
+		{range 60 60}	;//285m max
+		("penetration" args 51)
+		("armor health" damage(150))
+	}
+	{parameters "heata" ; M9A1 
+		{cursorReloading "gun_heat"}
+		{range 60 60}	;//285m max
+		("penetration" args 76)
+		("armor health" damage(150))
+	}
+	{parameters "wp" ; M19 
+		{cursorReloading "gun_wp"}
+		{range 80 80}	;//195m max
+		{spreading 6
+			{SpreadXYRatio 0.75}
+		}
+	}
+}

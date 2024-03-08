@@ -1,0 +1,20 @@
+{from "pattern mgun"
+	{filling "mgun_ger" 150}
+	{entity "mg34_tank"}
+	{fireSound "smallarms/s3/d1/Shared/MAC1931/"}
+	{fireSoundclose "smallarms/s3/int/Shared/MAC1931/"}
+	{reloadSound "mg34"}
+	{calibre 7.5}
+	{mass 11.8}
+
+	("fire rate" rpm(450))
+	("velocity" mps(790))
+
+	("reload_belt")
+
+	("ger_ap_bullets")
+
+	("burst_long")
+	("spreading_mounted")
+	{traceFreq 1}
+}

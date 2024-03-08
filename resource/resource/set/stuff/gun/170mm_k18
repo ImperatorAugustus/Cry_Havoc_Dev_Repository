@@ -1,0 +1,27 @@
+;_________________________________________
+; ARTY - German heavy gun
+;=========================================
+
+
+{from "pattern gun"			; L/50 "170mm_k18"
+	{filling "bulletger_170"}
+	{fireSound "gun/gun_122_152"}
+	{fireSoundclose "gun/gun_122_152"}
+	{reloadSound "tank/reload_howitzer"}
+	("heavy_artillery")
+	{calibre 170}
+	{range 520 520} ; // 29.6km
+
+	("reload time" seconds(70))
+
+	("velocity m/s" ap(830) apcr(1) he(238) heat(1))	; // historical velocity (830)(1)(925)(1)
+
+	("accuracy_indirect"	; // Applies logic for accuracy of indirect weapons over 200m
+		r1(0.9)				; // Accuracy radius for direct-fire munitions
+		r2(6)				; // Accuracy radius for indirect fire
+		rmax(35)			; // Accuracy radius for indirect fire at maximum range
+		range_ap(210)		; // Range after which accuracy drops to prevent farshooting.
+		range_heat(210)		; // Range after which accuracy drops to prevent farshooting.
+		range_he(520)		; // Range after which accuracy drops to prevent farshooting.
+	)
+}

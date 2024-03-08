@@ -1,0 +1,54 @@
+{game
+	{order 10}
+	{parameters	"flag_count=10:1:1,20:1:5,20:1:7;base_capture_time=180;base_release_time=10;base_capture_factor=1.0;flag_capture_time=150;flag_release_time=10;flag_capture_factor=1.0;maximum_ammo_payback=150;enable_time=300;flag_team_table=1/0.075"}
+	; flag_count=5:0:2 means 5 total secondary objective points, 0 points to start off with, for games with up to 2 players
+	; base_capture_time=180 means it takes 180 seconds to capture a base from being neutral
+	; base_release_time=10 means it takes 10 seconds to neutralize a base
+	; base_capture_factor=1 means all unit capture weight is multiplied by this value
+	; flag_capture_time=150 means it takes 150 seconds to capture a flag/map point
+	; flag_release_time=10 means it takes 10 seconds to neutralize a flag/map point
+	; flag_capture_factor=1 means all unit capture weight is multiplied by this value
+	; maximum_ammo_payback=300 means a maximum of 300 MP will go to team that captures a flag point through payback system
+	; enable_time=300 means new flags/map points will appear every 300 seconds
+	; flag_team_score=100 means each map point gives a fixed score (overrides flag_team_table and is not used)
+	; flag_team_table=2/0.05 means for 2 players, 5% of final score for each map point
+	{settings
+		{options			enableSpectators preparationTime enableManualControlMode scoreFinal enableHardcore enableDuration}
+		{optionsAdvanced	friendlyFire fogOfWar randomSpawnPoints showPiercing showDamageReports}
+		{optionsRanked		}
+		{fogOfWar			fog_realistic}
+		{difficulty			multiplayer}
+		{scoreMin			1}
+		{scoreMax			10000}
+		{scoreFinal			300}
+		{preparationTimeMin	0}
+		{preparationTimeMax	60}
+		{preparationTime	15}
+		{impregnableTimeout	5}	; sec
+		{floraRespawn		0}
+		{friendlyFire}
+		{showPiercing}
+		{showDamageReports}
+		{useUnitLevelRestrictions 0}
+		{enableBots}
+		{randomSpawnPoints}
+		{useManualCharge none}
+		{enableManualControlMode dc_mode}
+		{gameDuration "50 min"} ; default value
+	}
+	{teamSettings
+		{teamsMode normal}
+		{armySelectionMode alliance}
+		{teams
+			{"a"}
+			{"b"}
+		}
+		{alliances
+			(include "presets/alliances_generic.inc")
+		}
+	}
+	{ranked
+		{enabled}
+	}
+	(include "presets/presets_battlezones.inc")
+}

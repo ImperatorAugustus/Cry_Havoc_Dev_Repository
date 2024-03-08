@@ -1,0 +1,6 @@
+{bitmap
+    {frame "grille_k_00.tga"}
+    {frame "grille_k_01.tga"}
+    {frame "grille_k_02.tga"}
+    {frame "grille_k_03.tga"}
+}

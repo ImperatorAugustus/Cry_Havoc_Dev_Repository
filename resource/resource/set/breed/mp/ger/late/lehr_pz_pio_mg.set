@@ -1,0 +1,36 @@
+{breed
+	{behaviour soldier}
+	{skin "ger_wh_43_pzlehr_pio_mg"}
+	{portrait "ger_pzlehr"}
+	{icon "mg"}
+	{icon_priority 0}
+	{tags "soldier"}
+	{nationality ger}
+	{armors
+		{head ger_m40_helmet_camo1_wire}
+	}
+	{perks
+		(include "ability.inc")
+		("mg_skill_rank_3")("tier3_standard")
+		
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_5")
+	}
+	{inventory
+		{item "mg42_belt" filling "mgun_ger belt ap ammo" 100}
+		{item "mgun_ger belt ap ammo" 300}
+
+		;{item "p38" filled}
+		;{item "pistol ammo" 16}
+
+		{item "m24_splinter grenade" 0.25 0.5}
+		{item "nbk39 grenade" 0.5 0.5}
+
+		{item "bandage_ger" 3.5 0.5}
+		{item "shovel_ger"}
+
+		{in_hands 0}
+	}
+}

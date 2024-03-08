@@ -1,0 +1,12 @@
+{from "pattern pistol"
+	{tag "pistol_shell"}
+	{filling "ammo pistol" 8}
+	{entity "p38"}
+	{fireSound "smallarms/s1/d1/GER/P38/"}
+	{fireSoundclose "smallarms/s1/3p/GER/P38/"}
+	{reloadSound "p38"}
+	{calibre 9}
+	{mass 0.98}
+
+	("velocity" mps(365))
+}

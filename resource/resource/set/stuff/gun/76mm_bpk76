@@ -1,0 +1,25 @@
+;_________________________________________
+; USSR early recoiless AT gun
+;=========================================
+
+
+{from "pattern gun"			; L/30 "76mm_bpk76"
+	{filling "bulletrus_76"}
+	{fireSound "gun/gun_75_105_short"}
+	{fireSoundclose "gun/gun_75_105_short"}
+	{reloadSound "tank/reload_small"}
+	("range_170")
+	{calibre 76.2}
+
+	("reload time" seconds(10))
+
+	("velocity m/s" ap(470) apcr(1) he(380) heat(1))
+	("armor health" damage(200))
+	("armor health custom" shell(aphebc) damage(200) filler(150))
+	("76_rus_slope_multipliers")
+
+	; BR-350A
+	("penetration_medium" shell(aphebc) range(170) a(51) b(46) c(42) d(36) e(32))
+
+	("accuracy_direct" r1(1.50) range_ap(170) range_he(170) range_heat(170))
+}

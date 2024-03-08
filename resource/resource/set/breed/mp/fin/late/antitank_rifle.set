@@ -1,0 +1,34 @@
+{breed
+	{behaviour soldier}
+	{skin "fin_late_rifle"}
+	{portrait "fin_regular"}
+	{icon "atrifle"}
+	{icon_priority 0}
+	{tags "soldier_atr"}
+	{nationality fin}
+	{armors
+		{head fin_stalhelm}
+	}
+	{perks
+		(include "ability.inc")
+		("rifle_skill_rank_2")("tier2_standard")
+		("at_rank_3")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "boys_mk1" filling "atrifle_eng ap2" 5}
+		{item "atrifle_eng ap2 ammo" 30 5}
+
+		{item "m32_stick grenade" 0.25 0.5}
+		{item "m32 grenade" 1.25 0.5}
+		{item "m43_smoke grenade" 0.75 0.5}
+
+		{item "bandage_fin" 3.5 0.5}
+		{item "shovel_fin"}
+
+		{in_hands 0}
+	}
+}

@@ -1,0 +1,9 @@
+{action
+	{target ground}
+	{able_vehicle}
+	{button "weather_switch"}
+	{NotifySelect}
+	{instant
+		{effect "weather_switch"}
+	}
+}

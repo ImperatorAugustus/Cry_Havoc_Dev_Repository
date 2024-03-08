@@ -1,0 +1,8 @@
+{actor
+	(include "/properties/stuff_small.ext")
+	{Extension "winchester_1895.mdl"}
+	{extender "stuff"
+		{item "winchester_1895"}
+	}
+	{nogroupmesh 1}
+}

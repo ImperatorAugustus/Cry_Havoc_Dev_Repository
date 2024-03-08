@@ -1,0 +1,10 @@
+;_________________________________________
+; USSR heavy long-barreled AT Gun
+;=========================================
+
+
+{from "100mm_d10c"			; L/52 "BS-3"
+	("reload time" seconds(9))
+	{fireSound "gun/gun_75_105"}
+	{fireSoundclose "gun/gun_75_105"}
+}

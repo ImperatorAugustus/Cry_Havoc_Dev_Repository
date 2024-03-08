@@ -1,0 +1,19 @@
+{from "pattern mgun"		;Ju87 wing mg
+	{tag "gun aa"}
+	{filling "mgun_ger belt" 1000}
+	{entity "mg34_tank"}
+	{fireSound "smallarms/s3/d1/GER/MG13/"}
+	{fireSoundclose "smallarms/s3/3p/GER/MG13/"}
+	{reloadSound "mg34"}
+	{calibre 7.92}
+	{mass 20.4}
+
+	("fire rate" rpm(1200))
+	("velocity" mps(855))
+
+	("reload time" seconds(30))
+
+	("burst_aa")
+	("airborne_mg")
+	{traceFreq 1}
+}

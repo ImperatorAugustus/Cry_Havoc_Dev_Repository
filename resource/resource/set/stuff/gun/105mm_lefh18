@@ -1,0 +1,35 @@
+;_________________________________________
+; ARTY German medium field gun (leHF18)
+;=========================================
+
+
+{from "pattern gun"			; L/28 "lefh18"
+	{filling "bulletger_105"}
+	{fireSound "gun/gun_75_105"}
+	{fireSoundclose "gun/gun_75_105"}
+	{reloadSound "tank/reload_big"}
+	("medium_artillery")
+	{calibre 105}
+	{range 355 355} ; // 10.7km
+
+	("reload time" seconds(15))
+
+	("velocity m/s" ap(390) apcr(1) he(196) heat(496))
+	("armor health" damage(310))
+	("armor health custom" shell(aphe) damage(310) filler(230))
+	("105_slope_multipliers")
+
+	; Pzgr. Rot
+	("penetration_medium" shell(aphe) range(180) a(73) b(67) c(62) d(59) e(53))
+	; Gr.39 Hl/B
+	("penetration_medium" shell(heat) range(180) a(104) b(104) c(104) d(104) e(104))
+
+	("accuracy_indirect"		; // Applies logic for accuracy of indirect weapons over 200m
+		r1(1.05) 				; // Accuracy radius for direct-fire munitions
+		r2(8) 					; // Accuracy radius for indirect fire
+		rmax(20) 				; // Accuracy radius for indirect fire at maximum range
+		range_ap(180) 			; // Range after which accuracy drops to prevent farshooting
+		range_heat(180) 		; // Range after which accuracy drops to prevent farshooting
+		range_he(355)			; // Range after which accuracy drops to prevent farshooting
+	)
+}

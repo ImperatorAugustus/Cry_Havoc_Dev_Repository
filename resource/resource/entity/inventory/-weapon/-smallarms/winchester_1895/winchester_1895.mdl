@@ -1,0 +1,137 @@
+;Exported by: polsj
+;Date:        Wed Jun 28 16:47:24 2023
+;File:        C:\Users\polsj\Desktop\blender shit\Projects\winchester\fuirst.max
+{Skeleton
+	{animation
+		{sequence "reload" {Speed 0.2}}
+                {sequence "bolt_action"}
+	}
+	{bone "handle"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "winchester_1895"
+			{Matrix34
+				1	0	0
+				0	-1	0
+				0	0	-1
+				-5.57937	-0.593077	0
+			}
+			{VolumeView "winchester_1895.ply"}
+			{bone "sight"
+				{Matrix34
+					1	0	0
+					0	0	1
+					0	-1	0
+					5.68788	-0.647377	0
+				}
+				{VolumeView "sight.ply"}
+			}
+			{bone "handble2"
+				{Matrix34
+					1	0	0
+					0	0	1
+					0	-1	0
+					5.55331	-0.567145	0
+				}
+				{VolumeView "handble2.ply"}
+				{bone "trigger"
+					{Position 0.624274	0	0.140377}
+					{VolumeView "trigger.ply"}
+				}
+				{bone "hook"
+					{Position 2.86847	0	0.0714803}
+					{VolumeView "hook.ply"}
+				}
+			}
+			{bone "handble1"
+				{Matrix34
+					1	0	0
+					0	0	1
+					0	-1	0
+					7.47596	-0.690023	0
+				}
+				{VolumeView "handble1.ply"}
+			}
+			{bone "lever"
+				{Matrix34
+					1	0	0
+					0	-0.766045	0.642787
+					0	-0.642787	-0.766045
+					6.14579	-1.44041	0
+				}
+				{VolumeView "lever.ply"}
+			}
+			{bone "ejectport"
+				{Matrix34
+					1	0	0
+					0	0	1
+					0	-1	0
+					7.59842	-2.00805	0
+				}
+				{VolumeView "ejectport.ply"}
+			}
+			{bone "foresight12"
+				{Matrix34
+					1	0	0
+					0	-1	0
+					0	0	-1
+					22.0818	-2.03041	0
+				}
+			}
+			{bone "fxshell"
+				{Matrix34
+					0	-1	0
+					-1	0	0
+					0	0	-1
+					7.71944	-1.98875	0
+				}
+			}
+		}
+	}
+}
+{Volume "body"
+	{Box 1.46699 24.2218 2.52447}
+	{Bone "winchester_1895"}
+	{Matrix34
+		0	0	1
+		-1	0	0
+		0	-1	0
+		10.7035	-1.26224	0.123435
+	}
+}
+{Volume "select"
+	{Box 7.09955 25.4856 4.30238}
+	{Bone "winchester_1895"}
+	{Matrix34
+		0	0	1
+		-1	0	0
+		0	-1	0
+		9.84425	-0.370642	-0.454607
+	}
+}
+{extender "preview"
+	{"stuff"
+		{camera
+			{origin 5 	 -12.0435 	 -82.936};16.2391
+			{lookat 5 	 0.8045 	 0.1314}
+			{fov 16.3}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction -0.003 	 0.4369 	 0.2431}
+			}
+			{"1"
+				{type point}
+				{position 15.2903 	 26.9994 	 -4.0956}
+			}
+			{"2"
+				{type point}
+				{position 24.7171 	 -9.5332 	 -19.9005}
+			}
+		}
+	}
+}

@@ -1,0 +1,23 @@
+;_________________________________________
+; German Aircraft Autocannon
+;=========================================
+
+
+{from "pattern gun"			; "BF109"
+	{filling "bullet_20_auto aphe" 200}
+	{fireSound "gun/gun_auto"}
+	{fireSoundclose "gun/gun_interior/size1"}
+	{reloadSound "interior/large/auto_reload_interior"}
+	("range_aircraft_gun")
+	{cursor "ironsights/aa"}
+	{calibre 20}
+
+	("fire rate" rpm(600))
+	("reload time" seconds(20))
+
+	("velocity" mps(700))
+	("armor health" damage(40))
+	("20_slope_multipliers")
+
+	("penetration" a(28) b(19) c(16) d(12) e(7))
+}

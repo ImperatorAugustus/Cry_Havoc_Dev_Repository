@@ -1,0 +1,32 @@
+;_________________________________________
+; short barreled german infantry support gun
+;=========================================
+
+
+{from "pattern gun"			; L/11.8 "Le IG 18" "Le Geb IG 18"
+	{filling "bulletger_75_l24"}
+	{fireSound "gun/gun_75_105_short"}
+	{fireSoundclose "gun/gun_75_105_short"}
+	{reloadSound "tank/reload_medium"}
+	("range_180_howitzer")
+	{calibre 75}
+
+	("reload time" seconds(6))
+
+	("velocity m/s" ap(1) apcr(1) he(210) heat(260))
+	("armor health" damage(200))
+	("75_ger_slope_multipliers")
+
+	; Gr.38 Hl 45mm @ 30°
+	("penetration_medium" shell(heat) range(160) a(52) b(52) c(52) d(52) e(52))
+	; Gr.38 Hl/A
+	("penetration_medium" shell(heata) range(160) a(81) b(81) c(81) d(81) e(81))
+	; Gr.38 Hl/B
+	("penetration_medium" shell(heatb) range(160) a(87) b(87) c(87) d(87) e(87))
+	; Gr.38 Hl/C
+	("penetration_medium" shell(heatc) range(160) a(115) b(115) c(115) d(115) e(115))
+
+	("accuracy_spg" r1(2.40) range_ap(180) range_he(180) range_heat(180))
+
+    {unlimitedRangeTPC 0}   ;// restrict range in TPC/FPC
+}

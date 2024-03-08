@@ -1,0 +1,15 @@
+{from "pattern at_rifle"
+	{tag "auto_eject"}
+	{filling "ammo atrifle_rus" 5}
+	{entity "ptrs"}
+	{fireSound "smallarms/s4/d1/RUS/PTR/"}
+	{fireSoundclose "smallarms/s4/3p/RUS/PTR/"}
+	{reloadSound "ptrd"}
+	{calibre 14.5}
+	{mass 17.3}
+
+	("penetration" args 43 40 35)
+	("fire rate" rpm(50))
+	("velocity" mps(1013))
+	{FiringTimeout 2.0 0.25}
+}

@@ -1,0 +1,6 @@
+{bitmap
+    {frame "20mm_flak38_00.tga"}
+    {frame "20mm_flak38_01.tga"}
+    {frame "20mm_flak38_02.tga"}
+    {frame "20mm_flak38_03.tga"}
+}

@@ -1,0 +1,19 @@
+;_________________________________________
+; German light AA gun
+;=========================================
+
+
+{from "20mm_flak38"			; "wirbelwind", "sdkfz7_1"
+	{filling "bulletger_20_auto" 80}
+
+	{spreading
+		{BurstAccuracy 100 98 95 90 85 80 50 30}
+	}
+	("fire rate" rpm(1200))
+	("reload time" seconds(9))
+
+	;{filling "bulletger_20_auto" 2}
+	;("fire rate" rpm(999999999))
+	;("reload time" seconds(0.133))
+	;{reloadSound "blank"}
+}

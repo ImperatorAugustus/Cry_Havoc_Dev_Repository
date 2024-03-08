@@ -1,0 +1,28 @@
+{breed
+	{behaviour soldier}
+	{skin "fin_medic"}
+	{portrait "fin_medic"}
+	{icon "tech"}
+	{icon_priority 0}
+	{tags "soldier"}
+	{nationality fin}
+	{armors
+		{head fin_stalhelm_medic}
+	}
+	{perks
+		(include "ability.inc")
+		("rifle_skill_rank_2")("tier2_standard")
+		("medic")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "lahti_l35" filled}
+		{item "pistol ammo" 24}
+
+		{item "bandage_fin" 22.5 2.5}
+		{item "tent_kit" 2}
+	}
+}
