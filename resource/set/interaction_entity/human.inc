@@ -287,435 +287,435 @@
 	
 	;---Caliber and Volume Based Critical Hit Chances
 	
-		;7-62_pistol
+		;small_pistol
 		
 		;---Body
 	
-	(define "7-62_pistol_vital_organ_chance" 0.05)
+	(define "small_pistol_vital_organ_chance" 0.05)
 	
 			;---Low Roll
 	
-	(define "7-62_pistol_major_artery_body_low_damage_chance" 0.05)
-	(define "7-62_pistol_moderate_artery_body_low_damage_chance" 0.05)
-	(define "7-62_pistol_major_vein_body_low_damage_chance" 0.1)
+	(define "small_pistol_major_artery_body_low_damage_chance" 0.05)
+	(define "small_pistol_moderate_artery_body_low_damage_chance" 0.05)
+	(define "small_pistol_major_vein_body_low_damage_chance" 0.1)
 
 			;---Mid Roll
 	
-	(define "7-62_pistol_internal_bleeding_body_mid_damage_chance" 0.05)	
-	(define "7-62_pistol_major_artery_body_mid_damage_chance" 0.1)
-	(define "7-62_pistol_moderate_artery_body_mid_damage_chance" 0.1)
-	(define "7-62_pistol_major_vein_body_mid_damage_chance" 0.2)
+	(define "small_pistol_internal_bleeding_body_mid_damage_chance" 0.05)	
+	(define "small_pistol_major_artery_body_mid_damage_chance" 0.1)
+	(define "small_pistol_moderate_artery_body_mid_damage_chance" 0.1)
+	(define "small_pistol_major_vein_body_mid_damage_chance" 0.2)
 
 			;---Upper
 	
-	(define "7-62_pistol_internal_bleeding_body_upper_damage_chance" 0.15)	
-	(define "7-62_pistol_major_artery_body_upper_damage_chance" 0.3)
-	(define "7-62_pistol_moderate_artery_body_upper_damage_chance" 0.3)
-	(define "7-62_pistol_major_vein_body_upper_damage_chance" 0.5)
+	(define "small_pistol_internal_bleeding_body_upper_damage_chance" 0.15)	
+	(define "small_pistol_major_artery_body_upper_damage_chance" 0.3)
+	(define "small_pistol_moderate_artery_body_upper_damage_chance" 0.3)
+	(define "small_pistol_major_vein_body_upper_damage_chance" 0.5)
 	
 		;---Upper Arm
 	
 			;---Low Roll
 			
-	(define "7-62_pistol_major_artery_upper_arm_low_damage_chance" 0.05)
-	(define "7-62_pistol_moderate_artery_upper_arm_low_damage_chance" 0.05)
-	(define "7-62_pistol_major_vein_upper_arm_low_damage_chance" 0.1)
+	(define "small_pistol_major_artery_upper_arm_low_damage_chance" 0.05)
+	(define "small_pistol_moderate_artery_upper_arm_low_damage_chance" 0.05)
+	(define "small_pistol_major_vein_upper_arm_low_damage_chance" 0.1)
 
 			;---Mid Roll
 	
-	(define "7-62_pistol_major_artery_upper_arm_mid_damage_chance" 0.1)
-	(define "7-62_pistol_moderate_artery_upper_arm_mid_damage_chance" 0.1)
-	(define "7-62_pistol_major_vein_upper_arm_mid_damage_chance" 0.2)
+	(define "small_pistol_major_artery_upper_arm_mid_damage_chance" 0.1)
+	(define "small_pistol_moderate_artery_upper_arm_mid_damage_chance" 0.1)
+	(define "small_pistol_major_vein_upper_arm_mid_damage_chance" 0.2)
 
 			;---Upper
 	
-	(define "7-62_pistol_major_artery_upper_arm_upper_damage_chance" 0.3)
-	(define "7-62_pistol_moderate_artery_upper_arm_upper_damage_chance" 0.3)
-	(define "7-62_pistol_major_vein_upper_arm_upper_damage_chance" 0.5)
+	(define "small_pistol_major_artery_upper_arm_upper_damage_chance" 0.3)
+	(define "small_pistol_moderate_artery_upper_arm_upper_damage_chance" 0.3)
+	(define "small_pistol_major_vein_upper_arm_upper_damage_chance" 0.5)
 	
 		;---Lower Arm
 		
 			;---Low Roll
 	
-	(define "7-62_pistol_major_artery_lower_arm_low_damage_chance" 0.05)
-	(define "7-62_pistol_moderate_artery_lower_arm_low_damage_chance" 0.05)
-	(define "7-62_pistol_major_vein_lower_arm_low_damage_chance" 0.1)
+	(define "small_pistol_major_artery_lower_arm_low_damage_chance" 0.05)
+	(define "small_pistol_moderate_artery_lower_arm_low_damage_chance" 0.05)
+	(define "small_pistol_major_vein_lower_arm_low_damage_chance" 0.1)
 
 			;---Mid Roll
 	
-	(define "7-62_pistol_major_artery_lower_arm_mid_damage_chance" 0.1)
-	(define "7-62_pistol_moderate_artery_lower_arm_mid_damage_chance" 0.1)
-	(define "7-62_pistol_major_vein_lower_arm_mid_damage_chance" 0.2)
+	(define "small_pistol_major_artery_lower_arm_mid_damage_chance" 0.1)
+	(define "small_pistol_moderate_artery_lower_arm_mid_damage_chance" 0.1)
+	(define "small_pistol_major_vein_lower_arm_mid_damage_chance" 0.2)
 
 			;---Upper
 	
-	(define "7-62_pistol_major_artery_lower_arm_upper_damage_chance" 0.3)
-	(define "7-62_pistol_moderate_artery_lower_arm_upper_damage_chance" 0.3)
-	(define "7-62_pistol_major_vein_lower_arm_upper_damage_chance" 0.5)
+	(define "small_pistol_major_artery_lower_arm_upper_damage_chance" 0.3)
+	(define "small_pistol_moderate_artery_lower_arm_upper_damage_chance" 0.3)
+	(define "small_pistol_major_vein_lower_arm_upper_damage_chance" 0.5)
 	
 		;---Upper Leg
 			
 			;---Low Roll
 	
-	(define "7-62_pistol_major_artery_upper_leg_low_damage_chance" 0.05)
-	(define "7-62_pistol_moderate_artery_upper_leg_low_damage_chance" 0.05)
-	(define "7-62_pistol_major_vein_upper_leg_low_damage_chance" 0.1)
+	(define "small_pistol_major_artery_upper_leg_low_damage_chance" 0.05)
+	(define "small_pistol_moderate_artery_upper_leg_low_damage_chance" 0.05)
+	(define "small_pistol_major_vein_upper_leg_low_damage_chance" 0.1)
 
 			;---Mid Roll
 	
-	(define "7-62_pistol_major_artery_upper_leg_mid_damage_chance" 0.1)
-	(define "7-62_pistol_moderate_artery_upper_leg_mid_damage_chance" 0.1)
-	(define "7-62_pistol_major_vein_upper_leg_mid_damage_chance" 0.2)
+	(define "small_pistol_major_artery_upper_leg_mid_damage_chance" 0.1)
+	(define "small_pistol_moderate_artery_upper_leg_mid_damage_chance" 0.1)
+	(define "small_pistol_major_vein_upper_leg_mid_damage_chance" 0.2)
 
 			;---Upper
 	
-	(define "7-62_pistol_major_artery_upper_leg_upper_damage_chance" 0.3)
-	(define "7-62_pistol_moderate_artery_upper_leg_upper_damage_chance" 0.3)
-	(define "7-62_pistol_major_vein_upper_leg_upper_damage_chance" 0.5)
+	(define "small_pistol_major_artery_upper_leg_upper_damage_chance" 0.3)
+	(define "small_pistol_moderate_artery_upper_leg_upper_damage_chance" 0.3)
+	(define "small_pistol_major_vein_upper_leg_upper_damage_chance" 0.5)
 	
 		;---Lower Leg
 		
 			;---Low Roll
 	
-	(define "7-62_pistol_major_artery_lower_leg_low_damage_chance" 0.05)
-	(define "7-62_pistol_moderate_artery_lower_leg_low_damage_chance" 0.05)
-	(define "7-62_pistol_major_vein_lower_leg_low_damage_chance" 0.1)
+	(define "small_pistol_major_artery_lower_leg_low_damage_chance" 0.05)
+	(define "small_pistol_moderate_artery_lower_leg_low_damage_chance" 0.05)
+	(define "small_pistol_major_vein_lower_leg_low_damage_chance" 0.1)
 
 			;---Mid Roll
 	
-	(define "7-62_pistol_major_artery_lower_leg_mid_damage_chance" 0.1)
-	(define "7-62_pistol_moderate_artery_lower_leg_mid_damage_chance" 0.1)
-	(define "7-62_pistol_major_vein_lower_leg_mid_damage_chance" 0.2)
+	(define "small_pistol_major_artery_lower_leg_mid_damage_chance" 0.1)
+	(define "small_pistol_moderate_artery_lower_leg_mid_damage_chance" 0.1)
+	(define "small_pistol_major_vein_lower_leg_mid_damage_chance" 0.2)
 
 			;---Upper
 	
-	(define "7-62_pistol_major_artery_lower_leg_upper_damage_chance" 0.3)
-	(define "7-62_pistol_moderate_artery_lower_leg_upper_damage_chance" 0.3)
-	(define "7-62_pistol_major_vein_lower_leg_upper_damage_chance" 0.5)
+	(define "small_pistol_major_artery_lower_leg_upper_damage_chance" 0.3)
+	(define "small_pistol_moderate_artery_lower_leg_upper_damage_chance" 0.3)
+	(define "small_pistol_major_vein_lower_leg_upper_damage_chance" 0.5)
 	
-		;45_pistol
+		;large_pistol
 		
 		;---Body
 	
-	(define "45_pistol_vital_organ_chance" 0.05)
+	(define "large_pistol_vital_organ_chance" 0.1)
 	
 			;---Low Roll
 	
-	(define "45_pistol_major_artery_body_low_damage_chance" 0.05)
-	(define "45_pistol_moderate_artery_body_low_damage_chance" 0.05)
-	(define "45_pistol_major_vein_body_low_damage_chance" 0.1)
+	(define "large_pistol_major_artery_body_low_damage_chance" 0.05)
+	(define "large_pistol_moderate_artery_body_low_damage_chance" 0.05)
+	(define "large_pistol_major_vein_body_low_damage_chance" 0.1)
 
 			;---Mid Roll
 	
-	(define "45_pistol_internal_bleeding_body_mid_damage_chance" 0.05)	
-	(define "45_pistol_major_artery_body_mid_damage_chance" 0.1)
-	(define "45_pistol_moderate_artery_body_mid_damage_chance" 0.1)
-	(define "45_pistol_major_vein_body_mid_damage_chance" 0.2)
+	(define "large_pistol_internal_bleeding_body_mid_damage_chance" 0.05)	
+	(define "large_pistol_major_artery_body_mid_damage_chance" 0.1)
+	(define "large_pistol_moderate_artery_body_mid_damage_chance" 0.1)
+	(define "large_pistol_major_vein_body_mid_damage_chance" 0.2)
 
 			;---Upper
 	
-	(define "45_pistol_internal_bleeding_body_upper_damage_chance" 0.15)	
-	(define "45_pistol_major_artery_body_upper_damage_chance" 0.3)
-	(define "45_pistol_moderate_artery_body_upper_damage_chance" 0.3)
-	(define "45_pistol_major_vein_body_upper_damage_chance" 0.5)
+	(define "large_pistol_internal_bleeding_body_upper_damage_chance" 0.15)	
+	(define "large_pistol_major_artery_body_upper_damage_chance" 0.3)
+	(define "large_pistol_moderate_artery_body_upper_damage_chance" 0.3)
+	(define "large_pistol_major_vein_body_upper_damage_chance" 0.5)
 	
 		;---Upper Arm
 	
 			;---Low Roll
 			
-	(define "45_pistol_major_artery_upper_arm_low_damage_chance" 0.05)
-	(define "45_pistol_moderate_artery_upper_arm_low_damage_chance" 0.05)
-	(define "45_pistol_major_vein_upper_arm_low_damage_chance" 0.1)
+	(define "large_pistol_major_artery_upper_arm_low_damage_chance" 0.05)
+	(define "large_pistol_moderate_artery_upper_arm_low_damage_chance" 0.05)
+	(define "large_pistol_major_vein_upper_arm_low_damage_chance" 0.1)
 
 			;---Mid Roll
 	
-	(define "45_pistol_major_artery_upper_arm_mid_damage_chance" 0.1)
-	(define "45_pistol_moderate_artery_upper_arm_mid_damage_chance" 0.1)
-	(define "45_pistol_major_vein_upper_arm_mid_damage_chance" 0.2)
+	(define "large_pistol_major_artery_upper_arm_mid_damage_chance" 0.1)
+	(define "large_pistol_moderate_artery_upper_arm_mid_damage_chance" 0.1)
+	(define "large_pistol_major_vein_upper_arm_mid_damage_chance" 0.2)
 
 			;---Upper
 	
-	(define "45_pistol_major_artery_upper_arm_upper_damage_chance" 0.3)
-	(define "45_pistol_moderate_artery_upper_arm_upper_damage_chance" 0.3)
-	(define "45_pistol_major_vein_upper_arm_upper_damage_chance" 0.5)
+	(define "large_pistol_major_artery_upper_arm_upper_damage_chance" 0.3)
+	(define "large_pistol_moderate_artery_upper_arm_upper_damage_chance" 0.3)
+	(define "large_pistol_major_vein_upper_arm_upper_damage_chance" 0.5)
 	
 		;---Lower Arm
 		
 			;---Low Roll
 	
-	(define "45_pistol_major_artery_lower_arm_low_damage_chance" 0.05)
-	(define "45_pistol_moderate_artery_lower_arm_low_damage_chance" 0.05)
-	(define "45_pistol_major_vein_lower_arm_low_damage_chance" 0.1)
+	(define "large_pistol_major_artery_lower_arm_low_damage_chance" 0.05)
+	(define "large_pistol_moderate_artery_lower_arm_low_damage_chance" 0.05)
+	(define "large_pistol_major_vein_lower_arm_low_damage_chance" 0.1)
 
 			;---Mid Roll
 	
-	(define "45_pistol_major_artery_lower_arm_mid_damage_chance" 0.1)
-	(define "45_pistol_moderate_artery_lower_arm_mid_damage_chance" 0.1)
-	(define "45_pistol_major_vein_lower_arm_mid_damage_chance" 0.2)
+	(define "large_pistol_major_artery_lower_arm_mid_damage_chance" 0.1)
+	(define "large_pistol_moderate_artery_lower_arm_mid_damage_chance" 0.1)
+	(define "large_pistol_major_vein_lower_arm_mid_damage_chance" 0.2)
 
 			;---Upper
 	
-	(define "45_pistol_major_artery_lower_arm_upper_damage_chance" 0.3)
-	(define "45_pistol_moderate_artery_lower_arm_upper_damage_chance" 0.3)
-	(define "45_pistol_major_vein_lower_arm_upper_damage_chance" 0.5)
+	(define "large_pistol_major_artery_lower_arm_upper_damage_chance" 0.3)
+	(define "large_pistol_moderate_artery_lower_arm_upper_damage_chance" 0.3)
+	(define "large_pistol_major_vein_lower_arm_upper_damage_chance" 0.5)
 	
 		;---Upper Leg
 			
 			;---Low Roll
 	
-	(define "45_pistol_major_artery_upper_leg_low_damage_chance" 0.05)
-	(define "45_pistol_moderate_artery_upper_leg_low_damage_chance" 0.05)
-	(define "45_pistol_major_vein_upper_leg_low_damage_chance" 0.1)
+	(define "large_pistol_major_artery_upper_leg_low_damage_chance" 0.05)
+	(define "large_pistol_moderate_artery_upper_leg_low_damage_chance" 0.05)
+	(define "large_pistol_major_vein_upper_leg_low_damage_chance" 0.1)
 
 			;---Mid Roll
 	
-	(define "45_pistol_major_artery_upper_leg_mid_damage_chance" 0.1)
-	(define "45_pistol_moderate_artery_upper_leg_mid_damage_chance" 0.1)
-	(define "45_pistol_major_vein_upper_leg_mid_damage_chance" 0.2)
+	(define "large_pistol_major_artery_upper_leg_mid_damage_chance" 0.1)
+	(define "large_pistol_moderate_artery_upper_leg_mid_damage_chance" 0.1)
+	(define "large_pistol_major_vein_upper_leg_mid_damage_chance" 0.2)
 
 			;---Upper
 	
-	(define "45_pistol_major_artery_upper_leg_upper_damage_chance" 0.3)
-	(define "45_pistol_moderate_artery_upper_leg_upper_damage_chance" 0.3)
-	(define "45_pistol_major_vein_upper_leg_upper_damage_chance" 0.5)
+	(define "large_pistol_major_artery_upper_leg_upper_damage_chance" 0.3)
+	(define "large_pistol_moderate_artery_upper_leg_upper_damage_chance" 0.3)
+	(define "large_pistol_major_vein_upper_leg_upper_damage_chance" 0.5)
 	
 		;---Lower Leg
 		
 			;---Low Roll
 	
-	(define "45_pistol_major_artery_lower_leg_low_damage_chance" 0.05)
-	(define "45_pistol_moderate_artery_lower_leg_low_damage_chance" 0.05)
-	(define "45_pistol_major_vein_lower_leg_low_damage_chance" 0.1)
+	(define "large_pistol_major_artery_lower_leg_low_damage_chance" 0.05)
+	(define "large_pistol_moderate_artery_lower_leg_low_damage_chance" 0.05)
+	(define "large_pistol_major_vein_lower_leg_low_damage_chance" 0.1)
 
 			;---Mid Roll
 	
-	(define "45_pistol_major_artery_lower_leg_mid_damage_chance" 0.1)
-	(define "45_pistol_moderate_artery_lower_leg_mid_damage_chance" 0.1)
-	(define "45_pistol_major_vein_lower_leg_mid_damage_chance" 0.2)
+	(define "large_pistol_major_artery_lower_leg_mid_damage_chance" 0.1)
+	(define "large_pistol_moderate_artery_lower_leg_mid_damage_chance" 0.1)
+	(define "large_pistol_major_vein_lower_leg_mid_damage_chance" 0.2)
 
 			;---Upper
 	
-	(define "45_pistol_major_artery_lower_leg_upper_damage_chance" 0.3)
-	(define "45_pistol_moderate_artery_lower_leg_upper_damage_chance" 0.3)
-	(define "45_pistol_major_vein_lower_leg_upper_damage_chance" 0.5)
+	(define "large_pistol_major_artery_lower_leg_upper_damage_chance" 0.3)
+	(define "large_pistol_moderate_artery_lower_leg_upper_damage_chance" 0.3)
+	(define "large_pistol_major_vein_lower_leg_upper_damage_chance" 0.5)
 
-		;7-92_kurz
+		;intermediate
 		
 		;---Body
 	
-	(define "7-92_kurz_vital_organ_chance" 0.05)
+	(define "intermediate_vital_organ_chance" 0.1)
 	
 			;---Low Roll
 	
-	(define "7-92_kurz_major_artery_body_low_damage_chance" 0.05)
-	(define "7-92_kurz_moderate_artery_body_low_damage_chance" 0.05)
-	(define "7-92_kurz_major_vein_body_low_damage_chance" 0.1)
+	(define "intermediate_major_artery_body_low_damage_chance" 0.05)
+	(define "intermediate_moderate_artery_body_low_damage_chance" 0.05)
+	(define "intermediate_major_vein_body_low_damage_chance" 0.1)
 
 			;---Mid Roll
 	
-	(define "7-92_kurz_internal_bleeding_body_mid_damage_chance" 0.05)	
-	(define "7-92_kurz_major_artery_body_mid_damage_chance" 0.1)
-	(define "7-92_kurz_moderate_artery_body_mid_damage_chance" 0.1)
-	(define "7-92_kurz_major_vein_body_mid_damage_chance" 0.2)
+	(define "intermediate_internal_bleeding_body_mid_damage_chance" 0.05)	
+	(define "intermediate_major_artery_body_mid_damage_chance" 0.1)
+	(define "intermediate_moderate_artery_body_mid_damage_chance" 0.1)
+	(define "intermediate_major_vein_body_mid_damage_chance" 0.2)
 
 			;---Upper
 	
-	(define "7-92_kurz_internal_bleeding_body_upper_damage_chance" 0.15)	
-	(define "7-92_kurz_major_artery_body_upper_damage_chance" 0.3)
-	(define "7-92_kurz_moderate_artery_body_upper_damage_chance" 0.3)
-	(define "7-92_kurz_major_vein_body_upper_damage_chance" 0.5)
+	(define "intermediate_internal_bleeding_body_upper_damage_chance" 0.15)	
+	(define "intermediate_major_artery_body_upper_damage_chance" 0.3)
+	(define "intermediate_moderate_artery_body_upper_damage_chance" 0.3)
+	(define "intermediate_major_vein_body_upper_damage_chance" 0.5)
 	
 		;---Upper Arm
 	
 			;---Low Roll
 			
-	(define "7-92_kurz_major_artery_upper_arm_low_damage_chance" 0.05)
-	(define "7-92_kurz_moderate_artery_upper_arm_low_damage_chance" 0.05)
-	(define "7-92_kurz_major_vein_upper_arm_low_damage_chance" 0.1)
+	(define "intermediate_major_artery_upper_arm_low_damage_chance" 0.05)
+	(define "intermediate_moderate_artery_upper_arm_low_damage_chance" 0.05)
+	(define "intermediate_major_vein_upper_arm_low_damage_chance" 0.1)
 
 			;---Mid Roll
 	
-	(define "7-92_kurz_major_artery_upper_arm_mid_damage_chance" 0.1)
-	(define "7-92_kurz_moderate_artery_upper_arm_mid_damage_chance" 0.1)
-	(define "7-92_kurz_major_vein_upper_arm_mid_damage_chance" 0.2)
+	(define "intermediate_major_artery_upper_arm_mid_damage_chance" 0.1)
+	(define "intermediate_moderate_artery_upper_arm_mid_damage_chance" 0.1)
+	(define "intermediate_major_vein_upper_arm_mid_damage_chance" 0.2)
 
 			;---Upper
 	
-	(define "7-92_kurz_major_artery_upper_arm_upper_damage_chance" 0.3)
-	(define "7-92_kurz_moderate_artery_upper_arm_upper_damage_chance" 0.3)
-	(define "7-92_kurz_major_vein_upper_arm_upper_damage_chance" 0.5)
+	(define "intermediate_major_artery_upper_arm_upper_damage_chance" 0.3)
+	(define "intermediate_moderate_artery_upper_arm_upper_damage_chance" 0.3)
+	(define "intermediate_major_vein_upper_arm_upper_damage_chance" 0.5)
 	
 		;---Lower Arm
 		
 			;---Low Roll
 	
-	(define "7-92_kurz_major_artery_lower_arm_low_damage_chance" 0.05)
-	(define "7-92_kurz_moderate_artery_lower_arm_low_damage_chance" 0.05)
-	(define "7-92_kurz_major_vein_lower_arm_low_damage_chance" 0.1)
+	(define "intermediate_major_artery_lower_arm_low_damage_chance" 0.05)
+	(define "intermediate_moderate_artery_lower_arm_low_damage_chance" 0.05)
+	(define "intermediate_major_vein_lower_arm_low_damage_chance" 0.1)
 
 			;---Mid Roll
 	
-	(define "7-92_kurz_major_artery_lower_arm_mid_damage_chance" 0.1)
-	(define "7-92_kurz_moderate_artery_lower_arm_mid_damage_chance" 0.1)
-	(define "7-92_kurz_major_vein_lower_arm_mid_damage_chance" 0.2)
+	(define "intermediate_major_artery_lower_arm_mid_damage_chance" 0.1)
+	(define "intermediate_moderate_artery_lower_arm_mid_damage_chance" 0.1)
+	(define "intermediate_major_vein_lower_arm_mid_damage_chance" 0.2)
 
 			;---Upper
 	
-	(define "7-92_kurz_major_artery_lower_arm_upper_damage_chance" 0.3)
-	(define "7-92_kurz_moderate_artery_lower_arm_upper_damage_chance" 0.3)
-	(define "7-92_kurz_major_vein_lower_arm_upper_damage_chance" 0.5)
+	(define "intermediate_major_artery_lower_arm_upper_damage_chance" 0.3)
+	(define "intermediate_moderate_artery_lower_arm_upper_damage_chance" 0.3)
+	(define "intermediate_major_vein_lower_arm_upper_damage_chance" 0.5)
 	
 		;---Upper Leg
 			
 			;---Low Roll
 	
-	(define "7-92_kurz_major_artery_upper_leg_low_damage_chance" 0.05)
-	(define "7-92_kurz_moderate_artery_upper_leg_low_damage_chance" 0.05)
-	(define "7-92_kurz_major_vein_upper_leg_low_damage_chance" 0.1)
+	(define "intermediate_major_artery_upper_leg_low_damage_chance" 0.05)
+	(define "intermediate_moderate_artery_upper_leg_low_damage_chance" 0.05)
+	(define "intermediate_major_vein_upper_leg_low_damage_chance" 0.1)
 
 			;---Mid Roll
 	
-	(define "7-92_kurz_major_artery_upper_leg_mid_damage_chance" 0.1)
-	(define "7-92_kurz_moderate_artery_upper_leg_mid_damage_chance" 0.1)
-	(define "7-92_kurz_major_vein_upper_leg_mid_damage_chance" 0.2)
+	(define "intermediate_major_artery_upper_leg_mid_damage_chance" 0.1)
+	(define "intermediate_moderate_artery_upper_leg_mid_damage_chance" 0.1)
+	(define "intermediate_major_vein_upper_leg_mid_damage_chance" 0.2)
 
 			;---Upper
 	
-	(define "7-92_kurz_major_artery_upper_leg_upper_damage_chance" 0.3)
-	(define "7-92_kurz_moderate_artery_upper_leg_upper_damage_chance" 0.3)
-	(define "7-92_kurz_major_vein_upper_leg_upper_damage_chance" 0.5)
+	(define "intermediate_major_artery_upper_leg_upper_damage_chance" 0.3)
+	(define "intermediate_moderate_artery_upper_leg_upper_damage_chance" 0.3)
+	(define "intermediate_major_vein_upper_leg_upper_damage_chance" 0.5)
 	
 		;---Lower Leg
 		
 			;---Low Roll
 	
-	(define "7-92_kurz_major_artery_lower_leg_low_damage_chance" 0.05)
-	(define "7-92_kurz_moderate_artery_lower_leg_low_damage_chance" 0.05)
-	(define "7-92_kurz_major_vein_lower_leg_low_damage_chance" 0.1)
+	(define "intermediate_major_artery_lower_leg_low_damage_chance" 0.05)
+	(define "intermediate_moderate_artery_lower_leg_low_damage_chance" 0.05)
+	(define "intermediate_major_vein_lower_leg_low_damage_chance" 0.1)
 
 			;---Mid Roll
 	
-	(define "7-92_kurz_major_artery_lower_leg_mid_damage_chance" 0.1)
-	(define "7-92_kurz_moderate_artery_lower_leg_mid_damage_chance" 0.1)
-	(define "7-92_kurz_major_vein_lower_leg_mid_damage_chance" 0.2)
+	(define "intermediate_major_artery_lower_leg_mid_damage_chance" 0.1)
+	(define "intermediate_moderate_artery_lower_leg_mid_damage_chance" 0.1)
+	(define "intermediate_major_vein_lower_leg_mid_damage_chance" 0.2)
 
 			;---Upper
 	
-	(define "7-92_kurz_major_artery_lower_leg_upper_damage_chance" 0.3)
-	(define "7-92_kurz_moderate_artery_lower_leg_upper_damage_chance" 0.3)
-	(define "7-92_kurz_major_vein_lower_leg_upper_damage_chance" 0.5)
+	(define "intermediate_major_artery_lower_leg_upper_damage_chance" 0.3)
+	(define "intermediate_moderate_artery_lower_leg_upper_damage_chance" 0.3)
+	(define "intermediate_major_vein_lower_leg_upper_damage_chance" 0.5)
 	
-		;7-92_rifle
+		;full_rifle
 		
 		;---Body
 	
-	(define "7-92_rifle_vital_organ_chance" 0.05)
+	(define "full_rifle_vital_organ_chance" 0.15)
 	
 			;---Low Roll
 	
-	(define "7-92_rifle_major_artery_body_low_damage_chance" 0.05)
-	(define "7-92_rifle_moderate_artery_body_low_damage_chance" 0.05)
-	(define "7-92_rifle_major_vein_body_low_damage_chance" 0.1)
+	(define "full_rifle_major_artery_body_low_damage_chance" 0.05)
+	(define "full_rifle_moderate_artery_body_low_damage_chance" 0.05)
+	(define "full_rifle_major_vein_body_low_damage_chance" 0.1)
 
 			;---Mid Roll
 	
-	(define "7-92_rifle_internal_bleeding_body_mid_damage_chance" 0.05)	
-	(define "7-92_rifle_major_artery_body_mid_damage_chance" 0.1)
-	(define "7-92_rifle_moderate_artery_body_mid_damage_chance" 0.1)
-	(define "7-92_rifle_major_vein_body_mid_damage_chance" 0.2)
+	(define "full_rifle_internal_bleeding_body_mid_damage_chance" 0.05)	
+	(define "full_rifle_major_artery_body_mid_damage_chance" 0.1)
+	(define "full_rifle_moderate_artery_body_mid_damage_chance" 0.1)
+	(define "full_rifle_major_vein_body_mid_damage_chance" 0.2)
 
 			;---Upper
 	
-	(define "7-92_rifle_internal_bleeding_body_upper_damage_chance" 0.15)	
-	(define "7-92_rifle_major_artery_body_upper_damage_chance" 0.3)
-	(define "7-92_rifle_moderate_artery_body_upper_damage_chance" 0.3)
-	(define "7-92_rifle_major_vein_body_upper_damage_chance" 0.5)
+	(define "full_rifle_internal_bleeding_body_upper_damage_chance" 0.15)	
+	(define "full_rifle_major_artery_body_upper_damage_chance" 0.3)
+	(define "full_rifle_moderate_artery_body_upper_damage_chance" 0.3)
+	(define "full_rifle_major_vein_body_upper_damage_chance" 0.5)
 	
 		;---Upper Arm
 	
 			;---Low Roll
 			
-	(define "7-92_rifle_major_artery_upper_arm_low_damage_chance" 0.05)
-	(define "7-92_rifle_moderate_artery_upper_arm_low_damage_chance" 0.05)
-	(define "7-92_rifle_major_vein_upper_arm_low_damage_chance" 0.1)
+	(define "full_rifle_major_artery_upper_arm_low_damage_chance" 0.05)
+	(define "full_rifle_moderate_artery_upper_arm_low_damage_chance" 0.05)
+	(define "full_rifle_major_vein_upper_arm_low_damage_chance" 0.1)
 
 			;---Mid Roll
 	
-	(define "7-92_rifle_major_artery_upper_arm_mid_damage_chance" 0.1)
-	(define "7-92_rifle_moderate_artery_upper_arm_mid_damage_chance" 0.1)
-	(define "7-92_rifle_major_vein_upper_arm_mid_damage_chance" 0.2)
+	(define "full_rifle_major_artery_upper_arm_mid_damage_chance" 0.1)
+	(define "full_rifle_moderate_artery_upper_arm_mid_damage_chance" 0.1)
+	(define "full_rifle_major_vein_upper_arm_mid_damage_chance" 0.2)
 
 			;---Upper
 	
-	(define "7-92_rifle_major_artery_upper_arm_upper_damage_chance" 0.3)
-	(define "7-92_rifle_moderate_artery_upper_arm_upper_damage_chance" 0.3)
-	(define "7-92_rifle_major_vein_upper_arm_upper_damage_chance" 0.5)
+	(define "full_rifle_major_artery_upper_arm_upper_damage_chance" 0.3)
+	(define "full_rifle_moderate_artery_upper_arm_upper_damage_chance" 0.3)
+	(define "full_rifle_major_vein_upper_arm_upper_damage_chance" 0.5)
 	
 		;---Lower Arm
 		
 			;---Low Roll
 	
-	(define "7-92_rifle_major_artery_lower_arm_low_damage_chance" 0.05)
-	(define "7-92_rifle_moderate_artery_lower_arm_low_damage_chance" 0.05)
-	(define "7-92_rifle_major_vein_lower_arm_low_damage_chance" 0.1)
+	(define "full_rifle_major_artery_lower_arm_low_damage_chance" 0.05)
+	(define "full_rifle_moderate_artery_lower_arm_low_damage_chance" 0.05)
+	(define "full_rifle_major_vein_lower_arm_low_damage_chance" 0.1)
 
 			;---Mid Roll
 	
-	(define "7-92_rifle_major_artery_lower_arm_mid_damage_chance" 0.1)
-	(define "7-92_rifle_moderate_artery_lower_arm_mid_damage_chance" 0.1)
-	(define "7-92_rifle_major_vein_lower_arm_mid_damage_chance" 0.2)
+	(define "full_rifle_major_artery_lower_arm_mid_damage_chance" 0.1)
+	(define "full_rifle_moderate_artery_lower_arm_mid_damage_chance" 0.1)
+	(define "full_rifle_major_vein_lower_arm_mid_damage_chance" 0.2)
 
 			;---Upper
 	
-	(define "7-92_rifle_major_artery_lower_arm_upper_damage_chance" 0.3)
-	(define "7-92_rifle_moderate_artery_lower_arm_upper_damage_chance" 0.3)
-	(define "7-92_rifle_major_vein_lower_arm_upper_damage_chance" 0.5)
+	(define "full_rifle_major_artery_lower_arm_upper_damage_chance" 0.3)
+	(define "full_rifle_moderate_artery_lower_arm_upper_damage_chance" 0.3)
+	(define "full_rifle_major_vein_lower_arm_upper_damage_chance" 0.5)
 	
 		;---Upper Leg
 			
 			;---Low Roll
 	
-	(define "7-92_rifle_major_artery_upper_leg_low_damage_chance" 0.05)
-	(define "7-92_rifle_moderate_artery_upper_leg_low_damage_chance" 0.05)
-	(define "7-92_rifle_major_vein_upper_leg_low_damage_chance" 0.1)
+	(define "full_rifle_major_artery_upper_leg_low_damage_chance" 0.05)
+	(define "full_rifle_moderate_artery_upper_leg_low_damage_chance" 0.05)
+	(define "full_rifle_major_vein_upper_leg_low_damage_chance" 0.1)
 
 			;---Mid Roll
 	
-	(define "7-92_rifle_major_artery_upper_leg_mid_damage_chance" 0.1)
-	(define "7-92_rifle_moderate_artery_upper_leg_mid_damage_chance" 0.1)
-	(define "7-92_rifle_major_vein_upper_leg_mid_damage_chance" 0.2)
+	(define "full_rifle_major_artery_upper_leg_mid_damage_chance" 0.1)
+	(define "full_rifle_moderate_artery_upper_leg_mid_damage_chance" 0.1)
+	(define "full_rifle_major_vein_upper_leg_mid_damage_chance" 0.2)
 
 			;---Upper
 	
-	(define "7-92_rifle_major_artery_upper_leg_upper_damage_chance" 0.3)
-	(define "7-92_rifle_moderate_artery_upper_leg_upper_damage_chance" 0.3)
-	(define "7-92_rifle_major_vein_upper_leg_upper_damage_chance" 0.5)
+	(define "full_rifle_major_artery_upper_leg_upper_damage_chance" 0.3)
+	(define "full_rifle_moderate_artery_upper_leg_upper_damage_chance" 0.3)
+	(define "full_rifle_major_vein_upper_leg_upper_damage_chance" 0.5)
 	
 		;---Lower Leg
 		
 			;---Low Roll
 	
-	(define "7-92_rifle_major_artery_lower_leg_low_damage_chance" 0.05)
-	(define "7-92_rifle_moderate_artery_lower_leg_low_damage_chance" 0.05)
-	(define "7-92_rifle_major_vein_lower_leg_low_damage_chance" 0.1)
+	(define "full_rifle_major_artery_lower_leg_low_damage_chance" 0.05)
+	(define "full_rifle_moderate_artery_lower_leg_low_damage_chance" 0.05)
+	(define "full_rifle_major_vein_lower_leg_low_damage_chance" 0.1)
 
 			;---Mid Roll
 	
-	(define "7-92_rifle_major_artery_lower_leg_mid_damage_chance" 0.1)
-	(define "7-92_rifle_moderate_artery_lower_leg_mid_damage_chance" 0.1)
-	(define "7-92_rifle_major_vein_lower_leg_mid_damage_chance" 0.2)
+	(define "full_rifle_major_artery_lower_leg_mid_damage_chance" 0.1)
+	(define "full_rifle_moderate_artery_lower_leg_mid_damage_chance" 0.1)
+	(define "full_rifle_major_vein_lower_leg_mid_damage_chance" 0.2)
 
 			;---Upper
 	
-	(define "7-92_rifle_major_artery_lower_leg_upper_damage_chance" 0.3)
-	(define "7-92_rifle_moderate_artery_lower_leg_upper_damage_chance" 0.3)
-	(define "7-92_rifle_major_vein_lower_leg_upper_damage_chance" 0.5)
+	(define "full_rifle_major_artery_lower_leg_upper_damage_chance" 0.3)
+	(define "full_rifle_moderate_artery_lower_leg_upper_damage_chance" 0.3)
+	(define "full_rifle_major_vein_lower_leg_upper_damage_chance" 0.5)
 	
 		;hmgun
 		
 		;---Body
 	
-	(define "hmgun_vital_organ_chance" 0.05)
+	(define "hmgun_vital_organ_chance" 0.2)
 	
 			;---Low Roll
 	
@@ -858,58 +858,58 @@
 	
 	;---Damage Randomizer
 	
-		;--- 7-62_pistol_body
+		;--- small_pistol_body
 
-	{on "random_damage_7-62_pistol_body"
+	{on "random_damage_small_pistol_body"
 		{if rand 0.3 
-			{call_synced "low_damage_7-62_pistol_body"}
+			{call_synced "low_damage_small_pistol_body"}
 		else rand 0.3 
-			{call_synced "mid_damage_7-62_pistol_body"}
+			{call_synced "mid_damage_small_pistol_body"}
 		else 
-			{call_synced "upper_damage_7-62_pistol_body"}
+			{call_synced "upper_damage_small_pistol_body"}
 		}
 	}
 		
-	{on "low_damage_7-62_pistol_body"
+	{on "low_damage_small_pistol_body"
 		("human_health" c(50))
 		{if not dead
-			{if rand ("7-62_pistol_major_artery_body_low_damage_chance")
+			{if rand ("small_pistol_major_artery_body_low_damage_chance")
 				{call_synced "major_artery_bleeding"}
-			else rand ("7-62_pistol_major_vein_body_low_damage_chance")
+			else rand ("small_pistol_major_vein_body_low_damage_chance")
 				{call_synced "major_vein_bleeding"}
-			else rand ("7-62_pistol_moderate_artery_body_low_damage_chance")
+			else rand ("small_pistol_moderate_artery_body_low_damage_chance")
 				{call_synced "moderate_artery_bleeding"}
 			else
 				{call_synced "moderate_vein_bleeding"}
 			}
 		}
 	}	
-	{on "mid_damage_7-62_pistol_body"
+	{on "mid_damage_small_pistol_body"
 		("human_health" c(70))
 		{if not dead
-			{if rand ("7-62_pistol_internal_bleeding_body_mid_damage_chance")
+			{if rand ("small_pistol_internal_bleeding_body_mid_damage_chance")
 				{call_synced "internal_bleeding"}
-			else rand ("7-62_pistol_major_artery_body_mid_damage_chance")
+			else rand ("small_pistol_major_artery_body_mid_damage_chance")
 				{call_synced "major_artery_bleeding"}
-			else rand ("7-62_pistol_major_vein_body_mid_damage_chance")
+			else rand ("small_pistol_major_vein_body_mid_damage_chance")
 				{call_synced "major_vein_bleeding"}
-			else rand ("7-62_pistol_moderate_artery_body_mid_damage_chance")
+			else rand ("small_pistol_moderate_artery_body_mid_damage_chance")
 				{call_synced "moderate_artery_bleeding"}
 			else
 				{call_synced "moderate_vein_bleeding"}
 			}
 		}
 	}
-	{on "upper_damage_7-62_pistol_body"
+	{on "upper_damage_small_pistol_body"
 		("human_health" c(90))
 		{if not dead
-			{if rand ("7-62_pistol_internal_bleeding_body_upper_damage_chance")
+			{if rand ("small_pistol_internal_bleeding_body_upper_damage_chance")
 				{call_synced "internal_bleeding"}
-			else rand ("7-62_pistol_major_artery_body_upper_damage_chance")
+			else rand ("small_pistol_major_artery_body_upper_damage_chance")
 				{call_synced "major_artery_bleeding"}
-			else rand ("7-62_pistol_major_vein_body_upper_damage_chance")
+			else rand ("small_pistol_major_vein_body_upper_damage_chance")
 				{call_synced "major_vein_bleeding"}
-			else rand ("7-62_pistol_moderate_artery_body_upper_damage_chance")
+			else rand ("small_pistol_moderate_artery_body_upper_damage_chance")
 				{call_synced "moderate_artery_bleeding"}
 			else
 				{call_synced "moderate_vein_bleeding"}
@@ -917,54 +917,54 @@
 		}
 	}
 	
-		;--- 7-62_pistol_upper_arm
+		;--- small_pistol_upper_arm
 	
-	{on "random_damage_7-62_pistol_upper_arm"
+	{on "random_damage_small_pistol_upper_arm"
 		{if rand 0.3 
-			{call_synced "low_damage_7-62_pistol_upper_arm"}
+			{call_synced "low_damage_small_pistol_upper_arm"}
 		else rand 0.3 
-			{call_synced "mid_damage_7-62_pistol_upper_arm"}
+			{call_synced "mid_damage_small_pistol_upper_arm"}
 		else 
-			{call_synced "upper_damage_7-62_pistol_upper_arm"}
+			{call_synced "upper_damage_small_pistol_upper_arm"}
 		}
 	}
 		
-	{on "low_damage_7-62_pistol_upper_arm"
+	{on "low_damage_small_pistol_upper_arm"
 		("human_health" c(30))
 		{if not dead
-			{if rand ("7-62_pistol_major_artery_upper_arm_low_damage_chance")
+			{if rand ("small_pistol_major_artery_upper_arm_low_damage_chance")
 				{call_synced "major_artery_bleeding"}
-			else rand ("7-62_pistol_major_vein_upper_arm_low_damage_chance")
+			else rand ("small_pistol_major_vein_upper_arm_low_damage_chance")
 				{call_synced "major_vein_bleeding"}
-			else rand ("7-62_pistol_moderate_artery_upper_arm_low_damage_chance")
+			else rand ("small_pistol_moderate_artery_upper_arm_low_damage_chance")
 				{call_synced "moderate_artery_bleeding"}
 			else
 				{call_synced "moderate_vein_bleeding"}
 			}
 		}
 	}	
-	{on "mid_damage_7-62_pistol_upper_arm"
+	{on "mid_damage_small_pistol_upper_arm"
 		("human_health" c(40))
 		{if not dead
-			{if rand ("7-62_pistol_major_artery_upper_arm_mid_damage_chance")
+			{if rand ("small_pistol_major_artery_upper_arm_mid_damage_chance")
 				{call_synced "major_artery_bleeding"}
-			else rand ("7-62_pistol_major_vein_upper_arm_mid_damage_chance")
+			else rand ("small_pistol_major_vein_upper_arm_mid_damage_chance")
 				{call_synced "major_vein_bleeding"}
-			else rand ("7-62_pistol_moderate_artery_upper_arm_mid_damage_chance")
+			else rand ("small_pistol_moderate_artery_upper_arm_mid_damage_chance")
 				{call_synced "moderate_artery_bleeding"}
 			else
 				{call_synced "moderate_vein_bleeding"}
 			}
 		}
 	}	
-	{on "upper_damage_7-62_pistol_upper_arm"
+	{on "upper_damage_small_pistol_upper_arm"
 		("human_health" c(50))
 		{if not dead
-			{if rand ("7-62_pistol_major_artery_upper_arm_upper_damage_chance")
+			{if rand ("small_pistol_major_artery_upper_arm_upper_damage_chance")
 				{call_synced "major_artery_bleeding"}
-			else rand ("7-62_pistol_major_vein_upper_arm_upper_damage_chance")
+			else rand ("small_pistol_major_vein_upper_arm_upper_damage_chance")
 				{call_synced "major_vein_bleeding"}
-			else rand ("7-62_pistol_moderate_artery_upper_arm_upper_damage_chance")
+			else rand ("small_pistol_moderate_artery_upper_arm_upper_damage_chance")
 				{call_synced "moderate_artery_bleeding"}
 			else
 				{call_synced "moderate_vein_bleeding"}
@@ -972,54 +972,54 @@
 		}
 	}
 	
-		;--- 7-62_pistol_lower_arm
+		;--- small_pistol_lower_arm
 	
-	{on "random_damage_7-62_pistol_lower_arm"
+	{on "random_damage_small_pistol_lower_arm"
 		{if rand 0.3 
-			{call_synced "low_damage_7-62_pistol_lower_arm"}
+			{call_synced "low_damage_small_pistol_lower_arm"}
 		else rand 0.3 
-			{call_synced "mid_damage_7-62_pistol_lower_arm"}
+			{call_synced "mid_damage_small_pistol_lower_arm"}
 		else 
-			{call_synced "upper_damage_7-62_pistol_lower_arm"}
+			{call_synced "upper_damage_small_pistol_lower_arm"}
 		}
 	}
 		
-	{on "low_damage_7-62_pistol_lower_arm"
+	{on "low_damage_small_pistol_lower_arm"
 		("human_health" c(30))
 		{if not dead
-			{if rand ("7-62_pistol_major_artery_lower_arm_low_damage_chance")
+			{if rand ("small_pistol_major_artery_lower_arm_low_damage_chance")
 				{call_synced "major_artery_bleeding"}
-			else rand ("7-62_pistol_major_vein_lower_arm_low_damage_chance")
+			else rand ("small_pistol_major_vein_lower_arm_low_damage_chance")
 				{call_synced "major_vein_bleeding"}
-			else rand ("7-62_pistol_moderate_artery_lower_arm_low_damage_chance")
+			else rand ("small_pistol_moderate_artery_lower_arm_low_damage_chance")
 				{call_synced "moderate_artery_bleeding"}
 			else
 				{call_synced "moderate_vein_bleeding"}
 			}
 		}
 	}	
-	{on "mid_damage_7-62_pistol_lower_arm"
+	{on "mid_damage_small_pistol_lower_arm"
 		("human_health" c(40))
 		{if not dead
-			{if rand ("7-62_pistol_major_artery_lower_arm_mid_damage_chance")
+			{if rand ("small_pistol_major_artery_lower_arm_mid_damage_chance")
 				{call_synced "major_artery_bleeding"}
-			else rand ("7-62_pistol_major_vein_lower_arm_mid_damage_chance")
+			else rand ("small_pistol_major_vein_lower_arm_mid_damage_chance")
 				{call_synced "major_vein_bleeding"}
-			else rand ("7-62_pistol_moderate_artery_lower_arm_mid_damage_chance")
+			else rand ("small_pistol_moderate_artery_lower_arm_mid_damage_chance")
 				{call_synced "moderate_artery_bleeding"}
 			else
 				{call_synced "moderate_vein_bleeding"}
 			}
 		}
 	}	
-	{on "upper_damage_7-62_pistol_lower_arm"
+	{on "upper_damage_small_pistol_lower_arm"
 		("human_health" c(50))
 		{if not dead
-			{if rand ("7-62_pistol_major_artery_lower_arm_upper_damage_chance")
+			{if rand ("small_pistol_major_artery_lower_arm_upper_damage_chance")
 				{call_synced "major_artery_bleeding"}
-			else rand ("7-62_pistol_major_vein_lower_arm_upper_damage_chance")
+			else rand ("small_pistol_major_vein_lower_arm_upper_damage_chance")
 				{call_synced "major_vein_bleeding"}
-			else rand ("7-62_pistol_moderate_artery_lower_arm_upper_damage_chance")
+			else rand ("small_pistol_moderate_artery_lower_arm_upper_damage_chance")
 				{call_synced "moderate_artery_bleeding"}
 			else
 				{call_synced "moderate_vein_bleeding"}
@@ -1027,54 +1027,54 @@
 		}
 	}
 	
-		;--- 7-62_pistol_upper_leg
+		;--- small_pistol_upper_leg
 	
-	{on "random_damage_7-62_pistol_upper_leg"
+	{on "random_damage_small_pistol_upper_leg"
 		{if rand 0.3 
-			{call_synced "low_damage_7-62_pistol_upper_leg"}
+			{call_synced "low_damage_small_pistol_upper_leg"}
 		else rand 0.3 
-			{call_synced "mid_damage_7-62_pistol_upper_leg"}
+			{call_synced "mid_damage_small_pistol_upper_leg"}
 		else 
-			{call_synced "upper_damage_7-62_pistol_upper_leg"}
+			{call_synced "upper_damage_small_pistol_upper_leg"}
 		}
 	}
 		
-	{on "low_damage_7-62_pistol_upper_leg"
+	{on "low_damage_small_pistol_upper_leg"
 		("human_health" c(30))
 		{if not dead
-			{if rand ("7-62_pistol_major_artery_upper_leg_low_damage_chance")
+			{if rand ("small_pistol_major_artery_upper_leg_low_damage_chance")
 				{call_synced "major_artery_bleeding"}
-			else rand ("7-62_pistol_major_vein_upper_leg_low_damage_chance")
+			else rand ("small_pistol_major_vein_upper_leg_low_damage_chance")
 				{call_synced "major_vein_bleeding"}
-			else rand ("7-62_pistol_moderate_artery_upper_leg_low_damage_chance")
+			else rand ("small_pistol_moderate_artery_upper_leg_low_damage_chance")
 				{call_synced "moderate_artery_bleeding"}
 			else
 				{call_synced "moderate_vein_bleeding"}
 			}
 		}
 	}		
-	{on "mid_damage_7-62_pistol_upper_leg"
+	{on "mid_damage_small_pistol_upper_leg"
 		("human_health" c(40))
 		{if not dead
-			{if rand ("7-62_pistol_major_artery_upper_leg_mid_damage_chance")
+			{if rand ("small_pistol_major_artery_upper_leg_mid_damage_chance")
 				{call_synced "major_artery_bleeding"}
-			else rand ("7-62_pistol_major_vein_upper_leg_mid_damage_chance")
+			else rand ("small_pistol_major_vein_upper_leg_mid_damage_chance")
 				{call_synced "major_vein_bleeding"}
-			else rand ("7-62_pistol_moderate_artery_upper_leg_mid_damage_chance")
+			else rand ("small_pistol_moderate_artery_upper_leg_mid_damage_chance")
 				{call_synced "moderate_artery_bleeding"}
 			else
 				{call_synced "moderate_vein_bleeding"}
 			}
 		}
 	}
-	{on "upper_damage_7-62_pistol_upper_leg"
+	{on "upper_damage_small_pistol_upper_leg"
 		("human_health" c(50))
 		{if not dead
-			{if rand ("7-62_pistol_major_artery_upper_leg_upper_damage_chance")
+			{if rand ("small_pistol_major_artery_upper_leg_upper_damage_chance")
 				{call_synced "major_artery_bleeding"}
-			else rand ("7-62_pistol_major_vein_upper_leg_upper_damage_chance")
+			else rand ("small_pistol_major_vein_upper_leg_upper_damage_chance")
 				{call_synced "major_vein_bleeding"}
-			else rand ("7-62_pistol_moderate_artery_upper_leg_upper_damage_chance")
+			else rand ("small_pistol_moderate_artery_upper_leg_upper_damage_chance")
 				{call_synced "moderate_artery_bleeding"}
 			else
 				{call_synced "moderate_vein_bleeding"}
@@ -1082,54 +1082,54 @@
 		}
 	}
 	
-		;--- 7-62_pistol_lower_leg
+		;--- small_pistol_lower_leg
 	
-	{on "random_damage_7-62_pistol_lower_leg"
+	{on "random_damage_small_pistol_lower_leg"
 		{if rand 0.3 
-			{call_synced "low_damage_7-62_pistol_lower_leg"}
+			{call_synced "low_damage_small_pistol_lower_leg"}
 		else rand 0.3 
-			{call_synced "mid_damage_7-62_pistol_lower_leg"}
+			{call_synced "mid_damage_small_pistol_lower_leg"}
 		else 
-			{call_synced "upper_damage_7-62_pistol_lower_leg"}
+			{call_synced "upper_damage_small_pistol_lower_leg"}
 		}
 	}
 		
-	{on "low_damage_7-62_pistol_lower_leg"
+	{on "low_damage_small_pistol_lower_leg"
 		("human_health" c(30))
 		{if not dead
-			{if rand ("7-62_pistol_major_artery_lower_leg_low_damage_chance")
+			{if rand ("small_pistol_major_artery_lower_leg_low_damage_chance")
 				{call_synced "major_artery_bleeding"}
-			else rand ("7-62_pistol_major_vein_lower_leg_low_damage_chance")
+			else rand ("small_pistol_major_vein_lower_leg_low_damage_chance")
 				{call_synced "major_vein_bleeding"}
-			else rand ("7-62_pistol_moderate_artery_lower_leg_low_damage_chance")
+			else rand ("small_pistol_moderate_artery_lower_leg_low_damage_chance")
 				{call_synced "moderate_artery_bleeding"}
 			else
 				{call_synced "moderate_vein_bleeding"}
 			}
 		}
 	}	
-	{on "mid_damage_7-62_pistol_lower_leg"
+	{on "mid_damage_small_pistol_lower_leg"
 		("human_health" c(40))
 		{if not dead
-			{if rand ("7-62_pistol_major_artery_lower_leg_mid_damage_chance")
+			{if rand ("small_pistol_major_artery_lower_leg_mid_damage_chance")
 				{call_synced "major_artery_bleeding"}
-			else rand ("7-62_pistol_major_vein_lower_leg_mid_damage_chance")
+			else rand ("small_pistol_major_vein_lower_leg_mid_damage_chance")
 				{call_synced "major_vein_bleeding"}
-			else rand ("7-62_pistol_moderate_artery_lower_leg_mid_damage_chance")
+			else rand ("small_pistol_moderate_artery_lower_leg_mid_damage_chance")
 				{call_synced "moderate_artery_bleeding"}
 			else
 				{call_synced "moderate_vein_bleeding"}
 			}
 		}
 	}
-	{on "upper_damage_7-62_pistol_lower_leg"
+	{on "upper_damage_small_pistol_lower_leg"
 		("human_health" c(50))
 		{if not dead
-			{if rand ("7-62_pistol_major_artery_lower_leg_upper_damage_chance")
+			{if rand ("small_pistol_major_artery_lower_leg_upper_damage_chance")
 				{call_synced "major_artery_bleeding"}
-			else rand ("7-62_pistol_major_vein_lower_leg_upper_damage_chance")
+			else rand ("small_pistol_major_vein_lower_leg_upper_damage_chance")
 				{call_synced "major_vein_bleeding"}
-			else rand ("7-62_pistol_moderate_artery_lower_leg_upper_damage_chance")
+			else rand ("small_pistol_moderate_artery_lower_leg_upper_damage_chance")
 				{call_synced "moderate_artery_bleeding"}
 			else
 				{call_synced "moderate_vein_bleeding"}
@@ -1138,58 +1138,58 @@
 	}
 	
 			;45 pistol
-			;--- 45_pistol_body
+			;--- large_pistol_body
 
-	{on "random_damage_45_pistol_body"
+	{on "random_damage_large_pistol_body"
 		{if rand 0.3 
-			{call_synced "low_damage_45_pistol_body"}
+			{call_synced "low_damage_large_pistol_body"}
 		else rand 0.3 
-			{call_synced "mid_damage_45_pistol_body"}
+			{call_synced "mid_damage_large_pistol_body"}
 		else 
-			{call_synced "upper_damage_45_pistol_body"}
+			{call_synced "upper_damage_large_pistol_body"}
 		}
 	}
 		
-	{on "low_damage_45_pistol_body"
+	{on "low_damage_large_pistol_body"
 		("human_health" c(50))
 		{if not dead
-			{if rand ("45_pistol_major_artery_body_low_damage_chance")
+			{if rand ("large_pistol_major_artery_body_low_damage_chance")
 				{call_synced "major_artery_bleeding"}
-			else rand ("45_pistol_major_vein_body_low_damage_chance")
+			else rand ("large_pistol_major_vein_body_low_damage_chance")
 				{call_synced "major_vein_bleeding"}
-			else rand ("45_pistol_moderate_artery_body_low_damage_chance")
+			else rand ("large_pistol_moderate_artery_body_low_damage_chance")
 				{call_synced "moderate_artery_bleeding"}
 			else
 				{call_synced "moderate_vein_bleeding"}
 			}
 		}
 	}	
-	{on "mid_damage_45_pistol_body"
+	{on "mid_damage_large_pistol_body"
 		("human_health" c(70))
 		{if not dead
-			{if rand ("45_pistol_internal_bleeding_body_mid_damage_chance")
+			{if rand ("large_pistol_internal_bleeding_body_mid_damage_chance")
 				{call_synced "internal_bleeding"}
-			else rand ("45_pistol_major_artery_body_mid_damage_chance")
+			else rand ("large_pistol_major_artery_body_mid_damage_chance")
 				{call_synced "major_artery_bleeding"}
-			else rand ("45_pistol_major_vein_body_mid_damage_chance")
+			else rand ("large_pistol_major_vein_body_mid_damage_chance")
 				{call_synced "major_vein_bleeding"}
-			else rand ("45_pistol_moderate_artery_body_mid_damage_chance")
+			else rand ("large_pistol_moderate_artery_body_mid_damage_chance")
 				{call_synced "moderate_artery_bleeding"}
 			else
 				{call_synced "moderate_vein_bleeding"}
 			}
 		}
 	}	
-	{on "upper_damage_45_pistol_body"
+	{on "upper_damage_large_pistol_body"
 		("human_health" c(90))
 		{if not dead
-			{if rand ("45_pistol_internal_bleeding_body_upper_damage_chance")
+			{if rand ("large_pistol_internal_bleeding_body_upper_damage_chance")
 				{call_synced "internal_bleeding"}
-			else rand ("45_pistol_major_artery_body_upper_damage_chance")
+			else rand ("large_pistol_major_artery_body_upper_damage_chance")
 				{call_synced "major_artery_bleeding"}
-			else rand ("45_pistol_major_vein_body_upper_damage_chance")
+			else rand ("large_pistol_major_vein_body_upper_damage_chance")
 				{call_synced "major_vein_bleeding"}
-			else rand ("45_pistol_moderate_artery_body_upper_damage_chance")
+			else rand ("large_pistol_moderate_artery_body_upper_damage_chance")
 				{call_synced "moderate_artery_bleeding"}
 			else
 				{call_synced "moderate_vein_bleeding"}
@@ -1197,54 +1197,54 @@
 		}
 	}
 	
-		;--- 45_pistol_upper_arm
+		;--- large_pistol_upper_arm
 	
-	{on "random_damage_45_pistol_upper_arm"
+	{on "random_damage_large_pistol_upper_arm"
 		{if rand 0.3 
-			{call_synced "low_damage_45_pistol_upper_arm"}
+			{call_synced "low_damage_large_pistol_upper_arm"}
 		else rand 0.3 
-			{call_synced "mid_damage_45_pistol_upper_arm"}
+			{call_synced "mid_damage_large_pistol_upper_arm"}
 		else 
-			{call_synced "upper_damage_45_pistol_upper_arm"}
+			{call_synced "upper_damage_large_pistol_upper_arm"}
 		}
 	}
 		
-	{on "low_damage_45_pistol_upper_arm"
+	{on "low_damage_large_pistol_upper_arm"
 		("human_health" c(38))
 		{if not dead
-			{if rand ("45_pistol_major_artery_upper_arm_low_damage_chance")
+			{if rand ("large_pistol_major_artery_upper_arm_low_damage_chance")
 				{call_synced "major_artery_bleeding"}
-			else rand ("45_pistol_major_vein_upper_arm_low_damage_chance")
+			else rand ("large_pistol_major_vein_upper_arm_low_damage_chance")
 				{call_synced "major_vein_bleeding"}
-			else rand ("45_pistol_moderate_artery_upper_arm_low_damage_chance")
+			else rand ("large_pistol_moderate_artery_upper_arm_low_damage_chance")
 				{call_synced "moderate_artery_bleeding"}
 			else
 				{call_synced "moderate_vein_bleeding"}
 			}
 		}
 	}	
-	{on "mid_damage_45_pistol_upper_arm"
+	{on "mid_damage_large_pistol_upper_arm"
 		("human_health" c(51))
 		{if not dead
-			{if rand ("45_pistol_major_artery_upper_arm_mid_damage_chance")
+			{if rand ("large_pistol_major_artery_upper_arm_mid_damage_chance")
 				{call_synced "major_artery_bleeding"}
-			else rand ("45_pistol_major_vein_upper_arm_mid_damage_chance")
+			else rand ("large_pistol_major_vein_upper_arm_mid_damage_chance")
 				{call_synced "major_vein_bleeding"}
-			else rand ("45_pistol_moderate_artery_upper_arm_mid_damage_chance")
+			else rand ("large_pistol_moderate_artery_upper_arm_mid_damage_chance")
 				{call_synced "moderate_artery_bleeding"}
 			else
 				{call_synced "moderate_vein_bleeding"}
 			}
 		}
 	}
-	{on "upper_damage_45_pistol_upper_arm"
+	{on "upper_damage_large_pistol_upper_arm"
 		("human_health" c(67))
 		{if not dead
-			{if rand ("45_pistol_major_artery_upper_arm_upper_damage_chance")
+			{if rand ("large_pistol_major_artery_upper_arm_upper_damage_chance")
 				{call_synced "major_artery_bleeding"}
-			else rand ("45_pistol_major_vein_upper_arm_upper_damage_chance")
+			else rand ("large_pistol_major_vein_upper_arm_upper_damage_chance")
 				{call_synced "major_vein_bleeding"}
-			else rand ("45_pistol_moderate_artery_upper_arm_upper_damage_chance")
+			else rand ("large_pistol_moderate_artery_upper_arm_upper_damage_chance")
 				{call_synced "moderate_artery_bleeding"}
 			else
 				{call_synced "moderate_vein_bleeding"}
@@ -1252,54 +1252,54 @@
 		}
 	}
 	
-		;--- 45_pistol_lower_arm
+		;--- large_pistol_lower_arm
 	
-	{on "random_damage_45_pistol_lower_arm"
+	{on "random_damage_large_pistol_lower_arm"
 		{if rand 0.3 
-			{call_synced "low_damage_45_pistol_lower_arm"}
+			{call_synced "low_damage_large_pistol_lower_arm"}
 		else rand 0.3 
-			{call_synced "mid_damage_45_pistol_lower_arm"}
+			{call_synced "mid_damage_large_pistol_lower_arm"}
 		else 
-			{call_synced "upper_damage_45_pistol_lower_arm"}
+			{call_synced "upper_damage_large_pistol_lower_arm"}
 		}
 	}
 		
-	{on "low_damage_45_pistol_lower_arm"
+	{on "low_damage_large_pistol_lower_arm"
 		("human_health" c(38))
 		{if not dead
-			{if rand ("45_pistol_major_artery_lower_arm_low_damage_chance")
+			{if rand ("large_pistol_major_artery_lower_arm_low_damage_chance")
 				{call_synced "major_artery_bleeding"}
-			else rand ("45_pistol_major_vein_lower_arm_low_damage_chance")
+			else rand ("large_pistol_major_vein_lower_arm_low_damage_chance")
 				{call_synced "major_vein_bleeding"}
-			else rand ("45_pistol_moderate_artery_lower_arm_low_damage_chance")
+			else rand ("large_pistol_moderate_artery_lower_arm_low_damage_chance")
 				{call_synced "moderate_artery_bleeding"}
 			else
 				{call_synced "moderate_vein_bleeding"}
 			}
 		}
 	}	
-	{on "mid_damage_45_pistol_lower_arm"
+	{on "mid_damage_large_pistol_lower_arm"
 		("human_health" c(51))
 		{if not dead
-			{if rand ("45_pistol_major_artery_lower_arm_mid_damage_chance")
+			{if rand ("large_pistol_major_artery_lower_arm_mid_damage_chance")
 				{call_synced "major_artery_bleeding"}
-			else rand ("45_pistol_major_vein_lower_arm_mid_damage_chance")
+			else rand ("large_pistol_major_vein_lower_arm_mid_damage_chance")
 				{call_synced "major_vein_bleeding"}
-			else rand ("45_pistol_moderate_artery_lower_arm_mid_damage_chance")
+			else rand ("large_pistol_moderate_artery_lower_arm_mid_damage_chance")
 				{call_synced "moderate_artery_bleeding"}
 			else
 				{call_synced "moderate_vein_bleeding"}
 			}
 		}
 	}
-	{on "upper_damage_45_pistol_lower_arm"
+	{on "upper_damage_large_pistol_lower_arm"
 		("human_health" c(67))
 		{if not dead
-			{if rand ("45_pistol_major_artery_lower_arm_upper_damage_chance")
+			{if rand ("large_pistol_major_artery_lower_arm_upper_damage_chance")
 				{call_synced "major_artery_bleeding"}
-			else rand ("45_pistol_major_vein_lower_arm_upper_damage_chance")
+			else rand ("large_pistol_major_vein_lower_arm_upper_damage_chance")
 				{call_synced "major_vein_bleeding"}
-			else rand ("45_pistol_moderate_artery_lower_arm_upper_damage_chance")
+			else rand ("large_pistol_moderate_artery_lower_arm_upper_damage_chance")
 				{call_synced "moderate_artery_bleeding"}
 			else
 				{call_synced "moderate_vein_bleeding"}
@@ -1307,54 +1307,54 @@
 		}
 	}
 	
-		;--- 45_pistol_upper_leg
+		;--- large_pistol_upper_leg
 	
-	{on "random_damage_45_pistol_upper_leg"
+	{on "random_damage_large_pistol_upper_leg"
 		{if rand 0.3 
-			{call_synced "low_damage_45_pistol_upper_leg"}
+			{call_synced "low_damage_large_pistol_upper_leg"}
 		else rand 0.3 
-			{call_synced "mid_damage_45_pistol_upper_leg"}
+			{call_synced "mid_damage_large_pistol_upper_leg"}
 		else 
-			{call_synced "upper_damage_45_pistol_upper_leg"}
+			{call_synced "upper_damage_large_pistol_upper_leg"}
 		}
 	}
 		
-	{on "low_damage_45_pistol_upper_leg"
+	{on "low_damage_large_pistol_upper_leg"
 		("human_health" c(38))
 		{if not dead
-			{if rand ("45_pistol_major_artery_upper_leg_low_damage_chance")
+			{if rand ("large_pistol_major_artery_upper_leg_low_damage_chance")
 				{call_synced "major_artery_bleeding"}
-			else rand ("45_pistol_major_vein_upper_leg_low_damage_chance")
+			else rand ("large_pistol_major_vein_upper_leg_low_damage_chance")
 				{call_synced "major_vein_bleeding"}
-			else rand ("45_pistol_moderate_artery_upper_leg_low_damage_chance")
+			else rand ("large_pistol_moderate_artery_upper_leg_low_damage_chance")
 				{call_synced "moderate_artery_bleeding"}
 			else
 				{call_synced "moderate_vein_bleeding"}
 			}
 		}
 	}	
-	{on "mid_damage_45_pistol_upper_leg"
+	{on "mid_damage_large_pistol_upper_leg"
 		("human_health" c(51))
 		{if not dead
-			{if rand ("45_pistol_major_artery_upper_leg_mid_damage_chance")
+			{if rand ("large_pistol_major_artery_upper_leg_mid_damage_chance")
 				{call_synced "major_artery_bleeding"}
-			else rand ("45_pistol_major_vein_upper_leg_mid_damage_chance")
+			else rand ("large_pistol_major_vein_upper_leg_mid_damage_chance")
 				{call_synced "major_vein_bleeding"}
-			else rand ("45_pistol_moderate_artery_upper_leg_mid_damage_chance")
+			else rand ("large_pistol_moderate_artery_upper_leg_mid_damage_chance")
 				{call_synced "moderate_artery_bleeding"}
 			else
 				{call_synced "moderate_vein_bleeding"}
 			}
 		}
 	}
-	{on "upper_damage_45_pistol_upper_leg"
+	{on "upper_damage_large_pistol_upper_leg"
 		("human_health" c(67))
 		{if not dead
-			{if rand ("45_pistol_major_artery_upper_leg_upper_damage_chance")
+			{if rand ("large_pistol_major_artery_upper_leg_upper_damage_chance")
 				{call_synced "major_artery_bleeding"}
-			else rand ("45_pistol_major_vein_upper_leg_upper_damage_chance")
+			else rand ("large_pistol_major_vein_upper_leg_upper_damage_chance")
 				{call_synced "major_vein_bleeding"}
-			else rand ("45_pistol_moderate_artery_upper_leg_upper_damage_chance")
+			else rand ("large_pistol_moderate_artery_upper_leg_upper_damage_chance")
 				{call_synced "moderate_artery_bleeding"}
 			else
 				{call_synced "moderate_vein_bleeding"}
@@ -1362,54 +1362,54 @@
 		}
 	}
 	
-		;--- 45_pistol_lower_leg
+		;--- large_pistol_lower_leg
 	
-	{on "random_damage_45_pistol_lower_leg"
+	{on "random_damage_large_pistol_lower_leg"
 		{if rand 0.3 
-			{call_synced "low_damage_45_pistol_lower_leg"}
+			{call_synced "low_damage_large_pistol_lower_leg"}
 		else rand 0.3 
-			{call_synced "mid_damage_45_pistol_lower_leg"}
+			{call_synced "mid_damage_large_pistol_lower_leg"}
 		else 
-			{call_synced "upper_damage_45_pistol_lower_leg"}
+			{call_synced "upper_damage_large_pistol_lower_leg"}
 		}
 	}
 		
-	{on "low_damage_45_pistol_lower_leg"
+	{on "low_damage_large_pistol_lower_leg"
 		("human_health" c(38))
 		{if not dead
-			{if rand ("45_pistol_major_artery_lower_leg_low_damage_chance")
+			{if rand ("large_pistol_major_artery_lower_leg_low_damage_chance")
 				{call_synced "major_artery_bleeding"}
-			else rand ("45_pistol_major_vein_lower_leg_low_damage_chance")
+			else rand ("large_pistol_major_vein_lower_leg_low_damage_chance")
 				{call_synced "major_vein_bleeding"}
-			else rand ("45_pistol_moderate_artery_lower_leg_low_damage_chance")
+			else rand ("large_pistol_moderate_artery_lower_leg_low_damage_chance")
 				{call_synced "moderate_artery_bleeding"}
 			else
 				{call_synced "moderate_vein_bleeding"}
 			}
 		}
 	}	
-	{on "mid_damage_45_pistol_lower_leg"
+	{on "mid_damage_large_pistol_lower_leg"
 		("human_health" c(51))
 		{if not dead
-			{if rand ("45_pistol_major_artery_lower_leg_mid_damage_chance")
+			{if rand ("large_pistol_major_artery_lower_leg_mid_damage_chance")
 				{call_synced "major_artery_bleeding"}
-			else rand ("45_pistol_major_vein_lower_leg_mid_damage_chance")
+			else rand ("large_pistol_major_vein_lower_leg_mid_damage_chance")
 				{call_synced "major_vein_bleeding"}
-			else rand ("45_pistol_moderate_artery_lower_leg_mid_damage_chance")
+			else rand ("large_pistol_moderate_artery_lower_leg_mid_damage_chance")
 				{call_synced "moderate_artery_bleeding"}
 			else
 				{call_synced "moderate_vein_bleeding"}
 			}
 		}
 	}
-	{on "upper_damage_45_pistol_lower_leg"
+	{on "upper_damage_large_pistol_lower_leg"
 		("human_health" c(67))
 		{if not dead
-			{if rand ("45_pistol_major_artery_lower_leg_upper_damage_chance")
+			{if rand ("large_pistol_major_artery_lower_leg_upper_damage_chance")
 				{call_synced "major_artery_bleeding"}
-			else rand ("45_pistol_major_vein_lower_leg_upper_damage_chance")
+			else rand ("large_pistol_major_vein_lower_leg_upper_damage_chance")
 				{call_synced "major_vein_bleeding"}
-			else rand ("45_pistol_moderate_artery_lower_leg_upper_damage_chance")
+			else rand ("large_pistol_moderate_artery_lower_leg_upper_damage_chance")
 				{call_synced "moderate_artery_bleeding"}
 			else
 				{call_synced "moderate_vein_bleeding"}
@@ -1417,59 +1417,59 @@
 		}
 	}
 			
-			;7-92_kurz
-			;--- 7-92_kurz_body
+			;intermediate
+			;--- intermediate_body
 
-	{on "random_damage_7-92_kurz_body"
+	{on "random_damage_intermediate_body"
 		{if rand 0.3 
-			{call_synced "low_damage_7-92_kurz_body"}
+			{call_synced "low_damage_intermediate_body"}
 		else rand 0.3 
-			{call_synced "mid_damage_7-92_kurz_body"}
+			{call_synced "mid_damage_intermediate_body"}
 		else 
-			{call_synced "upper_damage_7-92_kurz_body"}
+			{call_synced "upper_damage_intermediate_body"}
 		}
 	}
 		
-	{on "low_damage_7-92_kurz_body"
+	{on "low_damage_intermediate_body"
 		("human_health" c(60))
 		{if not dead
-			{if rand ("7-92_kurz_major_artery_body_low_damage_chance")
+			{if rand ("intermediate_major_artery_body_low_damage_chance")
 				{call_synced "major_artery_bleeding"}
-			else rand ("7-92_kurz_major_vein_body_low_damage_chance")
+			else rand ("intermediate_major_vein_body_low_damage_chance")
 				{call_synced "major_vein_bleeding"}
-			else rand ("7-92_kurz_moderate_artery_body_low_damage_chance")
+			else rand ("intermediate_moderate_artery_body_low_damage_chance")
 				{call_synced "moderate_artery_bleeding"}
 			else
 				{call_synced "moderate_vein_bleeding"}
 			}
 		}
 	}	
-	{on "mid_damage_7-92_kurz_body"
+	{on "mid_damage_intermediate_body"
 		("human_health" c(80))
 		{if not dead
-			{if rand ("7-92_kurz_internal_bleeding_body_mid_damage_chance")
+			{if rand ("intermediate_internal_bleeding_body_mid_damage_chance")
 				{call_synced "internal_bleeding"}
-			else rand ("7-92_kurz_major_artery_body_mid_damage_chance")
+			else rand ("intermediate_major_artery_body_mid_damage_chance")
 				{call_synced "major_artery_bleeding"}
-			else rand ("7-92_kurz_major_vein_body_mid_damage_chance")
+			else rand ("intermediate_major_vein_body_mid_damage_chance")
 				{call_synced "major_vein_bleeding"}
-			else rand ("7-92_kurz_moderate_artery_body_mid_damage_chance")
+			else rand ("intermediate_moderate_artery_body_mid_damage_chance")
 				{call_synced "moderate_artery_bleeding"}
 			else
 				{call_synced "moderate_vein_bleeding"}
 			}
 		}
 	}	
-	{on "upper_damage_7-92_kurz_body"
+	{on "upper_damage_intermediate_body"
 		("human_health" c(130))
 		{if not dead
-			{if rand ("7-92_kurz_internal_bleeding_body_upper_damage_chance")
+			{if rand ("intermediate_internal_bleeding_body_upper_damage_chance")
 				{call_synced "internal_bleeding"}
-			else rand ("7-92_kurz_major_artery_body_upper_damage_chance")
+			else rand ("intermediate_major_artery_body_upper_damage_chance")
 				{call_synced "major_artery_bleeding"}
-			else rand ("7-92_kurz_major_vein_body_upper_damage_chance")
+			else rand ("intermediate_major_vein_body_upper_damage_chance")
 				{call_synced "major_vein_bleeding"}
-			else rand ("7-92_kurz_moderate_artery_body_upper_damage_chance")
+			else rand ("intermediate_moderate_artery_body_upper_damage_chance")
 				{call_synced "moderate_artery_bleeding"}
 			else
 				{call_synced "moderate_vein_bleeding"}
@@ -1477,54 +1477,54 @@
 		}
 	}
 	
-		;--- 7-92_kurz_upper_arm
+		;--- intermediate_upper_arm
 	
-	{on "random_damage_7-92_kurz_upper_arm"
+	{on "random_damage_intermediate_upper_arm"
 		{if rand 0.3 
-			{call_synced "low_damage_7-92_kurz_upper_arm"}
+			{call_synced "low_damage_intermediate_upper_arm"}
 		else rand 0.3 
-			{call_synced "mid_damage_7-92_kurz_upper_arm"}
+			{call_synced "mid_damage_intermediate_upper_arm"}
 		else 
-			{call_synced "upper_damage_7-92_kurz_upper_arm"}
+			{call_synced "upper_damage_intermediate_upper_arm"}
 		}
 	}
 		
-	{on "low_damage_7-92_kurz_upper_arm"
+	{on "low_damage_intermediate_upper_arm"
 		("human_health" c(45))
 		{if not dead
-			{if rand ("7-92_kurz_major_artery_upper_arm_low_damage_chance")
+			{if rand ("intermediate_major_artery_upper_arm_low_damage_chance")
 				{call_synced "major_artery_bleeding"}
-			else rand ("7-92_kurz_major_vein_upper_arm_low_damage_chance")
+			else rand ("intermediate_major_vein_upper_arm_low_damage_chance")
 				{call_synced "major_vein_bleeding"}
-			else rand ("7-92_kurz_moderate_artery_upper_arm_low_damage_chance")
+			else rand ("intermediate_moderate_artery_upper_arm_low_damage_chance")
 				{call_synced "moderate_artery_bleeding"}
 			else
 				{call_synced "moderate_vein_bleeding"}
 			}
 		}
 	}	
-	{on "mid_damage_7-92_kurz_upper_arm"
+	{on "mid_damage_intermediate_upper_arm"
 		("human_health" c(55))
 		{if not dead
-			{if rand ("7-92_kurz_major_artery_upper_arm_mid_damage_chance")
+			{if rand ("intermediate_major_artery_upper_arm_mid_damage_chance")
 				{call_synced "major_artery_bleeding"}
-			else rand ("7-92_kurz_major_vein_upper_arm_mid_damage_chance")
+			else rand ("intermediate_major_vein_upper_arm_mid_damage_chance")
 				{call_synced "major_vein_bleeding"}
-			else rand ("7-92_kurz_moderate_artery_upper_arm_mid_damage_chance")
+			else rand ("intermediate_moderate_artery_upper_arm_mid_damage_chance")
 				{call_synced "moderate_artery_bleeding"}
 			else
 				{call_synced "moderate_vein_bleeding"}
 			}
 		}
 	}
-	{on "upper_damage_7-92_kurz_upper_arm"
+	{on "upper_damage_intermediate_upper_arm"
 		("human_health" c(75))
 		{if not dead
-			{if rand ("7-92_kurz_major_artery_upper_arm_upper_damage_chance")
+			{if rand ("intermediate_major_artery_upper_arm_upper_damage_chance")
 				{call_synced "major_artery_bleeding"}
-			else rand ("7-92_kurz_major_vein_upper_arm_upper_damage_chance")
+			else rand ("intermediate_major_vein_upper_arm_upper_damage_chance")
 				{call_synced "major_vein_bleeding"}
-			else rand ("7-92_kurz_moderate_artery_upper_arm_upper_damage_chance")
+			else rand ("intermediate_moderate_artery_upper_arm_upper_damage_chance")
 				{call_synced "moderate_artery_bleeding"}
 			else
 				{call_synced "moderate_vein_bleeding"}
@@ -1532,54 +1532,54 @@
 		}
 	}
 	
-		;--- 7-92_kurz_lower_arm
+		;--- intermediate_lower_arm
 	
-	{on "random_damage_7-92_kurz_lower_arm"
+	{on "random_damage_intermediate_lower_arm"
 		{if rand 0.3 
-			{call_synced "low_damage_7-92_kurz_lower_arm"}
+			{call_synced "low_damage_intermediate_lower_arm"}
 		else rand 0.3 
-			{call_synced "mid_damage_7-92_kurz_lower_arm"}
+			{call_synced "mid_damage_intermediate_lower_arm"}
 		else 
-			{call_synced "upper_damage_7-92_kurz_lower_arm"}
+			{call_synced "upper_damage_intermediate_lower_arm"}
 		}
 	}
 		
-	{on "low_damage_7-92_kurz_lower_arm"
+	{on "low_damage_intermediate_lower_arm"
 		("human_health" c(45))
 		{if not dead
-			{if rand ("7-92_kurz_major_artery_lower_arm_low_damage_chance")
+			{if rand ("intermediate_major_artery_lower_arm_low_damage_chance")
 				{call_synced "major_artery_bleeding"}
-			else rand ("7-92_kurz_major_vein_lower_arm_low_damage_chance")
+			else rand ("intermediate_major_vein_lower_arm_low_damage_chance")
 				{call_synced "major_vein_bleeding"}
-			else rand ("7-92_kurz_moderate_artery_lower_arm_low_damage_chance")
+			else rand ("intermediate_moderate_artery_lower_arm_low_damage_chance")
 				{call_synced "moderate_artery_bleeding"}
 			else
 				{call_synced "moderate_vein_bleeding"}
 			}
 		}
 	}	
-	{on "mid_damage_7-92_kurz_lower_arm"
+	{on "mid_damage_intermediate_lower_arm"
 		("human_health" c(55))
 		{if not dead
-			{if rand ("7-92_kurz_major_artery_lower_arm_mid_damage_chance")
+			{if rand ("intermediate_major_artery_lower_arm_mid_damage_chance")
 				{call_synced "major_artery_bleeding"}
-			else rand ("7-92_kurz_major_vein_lower_arm_mid_damage_chance")
+			else rand ("intermediate_major_vein_lower_arm_mid_damage_chance")
 				{call_synced "major_vein_bleeding"}
-			else rand ("7-92_kurz_moderate_artery_lower_arm_mid_damage_chance")
+			else rand ("intermediate_moderate_artery_lower_arm_mid_damage_chance")
 				{call_synced "moderate_artery_bleeding"}
 			else
 				{call_synced "moderate_vein_bleeding"}
 			}
 		}
 	}
-	{on "upper_damage_7-92_kurz_lower_arm"
+	{on "upper_damage_intermediate_lower_arm"
 		("human_health" c(75))
 		{if not dead
-			{if rand ("7-92_kurz_major_artery_lower_arm_upper_damage_chance")
+			{if rand ("intermediate_major_artery_lower_arm_upper_damage_chance")
 				{call_synced "major_artery_bleeding"}
-			else rand ("7-92_kurz_major_vein_lower_arm_upper_damage_chance")
+			else rand ("intermediate_major_vein_lower_arm_upper_damage_chance")
 				{call_synced "major_vein_bleeding"}
-			else rand ("7-92_kurz_moderate_artery_lower_arm_upper_damage_chance")
+			else rand ("intermediate_moderate_artery_lower_arm_upper_damage_chance")
 				{call_synced "moderate_artery_bleeding"}
 			else
 				{call_synced "moderate_vein_bleeding"}
@@ -1587,54 +1587,54 @@
 		}
 	}
 	
-		;--- 7-92_kurz_upper_leg
+		;--- intermediate_upper_leg
 	
-	{on "random_damage_7-92_kurz_upper_leg"
+	{on "random_damage_intermediate_upper_leg"
 		{if rand 0.3 
-			{call_synced "low_damage_7-92_kurz_upper_leg"}
+			{call_synced "low_damage_intermediate_upper_leg"}
 		else rand 0.3 
-			{call_synced "mid_damage_7-92_kurz_upper_leg"}
+			{call_synced "mid_damage_intermediate_upper_leg"}
 		else 
-			{call_synced "upper_damage_7-92_kurz_upper_leg"}
+			{call_synced "upper_damage_intermediate_upper_leg"}
 		}
 	}
 		
-	{on "low_damage_7-92_kurz_upper_leg"
+	{on "low_damage_intermediate_upper_leg"
 		("human_health" c(45))
 		{if not dead
-			{if rand ("7-92_kurz_major_artery_upper_leg_low_damage_chance")
+			{if rand ("intermediate_major_artery_upper_leg_low_damage_chance")
 				{call_synced "major_artery_bleeding"}
-			else rand ("7-92_kurz_major_vein_upper_leg_low_damage_chance")
+			else rand ("intermediate_major_vein_upper_leg_low_damage_chance")
 				{call_synced "major_vein_bleeding"}
-			else rand ("7-92_kurz_moderate_artery_upper_leg_low_damage_chance")
+			else rand ("intermediate_moderate_artery_upper_leg_low_damage_chance")
 				{call_synced "moderate_artery_bleeding"}
 			else
 				{call_synced "moderate_vein_bleeding"}
 			}
 		}
 	}		
-	{on "mid_damage_7-92_kurz_upper_leg"
+	{on "mid_damage_intermediate_upper_leg"
 		("human_health" c(55))
 		{if not dead
-			{if rand ("7-92_kurz_major_artery_upper_leg_mid_damage_chance")
+			{if rand ("intermediate_major_artery_upper_leg_mid_damage_chance")
 				{call_synced "major_artery_bleeding"}
-			else rand ("7-92_kurz_major_vein_upper_leg_mid_damage_chance")
+			else rand ("intermediate_major_vein_upper_leg_mid_damage_chance")
 				{call_synced "major_vein_bleeding"}
-			else rand ("7-92_kurz_moderate_artery_upper_leg_mid_damage_chance")
+			else rand ("intermediate_moderate_artery_upper_leg_mid_damage_chance")
 				{call_synced "moderate_artery_bleeding"}
 			else
 				{call_synced "moderate_vein_bleeding"}
 			}
 		}
 	}
-	{on "upper_damage_7-92_kurz_upper_leg"
+	{on "upper_damage_intermediate_upper_leg"
 		("human_health" c(75))
 		{if not dead
-			{if rand ("7-92_kurz_major_artery_upper_leg_upper_damage_chance")
+			{if rand ("intermediate_major_artery_upper_leg_upper_damage_chance")
 				{call_synced "major_artery_bleeding"}
-			else rand ("7-92_kurz_major_vein_upper_leg_upper_damage_chance")
+			else rand ("intermediate_major_vein_upper_leg_upper_damage_chance")
 				{call_synced "major_vein_bleeding"}
-			else rand ("7-92_kurz_moderate_artery_upper_leg_upper_damage_chance")
+			else rand ("intermediate_moderate_artery_upper_leg_upper_damage_chance")
 				{call_synced "moderate_artery_bleeding"}
 			else
 				{call_synced "moderate_vein_bleeding"}
@@ -1642,54 +1642,54 @@
 		}
 	}
 	
-		;--- 7-92_kurz_lower_leg
+		;--- intermediate_lower_leg
 	
-	{on "random_damage_7-92_kurz_lower_leg"
+	{on "random_damage_intermediate_lower_leg"
 		{if rand 0.3 
-			{call_synced "low_damage_7-92_kurz_lower_leg"}
+			{call_synced "low_damage_intermediate_lower_leg"}
 		else rand 0.3 
-			{call_synced "mid_damage_7-92_kurz_lower_leg"}
+			{call_synced "mid_damage_intermediate_lower_leg"}
 		else 
-			{call_synced "upper_damage_7-92_kurz_lower_leg"}
+			{call_synced "upper_damage_intermediate_lower_leg"}
 		}
 	}
 		
-	{on "low_damage_7-92_kurz_lower_leg"
+	{on "low_damage_intermediate_lower_leg"
 		("human_health" c(45))
 		{if not dead
-			{if rand ("7-92_kurz_major_artery_lower_leg_low_damage_chance")
+			{if rand ("intermediate_major_artery_lower_leg_low_damage_chance")
 				{call_synced "major_artery_bleeding"}
-			else rand ("7-92_kurz_major_vein_lower_leg_low_damage_chance")
+			else rand ("intermediate_major_vein_lower_leg_low_damage_chance")
 				{call_synced "major_vein_bleeding"}
-			else rand ("7-92_kurz_moderate_artery_lower_leg_low_damage_chance")
+			else rand ("intermediate_moderate_artery_lower_leg_low_damage_chance")
 				{call_synced "moderate_artery_bleeding"}
 			else
 				{call_synced "moderate_vein_bleeding"}
 			}
 		}
 	}	
-	{on "mid_damage_7-92_kurz_lower_leg"
+	{on "mid_damage_intermediate_lower_leg"
 		("human_health" c(55))
 		{if not dead
-			{if rand ("7-92_kurz_major_artery_lower_leg_mid_damage_chance")
+			{if rand ("intermediate_major_artery_lower_leg_mid_damage_chance")
 				{call_synced "major_artery_bleeding"}
-			else rand ("7-92_kurz_major_vein_lower_leg_mid_damage_chance")
+			else rand ("intermediate_major_vein_lower_leg_mid_damage_chance")
 				{call_synced "major_vein_bleeding"}
-			else rand ("7-92_kurz_moderate_artery_lower_leg_mid_damage_chance")
+			else rand ("intermediate_moderate_artery_lower_leg_mid_damage_chance")
 				{call_synced "moderate_artery_bleeding"}
 			else
 				{call_synced "moderate_vein_bleeding"}
 			}
 		}
 	}
-	{on "upper_damage_7-92_kurz_lower_leg"
+	{on "upper_damage_intermediate_lower_leg"
 		("human_health" c(75))
 		{if not dead
-			{if rand ("7-92_kurz_major_artery_lower_leg_upper_damage_chance")
+			{if rand ("intermediate_major_artery_lower_leg_upper_damage_chance")
 				{call_synced "major_artery_bleeding"}
-			else rand ("7-92_kurz_major_vein_lower_leg_upper_damage_chance")
+			else rand ("intermediate_major_vein_lower_leg_upper_damage_chance")
 				{call_synced "major_vein_bleeding"}
-			else rand ("7-92_kurz_moderate_artery_lower_leg_upper_damage_chance")
+			else rand ("intermediate_moderate_artery_lower_leg_upper_damage_chance")
 				{call_synced "moderate_artery_bleeding"}
 			else
 				{call_synced "moderate_vein_bleeding"}
@@ -1697,59 +1697,59 @@
 		}
 	}
 	
-			;7-92_rifle
-			;--- 7-92_rifle_body
+			;full_rifle
+			;--- full_rifle_body
 
-	{on "random_damage_7-92_rifle_body"
+	{on "random_damage_full_rifle_body"
 		{if rand 0.3 
-			{call_synced "low_damage_7-92_rifle_body"}
+			{call_synced "low_damage_full_rifle_body"}
 		else rand 0.3 
-			{call_synced "mid_damage_7-92_rifle_body"}
+			{call_synced "mid_damage_full_rifle_body"}
 		else 
-			{call_synced "upper_damage_7-92_rifle_body"}
+			{call_synced "upper_damage_full_rifle_body"}
 		}
 	}
 		
-	{on "low_damage_7-92_rifle_body"
+	{on "low_damage_full_rifle_body"
 		("human_health" c(75))
 		{if not dead
-			{if rand ("7-92_rifle_major_artery_body_low_damage_chance")
+			{if rand ("full_rifle_major_artery_body_low_damage_chance")
 				{call_synced "major_artery_bleeding"}
-			else rand ("7-92_rifle_major_vein_body_low_damage_chance")
+			else rand ("full_rifle_major_vein_body_low_damage_chance")
 				{call_synced "major_vein_bleeding"}
-			else rand ("7-92_rifle_moderate_artery_body_low_damage_chance")
+			else rand ("full_rifle_moderate_artery_body_low_damage_chance")
 				{call_synced "moderate_artery_bleeding"}
 			else
 				{call_synced "moderate_vein_bleeding"}
 			}
 		}
 	}	
-	{on "mid_damage_7-92_rifle_body"
+	{on "mid_damage_full_rifle_body"
 		("human_health" c(125))
 		{if not dead
-			{if rand ("7-92_rifle_internal_bleeding_body_mid_damage_chance")
+			{if rand ("full_rifle_internal_bleeding_body_mid_damage_chance")
 				{call_synced "internal_bleeding"}
-			else rand ("7-92_rifle_major_artery_body_mid_damage_chance")
+			else rand ("full_rifle_major_artery_body_mid_damage_chance")
 				{call_synced "major_artery_bleeding"}
-			else rand ("7-92_rifle_major_vein_body_mid_damage_chance")
+			else rand ("full_rifle_major_vein_body_mid_damage_chance")
 				{call_synced "major_vein_bleeding"}
-			else rand ("7-92_rifle_moderate_artery_body_mid_damage_chance")
+			else rand ("full_rifle_moderate_artery_body_mid_damage_chance")
 				{call_synced "moderate_artery_bleeding"}
 			else
 				{call_synced "moderate_vein_bleeding"}
 			}
 		}
 	}
-	{on "upper_damage_7-92_rifle_body"
+	{on "upper_damage_full_rifle_body"
 		("human_health" c(150))
 		{if not dead
-			{if rand ("7-92_rifle_internal_bleeding_body_upper_damage_chance")
+			{if rand ("full_rifle_internal_bleeding_body_upper_damage_chance")
 				{call_synced "internal_bleeding"}
-			else rand ("7-92_rifle_major_artery_body_upper_damage_chance")
+			else rand ("full_rifle_major_artery_body_upper_damage_chance")
 				{call_synced "major_artery_bleeding"}
-			else rand ("7-92_rifle_major_vein_body_upper_damage_chance")
+			else rand ("full_rifle_major_vein_body_upper_damage_chance")
 				{call_synced "major_vein_bleeding"}
-			else rand ("7-92_rifle_moderate_artery_body_upper_damage_chance")
+			else rand ("full_rifle_moderate_artery_body_upper_damage_chance")
 				{call_synced "moderate_artery_bleeding"}
 			else
 				{call_synced "moderate_vein_bleeding"}
@@ -1757,54 +1757,54 @@
 		}
 	}
 	
-		;--- 7-92_rifle_upper_arm
+		;--- full_rifle_upper_arm
 	
-	{on "random_damage_7-92_rifle_upper_arm"
+	{on "random_damage_full_rifle_upper_arm"
 		{if rand 0.3 
-			{call_synced "low_damage_7-92_rifle_upper_arm"}
+			{call_synced "low_damage_full_rifle_upper_arm"}
 		else rand 0.3 
-			{call_synced "mid_damage_7-92_rifle_upper_arm"}
+			{call_synced "mid_damage_full_rifle_upper_arm"}
 		else 
-			{call_synced "upper_damage_7-92_rifle_upper_arm"}
+			{call_synced "upper_damage_full_rifle_upper_arm"}
 		}
 	}
 		
-	{on "low_damage_7-92_rifle_upper_arm"
+	{on "low_damage_full_rifle_upper_arm"
 		("human_health" c(56))
 		{if not dead
-			{if rand ("7-92_rifle_major_artery_upper_arm_low_damage_chance")
+			{if rand ("full_rifle_major_artery_upper_arm_low_damage_chance")
 				{call_synced "major_artery_bleeding"}
-			else rand ("7-92_rifle_major_vein_upper_arm_low_damage_chance")
+			else rand ("full_rifle_major_vein_upper_arm_low_damage_chance")
 				{call_synced "major_vein_bleeding"}
-			else rand ("7-92_rifle_moderate_artery_upper_arm_low_damage_chance")
+			else rand ("full_rifle_moderate_artery_upper_arm_low_damage_chance")
 				{call_synced "moderate_artery_bleeding"}
 			else
 				{call_synced "moderate_vein_bleeding"}
 			}
 		}
 	}	
-	{on "mid_damage_7-92_rifle_upper_arm"
+	{on "mid_damage_full_rifle_upper_arm"
 		("human_health" c(66))
 		{if not dead
-			{if rand ("7-92_rifle_major_artery_upper_arm_mid_damage_chance")
+			{if rand ("full_rifle_major_artery_upper_arm_mid_damage_chance")
 				{call_synced "major_artery_bleeding"}
-			else rand ("7-92_rifle_major_vein_upper_arm_mid_damage_chance")
+			else rand ("full_rifle_major_vein_upper_arm_mid_damage_chance")
 				{call_synced "major_vein_bleeding"}
-			else rand ("7-92_rifle_moderate_artery_upper_arm_mid_damage_chance")
+			else rand ("full_rifle_moderate_artery_upper_arm_mid_damage_chance")
 				{call_synced "moderate_artery_bleeding"}
 			else
 				{call_synced "moderate_vein_bleeding"}
 			}
 		}
 	}
-	{on "upper_damage_7-92_rifle_upper_arm"
+	{on "upper_damage_full_rifle_upper_arm"
 		("human_health" c(76))
 		{if not dead
-			{if rand ("7-92_rifle_major_artery_upper_arm_upper_damage_chance")
+			{if rand ("full_rifle_major_artery_upper_arm_upper_damage_chance")
 				{call_synced "major_artery_bleeding"}
-			else rand ("7-92_rifle_major_vein_upper_arm_upper_damage_chance")
+			else rand ("full_rifle_major_vein_upper_arm_upper_damage_chance")
 				{call_synced "major_vein_bleeding"}
-			else rand ("7-92_rifle_moderate_artery_upper_arm_upper_damage_chance")
+			else rand ("full_rifle_moderate_artery_upper_arm_upper_damage_chance")
 				{call_synced "moderate_artery_bleeding"}
 			else
 				{call_synced "moderate_vein_bleeding"}
@@ -1812,54 +1812,54 @@
 		}
 	}
 	
-		;--- 7-92_rifle_lower_arm
+		;--- full_rifle_lower_arm
 	
-	{on "random_damage_7-92_rifle_lower_arm"
+	{on "random_damage_full_rifle_lower_arm"
 		{if rand 0.3 
-			{call_synced "low_damage_7-92_rifle_lower_arm"}
+			{call_synced "low_damage_full_rifle_lower_arm"}
 		else rand 0.3 
-			{call_synced "mid_damage_7-92_rifle_lower_arm"}
+			{call_synced "mid_damage_full_rifle_lower_arm"}
 		else 
-			{call_synced "upper_damage_7-92_rifle_lower_arm"}
+			{call_synced "upper_damage_full_rifle_lower_arm"}
 		}
 	}
 		
-	{on "low_damage_7-92_rifle_lower_arm"
+	{on "low_damage_full_rifle_lower_arm"
 		("human_health" c(56))
 		{if not dead
-			{if rand ("7-92_rifle_major_artery_lower_arm_low_damage_chance")
+			{if rand ("full_rifle_major_artery_lower_arm_low_damage_chance")
 				{call_synced "major_artery_bleeding"}
-			else rand ("7-92_rifle_major_vein_lower_arm_low_damage_chance")
+			else rand ("full_rifle_major_vein_lower_arm_low_damage_chance")
 				{call_synced "major_vein_bleeding"}
-			else rand ("7-92_rifle_moderate_artery_lower_arm_low_damage_chance")
+			else rand ("full_rifle_moderate_artery_lower_arm_low_damage_chance")
 				{call_synced "moderate_artery_bleeding"}
 			else
 				{call_synced "moderate_vein_bleeding"}
 			}
 		}
 	}	
-	{on "mid_damage_7-92_rifle_lower_arm"
+	{on "mid_damage_full_rifle_lower_arm"
 		("human_health" c(66))
 		{if not dead
-			{if rand ("7-92_rifle_major_artery_lower_arm_mid_damage_chance")
+			{if rand ("full_rifle_major_artery_lower_arm_mid_damage_chance")
 				{call_synced "major_artery_bleeding"}
-			else rand ("7-92_rifle_major_vein_lower_arm_mid_damage_chance")
+			else rand ("full_rifle_major_vein_lower_arm_mid_damage_chance")
 				{call_synced "major_vein_bleeding"}
-			else rand ("7-92_rifle_moderate_artery_lower_arm_mid_damage_chance")
+			else rand ("full_rifle_moderate_artery_lower_arm_mid_damage_chance")
 				{call_synced "moderate_artery_bleeding"}
 			else
 				{call_synced "moderate_vein_bleeding"}
 			}
 		}
 	}
-	{on "upper_damage_7-92_rifle_lower_arm"
+	{on "upper_damage_full_rifle_lower_arm"
 		("human_health" c(76))
 		{if not dead
-			{if rand ("7-92_rifle_major_artery_lower_arm_upper_damage_chance")
+			{if rand ("full_rifle_major_artery_lower_arm_upper_damage_chance")
 				{call_synced "major_artery_bleeding"}
-			else rand ("7-92_rifle_major_vein_lower_arm_upper_damage_chance")
+			else rand ("full_rifle_major_vein_lower_arm_upper_damage_chance")
 				{call_synced "major_vein_bleeding"}
-			else rand ("7-92_rifle_moderate_artery_lower_arm_upper_damage_chance")
+			else rand ("full_rifle_moderate_artery_lower_arm_upper_damage_chance")
 				{call_synced "moderate_artery_bleeding"}
 			else
 				{call_synced "moderate_vein_bleeding"}
@@ -1867,54 +1867,54 @@
 		}
 	}
 	
-		;--- 7-92_rifle_upper_leg
+		;--- full_rifle_upper_leg
 	
-	{on "random_damage_7-92_rifle_upper_leg"
+	{on "random_damage_full_rifle_upper_leg"
 		{if rand 0.3 
-			{call_synced "low_damage_7-92_rifle_upper_leg"}
+			{call_synced "low_damage_full_rifle_upper_leg"}
 		else rand 0.3 
-			{call_synced "mid_damage_7-92_rifle_upper_leg"}
+			{call_synced "mid_damage_full_rifle_upper_leg"}
 		else 
-			{call_synced "upper_damage_7-92_rifle_upper_leg"}
+			{call_synced "upper_damage_full_rifle_upper_leg"}
 		}
 	}
 		
-	{on "low_damage_7-92_rifle_upper_leg"
+	{on "low_damage_full_rifle_upper_leg"
 		("human_health" c(56))
 		{if not dead
-			{if rand ("7-92_rifle_major_artery_upper_leg_low_damage_chance")
+			{if rand ("full_rifle_major_artery_upper_leg_low_damage_chance")
 				{call_synced "major_artery_bleeding"}
-			else rand ("7-92_rifle_major_vein_upper_leg_low_damage_chance")
+			else rand ("full_rifle_major_vein_upper_leg_low_damage_chance")
 				{call_synced "major_vein_bleeding"}
-			else rand ("7-92_rifle_moderate_artery_upper_leg_low_damage_chance")
+			else rand ("full_rifle_moderate_artery_upper_leg_low_damage_chance")
 				{call_synced "moderate_artery_bleeding"}
 			else
 				{call_synced "moderate_vein_bleeding"}
 			}
 		}
 	}	
-	{on "mid_damage_7-92_rifle_upper_leg"
+	{on "mid_damage_full_rifle_upper_leg"
 		("human_health" c(66))
 		{if not dead
-			{if rand ("7-92_rifle_major_artery_upper_leg_mid_damage_chance")
+			{if rand ("full_rifle_major_artery_upper_leg_mid_damage_chance")
 				{call_synced "major_artery_bleeding"}
-			else rand ("7-92_rifle_major_vein_upper_leg_mid_damage_chance")
+			else rand ("full_rifle_major_vein_upper_leg_mid_damage_chance")
 				{call_synced "major_vein_bleeding"}
-			else rand ("7-92_rifle_moderate_artery_upper_leg_mid_damage_chance")
+			else rand ("full_rifle_moderate_artery_upper_leg_mid_damage_chance")
 				{call_synced "moderate_artery_bleeding"}
 			else
 				{call_synced "moderate_vein_bleeding"}
 			}
 		}
 	}
-	{on "upper_damage_7-92_rifle_upper_leg"
+	{on "upper_damage_full_rifle_upper_leg"
 		("human_health" c(76))
 		{if not dead
-			{if rand ("7-92_rifle_major_artery_upper_leg_upper_damage_chance")
+			{if rand ("full_rifle_major_artery_upper_leg_upper_damage_chance")
 				{call_synced "major_artery_bleeding"}
-			else rand ("7-92_rifle_major_vein_upper_leg_upper_damage_chance")
+			else rand ("full_rifle_major_vein_upper_leg_upper_damage_chance")
 				{call_synced "major_vein_bleeding"}
-			else rand ("7-92_rifle_moderate_artery_upper_leg_upper_damage_chance")
+			else rand ("full_rifle_moderate_artery_upper_leg_upper_damage_chance")
 				{call_synced "moderate_artery_bleeding"}
 			else
 				{call_synced "moderate_vein_bleeding"}
@@ -1922,54 +1922,54 @@
 		}
 	}
 	
-		;--- 7-92_rifle_lower_leg
+		;--- full_rifle_lower_leg
 	
-	{on "random_damage_7-92_rifle_lower_leg"
+	{on "random_damage_full_rifle_lower_leg"
 		{if rand 0.3 
-			{call_synced "low_damage_7-92_rifle_lower_leg"}
+			{call_synced "low_damage_full_rifle_lower_leg"}
 		else rand 0.3 
-			{call_synced "mid_damage_7-92_rifle_lower_leg"}
+			{call_synced "mid_damage_full_rifle_lower_leg"}
 		else 
-			{call_synced "upper_damage_7-92_rifle_lower_leg"}
+			{call_synced "upper_damage_full_rifle_lower_leg"}
 		}
 	}
 		
-	{on "low_damage_7-92_rifle_lower_leg"
+	{on "low_damage_full_rifle_lower_leg"
 		("human_health" c(56))
 		{if not dead
-			{if rand ("7-92_rifle_major_artery_lower_leg_low_damage_chance")
+			{if rand ("full_rifle_major_artery_lower_leg_low_damage_chance")
 				{call_synced "major_artery_bleeding"}
-			else rand ("7-92_rifle_major_vein_lower_leg_low_damage_chance")
+			else rand ("full_rifle_major_vein_lower_leg_low_damage_chance")
 				{call_synced "major_vein_bleeding"}
-			else rand ("7-92_rifle_moderate_artery_lower_leg_low_damage_chance")
+			else rand ("full_rifle_moderate_artery_lower_leg_low_damage_chance")
 				{call_synced "moderate_artery_bleeding"}
 			else
 				{call_synced "moderate_vein_bleeding"}
 			}
 		}
 	}	
-	{on "mid_damage_7-92_rifle_lower_leg"
+	{on "mid_damage_full_rifle_lower_leg"
 		("human_health" c(66))
 		{if not dead
-			{if rand ("7-92_rifle_major_artery_lower_leg_mid_damage_chance")
+			{if rand ("full_rifle_major_artery_lower_leg_mid_damage_chance")
 				{call_synced "major_artery_bleeding"}
-			else rand ("7-92_rifle_major_vein_lower_leg_mid_damage_chance")
+			else rand ("full_rifle_major_vein_lower_leg_mid_damage_chance")
 				{call_synced "major_vein_bleeding"}
-			else rand ("7-92_rifle_moderate_artery_lower_leg_mid_damage_chance")
+			else rand ("full_rifle_moderate_artery_lower_leg_mid_damage_chance")
 				{call_synced "moderate_artery_bleeding"}
 			else
 				{call_synced "moderate_vein_bleeding"}
 			}
 		}
 	}
-	{on "upper_damage_7-92_rifle_lower_leg"
+	{on "upper_damage_full_rifle_lower_leg"
 		("human_health" c(76))
 		{if not dead
-			{if rand ("7-92_rifle_major_artery_lower_leg_upper_damage_chance")
+			{if rand ("full_rifle_major_artery_lower_leg_upper_damage_chance")
 				{call_synced "major_artery_bleeding"}
-			else rand ("7-92_rifle_major_vein_lower_leg_upper_damage_chance")
+			else rand ("full_rifle_major_vein_lower_leg_upper_damage_chance")
 				{call_synced "major_vein_bleeding"}
-			else rand ("7-92_rifle_moderate_artery_lower_leg_upper_damage_chance")
+			else rand ("full_rifle_moderate_artery_lower_leg_upper_damage_chance")
 				{call_synced "moderate_artery_bleeding"}
 			else
 				{call_synced "moderate_vein_bleeding"}
@@ -2290,25 +2290,25 @@
 		
 		{if volume "head"
 			{if not dead
-				{if stuff "7-62_pistol" 
+				{if stuff "small_pistol" 
 					{if rand ("head_graze_chance")
 						{call_synced "graze"}
 					else
 						{call_synced "head_explodes"}
 					}
-				else stuff "45_pistol" 
+				else stuff "large_pistol" 
 					{if rand ("head_graze_chance")
 						{call_synced "graze"}
 					else
 						{call_synced "head_explodes"}
 					}
-				else stuff "7-92_kurz" 
+				else stuff "intermediate" 
 					{if rand ("head_graze_chance")
 						{call_synced "graze"}
 					else
 						{call_synced "head_explodes"}
 					}
-				else stuff "7-92_rifle" 
+				else stuff "full_rifle" 
 					{if rand ("head_graze_chance")
 						{call_synced "graze"}
 					else
@@ -2324,25 +2324,25 @@
 			}
 		else volume "face"
 			{if not dead
-				{if stuff "7-62_pistol" 
+				{if stuff "small_pistol" 
 					{if rand ("head_graze_chance")
 						{call_synced "graze"}
 					else
 						{call_synced "head_explodes"}
 					}
-				else stuff "45_pistol" 
+				else stuff "large_pistol" 
 					{if rand ("head_graze_chance")
 						{call_synced "graze"}
 					else
 						{call_synced "head_explodes"}
 					}
-				else stuff "7-92_kurz" 
+				else stuff "intermediate" 
 					{if rand ("head_graze_chance")
 						{call_synced "graze"}
 					else
 						{call_synced "head_explodes"}
 					}
-				else stuff "7-92_rifle" 
+				else stuff "full_rifle" 
 					{if rand ("head_graze_chance")
 						{call_synced "graze"}
 					else
@@ -2358,43 +2358,43 @@
 			}
 		else volume "body"
 			{if not dead
-				{if stuff "7-62_pistol"
-					{if rand ("7-62_pistol_vital_organ_chance")
+				{if stuff "small_pistol"
+					{if rand ("small_pistol_vital_organ_chance")
 						{call_synced "vital_organ_hit"}
 					else rand ("body_graze_chance")
 						{call_synced "graze"}
 					else
-						{call_synced "random_damage_7-62_pistol_body"}
+						{call_synced "random_damage_small_pistol_body"}
 					}
-				}
-				{if stuff "45_pistol"
-					{if rand ("45_pistol_vital_organ_chance")
+				
+				else stuff "large_pistol"
+					{if rand ("large_pistol_vital_organ_chance")
 						{call_synced "vital_organ_hit"}
 					else rand ("body_graze_chance")
 						{call_synced "graze"}
 					else
-						{call_synced "random_damage_45_pistol_body"}
+						{call_synced "random_damage_large_pistol_body"}
 					}
-				}
-				{if stuff "7-92_kurz" ;1.9k J ;german 7.92 kurz ; stg44
-					{if rand ("7-92_kurz_vital_organ_chance")
+				
+				else stuff "intermediate" ;1.9k J ;german 7.92 kurz ; stg44
+					{if rand ("intermediate_vital_organ_chance")
 						{call_synced "vital_organ_hit"}
 					else rand ("body_graze_chance")
 						{call_synced "graze"}
 					else
-						{call_synced "random_damage_7-92_kurz_body"}
+						{call_synced "random_damage_intermediate_body"}
 					}
-				}
-				{if stuff "7-92_rifle" ;3.7k J ;german 7.92 mauser
-					{if rand ("7-92_rifle_vital_organ_chance")
+				
+				else stuff "full_rifle" ;3.7k J ;german 7.92 mauser
+					{if rand ("full_rifle_vital_organ_chance")
 						{call_synced "vital_organ_hit"}
 					else rand ("body_graze_chance")
 						{call_synced "graze"}
 					else
-						{call_synced "random_damage_7-92_rifle_body"}
+						{call_synced "random_damage_full_rifle_body"}
 					}
-				}
-				{if stuff "hmgun"
+				
+				else stuff "hmgun"
 					{if rand ("hmgun_vital_organ_chance")
 						{call_synced "vital_organ_hit"}
 					else rand ("body_graze_chance")
@@ -2402,324 +2402,373 @@
 					else
 						{call_synced "random_damage_hmgun_body"}
 					}
+				else
+					{if rand ("full_rifle_vital_organ_chance")
+						{call_synced "vital_organ_hit"}
+					else rand ("body_graze_chance")
+						{call_synced "graze"}
+					else
+						{call_synced "random_damage_full_rifle_body"}
+					}
 				}
 			}
 		
 		else volume "foot1l"
 			{if not dead
-				{if stuff "7-62_pistol"
+				{if stuff "small_pistol"
 					{if rand ("upper_leg_graze_chance")
 						{call_synced "graze"}
 					else
-						{call_synced "random_damage_7-62_pistol_upper_leg"}
+						{call_synced "random_damage_small_pistol_upper_leg"}
 					}
-				}
-				{if stuff "45_pistol"
+				
+				else stuff "large_pistol"
 					{if rand ("upper_leg_graze_chance")
 						{call_synced "graze"}
 					else
-						{call_synced "random_damage_45_pistol_upper_leg"}
+						{call_synced "random_damage_large_pistol_upper_leg"}
 					}
-				}
-				{if stuff "7-92_kurz" ;1.9k J ;german 7.92 kurz ; stg44
+				
+				else stuff "intermediate" ;1.9k J ;german 7.92 kurz ; stg44
 					{if rand ("upper_leg_graze_chance")
 						{call_synced "graze"}
 					else
-						{call_synced "random_damage_7-92_kurz_upper_leg"}
+						{call_synced "random_damage_intermediate_upper_leg"}
 					}
-				}
-				{if stuff "7-92_rifle" ;3.7k J ;german 7.92 mauser
+				
+				else stuff "full_rifle" ;3.7k J ;german 7.92 mauser
 					{if rand ("upper_leg_graze_chance")
 						{call_synced "graze"}
 					else
-						{call_synced "random_damage_7-92_rifle_upper_leg"}
+						{call_synced "random_damage_full_rifle_upper_leg"}
 					}
-				}
-				{if stuff "hmgun"
+				
+				else stuff "hmgun"
 					{if rand ("upper_leg_graze_chance")
 						{call_synced "graze"}
 					else
 						{call_synced "random_damage_hmgun_upper_leg"}
+					}
+				else
+					{if rand ("upper_leg_graze_chance")
+						{call_synced "graze"}
+					else
+						{call_synced "random_damage_full_rifle_upper_leg"}
 					}
 				}
 			}
 	
 		else volume "foot1r"
 			{if not dead
-				{if stuff "7-62_pistol"
+				{if stuff "small_pistol"
 					{if rand ("upper_leg_graze_chance")
 						{call_synced "graze"}
 					else
-						{call_synced "random_damage_7-62_pistol_upper_leg"}
+						{call_synced "random_damage_small_pistol_upper_leg"}
 					}
-				}
-				{if stuff "45_pistol"
+				
+				else stuff "large_pistol"
 					{if rand ("upper_leg_graze_chance")
 						{call_synced "graze"}
 					else
-						{call_synced "random_damage_45_pistol_upper_leg"}
+						{call_synced "random_damage_large_pistol_upper_leg"}
 					}
-				}
-				{if stuff "7-92_kurz" ;1.9k J ;german 7.92 kurz ; stg44
+				
+				else stuff "intermediate" ;1.9k J ;german 7.92 kurz ; stg44
 					{if rand ("upper_leg_graze_chance")
 						{call_synced "graze"}
 					else
-						{call_synced "random_damage_7-92_kurz_upper_leg"}
+						{call_synced "random_damage_intermediate_upper_leg"}
 					}
-				}
-				{if stuff "7-92_rifle" ;3.7k J ;german 7.92 mauser
+				
+				else stuff "full_rifle" ;3.7k J ;german 7.92 mauser
 					{if rand ("upper_leg_graze_chance")
 						{call_synced "graze"}
 					else
-						{call_synced "random_damage_7-92_rifle_upper_leg"}
+						{call_synced "random_damage_full_rifle_upper_leg"}
 					}
-				}
-				{if stuff "hmgun"
+				
+				else stuff "hmgun"
 					{if rand ("upper_leg_graze_chance")
 						{call_synced "graze"}
 					else
 						{call_synced "random_damage_hmgun_upper_leg"}
+					}				
+				else
+					{if rand ("upper_leg_graze_chance")
+						{call_synced "graze"}
+					else
+						{call_synced "random_damage_full_rifle_upper_leg"}
 					}
 				}
 			}
 			
 		else volume "foot2r"
 			{if not dead
-				{if stuff "7-62_pistol"
+				{if stuff "small_pistol"
 					{if rand ("lower_leg_graze_chance")
 						{call_synced "graze"}
 					else
-						{call_synced "random_damage_7-62_pistol_lower_leg"}
+						{call_synced "random_damage_small_pistol_lower_leg"}
 					}
-				}
-				{if stuff "45_pistol"
+				
+				else stuff "large_pistol"
 					{if rand ("lower_leg_graze_chance")
 						{call_synced "graze"}
 					else
-						{call_synced "random_damage_45_pistol_lower_leg"}
+						{call_synced "random_damage_large_pistol_lower_leg"}
 					}
-				}
-				{if stuff "7-92_kurz" ;1.9k J ;german 7.92 kurz ; stg44
+				
+				else stuff "intermediate" ;1.9k J ;german 7.92 kurz ; stg44
 					{if rand ("lower_leg_graze_chance")
 						{call_synced "graze"}
 					else
-						{call_synced "random_damage_7-92_kurz_lower_leg"}
+						{call_synced "random_damage_intermediate_lower_leg"}
 					}
-				}
-				{if stuff "7-92_rifle" ;3.7k J ;german 7.92 mauser
+				
+				else stuff "full_rifle" ;3.7k J ;german 7.92 mauser
 					{if rand ("lower_leg_graze_chance")
 						{call_synced "graze"}
 					else
-						{call_synced "random_damage_7-92_rifle_lower_leg"}
+						{call_synced "random_damage_full_rifle_lower_leg"}
 					}
-				}
-				{if stuff "hmgun"
+				
+				else stuff "hmgun"
 					{if rand ("lower_leg_graze_chance")
 						{call_synced "graze"}
 					else
 						{call_synced "random_damage_hmgun_lower_leg"}
+					}
+				else
+					{if rand ("lower_leg_graze_chance")
+						{call_synced "graze"}
+					else
+						{call_synced "random_damage_full_rifle_lower_leg"}
 					}
 				}
 			}
 				
 		else volume "foot2l"
 			{if not dead
-				{if stuff "7-62_pistol"
+				{if stuff "small_pistol"
 					{if rand ("lower_leg_graze_chance")
 						{call_synced "graze"}
 					else
-						{call_synced "random_damage_7-62_pistol_lower_leg"}
+						{call_synced "random_damage_small_pistol_lower_leg"}
 					}
-				}
-				{if stuff "45_pistol"
+				
+				else stuff "large_pistol"
 					{if rand ("lower_leg_graze_chance")
 						{call_synced "graze"}
 					else
-						{call_synced "random_damage_45_pistol_lower_leg"}
+						{call_synced "random_damage_large_pistol_lower_leg"}
 					}
-				}
-				{if stuff "7-92_kurz" ;1.9k J ;german 7.92 kurz ; stg44
+				
+				else stuff "intermediate" ;1.9k J ;german 7.92 kurz ; stg44
 					{if rand ("lower_leg_graze_chance")
 						{call_synced "graze"}
 					else
-						{call_synced "random_damage_7-92_kurz_lower_leg"}
+						{call_synced "random_damage_intermediate_lower_leg"}
 					}
-				}
-				{if stuff "7-92_rifle" ;3.7k J ;german 7.92 mauser
+				
+				else stuff "full_rifle" ;3.7k J ;german 7.92 mauser
 					{if rand ("lower_leg_graze_chance")
 						{call_synced "graze"}
 					else
-						{call_synced "random_damage_7-92_rifle_lower_leg"}
+						{call_synced "random_damage_full_rifle_lower_leg"}
 					}
-				}
-				{if stuff "hmgun"
+				
+				else stuff "hmgun"
 					{if rand ("lower_leg_graze_chance")
 						{call_synced "graze"}
 					else
 						{call_synced "random_damage_hmgun_lower_leg"}
+					}
+				else
+					{if rand ("lower_leg_graze_chance")
+						{call_synced "graze"}
+					else
+						{call_synced "random_damage_full_rifle_lower_leg"}
 					}
 				}
 			}
 			
 		else volume "arm1l"
 			{if not dead
-				{if stuff "7-62_pistol"
+				{if stuff "small_pistol"
 					{if rand ("upper_arm_graze_chance")
 						{call_synced "graze"}
 					else
-						{call_synced "random_damage_7-62_pistol_upper_arm"}
+						{call_synced "random_damage_small_pistol_upper_arm"}
 					}
-				}
-				{if stuff "45_pistol"
+				
+				else stuff "large_pistol"
 					{if rand ("upper_arm_graze_chance")
 						{call_synced "graze"}
 					else
-						{call_synced "random_damage_45_pistol_upper_arm"}
+						{call_synced "random_damage_large_pistol_upper_arm"}
 					}
-				}
-				{if stuff "7-92_kurz" ;1.9k J ;german 7.92 kurz ; stg44
+				
+				else stuff "intermediate" ;1.9k J ;german 7.92 kurz ; stg44
 					{if rand ("upper_arm_graze_chance")
 						{call_synced "graze"}
 					else
-						{call_synced "random_damage_7-92_kurz_upper_arm"}
+						{call_synced "random_damage_intermediate_upper_arm"}
 					}
-				}
-				{if stuff "7-92_rifle" ;3.7k J ;german 7.92 mauser
+				
+				else stuff "full_rifle" ;3.7k J ;german 7.92 mauser
 					{if rand ("upper_arm_graze_chance")
 						{call_synced "graze"}
 					else
-						{call_synced "random_damage_7-92_rifle_upper_arm"}
+						{call_synced "random_damage_full_rifle_upper_arm"}
 					}
-				}
-				{if stuff "hmgun"
+				
+				else stuff "hmgun"
 					{if rand ("upper_arm_graze_chance")
 						{call_synced "graze"}
 					else
 						{call_synced "random_damage_hmgun_upper_arm"}
+					}
+				else
+					{if rand ("upper_arm_graze_chance")
+						{call_synced "graze"}
+					else
+						{call_synced "random_damage_full_rifle_upper_arm"}
 					}
 				}
 			}
 				
 		else volume "arm1r"
 			{if not dead
-				{if stuff "7-62_pistol"
+				{if stuff "small_pistol"
 					{if rand ("upper_arm_graze_chance")
 						{call_synced "graze"}
 					else
-						{call_synced "random_damage_7-62_pistol_upper_arm"}
+						{call_synced "random_damage_small_pistol_upper_arm"}
 					}
-				}
-				{if stuff "45_pistol"
+				
+				else stuff "large_pistol"
 					{if rand ("upper_arm_graze_chance")
 						{call_synced "graze"}
 					else
-						{call_synced "random_damage_45_pistol_upper_arm"}
+						{call_synced "random_damage_large_pistol_upper_arm"}
 					}
-				}
-				{if stuff "7-92_kurz" ;1.9k J ;german 7.92 kurz ; stg44
+				
+				else stuff "intermediate" ;1.9k J ;german 7.92 kurz ; stg44
 					{if rand ("upper_arm_graze_chance")
 						{call_synced "graze"}
 					else
-						{call_synced "random_damage_7-92_kurz_upper_arm"}
+						{call_synced "random_damage_intermediate_upper_arm"}
 					}
-				}
-				{if stuff "7-92_rifle" ;3.7k J ;german 7.92 mauser
+				
+				else stuff "full_rifle" ;3.7k J ;german 7.92 mauser
 					{if rand ("upper_arm_graze_chance")
 						{call_synced "graze"}
 					else
-						{call_synced "random_damage_7-92_rifle_upper_arm"}
+						{call_synced "random_damage_full_rifle_upper_arm"}
 					}
-				}
-				{if stuff "rifle_fg"
-					{if rand ("upper_arm_graze_chance")
-						{call_synced "graze"}
-					else
-						{call_synced "random_damage_rifle_fg_upper_arm"}
-					}
-				}
-				{if stuff "hmgun"
+				
+				else stuff "hmgun"
 					{if rand ("upper_arm_graze_chance")
 						{call_synced "graze"}
 					else
 						{call_synced "random_damage_hmgun_upper_arm"}
+					}
+				else
+					{if rand ("upper_arm_graze_chance")
+						{call_synced "graze"}
+					else
+						{call_synced "random_damage_full_rifle_upper_arm"}
 					}
 				}
 			}
 		
 		else volume "arm2r"
 			{if not dead
-				{if stuff "7-62_pistol"
+				{if stuff "small_pistol"
 					{if rand ("lower_arm_graze_chance")
 						{call_synced "graze"}
 					else
-						{call_synced "random_damage_7-62_pistol_lower_arm"}
+						{call_synced "random_damage_small_pistol_lower_arm"}
 					}
-				}
-				{if stuff "45_pistol"
+				
+				else stuff "large_pistol"
 					{if rand ("lower_arm_graze_chance")
 						{call_synced "graze"}
 					else
-						{call_synced "random_damage_45_pistol_lower_arm"}
+						{call_synced "random_damage_large_pistol_lower_arm"}
 					}
-				}
-				{if stuff "7-92_kurz" ;1.9k J ;german 7.92 kurz ; stg44
+				
+				else stuff "intermediate" ;1.9k J ;german 7.92 kurz ; stg44
 					{if rand ("lower_arm_graze_chance")
 						{call_synced "graze"}
 					else
-						{call_synced "random_damage_7-92_kurz_lower_arm"}
+						{call_synced "random_damage_intermediate_lower_arm"}
 					}
-				}
-				{if stuff "7-92_rifle" ;3.7k J ;german 7.92 mauser
+				
+				else stuff "full_rifle" ;3.7k J ;german 7.92 mauser
 					{if rand ("lower_arm_graze_chance")
 						{call_synced "graze"}
 					else
-						{call_synced "random_damage_7-92_rifle_lower_arm"}
+						{call_synced "random_damage_full_rifle_lower_arm"}
 					}
-				}
-				{if stuff "hmgun"
+				
+				else stuff "hmgun"
 					{if rand ("lower_arm_graze_chance")
 						{call_synced "graze"}
 					else
 						{call_synced "random_damage_hmgun_lower_arm"}
+					}
+				else
+					{if rand ("lower_arm_graze_chance")
+						{call_synced "graze"}
+					else
+						{call_synced "random_damage_full_rifle_lower_arm"}
 					}
 				}
 			}
 		
 		else volume "arm2l"
 			{if not dead
-				{if stuff "7-62_pistol"
+				{if stuff "small_pistol"
 					{if rand ("lower_arm_graze_chance")
 						{call_synced "graze"}
 					else
-						{call_synced "random_damage_7-62_pistol_lower_arm"}
+						{call_synced "random_damage_small_pistol_lower_arm"}
 					}
-				}
-				{if stuff "45_pistol"
+				
+				else stuff "large_pistol"
 					{if rand ("lower_arm_graze_chance")
 						{call_synced "graze"}
 					else
-						{call_synced "random_damage_45_pistol_lower_arm"}
+						{call_synced "random_damage_large_pistol_lower_arm"}
 					}
-				}
-				{if stuff "7-92_kurz" ;1.9k J ;german 7.92 kurz ; stg44
+				
+				else stuff "intermediate" ;1.9k J ;german 7.92 kurz ; stg44
 					{if rand ("lower_arm_graze_chance")
 						{call_synced "graze"}
 					else
-						{call_synced "random_damage_7-92_kurz_lower_arm"}
+						{call_synced "random_damage_intermediate_lower_arm"}
 					}
-				}
-				{if stuff "7-92_rifle" ;3.7k J ;german 7.92 mauser
+				
+				else stuff "full_rifle" ;3.7k J ;german 7.92 mauser
 					{if rand ("lower_arm_graze_chance")
 						{call_synced "graze"}
 					else
-						{call_synced "random_damage_7-92_rifle_lower_arm"}
+						{call_synced "random_damage_full_rifle_lower_arm"}
 					}
-				}
-				{if stuff "hmgun"
+				
+				else stuff "hmgun"
 					{if rand ("lower_arm_graze_chance")
 						{call_synced "graze"}
 					else
 						{call_synced "random_damage_hmgun_lower_arm"}
+					}
+				else
+					{if rand ("lower_arm_graze_chance")
+						{call_synced "graze"}
+					else
+						{call_synced "random_damage_full_rifle_lower_arm"}
 					}
 				}
 			}

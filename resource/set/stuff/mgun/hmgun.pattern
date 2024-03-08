@@ -33,7 +33,7 @@
 	;//{aimingTolerance 2}
 
 	("armor health" damage(13))
-	("human health" damage(300))
+	("human health" damage(235))
 
 	("accuracy_hmg")
 
