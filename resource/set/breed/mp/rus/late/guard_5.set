@@ -11,13 +11,13 @@
 	}
 	{perks
 		(include "ability.inc")
-		("rifle_skill_rank_2")("tier2_standard")
+		("rifle_skill_rank_3")("tier2_standard")
 		("at_rank_3")
 		
 	}
 	{veterancy
 		(include "ability.inc")
-		("veterancy_lvl_5")
+		("veterancy_lvl_3")
 	}
 	{inventory
 		{item "ptrs" filled}

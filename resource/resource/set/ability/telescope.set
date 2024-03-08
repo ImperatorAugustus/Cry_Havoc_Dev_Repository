@@ -1,5 +1,0 @@
-{"telescope" from specialvision
-	{item "rifle" "sniper"}
-	{vision "soldier_focused"}
-	{aimed_vision "rifle_telescope"}
-}

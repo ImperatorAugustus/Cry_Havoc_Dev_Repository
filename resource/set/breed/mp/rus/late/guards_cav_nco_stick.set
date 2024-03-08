@@ -11,12 +11,12 @@
 	}
 	{perks
 		(include "ability.inc")
-		("smg_skill_rank_3")("tier3_standard")
+		("smg_skill_rank_4")("tier3_standard")
 		
 	}
 	{veterancy
 		(include "ability.inc")
-		("veterancy_lvl_5")
+		("veterancy_lvl_3")
 	}
 	{inventory
 		{item "ppsh41_stick" filled}

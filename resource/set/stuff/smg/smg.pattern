@@ -27,7 +27,7 @@
 	}
 	{FiringTimeout 1.25 0.25}
 
-	("human health" damage(10))
+	("human health" damage(20))
 	("penetration" args 4)
 	("armor health" damage(2))
 

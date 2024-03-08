@@ -1,34 +1,28 @@
 (define "items_light_ger"
 
-;weights in kg multiplied by 100
-;magazine~ 200g
-;belt ~250g
-;clip 50g
-;crate for 76mm HE 8kg per round adjust based on relative size
-
 ;// pistol
 
 ;// smg
-	{item "mp40"					"ammo" 32 {value 45}} ;~7.5g per cart - 200g mag
+	{item "mp40"					"ammo" 32 {value 2}}
 
 ;// mg
-	{item "mgun_ger" "belt" "ap"	"ammo" 50 {value 90}} ;~12.8g per cart 250g belt
-	{item "mgun_ger" "belt" "ap2"	"ammo" 50 {value 90}}
-	{item "mgun_ger" "belt"			"ammo" 50 {value 90}}
-	{item "mgun_ger" "mg13"			"ammo" 50 {value 90}}
-	{item "mgun_ger" "drum"			"ammo" 50 {value 90}}
-	{item "mgun_ger" "doubledrum"	"ammo" 50 {value 90}}
-	{item "mgun_ger" "doubledrum" "ap" "ammo" 50 {value 90}}
-	{item "mgun_ger" "doubledrum" "ap2" "ammo" 50 {value 90}}
-	{item "zb26_mag"					"ammo" 20 {value 46}} ;~12.8g per cart 200g mag
+	{item "mgun_ger" "belt" "ap"	"ammo" 50 {value 5}}
+	{item "mgun_ger" "belt" "ap2"	"ammo" 50 {value 5}}
+	{item "mgun_ger" "belt"			"ammo" 50 {value 5}}
+	{item "mgun_ger" "mg13"			"ammo" 50 {value 5}}
+	{item "mgun_ger" "drum"			"ammo" 50 {value 5}}
+	{item "mgun_ger" "doubledrum"	"ammo" 50 {value 5}}
+	{item "mgun_ger" "doubledrum" "ap" "ammo" 50 {value 5}}
+	{item "mgun_ger" "doubledrum" "ap2" "ammo" 50 {value 5}}
+	{item "zb26_mag"					"ammo" 20 {value 2}}
 
 ;// rifle
-	{item "atrifle_ger"				"ammo" 5  {value 13}} ;~15g 50g clip
-	{item "rifle_ger" "clip"		"ammo" 5  {value 11}} ;~12.8g
-	{item "rifle_ger" "gewehr"		"ammo" 10 {value 33}}
-	{item "stg44"					"ammo" 30 {value 44}} ;~8.1
-	{item "fg42"					"ammo" 20 {value 46}}
-;got to here
+	{item "atrifle_ger"				"ammo" 5  {value 5}}
+	{item "rifle_ger" "clip"		"ammo" 10 {value 2}}
+	{item "rifle_ger" "gewehr"		"ammo" 10 {value 2}}
+	{item "stg44"					"ammo" 30 {value 2}}
+	{item "fg42"					"ammo" 20 {value 2}}
+
 ;// AT
 	{item "k98_antitank"			"ammo" 1  {value 5}}
 	{item "k98_grenade"	"he"		"ammo" 1  {value 5}}
@@ -335,6 +329,8 @@
 
 	{item "bulletger_88_l71"	"apcbche"	"ammo" 1 {value 5}}
 	{item "bulletger_88_l71"	"he"		"ammo" 1 {value 5}}
+	{item "bulletger_88_l71"	"apcr"		"ammo" 1 {value 10}}
+	{item "bulletger_88_l71"	"heat"		"ammo" 1 {value 10}}
 
 	{item "bulletger_105"		"aphe"		"ammo" 1 {value 5}}
 	{item "bulletger_105"		"he"		"ammo" 1 {value 15}}
@@ -646,7 +642,7 @@
 		}
 		{radius 			5}		;// resupply radius in meter
 		{resupplyPeriod 	1}		;// resupply period in seconds
-		{regenerationPeriod 0}		;// regeneration period in seconds, +1 supply every x seconds (0 = no regeneration)
+		{regenerationPeriod 2}		;// regeneration period in seconds, +1 supply every x seconds (0 = no regeneration)
 		{limit 				50}		;// max number of resupplies (0 = unlimited)
 	}
 	{DecalView supply_zone
@@ -676,7 +672,7 @@
 		}
 		{radius				10}		;// resupply radius in meter
 		{resupplyPeriod		2}		;// resupply period in seconds
-		{regenerationPeriod 0}		;// regeneration period in seconds, +1 supply every x seconds (0 = no regeneration)
+		{regenerationPeriod 10}		;// regeneration period in seconds, +1 supply every x seconds (0 = no regeneration)
 		{limit 				%supply}	;// max number of resupplies (0 = unlimited)
 	}
 	{DecalView supply_zone
@@ -700,7 +696,7 @@
 		}
 		{radius				15}		;// resupply radius in meter
 		{resupplyPeriod 	5}		;// resupply period in seconds
-		{regenerationPeriod 0}		;// regeneration period in seconds, +1 supply every x seconds (0 = no regeneration)
+		{regenerationPeriod 10}		;// regeneration period in seconds, +1 supply every x seconds (0 = no regeneration)
 		{limit				250}	;// max number of resupplies (0 = unlimited)
 	}
 	{DecalView supply_zone
@@ -730,7 +726,7 @@
 		}
 		{radius 			15}		;// resupply radius in meter
 		{resupplyPeriod 	10}		;// resupply period in seconds
-		{regenerationPeriod 0}		;// regeneration period in seconds, +1 supply every x seconds (0 = no regeneration)
+		{regenerationPeriod 10}		;// regeneration period in seconds, +1 supply every x seconds (0 = no regeneration)
 		{limit 				500}	;// max number of resupplies (0 = unlimited)
 	}
 	{DecalView supply_zone
@@ -760,7 +756,7 @@
 		}
 		{radius 			15}		;// resupply radius in meter
 		{resupplyPeriod 	10}		;// resupply period in seconds
-		{regenerationPeriod 0}		;// regeneration period in seconds, +1 supply every x seconds (0 = no regeneration)
+		{regenerationPeriod 10}		;// regeneration period in seconds, +1 supply every x seconds (0 = no regeneration)
 		{limit 				100}	;// max number of resupplies (0 = unlimited)
 	}
 	{DecalView supply_zone
@@ -785,7 +781,7 @@
 		{mechanicResources {amount 10}{value 10}}
 		{radius				12}		;// resupply radius in meter
 		{resupplyPeriod		2}		;// resupply period in seconds
-		{regenerationPeriod 0}		;// regeneration period in seconds, +1 supply every x seconds (0 = no regeneration)
+		{regenerationPeriod 10}		;// regeneration period in seconds, +1 supply every x seconds (0 = no regeneration)
 		{limit				500}	;// max number of resupplies (0 = unlimited)
 	}
 	{DecalView supply_zone
@@ -814,7 +810,36 @@
 		}
 		{radius 			12}			;// resupply radius in meter
 		{resupplyPeriod 	2}			;// resupply period in seconds
-		{regenerationPeriod 0}			;// regeneration period in seconds, +1 supply every x seconds (0 = no regeneration)
+		{regenerationPeriod 10}			;// regeneration period in seconds, +1 supply every x seconds (0 = no regeneration)
+		{limit 				1750}		;// max number of resupplies (0 = unlimited)
+	}
+	{DecalView supply_zone
+		{Sprite "supply_zone.ebm"
+			{Visibility 0.25}
+		}
+		{Layer grounddynamic}
+		{Visible 0}
+	}
+)
+
+(define "armored_ammo_carrier"
+	{extender "supply_zone"
+		{resupply
+			("items_light_generic")
+			("items_light_ger")
+			("items_light_rus")
+			("items_light_eng")
+			("items_light_usa")
+			("items_light_fin")
+			("items_heavy_ger")
+			("items_heavy_rus")
+			("items_heavy_eng")
+			("items_heavy_fin")
+			("items_heavy_usa")
+		}
+		{radius 			12}			;// resupply radius in meter
+		{resupplyPeriod 	2}			;// resupply period in seconds
+		{regenerationPeriod 10}			;// regeneration period in seconds, +1 supply every x seconds (0 = no regeneration)
 		{limit 				1000}		;// max number of resupplies (0 = unlimited)
 	}
 	{DecalView supply_zone
@@ -843,8 +868,8 @@
 		}
 		{radius 			12}			;// resupply radius in meter
 		{resupplyPeriod 	2}			;// resupply period in seconds
-		{regenerationPeriod 0}			;// regeneration period in seconds, +1 supply every x seconds (0 = no regeneration)
-		{limit 				2000}		;// max number of resupplies (0 = unlimited)
+		{regenerationPeriod 10}			;// regeneration period in seconds, +1 supply every x seconds (0 = no regeneration)
+		{limit 				3500}		;// max number of resupplies (0 = unlimited)
 	}
 	{DecalView supply_zone
 		{Sprite "supply_zone.ebm"

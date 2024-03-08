@@ -1,8 +1,0 @@
-;_________________________________________
-; German late-war long-barreled Heavy TD gun
-;=========================================
-
-
-{from "128mm_pak44"			; L/55 "jagdtiger"
-	("reload time" seconds(18))
-}

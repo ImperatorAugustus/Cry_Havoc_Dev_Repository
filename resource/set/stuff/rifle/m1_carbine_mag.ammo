@@ -1,5 +1,5 @@
 {bullet
-	{tag "bullet small_arms stackable pierce intermediate"}
+	{tag "bullet small_arms stackable pierce 30_carbine"}
 	{tag "bullet_fx size2"}
 	{inventory
 		{weight 6.66}

@@ -1,5 +1,5 @@
 {bullet
-	{tag "bullet small_arms stackable pierce full_rifle"} ;//game code
+	{tag "bullet small_arms stackable pierce 7-62_rifle"} ;//game code
 	{tag "bullet_fx size2 api"} ;//fx code
 	{inventory
 		{weight 0.399}

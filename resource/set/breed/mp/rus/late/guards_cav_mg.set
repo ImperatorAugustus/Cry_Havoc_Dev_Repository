@@ -11,12 +11,12 @@
 	}
 	{perks
 		(include "ability.inc")
-		("mg_skill_rank_3")("tier3_standard")
+		("mg_skill_rank_4")("tier3_standard")
 		
 	}
 	{veterancy
 		(include "ability.inc")
-		("veterancy_lvl_5")
+		("veterancy_lvl_3")
 	}
 	{inventory
 		{item "dp_bipod" filling "mgun_rus dp ammo" 47}

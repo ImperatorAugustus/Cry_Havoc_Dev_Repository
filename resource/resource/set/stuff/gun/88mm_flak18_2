@@ -1,8 +1,0 @@
-;_________________________________________
-; German Heavy AA/AT gun
-;=========================================
-
-
-{from "88mm_flak36"			; L/56 "sdkfz8_flak18"
-	("accuracy_direct" r1(0.70) range_ap(230) range_he(230) range_heat(230))
-}

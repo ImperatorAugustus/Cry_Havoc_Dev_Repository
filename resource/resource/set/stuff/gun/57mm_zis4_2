@@ -1,9 +1,0 @@
-;_________________________________________
-; Russian medium AT gun, T34 mounted version
-;=========================================
-
-
-{from "57mm_zis4"			; L/73  "t3457_43"
-	("reload time" seconds(6.5))
-
-}
