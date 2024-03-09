@@ -16,7 +16,7 @@
 	}
 	{veterancy
 		(include "ability.inc")
-		("veterancy_lvl_5")
+		("veterancy_lvl_3")
 	}
 	{inventory
 		{item "dp_bipod" filling "mgun_rus dp ammo" 47}

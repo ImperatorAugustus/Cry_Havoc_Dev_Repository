@@ -11,7 +11,7 @@
 	}
 	{perks
 		(include "ability.inc")
-		("rifle_skill_rank_2")("tier2_standard")
+		("rifle_skill_rank_3")("tier2_standard")
 	}
 	{veterancy
 		(include "ability.inc")

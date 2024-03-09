@@ -16,7 +16,7 @@
 	}
 	{veterancy
 		(include "ability.inc")
-		("veterancy_lvl_5")
+		("veterancy_lvl_3")
 	}
 	{inventory
 		{item "svt40" filling "rifle_rus svt ammo" 10}

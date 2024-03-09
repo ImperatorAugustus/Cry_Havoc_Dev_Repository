@@ -16,7 +16,7 @@
 	}
 	{veterancy
 		(include "ability.inc")
-		("veterancy_lvl_5")
+		("veterancy_lvl_3")
 	}
 	{inventory
 		{item "mg42_belt" filling "mgun_ger belt ammo" 100}
