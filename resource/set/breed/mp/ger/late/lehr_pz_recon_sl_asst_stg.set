@@ -5,7 +5,7 @@
 	{icon "stg"}
 	{icon_priority 0}
 	{tags "soldier"}
-	{nationality ger}
+	{nationality ger_pzlehr}
 	{armors
 		{head ger_m42_helmet_splinter}
 	}

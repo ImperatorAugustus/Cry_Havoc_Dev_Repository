@@ -5,13 +5,13 @@
 	{icon "flamer"}
 	{icon_priority 0}
 	{tags "soldier"}
-	{nationality ger}
+	{nationality ger_begleit}
 	{armors
 		{head ger_m40_helmet_goggles}
 	}
 	{perks
 		(include "ability.inc")
-		("rifle_skill_rank_4")("tier3_standard")
+		("rifle_skill_rank_3")("tier3_standard")
 	}
 	{veterancy
 		(include "ability.inc")

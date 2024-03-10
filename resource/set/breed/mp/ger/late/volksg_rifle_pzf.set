@@ -5,7 +5,7 @@
 	{icon "rifle"}
 	{icon_priority 1}
 	{tags "soldier_pzfaust"}
-	{nationality ger}
+	{nationality ger_volksgrenadier}
 	{armors
 		{head ger_m40_helmet_camo1}
 	}

@@ -5,7 +5,7 @@
 	{icon "autorifle"}
 	{icon_priority 8}
 	{tags "soldier"}
-	{nationality usa}
+	{nationality usa_paratrooper}
 	{armors
 		{head us_m1_nco_b_net_var2}
 	}

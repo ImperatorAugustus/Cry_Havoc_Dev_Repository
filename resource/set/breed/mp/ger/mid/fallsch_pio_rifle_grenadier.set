@@ -1,0 +1,38 @@
+{breed
+	{behaviour soldier}
+	{skin "ger_fj_rifle"}
+	{portrait "ger_fallschirmjaeger"}
+	{icon "rifle"}
+	{icon_priority 1}
+	{tags "soldier"}
+	{nationality ger_fallschirmjaeger}
+	{armors
+		{head ger_m38_helmet_net}
+	}
+	{perks
+		(include "ability.inc")
+		("rifle_skill_rank_4")("tier4_defense")
+		
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "k98_grenade_launcher" filling "k98_grenade heat ammo" 1}
+		{item "k98_grenade he ammo" 10}
+		{item "k98_grenade heat ammo" 5}
+
+		{item "k98" filled}
+		{item "rifle_ger clip ammo" 120 10}
+
+		;{item "m24_splinter grenade" 1.25 0.5}
+		{item "nbk39 grenade" 1.25 0.5}
+		;{item "m24_geballteladung grenade" 1.25 0.5}
+
+		{item "bandage_ger" 5.5 0.5}
+		{item "shovel_ger"}
+
+		{in_hands 0}
+	}
+}

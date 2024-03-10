@@ -5,7 +5,7 @@
 	{icon "bazooka"}
 	{icon_priority 5}
 	{tags "soldier_bazooka"}
-	{nationality usa}
+	{nationality usa_paratrooper}
 	{armors
 		{head us_m1_b_net_var2}
 	}

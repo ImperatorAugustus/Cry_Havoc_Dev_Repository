@@ -5,7 +5,7 @@
 	{icon "autorifle"}
 	{icon_priority 1}
 	{tags "soldier"}
-	{nationality ger}
+	{nationality ger_volksgrenadier}
 	{armors
 		{head ger_m40_helmet_wire}
 	}

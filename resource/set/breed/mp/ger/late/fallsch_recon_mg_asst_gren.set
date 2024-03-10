@@ -5,7 +5,7 @@
 	{icon "rifle"}
 	{icon_priority 1}
 	{tags "soldier"}
-	{nationality ger}
+	{nationality ger_fallschirmjaeger}
 	{armors
 		{head ger_m38_helmet_camo}
 	}

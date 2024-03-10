@@ -5,13 +5,13 @@
 	{icon "autorifle"}
 	{icon_priority 0}
 	{tags "soldier"}
-	{nationality ger}
+	{nationality ger_begleit}
 	{armors
 		{head ger_m42_helmet_splinter}
 	}
 	{perks
 		(include "ability.inc")
-		("rifle_skill_rank_4")("tier3_defense")
+		("rifle_skill_rank_3")("tier3_defense")
 	}
 	{veterancy
 		(include "ability.inc")
