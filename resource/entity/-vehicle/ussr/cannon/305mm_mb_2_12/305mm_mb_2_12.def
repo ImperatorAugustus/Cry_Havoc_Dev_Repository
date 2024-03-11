@@ -1,0 +1,100 @@
+{game_entity
+	(include "/properties/cannon.ext")
+	
+	(include "/properties/selection/cannon.inc" scale(1.2))
+	{extension "305mm_mb_2_12.mdl"}
+
+	{props "vision_lev05_can" "no_sandbags" "detect_artillery" "artillery_minimap_heavy"}
+
+	("gun1" repair(60) thickness(120))
+	("gun2" repair(60) thickness(120))
+
+	{obstacleId "unbreakable"}
+	{targetclass "tank_heavy"}
+	{targetSelector "tank_heavy"}
+	{collider "tank.heavy"}
+	{simulation {able 0}}
+
+	{Volume "body1"
+		{thickness 406}
+		{component "body"}
+	}
+	{Volume "body2"
+		{thickness 406}
+		{able {holed}}
+		{component "body"}
+	}
+	{Volume "barrel11"
+		{thickness 400}
+		{component "gun1"}
+	}
+	{Volume "barrel12"
+		{thickness 400}
+		{component "gun1"}
+	}
+
+	{Volume "barrel21"
+		{thickness 400}
+		{component "gun2"}
+	}
+	{Volume "barrel22"
+		{thickness 120}
+		{component "gun2"}
+	}
+
+	{extender "inventory"
+		{box
+			{item "bulletrus_305" 50}
+		}
+	}
+	{Weaponry
+		("restore_ik_time")
+		{place "gun1"
+			{weapon "305mm_m1907" filled}
+			("abm_dymamic_gun"
+				zeroing(10.0)	; // time it takes to aim until the reticle shrinks. Bigger values, more control.
+				dispersion(1)	; // time it takes to distort the reticle when you move the gun (how abrupt it loses zeroing). Bigger values, more control.
+			)
+			{foresight "foresight1"}
+			{basic}
+		}
+		{place "gun2"
+			{weapon "305mm_m1907" filled}
+			("abm_dymamic_gun"
+				zeroing(10.0)	; // time it takes to aim until the reticle shrinks. Bigger values, more control.
+				dispersion(1)	; // time it takes to distort the reticle when you move the gun (how abrupt it loses zeroing). Bigger values, more control.
+			)
+			{foresight "foresight2"}
+			{basic}
+		}
+	}
+
+	{autooperatable 1}
+	{placer
+		{crew 0}
+		{place "gunner" remove}
+		{place "commander" remove}
+	}
+
+	{mass 150000}
+	(include "/properties/selection/cannon.inc"  scale(3.0))
+
+	{bone "turret"
+		{speed2 2}
+	}
+	{bone "gun_rot"
+		{speed2 2}
+	}
+	{extender "cannon"
+		{## animation
+			{switch "close"}
+			{move "" ""}
+			{aim "" ""}
+			{fire  "" ""}
+			{reload  "" ""}
+		}
+		{move {workers clear} {obstacle "close"}}
+		{attack {workers clear} {obstacle "open"}}
+	}
+}
+

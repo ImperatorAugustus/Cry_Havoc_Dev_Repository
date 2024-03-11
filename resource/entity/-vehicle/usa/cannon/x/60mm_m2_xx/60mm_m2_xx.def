@@ -1,0 +1,19 @@
+{game_entity
+	(include "/properties/vehicle_xx.ext")
+	{extension "60mm_m2_xx.mdl"}
+	{volume "body1"
+		{thickness 6}
+	}
+	{volume "body2"
+		{thickness 6}
+	}
+	{volume "body3"
+		{thickness 6}
+	}
+	{volume "body4"
+		{thickness 6}
+	}
+	{volume "body5"
+		{thickness 6}
+	}
+}

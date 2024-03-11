@@ -1,0 +1,111 @@
+;Exported by:	 guita
+;Date:			 27.03.2022 21:23:45
+;File:			 D:\Git\3D_Scenes\GoH_3D_vehicles_ger\vehicles\cannon\sig33\150mm_sig33_x.max
+{skeleton
+	{bone revolute "basis"
+		{orientation
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+		}
+		{bone "body"
+			{parameters "id=body;"}
+			{animation
+				{sequence "break" {file "body_b.anm"}{speed 0.6}}
+			}
+			{Position -0.0139 	 0.0121 	 11.3738}
+			{VolumeView "body.ply"}
+			{bone "shield"
+				{parameters "id=shield;"}
+				{matrix34
+					0.9945 	 0 	 0.1045
+					0 	 1 	 0
+					-0.1045 	 0 	 0.9945
+					6.0351 	 -0.0058 	 13.2239
+				}
+				{VolumeView "shield.ply"}
+			}
+			{bone "pivot_front"
+				{parameters "id=body;"}
+				{matrix34
+					0.9945 	 0 	 0.1045
+					0 	 1 	 0
+					-0.1045 	 0 	 0.9945
+					0 	 0 	 0
+				}
+				{VolumeView "pivot_front.ply"}
+				{bone revolute "wheelr"
+					{parameters "id=wheelright;"}
+					{matrix34
+						1 	 0 	 0
+						0 	 0 	 -1
+						0 	 1 	 0
+						0 	 -16.9584 	 0
+					}
+					{VolumeView "wheelr.ply"}
+				}
+				{bone revolute "wheell"
+					{parameters "id=wheelleft;"}
+					{matrix34
+						1 	 0 	 0
+						0 	 0 	 -1
+						0 	 1 	 0
+						0 	 16.9472 	 0
+					}
+					{VolumeView "wheell.ply"}
+				}
+			}
+			{bone "aim_wheel1"
+				{parameters "id=body;"}
+				{matrix34
+					0.9945 	 0 	 0.1045
+					0 	 1 	 0
+					-0.1045 	 0 	 0.9945
+					-17.1312 	 8.941 	 1.5568
+				}
+				{VolumeView "aim_wheel1.ply"}
+			}
+			{bone "aim_wheel2"
+				{parameters "id=body;"}
+				{matrix34
+					0.9945 	 0 	 0.1045
+					0 	 1 	 0
+					-0.1045 	 0 	 0.9945
+					-17.1312 	 -9.006 	 1.5568
+				}
+				{VolumeView "aim_wheel2.ply"}
+			}
+			{bone revolute "turret"
+				{Position -7.319 	 -0.0121 	 9.5061}
+				{bone revolute "gun_rot"
+					{parameters "id=gun;"}
+					{animation
+						{sequence "break" {file "gun_b.anm"}{speed 0.6}}
+					}
+					{matrix34
+						1 	 0 	 0
+						0 	 0 	 1
+						0 	 -1 	 0
+						-0.1468 	 0.9571 	 3.5378
+					}
+					{VolumeView "gun_rot.ply"}
+					{bone "gun_rot1"
+						{parameters "id=gun;"}
+						{matrix34
+							1 	 0 	 0
+							0 	 0 	 -1
+							0 	 1 	 0
+							0 	 -3.5377 	 0
+						}
+						{VolumeView "gun_rot1.ply"}
+						{bone "gun"
+							{parameters "id=gun;"}
+							{Position 19.2915 	 -0.9385 	 3.7172}
+							{VolumeView "gun.ply"}
+						}
+					}
+				}
+			}
+		}
+	}
+}

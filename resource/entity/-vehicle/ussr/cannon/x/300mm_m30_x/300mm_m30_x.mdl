@@ -1,0 +1,104 @@
+;Exported by:	 guita
+;Date:			 31.10.2023 14:14:46
+;File:			 D:\Git\3D_Scenes\GoH_3D_vehicles_rus_updated\vehicles\cannon\M30_rocket_launcher\M30_x.max
+{skeleton
+	{bone revolute "basis"
+		{speed 0.002}
+		{orientation
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+		}
+		{bone "body"
+			{parameters "id=body;"}
+			{animation
+				{sequence "break" {file "body_b.anm"}{speed 0.7}}
+			}
+			{Position 11.2895 	 -0.0005 	 25.0461}
+			{VolumeView "body.ply"}
+			{bone "gun"
+				{parameters "id=body;"}
+				{Position -7.1171 	 0.0005 	 -1.2082}
+				{VolumeView "gun.ply"}
+				{bone "shooter00"
+					{matrix34
+						0.7681 	 0 	 0.6404
+						0 	 1 	 0
+						-0.6404 	 0 	 0.7681
+						-16.296 	 13.2664 	 -13.6078
+					}
+					{bone "rocket00"
+						{matrix34
+							1 	 0 	 0.0052
+							0 	 1 	 0
+							-0.0052 	 0 	 1
+							17.0784 	 -0.0199 	 -0.0134
+						}
+						{VolumeView "rocket00.ply"}
+					}
+				}
+				{bone "shooter01"
+					{matrix34
+						0.7681 	 0 	 0.6404
+						0 	 1 	 0
+						-0.6404 	 0 	 0.7681
+						-16.296 	 4.4424 	 -13.6078
+					}
+					{bone "rocket01"
+						{matrix34
+							1 	 0 	 0.0052
+							0 	 1 	 0
+							-0.0052 	 0 	 1
+							17.0784 	 -0.016 	 -0.0134
+						}
+						{VolumeView "rocket01.ply"}
+					}
+				}
+				{bone "shooter02"
+					{matrix34
+						0.7681 	 0 	 0.6404
+						0 	 1 	 0
+						-0.6404 	 0 	 0.7681
+						-16.296 	 -4.4663 	 -13.6078
+					}
+					{bone "rocket02"
+						{matrix34
+							1 	 0 	 0.0052
+							0 	 1 	 0
+							-0.0052 	 0 	 1
+							17.0784 	 -0.0161 	 -0.0134
+						}
+						{VolumeView "rocket02.ply"}
+					}
+				}
+				{bone "shooter03"
+					{matrix34
+						0.7681 	 0 	 0.6404
+						0 	 1 	 0
+						-0.6404 	 0 	 0.7681
+						-16.296 	 -13.2905 	 -13.6078
+					}
+					{bone "rocket03"
+						{matrix34
+							1 	 0 	 0.0052
+							0 	 1 	 0
+							-0.0052 	 0 	 1
+							17.0784 	 -0.0158 	 -0.0134
+						}
+						{VolumeView "rocket03.ply"}
+					}
+				}
+			}
+			{bone "stand"
+				{parameters "id=body;"}
+				{Position -0.0299 	 18.9065 	 -0.2492}
+				{VolumeView "stand.ply"}
+			}
+			{bone "fixer_x4"
+				{parameters "id=body;"}
+				{Position -12.3918 	 0 	 -11.1456}
+				{VolumeView "fixer_x4.ply"}
+			}
+		}
+	}
+}

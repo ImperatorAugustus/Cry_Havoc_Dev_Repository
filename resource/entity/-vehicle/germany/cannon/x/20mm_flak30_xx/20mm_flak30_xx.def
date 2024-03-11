@@ -1,0 +1,36 @@
+{game_entity
+	(include "/properties/vehicle_xx.ext")
+	{extension "20mm_flak30_xx.mdl"}
+	{props "cannon" "wheeled" "invisible"}
+	{volume "body4" {tags "invisible"}} ;// volume disabled on carriage hidden 
+	{volume "wheelright" {tags "invisible"}} ;// volume disabled on carriage hidden 
+	{volume "wheelleft" {tags "invisible"}} ;// volume disabled on carriage hidden 
+
+	{volume "barrel1"
+	{thickness 15}
+	}
+	{volume "body1"
+	{thickness 15}
+	}
+	{volume "body2"
+	{thickness 15}
+	}
+	{volume "body4"
+	{thickness 15}
+	}
+	{volume "part1"
+	{thickness 15}
+	}
+	{volume "part21"
+	{thickness 15}
+	}
+	{volume "part22"
+	{thickness 15}
+	}
+	{volume "wheelleft"
+	{thickness 15}
+	}
+	{volume "wheelright"
+	{thickness 15}
+	}
+}

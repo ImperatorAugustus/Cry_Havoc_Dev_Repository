@@ -1,0 +1,40 @@
+{game_entity
+	(include "/properties/vehicle_xx.ext")
+	{Extension "76mm_m1927_xx.mdl"}
+	{Volume "barrel2"
+		{thickness 30}
+	}
+	{Volume "body1"
+		{thickness 30}
+	}
+	{Volume "body2"
+		{thickness 30}
+	}
+	{Volume "part1"
+		{thickness 10}
+	}
+	{Volume "part2"
+		{thickness 10}
+	}
+	{Volume "part3"
+		{thickness 10}
+	}
+	{Volume "part4"
+		{thickness 10}
+	}
+	{Volume "part5"
+		{thickness 10}
+	}
+	{Volume "part6"
+		{thickness 10}
+	}
+	{Volume "part7"
+		{thickness 10}
+	}
+	{Volume "shield1"
+		{thickness 10}
+	}
+	{Volume "shield2"
+		{thickness 10}
+	}
+}

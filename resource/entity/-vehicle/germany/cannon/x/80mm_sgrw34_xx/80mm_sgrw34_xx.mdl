@@ -1,0 +1,112 @@
+;Exported by:	 guita
+;Date:			 24.04.2020 23:54:44
+;File:			 D:\Git\3D_Scenes\GoH_3D_vehicles_ger\vehicles\cannon\sgrw38\80mm_sgrw34_xx.max
+{skeleton
+	{bone revolute "basis"
+		{orientation
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+		}
+		{bone "body"
+			{parameters "id=body;"}
+			{matrix34
+				0.9992 	 0 	 0.0403
+				0 	 1 	 0
+				-0.0403 	 0 	 0.9992
+				0 	 0 	 0.7283
+			}
+			{VolumeView "body.ply"}
+		}
+		{bone revolute "part1"
+			{parameters "id=body;"}
+			{matrix34
+				1 	 0 	 0
+				0 	 0 	 1
+				0 	 -1 	 0
+				0.5118 	 0.0321 	 1.6732
+			}
+			{VolumeView "part1.ply"}
+		}
+		{bone "part2"
+			{parameters "id=body;"}
+			{matrix34
+				1 	 0 	 0.0012
+				0 	 1 	 0
+				-0.0012 	 0 	 1
+				13.8475 	 0.0605 	 11.8119
+			}
+			{VolumeView "part2.ply"}
+		}
+		{bone "part3"
+			{parameters "id=body;"}
+			{matrix34
+				0.7778 	 0 	 0.6285
+				0 	 1 	 0
+				-0.6285 	 0 	 0.7778
+				12.3792 	 -1.3102 	 13.5933
+			}
+			{VolumeView "part3.ply"}
+		}
+		{bone "part4"
+			{parameters "id=body;"}
+			{matrix34
+				0.7778 	 0 	 0.6285
+				0 	 1 	 0
+				-0.6285 	 0 	 0.7778
+				12.3792 	 1.2993 	 13.5933
+			}
+			{VolumeView "part4.ply"}
+		}
+	}
+}
+{volume "body"
+	{box 11.3764 11.3315 2.83465}
+	{bone "body"}
+	{matrix34
+		0.9906 	 0 	 -0.1368
+		0 	 1 	 0
+		0.1368 	 0 	 0.9906
+		-0.0612 	 0.152 	 -0.1104
+	}
+}
+{volume "part1"
+	{cylinder 1.60126 24.7273}
+	{bone "part1"}
+	{matrix34
+		0.9144 	 -0.4049 	 0
+		0 	 0 	 -1
+		0.4049 	 0.9144 	 0
+		4.6442 	 10.1349 	 0.1072
+	}
+}
+{volume "part2"
+	{cylinder 1.29666 6.68896}
+	{bone "part2"}
+	{matrix34
+		0.809 	 0 	 0.5878
+		0 	 1 	 0
+		-0.5878 	 0 	 0.809
+		-0.8384 	 -0.1314 	 0.8895
+	}
+}
+{volume "part3"
+	{cylinder 0.683256 19.5581}
+	{bone "part3"}
+	{matrix34
+		0.9087 	 0.3416 	 -0.24
+		-0.4149 	 0.8037 	 -0.4266
+		0.0472 	 0.4872 	 0.872
+		-0.4027 	 -4.6396 	 -8.0028
+	}
+}
+{volume "part4"
+	{cylinder 0.683256 19.5581}
+	{bone "part4"}
+	{matrix34
+		0.006 	 0.8712 	 0.4909
+		-0.9987 	 -0.0191 	 0.0462
+		0.0496 	 -0.4906 	 0.87
+		-0.3785 	 4.4575 	 -8.0224
+	}
+}

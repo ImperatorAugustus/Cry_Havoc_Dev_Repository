@@ -1,0 +1,179 @@
+;Exported by:	 guita
+;Date:			 18.09.2023 19:14:12
+;File:			 D:\Git\3D_Scenes\GoH_3D_vehicles_usa\vehicles\cannon\155mm_GPF_US\155mm_GPF_us_xx.max
+{skeleton
+	{bone revolute "basis"
+		{parameters "wheelradius=0.63;"}
+		{speed 0.004}
+		{orientation
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+		}
+		{bone "body"
+			{parameters "id=body;"}
+			{matrix34
+				1 	 0 	 0
+				0 	 0.998 	 -0.0625
+				0 	 0.0625 	 0.998
+				0 	 0 	 12.9277
+			}
+			{VolumeView "body.ply"}
+			{bone "standl"
+				{parameters "id=body;"}
+				{matrix34
+					0.9994 	 0 	 -0.0349
+					0 	 1 	 0
+					0.0349 	 0 	 0.9994
+					-15.3299 	 13.4868 	 0.3683
+				}
+				{VolumeView "standl.ply"}
+			}
+			{bone "standr"
+				{parameters "id=body;"}
+				{matrix34
+					0.9986 	 0 	 0.0523
+					0 	 1 	 0
+					-0.0523 	 0 	 0.9986
+					-15.3299 	 -13.4843 	 0.3683
+				}
+				{VolumeView "standr.ply"}
+			}
+			{bone "part1"
+				{parameters "id=part1;"}
+				{matrix34
+					0.917 	 0.3307 	 0.2232
+					-0.3432 	 0.9391 	 0.0184
+					-0.2035 	 -0.0935 	 0.9746
+					-49.3204 	 -12.982 	 7.9592
+				}
+				{VolumeView "part1.ply"}
+			}
+		}
+		{bone "pivot_front"
+			{Position 0 	 0 	 12.9277}
+			{bone prizmatic "suspension_r1"
+				{limits -0.05 0.05}
+				{speed 0.1}
+				{Position 0 	 -21.5588 	 0}
+				{bone revolute "wheelr"
+					{parameters "id=wheelright;"}
+					{orientation
+						0.9986 	 -0.0515 	 0.0091
+						0 	 -0.1736 	 -0.9848
+						0.0523 	 0.9835 	 -0.1734
+					}
+					{VolumeView "wheelr.ply"}
+				}
+			}
+			{bone prizmatic "suspension_l1"
+				{limits -0.05 0.05}
+				{speed 0.1}
+				{Position 0 	 21.6899 	 0}
+				{bone revolute "wheell"
+					{parameters "id=wheelleft;"}
+					{matrix34
+						0.9976 	 0.0685 	 0.0133
+						0 	 0.1908 	 -0.9816
+						-0.0698 	 0.9792 	 0.1903
+						0 	 0 	 0
+					}
+					{VolumeView "wheell.ply"}
+				}
+			}
+		}
+	}
+}
+{obstacle "obstacle"
+	{obb2
+		{center -6.21501 -0.144713}
+		{extent 14.0437 26.1325}
+		{axis 1 0}
+	}
+	{rotate}
+}
+{volume "barrel1"
+	{box 45.7725 5.26541 9.36018}
+	{bone "body"}
+	{matrix34
+		0.9228 	 0.3143 	 0.2229
+		-0.2259 	 -0.0274 	 0.9738
+		0.3121 	 -0.9489 	 0.0457
+		-13.3354 	 -1.0031 	 10.8682
+	}
+}
+{volume "barrel2"
+	{polyhedron "barrel2.vol"}
+	{bone "part1"}
+	{matrix34
+		0 	 1 	 0
+		0 	 0 	 1
+		1 	 0 	 0
+		-8.1227 	 0.0044 	 -0.0521
+	}
+}
+{volume "body1"
+	{polyhedron "body1.vol"}
+	{bone "body"}
+	{Position -8.3728 	 0 	 -0.312}
+}
+{volume "body2"
+	{polyhedron "body2.vol"}
+	{bone "body"}
+	{matrix34
+		0.9625 	 0.2711 	 0
+		-0.2711 	 0.9625 	 0
+		0 	 0 	 1
+		-9.9338 	 0.3048 	 8.7461
+	}
+}
+{volume "hole1"
+	{polyhedron "hole1.vol"}
+	{bone "body"}
+	{matrix34
+		0.9625 	 0.2711 	 0
+		-0.2711 	 0.9625 	 0
+		0 	 0 	 1
+		-10.1043 	 0.3284 	 11.789
+	}
+}
+{volume "standl"
+	{polyhedron "standl.vol"}
+	{bone "standl"}
+	{matrix34
+		0.8572 	 -0.515 	 0
+		0.515 	 0.8572 	 0
+		0 	 0 	 1
+		-35.1005 	 21.8589 	 -2.3272
+	}
+}
+{volume "standr"
+	{polyhedron "standr.vol"}
+	{bone "standr"}
+	{matrix34
+		0.8572 	 0.515 	 0
+		-0.515 	 0.8572 	 0
+		0 	 0 	 1
+		-35.116 	 -21.833 	 -2.3272
+	}
+}
+{volume "wheelleft"
+	{cylinder 7.67717 6.19429}
+	{bone "wheell"}
+	{matrix34
+		1 	 0 	 0
+		0 	 -1 	 0
+		0 	 0 	 -1
+		0 	 0 	 0
+	}
+}
+{volume "wheelright"
+	{cylinder 7.67717 6.19427}
+	{bone "wheelr"}
+	{matrix34
+		1 	 0 	 0
+		0 	 -1 	 0
+		0 	 0 	 -1
+		0 	 0 	 0
+	}
+}

@@ -1,0 +1,93 @@
+;Exported by:	 TigerF
+;Date:			 13.12.2023 13:47:49
+;File:			 D:\GOH\3dsmax9_saves\scenes\_GoH_3d_vehicle_ger\vehicles\cannon\50mm_kwk_platform\50mm_kwk39_platform_x.max
+{skeleton
+	{bone "basis"
+		{orientation
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+		}
+		{bone "body"
+			{parameters "id=body;"}
+			{animation
+				{sequence "break" {file "body_b.anm"}{speed 0.7}}
+			}
+			{Position 0 	 0 	 0.4768}
+			{VolumeView "body.ply"}
+			{bone revolute "turret"
+				{speed 0.003}
+				{Position 0 	 0 	 2.3122}
+				{bone "turret_sup"
+					{parameters "id=body;"}
+					{VolumeView "turret_sup.ply"}
+					{bone revolute "gun_rot"
+						{parameters "id=gun;"}
+						{animation
+							{sequence "break" {file "gun_b.anm"}{speed 0.7}}
+						}
+						{limits 0 35}
+						{speed 0.005}
+						{matrix34
+							1 	 0 	 0
+							0 	 0 	 1
+							0 	 -1 	 0
+							0.7604 	 -0.9278 	 23.1216
+						}
+						{VolumeView "gun_rot.ply"}
+						{bone "gun"
+							{parameters "id=gun;"}
+							{matrix34
+								1 	 0 	 0
+								0 	 0 	 -1
+								0 	 1 	 0
+								-9.7032 	 0.2945 	 -0.9278
+							}
+							{VolumeView "gun.ply"}
+							{bone "lever"
+								{parameters "id=gun;"}
+								{Position -8.5104 	 -3.4752 	 -1.3743}
+								{VolumeView "lever.ply"}
+							}
+							{bone "breechblock"
+								{parameters "id=gun;"}
+								{Position -7.0339 	 0 	 0.1177}
+								{VolumeView "breechblock.ply"}
+							}
+						}
+						{bone "armor"
+							{parameters "id=gun;"}
+							{matrix34
+								1 	 0 	 0
+								0 	 0 	 -1
+								0 	 1 	 0
+								-20.7061 	 -0.5919 	 -1.2774
+							}
+							{VolumeView "armor.ply"}
+						}
+					}
+					{bone "aim_v"
+						{parameters "id=body;"}
+						{Position 1.8869 	 -10.7957 	 17.3669}
+						{VolumeView "aim_v.ply"}
+					}
+					{bone "aim_h"
+						{parameters "id=body;"}
+						{matrix34
+							0 	 0 	 -1
+							0 	 1 	 0
+							1 	 0 	 0
+							-1.3701 	 -13.7896 	 13.6928
+						}
+						{VolumeView "aim_h.ply"}
+					}
+					{bone "shield"
+						{parameters "id=body;"}
+						{Position 0 	 0 	 -2.3122}
+						{VolumeView "shield.ply"}
+					}
+				}
+			}
+		}
+	}
+}

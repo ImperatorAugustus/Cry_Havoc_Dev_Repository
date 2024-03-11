@@ -1,0 +1,399 @@
+;Exported by:	 TigerF
+;Date:			 24.05.2023 18:09:51
+;File:			 D:\GOH\3dsmax9_saves\scenes\GoH_3D_vehicles_usa\vehicles\cannon\40mm_bofors\40mm _bofors_usa_xx.max
+{skeleton
+	{bone "basis"
+		{orientation
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+		}
+		{bone "body"
+			{parameters "id=body;"}
+			{matrix34
+				1 	 0 	 0
+				0 	 0.9962 	 -0.0872
+				0 	 0.0872 	 0.9962
+				-1.4555 	 0 	 7.5176
+			}
+			{LODView
+				{VolumeView "body.ply"}
+				{VolumeView "body_lod1.ply"}
+			}
+			{bone revolute "turret"
+				{parameters "id=body;"}
+				{matrix34
+					0.9426 	 -0.3292 	 -0.0551
+					0.3296 	 0.9441 	 -0.0033
+					0.0531 	 -0.0151 	 0.9985
+					-1.0406 	 0.0004 	 3.099
+				}
+				{LODView
+					{VolumeView "turret.ply"}
+					{VolumeView "turret_lod1.ply"}
+				}
+				{bone "aim_horizontal"
+					{parameters "id=body;"}
+					{Position 2.5565 	 -10.486 	 12.1255}
+					{LODView
+						{VolumeView "aim_horizontal.ply"}
+						{VolumeView "aim_horizontal_lod1.ply"}
+					}
+				}
+				{bone "aim_vertical"
+					{parameters "id=body;"}
+					{Position 1.1442 	 9.3843 	 13.3503}
+					{LODView
+						{VolumeView "aim_vertical.ply"}
+						{VolumeView "aim_vertical_lod1.ply"}
+					}
+				}
+				{bone "horizontal_axis"
+					{parameters "id=body;"}
+					{Position 2.5567 	 -5.3801 	 3.8807}
+					{LODView
+						{VolumeView "horizontal_axis.ply"}
+						{VolumeView "horizontal_axis_lod1.ply"}
+					}
+				}
+				{bone revolute "part8"
+					{parameters "id=gun;"}
+					{matrix34
+						0.998 	 -0.0055 	 -0.0629
+						0.0631 	 0.087 	 0.9942
+						0 	 -0.9962 	 0.0872
+						-3.0061 	 -0.508 	 15.5315
+					}
+					{LODView
+						{VolumeView "part8.ply"}
+						{VolumeView "part8_lod1.ply"}
+					}
+				}
+				{bone "body6"
+					{matrix34
+						-1 	 0 	 0
+						0 	 0 	 1
+						0 	 1 	 0
+						-0.956 	 1.9983 	 8.2156
+					}
+				}
+				{bone "body7"
+					{matrix34
+						-1 	 0 	 0
+						0 	 0 	 1
+						0 	 1 	 0
+						-0.956 	 -5.2679 	 8.2156
+					}
+				}
+				{bone "body8"
+					{matrix34
+						0 	 1 	 0
+						0 	 0 	 1
+						1 	 0 	 0
+						-7.5055 	 -6.496 	 8.8115
+					}
+				}
+				{bone "part5"
+					{parameters "id=body;"}
+					{Position -5.2271 	 12.3488 	 6.5039}
+					{LODView
+						{VolumeView "part5.ply"}
+						{VolumeView "part5_lod1.ply"}
+					}
+				}
+			}
+			{bone "foot_back"
+				{parameters "id=body;"}
+				{Position -37.059 	 0.8819 	 -3.3458}
+				{LODView
+					{VolumeView "foot_back.ply"}
+					{VolumeView "foot_back_lod1.ply"}
+				}
+			}
+			{bone "part3"
+				{parameters "id=body;"}
+				{matrix34
+					0.9892 	 0.1435 	 0.031
+					-0.1468 	 0.9714 	 0.1864
+					-0.0033 	 -0.1889 	 0.982
+					1.109 	 16.7539 	 -0.0826
+				}
+				{LODView
+					{VolumeView "part3.ply"}
+					{VolumeView "part3_lod1.ply"}
+				}
+			}
+			{bone "part4"
+				{parameters "id=body;"}
+				{matrix34
+					0.9962 	 0.087 	 0.0053
+					-0.0871 	 0.9956 	 0.0347
+					-0.0023 	 -0.035 	 0.9994
+					1.1153 	 -16.7532 	 -0.0887
+				}
+				{LODView
+					{VolumeView "part4.ply"}
+					{VolumeView "part4_lod1.ply"}
+				}
+			}
+			{bone "piivot_front"
+				{matrix34
+					-0.342 	 0 	 0.9397
+					0 	 1 	 0
+					-0.9397 	 0 	 -0.342
+					31.1937 	 -0.0044 	 -0.6515
+				}
+			}
+			{bone "piivot_back"
+				{matrix34
+					-0.342 	 0 	 -0.9397
+					0 	 1 	 0
+					0.9397 	 0 	 -0.342
+					-32.8921 	 -0.0044 	 -0.6515
+				}
+				{bone "axes_back"
+					{parameters "id=body;"}
+					{LODView
+						{VolumeView "axes_back.ply"}
+						{VolumeView "axes_back_lod1.ply"}
+					}
+					{bone "tow_hook"
+						{parameters "id=body;"}
+						{matrix34
+							-0.6157 	 0 	 0.788
+							0 	 1 	 0
+							-0.788 	 0 	 -0.6157
+							-14.2869 	 0.0044 	 1.7579
+						}
+						{LODView
+							{VolumeView "tow_hook.ply"}
+							{VolumeView "tow_hook_lod1.ply"}
+						}
+					}
+					{bone revolute "part7"
+						{parameters "id=wheelright2;radius=0.42;"}
+						{matrix34
+							1 	 0 	 0
+							0 	 0 	 -1
+							0 	 1 	 0
+							0.0037 	 -17.6126 	 -4.3854
+						}
+						{LODView
+							{VolumeView "part7.ply"}
+							{VolumeView "part7_lod1.ply"}
+						}
+					}
+					{bone revolute "part6"
+						{parameters "id=wheelleft2;radius=0.42;"}
+						{matrix34
+							1 	 0 	 0
+							0 	 0 	 -1
+							0 	 1 	 0
+							0.0038 	 17.6131 	 -4.3854
+						}
+						{LODView
+							{VolumeView "part6.ply"}
+							{VolumeView "part6_lod1.ply"}
+						}
+					}
+				}
+			}
+			{bone "part1"
+				{parameters "id=body;"}
+				{Position 33.9506 	 -3.7168 	 -0.9511}
+				{LODView
+					{VolumeView "part1.ply"}
+					{VolumeView "part1_lod1.ply"}
+				}
+				{bone revolute "part2"
+					{parameters "id=wheelright1;radius=0.42;"}
+					{matrix34
+						-0.342 	 0 	 0.9397
+						0.9397 	 0 	 0.342
+						0 	 1 	 0
+						1.3636 	 -13.9002 	 1.8007
+					}
+					{LODView
+						{VolumeView "part2.ply"}
+						{VolumeView "part2_lod1.ply"}
+					}
+				}
+				{bone "part1b"
+					{matrix34
+						1 	 0 	 0
+						0 	 1 	 0.0019
+						0 	 -0.0019 	 1
+						-2.0077 	 2.1537 	 -2.2174
+					}
+				}
+			}
+			{bone "body11"
+				{matrix34
+					1 	 0 	 0
+					0 	 1 	 0.0019
+					0 	 -0.0019 	 1
+					-32.5843 	 0.8321 	 -3.6014
+				}
+			}
+		}
+	}
+}
+{obstacle "obstacle"
+	{obb2
+		{center -1.95541 0.0120802}
+		{extent 14.4978 15.7334}
+		{axis 1 0}
+	}
+	{rotate}
+}
+{obstacle "obstacle_back"
+	{obb2
+		{center -34.801 -1.09255}
+		{extent 4.40498 18.0796}
+		{axis 1 0}
+	}
+	{rotate}
+}
+{obstacle "obstacle_body"
+	{obb2
+		{center -14.7073 0.000329614}
+		{extent 27.4041 3.32086}
+		{axis 1 0}
+	}
+	{rotate}
+}
+{volume "barrel1"
+	{cylinder 1.30412 36.7338}
+	{bone "part8"}
+	{matrix34
+		0.0595 	 -0.0505 	 -0.9969
+		-0.0071 	 0.9987 	 -0.051
+		0.9982 	 0.0101 	 0.0591
+		41.6572 	 0.1915 	 1.8819
+	}
+}
+{volume "barrel2"
+	{cylinder 2.17168 11.7697}
+	{bone "part8"}
+	{matrix34
+		0.0595 	 -0.0505 	 -0.9969
+		-0.0071 	 0.9987 	 -0.051
+		0.9982 	 0.0101 	 0.0591
+		18.6363 	 -0.0412 	 0.52
+	}
+}
+{volume "barrel3"
+	{box 20.1791 6.67056 4.85132}
+	{bone "part8"}
+	{matrix34
+		-0.9982 	 -0.0101 	 -0.0591
+		-0.0071 	 0.9987 	 -0.051
+		0.0595 	 -0.0505 	 -0.9969
+		2.8891 	 -0.8621 	 -0.3603
+	}
+}
+{volume "body10"
+	{polyhedron "body10.vol"}
+	{bone "turret"}
+	{matrix34
+		0 	 1 	 0
+		0.0958 	 0 	 0.9954
+		0.9954 	 0 	 -0.0958
+		1.2428 	 1.7092 	 10.1098
+	}
+}
+{volume "body1"
+	{cylinder 8.29114 8.18065}
+	{bone "body"}
+	{Position 1.1101 	 0 	 -0.3434}
+}
+{volume "body2"
+	{polyhedron "body2.vol"}
+	{bone "body"}
+	{Position 0.0488 	 -0.1106 	 -9.4902}
+}
+{volume "body3"
+	{polyhedron "body3.vol"}
+	{bone "body"}
+	{matrix34
+		0 	 1 	 0
+		-1 	 0 	 0
+		0 	 0 	 1
+		1.2222 	 -0.1106 	 -9.4902
+	}
+}
+{volume "body4"
+	{box 4.01572 21.1146 5.74114}
+	{bone "part4"}
+	{matrix34
+		0.0705 	 -0.9954 	 0.0647
+		0.9971 	 0.0721 	 0.0234
+		-0.028 	 0.0628 	 0.9976
+		-12.4169 	 -0.7621 	 -1.8878
+	}
+}
+{volume "body5"
+	{box 4.01572 21.1146 5.74114}
+	{bone "part3"}
+	{matrix34
+		-1 	 -0.0057 	 0.0024
+		0.0057 	 -1 	 -0.0006
+		0.0024 	 -0.0006 	 1
+		0.0757 	 12.7344 	 -1.2113
+	}
+}
+{volume "body9"
+	{box 11.4232 31.4668 2.0315}
+	{bone "turret"}
+	{matrix34
+		0.9909 	 0.0064 	 0.1346
+		0.0059 	 0.9958 	 -0.0913
+		-0.1346 	 0.0912 	 0.9867
+		-10.5342 	 0.1971 	 1.2762
+	}
+}
+{volume "part1"
+	{polyhedron "part1.vol"}
+	{bone "part1"}
+	{Position -7.7122 	 3.716 	 -0.6117}
+}
+{volume "part5"
+	{box 7.05091 6.52374 9.68}
+	{bone "part5"}
+	{matrix34
+		0.9426 	 0.3296 	 0.0531
+		-0.2222 	 0.7383 	 -0.6369
+		-0.2491 	 0.5885 	 0.7691
+		-0.3534 	 2.4907 	 -1.7166
+	}
+}
+{volume "wheelleft2"
+	{cylinder 7.68326 4.49704}
+	{bone "part6"}
+	{matrix34
+		-0.342 	 -0.9397 	 0
+		-0.8556 	 0.3114 	 -0.4136
+		0.3887 	 -0.1415 	 -0.9105
+		0.8335 	 -0.3034 	 -0.1224
+	}
+}
+{volume "wheelright1"
+	{cylinder 7.56904 4.08822}
+	{bone "part2"}
+	{matrix34
+		-0.342 	 0.9397 	 0
+		0.9397 	 0.342 	 0
+		0 	 0 	 -1
+		0 	 0 	 0.5057
+	}
+}
+{volume "wheelright2"
+	{cylinder 7.82145 4.37848}
+	{bone "part7"}
+	{matrix34
+		-0.3243 	 -0.9164 	 -0.2348
+		-0.919 	 0.2463 	 0.308
+		-0.2244 	 0.3156 	 -0.922
+		1.5093 	 -0.9651 	 1.5713
+	}
+}

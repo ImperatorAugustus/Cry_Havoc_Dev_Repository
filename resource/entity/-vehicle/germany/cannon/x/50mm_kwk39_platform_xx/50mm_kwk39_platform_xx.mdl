@@ -1,0 +1,181 @@
+;Exported by:	 TigerF
+;Date:			 13.12.2023 13:49:09
+;File:			 D:\GOH\3dsmax9_saves\scenes\_GoH_3d_vehicle_ger\vehicles\cannon\50mm_kwk_platform\50mm_kwk39_platform_xx.max
+{skeleton
+	{bone "basis"
+		{orientation
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+		}
+		{bone "body"
+			{parameters "id=body;"}
+			{Position 0 	 0 	 0.4768}
+			{VolumeView "body.ply"}
+			{bone revolute "turret"
+				{speed 0.003}
+				{Position 0 	 0 	 2.3122}
+				{bone "turret_sup"
+					{parameters "id=body;"}
+					{orientation
+						0.9816 	 -0.1907 	 -0.0067
+						0.1908 	 0.981 	 0.0343
+						0 	 -0.0349 	 0.9994
+					}
+					{VolumeView "turret_sup.ply"}
+					{bone revolute "gun_rot"
+						{parameters "id=gun;"}
+						{matrix34
+							0.9511 	 -0.0216 	 0.3083
+							-0.309 	 -0.0663 	 0.9487
+							0 	 -0.9976 	 -0.0698
+							0.7604 	 -0.9278 	 22.5837
+						}
+						{VolumeView "gun_rot.ply"}
+						{bone "gun"
+							{parameters "id=gun;"}
+							{matrix34
+								1 	 0.0004 	 -0.005
+								-0.005 	 -0.0717 	 -0.9974
+								-0.0008 	 0.9974 	 -0.0717
+								-17.0382 	 0.2945 	 -0.9278
+							}
+							{VolumeView "gun.ply"}
+						}
+						{bone "part1"
+							{parameters "id=part1;"}
+							{matrix34
+								1 	 0 	 0
+								0 	 0 	 -1
+								0 	 1 	 0
+								-20.7061 	 -0.5919 	 -1.2774
+							}
+							{VolumeView "part1.ply"}
+						}
+					}
+					{bone "shield"
+						{parameters "id=body;"}
+						{Position 0 	 0 	 -2.3122}
+						{VolumeView "shield.ply"}
+					}
+				}
+			}
+		}
+	}
+}
+{obstacle "obstacle"
+	{polygon2
+		{radius 0}
+		{vertex 17.2077 7.54706}
+		{vertex 12.7048 13.9099}
+		{vertex 6.09727 17.7765}
+		{vertex -1.68495 18.5596}
+		{vertex -9.1735 16.1613}
+		{vertex -14.949 11.0221}
+		{vertex -18.1304 3.82725}
+		{vertex -18.0325 -3.80814}
+		{vertex -14.949 -11.003}
+		{vertex -9.27139 -16.2891}
+		{vertex -1.73389 -18.5895}
+		{vertex 5.95044 -17.7574}
+		{vertex 12.6069 -13.9887}
+		{vertex 17.2567 -7.67478}
+		{vertex 18.8719 0.0585012}
+	}
+	{rotate}
+}
+{volume "armor1"
+	{box 16.0201 4.94929 0.748905}
+	{bone "part1"}
+	{matrix34
+		1 	 0 	 0
+		0 	 0 	 1
+		0 	 -1 	 0
+		-0.1826 	 4.8521 	 0.4286
+	}
+}
+{volume "armor2"
+	{box 9.08337 4.94929 0.748905}
+	{bone "part1"}
+	{matrix34
+		0 	 -1 	 0
+		0 	 0 	 1
+		-1 	 0 	 0
+		-8.2335 	 0.5735 	 0.4286
+	}
+}
+{volume "barrel1"
+	{box 19.9254 4.90538 11.9066}
+	{bone "gun_rot"}
+	{Position -2.9475 	 0.1948 	 -0.8633}
+}
+{volume "barrel2"
+	{cylinder 1.72626 26.5653}
+	{bone "gun"}
+	{matrix34
+		0 	 1 	 0
+		0 	 0 	 1
+		1 	 0 	 0
+		10.1597 	 -0.0013 	 0.0106
+	}
+}
+{volume "barrel3"
+	{box 7.14896 5.36172 5.15147}
+	{bone "gun"}
+	{matrix34
+		0.9756 	 -0.0747 	 0.2065
+		0.0409 	 0.9857 	 0.1637
+		-0.2158 	 -0.1512 	 0.9647
+		-6.258 	 0.0853 	 -1.4359
+	}
+}
+{volume "barrel4"
+	{polyhedron "barrel4.vol"}
+	{bone "gun"}
+	{Position 39.9662 	 0 	 0}
+}
+{volume "body1"
+	{cylinder 18.563 1.68924}
+	{bone "body"}
+	{Position 0.0921 	 -0.1217 	 0.3679}
+}
+{volume "body2"
+	{polyhedron "body2.vol"}
+	{bone "turret_sup"}
+	{Position 0.3221 	 -0.1743 	 10.3427}
+}
+{volume "hole1"
+	{polyhedron "hole1.vol"}
+	{bone "turret_sup"}
+	{Position 0.4767 	 -0.0913 	 18.5451}
+}
+{volume "shield1"
+	{box 23.1456 19.16 1.1532}
+	{bone "shield"}
+	{matrix34
+		0 	 1 	 0
+		0 	 0 	 1
+		1 	 0 	 0
+		9.4638 	 0 	 22.9901
+	}
+}
+{volume "shield2"
+	{box 16.3765 19.16 1.1532}
+	{bone "shield"}
+	{matrix34
+		-0.7771 	 0.6293 	 0
+		0 	 0 	 1
+		0.6293 	 0.7771 	 0
+		3.4306 	 16.3365 	 22.9901
+	}
+}
+{volume "shield3"
+	{box 16.3765 19.16 1.1532}
+	{bone "shield"}
+	{matrix34
+		-0.7771 	 -0.6293 	 0
+		0 	 0 	 1
+		-0.6293 	 0.7771 	 0
+		3.4306 	 -16.328 	 22.9901
+	}
+}

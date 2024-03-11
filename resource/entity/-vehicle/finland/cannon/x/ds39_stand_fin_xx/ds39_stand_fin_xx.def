@@ -1,0 +1,26 @@
+{game_entity
+	(include "/properties/vehicle_xx.ext")
+	{Extension "ds39_stand_xx.mdl"}
+
+	{Volume "part1" ;// Ammo box
+		{thickness 2}
+	}
+	{Volume "part2"
+		{thickness 6}
+	}
+	{Volume "part3"
+		{thickness 6}
+	}
+	{Volume "part4"
+		{thickness 6}
+	}
+	{Volume "part5"
+		{thickness 6}
+	}
+	{Volume "part6"
+		{thickness 6}
+	}
+	{Volume "part6b"
+		{thickness 6}
+	}
+}

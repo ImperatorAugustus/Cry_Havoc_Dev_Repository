@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/_vehicle/3inch_m5_early"}
+	{bump "$/_vehicle/3inch_m5_early_bp"}
+	{specular "$/_vehicle/3inch_m5_early_sp"}
+	{color "230 230 230 25"}
+	{blend test}
+}

@@ -1,0 +1,31 @@
+{game_entity
+	(include "/properties/vehicle_xx.ext")
+	{extension "75mm_leig18_xx.mdl"}
+	{volume "body"
+		{thickness 8}
+	}
+	{volume "gun"
+		{thickness 20}
+	}
+	{volume "part1" ;// Shield Gun
+		{thickness 4.5}
+	}
+	{volume "part2" ;// wheel left
+		{thickness 0.5}
+	}
+	{volume "part3" ;// wheel right
+		{thickness 0.5}
+	}
+	{volume "part4" ;// Lower shield
+		{thickness 4.5}
+	}
+	{volume "shield1"
+		{thickness 4.5}
+	}
+	{volume "shield2"
+		{thickness 4.5}
+	}
+	{volume "shield3"
+		{thickness 4.5}
+	}
+}

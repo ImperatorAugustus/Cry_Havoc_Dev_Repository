@@ -1,0 +1,183 @@
+;Exported by:	 guita
+;Date:			 18.02.2022 20:20:25
+;File:			 D:\Git\3D_Scenes\GoH_3D_vehicles_ger\vehicles\cannon\28mm_PzB41\28mm_PzB41_export_x.max
+{skeleton
+	{bone revolute "basis"
+		{parameters "wheelradius=0.25;"}
+		{orientation
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+		}
+		{bone "pivot_front"
+			{Position 0 	 0.0492 	 5.6369}
+			{bone prizmatic "suspension_l1"
+				{limits -0.02 0.02}
+				{speed 0.02}
+				{Position 0 	 10.1079 	 0}
+				{bone revolute "wheell"
+					{parameters "id=wheelleft;"}
+					{orientation
+						0.9816 	 0 	 0.1908
+						0.1908 	 0 	 -0.9816
+						0 	 1 	 0
+					}
+					{LODView
+						{VolumeView "wheell.ply"}
+						{VolumeView "wheell_lod1.ply"}
+					}
+				}
+			}
+			{bone prizmatic "suspension_r1"
+				{limits -0.02 0.02}
+				{speed 0.02}
+				{Position 0 	 -10.2048 	 0}
+				{bone revolute "wheelr"
+					{parameters "id=wheelright;"}
+					{orientation
+						0.9816 	 0 	 0.1908
+						0.1908 	 0 	 -0.9816
+						0 	 1 	 0
+					}
+					{LODView
+						{VolumeView "wheelr.ply"}
+						{VolumeView "wheelr_lod1.ply"}
+					}
+				}
+			}
+		}
+		{bone "body"
+			{parameters "id=body;"}
+			{animation
+				{sequence "break" {file "body_b.anm"}{speed 0.7}}
+			}
+			{Position 0 	 0.0008 	 5.6369}
+			{LODView
+				{VolumeView "body.ply"}
+				{VolumeView "body_lod1.ply"}
+			}
+			{bone "cart"
+				{parameters "id=body;"}
+				{Position 2.2973 	 0.0295 	 1.7435}
+				{LODView
+					{VolumeView "cart.ply"}
+					{VolumeView "cart_lod1.ply"}
+				}
+				{bone revolute "turret"
+					{parameters "id=body;"}
+					{Position -3.9784 	 0 	 0.4487}
+					{VolumeView "turret.ply"}
+					{bone revolute "gun_rot"
+						{parameters "id=gun;"}
+						{animation
+							{sequence "break" {file "gun_b.anm"}{speed 0.7}}
+						}
+						{matrix34
+							1 	 0 	 0
+							0 	 0 	 1
+							0 	 -1 	 0
+							-1.1282 	 0.1337 	 3.9085
+						}
+						{VolumeView "gun_rot.ply"}
+						{bone "gun"
+							{parameters "id=gun;"}
+							{matrix34
+								1 	 0 	 0
+								0 	 0 	 -1
+								0 	 1 	 0
+								5.4042 	 0.0094 	 0.1576
+							}
+							{VolumeView "gun.ply"}
+							{bone "lever2"
+								{parameters "id=gun;"}
+								{Position -12.3719 	 0.1736 	 1.566}
+								{VolumeView "lever2.ply"}
+							}
+							{bone "lever"
+								{parameters "id=gun;"}
+								{Position -12.7303 	 0.7946 	 1.2368}
+								{VolumeView "lever.ply"}
+							}
+							{bone "breech"
+								{parameters "id=gun;"}
+								{matrix34
+									0.9997 	 0 	 0.0245
+									0 	 1 	 0
+									-0.0245 	 0 	 0.9997
+									-13.292 	 0.2525 	 0.0945
+								}
+								{VolumeView "breech.ply"}
+							}
+						}
+						{bone "shield_rear"
+							{parameters "id=shield2;"}
+							{matrix34
+								1 	 0 	 0
+								0 	 0 	 -1
+								0 	 1 	 0
+								5.4042 	 0.0094 	 0.1576
+							}
+							{VolumeView "shield_rear.ply"}
+						}
+					}
+					{bone "shield"
+						{parameters "id=shield1;"}
+						{matrix34
+							0.9816 	 0 	 0.1908
+							0 	 1 	 0
+							-0.1908 	 0 	 0.9816
+							4.1749 	 -0.0239 	 4.9489
+						}
+						{VolumeView "shield.ply"}
+					}
+				}
+				{bone "wheels"
+					{parameters "id=body;"}
+					{matrix34
+						0.9816 	 0 	 0.1908
+						0 	 1 	 0
+						-0.1908 	 0 	 0.9816
+						0.5157 	 -0.0129 	 -3.1793
+					}
+					{VolumeView "wheels.ply"}
+				}
+			}
+			{bone "detail2"
+				{parameters "id=body;"}
+				{Position -11.4383 	 8.8781 	 -0.817}
+				{LODView
+					{VolumeView "detail2.ply"}
+					{VolumeView "detail2_lod1.ply"}
+				}
+			}
+			{bone "detail1"
+				{parameters "id=body;"}
+				{Position -11.4383 	 -8.8781 	 -0.817}
+				{LODView
+					{VolumeView "detail1.ply"}
+					{VolumeView "detail1_lod1.ply"}
+				}
+			}
+		}
+	}
+}
+{volume "wheelleft"
+	{cylinder 5.44075 2.19232}
+	{bone "wheell"}
+	{matrix34
+		0.9816 	 0.1908 	 0
+		0.1908 	 -0.9816 	 0
+		0 	 0 	 -1
+		0 	 0 	 -0.1386
+	}
+}
+{volume "wheelright"
+	{cylinder 5.44075 2.19232}
+	{bone "wheelr"}
+	{matrix34
+		0.9816 	 0.1908 	 0
+		0.1908 	 -0.9816 	 0
+		0 	 0 	 -1
+		0 	 0 	 0.1417
+	}
+}

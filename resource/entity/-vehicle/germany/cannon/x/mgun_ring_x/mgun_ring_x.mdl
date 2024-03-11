@@ -1,0 +1,58 @@
+;Exported by:	 guita
+;Date:			 23.09.2023 15:09:48
+;File:			 D:\Git\3D_Scenes\GoH_3D_vehicles_ger2\vehicles\cannon\bunker_mg_ring\bunker_mg_ring_x.max
+{skeleton
+	{bone "basis"
+		{orientation
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+		}
+		{bone "body"
+			{parameters "id=body;"}
+			{animation
+				{sequence "break" {file "body_b.anm"}{speed 0.7}}
+			}
+			{Position -0.0033 	 0 	 0.0653}
+			{VolumeView "body.ply"}
+			{bone revolute "turret"
+				{parameters "id=body;"}
+				{Position 0 	 0 	 -1.2238}
+				{VolumeView "turret.ply"}
+				{bone "fixer"
+					{parameters "id=body;"}
+					{Position 0.6681 	 -8.8884 	 -0.2597}
+					{VolumeView "fixer.ply"}
+				}
+				{bone revolute "mgun_1_rot1"
+					{parameters "id=body;"}
+					{Position 9.3405 	 0 	 2.1825}
+					{VolumeView "mgun_1_rot1.ply"}
+					{bone revolute "mgun_1_rot2"
+						{parameters "id=body;"}
+						{matrix34
+							1 	 0 	 0
+							0 	 0 	 1
+							0 	 -1 	 0
+							-0.0151 	 0 	 0.6645
+						}
+						{VolumeView "mgun_1_rot2.ply"}
+						{bone "mgun"
+							{Position -4.3856 	 -0.2228 	 -0.0007}
+						}
+					}
+				}
+				{bone "shield1"
+					{parameters "id=shield;"}
+					{Position 8.7775 	 3.8253 	 1.404}
+					{VolumeView "shield1.ply"}
+				}
+				{bone "shield2"
+					{parameters "id=shield;"}
+					{Position 9.0594 	 -3.8754 	 1.1009}
+					{VolumeView "shield2.ply"}
+				}
+			}
+		}
+	}
+}

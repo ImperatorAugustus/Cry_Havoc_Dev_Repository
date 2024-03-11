@@ -1,0 +1,23 @@
+{game_entity
+	(include "/properties/vehicle_xx.ext")
+	{extension "150mm_sig33_xx.mdl"}
+	{volume "body1"
+		{thickness 15}
+	}
+	{volume "body2"
+		{thickness 15}
+	}
+	{volume "part1" ;// gun
+		{thickness 30}
+	}
+	{volume "part2" ;// wheel left
+		{thickness 10}
+	}
+	{volume "shield"
+		{thickness 8}
+		{able {holed}}
+	}
+	{volume "wheelright"
+		{thickness 10}
+	}
+}

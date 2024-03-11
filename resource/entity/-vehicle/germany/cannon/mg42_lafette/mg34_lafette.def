@@ -1,0 +1,9 @@
+{
+	(include "lafette.inc")
+
+	{extender "inventory"
+		{box
+			{item "mg34_belt_long" filling "ammo mgun_ger belt ap" 300 {user "mgun"}}
+		}
+	}
+}

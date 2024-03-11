@@ -1,0 +1,60 @@
+;Exported by:	 guita
+;Date:			 18.09.2023 15:58:06
+;File:			 D:\Git\3D_Scenes\GoH_3D_vehicles_usa\vehicles\cannon\107mm_M2_mortar\107mm_m2_x.max
+{skeleton
+	{bone revolute "basis"
+		{orientation
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+		}
+		{bone "body"
+			{parameters "id=body;"}
+			{Position 0.033 	 0 	 0.9492}
+			{VolumeView "body.ply"}
+			{bone revolute "turret"
+				{speed 0.01}
+				{Position -0.0133 	 0 	 0.035}
+				{bone "gun_rot"
+					{parameters "id=body;"}
+					{Position -0.0021 	 0 	 -0.0072}
+					{VolumeView "gun_rot.ply"}
+					{bone "gun"
+						{parameters "id=body;"}
+						{matrix34
+							0.9951 	 0 	 0.0992
+							0 	 1 	 0
+							-0.0992 	 0 	 0.9951
+							0.0021 	 -0.0068 	 0
+						}
+						{VolumeView "gun.ply"}
+					}
+					{bone "bipod_base"
+						{parameters "id=body;"}
+						{Position 9.1347 	 0.0443 	 13.1575}
+						{VolumeView "bipod_base.ply"}
+						{bone "stan_r"
+							{parameters "id=body;"}
+							{Position 5.0064 	 -3.6982 	 -13.5422}
+							{VolumeView "stan_r.ply"}
+						}
+						{bone "stan_l"
+							{parameters "id=body;"}
+							{Position 5.0064 	 3.9407 	 -13.5422}
+							{VolumeView "stan_l.ply"}
+						}
+						{bone "support1"
+							{Position 7.4328 	 3.986 	 -14.1346}
+						}
+						{bone "support2"
+							{Position 7.4939 	 -4.2483 	 -14.1346}
+						}
+					}
+				}
+			}
+			{bone "support3"
+				{Position 0.2411 	 0 	 -0.9492}
+			}
+		}
+	}
+}

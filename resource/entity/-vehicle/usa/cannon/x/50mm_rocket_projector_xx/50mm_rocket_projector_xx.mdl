@@ -1,0 +1,88 @@
+;Exported by:	 guita
+;Date:			 11.09.2023 17:04:34
+;File:			 D:\Git\3D_Scenes\GoH_3D_vehicles_usa\vehicles\cannon\50mm_rocket_projector\50mm_rocket_projector_xx.max
+{skeleton
+	{bone revolute "basis"
+		{orientation
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+		}
+		{bone "part1"
+			{parameters "id=body;"}
+			{Position 0.0214 	 0 	 0.6149}
+			{VolumeView "part1.ply"}
+		}
+		{bone "part2"
+			{parameters "id=part2;"}
+			{matrix34
+				0.9507 	 -0.2217 	 -0.217
+				0.1804 	 0.9642 	 -0.1945
+				0.2523 	 0.1457 	 0.9566
+				12.4182 	 -1.1722 	 17.2245
+			}
+			{VolumeView "part2.ply"}
+		}
+		{bone "part3"
+			{parameters "id=part3;"}
+			{matrix34
+				0.9331 	 0.2983 	 -0.2009
+				-0.2418 	 0.9339 	 0.2633
+				0.2662 	 -0.1971 	 0.9436
+				12.3485 	 1.5667 	 17.3109
+			}
+			{VolumeView "part3.ply"}
+		}
+	}
+}
+{obstacle "open"
+	{polygon2
+		{radius 0}
+		{vertex 16.831 -8.54016}
+		{vertex 16.831 7.03706}
+		{vertex -4.21092 4.49271}
+		{vertex -4.21092 -4.16482}
+	}
+	{Tags "open"}
+	{rotate}
+}
+{volume "body1"
+	{polyhedron "body1.vol"}
+	{bone "part1"}
+	{matrix34
+		0.7762 	 0 	 -0.6305
+		0 	 1 	 0
+		0.6305 	 0 	 0.7762
+		0.3135 	 0.096 	 5.3774
+	}
+}
+{volume "body2"
+	{cylinder 1.33448 18.2086}
+	{bone "part1"}
+	{matrix34
+		0.7535 	 0 	 -0.6575
+		0 	 1 	 0
+		0.6575 	 0 	 0.7535
+		10.8862 	 0.244 	 17.8324
+	}
+}
+{volume "body3"
+	{cylinder 0.683256 18.189}
+	{bone "part2"}
+	{matrix34
+		0.8159 	 0.41 	 0.4077
+		-0.3439 	 0.9109 	 -0.2279
+		-0.4648 	 0.0457 	 0.8842
+		4.4848 	 -0.459 	 -7.9923
+	}
+}
+{volume "body4"
+	{cylinder 0.683256 18.3846}
+	{bone "part3"}
+	{matrix34
+		-0.0429 	 0.9991 	 0.0057
+		-0.8732 	 -0.0347 	 -0.4861
+		-0.4854 	 -0.0258 	 0.8739
+		4.4668 	 -0.0197 	 -8.1227
+	}
+}

@@ -1,0 +1,142 @@
+{game_entity
+	(include "/properties/cannon.ext")
+	{extension "90mm_m1a1.mdl"}
+	(include "/properties/selection/cannon.inc" scale(1.1))
+	{props "wheeled" "invisible" "vision_lev04_can" "muzzle_85mm_93mm" "no_sandbags" "trailer" "trailer_heavy" "detect_atgun" "c_aa_hvy"}
+	{PatherID "cannon.large"}
+	{targetclass "cannon_big"}
+	{targetSelector "cannon_aa"}
+
+	{sensor
+		{visor "main"
+			{vision "cannon_range_210"}
+		}
+	}
+
+	("wheel" args "wheelright")
+	("wheel" args "wheelleft")
+
+	("gun" repair(30) thickness(30))
+
+	("armor_heavy_cannon")
+	("crew_wheeled_cannon_5")
+
+	{volume "body11"
+		{able {holed}}
+	}
+	{volume "body2" {able {contact 0}}}
+	{volume "body4" {able {contact 0}}}
+	{volume "body5" {able {contact 0}}}
+	{volume "body6" {able {contact 0}}}
+	{volume "body7" {able {contact 0}}}
+	{volume "body8" {able {contact 0}}}
+	{volume "body9" {able {contact 0}}}
+	{volume "body13" {able {contact 0}}}
+
+	{volume "body13" {tags "invisible"}} ;// volume disabled on carriage hidden 
+	{volume "wheelleft" {tags "invisible"}}
+	{volume "wheelright" {tags "invisible"}}
+
+
+	{boarder
+		{anm "gunner"
+			{forward {end "seat_m1aa_gunner" 10}}
+		}
+		{anm "gunner2"
+			{forward {end "seat_m1aa_gunner2" 10}}
+		}
+		{anm "charger"
+			{forward {end "pose_flak_charger" 10}}
+		}
+		{anm "charger2"
+			{forward {end "pose_flak_commander" 10}}
+		}
+		{anm "commander"
+			{forward {end "seat_m1aa_commander" 10}}
+		}
+		{anm "driver1"	;// gunner
+			{forward {end "cannon_pak40_pusher_right" 10}}
+		}
+		{anm "driver2"	;// gunner2
+			{forward {end "cannon_pak40_pusher_left" 10}}
+		}
+		{anm "driver3"	;// charger
+			{forward {end "cannon_pak40_pusher_left" 10}}
+		}
+		{anm "driver4"	;// charger2
+			{forward {end "cannon_pak40_pusher_right" 10}}
+		}
+		{anm "driver5"	;// commander
+			{forward {end "mortar_driver_l" 10}}
+		}
+		{anm "seat1"	;// gunner
+			{forward {end "pose_seat_cannon_left" 10}}
+		}
+		{anm "seat2"	;// gunner2
+			{forward {end "pose_seat_cannon_right" 10}}
+		}
+		{anm "seat3"	;// charger
+			{forward {end "seat_m1aa_seat" 10}}
+		}
+		{anm "seat4"	;// charger2
+			{forward {end "seat_m1aa_seat" 10}}
+		}
+		{anm "seat5"	;// commander
+			{forward {end "seat_m1aa_seat" 10}}
+		}
+	}
+
+	{extender "cannon"
+		{animation
+			{switch "close"}
+			;// "gunner" "gunner2" "charger" "charger2" "commander"
+			{move "cannon_pak40_pusher_right" "cannon_pak40_pusher_left" "cannon_pak40_pusher_left" "cannon_pak40_pusher_right" "mortar_driver_l"}
+			{aim "" "" "flak_charger_aim" "flak_commander_aim" ""}
+			{fire "" "" "flak_charger_fire" "flak_commander_fire" ""}
+			{reload "" "" "flak_charger_reload" "flak_commander_reload" ""}
+		}
+		{move {workers "driver1" "driver2" "driver3" "driver4" "driver5" minWorkers 2} {obstacle "close"}}		;// move state: cannon being pushed and which positions play animations
+		{attack {workers "gunner" "gunner2" "charger" "charger2" "commander"} {obstacle "open"}}	;// fire/attack state: cannon aim, fire, and reload events
+		{trailing {workers "seat1" "seat2" "seat3" "seat4" "seat5"}}								;// trailing state: cannon is being towed {obstacle} not needed. Uses "close"
+		{rotate_ik_Limit 0}
+	}
+
+	{extender "inventory"
+		{box
+			{item "bulletusa_90x600 ap" 3}		;45 rounds, 30/70% AP/HE
+			{item "bulletusa_90x600 he" 2}
+		}
+	}
+
+	{Weaponry
+		("restore_ik_time")
+		{place "gun"
+			{RestoreIKAfterAim}
+			{weapon "90mm_m1a1" filling "bulletusa_90x600 ap" 1}
+			{gunner "gunner gunner2" minWorkers 1}
+			{charger "charger charger2" minWorkers 1}
+			("abm_dymamic_aa"
+				zeroing(2.25)
+				dispersion(0.50)
+			)
+		}
+	}
+
+	{mass 8618}
+	{Chassis "track"
+		("car_trace" fx("tracewheel02") step(0.1) wheell("wlf") wheelr("wrf") bonel("FXtraceL1") boner("FXtraceR1"))
+		("car_trace" fx("tracewheel02") step(0.1) wheell("wlr") wheelr("wrr") bonel("FXtraceL2") boner("FXtraceR2"))
+		("mobility_cannon"
+			speed(3.7) ;-----------------------------------Max speed.
+			weight(8618) ;---------------------------------Weight in Kilograms.
+		)
+	}
+
+	{bone "gun_rot"
+		{limits -3 85}
+		{speed2 15}
+	}
+	{bone "turret"
+		{speed2 20}
+	}
+}

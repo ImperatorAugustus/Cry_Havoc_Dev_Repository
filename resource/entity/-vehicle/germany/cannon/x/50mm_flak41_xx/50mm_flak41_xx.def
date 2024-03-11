@@ -1,0 +1,77 @@
+{game_entity
+	(include "/properties/vehicle_xx.ext")
+	{extension "50mm_flak41_xx.mdl"}
+	{props "cannon" "wheeled" "invisible"}
+	{volume "body8" {tags "invisible"}} ;// volume disabled on carriage hidden 
+	{volume "body9" {tags "invisible"}} ;// volume disabled on carriage hidden 
+	{volume "wheelright1" {tags "invisible"}} ;// volume disabled on carriage hidden 
+	{volume "wheelright2" {tags "invisible"}} ;// volume disabled on carriage hidden 
+	{volume "wheelleft1" {tags "invisible"}} ;// volume disabled on carriage hidden 
+	{volume "wheelleft2" {tags "invisible"}} ;// volume disabled on carriage hidden 
+
+	{volume "barrel1"
+		{thickness 20}
+	}
+	{volume "barrel2"
+		{thickness 20}
+	}
+	{volume "barrel3"
+		{thickness 20}
+	}
+	{volume "barrel4"
+		{thickness 20}
+	}
+	{volume "body1"
+		{thickness 10}
+	}
+	{volume "body2"
+		{thickness 10}
+	}
+	{volume "body3"
+		{thickness 10}
+	}
+	{volume "body4"
+		{thickness 10}
+	}
+	{volume "body5"
+		{thickness 10}
+	}
+	{volume "body6"
+		{thickness 10}
+	}
+	{volume "body7"
+		{thickness 10}
+		{able {holed}}
+	}
+	{volume "body8"
+		{thickness 10}
+	}
+	{volume "body9"
+		{thickness 10}
+	}
+	{volume "shield1"
+		{thickness 8}
+		{able {holed}}
+	}
+	{volume "shield2"
+		{thickness 8}
+	}
+	{volume "shield3"
+		{thickness 8}
+	}
+	{volume "shield4"
+		{thickness 8}
+	}
+	{volume "wheelleft1"
+		{thickness 0.5}
+	}
+	{volume "wheelleft2"
+		{thickness 0.5}
+	}
+	{volume "wheelright1"
+		{thickness 0.5}
+	}
+	{volume "wheelright2"
+		{thickness 0.5}
+	}
+}

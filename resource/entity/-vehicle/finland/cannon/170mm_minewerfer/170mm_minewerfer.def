@@ -1,0 +1,102 @@
+{game_entity
+	(include "/properties/cannon_mgun.ext")
+	
+	{extension "170mm_minewerfer.mdl"}
+	{props "wheeled" "invisible" "with_gun" "mortar" "vision_lev01_can" "trailer" "trailer_light" "detect_artillery_small" "cannon_sandbag_standard" "artillery_minimap_medium" "c_mtr_s_hvy"}
+	(mod not "mp" {able "emit_on_attack"})
+	{targetclass "howitzer"}
+	{targetSelector "cannon_howitzer"}
+
+	("solid_wheel" args "wheelright")
+	("solid_wheel" args "wheelleft")
+
+	("crew_wheeled_cannon")
+
+	{volume "body2" {able {holed}}} 
+	{volume "wheelleft" {tags "invisible"}} ;// volume disabled on carriage hidden
+	{volume "wheelright" {tags "invisible"}} ;// volume disabled on carriage hidden
+
+	{sensor
+		{visor "main"
+			{vision "cannon_mortar"}
+			{bone "visor"}
+		}
+	}
+
+	{boarder
+		{anm "gunner"
+			{forward {end "pose_mortar_120sgrw42_gunner" 10}}
+		}
+		{anm "commander"
+			{forward {end "pose_mortar_120sgrw42_commander" 10}}
+		}
+		{anm "driver1"	;// gunner
+			{forward {end "cannon_pak40_pusher_right" 10}}
+		}
+		{anm "driver2"	;// charger
+			{forward {end "cannon_pak40_pusher_left" 10}}
+		}
+		{anm "seat1"	;// gunner
+			{forward {end "pose_seat_cannon_left" 10}}
+		}
+		{anm "seat2"	;// charger
+			{forward {end "pose_seat_cannon_right" 10}}
+		}
+	}
+
+	{extender "cannon"
+		{animation
+			{switch "close"}
+			;// "gunner" "commander"
+			{move "cannon_pak40_pusher_right" "cannon_pak40_pusher_left"}
+			{aim "mortar_120sgrw42_gunner_aim" "mortar_120sgrw42_commander_aim"}
+			{fire "mortar_120sgrw42_gunner_fire" "mortar_120sgrw42_commander_fire"}
+			{reload "" "mortar_120sgrw42_commander_reload"}
+		}
+		{move {obstacle "close"}}
+		{attack {obstacle "open"}}
+	}
+
+	{extender "inventory"
+		{box
+			{item "mortarfin_170 he" 5}
+			{item "sandbag_vehicle" 2}
+		}
+	}
+
+	{Weaponry
+		("restore_ik_time")
+		{place "gun"
+			{weapon "weapon 170mm_mmw" filling "mortarfin_170 he" 1}
+			{RestoreIKAfterAim}
+			{gunner "gunner"}
+			{charger "gunner"}
+			{basic}
+			("abm_dymamic_mortar"
+				zeroing(3.0)	; // time it takes to aim until the reticle shrinks. Bigger values, more control.
+				dispersion(1)   ; // time it takes to distort the reticle when you move the gun (how abrupt it loses zeroing). Bigger values, more control.
+			)
+		}
+	}
+
+	{mass 586}
+	{Chassis "track"
+		("car_trace" fx("tracewheel05") step(0.07) wheell("wlf") wheelr("wrf") bonel("FXtraceL1") boner("FXtraceR1"))
+		("mobility_cannon"
+			speed(7.8) ;---------------------------------Max speed.
+			weight(586) ;--------------------------------Weight in Kilograms.
+		)
+	}
+
+	{bone "basis"
+		{speed2 3}
+	}
+	{bone "turret"
+		{limits -12.5 12.5}
+		{speed2 6}
+	}
+	{bone "gun_rot"
+		{limits 0 45}
+		{speed2 6}
+	}
+}

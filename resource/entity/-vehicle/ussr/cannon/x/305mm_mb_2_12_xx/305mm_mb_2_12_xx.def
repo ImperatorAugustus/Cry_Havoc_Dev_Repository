@@ -1,0 +1,127 @@
+{game_entity
+	(include "/properties/vehicle_xx.ext")
+	{extension "305mm_mb_2_12_xx.mdl"}
+	{obstacleID "unbreakable"}
+	{extender "land_patch"
+		{TerrainType "road" "bridge_steel"}
+	}
+	{extender "edifice"}
+	{volume "barrel1"
+		{thickness 120}
+	}
+	{volume "barrel2"
+		{thickness 406}
+	}
+	{volume "barrel3"
+		{thickness 120}
+	}
+	{volume "barrel4"
+		{thickness 120}
+	}
+	{volume "body01"
+		{thickness 20}
+	}
+	{volume "body02"
+		{thickness 20}
+	}
+	{volume "body03"
+		{thickness 20}
+	}
+	{volume "body04"
+		{thickness 20}
+	}
+	{volume "body05"
+		{thickness 20}
+	}
+	{volume "body06"
+		{thickness 20}
+	}
+	{volume "body07"
+		{thickness 20}
+	}
+	{volume "body08"
+		{thickness 20}
+		{able {visible 0}{Obstacle 0}}
+	}
+	{volume "body09"
+		{thickness 20}
+		{able {visible 0}{Obstacle 0}}
+	}
+	{volume "body10"
+		{thickness 20}
+		{able {visible 0}{Obstacle 0}}
+	}
+	{volume "body11"
+		{thickness 20}
+		{able {visible 0}{Obstacle 0}}
+	}
+	{volume "body12"
+		{thickness 20}
+	}
+	{volume "body13"
+		{thickness 406}
+	}
+	{volume "body14"
+		{thickness 406}
+	}
+	{volume "body15"
+		{thickness 406}
+	}
+	{volume "body16"
+		{thickness 406}
+	}
+	{volume "body17"
+		{thickness 406}
+	}
+	{volume "body18"
+		{thickness 406}
+	}
+	{volume "body19"
+		{thickness 406}
+	}
+	{volume "body20"
+		{thickness 406}
+	}
+	{volume "body21"
+		{thickness 406}
+	}
+	{volume "body22"
+		{thickness 406}
+	}
+	{volume "body23"
+		{thickness 406}
+	}
+	{volume "body24"
+		{thickness 406}
+	}
+	{volume "body25"
+		{thickness 406}
+	}
+	{volume "body26"
+		{thickness 406}
+	}
+	{volume "body27"
+		{able clear {contact}}
+	}
+	{volume "body28"
+		{able clear {contact}}
+	}
+	{volume "body29"
+		{thickness 406}
+	}
+	{volume "part2"
+		{thickness 406}
+	}
+	{volume "roof1"
+		{thickness 406}
+		{able {visible 0}{holed}{Obstacle 0}}
+	}
+	{volume "roof2"
+		{thickness 406}
+		{able {visible 0}{Obstacle 0}}
+	}
+	{volume "roof3"
+		{thickness 406}
+		{able {visible 0}{Obstacle 0}}
+	}
+}

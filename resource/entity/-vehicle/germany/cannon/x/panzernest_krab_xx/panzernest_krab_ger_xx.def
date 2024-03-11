@@ -1,0 +1,23 @@
+{game_entity
+	(include "/properties/vehicle_xx.ext")
+	{extension "panzernest_krab_xx.mdl"}
+{volume "body1"
+		{thickness 40
+			{front 45}
+			{top 30}
+			{rear 30}
+		}
+	}
+	{volume "body2"
+		{thickness 30}
+	}
+	{volume "body3"
+		{thickness 60
+			{front 70}
+			{top 45}
+		}
+	}
+	{volume "part1"
+		{thickness 20}
+	}
+}

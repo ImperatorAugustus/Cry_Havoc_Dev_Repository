@@ -1,0 +1,47 @@
+{game_entity
+	(include "/properties/vehicle_xx.ext")
+	{extension "105mm_h33_xx.mdl"}
+	{volume "barrel1"
+		{thickness 30}
+	}
+	{volume "barrel2"
+		{thickness 30}
+	}
+	{volume "barrel3"
+		{thickness 30}
+	}
+	{volume "barrel4"
+		{thickness 30}
+	}
+	{volume "body1"
+		{thickness 10}
+	}
+	{volume "body2"
+		{thickness 10}
+		{able {holed}}
+	}
+	{volume "part1"
+		{thickness 10}
+	}
+	{volume "part4"
+		{thickness 10}
+	}
+	{volume "shield_lower"
+		{thickness 10}
+	}
+	{volume "shield"
+		{thickness 10}
+	}
+	{volume "standl"
+		{thickness 10}
+	}
+	{volume "standr"
+		{thickness 10}
+	}
+	{volume "wheelleft"
+		{thickness 10}
+	}
+	{volume "wheelright"
+		{thickness 10}
+	}
+}

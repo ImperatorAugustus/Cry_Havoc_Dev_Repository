@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/_vehicle/170mm_minenwerfer"}
+	{bump "$/_vehicle/170mm_minenwerfer_bp"}
+	{specular "$/_vehicle/170mm_minenwerfer_sp"}
+	{color "230 230 230 25"}
+	{blend test}
+}

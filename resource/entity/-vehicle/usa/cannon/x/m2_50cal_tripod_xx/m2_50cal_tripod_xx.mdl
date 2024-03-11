@@ -1,0 +1,83 @@
+;Exported by:	 TigerF
+;Date:			 29.10.2023 18:55:29
+;File:			 D:\GOH\3dsmax9_saves\scenes\GoH_3D_vehicles_usa\vehicles\cannon\mg_tripods\m2_50cal_tripod_xx.max
+{skeleton
+	{bone revolute "basis"
+		{parameters "basis;"}
+		{orientation
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+		}
+		{bone "body"
+			{parameters "id=body;"}
+			{Position 0 	 0 	 7.3038}
+			{VolumeView "body.ply"}
+			{bone "part1"
+				{parameters "id=part1;"}
+				{Position 1.8009 	 -0.4289 	 -0.8384}
+				{VolumeView "part1.ply"}
+			}
+			{bone "part2"
+				{parameters "id=part2;"}
+				{matrix34
+					0.9391 	 0 	 0.3437
+					0 	 1 	 0
+					-0.3437 	 0 	 0.9391
+					-1.646 	 0.8408 	 -0.6464
+				}
+				{VolumeView "part2.ply"}
+			}
+			{bone "part3"
+				{parameters "id=part3;"}
+				{matrix34
+					0.9391 	 0 	 0.3437
+					0 	 1 	 0
+					-0.3437 	 0 	 0.9391
+					-1.646 	 -0.8408 	 -0.6464
+				}
+				{VolumeView "part3.ply"}
+			}
+		}
+	}
+}
+{volume "body1"
+	{box 5.07617 1.29609 2.85692}
+	{bone "body"}
+	{matrix34
+		1 	 0 	 0
+		0 	 0 	 1
+		0 	 -1 	 0
+		-0.3659 	 0.0386 	 -0.6082
+	}
+}
+{volume "standc"
+	{cylinder 0.527836 11.2383}
+	{bone "part1"}
+	{matrix34
+		-0.6157 	 0 	 -0.788
+		0 	 1 	 0
+		0.788 	 0 	 -0.6157
+		4.1142 	 0.3993 	 -3.2312
+	}
+}
+{volume "standl"
+	{cylinder 0.469559 20.8878}
+	{bone "part2"}
+	{matrix34
+		0.2913 	 0.5415 	 0.7887
+		0.3688 	 0.6971 	 -0.6148
+		-0.8827 	 0.47 	 0.0033
+		-9.2187 	 4.9082 	 0.0346
+	}
+}
+{volume "standr"
+	{cylinder 0.469559 20.6299}
+	{bone "part3"}
+	{matrix34
+		0.2141 	 -0.4094 	 0.8869
+		-0.4156 	 0.7835 	 0.462
+		-0.884 	 -0.4675 	 -0.0024
+		-9.1181 	 -4.8226 	 -0.0252
+	}
+}

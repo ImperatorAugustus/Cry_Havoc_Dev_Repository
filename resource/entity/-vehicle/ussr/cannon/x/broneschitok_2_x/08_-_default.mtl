@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "skis"}
+	{bump "skis_nm"}
+	{specular "skis_sp"}
+	{color "229 229 229 25"}
+	{blend none}
+}

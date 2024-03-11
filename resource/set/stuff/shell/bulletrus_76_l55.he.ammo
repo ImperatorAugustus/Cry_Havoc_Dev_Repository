@@ -1,0 +1,12 @@
+{from "pattern he"
+	{tag "shell size2 75to76 no_throw"}
+	{inventory {size 6 1}}
+	{entity "76mm_rus_l55_he"}
+	{mass 11.5}
+
+	{view "howitzer_shell_50-75"
+		{tail "shell_tracer_75-88_he" "tail"}
+	}
+
+	("he_level_2" weight(6.61) filler(0.682))
+}

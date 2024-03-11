@@ -1,0 +1,191 @@
+;Exported by:	 TigerF
+;Date:			 08.05.2022 18:56:27
+;File:			 D:\PROGRAMS\3ds_max\3dsmax9_saves\scenes\GoH_3D_vehicles_rus\vehicles\cannon\76mm_bpk76\76mm_BPK76_xx.max
+{skeleton
+	{bone revolute "basis"
+		{parameters "wheelradius=0.3;"}
+		{orientation
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+		}
+		{bone "pivot_front"
+			{Position -0.001 	 0.0492 	 3.3282}
+			{bone revolute "wheelr"
+				{parameters "id=wheelright;"}
+				{matrix34
+					1 	 0 	 0
+					0 	 0 	 1
+					0 	 -1 	 0
+					-0.0003 	 -11.2789 	 2.5282
+				}
+				{VolumeView "wheelr.ply"}
+			}
+			{bone revolute "wheell"
+				{parameters "id=wheelleft;"}
+				{matrix34
+					1 	 0 	 0
+					0 	 0 	 1
+					0 	 -1 	 0
+					-0.0003 	 11.0915 	 2.5282
+				}
+				{VolumeView "wheell.ply"}
+			}
+		}
+		{bone "body"
+			{parameters "id=body;"}
+			{matrix34
+				0.9943 	 0.0238 	 -0.104
+				-0.0347 	 0.9939 	 -0.1045
+				0.1008 	 0.1075 	 0.9891
+				0 	 0 	 5.8565
+			}
+			{VolumeView "body.ply"}
+			{bone "part1"
+				{parameters "id=part1;"}
+				{matrix34
+					0.829 	 -0.5592 	 0
+					0.5592 	 0.829 	 0
+					0 	 0 	 1
+					16.8876 	 -0.0049 	 -0.0347
+				}
+				{VolumeView "part1.ply"}
+			}
+			{bone "part4"
+				{parameters "id=part4;"}
+				{Position 16.929 	 -1.4595 	 0.8959}
+				{VolumeView "part4.ply"}
+				{bone revolute "gun_rot"
+					{limits -15 42}
+					{matrix34
+						1 	 0 	 0
+						0 	 0 	 1
+						0 	 -1 	 0
+						-13.8949 	 1.4595 	 9.1319
+					}
+				}
+			}
+			{bone "part2"
+				{parameters "id=part2;"}
+				{matrix34
+					0.8914 	 0.015 	 0.4529
+					-0.0522 	 0.9962 	 0.0698
+					-0.4501 	 -0.0858 	 0.8888
+					3.0341 	 0 	 10.0278
+				}
+				{VolumeView "part2.ply"}
+			}
+			{bone "part3"
+				{parameters "id=part3;"}
+				{matrix34
+					0.8914 	 0.015 	 0.4529
+					0.0207 	 -0.9998 	 -0.0076
+					0.4527 	 0.0161 	 -0.8915
+					-4.1615 	 0.0403 	 4.0669
+				}
+				{VolumeView "part3.ply"}
+			}
+			{bone "part5"
+				{parameters "id=part5;"}
+				{Position 3.0526 	 -3.0315 	 10.0215}
+				{VolumeView "part5.ply"}
+			}
+		}
+	}
+}
+{area "obstacle"
+	{polygon2
+		{radius 0}
+		{vertex 11.6711 -3.94443}
+		{vertex 19.6963 -0.875506}
+		{vertex 19.6963 0.604796}
+		{vertex 11.7433 3.99866}
+		{vertex -1.35285 3.99866}
+		{vertex -1.35285 -3.98053}
+	}
+}
+{volume "barrel1"
+	{polyhedron "barrel1.vol"}
+	{bone "part2"}
+	{Position 13.8635 	 0 	 0}
+}
+{volume "barrel2"
+	{polyhedron "barrel2.vol"}
+	{bone "part3"}
+	{Position -6.8005 	 0 	 2.0629}
+}
+{volume "body1"
+	{polyhedron "body1.vol"}
+	{bone "body"}
+	{Position 2.3816 	 -0.0021 	 -0.4549}
+}
+{volume "body2"
+	{cylinder 0.502044 20.7035}
+	{bone "body"}
+	{matrix34
+		1 	 0 	 0
+		0 	 0 	 1
+		0 	 -1 	 0
+		0.015 	 -0.072 	 0.0146
+	}
+}
+{volume "body3"
+	{cylinder 0.443611 17.3451}
+	{bone "part4"}
+	{matrix34
+		0.5505 	 0 	 0.8348
+		0 	 1 	 0
+		-0.8348 	 0 	 0.5505
+		-7.027 	 -0.413 	 4.6488
+	}
+}
+{volume "body4"
+	{cylinder 0.443611 17.3451}
+	{bone "part4"}
+	{matrix34
+		0.5505 	 0 	 0.8348
+		0 	 1 	 0
+		-0.8348 	 0 	 0.5505
+		-7.027 	 3.3062 	 4.6488
+	}
+}
+{volume "body5"
+	{cylinder 0.443611 10.2336}
+	{bone "part5"}
+	{matrix34
+		0.9782 	 -0.001 	 -0.2078
+		-0.028 	 0.9903 	 -0.1363
+		0.206 	 0.1392 	 0.9686
+		-0.9231 	 -0.2586 	 -4.4106
+	}
+}
+{volume "body6"
+	{cylinder 0.443611 10.2336}
+	{bone "part5"}
+	{matrix34
+		0.9782 	 0.0009 	 -0.2079
+		0.0245 	 0.9925 	 0.1194
+		0.2064 	 -0.1219 	 0.9708
+		-0.9247 	 6.3795 	 -4.4185
+	}
+}
+{volume "part1"
+	{box 12.6643 1.46408 1.97651}
+	{bone "part1"}
+	{matrix34
+		0.961 	 -0.0171 	 -0.2759
+		0.2765 	 0.0538 	 0.9595
+		-0.0016 	 -0.9984 	 0.0564
+		1.2344 	 0.2504 	 -1.5017
+	}
+}
+{volume "wheelleft"
+	{cylinder 6.00394 1.04345}
+	{bone "wheell"}
+	{Position 0 	 0 	 0.28}
+}
+{volume "wheelright"
+	{cylinder 6.01025 1.04345}
+	{bone "wheelr"}
+	{Position 0 	 0 	 -0.3057}
+}

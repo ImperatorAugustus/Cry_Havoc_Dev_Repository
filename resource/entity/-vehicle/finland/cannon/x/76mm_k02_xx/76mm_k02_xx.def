@@ -1,0 +1,28 @@
+{game_entity
+	(include "/properties/vehicle_xx.ext")
+	{extension "76mm_m1902_xx.mdl"}
+	{volume "barrel1"
+		{thickness 30}
+	}
+	{volume "barrel2"
+		{thickness 30}
+	}
+	{volume "body"
+		{thickness 10}
+	}
+	{volume "part1" ;// Lower shield
+		{thickness 4}
+	}
+	{volume "part2" ;// Wheel right
+		{thickness 10}
+	}
+	{volume "part3" ;// Wheel left
+		{thickness 10}
+	}
+	{volume "part4" ;// Shield
+		{thickness 4}
+	}
+	{volume "shield1"
+		{thickness 4}
+	}
+}

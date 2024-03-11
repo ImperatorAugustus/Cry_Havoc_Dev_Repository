@@ -1,0 +1,81 @@
+;Exported by:	 guita
+;Date:			 21.05.2022 12:00:00
+;File:			 D:\Git\3D_Scenes\GoH_3D_vehicles_fin\3d vehicles\Cannon\50_Krh38\50mm_krh38_x.max
+{skeleton
+	{bone revolute "basis"
+		{orientation
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+		}
+		{bone "body"
+			{parameters "id=body;"}
+			{Position 0.033 	 0.1413 	 0.9492}
+			{VolumeView "body.ply"}
+			{bone revolute "turret"
+				{speed 0.01}
+				{Position 0.006 	 0.0359 	 -0.2694}
+				{bone "gun_rot"
+					{parameters "id=body;"}
+					{Position -0.0214 	 -0.0326 	 0.2973}
+					{VolumeView "gun_rot.ply"}
+					{bone "gun"
+						{parameters "id=body;"}
+						{matrix34
+							0.9951 	 0 	 0.0992
+							0 	 1 	 0
+							-0.0992 	 0 	 0.9951
+							0.0021 	 -0.0034 	 0.0072
+						}
+						{VolumeView "gun.ply"}
+						{bone "bipod_base"
+							{parameters "id=body;"}
+							{matrix34
+								0.9951 	 0 	 -0.0992
+								0 	 1 	 0
+								0.0992 	 0 	 0.9951
+								12.2252 	 -0.3545 	 15.2964
+							}
+							{VolumeView "bipod_base.ply"}
+							{bone "stan_r"
+								{parameters "id=body;"}
+								{matrix34
+									0.9563 	 0 	 0.2924
+									0 	 1 	 0
+									-0.2924 	 0 	 0.9563
+									2.9048 	 -0.795 	 -7.2542
+								}
+								{VolumeView "stan_r.ply"}
+								{bone "1"
+									{parameters "id=body;"}
+									{Position -0.3277 	 -3.8338 	 -5.7212}
+									{VolumeView "1.ply"}
+								}
+							}
+							{bone "stan_l"
+								{parameters "id=body;"}
+								{matrix34
+									0.9563 	 0 	 0.2924
+									0 	 1 	 0
+									-0.2924 	 0 	 0.9563
+									2.9067 	 1.5701 	 -7.257
+								}
+								{VolumeView "stan_l.ply"}
+							}
+						}
+						{bone "grip"
+							{parameters "id=body;"}
+							{matrix34
+								0.9951 	 0 	 -0.0992
+								0 	 1 	 0
+								0.0992 	 0 	 0.9951
+								11.8744 	 0.0338 	 15.5484
+							}
+							{VolumeView "grip.ply"}
+						}
+					}
+				}
+			}
+		}
+	}
+}

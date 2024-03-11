@@ -1,0 +1,52 @@
+{game_entity
+	(include "/properties/vehicle_xx.ext")
+	{extension "300mm_m31_xx.mdl"}
+
+	{volume "body2"
+		{thickness 6}
+	}
+	{volume "body3"
+		{thickness 6}
+	}
+	{volume "body4"
+		{thickness 6}
+	}
+	{volume "body5"
+		{thickness 6}
+	}
+	{volume "part1"
+		{thickness 6}
+	}
+	{volume "part3"
+		{thickness 6}
+		{material "wood"}
+	}
+	{volume "part4"
+		{thickness 6}
+		{material "wood"}
+	}
+	{volume "part5"
+		{thickness 6}
+		{material "wood"}
+	}
+	{volume "part6"
+		{thickness 6}
+		{material "wood"}
+	}
+	{volume "part7"
+		{thickness 6}
+		{material "wood"}
+	}
+	{volume "part8"
+		{thickness 6}
+		{material "wood"}
+	}
+	{volume "part9"
+		{material "wood"}
+		{thickness 6}
+	}
+	{volume "part10"
+		{material "wood"}
+		{thickness 6}
+	}
+}

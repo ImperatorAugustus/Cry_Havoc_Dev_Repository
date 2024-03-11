@@ -1,0 +1,35 @@
+{game_entity
+	(include "/properties/vehicle_xx.ext")
+	{extension "47mm_pakt_xx.mdl"}
+	{volume "body1"
+		{thickness 8}
+	}
+	{volume "barrel2"
+		{thickness 20}
+	}
+	{volume "part1" ;// shield right half
+		{thickness 6}
+	}
+	{volume "part2" ;// stand right 
+		{thickness 8}
+	}
+	{volume "shield"
+		{thickness 6}
+	}
+	{volume "standl"
+		{thickness 8}
+	}
+	{volume "standr"
+		{thickness 8}
+	}
+	{volume "wheelleft"
+		{thickness 10}
+		{material "wood"} 
+		{tags "wood"}
+	}
+	{volume "wheelright"
+		{thickness 10}
+		{material "wood"}
+		{tags "wood"}
+	}
+}

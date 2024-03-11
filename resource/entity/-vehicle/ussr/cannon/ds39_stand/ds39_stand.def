@@ -1,0 +1,77 @@
+{game_entity
+	(include "/properties/cannon_mgun.ext")
+	
+	{extension "ds39_stand.mdl"}
+	{props "vision_lev00_can" "cannon_sandbag_small" "detect_cannon_aa" "maxim_" "c_mg_med"}
+
+	("shield" args "shield" 6)
+
+	{volume "ammo_box"
+		{thickness 2}
+	}
+
+	{boarder
+		{anm "gunner"
+			{forward {end "pose_maxim_gunner" 10}}
+		}
+		{anm "commander"
+			{forward {end "pose_maxim_commander" 10}}
+		}
+		{anm "driver1"
+			{forward {end "cannon_maxim_move" 10}}
+		}
+		{anm "driver2"
+			{forward {end "walk_1hand" 10}}
+		}
+	}
+
+	{extender "cannon"
+		{animation
+		;// "gunner" "commander"
+			{move "mgun_browning_driver_r" "mortar_driver_l"}
+			{fire "mg_maxim_gunner_fire" "mg_maxim_commander_fire"}
+			{aim "mg_maxim_gunner_aim" "mg_maxim_commander_aim"}
+			{reload "mg_maxim_gunner_reload" "mg_maxim_commander_reload"}
+		}
+	}
+
+	{extender "shield" {on}}
+
+	{extender "inventory"
+		{box
+			{item "mgun_rus belt ap" 500}
+			{item "sandbag_vehicle" 2}
+		}
+	}
+
+	{Weaponry
+		{place "mgun1"
+			{type "main"}
+			{charger "gunner"}
+			{weapon "ds39" filling "mgun_rus belt ap" 250}
+			("abm_mgun")
+			{Rotate}
+			{basic}
+		}
+	}
+
+	{mass 42.3}
+	{Chassis
+		("mobility_cannon"
+			speed(12) ;----------------------------------Max speed.
+			weight(42.3) ;-------------------------------Weight in Kilograms.
+		)
+	}
+
+	{bone "basis"
+		{speed2 20}
+	}
+	{bone "gun_rot"
+		{limits -10 15}
+		{speed2 40}
+	}
+	{bone "turret"
+		{limits -13 13}
+		{speed2 40}
+	}
+}

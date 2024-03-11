@@ -1,0 +1,97 @@
+{game_entity
+	(include "/properties/cannon.ext")
+	
+	{extension "75mm_itk37_stat.mdl"}
+	(include "/properties/selection/vehicle.inc" scale(0.9))
+	{props "75mm_itk37" "vision_lev04_can" "muzzle_75mm_76mm_round" "detect_atgun" "no_sandbags" "c_aa_hvy"}
+	{targetclass "cannon_big"}
+	{targetSelector "cannon_aa"}
+
+	("gun" repair(30) thickness(25))
+
+	("armor_heavy_cannon")
+	("crew_wheeled_cannon_5")
+
+	{placer
+		{place "driver1" remove}
+		{place "driver2" remove}
+		{place "driver3" remove}
+		{place "driver4" remove}
+		{place "driver5" remove}
+		{place "seat1" remove}
+		{place "seat2" remove}
+		{place "seat3" remove}
+		{place "seat4" remove}
+		{place "seat5" remove}
+	}
+
+	{boarder
+		{anm "gunner"
+			{forward {end "AAgun_61k_gunner" 10}}
+		}
+		{anm "gunner2"
+			{forward {end "AAgun_61k_gunner" 10}}
+		}
+		{anm "charger"
+			{forward {end "pose_flak_charger" 10}}
+		}
+		{anm "charger2"
+			{forward {end "pose_flak_gunner2" 10}}
+		}
+		{anm "commander"
+			{forward {end "pose_flak_commander" 10}}
+		}
+	}
+
+	{extender "cannon"
+		{animation
+			{switch "close"}
+			;// "gunner" "gunner2" "charger" "charger2" "commander"
+			{move "" "" "" "" ""}
+			{aim "AAgun_61k_gunner_aim" "AAgun_61k_charger_aim" "flak_charger_aim" "flak_gunner2_aim" "flak_commander_aim"}
+			{fire "AAgun_61k_gunner_fire" "AAgun_61k_charger_fire" "flak_charger_fire" "flak_gunner2_fire" "flak_commander_fire"}
+			{reload "AAgun_61k_gunner_reload" "AAgun_61k_charger_reload" "flak_charger_reload" "flak_gunner2_reload" "flak_commander_reload"}
+		}
+		{move {workers clear} {obstacle "close"}}
+		{attack {workers "gunner" "gunner2" "charger" "charger2" "commander"} {obstacle "open"}}
+		{trailing {workers clear}}
+		{rotate_ik_Limit 0}
+	}
+
+	{extender "inventory"
+		{box
+			{item "bullet_75x657 fin apbc" 6}		; 45 rounds
+			{item "bullet_75x657 fin he" 4}
+		}
+	}
+
+	{Weaponry
+		("restore_ik_time")
+		{place "gun"
+			{RestoreIKAfterAim}
+			{weapon "75mm_itk37" filling "bullet_75x657 fin apbc" 1}
+			{gunner "gunner gunner2" minWorkers 1}
+			{charger "charger charger2" minWorkers 1}
+			("abm_dymamic_aa"
+				zeroing(2.25)
+				dispersion(0.50)
+			)
+		}
+	}
+
+	{mass 2800}
+	{Chassis "track" ;// cannot move.
+		("mobility_cannon"
+			speed(5.4) ;-----------------------------------Max speed.
+			weight(2800) ;---------------------------------Weight in Kilograms.
+		)
+	}
+
+	{bone "gun_rot"
+		{limits -3 85}
+		{speed2 15}
+	}
+	{bone "turret"
+		{speed2 20}
+	}
+}

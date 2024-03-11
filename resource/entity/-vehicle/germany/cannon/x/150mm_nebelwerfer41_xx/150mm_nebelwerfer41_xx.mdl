@@ -1,0 +1,200 @@
+;Exported by:	 guita
+;Date:			 20.05.2020 22:16:55
+;File:			 D:\Git\3D_Scenes\GoH_3D_vehicles_ger\vehicles\cannon\150mm_nebelwerfer41\150mm_nebelwerfer411_xx.max
+{skeleton
+	{bone revolute "basis"
+		{orientation
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+		}
+		{bone "body"
+			{parameters "id=body;"}
+			{Position -0.0394 	 0 	 8.0709}
+			{VolumeView "body.ply"}
+		}
+		{bone "part1"
+			{parameters "id=wheelleft;"}
+			{matrix34
+				0.8203 	 -0.3138 	 0.4782
+				0.5223 	 0.0705 	 -0.8498
+				0.233 	 0.9469 	 0.2217
+				-0.0978 	 14.8302 	 8.1035
+			}
+			{VolumeView "part1.ply"}
+		}
+		{bone "part2"
+			{parameters "id=wheelright;"}
+			{matrix34
+				0.9847 	 -0.0377 	 0.17
+				0.1444 	 -0.369 	 -0.9181
+				0.0973 	 0.9287 	 -0.3579
+				-0.0978 	 -14.7074 	 8.1035
+			}
+			{VolumeView "part2.ply"}
+		}
+		{bone "part4"
+			{parameters "id=body;"}
+			{matrix34
+				0 	 1 	 0
+				-1 	 0 	 0
+				0 	 0 	 1
+				6.0746 	 -5.7212 	 8.1045
+			}
+			{VolumeView "part4.ply"}
+		}
+		{bone "part3"
+			{parameters "id=body;"}
+			{matrix34
+				0.766 	 0.6428 	 0
+				-0.6282 	 0.7487 	 0.2118
+				0.1362 	 -0.1623 	 0.9773
+				-10.9119 	 -4.131 	 2.1553
+			}
+			{VolumeView "part3.ply"}
+		}
+		{bone "part7"
+			{parameters "id=gun;"}
+			{matrix34
+				-0.2439 	 0.9696 	 -0.0211
+				-0.918 	 -0.2238 	 0.3275
+				0.3128 	 0.0993 	 0.9446
+				-0.3218 	 -0.3597 	 20.5403
+			}
+			{VolumeView "part7.ply"}
+			{bone "box1"
+				{parameters "id=gun;"}
+				{matrix34
+					0.0224 	 0.0276 	 -0.9994
+					-0.4137 	 0.9103 	 0.0159
+					0.9101 	 0.4131 	 0.0318
+					7.6181 	 1.4917 	 3.2591
+				}
+				{VolumeView "box1.ply"}
+			}
+		}
+		{bone "part6"
+			{parameters "id=body;"}
+			{matrix34
+				-0.7071 	 0.7071 	 0
+				-0.7071 	 -0.7071 	 0
+				0 	 0 	 1
+				-6.3761 	 -9.1719 	 8.8
+			}
+			{VolumeView "part6.ply"}
+		}
+		{bone "part5"
+			{parameters "id=body;"}
+			{matrix34
+				0.7071 	 0.7071 	 0
+				-0.7071 	 0.7071 	 0
+				0 	 0 	 1
+				-6.3762 	 9.2461 	 8.8
+			}
+			{VolumeView "part5.ply"}
+		}
+		{bone revolute "turret"
+			{parameters "id=body;"}
+			{Position 0.0205 	 1.2159 	 15.2953}
+			{VolumeView "turret.ply"}
+		}
+	}
+}
+{obstacle "obstacle"
+	{obb2
+		{center 2.86102e-006 0.00424576}
+		{extent 8.14961 16.4195}
+		{axis 1 0}
+	}
+	{rotate}
+}
+{volume "body1"
+	{box 20.7408 2.80481 11.2598}
+	{bone "body"}
+	{matrix34
+		0 	 -1 	 0
+		0 	 0 	 1
+		-1 	 0 	 0
+		-0.6202 	 -0.0304 	 0.1584
+	}
+}
+{volume "body2"
+	{box 16.6812 11.8835 5.16675}
+	{bone "turret"}
+	{matrix34
+		0.2441 	 -0.9674 	 -0.0671
+		0.1721 	 -0.0248 	 0.9848
+		-0.9544 	 -0.2519 	 0.1604
+		-0.4967 	 -0.7377 	 -0.3952
+	}
+}
+{volume "part1"
+	{cylinder 7.91411 3.72744}
+	{bone "part1"}
+	{matrix34
+		-1 	 0 	 0
+		0 	 -1 	 0
+		0 	 0 	 1
+		-0.074 	 0.0545 	 -0.1033
+	}
+}
+{volume "part2"
+	{cylinder 7.91411 3.72744}
+	{bone "part2"}
+	{matrix34
+		-1 	 0 	 0
+		0 	 -1 	 0
+		0 	 0 	 1
+		-0.074 	 0.0545 	 0.03
+	}
+}
+{volume "part3"
+	{box 14.5336 12.0502 3.91478}
+	{bone "part3"}
+	{matrix34
+		1 	 0 	 0
+		0 	 0.9773 	 -0.2118
+		0 	 0.2118 	 0.9773
+		-0.57 	 0.0142 	 -0.2056
+	}
+}
+{volume "part4"
+	{cylinder 4.61786 1.23213}
+	{bone "part4"}
+	{matrix34
+		0.995 	 -0.0147 	 -0.0988
+		-0.0038 	 0.9829 	 -0.1842
+		0.0998 	 0.1836 	 0.9779
+		5.74 	 -5.4799 	 -7.502
+	}
+}
+{volume "part5"
+	{cylinder 0.95322 32.3114}
+	{bone "part5"}
+	{matrix34
+		-0.9855 	 -0.1691 	 0.0103
+		-0.0256 	 0.209 	 0.9776
+		-0.1675 	 0.9632 	 -0.2103
+		-2.524 	 15.5161 	 -4.0351
+	}
+}
+{volume "part6"
+	{cylinder 0.95322 32.3114}
+	{bone "part6"}
+	{matrix34
+		-0.9825 	 0.1845 	 0.025
+		0.0592 	 0.1822 	 0.9815
+		0.1765 	 0.9658 	 -0.1899
+		2.689 	 15.5389 	 -3.706
+	}
+}
+{volume "part7"
+	{cylinder 7.30875 26.8671}
+	{bone "part7"}
+	{matrix34
+		-1 	 0 	 0
+		0 	 0 	 1
+		0 	 1 	 0
+		-0.0673 	 -5.3619 	 1.4276
+	}
+}

@@ -1,0 +1,90 @@
+{game_entity
+	(include "/properties/cannon.ext")
+	{extension "76mm_bpk76.mdl"}
+	(include "/properties/selection/vehicle_small.inc" scale(1.0))
+	{props "cannon_small" "wheeled" "vision_lev02_can" "recoilless" "cannon_sandbag_small" "trailer" "trailer_light" "detect_atgun_small" "c_at_lite"}
+	{collider "cannon_small"}
+	{targetclass "cannon_small"}
+	{targetSelector "cannon_small"}
+
+	("solid_wheel" args "wheelright")
+	("solid_wheel" args "wheelleft")
+
+	("gun" repair(30) thickness(20))
+
+	("armor_light_cannon")
+	("crew_wheeled_cannon")
+
+	{boarder
+		{anm "gunner"
+			{forward {end "cannon_small_gunner" 10}}
+		}
+		{anm "commander"
+			{forward {end "cannon_small_charger" 10}}
+		}
+		{anm "driver1"	;// gunner
+			{forward {end "cannon_pak40_pusher_left" 10}}
+		}
+		{anm "driver2"	;// commander
+			{forward {end "mortar_driver_l" 10}}
+		}
+		{anm "seat1"	;// gunner
+			{forward {end "seat_armor1" 10}}
+		}
+		{anm "seat2"	;// commander
+			{forward {end "seat_armor1" 10}}
+		}
+	}
+
+	{extender "cannon"
+		{animation
+			{switch "close"}
+			;// "gunner" "commander"
+			{move "cannon_pak40_pusher_left" "mortar_driver_l"}
+			{aim "cannon_small_gunner_aim" "cannon_small_charger_aim"}
+			{fire "cannon_small_gunner_fire" "cannon_small_charger_fire"}
+			{reload "cannon_small_gunner_reload" "cannon_small_charger_reload"}
+		}
+		{move {workers "driver1" "driver2" minWorkers 1} {obstacle "close"}}	;// move state: cannon being pushed and which positions play animations
+		{attack {workers "gunner" "commander"} {obstacle "open"}}				;// fire/attack state: cannon aim, fire, and reload events
+		{trailing {workers "seat1" "seat2"}}									;// trailing state: cannon is being towed {obstacle} not needed. Uses "close"
+	}
+
+	{extender "inventory"
+		{box
+			{item "bulletrus_76 aphebc" 5}
+			{item "bulletrus_76 he" 5}
+			{item "sandbag_vehicle" 2}
+		}
+	}
+
+	{Weaponry
+		("restore_ik_time")
+		{place "gun"
+			{RestoreIKAfterAim}
+			{weapon "76mm_bpk76" filling "bulletrus_76 aphebc" 1}
+			{charger "commander"}
+			("abm_dymamic_gun"
+				zeroing(2.0)
+				dispersion(0.25)
+			)
+		}
+	}
+
+	{mass 180}
+	{Chassis "track"
+		("car_trace" fx("tracewheel05a") step(0.14) wheell("wlf") wheelr("wrf") bonel("FXtraceL1") boner("FXtraceR1"))
+		("mobility_cannon"
+			speed(11.0) ;----------------------------------Max speed.
+			weight(180) ;---------------------------------Weight in Kilograms.
+		)
+	}
+
+	{bone "basis"
+		{speed2 9}
+	}
+	{bone "gun_rot"
+		{limits -15 42}
+		{speed2 10}
+	}
+}

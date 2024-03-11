@@ -1,0 +1,67 @@
+{game_entity
+	(include "/properties/vehicle_xx.ext")
+	{extension "85mm_52k_xx.mdl"}
+	{volume "barrel1"
+		{thickness 30}
+	}
+	{volume "barrel2"
+		{thickness 30}
+	}
+	{volume "barrel3"
+		{thickness 30}
+	}
+	{volume "barrel4"
+		{thickness 30}
+	}
+	{volume "body1"
+		{thickness 10}
+	}
+	{volume "body3"
+		{thickness 10}
+	}
+	{volume "body4"
+		{thickness 10}
+	}
+	{volume "body5"
+		{thickness 10}
+	}
+	{volume "body6"
+		{thickness 10}
+	}
+	{volume "body7"
+		{thickness 10}
+	}
+	{volume "body8"
+		{thickness 10}
+	}
+	{volume "standl"
+		{thickness 10}
+	}
+	{volume "foot1"
+		{thickness 10}
+	}
+	{volume "foot2"
+		{thickness 10}
+	}
+	{volume "foot3"
+		{thickness 10}
+	}
+	{volume "foot4"
+		{thickness 10}
+	}
+	{volume "part1" ;// wheel left front
+		{thickness 0.5}
+	}
+	{volume "part2" ;// wheel right front
+		{thickness 0.5}
+	}
+	{volume "part3" ;// wheel right back
+		{thickness 0.5}
+	}
+	{volume "part4" ;// wheel left back
+		{thickness 0.5}
+	}
+	{volume "part5" ;// right stand
+		{thickness 15}
+	}
+}

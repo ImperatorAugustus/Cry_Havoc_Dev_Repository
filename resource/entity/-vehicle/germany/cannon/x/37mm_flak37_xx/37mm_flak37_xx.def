@@ -1,0 +1,43 @@
+{game_entity
+	(include "/properties/vehicle_xx.ext")
+	{extension "37mm_flak37_xx.mdl"}
+	{volume "body1"
+		{thickness 8}
+	}
+	{volume "body2"
+		{thickness 8}
+	}
+	{volume "body3"
+		{thickness 4.5}
+	}
+	{volume "body4"
+		{thickness 4.5}
+	}
+	{volume "part1" ;// Wheel Left
+		{thickness 0.5}
+	}
+	{volume "part2" ;// Wheel Right
+		{thickness 0.5}
+	}
+	{volume "part3" ;// Shield Left
+		{thickness 4.5}
+	}
+	{volume "barrel" ;// Gun
+		{thickness 20}
+	}
+	{volume "part5" ;// Trailer Left
+		{thickness 8}
+	}
+	{volume "part6" ;// Trailer Right
+		{thickness 8}
+	}
+	{volume "part6a" ;// Trailer Right
+		{thickness 8}
+	}
+	{volume "part7" ;// Trailer Rear
+		{thickness 8}
+	}
+	{volume "part8" ;// Shield Right
+		{thickness 4.5}
+	}
+}

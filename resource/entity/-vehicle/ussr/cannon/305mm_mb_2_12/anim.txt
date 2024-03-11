@@ -1,0 +1,414 @@
+-= Animation: repair, Node gun1_rot =-
+ frame 40 {
+	visibility 1
+	position -0.1656 	 0.5533 	 -22.7359
+	orientation -0.0326 	 -0.012 	 -0.0874 	 0.9956
+}
+frame 49 {
+	orientation -0.0277 	 -0.0097 	 -0.0711 	 0.997
+}
+frame 50 {
+	orientation -0.0166 	 -0.0052 	 -0.0351 	 0.9992
+}
+frame 51 {
+	orientation -0.0052 	 -0.0014 	 0.001 	 1
+}
+frame 52 {
+	orientation 0 	 0 	 0.0174 	 0.9998
+}
+frame 53 {
+	orientation 0 	 0 	 0.0084 	 1
+}
+frame 54 {
+	orientation 0 	 0 	 -0.0083 	 1
+}
+frame 55 {
+	orientation 0 	 0 	 -0.0173 	 0.9999
+}
+frame 56 {
+	orientation 0 	 0 	 -0.0128 	 0.9999
+}
+frame 57 {
+	orientation 0 	 0 	 -0.0045 	 1
+}
+frame 58 {
+	orientation 0 	 0 	 0 	 1
+}
+frame 60 {
+	visibility 1
+	position -0.1656 	 0.5533 	 -22.7359
+	orientation 0 	 0 	 0 	 1
+}
+-= Animation: fire00, Node gun1 =-
+ frame 0 {
+	visibility 1
+	position 72.2422 	 0.6114 	 0.413
+	orientation 0.7071 	 0 	 0 	 0.7071
+}
+frame 1 {
+	position 65.7965 	 0.6114 	 0.413
+}
+frame 2 {
+	position 51.6159 	 0.6114 	 0.413
+}
+frame 3 {
+	position 37.4354 	 0.6114 	 0.413
+}
+frame 4 {
+	position 30.9897 	 0.6114 	 0.413
+}
+frame 5 {
+	position 31.1681 	 0.6114 	 0.413
+}
+frame 6 {
+	position 31.6845 	 0.6114 	 0.413
+}
+frame 7 {
+	position 32.5107 	 0.6114 	 0.413
+}
+frame 8 {
+	position 33.6185 	 0.6114 	 0.413
+}
+frame 9 {
+	position 34.9798 	 0.6114 	 0.413
+}
+frame 10 {
+	position 36.5664 	 0.6114 	 0.413
+}
+frame 11 {
+	position 38.3502 	 0.6114 	 0.413
+}
+frame 12 {
+	position 40.303 	 0.6114 	 0.413
+}
+frame 13 {
+	position 42.3966 	 0.6114 	 0.413
+}
+frame 14 {
+	position 44.6029 	 0.6114 	 0.413
+}
+frame 15 {
+	position 46.8936 	 0.6114 	 0.413
+}
+frame 16 {
+	position 49.2407 	 0.6114 	 0.413
+}
+frame 17 {
+	position 51.6159 	 0.6114 	 0.413
+}
+frame 18 {
+	position 53.9912 	 0.6114 	 0.413
+}
+frame 19 {
+	position 56.3383 	 0.6114 	 0.413
+}
+frame 20 {
+	position 58.6291 	 0.6114 	 0.413
+}
+frame 21 {
+	position 60.8353 	 0.6114 	 0.413
+}
+frame 22 {
+	position 62.9289 	 0.6114 	 0.413
+}
+frame 23 {
+	position 64.8817 	 0.6114 	 0.413
+}
+frame 24 {
+	position 66.6655 	 0.6114 	 0.413
+}
+frame 25 {
+	position 68.2521 	 0.6114 	 0.413
+}
+frame 26 {
+	position 69.6134 	 0.6114 	 0.413
+}
+frame 27 {
+	position 70.7212 	 0.6114 	 0.413
+}
+frame 28 {
+	position 71.5474 	 0.6114 	 0.413
+}
+frame 29 {
+	position 72.0638 	 0.6114 	 0.413
+}
+frame 30 {
+	visibility 1
+	position 72.2422 	 0.6114 	 0.413
+	orientation 0.7071 	 0 	 0 	 0.7071
+}
+-= Animation: repair, Node gun1 =-
+ frame 40 {
+	visibility 1
+	position 64.4224 	 0.6114 	 0.413
+	orientation 0.7071 	 0 	 0 	 0.7071
+}
+frame 41 {
+	position 64.4791 	 0.6114 	 0.413
+}
+frame 42 {
+	position 64.6414 	 0.6114 	 0.413
+}
+frame 43 {
+	position 64.8974 	 0.6114 	 0.413
+}
+frame 44 {
+	position 65.2357 	 0.6114 	 0.413
+}
+frame 45 {
+	position 65.6442 	 0.6114 	 0.413
+}
+frame 46 {
+	position 66.1115 	 0.6114 	 0.413
+}
+frame 47 {
+	position 66.6256 	 0.6114 	 0.413
+}
+frame 48 {
+	position 67.175 	 0.6114 	 0.413
+}
+frame 49 {
+	position 67.7478 	 0.6114 	 0.413
+}
+frame 50 {
+	position 68.3323 	 0.6114 	 0.413
+}
+frame 51 {
+	position 68.9168 	 0.6114 	 0.413
+}
+frame 52 {
+	position 69.4896 	 0.6114 	 0.413
+}
+frame 53 {
+	position 70.039 	 0.6114 	 0.413
+}
+frame 54 {
+	position 70.5531 	 0.6114 	 0.413
+}
+frame 55 {
+	position 71.0203 	 0.6114 	 0.413
+}
+frame 56 {
+	position 71.4289 	 0.6114 	 0.413
+}
+frame 57 {
+	position 71.7671 	 0.6114 	 0.413
+}
+frame 58 {
+	position 72.0232 	 0.6114 	 0.413
+}
+frame 59 {
+	position 72.1855 	 0.6114 	 0.413
+}
+frame 60 {
+	visibility 1
+	position 72.2422 	 0.6114 	 0.413
+	orientation 0.7071 	 0 	 0 	 0.7071
+}
+-= Animation: repair, Node gun2_rot =-
+ frame 40 {
+	visibility 1
+	position -0.1656 	 0.5533 	 22.1081
+	orientation 0.0004 	 0.0129 	 0.0303 	 0.9995
+}
+frame 41 {
+	orientation 0.0002 	 0.0109 	 0.0199 	 0.9997
+}
+frame 42 {
+	orientation 0 	 0.0065 	 -0.003 	 1
+}
+frame 43 {
+	orientation 0 	 0.002 	 -0.0259 	 0.9997
+}
+frame 44 {
+	orientation 0 	 0 	 -0.0363 	 0.9993
+}
+frame 45 {
+	orientation 0 	 0 	 -0.0235 	 0.9997
+}
+frame 46 {
+	orientation 0 	 0 	 0.0002 	 1
+}
+frame 47 {
+	orientation 0 	 0 	 0.013 	 0.9999
+}
+frame 48 {
+	orientation 0 	 0 	 0.0097 	 1
+}
+frame 49 {
+	orientation 0 	 0 	 0.0034 	 1
+}
+frame 50 {
+	orientation 0 	 0 	 0 	 1
+}
+frame 60 {
+	visibility 1
+	position -0.1656 	 0.5533 	 22.1081
+	orientation 0 	 0 	 0 	 1
+}
+-= Animation: fire01, Node gun2 =-
+ frame 1 {
+	visibility 1
+	position 72.2422 	 0.6114 	 1.8383
+	orientation 0.7071 	 0 	 0 	 0.7071
+}
+frame 2 {
+	position 65.7966 	 0.6114 	 1.8383
+}
+frame 3 {
+	position 51.6164 	 0.6114 	 1.8383
+}
+frame 4 {
+	position 37.4362 	 0.6114 	 1.8383
+}
+frame 5 {
+	position 30.9907 	 0.6114 	 1.8383
+}
+frame 6 {
+	position 31.1691 	 0.6114 	 1.8383
+}
+frame 7 {
+	position 31.6854 	 0.6114 	 1.8383
+}
+frame 8 {
+	position 32.5116 	 0.6114 	 1.8383
+}
+frame 9 {
+	position 33.6194 	 0.6114 	 1.8383
+}
+frame 10 {
+	position 34.9807 	 0.6114 	 1.8383
+}
+frame 11 {
+	position 36.5673 	 0.6114 	 1.8383
+}
+frame 12 {
+	position 38.351 	 0.6114 	 1.8383
+}
+frame 13 {
+	position 40.3037 	 0.6114 	 1.8383
+}
+frame 14 {
+	position 42.3973 	 0.6114 	 1.8383
+}
+frame 15 {
+	position 44.6035 	 0.6114 	 1.8383
+}
+frame 16 {
+	position 46.8942 	 0.6114 	 1.8383
+}
+frame 17 {
+	position 49.2412 	 0.6114 	 1.8383
+}
+frame 18 {
+	position 51.6164 	 0.6114 	 1.8383
+}
+frame 19 {
+	position 53.9916 	 0.6114 	 1.8383
+}
+frame 20 {
+	position 56.3387 	 0.6114 	 1.8383
+}
+frame 21 {
+	position 58.6294 	 0.6114 	 1.8383
+}
+frame 22 {
+	position 60.8356 	 0.6114 	 1.8383
+}
+frame 23 {
+	position 62.9291 	 0.6114 	 1.8383
+}
+frame 24 {
+	position 64.8819 	 0.6114 	 1.8383
+}
+frame 25 {
+	position 66.6656 	 0.6114 	 1.8383
+}
+frame 26 {
+	position 68.2522 	 0.6114 	 1.8383
+}
+frame 27 {
+	position 69.6135 	 0.6114 	 1.8383
+}
+frame 28 {
+	position 70.7213 	 0.6114 	 1.8383
+}
+frame 29 {
+	position 71.5474 	 0.6114 	 1.8383
+}
+frame 30 {
+	position 72.0638 	 0.6114 	 1.8383
+}
+frame 31 {
+	visibility 1
+	position 72.2422 	 0.6114 	 1.8383
+	orientation 0.7071 	 0 	 0 	 0.7071
+}
+-= Animation: repair, Node gun2 =-
+ frame 40 {
+	visibility 1
+	position 56.9065 	 0.6114 	 1.8383
+	orientation 0.7071 	 0 	 0 	 0.7071
+}
+frame 41 {
+	position 57.0177 	 0.6114 	 1.8383
+}
+frame 42 {
+	position 57.3359 	 0.6114 	 1.8383
+}
+frame 43 {
+	position 57.8381 	 0.6114 	 1.8383
+}
+frame 44 {
+	position 58.5014 	 0.6114 	 1.8383
+}
+frame 45 {
+	position 59.3027 	 0.6114 	 1.8383
+}
+frame 46 {
+	position 60.219 	 0.6114 	 1.8383
+}
+frame 47 {
+	position 61.2273 	 0.6114 	 1.8383
+}
+frame 48 {
+	position 62.3046 	 0.6114 	 1.8383
+}
+frame 49 {
+	position 63.428 	 0.6114 	 1.8383
+}
+frame 50 {
+	position 64.5743 	 0.6114 	 1.8383
+}
+frame 51 {
+	position 65.7207 	 0.6114 	 1.8383
+}
+frame 52 {
+	position 66.844 	 0.6114 	 1.8383
+}
+frame 53 {
+	position 67.9213 	 0.6114 	 1.8383
+}
+frame 54 {
+	position 68.9297 	 0.6114 	 1.8383
+}
+frame 55 {
+	position 69.846 	 0.6114 	 1.8383
+}
+frame 56 {
+	position 70.6472 	 0.6114 	 1.8383
+}
+frame 57 {
+	position 71.3105 	 0.6114 	 1.8383
+}
+frame 58 {
+	position 71.8128 	 0.6114 	 1.8383
+}
+frame 59 {
+	position 72.131 	 0.6114 	 1.8383
+}
+frame 60 {
+	visibility 1
+	position 72.2422 	 0.6114 	 1.8383
+	orientation 0.7071 	 0 	 0 	 0.7071
+}

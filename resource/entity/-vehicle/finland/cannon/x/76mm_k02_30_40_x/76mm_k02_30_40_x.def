@@ -1,0 +1,9 @@
+{game_entity
+	{extension "76mm_k02_30_40_x.mdl"}{rimlight}
+	{volume "wheelleft"
+		{able {obstacle 0}}
+	}
+	{volume "wheelright"
+		{able {obstacle 0}}
+	}
+}

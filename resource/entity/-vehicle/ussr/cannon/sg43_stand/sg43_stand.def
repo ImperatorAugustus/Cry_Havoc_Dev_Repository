@@ -1,0 +1,80 @@
+{game_entity
+	(include "/properties/cannon_mgun.ext")
+	
+	{extension "sg43_stand.mdl"}
+	{props "wheeled" "-carried" "vision_lev00_can" "maxim_" "detect_cannon_aa" "no_sandbags" "c_mg_med"}
+
+	("solid_wheel" args "wheelleft")
+	("solid_wheel" args "wheelright")
+	("shield" args "shield" 6)
+
+	{volume "ammo_box"
+		{thickness 2}
+	}
+
+	{boarder
+		{anm "gunner"
+			{forward {end "pose_maxim_gunner" 10}}
+		}
+		{anm "commander"
+			{forward {end "pose_maxim_commander" 10}}
+		}
+		{anm "driver1"
+			{forward {end "cannon_maxim_move" 10}}
+		}
+		{anm "driver2"
+			{forward {end "walk_1hand" 10}}
+		}
+	}
+
+	{extender "cannon"
+		{animation
+		;// "gunner" "commander"
+			{move "cannon_maxim_move" "walk_1hand"}
+			{fire "mg_maxim_gunner_fire" "mg_maxim_commander_fire"}
+			{aim "mg_maxim_gunner_aim" "mg_maxim_commander_aim"}
+			{reload "mg_maxim_gunner_reload" "mg_maxim_commander_reload"}
+		}
+		{move {workers "driver1" "driver2" minWorkers 1} {obstacle "close"}}
+	}
+
+	{extender "shield" {on}}
+
+	{extender "inventory"
+		{box
+			{item "mgun_rus belt api" 500}
+		}
+	}
+
+	{Weaponry
+		{place "mgun1"
+			{type "main"}
+			{gunner "gunner"}
+			{charger "gunner"}
+			{weapon "sg43" filling "mgun_rus belt api" 250}
+			("abm_mgun")
+			{Rotate}
+			{basic}
+		}
+	}
+
+	{mass 41}
+	{Chassis "track"
+		("mobility_cannon"
+			speed(12) ;----------------------------------Max speed.
+			weight(41) ;---------------------------------Weight in Kilograms.
+		)
+	}
+
+	{bone "basis"
+		{speed2 20}
+	}
+	{bone "gun_rot"
+		{limits -15 20}
+		{speed2 40}
+	}
+	{bone "turret"
+		{limits -15 15}
+		{speed2 40}
+	}
+}

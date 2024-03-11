@@ -1,0 +1,9 @@
+{game_entity
+	{extension "57mm_zis2_x.mdl"} {RimLight}
+	{volume "wheelleft"
+		{able {obstacle 0}}
+	}
+	{volume "wheelright"
+		{able {obstacle 0}}
+	}
+}

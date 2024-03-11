@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/_vehicle/ringstand_mg42_x"}
+	{bump "$/_vehicle/ringstand_mg42_bp"}
+	{specular "$/_vehicle/ringstand_mg42_sp"}
+	{color "230 230 230 25"}
+	{blend test}
+}

@@ -1,0 +1,83 @@
+;Exported by:	 guita
+;Date:			 21.05.2022 16:03:08
+;File:			 D:\Git\3D_Scenes\GoH_3D_vehicles_ger\vehicles\cannon\20cm_leLdgW\20cm_leLdgW_x.max
+{skeleton
+	{bone revolute "basis"
+		{orientation
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+		}
+		{bone "body"
+			{parameters "id=body;"}
+			{Position 0.0214 	 0 	 0.6149}
+			{VolumeView "body.ply"}
+			{bone revolute "turret"
+				{limits -10 10}
+				{speed 0.01}
+				{Position 0.136 	 0.1772 	 -0.6179}
+				{bone "gun_rot"
+					{parameters "id=body;"}
+					{Position -0.1402 	 -0.1772 	 0.5629}
+					{VolumeView "gun_rot.ply"}
+					{bone "gun"
+						{parameters "id=body;"}
+						{matrix34
+							0.9951 	 0 	 0.0992
+							0 	 1 	 0
+							-0.0992 	 0 	 0.9951
+							0.0024 	 0 	 -0.0088
+						}
+						{VolumeView "gun.ply"}
+						{bone revolute "shooter00"
+							{matrix34
+								0.4076 	 0 	 0.9132
+								0 	 1 	 0
+								-0.9132 	 0 	 0.4076
+								6.396 	 0 	 14.5915
+							}
+							{bone "rocket00"
+								{VolumeView "rocket00.ply"}
+							}
+						}
+					}
+					{bone "bipod_base"
+						{parameters "id=body;"}
+						{Position 11.8861 	 0.004 	 16.5709}
+						{VolumeView "bipod_base.ply"}
+						{bone "bipod_cent"
+							{parameters "id=body;"}
+							{matrix34
+								0.8772 	 0 	 0.4801
+								0 	 1 	 0
+								-0.4801 	 0 	 0.8772
+								4.1014 	 0.0131 	 -7.593
+							}
+							{VolumeView "bipod_cent.ply"}
+							{bone "stan_l"
+								{parameters "id=body;"}
+								{matrix34
+									0.9972 	 0 	 0.0751
+									0 	 1 	 0
+									-0.0751 	 0 	 0.9972
+									0.068 	 1.9388 	 4.3537
+								}
+								{VolumeView "stan_l.ply"}
+							}
+							{bone "stan_r"
+								{parameters "id=body;"}
+								{matrix34
+									0.9972 	 0 	 0.0751
+									0.0375 	 0.866 	 -0.4986
+									-0.065 	 0.5 	 0.8636
+									0.0681 	 -2.0171 	 4.3537
+								}
+								{VolumeView "stan_r.ply"}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

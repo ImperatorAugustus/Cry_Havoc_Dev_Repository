@@ -1,0 +1,88 @@
+-= Animation: break, Node body =-
+	Frame 0 {
+		Visibility 1
+		Position	0.735414	0.00170807	4.14723
+		Orientation	0 0 0 1
+	}
+	Frame 44 {
+		Visibility 1
+		Position	0.735414	0.00170807	4.14723
+		Orientation	0 0 0 1
+	}
+-= Animation: break, Node part6 =-
+	Frame 0 {
+		Visibility 1
+		Position	-1.6811	-1.30812	-0.00863075
+		Orientation	0.150808 0.0220514 -0.0832959 0.984801
+	}
+	Frame 44 {
+		Visibility 1
+		Position	-1.6811	-1.30812	-0.00863075
+		Orientation	0.150808 0.0220514 -0.0832959 0.984801
+	}
+-= Animation: break, Node part5 =-
+	Frame 0 {
+		Visibility 1
+		Position	-2.89685	0	0.105806
+		Orientation	0 0.0104718 0 0.999945
+	}
+	Frame 44 {
+		Visibility 1
+		Position	-2.89685	0	0.105806
+		Orientation	0 0.0104718 0 0.999945
+	}
+-= Animation: break, Node part4 =-
+	Frame 0 {
+		Visibility 1
+		Position	-1.7327	1.30813	-0.128345
+		Orientation	-0.152116 0.00948749 0.00146013 0.988316
+	}
+	Frame 44 {
+		Visibility 1
+		Position	-1.7327	1.30813	-0.128345
+		Orientation	-0.152116 0.00948749 0.00146013 0.988316
+	}
+-= Animation: break, Node turret =-
+	Frame 80 {
+		Visibility 1
+		Position	-2.34117	0	1.47477
+		Orientation	0.000575862 0.00658213 0.0871538 0.996173
+	}
+	Frame 114 {
+		Visibility 1
+		Position	-2.34117	0	1.47477
+		Orientation	0.000575862 0.00658213 0.0871538 0.996173
+	}
+-= Animation: break, Node gun_rot =-
+	Frame 50 {
+		Visibility 1
+		Position	-2.6966	0.840451	2.16138
+		Orientation	-0.713013 -0.0184081 0.0180896 0.700676
+	}
+	Frame 76 {
+		Visibility 1
+		Position	-2.6966	0.840451	2.16138
+		Orientation	-0.713013 -0.0184081 0.0180896 0.700676
+	}
+-= Animation: break, Node wheelR =-
+	Frame 0 {
+		Visibility 1
+		Position	0.751886	-6.09527	4.14466
+		Orientation	0.69442 0.01883 -0.0181841 0.719093
+	}
+	Frame 44 {
+		Visibility 1
+		Position	0.751886	-6.09527	4.14466
+		Orientation	0.69442 0.01883 -0.0181841 0.719093
+	}
+-= Animation: break, Node part1 =-
+	Frame 0 {
+		Visibility 1
+		Position	0.751886	6.09868	3.9462
+		Orientation	0.503715 -0.146015 -0.223387 0.821614
+	}
+	Frame 44 {
+		Visibility 1
+		Position	0.751886	6.09868	3.9462
+		Orientation	0.503715 -0.146015 -0.223387 0.821614
+	}

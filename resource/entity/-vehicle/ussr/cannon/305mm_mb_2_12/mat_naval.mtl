@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/_vehicle/300mm_sevastopol"}
+	{bump "$/_vehicle/300mm_sevastopol_bp"}
+	{specular "$/_vehicle/300mm_sevastopol_sp"}
+	{color "230 230 230 25"}
+	{blend test}
+}

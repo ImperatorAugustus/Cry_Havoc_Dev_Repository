@@ -1,0 +1,268 @@
+-= Animation: break, Node turreta =-
+ frame 62 {
+	visibility 1
+	position 0 	 0 	 0
+	orientation 0 	 0 	 0 	 1
+}
+frame 63 {
+	orientation 0.0002 	 0.0028 	 -0.0137 	 0.9999
+}
+frame 64 {
+	orientation 0.0004 	 0.0089 	 -0.0447 	 0.999
+}
+frame 65 {
+	orientation 0.0007 	 0.0151 	 -0.0778 	 0.9969
+}
+frame 66 {
+	orientation 0.0014 	 0.018 	 -0.0979 	 0.995
+}
+frame 67 {
+	orientation 0.003 	 0.0181 	 -0.1055 	 0.9943
+}
+frame 68 {
+	orientation 0.0051 	 0.0179 	 -0.1112 	 0.9936
+}
+frame 69 {
+	orientation 0.0074 	 0.0176 	 -0.1152 	 0.9932
+}
+frame 70 {
+	orientation 0.0098 	 0.0171 	 -0.1179 	 0.9928
+}
+frame 71 {
+	orientation 0.0121 	 0.0166 	 -0.1196 	 0.9926
+}
+frame 72 {
+	orientation 0.014 	 0.016 	 -0.1204 	 0.9925
+}
+frame 73 {
+	orientation 0.0153 	 0.0154 	 -0.1207 	 0.9925
+}
+frame 74 {
+	orientation 0.0158 	 0.0148 	 -0.1208 	 0.9924
+}
+frame 75 {
+	orientation 0.0149 	 0.0143 	 -0.1176 	 0.9928
+}
+frame 76 {
+	orientation 0.0126 	 0.0137 	 -0.1101 	 0.9937
+}
+frame 77 {
+	orientation 0.0098 	 0.0131 	 -0.1012 	 0.9947
+}
+frame 78 {
+	orientation 0.0075 	 0.0124 	 -0.0937 	 0.9955
+}
+frame 79 {
+	orientation 0.0066 	 0.0114 	 -0.0905 	 0.9958
+}
+frame 80 {
+	orientation 0.0116 	 0.0101 	 -0.0941 	 0.9954
+}
+frame 81 {
+	orientation 0.0209 	 0.0086 	 -0.1007 	 0.9947
+}
+frame 82 {
+	visibility 1
+	position 0 	 0 	 0
+	orientation 0.026 	 0.0064 	 -0.1043 	 0.9942
+}
+-= Animation: break, Node gun_rot =-
+ frame 84 {
+	visibility 1
+	position -15.2872 	 0 	 14.8374
+	orientation -0.7071 	 0 	 0 	 0.7071
+}
+frame 85 {
+	orientation -0.7065 	 0.0288 	 -0.0288 	 0.7065
+}
+frame 86 {
+	orientation -0.7023 	 0.0821 	 -0.0821 	 0.7023
+}
+frame 87 {
+	orientation -0.6984 	 0.1106 	 -0.1106 	 0.6984
+}
+frame 88 {
+	orientation -0.6987 	 0.1087 	 -0.1087 	 0.6987
+}
+frame 89 {
+	orientation -0.6994 	 0.1042 	 -0.1042 	 0.6994
+}
+frame 90 {
+	orientation -0.7002 	 0.0988 	 -0.0988 	 0.7002
+}
+frame 91 {
+	orientation -0.7008 	 0.0942 	 -0.0942 	 0.7008
+}
+frame 92 {
+	orientation -0.7011 	 0.0923 	 -0.0923 	 0.7011
+}
+frame 93 {
+	orientation -0.7004 	 0.0971 	 -0.0971 	 0.7004
+}
+frame 94 {
+	orientation -0.6991 	 0.1059 	 -0.1059 	 0.6991
+}
+frame 95 {
+	orientation -0.6984 	 0.1106 	 -0.1106 	 0.6984
+}
+frame 96 {
+	orientation -0.6991 	 0.1059 	 -0.1059 	 0.6991
+}
+frame 97 {
+	orientation -0.7004 	 0.0971 	 -0.0971 	 0.7004
+}
+frame 98 {
+	orientation -0.7011 	 0.0923 	 -0.0923 	 0.7011
+}
+frame 102 {
+	visibility 1
+	position -15.2872 	 0 	 14.8374
+	orientation -0.7011 	 0.0923 	 -0.0923 	 0.7011
+}
+-= Animation: break, Node gun =-
+ frame 84 {
+	visibility 1
+	position 11.1009 	 3.6498 	 0
+	orientation 0.7071 	 0 	 0 	 0.7071
+}
+frame 99 {
+	position 8.5745 	 3.6498 	 0.297
+	orientation 0.731 	 -0.008 	 -0.0075 	 0.6822
+}
+frame 100 {
+	position 3.0163 	 3.6498 	 0.9505
+	orientation 0.7566 	 -0.0182 	 -0.0188 	 0.6534
+}
+frame 101 {
+	position -2.5418 	 3.6498 	 1.604
+	orientation 0.7595 	 -0.0218 	 -0.0244 	 0.6496
+}
+frame 102 {
+	visibility 1
+	position -5.0682 	 3.6498 	 1.901
+	orientation 0.7599 	 -0.0227 	 -0.0265 	 0.6491
+}
+-= Animation: break, Node lever =-
+ frame 84 {
+	visibility 1
+	position -3.8115 	 -3.81 	 -2.2928
+	orientation 0 	 0 	 0 	 1
+}
+frame 85 {
+	orientation 0 	 0.0092 	 0 	 1
+}
+frame 86 {
+	orientation 0 	 0.0353 	 0 	 0.9994
+}
+frame 87 {
+	orientation 0 	 0.0762 	 0 	 0.9971
+}
+frame 88 {
+	orientation 0 	 0.1296 	 0 	 0.9916
+}
+frame 89 {
+	orientation 0 	 0.193 	 0 	 0.9812
+}
+frame 90 {
+	orientation 0 	 0.2638 	 0 	 0.9646
+}
+frame 91 {
+	orientation 0 	 0.3392 	 0 	 0.9407
+}
+frame 92 {
+	orientation 0 	 0.4163 	 0 	 0.9092
+}
+frame 93 {
+	orientation 0 	 0.4924 	 0 	 0.8704
+}
+frame 94 {
+	orientation 0 	 0.5649 	 0 	 0.8251
+}
+frame 95 {
+	orientation 0 	 0.6316 	 0 	 0.7753
+}
+frame 96 {
+	orientation 0 	 0.6909 	 0 	 0.7229
+}
+frame 97 {
+	orientation 0 	 0.7416 	 0 	 0.6708
+}
+frame 98 {
+	orientation 0 	 0.7832 	 0 	 0.6218
+}
+frame 99 {
+	orientation 0 	 0.8154 	 0 	 0.5789
+}
+frame 100 {
+	orientation 0 	 0.8384 	 0 	 0.545
+}
+frame 101 {
+	orientation 0 	 0.8524 	 0 	 0.5229
+}
+frame 102 {
+	visibility 1
+	position -3.8115 	 -3.81 	 -2.2928
+	orientation 0 	 0.8572 	 0 	 0.515
+}
+-= Animation: break, Node breech_block =-
+ frame 84 {
+	visibility 1
+	position -5.7356 	 0.0069 	 2.5115
+	orientation 0 	 0 	 0 	 1
+}
+frame 85 {
+	position -5.7356 	 0.0069 	 2.4878
+}
+frame 86 {
+	position -5.7356 	 0.0069 	 2.4204
+}
+frame 87 {
+	position -5.7356 	 0.0069 	 2.3147
+}
+frame 88 {
+	position -5.7356 	 0.0069 	 2.1761
+}
+frame 89 {
+	position -5.7356 	 0.0069 	 2.0103
+}
+frame 90 {
+	position -5.7356 	 0.0069 	 1.8226
+}
+frame 91 {
+	position -5.7356 	 0.0069 	 1.6184
+}
+frame 92 {
+	position -5.7356 	 0.0069 	 1.4034
+}
+frame 93 {
+	position -5.7356 	 0.0069 	 1.1828
+}
+frame 94 {
+	position -5.7356 	 0.0069 	 0.9623
+}
+frame 95 {
+	position -5.7356 	 0.0069 	 0.7472
+}
+frame 96 {
+	position -5.7356 	 0.0069 	 0.5431
+}
+frame 97 {
+	position -5.7356 	 0.0069 	 0.3554
+}
+frame 98 {
+	position -5.7356 	 0.0069 	 0.1895
+}
+frame 99 {
+	position -5.7356 	 0.0069 	 0.051
+}
+frame 100 {
+	position -5.7356 	 0.0069 	 -0.0547
+}
+frame 101 {
+	position -5.7356 	 0.0069 	 -0.1222
+}
+frame 102 {
+	visibility 1
+	position -5.7356 	 0.0069 	 -0.1459
+	orientation 0 	 0 	 0 	 1
+}

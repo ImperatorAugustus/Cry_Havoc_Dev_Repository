@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/_vehicle/155mm_schneider_us"}
+	{bump "$/_vehicle/155mm_schneider_us_bp"}
+	{specular "$/_vehicle/155mm_schneider_us_sp"}
+	{color "230 230 230 25"}
+	{blend test}
+}

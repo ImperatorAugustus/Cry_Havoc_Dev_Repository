@@ -1,0 +1,191 @@
+;Exported by:	 TigerF
+;Date:			 04.04.2022 12:09:06
+;File:			 D:\PROGRAMS\3ds_max\3dsmax9_saves\scenes\goh_3d_vehicles_fin\3d vehicles\Cannon\155mm_h17\155mm_h17_xx.max
+{skeleton
+	{bone revolute "basis"
+		{parameters "wheelradius=0.67;"}
+		{orientation
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+		}
+		{bone "body"
+			{parameters "id=body;"}
+			{matrix34
+				0.9999 	 0.0087 	 -0.007
+				-0.0089 	 0.9995 	 -0.0315
+				0.0067 	 0.0315 	 0.9995
+				0 	 0 	 13.0975
+			}
+			{VolumeView "body.ply"}
+			{bone revolute "turret"
+				{parameters "id=body;"}
+				{matrix34
+					0.9996 	 0.0275 	 0.0078
+					-0.0275 	 0.9996 	 -0.0002
+					-0.0078 	 0 	 1
+					-72.9892 	 0 	 -12.0711
+				}
+				{VolumeView "turret.ply"}
+				{bone revolute "part3"
+					{parameters "id=part3;"}
+					{matrix34
+						0.9605 	 0 	 0.2784
+						-0.2784 	 0 	 0.9605
+						0 	 -1 	 0
+						73.0976 	 0 	 25.3764
+					}
+					{VolumeView "part3.ply"}
+					{bone "part2"
+						{parameters "id=part2;"}
+						{matrix34
+							0.999 	 0 	 -0.0436
+							-0.043 	 0.1682 	 -0.9848
+							0.0073 	 0.9857 	 0.1681
+							-28.6357 	 1.3449 	 1.2665
+						}
+						{VolumeView "part2.ply"}
+					}
+				}
+				{bone "part1"
+					{parameters "id=part1;"}
+					{orientation
+						1 	 0 	 -0.007
+						0 	 1 	 0
+						0.007 	 0 	 1
+					}
+					{VolumeView "part1.ply"}
+				}
+			}
+		}
+		{bone "pivot_front"
+			{Position 0 	 0 	 13.0975}
+			{bone revolute "wheell"
+				{parameters "id=wheelleft;"}
+				{matrix34
+					0.9962 	 0.0872 	 0.0041
+					0 	 0.0468 	 -0.9989
+					-0.0873 	 0.9951 	 0.0466
+					0 	 16.1198 	 0
+				}
+				{VolumeView "wheell.ply"}
+			}
+			{bone revolute "wheelr"
+				{parameters "id=wheelright;"}
+				{matrix34
+					0.9936 	 -0.1131 	 0
+					0.0115 	 0.1009 	 -0.9948
+					0.1125 	 0.9884 	 0.1016
+					0 	 -13.75 	 0
+				}
+				{VolumeView "wheelr.ply"}
+			}
+		}
+	}
+}
+{obstacle "obstacle"
+	{obb2
+		{center -0.0915146 0.0426579}
+		{extent 11.9489 18.4229}
+		{axis 1 0}
+	}
+	{rotate}
+}
+{obstacle "obstacle1"
+	{obb2
+		{center -39.3816 -0.000553131}
+		{extent 27.3752 7.1021}
+		{axis 1 0}
+	}
+	{rotate}
+}
+{volume "barrel1"
+	{polyhedron "barrel1.vol"}
+	{bone "part3"}
+	{matrix34
+		1 	 0 	 0
+		0 	 0 	 -1
+		0 	 1 	 0
+		-2.6874 	 -4.0944 	 -0.1001
+	}
+}
+{volume "barrel2"
+	{box 4.02484 9.25981 6.58785}
+	{bone "part2"}
+	{matrix34
+		1 	 0 	 0
+		0 	 0 	 1
+		0 	 -1 	 0
+		-2.0483 	 0.0451 	 1.7412
+	}
+}
+{volume "barrel3"
+	{polyhedron "barrel3.vol"}
+	{bone "part2"}
+	{Position 21.1867 	 0 	 -0.0176}
+}
+{volume "body1"
+	{cylinder 1.61415 26.9934}
+	{bone "body"}
+	{matrix34
+		1 	 0 	 0.007
+		-0.007 	 0 	 1
+		0 	 -1 	 0
+		0 	 0 	 0
+	}
+}
+{volume "body2"
+	{polyhedron "body2.vol"}
+	{bone "turret"}
+	{Position 27.6243 	 0.0997 	 2.7136}
+}
+{volume "body3"
+	{polyhedron "body3.vol"}
+	{bone "turret"}
+	{Position 60.729 	 0.0997 	 9.1102}
+}
+{volume "body4"
+	{polyhedron "body4.vol"}
+	{bone "turret"}
+	{Position 72.1571 	 0.0997 	 15.9701}
+}
+{volume "hole1"
+	{polyhedron "hole1.vol"}
+	{bone "part1"}
+	{matrix34
+		1 	 0 	 0.007
+		0 	 1 	 0
+		-0.007 	 0 	 1
+		81.335 	 -0.0172 	 26.2992
+	}
+}
+{volume "shield"
+	{box 0.83683 30.2126 33.5378}
+	{bone "part1"}
+	{matrix34
+		0.8625 	 0 	 0.506
+		-0.506 	 0 	 0.8625
+		0 	 -1 	 0
+		82.3055 	 0.0063 	 24.3891
+	}
+}
+{volume "wheelleft"
+	{cylinder 13.3268 3.05118}
+	{bone "wheell"}
+	{matrix34
+		-1 	 0 	 0
+		0 	 -1 	 0
+		0 	 0 	 1
+		0 	 0 	 0.4744
+	}
+}
+{volume "wheelright"
+	{cylinder 13.3268 3.05118}
+	{bone "wheelr"}
+	{matrix34
+		-1 	 0 	 0
+		0 	 -1 	 0
+		0 	 0 	 1
+		0 	 0 	 -0.5337
+	}
+}

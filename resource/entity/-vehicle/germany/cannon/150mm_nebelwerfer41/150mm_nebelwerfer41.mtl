@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/_vehicle/nebel"}
+	{bump "$/_vehicle/nebel_bp"}
+	{specular "$/_vehicle/nebel_sp"}
+	{color "230 230 230 25"}
+	{blend none}
+}

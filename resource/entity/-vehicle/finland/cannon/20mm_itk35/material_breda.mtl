@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/_vehicle/breda_20mm"}
+	{bump "$/_vehicle/breda_20mm_bp"}
+	{specular "$/_vehicle/breda_20mm_sp"}
+	{color "230 230 230 25"}
+	{blend test}
+}

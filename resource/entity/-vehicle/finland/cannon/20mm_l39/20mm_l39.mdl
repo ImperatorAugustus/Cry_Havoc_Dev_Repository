@@ -1,0 +1,196 @@
+;Exported by:	 guita
+;Date:			 22.10.2023 07:31:08
+;File:			 D:\Git\3D_Scenes\GoH_3D_vehicles_fin\3d vehicles\Cannon\20mm_l39\20mm_l39.max
+{skeleton
+	{animation
+		{sequence "recoil" {speed 1}}
+		{sequence "bolt" {speed 0.3}}
+		{sequence "close" {speed 1}}
+	}
+	{bone revolute "basis"
+		{speed 0.007}
+		{orientation
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+		}
+		{bone "emit1"
+			{Position -27.3274 	 3.9931 	 0.004}
+		}
+		{bone "emit2"
+			{Position -20.4666 	 -13.9484 	 0.004}
+		}
+		{bone "driver2"
+			{Position -10.3465 	 -0.2496 	 0.004}
+		}
+		{bone "driver1"
+			{Position 22.3772 	 -5.2351 	 0.004}
+		}
+		{bone revolute "body"
+			{limits -5 5}
+			{speed 0.01}
+			{Position 0.0092 	 0 	 0.004}
+			{bone "visor2"
+				{matrix34
+					1 	 0 	 0
+					0 	 0 	 1
+					0 	 -1 	 0
+					-3.9029 	 10.457 	 7.5671
+				}
+			}
+			{bone "gunner"
+				{matrix34
+					0.9986 	 -0.0523 	 0
+					0.0523 	 0.9986 	 0
+					0 	 0 	 1
+					-24.4323 	 5.507 	 0
+				}
+			}
+			{bone revolute "gun_rot"
+				{limits -5 12}
+				{speed 0.01}
+				{orientation
+					1 	 0 	 0
+					0 	 0 	 1
+					0 	 -1 	 0
+				}
+				{bone "gun"
+					{parameters "id=body;"}
+					{orientation
+						1 	 0 	 0
+						0 	 0 	 -1
+						0 	 1 	 0
+					}
+					{LODView
+						{VolumeView "gun.ply"}
+						{VolumeView "gun_lod1.ply"}
+					}
+					{bone "bipod_win"
+						{parameters "id=body;"}
+						{Position -0.0118 	 -0.0562 	 6.1461}
+						{LODView
+							{VolumeView "bipod_win.ply"}
+							{VolumeView "bipod_win_lod1.ply"}
+						}
+						{bone "bipod"
+							{parameters "id=body;"}
+							{matrix34
+								0 	 0 	 -1
+								0 	 1 	 0
+								1 	 0 	 0
+								0.026 	 0 	 -1.8854
+							}
+							{LODView
+								{VolumeView "bipod.ply"}
+								{VolumeView "bipod_lod1.ply"}
+							}
+						}
+					}
+					{bone "magazine"
+						{parameters "id=body;"}
+						{matrix34
+							0.0349 	 0.9994 	 0
+							-0.9994 	 0.0349 	 0
+							0 	 0 	 1
+							-3.8919 	 -0.0372 	 9.0795
+						}
+						{LODView
+							{VolumeView "magazine.ply"}
+							{VolumeView "magazine_lod1.ply"}
+						}
+					}
+					{bone "crank"
+						{parameters "id=body;"}
+						{Position -7.3506 	 -0.6921 	 5.8666}
+						{LODView
+							{VolumeView "crank.ply"}
+							{VolumeView "crank_lod1.ply"}
+						}
+					}
+					{bone "fxshell"
+						{matrix34
+							0.0523 	 0 	 -0.9986
+							0 	 1 	 0
+							0.9986 	 0 	 0.0523
+							-3.8093 	 -0.0354 	 4.0622
+						}
+					}
+					{bone "foresight1"
+						{Position 27.2162 	 -0.0356 	 6.2118}
+					}
+					{bone "visor"
+						{matrix34
+							1 	 0 	 0
+							0 	 0 	 1
+							0 	 -1 	 0
+							8.2752 	 -0.0356 	 7.4996
+						}
+					}
+				}
+			}
+		}
+		{bone "commander"
+			{matrix34
+				0.9659 	 0.2588 	 0
+				-0.2588 	 0.9659 	 0
+				0 	 0 	 1
+				-17.8248 	 -13.3957 	 0.004
+			}
+		}
+	}
+}
+{area "obstacle"
+	{obb2
+		{center 4.53811 0.0132437}
+		{extent 21.2878 1.01774}
+		{axis -1 0}
+	}
+}
+{area "open"
+	{obb2
+		{center -0.168968 0.0273736}
+		{extent 3.66105 4.29714}
+		{axis -1 0}
+	}
+	{Tags "open"}
+}
+{volume "body1"
+	{box 25.1606 2.95003 1.18611}
+	{bone "gun"}
+	{matrix34
+		1 	 0 	 0
+		0 	 0 	 1
+		0 	 -1 	 0
+		-2.8614 	 0.0422 	 6.0696
+	}
+}
+{volume "body2"
+	{cylinder 0.592274 16.4078}
+	{bone "gun"}
+	{matrix34
+		0 	 1 	 0
+		0 	 0 	 1
+		1 	 0 	 0
+		17.9197 	 0 	 6.2059
+	}
+}
+{volume "body3"
+	{polyhedron "body3.vol"}
+	{bone "bipod_win"}
+	{Position 0.0433 	 0.003 	 -3.7139}
+}
+{volume "magazine"
+	{box 4.15322 4.31716 0.819714}
+	{bone "magazine"}
+	{matrix34
+		0.0344 	 -0.9842 	 -0.1736
+		0.0061 	 -0.1735 	 0.9848
+		-0.9994 	 -0.0349 	 0
+		0.0184 	 -0.0243 	 -0.2148
+	}
+}
+{volume "select"
+	{box 44.0221 8.89858 11.9343}
+	{bone "body"}
+	{Position 4.6377 	 -0.0007 	 5.9671}
+}

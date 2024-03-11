@@ -1,0 +1,160 @@
+;Exported by: Alexey
+;Date:        Thu Oct 07 14:24:44 2010
+;File:        H:\VTV_models\Models_For_WiW\other\broneschitok_1\broneschitok_2.max
+{Skeleton
+	{bone revolute "basis"
+		{speed2 5}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "emit1"
+			{Position -13.4964	0	-0.0179038}
+		}
+		{bone revolute "turret"
+			{limits -8 8}
+			{speed2 40}
+			{Position -0.869549	-3.37546	5.00115}
+			{bone "gunner"
+				{Matrix34
+					0.996195 0 -0.087156  
+					0 1 0   
+					0.087156 0 0.996195 
+					-16	4	-6.5
+				}
+			}
+			{bone revolute "gun_rot"
+				{limits -15 15}
+				{speed2 40}
+				{Matrix34
+					1	0	0
+					0	0	1
+					0	-1	0
+					0	0	0.0541849
+				}
+				{bone "visor"
+					{Matrix34
+						1	0	0
+						0	0	-1
+						0	1	0
+						7.78236	2.7078	-0.170403
+					}
+				}
+				{bone "mgun"
+					{Matrix34
+						1	0	0
+						0	0.99987	0.016108
+						0	-0.016108	0.99987
+						-6.01374	-0.9959	-0.0389004
+					}
+					{bone "foresight3"
+						{parameters "Vis;"}
+						{Matrix34
+							1	0	0
+							0	-0.016108	-0.99987
+							0	0.99987	-0.016108
+							18.3504	0.921513	-0.0148454
+						}
+					}
+				}
+			}
+		}
+		{bone "body"
+			{parameters "ID=body;"}
+			{Position -1.35072	0	1.22205}
+			{VolumeView "body.ply"}
+		}
+		{bone "pivot_back"
+			{parameters "Vis;"}
+			{Position -9.15956	0	0}
+		}
+		{bone "pivot_front"
+			{parameters "Vis;"}
+			{Position 9.88733	0	0}
+			{bone "fxtracel1"
+				{parameters "Vis;"}
+				{Position -13.143	4.44613	0}
+			}
+			{bone "fxtracer1"
+				{parameters "Vis;"}
+				{Position -13.143	-4.16525	0}
+			}
+		}
+		{bone "driver"
+			{Matrix34
+				0.996195 0 -0.087156  
+				0 1 0   
+				0.087156 0 0.996195 
+				20	-2.0	0
+			}
+		}
+	}
+}
+{Obstacle "body1"
+	{Obb2
+		{Center -1.34251 8.85809}
+		{Extent 2.23124 4.78705}
+		{Axis 0.25946 0.965754}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body2"
+	{Obb2
+		{Center -1.39614 -8.95863}
+		{Extent 5.2453 2.14662}
+		{Axis 0.981646 0.190713}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body"
+	{Obb2
+		{Center 2.42879 -0.0767202}
+		{Extent 3.05102 8.57933}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body1"
+	{Box 1.65192 7.22953 12.4823}
+	{Bone "body"}
+	{Matrix34
+		0.205373	-0.95345	0.220805
+		0.947521	0.250187	0.199024
+		-0.245002	0.168344	0.954796
+		0.00820553	-8.85809	4.29336
+	}
+}
+{Volume "body2"
+	{Box 1.65192 7.22953 12.3587}
+	{Bone "body"}
+	{Matrix34
+		-0.127278	-0.96998	-0.207217
+		0.940046	-0.184611	0.286761
+		-0.316408	-0.158296	0.935323
+		-0.0454245	8.95863	4.11404
+	}
+}
+{Volume "body"
+	{Box 1.84502 17.1587 12.4823}
+	{Bone "body"}
+	{Matrix34
+		0.936594	0	0.350417
+		0	1	0
+		-0.350417	0	0.936594
+		3.7795	0.0767172	4.89731
+	}
+}
+{Volume "hole1"
+	{Box 1.33764 2.1679 4.8893}
+	{Bone "body"}
+	{Matrix34
+		0	-1	0
+		0	0	1
+		-1	0	0
+		3.71356	-3.32974	5.01957
+	}
+}

@@ -1,0 +1,95 @@
+;Exported by:	 TigerF
+;Date:			 12.05.2022 12:27:26
+;File:			 D:\PROGRAMS\3ds_max\3dsmax9_saves\scenes\GoH_3D_vehicles_fin\3d vehicles\Cannon\20mm_l39\20mm_l39_xx.max
+{skeleton
+	{bone revolute "basis"
+		{orientation
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+		}
+		{bone revolute "body"
+			{Position 0.0092 	 0 	 0.004}
+			{bone revolute "gun_rot"
+				{orientation
+					1 	 0 	 0
+					0 	 0 	 1
+					0 	 -1 	 0
+				}
+				{bone "part2"
+					{parameters "id=part2;"}
+					{orientation
+						1 	 0 	 0
+						0 	 0 	 -1
+						0 	 1 	 0
+					}
+					{LODView
+						{VolumeView "part2.ply"}
+						{VolumeView "part2_lod1.ply"}
+					}
+				}
+				{bone "part1"
+					{parameters "id=part1;"}
+					{matrix34
+						1 	 0 	 0
+						0 	 0 	 -1
+						0 	 1 	 0
+						-0.0118 	 6.1461 	 0.0562
+					}
+					{LODView
+						{VolumeView "part1.ply"}
+						{VolumeView "part1_lod1.ply"}
+					}
+				}
+				{bone "part3"
+					{parameters "id=part3;"}
+					{matrix34
+						1 	 0 	 0
+						0 	 0 	 -1
+						0 	 1 	 0
+						-3.8919 	 9.0795 	 0.0372
+					}
+					{LODView
+						{VolumeView "part3.ply"}
+						{VolumeView "part3_lod1.ply"}
+					}
+				}
+			}
+		}
+	}
+}
+{volume "body1"
+	{box 25.1606 2.95003 1.18611}
+	{bone "part2"}
+	{matrix34
+		1 	 0 	 0
+		0 	 0 	 1
+		0 	 -1 	 0
+		-2.8614 	 0.0422 	 6.0696
+	}
+}
+{volume "body2"
+	{cylinder 0.592274 16.4078}
+	{bone "part2"}
+	{matrix34
+		0.0872 	 0.9962 	 0
+		0 	 0 	 1
+		0.9962 	 -0.0872 	 0
+		17.9197 	 -0.6462 	 6.2059
+	}
+}
+{volume "body3"
+	{polyhedron "body3.vol"}
+	{bone "part1"}
+	{Position 0.0433 	 0.003 	 -3.7139}
+}
+{volume "magazine"
+	{box 4.15322 4.31716 0.819714}
+	{bone "part3"}
+	{matrix34
+		0.9848 	 0 	 -0.1736
+		0.1736 	 0 	 0.9848
+		0 	 -1 	 0
+		0.025 	 0.0175 	 -0.2148
+	}
+}

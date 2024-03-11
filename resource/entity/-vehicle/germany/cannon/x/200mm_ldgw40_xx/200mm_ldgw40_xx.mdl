@@ -1,0 +1,102 @@
+;Exported by:	 guita
+;Date:			 21.05.2022 16:06:49
+;File:			 D:\Git\3D_Scenes\GoH_3D_vehicles_ger\vehicles\cannon\20cm_leLdgW\20cm_leLdgW_xx.max
+{skeleton
+	{bone revolute "basis"
+		{orientation
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+		}
+		{bone "body"
+			{parameters "id=body;"}
+			{Position 0.0214 	 0 	 0.6149}
+			{VolumeView "body.ply"}
+			{bone "part1"
+				{parameters "id=part1;"}
+				{matrix34
+					0.8387 	 0 	 0.5446
+					0.2723 	 0.866 	 -0.4193
+					-0.4717 	 0.5 	 0.7263
+					13.9527 	 -1.9999 	 12.7748
+				}
+				{VolumeView "part1.ply"}
+			}
+			{bone "part2"
+				{parameters "id=part2;"}
+				{matrix34
+					0.8387 	 0 	 0.5446
+					0 	 1 	 0
+					-0.5446 	 0 	 0.8387
+					13.9527 	 1.9559 	 12.7748
+				}
+				{VolumeView "part2.ply"}
+			}
+			{bone "part3"
+				{parameters "id=part3;"}
+				{matrix34
+					0.8772 	 0 	 0.4801
+					0 	 1 	 0
+					-0.4801 	 0 	 0.8772
+					15.9833 	 0.0171 	 8.9231
+				}
+				{VolumeView "part3.ply"}
+			}
+			{bone "part4"
+				{parameters "id=part4;"}
+				{Position -0.0041 	 0 	 -0.0549}
+				{VolumeView "part4.ply"}
+			}
+		}
+	}
+}
+{volume "body"
+	{box 10.918 11.2072 2.18268}
+	{bone "body"}
+	{matrix34
+		0.9948 	 0 	 -0.1022
+		0 	 1 	 0
+		0.1022 	 0 	 0.9948
+		-0.1121 	 0.0374 	 -0.3233
+	}
+}
+{volume "part1"
+	{cylinder 0.683256 19.5581}
+	{bone "part1"}
+	{matrix34
+		0.9176 	 0.3942 	 -0.0511
+		-0.395 	 0.9186 	 -0.0076
+		0.0439 	 0.0271 	 0.9987
+		-0.6022 	 -0.2959 	 -7.9375
+	}
+}
+{volume "part2"
+	{cylinder 0.683256 19.5581}
+	{bone "part2"}
+	{matrix34
+		-0.0439 	 0.8552 	 0.5165
+		-0.9966 	 -0.0736 	 0.037
+		0.0697 	 -0.5131 	 0.8555
+		-0.582 	 3.9144 	 -6.5352
+	}
+}
+{volume "part3"
+	{cylinder 0.712583 13.2415}
+	{bone "part3"}
+	{matrix34
+		1 	 0 	 -0.002
+		0 	 1 	 0
+		0.002 	 0 	 1
+		0.0034 	 0.036 	 -0.1145
+	}
+}
+{volume "part4"
+	{box 6.28099 14.8149 2.32124}
+	{bone "part4"}
+	{matrix34
+		0.9515 	 0 	 -0.3076
+		0.3076 	 0 	 0.9515
+		0 	 -1 	 0
+		4.5633 	 0.0488 	 7.4739
+	}
+}

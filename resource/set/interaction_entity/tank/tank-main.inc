@@ -494,6 +494,71 @@
 			}
 		}
 	}
+	
+	{on "knock_out"
+		{if not tagged "knocked_out"
+			{call "stat_break"}
+			{tags add "knocked_out"}
+			{tags add "no_scavenge"}		;// tag for conquest so that vehicle cannot be repaired/recovered
+
+			{able select 0}
+			{able repaired 0}
+			{able minimap 0}
+			{call "emit_crew"}
+			{call "engine_off"}
+			{delay 2
+				{kick_entity_manager}
+				{tags add "destroyed"}
+			}
+		}
+	}
+	
+	{on "fire_knock_out"
+		{if not tagged "vehicle_destroyed"
+			{if not tagged "ammo_cooked"
+				{call "stat_break"}
+				{tags add "vehicle_destroyed"}
+				{ani_wind "open" end}
+				{ani_wind "open1" end}
+				{tags add "no_scavenge"}		;// tag for conquest so that vehicle cannot be repaired/recovered
+
+				{able select 0}
+				{able repaired 0}
+				{able minimap 0}
+				{delay 1
+					{call "burn_emit"}
+					{call "engine_off"}
+				}
+				{delay 2
+					{kick_entity_manager}
+					{tags add "destroyed"}
+				}
+				{view start "smoke_vehicle_death"}
+				{delay 5 2
+					{if not tagged "exploded"
+						;//{view pause "cooking_presmoke_1"}
+						{view pause "smoke_vehicle_death"}
+						{view start "fire_vehicle_death"}
+						{play_sound "flame_1" 1}
+						{clear_inventory}
+						{delay 500 60
+							{if not tagged "exploded"
+								{view pause "fire_vehicle_death"}
+								{view start "smoke_vehicle_death"}
+								{stop_sound "flame_1"}
+								{tags add "ammo_cooked"}
+							}
+						}
+					}
+				}
+				{delay 200 200
+					{if rand 0.3
+						{call_synced "rand_break_ammo"}
+					}
+				}
+			}
+		}
+	}
 
 	{on "vehicle_destroyed"
 		{if not tagged "vehicle_destroyed"

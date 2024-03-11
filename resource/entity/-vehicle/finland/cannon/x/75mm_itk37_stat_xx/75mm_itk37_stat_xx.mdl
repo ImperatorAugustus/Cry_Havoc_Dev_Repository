@@ -1,0 +1,113 @@
+;Exported by:	 TigerF
+;Date:			 01.06.2022 18:50:59
+;File:			 D:\PROGRAMS\3ds_max\3dsmax9_saves\scenes\GoH_3D_vehicles_fin\3d vehicles\Cannon\75mm_itk37\75mm_itk37_static_xx.max
+{skeleton
+	{bone "basis"
+		{orientation
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+		}
+		{bone "body"
+			{parameters "id=body;"}
+			{Position -0.0005 	 -0.0069 	 11.2404}
+			{VolumeView "body.ply"}
+			{bone revolute "turret"
+				{speed 0.007}
+				{Position 0 	 0 	 3.3203}
+				{bone "turreta"
+					{parameters "id=body;"}
+					{orientation
+						0.9781 	 0.2078 	 0.0073
+						-0.2071 	 0.9769 	 -0.0531
+						-0.0181 	 0.0504 	 0.9986
+					}
+					{VolumeView "turreta.ply"}
+					{bone revolute "part1"
+						{parameters "id=part1;"}
+						{matrix34
+							0.9659 	 0 	 0.2588
+							-0.2588 	 0 	 0.9659
+							0 	 -1 	 0
+							-15.2872 	 0 	 14.8374
+						}
+						{VolumeView "part1.ply"}
+						{bone "part2"
+							{parameters "id=part2;"}
+							{matrix34
+								0.9976 	 0 	 -0.0698
+								-0.0689 	 -0.1564 	 -0.9853
+								-0.0109 	 0.9877 	 -0.1561
+								-5.0682 	 3.6498 	 1.901
+							}
+							{VolumeView "part2.ply"}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+{obstacle "obstacle"
+	{obb2
+		{center 1.05118 0.136629}
+		{extent 21.3279 17.0574}
+		{axis 1 0}
+	}
+	{rotate}
+}
+{volume "barrel1"
+	{box 40.042 3.82515 5.42911}
+	{bone "part1"}
+	{Position 13.4119 	 -0.9513 	 -0.0914}
+}
+{volume "barrel2"
+	{cylinder 0.748686 19.61}
+	{bone "part1"}
+	{matrix34
+		0 	 0 	 -1
+		0 	 1 	 0
+		1 	 0 	 0
+		43.2259 	 -1.3838 	 0
+	}
+}
+{volume "barrel3"
+	{box 5.78364 5.75487 6.67104}
+	{bone "part2"}
+	{matrix34
+		1 	 0 	 0
+		0 	 0 	 1
+		0 	 -1 	 0
+		-5.4351 	 -0.4956 	 -0.3045
+	}
+}
+{volume "barrel4"
+	{polyhedron "barrel4.vol"}
+	{bone "part2"}
+	{Position 31.62 	 0 	 0.0222}
+}
+{volume "body1"
+	{polyhedron "body1.vol"}
+	{bone "body"}
+	{Position -0.1088 	 -0.0105 	 -4.2681}
+}
+{volume "body4"
+	{box 31.3947 9.17255 13.0496}
+	{bone "turreta"}
+	{matrix34
+		1 	 0 	 0
+		0 	 0 	 1
+		0 	 -1 	 0
+		-1.2865 	 0.168 	 10.0844
+	}
+}
+{volume "body5"
+	{box 13.1858 6.39786 13.0496}
+	{bone "turreta"}
+	{matrix34
+		1 	 0 	 0
+		0 	 0 	 1
+		0 	 -1 	 0
+		-1.2865 	 0.168 	 2.3118
+	}
+}

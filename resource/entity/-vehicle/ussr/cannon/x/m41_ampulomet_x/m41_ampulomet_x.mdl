@@ -1,0 +1,42 @@
+;Exported by:	 guita
+;Date:			 07.11.2020 08:46:02
+;File:			 D:\Git\3D_Scenes\GoH_3D_vehicles_rus\vehicles\cannon\m41_ampulomet\m41_ampulomet_x_export.max
+{skeleton
+	{bone revolute "basis"
+		{orientation
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+		}
+		{bone "body"
+			{parameters "id=body;"}
+			{Position -0.0107 	 -0.0046 	 1.0323}
+			{VolumeView "body.ply"}
+			{bone revolute "turret"
+				{parameters "id=body;"}
+				{Position 0.0123 	 0.0046 	 3.5398}
+				{VolumeView "turret.ply"}
+				{bone revolute "gun_rot"
+					{parameters "id=body;"}
+					{matrix34
+						1 	 0 	 0
+						0 	 0 	 -1
+						0 	 1 	 0
+						0 	 -0.0073 	 2.1441
+					}
+					{VolumeView "gun_rot.ply"}
+					{bone "aim"
+						{parameters "id=body;"}
+						{matrix34
+							1 	 0 	 0
+							0 	 0 	 1
+							0 	 -1 	 0
+							-4.1145 	 -1.4873 	 0
+						}
+						{VolumeView "aim.ply"}
+					}
+				}
+			}
+		}
+	}
+}

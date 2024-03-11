@@ -1,0 +1,200 @@
+;Exported by:	 Carlos
+;Date:			 22.12.2021 18:59:17
+;File:			 T:\goh_3d_vehicles_fin\3d vehicles\Cannon\B-8\BL-8 203mm_x.max
+{skeleton
+	{bone "basis"
+		{orientation
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+		}
+		{bone "body"
+			{parameters "id=body;"}
+			{animation
+				{sequence "break" {file "body_b.anm"}{speed 0.6}}
+			}
+			{Position 0.0173 	 0.0464 	 16.0901}
+			{LODView
+				{VolumeView "body.ply"}
+				{VolumeView "body_lod1.ply"}
+			}
+			{bone "pivot_front"
+				{Position -0.0094 	 -0.0464 	 -0.0257}
+				{bone prizmatic "suspension_r1"
+					{limits -0.06 0.02}
+					{speed 0.09}
+					{Position 0 	 -16.8132 	 0}
+					{bone revolute "wheelr"
+						{parameters "id=wheelright;radius=0.83;"}
+						{matrix34
+							0.5 	 0 	 -0.866
+							-0.866 	 0 	 -0.5
+							0 	 1 	 0
+							0 	 0 	 0
+						}
+						{LODView
+							{VolumeView "wheelr.ply"}
+							{VolumeView "wheelr_lod1.ply"}
+						}
+					}
+					{bone revolute "wheelr_detail"
+						{parameters "id=wheelright;radius=0.83;"}
+						{matrix34
+							0.5 	 0 	 -0.866
+							-0.866 	 0 	 -0.5
+							0 	 1 	 0
+							0 	 0 	 0
+						}
+						{LODView
+							{VolumeView "wheelr_detail.ply"}
+							{VolumeView "wheelr_detail_lod1.ply"}
+						}
+					}
+				}
+				{bone prizmatic "suspension_l1"
+					{limits -0.06 0.02}
+					{speed 0.09}
+					{Position 0 	 16.8526 	 0}
+					{bone revolute "wheell"
+						{parameters "id=wheelleft;radius=0.83;"}
+						{matrix34
+							1 	 0 	 0
+							0 	 0 	 -1
+							0 	 1 	 0
+							0 	 0 	 0
+						}
+						{LODView
+							{VolumeView "wheell.ply"}
+							{VolumeView "wheell_lod1.ply"}
+						}
+					}
+					{bone revolute "wheell_detail"
+						{parameters "id=wheelleft;radius=0.83;"}
+						{matrix34
+							1 	 0 	 0
+							0 	 0 	 -1
+							0 	 1 	 0
+							0 	 0 	 0
+						}
+						{LODView
+							{VolumeView "wheell_detail.ply"}
+							{VolumeView "wheell_detail_lod1.ply"}
+						}
+					}
+				}
+			}
+			{bone "body_detail"
+				{parameters "id=body;"}
+				{matrix34
+					0 	 -1 	 0
+					0.9863 	 0 	 0.165
+					-0.165 	 0 	 0.9863
+					-27.6492 	 -9.9476 	 -3.4449
+				}
+				{LODView
+					{VolumeView "body_detail.ply"}
+					{VolumeView "body_detail_lod1.ply"}
+				}
+				{bone "body_detail_r"
+					{parameters "id=body;"}
+					{Position -0.5547 	 -4.5609 	 2.7684}
+					{LODView
+						{VolumeView "body_detail_r.ply"}
+						{VolumeView "body_detail_r_lod1.ply"}
+					}
+				}
+				{bone "body_detail_l"
+					{parameters "id=body;"}
+					{Position -0.5547 	 -15.3343 	 2.7684}
+					{LODView
+						{VolumeView "body_detail_l.ply"}
+						{VolumeView "body_detail_l_lod1.ply"}
+					}
+				}
+			}
+			{bone revolute "turret"
+				{parameters "id=body;"}
+				{limits -4 4}
+				{speed 0.002}
+				{Position 10.8741 	 -0.0463 	 -0.8545}
+				{LODView
+					{VolumeView "turret.ply"}
+					{VolumeView "turret_lod1.ply"}
+				}
+				{bone revolute "gun_rot"
+					{parameters "id=gun;"}
+					{animation
+						{sequence "break" {file "gun_b.anm"}{speed 0.5}}
+					}
+					{limits -5 40}
+					{speed 0.003}
+					{matrix34
+						1 	 0 	 0
+						0 	 0 	 1
+						0 	 -1 	 0
+						-7.4801 	 0.0169 	 10.8317
+					}
+					{LODView
+						{VolumeView "gun_rot.ply"}
+						{VolumeView "gun_rot_lod1.ply"}
+					}
+					{bone "gun"
+						{parameters "id=gun;"}
+						{matrix34
+							0 	 0 	 1
+							1 	 0 	 0
+							0 	 1 	 0
+							6.1337 	 1.9138 	 0.7657
+						}
+						{LODView
+							{VolumeView "gun.ply"}
+							{VolumeView "gun_lod1.ply"}
+						}
+						{bone "breech"
+							{parameters "id=gun;"}
+							{Position 4.6795 	 -26.6525 	 1.7059}
+							{LODView
+								{VolumeView "breech.ply"}
+								{VolumeView "breech_lod1.ply"}
+							}
+							{bone "handle"
+								{parameters "id=gun;"}
+								{Position 0.8626 	 -3.1558 	 -0.2817}
+								{LODView
+									{VolumeView "handle.ply"}
+									{VolumeView "handle_lod1.ply"}
+								}
+							}
+						}
+					}
+				}
+				{bone "aim_vertical"
+					{parameters "id=body;"}
+					{matrix34
+						0 	 -1 	 0
+						0.9821 	 0 	 -0.1882
+						0.1882 	 0 	 0.9821
+						-33.0355 	 11.1711 	 2.4993
+					}
+					{LODView
+						{VolumeView "aim_vertical.ply"}
+						{VolumeView "aim_vertical_lod1.ply"}
+					}
+				}
+				{bone "aim_horizontal"
+					{parameters "id=body;"}
+					{matrix34
+						0 	 -1 	 0
+						1 	 0 	 0
+						0 	 0 	 1
+						-31.3766 	 16.0968 	 -0.9559
+					}
+					{LODView
+						{VolumeView "aim_horizontal.ply"}
+						{VolumeView "aim_horizontal_lod1.ply"}
+					}
+				}
+			}
+		}
+	}
+}

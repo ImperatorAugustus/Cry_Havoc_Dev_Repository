@@ -1,0 +1,38 @@
+{game_entity
+	(include "/properties/vehicle_xx.ext")
+	{extension "37mm_pak36_xx.mdl"}
+	{volume "barrel1"
+		{thickness 20}
+	}
+	{volume "body"
+		{thickness 8}
+	}
+	{volume "part1" ;// Gun
+		{thickness 20}
+	}
+	{volume "part2" ;// Lower shield
+		{thickness 4.5}
+	}
+	{volume "part3" ;// stand right
+		{thickness 8}
+	}
+	{volume "shield1"
+		{thickness 4.5}
+		{able {holed}}
+	}
+	{volume "shield2"
+		{thickness 4.5}
+	}
+	{volume "shield3"
+		{thickness 4.5}
+	}
+	{volume "standl"
+		{thickness 8}
+	}
+	{volume "wheelleft"
+		{thickness 0.5}
+	}
+	{volume "wheelright"
+		{thickness 0.5}
+	}
+}

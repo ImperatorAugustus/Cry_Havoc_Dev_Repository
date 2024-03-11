@@ -1,0 +1,640 @@
+-= Animation: recoil, Node turreta =-
+ frame 0 {
+	visibility 1
+	position 0 	 0 	 0
+	orientation 0 	 0 	 0 	 1
+}
+frame 7 {
+	orientation 0 	 0 	 0 	 1
+}
+frame 8 {
+	orientation 0 	 0 	 0 	 1
+}
+frame 9 {
+	orientation 0 	 0.0002 	 0 	 1
+}
+frame 10 {
+	orientation 0 	 0.0003 	 0 	 1
+}
+frame 11 {
+	orientation 0 	 0.0005 	 0 	 1
+}
+frame 12 {
+	orientation 0 	 0.0007 	 0 	 1
+}
+frame 13 {
+	orientation 0 	 0.0009 	 0 	 1
+}
+frame 14 {
+	orientation 0 	 0.0011 	 0 	 1
+}
+frame 15 {
+	orientation 0 	 0.0014 	 0 	 1
+}
+frame 16 {
+	orientation 0 	 0.0016 	 0 	 1
+}
+frame 17 {
+	orientation 0 	 0.0019 	 0 	 1
+}
+frame 18 {
+	orientation 0 	 0.0021 	 0 	 1
+}
+frame 19 {
+	orientation 0 	 0.0024 	 0 	 1
+}
+frame 20 {
+	orientation 0 	 0.0026 	 0 	 1
+}
+frame 21 {
+	orientation 0 	 0.0028 	 0 	 1
+}
+frame 22 {
+	orientation 0 	 0.003 	 0 	 1
+}
+frame 23 {
+	orientation 0 	 0.0032 	 0 	 1
+}
+frame 24 {
+	orientation 0 	 0.0033 	 0 	 1
+}
+frame 25 {
+	orientation 0 	 0.0034 	 0 	 1
+}
+frame 26 {
+	orientation 0 	 0.0035 	 0 	 1
+}
+frame 27 {
+	orientation 0 	 0.0035 	 0 	 1
+}
+frame 28 {
+	orientation 0 	 0.0034 	 0 	 1
+}
+frame 29 {
+	orientation 0 	 0.0033 	 0 	 1
+}
+frame 30 {
+	orientation 0 	 0.0031 	 0 	 1
+}
+frame 31 {
+	orientation 0 	 0.0029 	 0 	 1
+}
+frame 32 {
+	orientation 0 	 0.0026 	 0 	 1
+}
+frame 33 {
+	orientation 0 	 0.0022 	 0 	 1
+}
+frame 34 {
+	orientation 0 	 0.0019 	 0 	 1
+}
+frame 35 {
+	orientation 0 	 0.0015 	 0 	 1
+}
+frame 36 {
+	orientation 0 	 0.0011 	 0 	 1
+}
+frame 37 {
+	orientation 0 	 0.0007 	 0 	 1
+}
+frame 38 {
+	orientation 0 	 0.0003 	 0 	 1
+}
+frame 39 {
+	orientation 0 	 0 	 0 	 1
+}
+frame 40 {
+	orientation 0 	 -0.0004 	 0 	 1
+}
+frame 41 {
+	orientation 0 	 -0.0007 	 0 	 1
+}
+frame 42 {
+	orientation 0 	 -0.001 	 0 	 1
+}
+frame 43 {
+	orientation 0 	 -0.0011 	 0 	 1
+}
+frame 44 {
+	orientation 0 	 -0.0013 	 0 	 1
+}
+frame 45 {
+	orientation 0 	 -0.0013 	 0 	 1
+}
+frame 46 {
+	orientation 0 	 -0.0013 	 0 	 1
+}
+frame 47 {
+	orientation 0 	 -0.0012 	 0 	 1
+}
+frame 48 {
+	orientation 0 	 -0.0012 	 0 	 1
+}
+frame 49 {
+	orientation 0 	 -0.0011 	 0 	 1
+}
+frame 50 {
+	orientation 0 	 -0.001 	 0 	 1
+}
+frame 51 {
+	orientation 0 	 -0.0008 	 0 	 1
+}
+frame 52 {
+	orientation 0 	 -0.0007 	 0 	 1
+}
+frame 53 {
+	orientation 0 	 -0.0006 	 0 	 1
+}
+frame 54 {
+	orientation 0 	 -0.0005 	 0 	 1
+}
+frame 55 {
+	orientation 0 	 -0.0003 	 0 	 1
+}
+frame 56 {
+	orientation 0 	 -0.0002 	 0 	 1
+}
+frame 57 {
+	orientation 0 	 -0.0001 	 0 	 1
+}
+frame 58 {
+	orientation 0 	 0 	 0 	 1
+}
+frame 59 {
+	orientation 0 	 0 	 0 	 1
+}
+frame 60 {
+	visibility 1
+	position 0 	 0 	 0
+	orientation 0 	 0 	 0 	 1
+}
+-= Animation: repair, Node turreta =-
+ frame 62 {
+	visibility 1
+	position 0 	 0 	 0
+	orientation 0.026 	 0.0064 	 -0.1043 	 0.9942
+}
+frame 73 {
+	orientation 0.0231 	 0.0065 	 -0.0881 	 0.9958
+}
+frame 74 {
+	orientation 0.0162 	 0.0073 	 -0.0493 	 0.9986
+}
+frame 75 {
+	orientation 0.008 	 0.0089 	 -0.0029 	 0.9999
+}
+frame 76 {
+	orientation 0.0013 	 0.0108 	 0.0359 	 0.9993
+}
+frame 77 {
+	orientation -0.0014 	 0.0117 	 0.0522 	 0.9986
+}
+frame 78 {
+	orientation -0.0013 	 0.0105 	 0.0468 	 0.9988
+}
+frame 79 {
+	orientation -0.0011 	 0.0076 	 0.0338 	 0.9994
+}
+frame 80 {
+	orientation -0.0006 	 0.0041 	 0.0184 	 0.9998
+}
+frame 81 {
+	orientation -0.0002 	 0.0012 	 0.0054 	 1
+}
+frame 82 {
+	visibility 1
+	position 0 	 0 	 0
+	orientation 0 	 0 	 0 	 1
+}
+-= Animation: repair, Node gun_rot =-
+ frame 84 {
+	visibility 1
+	position -15.2872 	 0 	 14.8374
+	orientation -0.7011 	 0.0923 	 -0.0923 	 0.7011
+}
+frame 85 {
+	orientation -0.7039 	 0.0669 	 -0.0669 	 0.7039
+}
+frame 86 {
+	orientation -0.7068 	 0.0194 	 -0.0194 	 0.7068
+}
+frame 87 {
+	orientation -0.7071 	 -0.0062 	 0.0062 	 0.7071
+}
+frame 88 {
+	orientation -0.7071 	 0.0018 	 -0.0018 	 0.7071
+}
+frame 89 {
+	orientation -0.7069 	 0.0167 	 -0.0167 	 0.7069
+}
+frame 90 {
+	orientation -0.7067 	 0.0247 	 -0.0247 	 0.7067
+}
+frame 91 {
+	orientation -0.7069 	 0.0183 	 -0.0183 	 0.7069
+}
+frame 92 {
+	orientation -0.7071 	 0.0064 	 -0.0064 	 0.7071
+}
+frame 93 {
+	orientation -0.7071 	 0 	 0 	 0.7071
+}
+frame 102 {
+	visibility 1
+	position -15.2872 	 0 	 14.8374
+	orientation -0.7071 	 0 	 0 	 0.7071
+}
+-= Animation: recoil, Node gun =-
+ frame 0 {
+	visibility 1
+	position 11.1009 	 3.6498 	 0
+	orientation 0.7071 	 0 	 0 	 0.7071
+}
+frame 1 {
+	position 10.3243 	 3.6498 	 0
+}
+frame 2 {
+	position 8.3215 	 3.6498 	 0
+}
+frame 3 {
+	position 5.583 	 3.6498 	 0
+}
+frame 4 {
+	position 2.5992 	 3.6498 	 0
+}
+frame 5 {
+	position -0.1393 	 3.6498 	 0
+}
+frame 6 {
+	position -2.1421 	 3.6498 	 0
+}
+frame 7 {
+	position -2.9187 	 3.6498 	 0
+}
+frame 8 {
+	position -2.8963 	 3.6498 	 0
+}
+frame 9 {
+	position -2.8305 	 3.6498 	 0
+}
+frame 10 {
+	position -2.7235 	 3.6498 	 0
+}
+frame 11 {
+	position -2.5773 	 3.6498 	 0
+}
+frame 12 {
+	position -2.3941 	 3.6498 	 0
+}
+frame 13 {
+	position -2.176 	 3.6498 	 0
+}
+frame 14 {
+	position -1.9251 	 3.6498 	 0
+}
+frame 15 {
+	position -1.6435 	 3.6498 	 0
+}
+frame 16 {
+	position -1.3333 	 3.6498 	 0
+}
+frame 17 {
+	position -0.9967 	 3.6498 	 0
+}
+frame 18 {
+	position -0.6357 	 3.6498 	 0
+}
+frame 19 {
+	position -0.2526 	 3.6498 	 0
+}
+frame 20 {
+	position 0.1507 	 3.6498 	 0
+}
+frame 21 {
+	position 0.572 	 3.6498 	 0
+}
+frame 22 {
+	position 1.0091 	 3.6498 	 0
+}
+frame 23 {
+	position 1.46 	 3.6498 	 0
+}
+frame 24 {
+	position 1.9225 	 3.6498 	 0
+}
+frame 25 {
+	position 2.3945 	 3.6498 	 0
+}
+frame 26 {
+	position 2.874 	 3.6498 	 0
+}
+frame 27 {
+	position 3.3587 	 3.6498 	 0
+}
+frame 28 {
+	position 3.8466 	 3.6498 	 0
+}
+frame 29 {
+	position 4.3356 	 3.6498 	 0
+}
+frame 30 {
+	position 4.8235 	 3.6498 	 0
+}
+frame 31 {
+	position 5.3083 	 3.6498 	 0
+}
+frame 32 {
+	position 5.7877 	 3.6498 	 0
+}
+frame 33 {
+	position 6.2597 	 3.6498 	 0
+}
+frame 34 {
+	position 6.7223 	 3.6498 	 0
+}
+frame 35 {
+	position 7.1731 	 3.6498 	 0
+}
+frame 36 {
+	position 7.6103 	 3.6498 	 0
+}
+frame 37 {
+	position 8.0315 	 3.6498 	 0
+}
+frame 38 {
+	position 8.4348 	 3.6498 	 0
+}
+frame 39 {
+	position 8.818 	 3.6498 	 0
+}
+frame 40 {
+	position 9.1789 	 3.6498 	 0
+}
+frame 41 {
+	position 9.5155 	 3.6498 	 0
+}
+frame 42 {
+	position 9.8257 	 3.6498 	 0
+}
+frame 43 {
+	position 10.1073 	 3.6498 	 0
+}
+frame 44 {
+	position 10.3582 	 3.6498 	 0
+}
+frame 45 {
+	position 10.5763 	 3.6498 	 0
+}
+frame 46 {
+	position 10.7596 	 3.6498 	 0
+}
+frame 47 {
+	position 10.9057 	 3.6498 	 0
+}
+frame 48 {
+	position 11.0128 	 3.6498 	 0
+}
+frame 49 {
+	position 11.0785 	 3.6498 	 0
+}
+frame 50 {
+	position 11.1009 	 3.6498 	 0
+}
+frame 60 {
+	visibility 1
+	position 11.1009 	 3.6498 	 0
+	orientation 0.7071 	 0 	 0 	 0.7071
+}
+-= Animation: repair, Node gun =-
+ frame 84 {
+	visibility 1
+	position -5.0682 	 3.6498 	 1.901
+	orientation 0.7599 	 -0.0227 	 -0.0265 	 0.6491
+}
+frame 94 {
+	position -5.076 	 3.6654 	 1.4936
+	orientation 0.7437 	 -0.0198 	 -0.0217 	 0.6679
+}
+frame 95 {
+	position -5.0905 	 3.6944 	 0.7032
+	orientation 0.7122 	 -0.0132 	 -0.0124 	 0.7017
+}
+frame 96 {
+	position -5.0983 	 3.7099 	 0.1775
+	orientation 0.6947 	 -0.0069 	 -0.0054 	 0.7193
+}
+frame 97 {
+	position -0.8985 	 3.6944 	 0.0526
+	orientation 0.6979 	 -0.0033 	 -0.0022 	 0.7162
+}
+frame 98 {
+	position 6.9011 	 3.6654 	 0.0066
+	orientation 0.7039 	 -0.0009 	 -0.0005 	 0.7103
+}
+frame 99 {
+	position 11.1009 	 3.6498 	 0
+	orientation 0.7071 	 0 	 0 	 0.7071
+}
+frame 102 {
+	visibility 1
+	position 11.1009 	 3.6498 	 0
+	orientation 0.7071 	 0 	 0 	 0.7071
+}
+-= Animation: shell_eject, Node lever =-
+ frame 120 {
+	visibility 1
+	position -3.8115 	 -3.81 	 -2.2928
+	orientation 0 	 0 	 0 	 1
+}
+frame 121 {
+	orientation 0 	 0.0059 	 0 	 1
+}
+frame 122 {
+	orientation 0 	 0.023 	 0 	 0.9997
+}
+frame 123 {
+	orientation 0 	 0.0498 	 0 	 0.9988
+}
+frame 124 {
+	orientation 0 	 0.0852 	 0 	 0.9964
+}
+frame 125 {
+	orientation 0 	 0.1278 	 0 	 0.9918
+}
+frame 126 {
+	orientation 0 	 0.1763 	 0 	 0.9843
+}
+frame 127 {
+	orientation 0 	 0.2291 	 0 	 0.9734
+}
+frame 128 {
+	orientation 0 	 0.2848 	 0 	 0.9586
+}
+frame 129 {
+	orientation 0 	 0.3418 	 0 	 0.9398
+}
+frame 130 {
+	orientation 0 	 0.3987 	 0 	 0.9171
+}
+frame 131 {
+	orientation 0 	 0.4542 	 0 	 0.8909
+}
+frame 132 {
+	orientation 0 	 0.5069 	 0 	 0.862
+}
+frame 133 {
+	orientation 0 	 0.5557 	 0 	 0.8314
+}
+frame 134 {
+	orientation 0 	 0.5997 	 0 	 0.8002
+}
+frame 135 {
+	orientation 0 	 0.6382 	 0 	 0.7699
+}
+frame 136 {
+	orientation 0 	 0.6706 	 0 	 0.7418
+}
+frame 137 {
+	orientation 0 	 0.6965 	 0 	 0.7176
+}
+frame 138 {
+	orientation 0 	 0.7155 	 0 	 0.6986
+}
+frame 139 {
+	orientation 0 	 0.7273 	 0 	 0.6863
+}
+frame 140 {
+	visibility 1
+	position -3.8115 	 -3.81 	 -2.2928
+	orientation 0 	 0.7314 	 0 	 0.682
+}
+-= Animation: repair, Node lever =-
+ frame 84 {
+	visibility 1
+	position -3.8115 	 -3.81 	 -2.2928
+	orientation 0 	 0.8572 	 0 	 0.515
+}
+frame 99 {
+	orientation 0 	 0.7636 	 0 	 0.6457
+}
+frame 100 {
+	orientation 0 	 0.4924 	 0 	 0.8704
+}
+frame 101 {
+	orientation 0 	 0.1602 	 0 	 0.9871
+}
+frame 102 {
+	visibility 1
+	position -3.8115 	 -3.81 	 -2.2928
+	orientation 0 	 0 	 0 	 1
+}
+-= Animation: shell_eject, Node breech_block =-
+ frame 120 {
+	visibility 1
+	position -5.7356 	 0.0069 	 2.5115
+	orientation 0 	 0 	 0 	 1
+}
+frame 121 {
+	position -5.7356 	 0.0069 	 2.4913
+}
+frame 122 {
+	position -5.7356 	 0.0069 	 2.4334
+}
+frame 123 {
+	position -5.7356 	 0.0069 	 2.342
+}
+frame 124 {
+	position -5.7356 	 0.0069 	 2.2213
+}
+frame 125 {
+	position -5.7356 	 0.0069 	 2.0755
+}
+frame 126 {
+	position -5.7356 	 0.0069 	 1.9088
+}
+frame 127 {
+	position -5.7356 	 0.0069 	 1.7253
+}
+frame 128 {
+	position -5.7356 	 0.0069 	 1.5293
+}
+frame 129 {
+	position -5.7356 	 0.0069 	 1.3249
+}
+frame 130 {
+	position -5.7356 	 0.0069 	 1.1163
+}
+frame 131 {
+	position -5.7356 	 0.0069 	 0.9077
+}
+frame 132 {
+	position -5.7356 	 0.0069 	 0.7033
+}
+frame 133 {
+	position -5.7356 	 0.0069 	 0.5073
+}
+frame 134 {
+	position -5.7356 	 0.0069 	 0.3238
+}
+frame 135 {
+	position -5.7356 	 0.0069 	 0.1571
+}
+frame 136 {
+	position -5.7356 	 0.0069 	 0.0113
+}
+frame 137 {
+	position -5.7356 	 0.0069 	 -0.1094
+}
+frame 138 {
+	position -5.7356 	 0.0069 	 -0.2008
+}
+frame 139 {
+	position -5.7356 	 0.0069 	 -0.2587
+}
+frame 140 {
+	visibility 1
+	position -5.7356 	 0.0069 	 -0.2789
+	orientation 0 	 0 	 0 	 1
+}
+-= Animation: repair, Node breech_block =-
+ frame 84 {
+	visibility 1
+	position -5.7356 	 0.0069 	 -0.1459
+	orientation 0 	 0 	 0 	 1
+}
+frame 99 {
+	position -5.7356 	 0.0069 	 0.2694
+}
+frame 100 {
+	position -5.7356 	 0.0069 	 1.1828
+}
+frame 101 {
+	position -5.7356 	 0.0069 	 2.0963
+}
+frame 102 {
+	visibility 1
+	position -5.7356 	 0.0069 	 2.5115
+	orientation 0 	 0 	 0 	 1
+}
+-= Animation: aim_h, Node aim_hor =-
+ frame 120 {
+	visibility 1
+	position 5.0817 	 -9.2002 	 9.6566
+	orientation 0 	 0 	 0 	 1
+}
+frame 140 {
+	visibility 1
+	position 5.0817 	 -9.2002 	 9.6566
+	orientation 0 	 0 	 0 	 1
+}
+-= Animation: aim_v, Node aim_ver =-
+ frame 120 {
+	visibility 1
+	position 3.6285 	 11.7181 	 13.0249
+	orientation 0 	 0 	 0 	 1
+}
+frame 140 {
+	visibility 1
+	position 3.6285 	 11.7181 	 13.0249
+	orientation 0 	 0 	 0 	 1
+}

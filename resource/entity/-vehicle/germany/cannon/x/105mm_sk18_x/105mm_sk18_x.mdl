@@ -1,0 +1,267 @@
+;Exported by:	 TigerF
+;Date:			 07.11.2021 16:06:12
+;File:			 D:\PROGRAMS\3ds_max\3dsmax9_saves\scenes\Early WW2 tanks\germany\sK18_105\sk18_105_x.max
+{skeleton
+	{bone revolute "basis"
+		{parameters "wheelradius=0.6;"}
+		{orientation
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+		}
+		{bone "pivot_front"
+			{Position -0.2281 	 0 	 11.752}
+			{bone prizmatic "suspension_r1"
+				{limits -0.04 0.04}
+				{speed 0.09}
+				{Position 0.0248 	 -17.7985 	 -0.0295}
+				{bone revolute "wheelr1"
+					{parameters "id=wheelright1;radius=0.6;"}
+					{orientation
+						1 	 0 	 0
+						0 	 0 	 -1
+						0 	 1 	 0
+					}
+					{VolumeView "wheelr1.ply"}
+				}
+			}
+			{bone prizmatic "suspension_l1"
+				{limits -0.04 0.04}
+				{speed 0.09}
+				{Position 0.0248 	 17.7713 	 -0.0295}
+				{bone revolute "wheell1"
+					{parameters "id=wheelleft1;radius=0.6;"}
+					{orientation
+						1 	 0 	 0
+						0 	 0 	 -1
+						0 	 1 	 0
+					}
+					{VolumeView "wheell1.ply"}
+				}
+			}
+			{bone "susp"
+				{parameters "id=body;"}
+				{Position 0.0248 	 0 	 -0.0295}
+				{VolumeView "susp.ply"}
+			}
+		}
+		{bone "body"
+			{parameters "id=body;"}
+			{animation
+				{sequence "break" {file "body_b.anm"}{speed 0.7}}
+			}
+			{Position -0.2033 	 0.0015 	 11.7225}
+			{VolumeView "body.ply"}
+			{bone "standl"
+				{parameters "id=body;"}
+				{Position -7.5925 	 9.1433 	 4.7856}
+				{VolumeView "standl.ply"}
+				{bone "spadel"
+					{parameters "id=body;"}
+					{Position -64.0113 	 34.0323 	 -13.0198}
+					{VolumeView "spadel.ply"}
+				}
+				{bone "detail1"
+					{parameters "id=body;"}
+					{Position -29.8567 	 18.5846 	 -6.3792}
+					{VolumeView "detail1.ply"}
+				}
+				{bone "detail2"
+					{parameters "id=body;"}
+					{Position -40.8918 	 19.3922 	 -10.8996}
+					{VolumeView "detail2.ply"}
+				}
+				{bone "detail3"
+					{parameters "id=body;"}
+					{Position -30.1525 	 18.5715 	 -8.2481}
+					{VolumeView "detail3.ply"}
+				}
+				{bone "standplate"
+					{parameters "id=body;"}
+					{matrix34
+						0.8434 	 -0.5373 	 0
+						0.5373 	 0.8434 	 0
+						0 	 0 	 1
+						-13.8136 	 10.6005 	 -8.5099
+					}
+					{VolumeView "standplate.ply"}
+				}
+				{bone "lockl"
+					{parameters "id=body;"}
+					{matrix34
+						0.848 	 -0.5299 	 0
+						0.5299 	 0.848 	 0
+						0 	 0 	 1
+						-22.8791 	 12.7053 	 -2.2741
+					}
+					{VolumeView "lockl.ply"}
+				}
+			}
+			{bone "standr"
+				{parameters "id=body;"}
+				{matrix34
+					0.8829 	 0.4695 	 0
+					-0.4695 	 0.8829 	 0
+					0 	 0 	 1
+					-7.5925 	 -9.1451 	 4.7856
+				}
+				{VolumeView "standr.ply"}
+				{bone "spader"
+					{parameters "id=body;"}
+					{matrix34
+						0.9962 	 0.0872 	 0
+						-0.0872 	 0.9962 	 0
+						0 	 0 	 1
+						-72.4958 	 0.0057 	 -13.0198
+					}
+					{VolumeView "spader.ply"}
+				}
+				{bone "detail4"
+					{parameters "id=body;"}
+					{matrix34
+						0.8829 	 -0.4695 	 0
+						0.4695 	 0.8829 	 0
+						0 	 0 	 1
+						-35.0869 	 -2.3923 	 -6.3792
+					}
+					{VolumeView "detail4.ply"}
+				}
+				{bone "detail5"
+					{parameters "id=body;"}
+					{matrix34
+						0.8829 	 -0.4695 	 0
+						0.4695 	 0.8829 	 0
+						0 	 0 	 1
+						-45.2094 	 2.0752 	 -10.8996
+					}
+					{VolumeView "detail5.ply"}
+				}
+				{bone "detail6"
+					{parameters "id=body;"}
+					{matrix34
+						0.8829 	 -0.4695 	 0
+						0.4695 	 0.8829 	 0
+						0 	 0 	 1
+						-35.3419 	 -2.2419 	 -8.2481
+					}
+					{VolumeView "detail6.ply"}
+				}
+				{bone "vinch"
+					{parameters "id=body;"}
+					{matrix34
+						0.8829 	 -0.4695 	 0
+						0.4695 	 0.8829 	 0
+						0 	 0 	 1
+						-18.7712 	 -1.9485 	 -1.2935
+					}
+					{VolumeView "vinch.ply"}
+					{bone "aim_vert"
+						{parameters "id=body;"}
+						{matrix34
+							0.8829 	 0.4695 	 0
+							-0.4695 	 0.8829 	 0
+							0 	 0 	 1
+							-0.0161 	 -1.5587 	 3.3107
+						}
+						{VolumeView "aim_vert.ply"}
+					}
+				}
+				{bone "lockr"
+					{parameters "id=body;"}
+					{matrix34
+						0.9712 	 0.0787 	 0.225
+						-0.0808 	 0.9967 	 0
+						-0.2242 	 -0.0182 	 0.9744
+						-26.1653 	 -0.3433 	 -2.2818
+					}
+					{VolumeView "lockr.ply"}
+				}
+			}
+			{bone revolute "turret"
+				{parameters "id=body;"}
+				{animation
+					{sequence "break" {file "gun_b.anm"}{speed 0.7}}
+				}
+				{matrix34
+					1 	 0.0002 	 -0.0082
+					-0.0002 	 1 	 -0.0006
+					0.0082 	 0.0006 	 1
+					-5.9999 	 -0.0015 	 4.4998
+				}
+				{VolumeView "turret.ply"}
+				{bone "cardan"
+					{parameters "id=body;"}
+					{matrix34
+						1 	 -0.0002 	 0.0082
+						0.0002 	 1 	 0.0006
+						-0.0082 	 -0.0006 	 1
+						-17.2471 	 -19.6722 	 -1.1618
+					}
+					{VolumeView "cardan.ply"}
+				}
+				{bone "aim_hor"
+					{parameters "id=body;"}
+					{matrix34
+						1 	 -0.0002 	 0.0082
+						0.0002 	 1 	 0.0006
+						-0.0082 	 -0.0006 	 1
+						-17.5394 	 8.8666 	 3.9004
+					}
+					{VolumeView "aim_hor.ply"}
+				}
+				{bone revolute "gun_rot"
+					{parameters "id=gun;"}
+					{limits -3 45}
+					{speed 0.003}
+					{matrix34
+						1 	 -0.0002 	 0.0082
+						-0.0082 	 -0.0006 	 1
+						-0.0002 	 -1 	 -0.0006
+						-3.2419 	 -0.0042 	 11.2955
+					}
+					{VolumeView "gun_rot.ply"}
+					{bone "gun"
+						{parameters "id=gun;"}
+						{matrix34
+							1 	 0 	 0
+							0 	 0 	 -1
+							0 	 1 	 0
+							-5.9563 	 0.2508 	 -0.0015
+						}
+						{VolumeView "gun.ply"}
+						{bone "breech"
+							{parameters "id=gun;"}
+							{Position -0.1576 	 -0.0004 	 0.002}
+							{VolumeView "breech.ply"}
+						}
+						{bone "lever"
+							{parameters "id=gun;"}
+							{Position -1.7218 	 -2.957 	 4.2092}
+							{VolumeView "lever.ply"}
+						}
+					}
+				}
+				{bone "telor"
+					{parameters "id=gun;"}
+					{matrix34
+						1 	 -0.0002 	 0.0082
+						0.0002 	 1 	 0.0006
+						-0.0082 	 -0.0006 	 1
+						14.5254 	 -5.3397 	 3.6524
+					}
+					{VolumeView "telor.ply"}
+				}
+				{bone "telol"
+					{parameters "id=gun;"}
+					{matrix34
+						1 	 -0.0002 	 0.0082
+						0.0002 	 1 	 0.0006
+						-0.0082 	 -0.0006 	 1
+						14.5252 	 5.3218 	 3.6484
+					}
+					{VolumeView "telol.ply"}
+				}
+			}
+		}
+	}
+}

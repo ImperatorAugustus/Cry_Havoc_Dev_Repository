@@ -52,6 +52,12 @@
 					}
 				}
 				{if component "body"
+					{if rand (* %knock_out 1)
+					{call_synced "knock_out"}
+					}
+					{if rand (* %internal_fire 1)
+						{call_synced "fire_knock_out"}
+					}
 					{if tagged "death_counter_start"
 						{call "death_counter"}
 					}
@@ -78,17 +84,23 @@
 
 						{if rand %crew_shock_chance
 							{call_synced "crew_shot_chance"}
-							{delay %crew_shock_time (* %crew_shock_time 0.15) "crew_shock_time"
-								{call_synced "crew_revive"}
+							{delay %crew_shock_time 1 "crew_shock_time"
+								{call "crew_revive"}
 							}
-							{delay (* %crew_shock_time 0.5) (* %crew_shock_time 0.07) "crew_shock_time"
-								{call_synced "driver_revive"}
+							{delay (* %crew_shock_time 0.5) 0.5 "crew_shock_time"
+								{call "driver_revive"}
 							}
 						}
 					}
 				}
 
 				{if component "turret"
+					{if rand (* %knock_out 0.75)
+					{call_synced "knock_out"}
+					}
+					{if rand (* %internal_fire 0.5)
+						{call_synced "fire_knock_out"}
+					}
 					{if tagged "death_counter_start"
 						{call "death_counter"}
 					}

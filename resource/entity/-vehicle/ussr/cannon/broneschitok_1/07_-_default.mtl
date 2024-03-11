@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/_vehicle/broneschitok_1"}
+	{bump "$/_vehicle/broneschitok_1_nm"}
+	{specular "$/_vehicle/broneschitok_1_sp"}
+	{color "229 229 229 25"}
+	{blend none}
+}

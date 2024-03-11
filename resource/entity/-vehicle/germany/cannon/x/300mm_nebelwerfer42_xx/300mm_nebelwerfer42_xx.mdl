@@ -1,0 +1,201 @@
+;Exported by:	 TigerF
+;Date:			 14.06.2021 13:53:54
+;File:			 D:\PROGRAMS\3ds_max\3dsmax9_saves\scenes\Early WW2 tanks\germany\300mm_nebelwerfer42\Rework\Wip\300mm_nebelwerfer42_xx.max
+{skeleton
+	{bone revolute "basis"
+		{parameters "wheelradius=0.3;"}
+		{orientation
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+		}
+		{bone "pivot_front"
+			{matrix34
+				1 	 0 	 0
+				0 	 1 	 0
+				0 	 0 	 1
+				16.3419 	 0.9376 	 8.5716
+			}
+			{bone prizmatic "suspension_r1"
+				{limits -0.15 0.003}
+				{matrix34
+					1 	 0 	 0
+					0 	 1 	 0
+					0 	 0 	 1
+					-0.4355 	 -17.6616 	 -0.0875
+				}
+				{bone revolute "wheelr"
+					{parameters "id=wheelright;"}
+					{matrix34
+						1 	 0 	 0
+						0 	 0 	 -1
+						0 	 1 	 0
+						0 	 0 	 0
+					}
+					{LODView
+						{VolumeView "wheelr.ply"}
+						{VolumeView "wheelr_lod1.ply"}
+					}
+				}
+			}
+			{bone prizmatic "suspension_l1"
+				{limits -0.15 0.003}
+				{matrix34
+					1 	 0 	 0
+					0 	 1 	 0
+					0 	 0 	 1
+					-0.446 	 17.0421 	 -0.17
+				}
+				{bone revolute "wheell"
+					{parameters "id=wheelleft;"}
+					{matrix34
+						1 	 0 	 0
+						0 	 0 	 -1
+						0 	 1 	 0
+						0 	 0 	 0
+					}
+					{LODView
+						{VolumeView "wheell.ply"}
+						{VolumeView "wheell_lod1.ply"}
+					}
+				}
+			}
+		}
+		{bone "body"
+			{parameters "id=body;"}
+			{Position 16.4066 	 0.869 	 8.9005}
+			{VolumeView "body.ply"}
+			{bone revolute "part1"
+				{parameters "id=part1;"}
+				{matrix34
+					0.9513 	 0.1028 	 0.2908
+					-0.2756 	 -0.1397 	 0.9511
+					0.1384 	 -0.9848 	 -0.1045
+					-12.4204 	 -0.2017 	 1.9992
+				}
+				{VolumeView "part1.ply"}
+				{bone "part2"
+					{parameters "id=part2;"}
+					{matrix34
+						1 	 0 	 0.0004
+						0 	 1 	 0
+						-0.0004 	 0 	 1
+						26.1605 	 19.2114 	 0.0082
+					}
+					{VolumeView "part2.ply"}
+				}
+			}
+			{bone "part3"
+				{parameters "id=part3;"}
+				{Position -16.7074 	 -16.6714 	 -0.4653}
+				{VolumeView "part3.ply"}
+			}
+		}
+	}
+}
+{obstacle "close"
+	{obb2
+		{center -10.4759 -1.31142}
+		{extent 15.2041 5.88795}
+		{axis -1 7.99742e-007}
+	}
+	{Tags "close"}
+	{rotate}
+}
+{obstacle "obstacle"
+	{obb2
+		{center 15.6186 -0.449052}
+		{extent 11.3407 17.0111}
+		{axis -1 7.8837e-007}
+	}
+	{rotate}
+}
+{obstacle "open"
+	{obb2
+		{center -10.4759 -1.31142}
+		{extent 15.2041 5.88795}
+		{axis -1 7.99742e-007}
+	}
+	{Tags "open"}
+	{rotate}
+}
+{volume "body1"
+	{cylinder 1.21062 40.1926}
+	{bone "body"}
+	{matrix34
+		0.3705 	 -0.9274 	 0.0509
+		-0.1731 	 -0.0151 	 0.9848
+		-0.9125 	 -0.3737 	 -0.1661
+		-29.2498 	 7.5496 	 -2.5938
+	}
+}
+{volume "body2"
+	{cylinder 1.21062 40.1926}
+	{bone "body"}
+	{matrix34
+		-0.3384 	 -0.9322 	 -0.1282
+		-0.1908 	 -0.0654 	 0.9794
+		-0.9214 	 0.3559 	 -0.1558
+		-28.761 	 -7.9635 	 -2.5865
+	}
+}
+{volume "body"
+	{box 39.4225 5.04635 25.7449}
+	{bone "body"}
+	{matrix34
+		-0.9848 	 0 	 -0.1736
+		0.1736 	 0 	 -0.9848
+		0 	 -1 	 0
+		0.6113 	 0.0212 	 1.6315
+	}
+}
+{volume "part1"
+	{box 26.8208 17.1529 26.2595}
+	{bone "part1"}
+	{matrix34
+		-1 	 0 	 0
+		0 	 -1 	 0
+		0 	 0 	 1
+		12.4319 	 10.5629 	 -0.007
+	}
+}
+{volume "part2"
+	{box 19.4343 1.10914 18.9387}
+	{bone "part2"}
+	{matrix34
+		-0.9983 	 0.0565 	 -0.0175
+		0.0567 	 0.9983 	 -0.012
+		0.0168 	 -0.013 	 -0.9998
+		-9.9109 	 1.0734 	 -0.0471
+	}
+}
+{volume "part3"
+	{box 9.76782 5.04379 6.06732}
+	{bone "part3"}
+	{matrix34
+		0.9816 	 0 	 0.1908
+		0 	 1 	 0
+		-0.1908 	 0 	 0.9816
+		0.0755 	 -0.0736 	 -0.0982
+	}
+}
+{volume "wheelleft"
+	{cylinder 5.76855 4.875}
+	{bone "wheell"}
+	{matrix34
+		-1 	 0 	 0
+		0 	 -1 	 0
+		0 	 0 	 1
+		-0.0275 	 -0.1138 	 -0.3139
+	}
+}
+{volume "wheelright"
+	{cylinder 5.80462 4.953}
+	{bone "wheelr"}
+	{matrix34
+		1 	 0 	 0
+		0 	 -1 	 0
+		0 	 0 	 -1
+		-0.038 	 -0.0313 	 0.354
+	}
+}

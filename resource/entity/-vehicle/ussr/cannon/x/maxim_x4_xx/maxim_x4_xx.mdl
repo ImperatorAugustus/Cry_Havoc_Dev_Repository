@@ -1,0 +1,161 @@
+;Exported by:	 TigerF
+;Date:			 28.01.2022 19:21:57
+;File:			 D:\PROGRAMS\3ds_max\3dsmax9_saves\scenes\Early WW2 tanks\russian\maxim MG x4\maxim_4m_xx.max
+{skeleton
+	{bone "basis"
+		{orientation
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+		}
+		{bone "body"
+			{parameters "id=body;"}
+			{matrix34
+				1 	 0 	 0
+				0 	 0.9994 	 0.0349
+				0 	 -0.0349 	 0.9994
+				0 	 -0.0029 	 -0.2425
+			}
+			{VolumeView "body.ply"}
+			{bone revolute "turret"
+				{parameters "id=body;"}
+				{matrix34
+					0.9888 	 0.1188 	 -0.0907
+					-0.115 	 0.9923 	 0.0455
+					0.0954 	 -0.0345 	 0.9948
+					0 	 0.0029 	 19.6286
+				}
+				{VolumeView "turret.ply"}
+				{bone "part5"
+					{parameters "id=part5;"}
+					{VolumeView "part5.ply"}
+				}
+				{bone "part6"
+					{parameters "id=part6;"}
+					{VolumeView "part6.ply"}
+				}
+				{bone "part4"
+					{parameters "id=part4;"}
+					{matrix34
+						0.8575 	 -0.0317 	 0.5135
+						0.0376 	 0.9993 	 -0.0012
+						-0.5131 	 0.0204 	 0.8581
+						-1.5416 	 4.7886 	 8.2149
+					}
+					{VolumeView "part4.ply"}
+				}
+				{bone "part3"
+					{parameters "id=part3;"}
+					{matrix34
+						0.8295 	 -0.0306 	 0.5577
+						-0.0306 	 0.9945 	 0.1
+						-0.5577 	 -0.1 	 0.824
+						-1.4388 	 1.441 	 7.8784
+					}
+					{VolumeView "part3.ply"}
+				}
+				{bone "part2"
+					{parameters "id=part2;"}
+					{matrix34
+						0.8829 	 -0.0127 	 0.4694
+						-0.0612 	 0.988 	 0.1419
+						-0.4655 	 -0.154 	 0.8715
+						-1.3365 	 -1.8869 	 7.5439
+					}
+					{VolumeView "part2.ply"}
+				}
+				{bone "part1"
+					{parameters "id=part1;"}
+					{matrix34
+						0.8488 	 -0.0541 	 0.5259
+						-0.0346 	 0.9869 	 0.1573
+						-0.5276 	 -0.1517 	 0.8359
+						-1.2336 	 -5.235 	 7.2074
+					}
+					{VolumeView "part1.ply"}
+				}
+			}
+		}
+	}
+}
+{area "obstacle"
+	{circle2
+		{radius 8.3967}
+		{center 0 0}
+	}
+}
+{volume "body1"
+	{polyhedron "body1.vol"}
+	{bone "body"}
+	{Position -0.0578 	 -0.0571 	 9.5869}
+}
+{volume "body2"
+	{box 10.7074 7.25677 11.4519}
+	{bone "turret"}
+	{matrix34
+		1 	 0 	 0
+		0 	 0 	 1
+		0 	 -1 	 0
+		4.5341 	 -1.5724 	 0.7193
+	}
+}
+{volume "part1"
+	{cylinder 1.18095 19.1202}
+	{bone "part1"}
+	{matrix34
+		0 	 -1 	 0
+		0 	 0 	 1
+		-1 	 0 	 0
+		-0.0945 	 0.0079 	 0.7225
+	}
+}
+{volume "part2"
+	{cylinder 1.18095 19.2252}
+	{bone "part2"}
+	{matrix34
+		0 	 -1 	 0
+		0 	 0 	 1
+		-1 	 0 	 0
+		-0.147 	 -0.0055 	 0.7225
+	}
+}
+{volume "part3"
+	{cylinder 1.18095 19.4353}
+	{bone "part3"}
+	{matrix34
+		0 	 -1 	 0
+		0 	 0 	 1
+		-1 	 0 	 0
+		-0.2521 	 -0.0006 	 0.7225
+	}
+}
+{volume "part4"
+	{cylinder 1.18095 19.5404}
+	{bone "part4"}
+	{matrix34
+		0 	 -1 	 0
+		0 	 0 	 1
+		-1 	 0 	 0
+		-0.3046 	 0.0006 	 0.7225
+	}
+}
+{volume "part5"
+	{box 9.90377 6.17242 1.60692}
+	{bone "part5"}
+	{matrix34
+		1 	 0 	 0
+		0 	 0 	 1
+		0 	 -1 	 0
+		4.2856 	 -6.4755 	 0.0391
+	}
+}
+{volume "part6"
+	{box 9.90377 6.17242 1.60692}
+	{bone "part6"}
+	{matrix34
+		1 	 0 	 0
+		0 	 0 	 1
+		0 	 -1 	 0
+		6.1311 	 0.1428 	 1.321
+	}
+}

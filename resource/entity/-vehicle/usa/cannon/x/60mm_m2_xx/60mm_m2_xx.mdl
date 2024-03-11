@@ -1,0 +1,102 @@
+;Exported by:	 TigerF
+;Date:			 09.11.2023 13:32:49
+;File:			 D:\GOH\3dsmax9_saves\scenes\GoH_3D_vehicles_usa\vehicles\cannon\60mm_m2\60mm_m2_xx.max
+{skeleton
+	{bone revolute "basis"
+		{orientation
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+		}
+		{bone "part1"
+			{parameters "id=part1;"}
+			{Position 0.033 	 0 	 0.9492}
+			{VolumeView "part1.ply"}
+		}
+		{bone "part2"
+			{parameters "id=body;"}
+			{matrix34
+				0.9951 	 0 	 0.0992
+				0 	 1 	 0
+				-0.0992 	 0 	 0.9951
+				-0.0597 	 -0.0017 	 0.4331
+			}
+			{VolumeView "part2.ply"}
+		}
+		{bone "part3"
+			{parameters "id=part3;"}
+			{Position 5.9844 	 -0.0003 	 9.8255}
+			{VolumeView "part3.ply"}
+		}
+		{bone "part4"
+			{parameters "id=part4;"}
+			{matrix34
+				0.9659 	 0 	 0.2588
+				0 	 1 	 0
+				-0.2588 	 0 	 0.9659
+				6.992 	 -1.4509 	 7.5003
+			}
+			{VolumeView "part4.ply"}
+		}
+		{bone "part5"
+			{parameters "id=part5;"}
+			{matrix34
+				0.9659 	 0 	 0.2588
+				0 	 1 	 0
+				-0.2588 	 0 	 0.9659
+				6.9939 	 1.4507 	 7.5018
+			}
+			{VolumeView "part5.ply"}
+		}
+	}
+}
+{volume "body1"
+	{box 5.57442 7.93205 0.596976}
+	{bone "part1"}
+	{matrix34
+		1 	 0 	 0.0007
+		0 	 1 	 0
+		-0.0007 	 0 	 1
+		-0.4535 	 0 	 -0.7476
+	}
+}
+{volume "body2"
+	{cylinder 0.803031 16.5574}
+	{bone "part2"}
+	{matrix34
+		0.8408 	 0 	 -0.5413
+		0 	 1 	 0
+		0.5413 	 0 	 0.8408
+		4.3497 	 0.0152 	 6.8318
+	}
+}
+{volume "body3"
+	{cylinder 0.403121 7.68867}
+	{bone "part3"}
+	{matrix34
+		-0.3568 	 0.9286 	 -0.1015
+		-0.8927 	 -0.371 	 -0.256
+		-0.2754 	 -0.0007 	 0.9613
+		1.3433 	 0.0477 	 -3.6337
+	}
+}
+{volume "body4"
+	{cylinder 0.358121 9.53456}
+	{bone "part5"}
+	{matrix34
+		-0.1901 	 0.8189 	 0.5415
+		-0.9818 	 -0.1571 	 -0.1071
+		-0.0027 	 -0.552 	 0.8338
+		0.0019 	 2.8861 	 -3.8634
+	}
+}
+{volume "body5"
+	{cylinder 0.415625 9.53456}
+	{bone "part4"}
+	{matrix34
+		0.9786 	 0.1744 	 -0.1091
+		-0.2056 	 0.8135 	 -0.544
+		-0.0061 	 0.5548 	 0.8319
+		0.0264 	 -2.7605 	 -3.8819
+	}
+}

@@ -1,0 +1,203 @@
+;Exported by:	 guita
+;Date:			 17.10.2020 22:50:45
+;File:			 D:\Git\3D_Scenes\GoH_3D_vehicles_ger\vehicles\cannon\75mm_legebig18\75mm_legebig18_xx.max
+{skeleton
+	{bone revolute "basis"
+		{orientation
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+		}
+		{bone "body"
+			{parameters "id=body;"}
+			{Position -1.6673 	 0.001 	 4.8275}
+			{VolumeView "body.ply"}
+			{bone "part1"
+				{parameters "id=part1;"}
+				{Position 3.5211 	 -0.6915 	 6.002}
+				{VolumeView "part1.ply"}
+			}
+			{bone "part2"
+				{parameters "id=part2;"}
+				{Position 8.3625 	 -0.8668 	 8.8944}
+				{VolumeView "part2.ply"}
+			}
+			{bone "part5"
+				{parameters "id=wheelright;"}
+				{Position 2.4272 	 -8.2471 	 -3.3176}
+				{VolumeView "part5.ply"}
+			}
+			{bone "wheell"
+				{parameters "id=wheelleft;"}
+				{matrix34
+					0.9994 	 0.0343 	 0.0067
+					-0.0349 	 0.9775 	 0.2078
+					0.0006 	 -0.2079 	 0.9781
+					1.317 	 9.6064 	 2.8069
+				}
+				{VolumeView "wheell.ply"}
+			}
+			{bone "snow_runner_right"
+				{parameters "id=body;"}
+				{matrix34
+					0.9994 	 0.0339 	 0.0084
+					-0.0349 	 0.9653 	 0.2587
+					0.0006 	 -0.2588 	 0.9659
+					2.0158 	 -9.7261 	 -2.3735
+				}
+				{VolumeView "snow_runner_right.ply"}
+			}
+			{bone "standr"
+				{parameters "id=body;"}
+				{VolumeView "standr.ply"}
+				{bone "part4"
+					{parameters "id=part4;"}
+					{Position -21.2642 	 -14.011 	 -4.089}
+					{VolumeView "part4.ply"}
+				}
+			}
+			{bone "standl"
+				{parameters "id=body;"}
+				{VolumeView "standl.ply"}
+			}
+		}
+	}
+}
+{obstacle "obstacle"
+	{obb2
+		{center 0.000425339 -0.0105987}
+		{extent 7.87963 10.9839}
+		{axis 1 0}
+	}
+	{rotate}
+}
+{volume "barrel1"
+	{box 20.1617 4.59668 2.2033}
+	{bone "body"}
+	{matrix34
+		0.9631 	 0.1884 	 0.1924
+		-0.2076 	 0.9746 	 0.0847
+		-0.1715 	 -0.1215 	 0.9777
+		0.0574 	 -2.1391 	 5.5389
+	}
+}
+{volume "barrel2"
+	{box 19.5707 4.59668 3.61197}
+	{bone "body"}
+	{matrix34
+		0.9704 	 0.1715 	 0.1703
+		-0.2015 	 0.9631 	 0.1785
+		-0.1334 	 -0.2075 	 0.9691
+		-0.6537 	 -2.6349 	 8.3407
+	}
+}
+{volume "body1"
+	{box 4.13154 2.56581 17.1688}
+	{bone "body"}
+	{matrix34
+		1 	 0 	 0
+		0 	 -0.2588 	 0.9659
+		0 	 -0.9659 	 -0.2588
+		0.2367 	 -0.0113 	 -0.1608
+	}
+}
+{volume "body2"
+	{polyhedron "body2.vol"}
+	{bone "body"}
+	{matrix34
+		0.977 	 0.1988 	 0.0766
+		-0.2115 	 0.9486 	 0.2354
+		-0.0259 	 -0.2462 	 0.9689
+		-4.8354 	 -1.0914 	 0.1461
+	}
+}
+{volume "hole"
+	{box 5.10099 1.43021 18.0926}
+	{bone "part1"}
+	{matrix34
+		-0.2457 	 0.9408 	 0.2336
+		-0.9221 	 -0.1525 	 -0.3556
+		-0.2989 	 -0.3027 	 0.905
+		-0.9428 	 -0.9223 	 2.6532
+	}
+}
+{volume "part1"
+	{box 16.4982 13.1806 0.306607}
+	{bone "part1"}
+	{matrix34
+		-0.2183 	 0.9494 	 0.2257
+		-0.3131 	 -0.2872 	 0.9053
+		0.9243 	 0.127 	 0.3599
+		0.6414 	 0.4924 	 -1.6757
+	}
+}
+{volume "part2"
+	{box 3.26911 3.10146 18.9554}
+	{bone "part2"}
+	{matrix34
+		-0.1731 	 0.9512 	 0.2556
+		0.0045 	 -0.2588 	 0.9659
+		0.9849 	 0.1683 	 0.0405
+		-7.0367 	 -1.6569 	 1.0504
+	}
+}
+{volume "part4"
+	{cylinder 0.759484 23.3418}
+	{bone "part4"}
+	{matrix34
+		0.3583 	 -0.9336 	 -0.0063
+		0.0175 	 0 	 0.9998
+		-0.9334 	 -0.3584 	 0.0163
+		-10.6154 	 -3.9604 	 -0.0543
+	}
+}
+{volume "part5"
+	{box 39.1445 2.60147 4.00933}
+	{bone "part5"}
+	{matrix34
+		0.94 	 0.3409 	 -0.0097
+		0.039 	 -0.0794 	 0.9961
+		0.3388 	 -0.9367 	 -0.0879
+		0.5677 	 0.2081 	 -0.605
+	}
+}
+{volume "shield2"
+	{box 24.6816 6.86802 0.306607}
+	{bone "part1"}
+	{matrix34
+		-0.2857 	 0.9334 	 0.2172
+		-0.3085 	 -0.3042 	 0.9013
+		0.9073 	 0.1905 	 0.3749
+		-2.3153 	 -2.4258 	 7.2331
+	}
+}
+{volume "standl"
+	{cylinder 0.950979 45.893}
+	{bone "standl"}
+	{matrix34
+		0.1294 	 0.9478 	 0.2915
+		0.1761 	 0.2674 	 -0.9474
+		-0.9758 	 0.174 	 -0.1323
+		-23.7654 	 9.6584 	 -1.4387
+	}
+}
+{volume "standr"
+	{cylinder 0.950979 22.0286}
+	{bone "standr"}
+	{matrix34
+		-0.3796 	 0.867 	 0.3227
+		0.0064 	 0.3513 	 -0.9362
+		-0.9251 	 -0.3533 	 -0.1389
+		-11.0761 	 -9.8942 	 -2.8956
+	}
+}
+{volume "wheelleft"
+	{box 39.1445 2.60147 4.00933}
+	{bone "wheell"}
+	{matrix34
+		1 	 0 	 0
+		0 	 0 	 1
+		0 	 -1 	 0
+		0.9824 	 0.039 	 -6.5348
+	}
+}

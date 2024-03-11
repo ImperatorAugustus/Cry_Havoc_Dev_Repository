@@ -1,0 +1,39 @@
+{game_entity
+	(include "/properties/vehicle_xx.ext")
+	{extension "45mm_pstk32_xx.mdl"}
+	{volume "barrel1"
+		{thickness 20}
+	}
+	{volume "barrel2"
+		{thickness 20}
+	}
+	{volume "body"
+		{thickness 8}
+	}
+
+	{volume "part1"		;// Lower shield
+		{thickness 4.5}
+	}
+	{volume "part2"		;// wheel right
+		{thickness 0.5}
+	}	
+	{volume "part3"		;// stand left
+		{thickness 8}
+	}
+	{volume "part4"		;// wheel left
+		{thickness 0.5}
+	}
+	{volume "shield1"
+		{thickness 4.5}
+		{able {holed}}
+	}
+	{volume "shield2"
+		{thickness 4.5}
+	}
+	{volume "shield3"
+		{thickness 4.5}
+	}
+	{volume "standr"
+		{thickness 8}
+	}
+}

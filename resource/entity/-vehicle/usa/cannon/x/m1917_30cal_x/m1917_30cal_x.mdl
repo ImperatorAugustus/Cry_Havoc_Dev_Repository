@@ -1,0 +1,120 @@
+;Exported by:	 TigerF
+;Date:			 31.10.2023 12:24:09
+;File:			 D:\GOH\3dsmax9_saves\scenes\GoH_3D_vehicles_usa\vehicles\cannon\mg_tripods\M1917_30cal_x.max
+{skeleton
+	{bone revolute "basis"
+		{speed 0.003}
+		{orientation
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+		}
+		{bone "body"
+			{parameters "id=body;"}
+			{animation
+				{sequence "break" {file "body_b.anm"}{speed 0.6}}
+			}
+			{Position 0 	 0 	 9.4259}
+			{VolumeView "body.ply"}
+			{bone revolute "turret"
+				{parameters "id=body;"}
+				{limits -5 5}
+				{speed 0.007}
+				{Position 0 	 0 	 1.3256}
+				{VolumeView "turret.ply"}
+				{bone revolute "gun_rot"
+					{parameters "id=body;"}
+					{limits -10 15}
+					{speed 0.007}
+					{matrix34
+						1 	 0 	 0
+						0 	 0 	 1
+						0 	 -1 	 0
+						-1.2266 	 0 	 4.0752
+					}
+					{VolumeView "gun_rot.ply"}
+					{bone "gun"
+						{parameters "id=body;"}
+						{matrix34
+							1 	 0 	 0
+							0 	 0 	 -1
+							0 	 1 	 0
+							-4.8633 	 0.1237 	 0
+						}
+						{VolumeView "gun.ply"}
+						{bone "cover"
+							{parameters "id=body;"}
+							{Position 6.3738 	 0.1912 	 1.4346}
+							{VolumeView "cover.ply"}
+						}
+						{bone "bolt"
+							{parameters "id=body;"}
+							{Position 3.539 	 -0.4705 	 0.7439}
+							{VolumeView "bolt.ply"}
+						}
+						{bone "1"
+							{parameters "id=body;"}
+							{Position 2.5882 	 0.2503 	 1.3014}
+							{VolumeView "1.ply"}
+						}
+						{bone "2"
+							{parameters "id=body;"}
+							{Position 2.9364 	 0.2855 	 0.7875}
+							{VolumeView "2.ply"}
+						}
+					}
+					{bone "magazine"
+						{parameters "id=body;"}
+						{matrix34
+							1 	 0 	 0
+							0 	 0 	 -1
+							0 	 1 	 0
+							0.8422 	 0.2023 	 -1.0104
+						}
+						{VolumeView "magazine.ply"}
+						{bone "belt"
+							{parameters "id=body;"}
+							{Position -0.0735 	 0.1162 	 0.6127}
+							{VolumeView "belt.ply"}
+						}
+					}
+				}
+			}
+			{bone "standc"
+				{parameters "id=body;"}
+				{Position 1.4989 	 0 	 -0.5604}
+				{VolumeView "standc.ply"}
+			}
+			{bone "standr"
+				{parameters "id=body;"}
+				{matrix34
+					0.702 	 -0.7122 	 0
+					0.7122 	 0.702 	 0
+					0 	 0 	 1
+					-0.4206 	 -1.9011 	 -0.5494
+				}
+				{VolumeView "standr.ply"}
+			}
+			{bone "standl"
+				{parameters "id=body;"}
+				{matrix34
+					0.7119 	 0.7023 	 0
+					-0.7023 	 0.7119 	 0
+					0 	 0 	 1
+					-0.4206 	 1.9011 	 -0.5494
+				}
+				{VolumeView "standl.ply"}
+			}
+		}
+		{bone "water_tank"
+			{parameters "id=body;"}
+			{Position 10.4309 	 5.422 	 3.0778}
+			{VolumeView "water_tank.ply"}
+			{bone "tube"
+				{parameters "id=body;"}
+				{Position -0.1111 	 -3.1759 	 7.8512}
+				{VolumeView "tube.ply"}
+			}
+		}
+	}
+}

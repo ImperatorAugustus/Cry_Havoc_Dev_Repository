@@ -1,0 +1,22 @@
+{game_entity
+	(include "/properties/vehicle_xx.ext")
+	{extension "maxim_m1910_30_xx.mdl"}
+	{volume "part1"
+		{thickness 10}
+	}
+	{volume "part2"
+		{thickness 10}
+	}
+	{volume "part3"
+		{thickness 10}
+	}
+	{volume "part5"
+		{thickness 10}
+	}
+	{volume "part6"
+		{thickness 10}
+	}
+	{volume "part7"
+		{thickness 10}
+	}
+}

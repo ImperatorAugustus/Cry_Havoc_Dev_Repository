@@ -1,0 +1,21 @@
+{game_entity
+	(include "/properties/vehicle_xx.ext")
+	{extension "80mm_sgrw34_xx.mdl"}
+
+	{volume "body"
+		{thickness 6}
+		{able {obstacle 0}}
+	}
+	{volume "part1"
+		{thickness 6}
+	}
+	{volume "part2"
+		{thickness 6}
+	}
+	{volume "part3"
+		{thickness 6}
+	}
+	{volume "part4"
+		{thickness 6}
+	}
+}

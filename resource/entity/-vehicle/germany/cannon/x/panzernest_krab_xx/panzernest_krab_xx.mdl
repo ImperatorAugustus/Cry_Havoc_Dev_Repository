@@ -1,0 +1,150 @@
+;Exported by:	 TigerF
+;Date:			 04.06.2022 10:44:52
+;File:			 D:\PROGRAMS\3ds_max\3dsmax9_saves\scenes\GoH_3D_vehicles_ger\vehicles\special\panzernest crab\Panzernest_Crab_xx.max
+{skeleton
+	{bone "basis"
+		{parameters "wheelradius=0.62;"}
+		{orientation
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+		}
+		{bone "body"
+			{parameters "id=body;"}
+			{Position -2.7874 	 0 	 13.3147}
+			{VolumeView "body.ply"}
+			{bone "rod"
+				{parameters "id=body;"}
+				{Position 29.0662 	 0 	 2.0305}
+				{visibility 0}
+				{VolumeView "rod.ply"}
+				{bone "part2"
+					{parameters "id=part2;"}
+					{visibility 0}
+					{VolumeView "part2.ply"}
+				}
+			}
+			{bone "part1"
+				{parameters "id=part1;"}
+				{Position -11.7025 	 0.001 	 -11.6267}
+				{VolumeView "part1.ply"}
+			}
+			{bone "debris"
+				{parameters "id=body;"}
+				{Position 5.6919 	 0.0045 	 -9.7526}
+				{VolumeView "debris.ply"}
+				{bone "stone"
+					{parameters "id=body;"}
+					{Position -5.4611 	 2.0561 	 0.1027}
+					{VolumeView "stone.ply"}
+				}
+			}
+		}
+		{bone "soil"
+			{Position -0.3079 	 0.3855 	 0}
+			{VolumeView "soil.ply"}
+		}
+		{bone "pivot_front"
+			{Position -2.7874 	 -0.0188 	 13.3147}
+			{bone "axle"
+				{parameters "id=body;"}
+				{visibility 0}
+				{VolumeView "axle.ply"}
+				{bone revolute "wheelr"
+					{parameters "id=wheelright;"}
+					{matrix34
+						-0.9985 	 0 	 0.0548
+						0.0548 	 0 	 0.9985
+						0 	 1 	 0
+						0 	 -20.9597 	 0
+					}
+					{visibility 0}
+					{VolumeView "wheelr.ply"}
+				}
+				{bone revolute "wheell"
+					{parameters "id=wheelleft;"}
+					{matrix34
+						-0.9986 	 0 	 0.0523
+						0.0523 	 0 	 0.9986
+						0 	 1 	 0
+						0 	 20.943 	 0
+					}
+					{visibility 0}
+					{VolumeView "wheell.ply"}
+				}
+			}
+		}
+	}
+}
+{obstacle "open"
+	{polygon2
+		{radius 0}
+		{vertex 20.8478 -3.08181}
+		{vertex 20.8478 2.72724}
+		{vertex 1.96348 17.2048}
+		{vertex -8.46939 17.2048}
+		{vertex -11.5343 14.8468}
+		{vertex -13.3484 8.00629}
+		{vertex -13.3484 -8.36082}
+		{vertex -11.5343 -15.2014}
+		{vertex -8.46941 -17.5594}
+		{vertex 1.96347 -17.5594}
+	}
+	{Tags "open"}
+	{rotate}
+}
+{volume "body1"
+	{polyhedron "body1.vol"}
+	{bone "body"}
+	{Position 2.1762 	 -0.0024 	 -5.2354}
+}
+{volume "body2"
+	{polyhedron "body2.vol"}
+	{bone "body"}
+	{Position 1.7112 	 -0.0024 	 -24.1741}
+}
+{volume "body3"
+	{polyhedron "body3.vol"}
+	{bone "body"}
+	{Position 18.9376 	 -0.0024 	 -7.5349}
+}
+{volume "body4"
+	{cylinder 1.07901 29.9342}
+	{bone "part2"}
+	{matrix34
+		0 	 0 	 1
+		0 	 1 	 0
+		-1 	 0 	 0
+		-1.1381 	 0.0066 	 0.25
+	}
+}
+{volume "part1"
+	{box 0.979487 11.6906 12.6512}
+	{bone "part1"}
+	{matrix34
+		1 	 0 	 0
+		0 	 0 	 1
+		0 	 -1 	 0
+		0.5963 	 0.0186 	 5.491
+	}
+}
+{volume "wheelleft"
+	{cylinder 12.4016 2.03189}
+	{bone "wheell"}
+	{matrix34
+		0.9659 	 0.2588 	 0
+		0.2588 	 -0.9659 	 0
+		0 	 0 	 -1
+		0 	 0 	 -1.2192
+	}
+}
+{volume "wheelright"
+	{cylinder 12.4016 2.03189}
+	{bone "wheelr"}
+	{matrix34
+		0.9659 	 0.2588 	 0
+		0.2588 	 -0.9659 	 0
+		0 	 0 	 -1
+		0 	 0 	 1.2172
+	}
+}

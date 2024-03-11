@@ -1,0 +1,37 @@
+{game_entity
+	(include "/properties/vehicle_xx.ext")
+	{extension "76mm_bpk76_xx.mdl"}
+	{volume "barrel1"
+		{thickness 20}
+	}
+	{volume "barrel2"
+		{thickness 20}
+	}
+	{volume "body1"
+		{thickness 8}
+	}
+	{volume "body2"
+		{thickness 8}
+	}
+	{volume "body3"
+		{thickness 8}
+	}
+	{volume "body4"
+		{thickness 8}
+	}
+	{volume "body5"
+		{thickness 8}
+	}
+	{volume "body6"
+		{thickness 8}
+	}
+	{volume "part1"
+		{thickness 8}
+	}
+	{volume "wheelleft"
+		{thickness 10}
+	}
+	{volume "wheelright"
+		{thickness 10}
+	}
+}

@@ -1,0 +1,109 @@
+;Exported by:	 guita
+;Date:			 21.05.2022 15:07:14
+;File:			 D:\Git\3D_Scenes\GoH_3D_vehicles_fin\3d vehicles\Cannon\170mm_minenwerfer\170mm_minenwerfer_x.max
+{skeleton
+	{bone revolute "basis"
+		{parameters "wheelradius=0.435;"}
+		{orientation
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+		}
+		{bone "body"
+			{parameters "id=body;"}
+			{animation
+				{sequence "break" {file "body_b.anm"}{speed 0.7}}
+			}
+			{Position 0 	 0 	 1.4665}
+			{VolumeView "body.ply"}
+			{bone "towing_rod"
+				{parameters "id=body;"}
+				{Position -15.2039 	 0.178 	 1.8612}
+				{visibility 0}
+				{VolumeView "towing_rod.ply"}
+			}
+			{bone revolute "turret"
+				{parameters "id=body;"}
+				{limits -12.5 12.5}
+				{speed 0.05}
+				{Position 10.2343 	 0.1806 	 1.455}
+				{VolumeView "turret.ply"}
+				{bone revolute "gun_rot"
+					{parameters "id=body;"}
+					{matrix34
+						1 	 0 	 0
+						0 	 0 	 1
+						0 	 -1 	 0
+						-6.7329 	 0.0334 	 10.8126
+					}
+					{VolumeView "gun_rot.ply"}
+					{bone "gun"
+						{parameters "id=body;"}
+						{matrix34
+							1 	 -0.0026 	 0
+							0 	 0 	 -1
+							0.0026 	 1 	 0
+							0.0426 	 0.4594 	 0.0389
+						}
+						{VolumeView "gun.ply"}
+					}
+				}
+				{bone "aim_ver"
+					{parameters "id=body;"}
+					{Position -8.2566 	 5.8254 	 6.8527}
+					{VolumeView "aim_ver.ply"}
+				}
+				{bone "aim_hor"
+					{parameters "id=body;"}
+					{Position -21.1937 	 -1.3065 	 2.6825}
+					{VolumeView "aim_hor.ply"}
+				}
+			}
+		}
+		{bone "pivot_front"
+			{Position 0 	 0 	 8.3457}
+			{bone revolute "wheelr"
+				{parameters "id=wheelright;"}
+				{matrix34
+					1 	 0 	 0
+					0 	 0 	 -1
+					0 	 1 	 0
+					0 	 -15.3486 	 0
+				}
+				{visibility 0}
+				{VolumeView "wheelr.ply"}
+			}
+			{bone revolute "wheell"
+				{parameters "id=wheelleft;"}
+				{matrix34
+					1 	 0 	 0
+					0 	 0 	 -1
+					0 	 1 	 0
+					0 	 15.4644 	 0
+				}
+				{visibility 0}
+				{VolumeView "wheell.ply"}
+			}
+		}
+	}
+}
+{volume "wheelleft"
+	{cylinder 8.54327 1.81412}
+	{bone "wheell"}
+	{matrix34
+		1 	 0 	 0
+		0 	 -1 	 0
+		0 	 0 	 -1
+		0 	 0 	 0.0152
+	}
+}
+{volume "wheelright"
+	{cylinder 8.54327 1.81412}
+	{bone "wheelr"}
+	{matrix34
+		1 	 0 	 0
+		0 	 -1 	 0
+		0 	 0 	 -1
+		0 	 0 	 -0.0533
+	}
+}

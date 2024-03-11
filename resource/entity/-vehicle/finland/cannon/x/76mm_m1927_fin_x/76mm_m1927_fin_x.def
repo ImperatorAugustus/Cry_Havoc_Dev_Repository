@@ -1,0 +1,9 @@
+{game_entity
+	{extension "76mm_m1927_fin_x.mdl"} {RimLight}
+	{Volume "wheelleft"
+		{able {obstacle 0}}
+	}
+	{Volume "wheelright"
+		{able {obstacle 0}}
+	}
+}

@@ -1,0 +1,139 @@
+;Exported by:	 guita
+;Date:			 12.11.2021 10:45:07
+;File:			 D:\Git\3D_Scenes\GoH_3D_vehicles_rus\vehicles\cannon\ds39_stan\DS 39 stan_x.max
+{skeleton
+	{bone revolute "basis"
+		{orientation
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+		}
+		{bone "body"
+			{parameters "id=body;"}
+			{animation
+				{sequence "break" {file "body_b.anm"}{speed 0.65}}
+			}
+			{Position 0.1673 	 -0.0002 	 10.2736}
+			{LODView
+				{VolumeView "body.ply"}
+				{VolumeView "body_lod1.ply"}
+			}
+			{bone "right_leg"
+				{parameters "id=body;"}
+				{matrix34
+					0.889 	 -0.3592 	 -0.284
+					0.3746 	 0.9272 	 0
+					0.2633 	 -0.1064 	 0.9588
+					0.4636 	 -0.8755 	 -1.0802
+				}
+				{LODView
+					{VolumeView "right_leg.ply"}
+					{VolumeView "right_leg_lod1.ply"}
+				}
+			}
+			{bone "center_leg"
+				{parameters "id=body;"}
+				{matrix34
+					-0.9877 	 0 	 -0.1564
+					0 	 -1 	 0
+					-0.1564 	 0 	 0.9877
+					-1.0471 	 0.2261 	 -0.9637
+				}
+				{LODView
+					{VolumeView "center_leg.ply"}
+					{VolumeView "center_leg_lod1.ply"}
+				}
+			}
+			{bone "left_leg"
+				{parameters "id=body;"}
+				{matrix34
+					0.885 	 0.3723 	 -0.2795
+					-0.3861 	 0.9224 	 0.006
+					0.2601 	 0.1026 	 0.9601
+					0.4952 	 0.789 	 -1.084
+				}
+				{LODView
+					{VolumeView "left_leg.ply"}
+					{VolumeView "left_leg_lod1.ply"}
+				}
+			}
+			{bone revolute "turret"
+				{parameters "id=body;"}
+				{Position -0.0004 	 0 	 0.1279}
+				{LODView
+					{VolumeView "turret.ply"}
+					{VolumeView "turret_lod1.ply"}
+				}
+				{bone revolute "gun_rot"
+					{parameters "id=body;"}
+					{matrix34
+						1 	 0 	 0
+						0 	 0 	 1
+						0 	 -1 	 0
+						0.0505 	 -0.8625 	 2.2658
+					}
+					{VolumeView "gun_rot.ply"}
+					{bone "gun_rot_detail"
+						{parameters "id=body;"}
+						{matrix34
+							1 	 0 	 0
+							0 	 1 	 0
+							0 	 0 	 1
+							2.0775 	 0.0907 	 0
+						}
+						{VolumeView "gun_rot_detail.ply"}
+						{bone "mgun"
+							{parameters "id=body;"}
+							{matrix34
+								1 	 0 	 0
+								0 	 1 	 0
+								0 	 0 	 1
+								-10.8173 	 1.9702 	 -0.8637
+							}
+							{VolumeView "mgun.ply"}
+						}
+					}
+				}
+				{bone "shield"
+					{parameters "id=shield;"}
+					{matrix34
+						0.9848 	 0 	 -0.1736
+						0 	 1 	 0
+						0.1736 	 0 	 0.9848
+						0.4247 	 0.0451 	 4.4616
+					}
+					{VolumeView "shield.ply"}
+				}
+			}
+		}
+		{bone "ammo_box"
+			{parameters "id=body;"}
+			{Position -2.1517 	 -6.4925 	 2.4395}
+			{LODView
+				{VolumeView "ammo_box.ply"}
+				{VolumeView "ammo_box_lod1.ply"}
+			}
+			{bone "ammo"
+				{parameters "id=body;"}
+				{Position -0.5782 	 6.3546 	 10.2923}
+				{LODView
+					{VolumeView "ammo.ply"}
+					{VolumeView "ammo_lod1.ply"}
+				}
+			}
+		}
+		{bone "box_cover"
+			{parameters "id=body;"}
+			{matrix34
+				0.9871 	 -0.1599 	 0
+				0.1599 	 0.9871 	 0
+				0 	 0 	 1
+				-2.6266 	 -9.0419 	 4.3122
+			}
+			{LODView
+				{VolumeView "box_cover.ply"}
+				{VolumeView "box_cover_lod1.ply"}
+			}
+		}
+	}
+}

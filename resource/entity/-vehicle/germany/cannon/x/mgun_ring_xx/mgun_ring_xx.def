@@ -1,0 +1,21 @@
+{game_entity
+	(include "/properties/vehicle_xx.ext")
+	{extension "mgun_ring_xx.mdl"}
+
+	{volume "body1"
+		{thickness 10}
+		{able {holed}}
+	}
+	{volume "part3"
+		{thickness 5}
+	}
+	{volume "shield1"
+		{thickness 8}
+	}
+	{volume "shield2"
+		{thickness 8}
+	}
+	{volume "turret1"
+		{thickness 8}
+	}
+}

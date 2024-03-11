@@ -1,0 +1,84 @@
+;Exported by:	 TigerF
+;Date:			 31.10.2023 11:55:32
+;File:			 D:\GOH\3dsmax9_saves\scenes\GoH_3D_vehicles_usa\vehicles\cannon\mg_tripods\m2_50cal_tripod_x.max
+{skeleton
+	{bone revolute "basis"
+		{parameters "basis;"}
+		{speed 0.001}
+		{orientation
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+		}
+		{bone "body"
+			{parameters "id=body;"}
+			{animation
+				{sequence "break" {file "body_b.anm"}{speed 1}}
+			}
+			{Position 0 	 0 	 7.3038}
+			{VolumeView "body.ply"}
+			{bone "support1"
+				{parameters "id=body;"}
+				{Position 1.8009 	 -0.4289 	 -0.8384}
+				{VolumeView "support1.ply"}
+			}
+			{bone "support2"
+				{parameters "id=body;"}
+				{matrix34
+					0.9391 	 0 	 0.3437
+					0 	 1 	 0
+					-0.3437 	 0 	 0.9391
+					-1.646 	 0.8408 	 -0.6464
+				}
+				{VolumeView "support2.ply"}
+				{bone "fixer"
+					{parameters "id=body;"}
+					{matrix34
+						0.9997 	 0 	 0.0256
+						0 	 1 	 0
+						-0.0256 	 0 	 0.9997
+						-6.7876 	 2.6965 	 0.0219
+					}
+					{VolumeView "fixer.ply"}
+				}
+			}
+			{bone "support3"
+				{parameters "id=body;"}
+				{matrix34
+					0.9391 	 0 	 0.3437
+					0 	 1 	 0
+					-0.3437 	 0 	 0.9391
+					-1.646 	 -0.8408 	 -0.6464
+				}
+				{VolumeView "support3.ply"}
+			}
+			{bone revolute "turret"
+				{parameters "id=body;"}
+				{limits -10 10}
+				{speed 0.008}
+				{Position 0 	 0 	 0.2413}
+				{VolumeView "turret.ply"}
+				{bone revolute "gun_rot"
+					{parameters "id=body;"}
+					{limits -15 15}
+					{speed 0.003}
+					{matrix34
+						1 	 0 	 0
+						0 	 0 	 1
+						0 	 -1 	 0
+						0 	 0 	 0.5709
+					}
+					{VolumeView "gun_rot.ply"}
+					{bone "mgun"
+						{matrix34
+							1 	 0 	 0
+							0 	 1 	 0
+							0 	 0 	 1
+							-11.8744 	 1.1531 	 -0.0018
+						}
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "broneschitok_1_x"}
+	{bump "broneschitok_1_nm"}
+	{specular "broneschitok_1_sp"}
+	{color "229 229 229 25"}
+	{blend none}
+}

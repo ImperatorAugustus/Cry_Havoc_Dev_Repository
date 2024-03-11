@@ -1,0 +1,42 @@
+{game_entity
+	(include "/properties/vehicle_xx.ext")
+	{extension "28mm_pzb41_xx.mdl"}
+
+	{volume "barrel1"
+		{thickness 20}
+	}
+	{volume "barrel2"
+		{thickness 20}
+	}
+	{volume "barrel3"
+		{thickness 20}
+	}
+	{volume "barrel4"
+		{thickness 20}
+	}
+	{volume "body1"
+		{thickness 8}
+	}
+	{volume "shield1"
+		{thickness 8}
+		{able {holed}}
+	}
+	{volume "shield2"
+		{thickness 8}
+	}
+	{volume "shield3"
+		{thickness 8}
+	}
+	{volume "shield_rear1"
+		{thickness 8}
+	}
+	{volume "shield_rear2"
+		{thickness 8}
+	}
+	{volume "wheelleft"
+		{thickness 0.5}
+	}
+	{volume "wheelright"
+		{thickness 0.5}
+	}
+}

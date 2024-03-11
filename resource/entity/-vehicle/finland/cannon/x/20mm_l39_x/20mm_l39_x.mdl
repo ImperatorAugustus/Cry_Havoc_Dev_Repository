@@ -1,0 +1,76 @@
+;Exported by:	 TigerF
+;Date:			 12.05.2022 12:04:03
+;File:			 D:\PROGRAMS\3ds_max\3dsmax9_saves\scenes\GoH_3D_vehicles_fin\3d vehicles\Cannon\20mm_l39\20mm_l39_x.max
+{skeleton
+	{bone revolute "basis"
+		{speed 0.007}
+		{orientation
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+		}
+		{bone revolute "body"
+			{limits -5 5}
+			{speed 0.01}
+			{Position 0.0092 	 0 	 0.004}
+			{bone revolute "gun_rot"
+				{limits -5 12}
+				{speed 0.01}
+				{orientation
+					1 	 0 	 0
+					0 	 0 	 1
+					0 	 -1 	 0
+				}
+				{bone "gun"
+					{parameters "id=body;"}
+					{orientation
+						1 	 0 	 0
+						0 	 0 	 -1
+						0 	 1 	 0
+					}
+					{LODView
+						{VolumeView "gun.ply"}
+						{VolumeView "gun_lod1.ply"}
+					}
+					{bone "bipod_win"
+						{parameters "id=body;"}
+						{Position -0.0118 	 -0.0562 	 6.1461}
+						{LODView
+							{VolumeView "bipod_win.ply"}
+							{VolumeView "bipod_win_lod1.ply"}
+						}
+						{bone "bipod"
+							{parameters "id=body;"}
+							{matrix34
+								0 	 0 	 -1
+								0 	 1 	 0
+								1 	 0 	 0
+								0.026 	 0 	 -1.8854
+							}
+							{LODView
+								{VolumeView "bipod.ply"}
+								{VolumeView "bipod_lod1.ply"}
+							}
+						}
+					}
+					{bone "magazine"
+						{parameters "id=body;"}
+						{Position -3.8919 	 -0.0372 	 9.0795}
+						{LODView
+							{VolumeView "magazine.ply"}
+							{VolumeView "magazine_lod1.ply"}
+						}
+					}
+					{bone "crank"
+						{parameters "id=body;"}
+						{Position -7.3506 	 -0.6921 	 5.8666}
+						{LODView
+							{VolumeView "crank.ply"}
+							{VolumeView "crank_lod1.ply"}
+						}
+					}
+				}
+			}
+		}
+	}
+}

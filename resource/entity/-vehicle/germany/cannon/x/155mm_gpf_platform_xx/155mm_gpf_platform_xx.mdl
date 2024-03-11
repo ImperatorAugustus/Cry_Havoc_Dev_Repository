@@ -1,0 +1,88 @@
+;Exported by:	 TigerF
+;Date:			 13.12.2023 14:09:00
+;File:			 D:\GOH\3dsmax9_saves\scenes\_GoH_3d_vehicle_ger\vehicles\cannon\155mm_gpf_platform\155mm_GPF_platform_xx.max
+{skeleton
+	{bone "basis"
+		{orientation
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+		}
+		{bone "body"
+			{parameters "id=body;"}
+			{Position 0 	 0 	 6.6668}
+			{VolumeView "body.ply"}
+			{bone "part1"
+				{parameters "id=part1;"}
+				{matrix34
+					0.9547 	 -0.143 	 0.2611
+					0.0945 	 0.9773 	 0.1897
+					-0.2823 	 -0.1564 	 0.9465
+					-40.5099 	 4.6273 	 9.2304
+				}
+				{VolumeView "part1.ply"}
+			}
+		}
+	}
+}
+{obstacle "obstacle"
+	{polygon2
+		{radius 0}
+		{vertex -8.4729 -26.2784}
+		{vertex 8.50845 -26.2785}
+		{vertex 22.2466 -16.2971}
+		{vertex 27.4942 -0.146846}
+		{vertex 22.2467 16.0034}
+		{vertex 8.50845 25.9848}
+		{vertex -8.4729 25.9848}
+		{vertex -22.2111 16.0034}
+		{vertex -27.4586 -0.146843}
+		{vertex -22.2111 -16.2971}
+	}
+	{rotate}
+}
+{volume "barrel1"
+	{box 45.7725 5.26541 9.36018}
+	{bone "body"}
+	{matrix34
+		0.9579 	 -0.1328 	 0.2545
+		-0.2531 	 0.0281 	 0.967
+		-0.1356 	 -0.9907 	 -0.0067
+		-3.0506 	 -0.5256 	 13.3684
+	}
+}
+{volume "barrel2"
+	{polyhedron "barrel2.vol"}
+	{bone "part1"}
+	{matrix34
+		0 	 1 	 0
+		0 	 0 	 1
+		1 	 0 	 0
+		-8.1227 	 0.0044 	 -0.0521
+	}
+}
+{volume "body1"
+	{cylinder 27.4764 4.16908}
+	{bone "body"}
+	{Position 0.0178 	 0.1468 	 -4.5822}
+}
+{volume "body2"
+	{polyhedron "body2.vol"}
+	{bone "body"}
+	{matrix34
+		0.9835 	 -0.1784 	 0.0301
+		0.1766 	 0.9828 	 0.0538
+		-0.0391 	 -0.0476 	 0.9981
+		0.7284 	 -0.5979 	 8.5379
+	}
+}
+{volume "hole1"
+	{polyhedron "hole1.vol"}
+	{bone "body"}
+	{matrix34
+		0.9835 	 -0.1784 	 0.0301
+		0.1766 	 0.9828 	 0.0538
+		-0.0391 	 -0.0476 	 0.9981
+		0.3988 	 -0.7898 	 14.4137
+	}
+}

@@ -1,0 +1,23 @@
+{game_entity
+	(include "57mm_m1.inc")
+
+	{extender "inventory"
+		{box
+			{item "ammo bullet_57x441 usa apcbche" 6}	;50 rounds, 25% HE
+			{item "ammo bullet_57x441 eng he" 4}	;issued british HE rounds
+			{item "sandbag_vehicle" 1}
+		}
+	}
+	{Weaponry
+		("restore_ik_time")
+		{place "gun"
+			{weapon "57mm_m1" filling "ammo bullet_57x441 usa apcbche" 1}
+			{charger "charger charger2" minWorkers 1}
+			{RestoreIKAfterAim}
+			("abm_dymamic_gun"
+				zeroing(1.50)
+				dispersion(0.35)
+			)
+		}
+	}
+}

@@ -1,0 +1,101 @@
+{game_entity
+	(include "/properties/cannon.ext")
+	{extension "300mm_m30.mdl"}
+	{props "carried" "katusha" "vision_lev05_can" "detect_artillery" "cannon_sandbag_standard" "artillery_minimap_medium" "c_rok_hvy"}
+	{able "emit_on_attack"}
+	{collider "cannon_small"}
+	{targetclass "howitzer"}
+	{targetSelector "rocket"}
+
+	{volume "body6" {material "wood"}}
+
+	("crew_carried_cannon_4")
+
+	{boarder
+		{anm "gunner"
+			{forward {end "pose_nebelwerfer41_gunner" 10}}
+		}
+		{anm "charger"
+			{forward {end "pose_nebelwerfer41_loader" 10}}
+		}
+		{anm "charger2"
+			{forward {end "pose_squat_empty" 10}}
+		}
+		{anm "commander"
+			{forward {end "pose_squat_watch_binocular" 10}}
+		}
+		{anm "driver1"	;// gunner
+			{forward {end "mortar_driver_l" 10}}
+		}
+		{anm "driver2"	;// charger
+			{forward {end "mortar_driver_l" 10}}
+		}
+		{anm "driver3"	;// charger2
+			{forward {end "mgun_browning_driver_l" 10}}
+		}
+		{anm "driver4"	;// commander
+			{forward {end "mgun_browning_driver_r" 10}}
+		}
+	}
+
+	{extender "cannon"
+		{animation
+			{switch "close"}
+			;// "gunner" "charger" "charger2" "commander"
+			{move "mortar_driver_l" "mortar_driver_l" "mgun_browning_driver_l" "mgun_browning_driver_r"}
+			{aim "nebelwerfer41_gunner_aim" "" "" ""}
+			{fire "" "Cannon_zis3_charger_fire 0.2" "" ""}
+			{gunners "" "" "" ""}
+			{reload "" "cannon_pak40_charger" "" ""}
+		}
+		{move {workers "driver1" "driver2" "driver3" "driver4" minWorkers 4} {obstacle "close"}}			;// move state: cannon being pushed and which positions play animations
+		{attack {workers "gunner""charger" "charger2" "commander"} {obstacle "open"}}		;// fire/attack state: cannon aim, fire, and reload events
+		{move {obstacle "close"}}
+		{attack {obstacle "open"}}
+	}
+
+	{extender "inventory"
+		{box
+			{item "ammo 300mm_bm30" 4}		; 4 salvos (4 rockets each) (20 total)
+			{item "sandbag_vehicle" 1}
+		}
+	}
+
+	{Weaponry
+		("restore_ik_time")
+		{place "gun"
+			{Barrels 4}
+			{weapon "weapon 300mm_m30" filled}
+			{charger "charger charger2" minWorkers 1}
+			{RestoreIKAfterAim}
+			{StationaryFiring}
+			("abm_dymamic_rocket"
+				zeroing(10.0)	; // time it takes to aim until the reticle shrinks. Bigger values, more control.
+				dispersion(1)	; // time it takes to distort the reticle when you move the gun (how abrupt it loses zeroing). Bigger values, more control.
+			)
+		}
+	}
+
+	{mass 550}
+	{Chassis "human_carrier"
+		("mobility_cannon"
+			speed(7.9) ;----------------------------------Max speed.
+			weight(550) ;---------------------------------Weight in Kilograms.
+		)
+	}
+
+	{bone "basis"
+		{speed2 5}
+	}
+	{bone "foresight"
+		{limits -10 60}
+		{speed2 5}
+	}
+	(mod "mp"
+		{brain
+			{properties
+				{fire_mode hold}
+			}
+		}
+	)
+}

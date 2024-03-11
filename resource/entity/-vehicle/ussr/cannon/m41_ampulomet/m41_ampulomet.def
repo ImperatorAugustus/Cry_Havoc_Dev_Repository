@@ -1,0 +1,68 @@
+{game_entity
+	(include "/properties/cannon_mgun.ext")
+	
+	{extension "m41_ampulomet.mdl"}
+	{props "with_gun" "muzzle_20mm_25mm_auto" "cannon_sandbag_small" "vision_lev00_can" "detect_cannon_aa" "no_sandbags" "c_flamelauncher"}
+	{targetclass "cannon_small"}
+	{targetSelector "cannon_small"}
+
+	{boarder
+		{anm "gunner"
+			{forward {end "cannon_ampulomet_gunner" 10}}
+		}
+		{anm "commander"
+			{forward {end "cannon_ampulomet_commander" 10}}
+		}
+	}
+
+	{extender "cannon"
+		{animation
+		;// "gunner" "commander"
+			{move "mgun_browning_driver_r" "mortar_driver_l"}
+			{fire "cannon_ampulomet_gunner_fire" "cannon_ampulomet_commander_fire"}
+			{aim "cannon_ampulomet_gunner_aim" "cannon_ampulomet_commander_aim"}
+			{reload "cannon_ampulomet_gunner_reload" "cannon_ampulomet_commander_reload"}
+		}
+	}
+
+	{extender "inventory"
+		{box
+			{item "bulletrus_125 ic" 30}
+		}
+	}
+
+	{Weaponry
+		("restore_ik_time")
+		{place "gun"
+			{weapon "125mm_ampulomet" filling "bulletrus_125 ic" 1}
+			{RestoreIKAfterAim}
+			{gunner "gunner"}
+			{charger "commander"}
+			{basic}
+			("abm_dymamic_gun"
+				zeroing(2.0)
+				dispersion(0.2)
+			)
+		}
+	}
+
+	{mass 36} ;// 26kg for barrel + 10kg for stand
+	{Chassis
+		("mobility_cannon"
+			speed(12) ;----------------------------------Max speed.
+			weight(36) ;---------------------------------Weight in Kilograms. 
+		)
+	}
+
+	{bone "basis"
+		{speed2 9}
+	}
+	{bone "gun_rot"
+		{limits -45 15}
+		{speed2 10}
+	}
+	{bone "turret"
+		{limits -30 30}
+		{speed2 18}
+	}
+}

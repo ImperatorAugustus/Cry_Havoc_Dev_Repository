@@ -1,0 +1,3 @@
+{game_entity
+	{extension "maxim_stand_x.mdl"} {RimLight}
+}

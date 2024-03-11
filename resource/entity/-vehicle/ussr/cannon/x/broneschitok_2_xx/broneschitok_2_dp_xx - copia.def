@@ -1,0 +1,15 @@
+{game_entity
+	(include "/properties/vehicle_xx.ext")
+	{extension "broneschitok_2.mdl"}
+
+	{volume "body"
+		{Thickness 6}
+		{able {holed}}
+	}
+	{volume "body1"
+		{Thickness 6}
+	}
+	{volume "body2"
+		{Thickness 6}
+	}
+}

@@ -1,0 +1,41 @@
+;Exported by: Alexey
+;Date:        Wed Oct 06 22:46:52 2010
+;File:        H:\VTV_models\Models_For_WiW\other\broneschitok_1\broneschitok_1.max
+{Skeleton
+	{bone revolute "basis"
+		{speed2 5}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone revolute "turret"
+			{limits -8 8}
+			{speed2 40}
+			{Position -0.869549	-3.37546	5.00115}
+			{bone revolute "gun_rot"
+				{limits -15 15}
+				{speed2 40}
+				{Matrix34
+					1	0	0
+					0	0	1
+					0	-1	0
+					0	0	0.0541849
+				}
+				{bone "mgun"
+					{Matrix34
+						1	0	0
+						0	0.99987	0.016108
+						0	-0.016108	0.99987
+						-6.01374	-0.9959	-0.0389004
+					}
+				}
+			}
+		}
+		{bone "body"
+			{parameters "ID=body;"}
+			{Position 0	0	4.9793}
+			{VolumeView "body.ply"}
+		}
+	}
+}

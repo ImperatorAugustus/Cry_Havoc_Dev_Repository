@@ -1,0 +1,35 @@
+{game_entity
+	(include "/properties/vehicle_xx.ext")
+	{extension "20mm_itk35_xx.mdl"}
+	{volume "barrel1"
+		{thickness 15}
+	}
+	{volume "barrel2"
+		{thickness 15}
+	}
+	{volume "body1"
+		{thickness 8}
+	}
+	{volume "body2"
+		{able {holed}}
+		{thickness 8}
+	}
+	{volume "standc"
+		{thickness 8}
+		{able {obstacle 0}{contact 0}}
+	}
+	{volume "standl"
+		{thickness 8}
+		{able {obstacle 0}{contact 0}}
+	}
+	{volume "standr"
+		{thickness 8}
+		{able {obstacle 0}{contact 0}}
+	}
+	{volume "wheelleft"
+		{thickness 8}
+	}
+	{volume "wheelright"
+		{thickness 8}
+	}
+}

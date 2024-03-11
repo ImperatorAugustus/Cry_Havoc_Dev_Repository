@@ -1,0 +1,169 @@
+;Exported by:	 TigerF
+;Date:			 24.04.2022 23:21:00
+;File:			 D:\PROGRAMS\3ds_max\3dsmax9_saves\scenes\goh_3d_vehicles_fin\3d vehicles\Cannon\170mm_minenwerfer\170mm_minenwerfer_xx.max
+{skeleton
+	{bone revolute "basis"
+		{orientation
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+		}
+		{bone "body"
+			{parameters "id=body;"}
+			{matrix34
+				0.9981 	 -0.0348 	 -0.0499
+				0.0312 	 0.997 	 -0.0714
+				0.0522 	 0.0698 	 0.9962
+				0.0387 	 0.0233 	 1.7981
+			}
+			{VolumeView "body.ply"}
+			{bone revolute "turret"
+				{parameters "id=body;"}
+				{matrix34
+					0.9976 	 0.0696 	 -0.0049
+					-0.0698 	 0.9951 	 -0.0696
+					0 	 0.0698 	 0.9976
+					10.2343 	 0.1806 	 1.455
+				}
+				{VolumeView "turret.ply"}
+				{bone revolute "part1"
+					{parameters "id=part1;"}
+					{matrix34
+						0.7071 	 0 	 0.7071
+						-0.7071 	 0 	 0.7071
+						0 	 -1 	 0
+						-6.7329 	 0.0334 	 10.8126
+					}
+					{VolumeView "part1.ply"}
+				}
+			}
+		}
+		{bone "pivot_front"
+			{Position 0 	 0 	 8.3457}
+			{bone revolute "wheelr"
+				{parameters "id=wheelright;"}
+				{matrix34
+					1 	 0 	 0
+					0 	 0 	 -1
+					0 	 1 	 0
+					0 	 -15.3486 	 0
+				}
+				{VolumeView "wheelr.ply"}
+			}
+			{bone revolute "wheell"
+				{parameters "id=wheelleft;"}
+				{matrix34
+					1 	 0 	 0
+					0 	 0 	 -1
+					0 	 1 	 0
+					0 	 15.4644 	 0
+				}
+				{VolumeView "wheell.ply"}
+			}
+		}
+	}
+}
+{obstacle "obstacle"
+	{obb2
+		{center -5.28154 -0.104076}
+		{extent 17.2264 9.65678}
+		{axis 1 0}
+	}
+	{rotate}
+	{rotate}
+}
+{volume "barrel1"
+	{polyhedron "barrel1.vol"}
+	{bone "part1"}
+	{matrix34
+		0.7071 	 0.7071 	 0
+		0 	 0 	 -1
+		-0.7071 	 0.7071 	 0
+		-0.6399 	 0.2088 	 0.0357
+	}
+}
+{volume "barrel2"
+	{cylinder 1.04855 5.68097}
+	{bone "part1"}
+	{matrix34
+		0 	 0 	 -1
+		-0.7071 	 0.7071 	 0
+		0.7071 	 0.7071 	 0
+		1.7651 	 7.319 	 0.025
+	}
+}
+{volume "barrel3"
+	{cylinder 1.04855 5.68097}
+	{bone "part1"}
+	{matrix34
+		0 	 0 	 -1
+		-0.7071 	 0.7071 	 0
+		0.7071 	 0.7071 	 0
+		6.8243 	 2.2598 	 0.025
+	}
+}
+{volume "barrel4"
+	{cylinder 2.4131 19.4613}
+	{bone "part1"}
+	{matrix34
+		0 	 0 	 -1
+		-0.7071 	 0.7071 	 0
+		0.7071 	 0.7071 	 0
+		-0.6112 	 -0.1846 	 0.214
+	}
+}
+{volume "barrel5"
+	{polyhedron "barrel5.vol"}
+	{bone "part1"}
+	{matrix34
+		0.7071 	 0.7071 	 0
+		0 	 0 	 -1
+		-0.7071 	 0.7071 	 0
+		-5.8706 	 -5.4111 	 0.0172
+	}
+}
+{volume "body1"
+	{box 34.1718 2.37947 18.3596}
+	{bone "body"}
+	{matrix34
+		1 	 0 	 0
+		0 	 0 	 1
+		0 	 -1 	 0
+		-5.6108 	 0.5213 	 0.484
+	}
+}
+{volume "body2"
+	{polyhedron "body2.vol"}
+	{bone "turret"}
+	{Position -12.9195 	 -0.0004 	 5.5213}
+}
+{volume "hole1"
+	{box 6.91157 10.0794 20.248}
+	{bone "body"}
+	{matrix34
+		0 	 -1 	 0
+		0 	 0 	 1
+		-1 	 0 	 0
+		-2.2265 	 0.1348 	 7.8849
+	}
+}
+{volume "wheelleft"
+	{cylinder 8.54327 1.81412}
+	{bone "wheell"}
+	{matrix34
+		1 	 0 	 0
+		0 	 -1 	 0
+		0 	 0 	 -1
+		0 	 0 	 0.0152
+	}
+}
+{volume "wheelright"
+	{cylinder 8.54327 1.81412}
+	{bone "wheelr"}
+	{matrix34
+		1 	 0 	 0
+		0 	 -1 	 0
+		0 	 0 	 -1
+		0 	 0 	 -0.0533
+	}
+}

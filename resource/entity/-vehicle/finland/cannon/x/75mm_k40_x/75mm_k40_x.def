@@ -1,0 +1,10 @@
+{game_entity
+	{Extension "75mm_pak40_x.mdl"}
+	{RimLight}
+	{volume "wheelleft"
+		{able {obstacle 0}}
+	}
+	{volume "wheelright"
+		{able {obstacle 0}}
+	}
+}

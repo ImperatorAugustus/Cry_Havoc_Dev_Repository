@@ -1,0 +1,9 @@
+{game_entity
+	{extension "20mm_flak30_x.mdl"} {RimLight}
+	{volume "wheelleft"
+		{able {obstacle 0}}
+	}
+	{volume "wheelright"
+		{able {obstacle 0}}
+	}
+}

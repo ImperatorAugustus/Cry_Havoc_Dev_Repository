@@ -1,0 +1,9 @@
+{game_entity
+	{extension "100mm_bs3_x.mdl"} {RimLight}
+	{volume "wheelleft"
+		{able {obstacle 0}}
+	}
+	{volume "wheelright"
+		{able {obstacle 0}}
+	}
+}

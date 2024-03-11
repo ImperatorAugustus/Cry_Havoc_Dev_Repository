@@ -1,0 +1,36 @@
+{game_entity
+	(include "/properties/vehicle_xx.ext")
+	{extension "170mm_minewerfer_xx.mdl"}
+	{props "wheeled" "invisible"}
+	{volume "wheelleft" {tags "invisible"}} ;// volume disabled on carriage hidden
+	{volume "wheelright" {tags "invisible"}} ;// volume disabled on carriage hidden
+
+	{volume "barrel1"
+		{thickness 6}
+	}
+	{volume "barrel2"
+		{thickness 6}
+	}
+	{volume "barrel3"
+		{thickness 6}
+	}
+	{volume "barrel4"
+		{thickness 6}
+	}
+	{volume "barrel5"
+		{thickness 6}
+	}
+	{volume "body1"
+		{thickness 6}
+	}
+	{volume "body2"
+		{thickness 6}
+		{able {holed}}
+	}
+	{volume "wheelleft"
+		{thickness 10}
+	}
+	{volume "wheelright"
+		{thickness 10}
+	}
+}

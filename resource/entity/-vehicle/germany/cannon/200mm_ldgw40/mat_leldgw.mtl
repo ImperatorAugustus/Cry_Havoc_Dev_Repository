@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/_vehicle/20cm_leldgw"}
+	{bump "$/_vehicle/20cm_leldgw_bp"}
+	{specular "$/_vehicle/20cm_leldgw_sp"}
+	{color "230 230 230 25"}
+	{blend test}
+}

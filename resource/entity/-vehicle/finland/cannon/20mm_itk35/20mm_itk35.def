@@ -1,0 +1,91 @@
+{game_entity
+	(include "/properties/cannon.ext")
+	
+	{extension "20mm_itk35.mdl"}
+	(include "/properties/selection/vehicle_small.inc" scale(1.1))
+	{props "cannon_small" "automatic" "wheeled" "invisible" "vision_lev02_can" "muzzle_20mm_25mm_auto" "cannon_sandbag_small" "trailer" "trailer_light" "detect_cannon_aa" "c_aa_lite"}
+	{collider "cannon_small"}
+	{targetclass "cannon_zenite"}
+	{targetSelector "cannon_zenite"}
+
+	("wheel" args "wheelright")
+	("wheel" args "wheelleft")
+
+	("gun" repair(30) thickness(15))
+	("armor_light_cannon")
+	("crew_wheeled_cannon")
+
+	{volume "body2" {able {holed}}}
+;	{volume "stand" {tags "invisible"}{density 0}} ;// volume disabled on carriage hidden 
+	{volume "wheelleft" {tags "invisible"}}
+	{volume "wheelright" {tags "invisible"}}
+
+	{boarder
+		{anm "gunner"
+			{forward {end "pose_flak30_gunner" 10}}
+		}
+		{anm "commander"
+			{forward {end "pose_flak30_loader" 10}}
+		}
+		{anm "driver1"	;// gunner
+			{forward {end "cannon_pak40_pusher_left" 10}}
+		}
+		{anm "driver2"	;// commander
+			{forward {end "cannon_pak40_pusher_right" 10}}
+		}
+		{anm "seat1"	;// gunner
+			{forward {end "pose_flak30_seatr" 10}}
+		}
+		{anm "seat2"	;// commander
+			{forward {end "pose_flak30_seatr" 10}}
+		}
+	}
+
+	{extender "cannon"
+		{animation
+			{switch "close"}
+			;// "gunner" "commander"
+			{move "cannon_pak40_pusher_left" "cannon_pak40_pusher_right"}
+			{aim "flak30_gunner" ""}
+			{reload "" "flak30_loader"}
+		}
+		{move {obstacle "close"}}
+		{attack {obstacle "open"}}
+		{rotate_ik_Limit 0}
+	}
+
+	{extender "inventory"
+		{box
+			{item "bullet_20x138b_auto fin ap" 60}		; 23 clips (12 rounds each)
+			{item "bullet_20x138b_auto fin he" 60}
+			{item "sandbag_vehicle" 1}
+		}
+	}
+
+	{Weaponry
+		{place "gun"
+			{weapon "20mm_itk35" filling "bullet_20x138b_auto fin he" 12}  ; Placeholder weapon
+			{charger "commander"}
+			("abm_dymamic_aaa"
+				zeroing(1.2)
+				dispersion(0.15)
+			)
+		}
+	}
+
+	{mass 330}
+	{Chassis "track"
+		("car_trace" fx("tracewheel05a") step(0.14) wheell("wlf") wheelr("wrf") bonel("FXtraceL1") boner("FXtraceR1"))
+		("mobility_cannon"
+			speed(8.7) ;--------------------------------Max speed.
+			weight(330) ;-------------------------------Weight in Kilograms.
+		)
+	}
+	{bone "gun_rot"
+		{limits -10 80}
+		{speed2 60}
+	}
+	{bone "turret"
+		{speed2 60}
+	}
+}

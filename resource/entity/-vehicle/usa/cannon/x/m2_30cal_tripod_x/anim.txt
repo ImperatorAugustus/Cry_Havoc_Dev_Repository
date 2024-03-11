@@ -1,0 +1,44 @@
+-= Animation: break, Node body =-
+ frame 55 {
+	visibility 1
+	position 0.6021 	 -0.0023 	 5.8506
+	orientation 0 	 0 	 0 	 1
+}
+frame 75 {
+	visibility 1
+	position 0.6021 	 -0.0023 	 5.8506
+	orientation 0 	 0 	 0 	 1
+}
+-= Animation: break, Node support1 =-
+ frame 55 {
+	visibility 1
+	position 1.7837 	 0 	 -0.8523
+	orientation 0 	 0 	 0 	 1
+}
+frame 75 {
+	visibility 1
+	position 1.7837 	 0 	 -0.8523
+	orientation 0 	 0 	 0 	 1
+}
+-= Animation: break, Node support2 =-
+ frame 55 {
+	visibility 1
+	position -1.4664 	 0.7439 	 -0.262
+	orientation 0 	 0.1743 	 0 	 0.9847
+}
+frame 75 {
+	visibility 1
+	position -1.4664 	 0.7439 	 -0.262
+	orientation 0 	 0.1743 	 0 	 0.9847
+}
+-= Animation: break, Node support3 =-
+ frame 55 {
+	visibility 1
+	position -1.4664 	 -0.7439 	 -0.262
+	orientation 0 	 0.1743 	 0 	 0.9847
+}
+frame 75 {
+	visibility 1
+	position -1.4664 	 -0.7439 	 -0.262
+	orientation 0 	 0.1743 	 0 	 0.9847
+}

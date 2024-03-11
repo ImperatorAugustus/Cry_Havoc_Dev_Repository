@@ -1,0 +1,62 @@
+{game_entity
+	(include "/properties/vehicle_xx.ext")
+	{extension "88mm_flak18_xx.mdl"}
+	{props "cannon" "wheeled" "invisible"}
+	{volume "body5" {tags "invisible"}} ;// volume disabled on carriage hidden 
+	{volume "body6" {tags "invisible"}} ;// volume disabled on carriage hidden 
+
+	{volume "body1"
+		{thickness 10}
+	}
+	{volume "body2"
+		{thickness 10}
+	}
+	{volume "body3"
+		{thickness 10}
+	}
+	{volume "body4"
+		{thickness 10}
+	}
+	{volume "body5"
+		{thickness 10}
+	}
+	{volume "body6"
+		{thickness 10}
+	}
+	{volume "body7"
+		{thickness 10}
+	}
+	{volume "body8"
+		{thickness 10}
+	}
+	{volume "body9"
+		{thickness 10}
+	}
+	{volume "body10"
+		{thickness 10}
+	}
+	{volume "barrel1"
+		{thickness 30}
+	}
+	{volume "barrel2"
+		{thickness 30}
+	}
+	{volume "barrel4"
+		{thickness 30}
+	}
+	{volume "wheelleft1"
+		{thickness 10}
+	}
+	{volume "wheelleft2"
+		{thickness 10}
+	}
+	{volume "wheelright1"
+		{thickness 10}
+	}
+	{volume "wheelright2"
+		{thickness 10}
+	}
+	{volume "part3"
+		{thickness 2}
+	}
+}

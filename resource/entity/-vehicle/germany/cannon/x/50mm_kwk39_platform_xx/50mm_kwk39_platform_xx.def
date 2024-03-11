@@ -1,0 +1,39 @@
+{game_entity
+	(include "/properties/vehicle_xx.ext")
+	{extension "50mm_kwk39_platform_xx.mdl"}
+	{volume "armor1"
+		{thickness 6}
+	}
+	{volume "armor2"
+		{thickness 6}
+	}
+	{volume "body1"
+		{thickness 15}
+	}
+	{volume "body2"
+		{thickness 15}
+		{able {holed}}
+	}
+	{volume "barrel1"
+		{thickness 25}
+	}
+	{volume "barrel2"
+		{thickness 25}
+	}
+	{volume "barrel3"
+		{thickness 25}
+	}
+	{volume "barrel4"
+		{thickness 25}
+	}
+	{volume "shield1"
+		{thickness 8}
+		{able {holed}}
+	}
+	{volume "shield2"
+		{thickness 8}
+	}
+	{volume "shield3"
+		{thickness 8}
+	}
+}

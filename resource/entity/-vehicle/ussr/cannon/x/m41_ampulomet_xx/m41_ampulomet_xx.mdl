@@ -1,0 +1,97 @@
+;Exported by:	 guita
+;Date:			 07.11.2020 09:52:46
+;File:			 D:\Git\3D_Scenes\GoH_3D_vehicles_rus\vehicles\cannon\m41_ampulomet\m41_ampulomet_xx_export.max
+{skeleton
+	{bone revolute "basis"
+		{orientation
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+		}
+		{bone "part3"
+			{parameters "id=body;"}
+			{Position -0.0107 	 -0.0046 	 1.0323}
+			{VolumeView "part3.ply"}
+		}
+		{bone revolute "part1"
+			{parameters "id=body;"}
+			{matrix34
+				0.9761 	 -0.1411 	 -0.1651
+				-0.0868 	 0.4437 	 -0.892
+				0.1992 	 0.885 	 0.4208
+				0.0016 	 -0.3859 	 6.5031
+			}
+			{VolumeView "part1.ply"}
+		}
+		{bone revolute "part2"
+			{parameters "id=body;"}
+			{Position 0.0016 	 0 	 4.5721}
+			{VolumeView "part2.ply"}
+		}
+		{bone "part4"
+			{parameters "id=body;"}
+			{Position -0.0107 	 -0.0046 	 1.0323}
+			{VolumeView "part4.ply"}
+		}
+	}
+}
+{volume "body"
+	{polyhedron "body.vol"}
+	{bone "part3"}
+	{Position 0.0107 	 0.0099 	 1.0539}
+}
+{volume "part1"
+	{cylinder 1.4565 21.7231}
+	{bone "part1"}
+	{matrix34
+		0 	 0 	 -1
+		0 	 -1 	 0
+		-1 	 0 	 0
+		2.0038 	 0.0036 	 0.0073
+	}
+}
+{volume "part2"
+	{box 1.96489 3.40389 3.12133}
+	{bone "part2"}
+	{Position 0 	 0 	 1.4913}
+}
+{volume "part31"
+	{box 6.05809 0.803356 0.751346}
+	{bone "part3"}
+	{matrix34
+		0.8572 	 -0.515 	 0
+		0.515 	 0.8572 	 0
+		0 	 0 	 1
+		4.6493 	 -3.1636 	 0.0457
+	}
+}
+{volume "part3"
+	{box 6.05809 0.803356 0.751346}
+	{bone "part3"}
+	{matrix34
+		-0.8572 	 -0.515 	 0
+		0.515 	 -0.8572 	 0
+		0 	 0 	 1
+		-4.6485 	 -3.1317 	 0.1394
+	}
+}
+{volume "part41"
+	{box 6.05809 0.803356 0.751346}
+	{bone "part4"}
+	{matrix34
+		0.8387 	 0.5446 	 0
+		-0.5446 	 0.8387 	 0
+		0 	 0 	 1
+		4.6493 	 3.2902 	 0.0457
+	}
+}
+{volume "part4"
+	{box 6.05809 0.803356 0.751346}
+	{bone "part4"}
+	{matrix34
+		-0.866 	 0.5 	 0
+		-0.5 	 -0.866 	 0
+		0 	 0 	 1
+		-4.6485 	 3.1054 	 0.0457
+	}
+}

@@ -1,0 +1,77 @@
+;Exported by:	 TigerF
+;Date:			 01.06.2022 18:11:06
+;File:			 D:\PROGRAMS\3ds_max\3dsmax9_saves\scenes\GoH_3D_vehicles_fin\3d vehicles\Cannon\75mm_itk37\75mm_itk37_static_x.max
+{skeleton
+	{bone "basis"
+		{orientation
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+		}
+		{bone "body"
+			{parameters "id=body;"}
+			{animation
+				{sequence "break" {file "body_b.anm"}{speed 0.7}}
+			}
+			{Position -0.0005 	 -0.0069 	 11.2404}
+			{VolumeView "body.ply"}
+			{bone revolute "turret"
+				{speed 0.007}
+				{Position 0 	 0 	 3.3203}
+				{bone "turreta"
+					{parameters "id=body;"}
+					{VolumeView "turreta.ply"}
+					{bone revolute "gun_rot"
+						{parameters "id=gun;"}
+						{animation
+							{sequence "break" {file "gun_b.anm"}{speed 0.7}}
+						}
+						{limits 0 85}
+						{matrix34
+							1 	 0 	 0
+							0 	 0 	 1
+							0 	 -1 	 0
+							-15.2872 	 0 	 14.8374
+						}
+						{VolumeView "gun_rot.ply"}
+						{bone "gun"
+							{parameters "id=gun;"}
+							{matrix34
+								1 	 0 	 0
+								0 	 0 	 -1
+								0 	 1 	 0
+								11.1009 	 3.6498 	 0
+							}
+							{VolumeView "gun.ply"}
+							{bone "lever"
+								{parameters "id=gun;"}
+								{Position -3.8115 	 -3.81 	 -2.2928}
+								{VolumeView "lever.ply"}
+							}
+							{bone "breech_block"
+								{parameters "id=gun;"}
+								{Position -5.7356 	 0.0069 	 2.5115}
+								{VolumeView "breech_block.ply"}
+							}
+						}
+					}
+					{bone "line"
+						{parameters "id=body;"}
+						{Position -11.9892 	 0 	 4.6603}
+						{VolumeView "line.ply"}
+					}
+					{bone "aim_hor"
+						{parameters "id=body;"}
+						{Position 5.0817 	 -9.2002 	 9.6566}
+						{VolumeView "aim_hor.ply"}
+					}
+					{bone "aim_ver"
+						{parameters "id=body;"}
+						{Position 3.6285 	 11.7181 	 13.0249}
+						{VolumeView "aim_ver.ply"}
+					}
+				}
+			}
+		}
+	}
+}

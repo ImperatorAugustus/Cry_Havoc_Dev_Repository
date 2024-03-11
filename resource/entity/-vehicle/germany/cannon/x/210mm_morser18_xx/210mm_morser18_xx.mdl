@@ -1,0 +1,211 @@
+;Exported by:	 guita
+;Date:			 09.06.2020 22:38:26
+;File:			 D:\Git\3D_Scenes\GoH_3D_vehicles_ger\vehicles\cannon\210mm_morser18\210mm_morser_xx.max
+{skeleton
+	{bone "basis"
+		{orientation
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+		}
+		{bone "part1"
+			{parameters "id=gun;"}
+			{matrix34
+				0.9992 	 0.0254 	 0.0314
+				-0.0268 	 0.9987 	 0.0432
+				-0.0302 	 -0.044 	 0.9986
+				-36.5478 	 -0.1543 	 35.7271
+			}
+			{VolumeView "part1.ply"}
+		}
+		{bone revolute "part2"
+			{parameters "id=wheelright1;"}
+			{matrix34
+				0.878 	 0.2955 	 0.3765
+				0.4705 	 -0.3885 	 -0.7923
+				-0.0878 	 0.8728 	 -0.4801
+				28.6724 	 -26.3036 	 15.8429
+			}
+			{VolumeView "part2.ply"}
+		}
+		{bone revolute "part3"
+			{parameters "id=wheelleft1;"}
+			{matrix34
+				0.9137 	 -0.0634 	 0.4013
+				0.3923 	 0.3952 	 -0.8306
+				-0.1059 	 0.9164 	 0.386
+				28.6724 	 27.1764 	 15.6426
+			}
+			{VolumeView "part3.ply"}
+		}
+		{bone "part4"
+			{parameters "id=body;"}
+			{matrix34
+				0.9702 	 0.0044 	 -0.2421
+				-0.0257 	 0.9961 	 -0.0847
+				0.2408 	 0.0884 	 0.9665
+				-87.7191 	 0.0006 	 10.6195
+			}
+			{VolumeView "part4.ply"}
+		}
+		{bone "part7"
+			{parameters "id=body;"}
+			{matrix34
+				0.999 	 0.0449 	 -0.0042
+				-0.0449 	 0.9837 	 -0.1739
+				-0.0037 	 0.1739 	 0.9847
+				-23.4085 	 0.0146 	 27.7731
+			}
+			{VolumeView "part7.ply"}
+		}
+		{bone "part8"
+			{parameters "id=body;"}
+			{matrix34
+				0.999 	 0.0449 	 -0.0042
+				-0.0449 	 0.9837 	 -0.1739
+				-0.0037 	 0.1739 	 0.9847
+				-23.4085 	 0.0146 	 27.7731
+			}
+			{VolumeView "part8.ply"}
+		}
+		{bone "helper"
+			{Position 28.931 	 -0.0026 	 14.3606}
+			{bone revolute "turret"
+				{parameters "id=body;"}
+				{matrix34
+					1 	 0 	 0
+					0 	 1 	 0
+					0 	 0 	 1
+					-28.9809 	 0.0112 	 -12.0678
+				}
+				{VolumeView "turret.ply"}
+			}
+		}
+		{bone "part5"
+			{parameters "id=body;"}
+			{matrix34
+				1 	 0 	 0
+				0 	 1 	 0
+				0 	 0 	 1
+				-0.0499 	 0.0086 	 0.2787
+			}
+			{VolumeView "part5.ply"}
+		}
+	}
+}
+{obstacle "obstacle"
+	{obb2
+		{center -43.6738 -0.0608082}
+		{extent 55.1697 17.5784}
+		{axis 1 0}
+	}
+	{rotate}
+}
+{obstacle "obstacle1"
+	{obb2
+		{center 28.585 1.43051e-005}
+		{extent 17.0893 27.9652}
+		{axis 1 0}
+	}
+	{rotate}
+}
+{volume "body1"
+	{box 105.766 24.0557 9.51232}
+	{bone "turret"}
+	{Position -28.4555 	 -0.1522 	 10.5903}
+}
+{volume "body2"
+	{polyhedron "body2.vol"}
+	{bone "turret"}
+	{Position -26.8638 	 -0.1522 	 10.933}
+}
+{volume "body3"
+	{box 18.2142 46.1947 3.06128}
+	{bone "turret"}
+	{matrix34
+		0.9986 	 0.0519 	 -0.0064
+		-0.0523 	 0.9912 	 -0.1217
+		0 	 0.1219 	 0.9925
+		-83.5415 	 -0.1522 	 -0.0457
+	}
+}
+{volume "body4"
+	{box 29.7375 20.721 6.53891}
+	{bone "turret"}
+	{Position 30.8554 	 0.002 	 18.6159}
+}
+{volume "hole1"
+	{box 89.5819 17.4171 10.0088}
+	{bone "turret"}
+	{Position -34.979 	 0.0206 	 10.4518}
+}
+{volume "part1"
+	{cylinder 3.70277 126.119}
+	{bone "part1"}
+	{matrix34
+		0 	 -1 	 0
+		0 	 0 	 1
+		-1 	 0 	 0
+		58.5875 	 0 	 0
+	}
+}
+{volume "part2"
+	{cylinder 16.6392 7.26546}
+	{bone "part2"}
+	{matrix34
+		-0.9781 	 -0.2079 	 0
+		0.2079 	 -0.9781 	 0
+		0 	 0 	 1
+		0 	 0 	 -1.2964
+	}
+}
+{volume "part3"
+	{cylinder 16.6392 7.26546}
+	{bone "part3"}
+	{matrix34
+		-0.9781 	 -0.2079 	 0
+		0.2079 	 -0.9781 	 0
+		0 	 0 	 1
+		0 	 0 	 -0.0371
+	}
+}
+{volume "part4"
+	{box 30.0941 29.0419 5.05076}
+	{bone "part4"}
+	{matrix34
+		0.9976 	 0.0017 	 -0.0697
+		0.0044 	 0.9961 	 0.0884
+		0.0696 	 -0.0885 	 0.9936
+		-16.2287 	 0.4053 	 -0.5479
+	}
+}
+{volume "part5"
+	{cylinder 20.844 3.42262}
+	{bone "part5"}
+	{Position 0.2468 	 0.1838 	 0.8081}
+}
+{volume "part7"
+	{polyhedron "part7.vol"}
+	{bone "part7"}
+	{Position -2.813 	 0.1582 	 -0.4774}
+}
+{volume "part8_1"
+	{box 11.1105 19.6428 24.4297}
+	{bone "part8"}
+	{matrix34
+		0.9935 	 -0.032 	 0.1094
+		-0.0049 	 0.9468 	 0.3217
+		-0.1139 	 -0.3201 	 0.9405
+		-1.2939 	 -0.8184 	 8.8571
+	}
+}
+{volume "part8"
+	{box 62.8055 11.0353 6.23207}
+	{bone "part8"}
+	{matrix34
+		0.9935 	 -0.032 	 0.1094
+		-0.0049 	 0.9468 	 0.3217
+		-0.1139 	 -0.3201 	 0.9405
+		1.2086 	 2.0468 	 0.4609
+	}
+}

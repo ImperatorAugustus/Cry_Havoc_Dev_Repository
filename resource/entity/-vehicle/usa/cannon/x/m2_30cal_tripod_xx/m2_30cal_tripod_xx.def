@@ -1,0 +1,19 @@
+{game_entity
+	(include "/properties/vehicle_xx.ext")
+	{extension "m2_30cal_tripod_xx.mdl"}
+	{volume "body1"
+		{thickness 6}
+	}
+	{volume "body2"
+		{thickness 6}
+	}
+	{volume "standc"
+		{thickness 6}
+	}
+	{volume "standl"
+		{thickness 6}
+	}
+	{volume "standr"
+		{thickness 6}
+	}
+}

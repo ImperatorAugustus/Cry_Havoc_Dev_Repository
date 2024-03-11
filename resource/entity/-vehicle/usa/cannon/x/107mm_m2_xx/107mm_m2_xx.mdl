@@ -1,0 +1,76 @@
+;Exported by:	 guita
+;Date:			 18.09.2023 16:02:31
+;File:			 D:\Git\3D_Scenes\GoH_3D_vehicles_usa\vehicles\cannon\107mm_M2_mortar\107mm_m2_xx.max
+{skeleton
+	{bone revolute "basis"
+		{orientation
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+		}
+		{bone "body"
+			{parameters "id=body;"}
+			{Position 0.033 	 0 	 0.9492}
+			{VolumeView "body.ply"}
+			{bone "part1"
+				{parameters "id=part1;"}
+				{matrix34
+					1 	 0 	 0
+					0 	 0 	 1
+					0 	 -1 	 0
+					5.9467 	 0 	 10.8557
+				}
+				{VolumeView "part1.ply"}
+			}
+			{bone "part2"
+				{parameters "id=part2;"}
+				{matrix34
+					0 	 1 	 0
+					-0.454 	 0 	 0.891
+					0.891 	 0 	 0.454
+					13.1826 	 0 	 6.0316
+				}
+				{VolumeView "part2.ply"}
+			}
+		}
+	}
+}
+{obstacle "close"
+	{obb2
+		{center -0.126992 -0.123855}
+		{extent 3.95011 4.03932}
+		{axis 1 0}
+	}
+	{rotate}
+	{Tags "close"}
+}
+{volume "body1"
+	{box 5.57442 7.93205 0.596976}
+	{bone "body"}
+	{matrix34
+		1 	 0 	 0.0007
+		0 	 1 	 0
+		-0.0007 	 0 	 1
+		-0.4535 	 0 	 -0.7476
+	}
+}
+{volume "body2"
+	{cylinder 1.16411 23.9138}
+	{bone "part1"}
+	{matrix34
+		0.8798 	 -0.4753 	 0
+		0 	 0 	 -1
+		0.4753 	 0.8798 	 0
+		-0.6081 	 -0.7455 	 -0.003
+	}
+}
+{volume "body4"
+	{cylinder 0.403121 16.1452}
+	{bone "part2"}
+	{matrix34
+		0 	 0 	 1
+		1 	 0 	 0
+		0 	 1 	 0
+		-0.0983 	 0.6368 	 -0.3396
+	}
+}

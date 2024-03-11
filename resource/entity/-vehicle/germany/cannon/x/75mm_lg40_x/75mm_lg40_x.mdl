@@ -1,0 +1,199 @@
+;Exported by:	 guita
+;Date:			 28.11.2021 10:22:32
+;File:			 D:\Git\3D_Scenes\GoH_3D_vehicles_ger\vehicles\cannon\75mm_lg40\75mm_lg40_x.max
+{skeleton
+	{bone revolute "basis"
+		{parameters "wheelradius=0.17;"}
+		{orientation
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+		}
+		{bone "body"
+			{parameters "id=body;"}
+			{animation
+				{sequence "break" {file "body_b.anm"}{speed 0.9}}
+			}
+			{Position -0.001 	 0 	 3.3282}
+			{VolumeView "body.ply"}
+			{bone revolute "turret"
+				{parameters "id=body;"}
+				{Position -5.4767 	 0 	 3.0367}
+				{VolumeView "turret.ply"}
+				{bone "aim_hor"
+					{parameters "id=body;"}
+					{Position -2.8725 	 3.2392 	 1.6752}
+					{VolumeView "aim_hor.ply"}
+				}
+				{bone "aim_ver"
+					{parameters "id=body;"}
+					{Position 1.8174 	 3.2391 	 3.3084}
+					{VolumeView "aim_ver.ply"}
+				}
+				{bone "box"
+					{parameters "id=body;"}
+					{matrix34
+						1 	 0 	 0
+						0 	 0 	 1
+						0 	 -1 	 0
+						-0.0343 	 -2.8399 	 1.4289
+					}
+					{VolumeView "box.ply"}
+				}
+				{bone "sight"
+					{parameters "id=body;"}
+					{matrix34
+						-1 	 0 	 0
+						0 	 0 	 1
+						0 	 1 	 0
+						-1.9967 	 3.225 	 6.2602
+					}
+					{VolumeView "sight.ply"}
+				}
+				{bone revolute "gun_rot"
+					{matrix34
+						1 	 0 	 0
+						0 	 0 	 1
+						0 	 -1 	 0
+						-2.0005 	 0.1622 	 6.6041
+					}
+					{bone "gun"
+						{parameters "id=gun;"}
+						{animation
+							{sequence "break" {file "gun_b.anm"}{speed 0.9}}
+						}
+						{matrix34
+							1 	 0 	 0
+							0 	 0 	 -1
+							0 	 1 	 0
+							0.0038 	 -0.3439 	 0.1622
+						}
+						{VolumeView "gun.ply"}
+						{bone "breech"
+							{parameters "id=gun;"}
+							{matrix34
+								1 	 0 	 0
+								0 	 0 	 1
+								0 	 -1 	 0
+								-2.329 	 0 	 0.3506
+							}
+							{VolumeView "breech.ply"}
+						}
+						{bone "lever1"
+							{parameters "id=gun;"}
+							{matrix34
+								0.866 	 -0.5 	 0
+								0.5 	 0.866 	 0
+								0 	 0 	 1
+								-1.7455 	 0.1623 	 2.4319
+							}
+							{VolumeView "lever1.ply"}
+							{bone "lever2"
+								{parameters "id=gun;"}
+								{matrix34
+									0.9925 	 0 	 -0.1219
+									0.1219 	 0 	 0.9925
+									0 	 -1 	 0
+									0.4853 	 0.0046 	 0.4436
+								}
+								{VolumeView "lever2.ply"}
+							}
+						}
+					}
+				}
+			}
+			{bone "l"
+				{parameters "id=body;"}
+				{matrix34
+					0.9563 	 0 	 0.2924
+					0 	 1 	 0
+					-0.2924 	 0 	 0.9563
+					-3.325 	 1.9534 	 2.476
+				}
+				{VolumeView "l.ply"}
+				{bone "standl"
+					{parameters "id=body;"}
+					{matrix34
+						0.866 	 -0.5 	 0
+						0.5 	 0.866 	 0
+						0 	 0 	 1
+						-0.0025 	 0.5164 	 -0.0002
+					}
+					{VolumeView "standl.ply"}
+				}
+			}
+			{bone "r"
+				{parameters "id=body;"}
+				{matrix34
+					0.9994 	 0 	 0.0349
+					0 	 1 	 0
+					-0.0349 	 0 	 0.9994
+					-3.325 	 -1.964 	 2.476
+				}
+				{VolumeView "r.ply"}
+				{bone "standr"
+					{parameters "id=body;"}
+					{matrix34
+						0.8365 	 0.5 	 0.2241
+						-0.483 	 0.866 	 -0.1294
+						-0.2588 	 0 	 0.9659
+						-0.0024 	 -0.5087 	 -0.0008
+					}
+					{VolumeView "standr.ply"}
+				}
+			}
+			{bone "standc"
+				{parameters "id=body;"}
+				{matrix34
+					0.829 	 0 	 -0.5592
+					0 	 1 	 0
+					0.5592 	 0 	 0.829
+					-3.1121 	 0.0002 	 2.4876
+				}
+				{VolumeView "standc.ply"}
+			}
+		}
+		{bone "pivot_front"
+			{Position -0.001 	 0.0492 	 3.3282}
+			{bone "susp_r"
+				{parameters "id=body;"}
+				{Position -3.3191 	 -6.1784 	 1.4156}
+				{VolumeView "susp_r.ply"}
+			}
+			{bone "susp_l"
+				{parameters "id=body;"}
+				{Position -3.3191 	 6.08 	 1.4156}
+				{VolumeView "susp_l.ply"}
+			}
+			{bone prizmatic "suspension_l1"
+				{limits -0.02 0.02}
+				{speed 0.02}
+				{Position 0 	 7.4825 	 0}
+				{bone revolute "wheell"
+					{parameters "id=wheelleft;"}
+					{matrix34
+						1 	 0 	 0
+						0 	 0 	 -1
+						0 	 1 	 0
+						0 	 0 	 0
+					}
+					{VolumeView "wheell.ply"}
+				}
+			}
+			{bone prizmatic "suspension_r1"
+				{limits -0.02 0.02}
+				{speed 0.02}
+				{Position 0 	 -7.5809 	 0}
+				{bone revolute "wheelr"
+					{parameters "id=wheelright;"}
+					{orientation
+						1 	 0 	 0
+						0 	 0 	 -1
+						0 	 1 	 0
+					}
+					{VolumeView "wheelr.ply"}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,145 @@
+;Exported by:	 guita
+;Date:			 12.11.2021 10:29:10
+;File:			 D:\Git\3D_Scenes\GoH_3D_vehicles_rus\vehicles\cannon\ds39_stan\DS 39 stan_xx.max
+{skeleton
+	{bone revolute "basis"
+		{orientation
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+		}
+		{bone "part6"
+			{parameters "id=body;"}
+			{Position 0.1673 	 -0.0002 	 10.2736}
+			{LODView
+				{VolumeView "part6.ply"}
+				{VolumeView "part6_lod1.ply"}
+			}
+			{bone "part4"
+				{parameters "id=body;"}
+				{matrix34
+					0.889 	 -0.3592 	 -0.284
+					0.3746 	 0.9272 	 0
+					0.2633 	 -0.1064 	 0.9588
+					0.4636 	 -0.8755 	 -1.0802
+				}
+				{LODView
+					{VolumeView "part4.ply"}
+					{VolumeView "part4_lod1.ply"}
+				}
+			}
+			{bone "part2"
+				{parameters "id=body;"}
+				{matrix34
+					-0.9877 	 0 	 -0.1564
+					0 	 -1 	 0
+					-0.1564 	 0 	 0.9877
+					-1.0471 	 0.2261 	 -0.9637
+				}
+				{LODView
+					{VolumeView "part2.ply"}
+					{VolumeView "part2_lod1.ply"}
+				}
+			}
+			{bone "part3"
+				{parameters "id=body;"}
+				{matrix34
+					0.885 	 0.3723 	 -0.2795
+					-0.3861 	 0.9224 	 0.006
+					0.2601 	 0.1026 	 0.9601
+					0.4952 	 0.789 	 -1.084
+				}
+				{LODView
+					{VolumeView "part3.ply"}
+					{VolumeView "part3_lod1.ply"}
+				}
+			}
+			{bone "part5"
+				{parameters "id=body;"}
+				{matrix34
+					0.9848 	 0 	 -0.1736
+					0 	 1 	 0
+					0.1736 	 0 	 0.9848
+					0.4243 	 0.0452 	 4.5895
+				}
+				{LODView
+					{VolumeView "part5.ply"}
+					{VolumeView "part5_lod1.ply"}
+				}
+			}
+		}
+		{bone "part1"
+			{parameters "id=body;"}
+			{Position -2.1517 	 -6.4925 	 2.4395}
+			{LODView
+				{VolumeView "part1.ply"}
+				{VolumeView "part1_lod1.ply"}
+			}
+		}
+	}
+}
+{volume "part1"
+	{box 2.22951 5.51671 5.09128}
+	{bone "part1"}
+	{matrix34
+		0.989 	 -0.1478 	 0
+		0.1478 	 0.989 	 0
+		0 	 0 	 1
+		0.0101 	 0.0458 	 0.1061
+	}
+}
+{volume "part2"
+	{cylinder 0.690932 13.8221}
+	{bone "part2"}
+	{matrix34
+		-0.5128 	 0 	 -0.8585
+		0 	 -1 	 0
+		-0.8585 	 0 	 0.5128
+		5.9027 	 0.2621 	 -3.3459
+	}
+}
+{volume "part3"
+	{cylinder 0.590551 11.1708}
+	{bone "part3"}
+	{matrix34
+		0.6729 	 -0.2494 	 0.6964
+		-0.0982 	 0.903 	 0.4183
+		-0.7332 	 -0.3499 	 0.5831
+		4.4332 	 2.1641 	 -3.4135
+	}
+}
+{volume "part4"
+	{cylinder 0.590551 11.1708}
+	{bone "part4"}
+	{matrix34
+		0.6691 	 0.5433 	 0.5071
+		-0.111 	 0.7477 	 -0.6547
+		-0.7349 	 0.3818 	 0.5606
+		4.4873 	 -2.261 	 -3.4676
+	}
+}
+{volume "part5"
+	{polyhedron "part5.vol"}
+	{bone "part5"}
+	{matrix34
+		0 	 -1 	 0
+		-0.1736 	 0 	 0.9848
+		-0.9848 	 0 	 -0.1736
+		1.5424 	 -0.0331 	 0.0493
+	}
+}
+{volume "part6"
+	{box 8.58268 2.16535 1.96141}
+	{bone "part6"}
+	{Position -1.9567 	 0.0111 	 2.016}
+}
+{volume "part6b"
+	{box 2.49017 2.77413 2.26466}
+	{bone "part6"}
+	{matrix34
+		1 	 0 	 0
+		0 	 0 	 1
+		0 	 -1 	 0
+		0.2323 	 0.0029 	 -0.3713
+	}
+}

@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "details"}
+	{bump "details_bp"}
+	{specular "details_sp"}
+	{color "230 230 230 25"}
+	{blend test}
+}

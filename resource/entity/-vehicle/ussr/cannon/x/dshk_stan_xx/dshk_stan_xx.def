@@ -1,0 +1,32 @@
+{game_entity
+	(include "/properties/vehicle_xx.ext")
+	{Extension "dshk_var1_xx.mdl"}
+	{Volume "body"
+	}
+	{Volume "gun1"
+	}
+	{Volume "gun"
+	}
+	{Volume "hole1"
+		{able clear {hole}}
+	}
+	{Volume "hole2"
+		{able clear {hole}}
+	}
+	{Volume "part1"
+	}
+	{Volume "part2"
+	}
+	{Volume "part3"
+	}
+	{Volume "part4"
+	}
+	{Volume "part5"
+	}
+	{Volume "part6_vo"
+	}
+	{Volume "turret"
+	}
+	{Volume "wheelright"
+	}
+}

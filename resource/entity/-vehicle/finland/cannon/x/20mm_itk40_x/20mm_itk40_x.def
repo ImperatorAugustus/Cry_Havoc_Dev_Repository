@@ -1,0 +1,9 @@
+{game_entity
+	{extension "20mm_itk40_x.mdl"} {rimlight}
+	{volume "wheelleft"
+		{able {Obstacle 0}}
+	}
+	{volume "wheelright"
+		{able {Obstacle 0}}
+	}
+}

@@ -1,0 +1,56 @@
+{game_entity
+	(include "/properties/vehicle_xx.ext")
+	{extension "47mm_pstk39_xx.mdl"}
+	{volume "barrel1"
+		{thickness 30}
+	}
+	{volume "barrel2"
+		{thickness 30}
+	}
+	{volume "barrel3"
+		{thickness 30}
+	}
+	{volume "body1"
+		{thickness 8}
+	}
+	{volume "body2"
+		{thickness 8}
+	}
+	{volume "body3"
+		{thickness 8}
+	}
+	{volume "body4"
+		{thickness 8}
+	}
+	{volume "body5"
+		{thickness 8}
+	}
+	{volume "body6"
+		{thickness 8}
+	}
+	{volume "body7"
+		{thickness 8}
+	}
+	{volume "body8"
+		{thickness 8}
+		{able {holed}}
+	}
+	{volume "standl1"
+		{thickness 8}
+	}
+	{volume "standl2"
+		{thickness 8}
+	}
+	{volume "standr1"
+		{thickness 8}
+	}
+	{volume "standr2"
+		{thickness 8}
+	}
+	{volume "wheelleft"
+		{thickness 10}
+	}
+	{volume "wheelright"
+		{thickness 10}
+	}
+}

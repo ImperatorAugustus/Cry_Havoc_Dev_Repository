@@ -1,0 +1,111 @@
+;Exported by: Alexey
+;Date:        Wed Oct 06 22:46:52 2010
+;File:        H:\VTV_models\Models_For_WiW\other\broneschitok_1\broneschitok_1.max
+{Skeleton
+	{bone revolute "basis"
+		{speed2 5}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+
+		{bone revolute "turret"
+			{limits -8 8}
+			{speed2 40}
+			{Position -0.869549	-3.37546	5.00115}
+			{bone revolute "gun_rot"
+				{limits -15 15}
+				{speed2 40}
+				{Matrix34
+					1	0	0
+					0	0	1
+					0	-1	0
+					0	0	0.0541849
+				}
+				{bone "mgun"
+					{Matrix34
+						1	0	0
+						0	0.99987	0.016108
+						0	-0.016108	0.99987
+						-6.01374	-0.9959	-0.0389004
+					}
+				}
+			}
+		}
+		{bone "body"
+			{parameters "ID=body;"}
+			{Position 0	0	4.9793}
+			{VolumeView "body.ply"}
+		}
+	}
+}
+{Obstacle "body1"
+	{Obb2
+		{Center -1.34251 8.85808}
+		{Extent 2.23124 4.78705}
+		{Axis 0.25946 0.965754}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body2"
+	{Obb2
+		{Center -1.39614 -8.95863}
+		{Extent 5.2453 2.14662}
+		{Axis 0.981646 0.190713}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body"
+	{Obb2
+		{Center 2.42879 -0.0767212}
+		{Extent 3.05102 8.57933}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body1"
+	{Box 1.65192 7.22953 12.4823}
+	{Bone "body"}
+	{Matrix34
+		0.205373	-0.95345	0.220806
+		0.947521	0.250187	0.199024
+		-0.245002	0.168344	0.954795
+
+		-1.34251	-8.85808	-0.575419
+	}
+}
+{Volume "body2"
+	{Box 1.65192 7.22953 12.3587}
+	{Bone "body"}
+	{Matrix34
+		-0.127278	-0.96998	-0.207217
+		0.940046	-0.184611	0.286761
+		-0.316407	-0.158295	0.935323
+		-1.39614	8.95863	-0.754747
+	}
+}
+{Volume "body"
+	{Box 1.84502 17.1587 12.4823}
+	{Bone "body"}
+	{Matrix34
+		0.936594	0	0.350417
+		0	1	0
+		-0.350417	0	0.936594
+
+		2.42879	0.0767208	0.0285254
+	}
+}
+{Volume "hole1"
+	{Box 1.33764 2.1679 4.8893}
+	{Bone "body"}
+	{Matrix34
+		0	-1	0
+		0	0	1
+		-1	0	0
+		2.36285	-3.32974	0.15079
+	}
+}

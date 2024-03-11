@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/_vehicle/m1927_wheel"}
+	{bump "$/_vehicle/m1927_fin_wheel_bp"}
+	{specular "$/_vehicle/m1927_fin_wheel_sp"}
+	{color "230 230 230 25"}
+	{blend none}
+}

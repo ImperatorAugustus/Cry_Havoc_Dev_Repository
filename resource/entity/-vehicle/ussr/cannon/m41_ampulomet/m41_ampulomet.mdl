@@ -1,0 +1,135 @@
+;Exported by:	 guita
+;Date:			 07.11.2020 10:03:21
+;File:			 D:\Git\3D_Scenes\GoH_3D_vehicles_rus\vehicles\cannon\m41_ampulomet\m41_ampulomet_export.max
+{skeleton
+	{animation
+		{sequence "recoil"}
+		{sequence "close"}
+	}
+	{bone revolute "basis"
+		{orientation
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+		}
+		{bone "body"
+			{parameters "id=body;"}
+			{Position -0.0107 	 -0.0046 	 1.0323}
+			{VolumeView "body.ply"}
+			{bone revolute "turret"
+				{parameters "id=body;"}
+				{Position 0.0123 	 0.0046 	 3.5398}
+				{VolumeView "turret.ply"}
+				{bone "commander"
+					{Position -14.2073 	 -15.04 	 -4.5721}
+				}
+				{bone "gunner"
+					{Position -21.5004 	 0 	 -4.5721}
+				}
+				{bone revolute "gun_rot"
+					{parameters "id=body;"}
+					{matrix34
+						1 	 0 	 0
+						0 	 0 	 -1
+						0 	 1 	 0
+						0 	 -0.0073 	 2.1441
+					}
+					{VolumeView "gun_rot.ply"}
+					{bone "aim"
+						{parameters "id=body;"}
+						{matrix34
+							1 	 0 	 0
+							0 	 0 	 1
+							0 	 -1 	 0
+							-4.1145 	 -1.4873 	 0
+						}
+						{VolumeView "aim.ply"}
+					}
+					{bone "visor"
+						{parameters "vis;"}
+						{matrix34
+							1 	 0 	 0
+							0 	 -1 	 0
+							0 	 0 	 -1
+							-2.4687 	 -3.7587 	 0.0073
+						}
+					}
+					{bone "foresight1"
+						{matrix34
+							1 	 0 	 0
+							0 	 -1 	 0
+							0 	 0 	 -1
+							13.4028 	 -0.0075 	 0
+						}
+					}
+					{bone "gun"
+						{orientation
+							1 	 0 	 0
+							0 	 -1 	 0
+							0 	 0 	 -1
+						}
+					}
+				}
+			}
+		}
+		{bone "driver2"
+			{Position 0 	 -6.3307 	 0}
+		}
+		{bone "driver1"
+			{Position 0 	 6.3307 	 0}
+		}
+		{bone "emit1"
+			{parameters "group=crew;"}
+			{Position -21.4988 	 0 	 0}
+		}
+		{bone "emit2"
+			{parameters "group=crew;"}
+			{Position -14.2057 	 -15.04 	 0}
+		}
+	}
+}
+{volume "body1"
+	{box 17.3449 0.888293 0.746632}
+	{bone "body"}
+	{matrix34
+		0.848 	 -0.5299 	 0
+		0.5299 	 0.848 	 0
+		0 	 0 	 1
+		0.0107 	 0.0046 	 0.0433
+	}
+}
+{volume "body2"
+	{box 17.1715 0.803356 0.751346}
+	{bone "body"}
+	{matrix34
+		0.8387 	 0.5446 	 0
+		-0.5446 	 0.8387 	 0
+		0 	 0 	 1
+		0.0107 	 0.0046 	 0.0457
+	}
+}
+{volume "body3"
+	{cylinder 1.4565 21.7231}
+	{bone "gun_rot"}
+	{matrix34
+		0 	 0 	 -1
+		0 	 -1 	 0
+		-1 	 0 	 0
+		2.0038 	 0.0036 	 0.0073
+	}
+}
+{volume "body4"
+	{box 1.96489 3.40389 3.12133}
+	{bone "turret"}
+	{Position 0 	 0 	 1.4913}
+}
+{volume "body"
+	{polyhedron "body.vol"}
+	{bone "body"}
+	{Position 0.0107 	 0.0099 	 1.0539}
+}
+{volume "select"
+	{box 24.7817 12.6614 10.9299}
+	{bone "basis"}
+	{Position 0 	 0 	 5.465}
+}

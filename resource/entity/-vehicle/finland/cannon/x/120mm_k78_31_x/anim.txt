@@ -1,0 +1,308 @@
+-= Animation: break, Node Body =-
+ frame 105 {
+	visibility 1
+	position 0 	 0 	 13.0975
+	orientation 0 	 -0.0035 	 0 	 1
+}
+frame 106 {
+	position -0.0209 	 0 	 13.2248
+	orientation 0 	 -0.0027 	 0 	 1
+}
+frame 107 {
+	position -0.0669 	 0 	 13.5047
+	orientation 0 	 -0.0009 	 0 	 1
+}
+frame 108 {
+	position -0.1128 	 0 	 13.7846
+	orientation 0 	 0.0009 	 0 	 1
+}
+frame 109 {
+	position -0.1337 	 0 	 13.9119
+	orientation 0 	 0.0017 	 0 	 1
+}
+frame 110 {
+	position -0.1128 	 0 	 13.7846
+	orientation 0 	 0.0009 	 0 	 1
+}
+frame 111 {
+	position -0.0669 	 0 	 13.5047
+	orientation 0 	 -0.0009 	 0 	 1
+}
+frame 112 {
+	position -0.0209 	 0 	 13.2248
+	orientation 0 	 -0.0027 	 0 	 1
+}
+frame 113 {
+	position 0 	 0 	 13.0975
+	orientation 0 	 -0.0035 	 0 	 1
+}
+frame 114 {
+	orientation 0.0025 	 -0.0035 	 -0.0007 	 1
+}
+frame 115 {
+	orientation 0.0079 	 -0.0035 	 -0.0022 	 1
+}
+frame 116 {
+	orientation 0.0133 	 -0.0034 	 -0.0037 	 0.9999
+}
+frame 117 {
+	orientation 0.0157 	 -0.0034 	 -0.0044 	 0.9999
+}
+frame 125 {
+	visibility 1
+	position 0 	 0 	 13.0975
+	orientation 0.0157 	 -0.0034 	 -0.0044 	 0.9999
+}
+-= Animation: break, Node turret =-
+ frame 105 {
+	visibility 1
+	position -72.9892 	 0 	 -12.0711
+	orientation 0 	 0.0035 	 0 	 1
+}
+frame 113 {
+	orientation 0 	 0.0036 	 -0.0024 	 1
+}
+frame 114 {
+	orientation 0 	 0.0037 	 -0.0078 	 1
+}
+frame 115 {
+	orientation 0 	 0.0039 	 -0.0131 	 0.9999
+}
+frame 116 {
+	orientation 0 	 0.004 	 -0.0155 	 0.9999
+}
+frame 117 {
+	orientation 0 	 0.004 	 -0.015 	 0.9999
+}
+frame 118 {
+	orientation 0 	 0.0039 	 -0.0138 	 0.9999
+}
+frame 119 {
+	orientation 0 	 0.0039 	 -0.0126 	 0.9999
+}
+frame 120 {
+	orientation 0 	 0.0039 	 -0.012 	 0.9999
+}
+frame 121 {
+	orientation 0 	 0.0039 	 -0.0129 	 0.9999
+}
+frame 122 {
+	orientation 0 	 0.0039 	 -0.0138 	 0.9999
+}
+frame 125 {
+	visibility 1
+	position -72.9892 	 0 	 -12.0711
+	orientation 0 	 0.0039 	 -0.0138 	 0.9999
+}
+-= Animation: break, Node gun_rot =-
+ frame 130 {
+	visibility 1
+	position 73.0976 	 0 	 25.3764
+	orientation -0.7071 	 0 	 0 	 0.7071
+}
+frame 131 {
+	orientation -0.7069 	 0.0176 	 -0.0176 	 0.7069
+}
+frame 132 {
+	orientation -0.7049 	 0.0564 	 -0.0564 	 0.7049
+}
+frame 133 {
+	orientation -0.7007 	 0.0949 	 -0.0949 	 0.7007
+}
+frame 134 {
+	orientation -0.6981 	 0.1124 	 -0.1124 	 0.6981
+}
+frame 135 {
+	orientation -0.6991 	 0.1062 	 -0.1062 	 0.6991
+}
+frame 136 {
+	orientation -0.701 	 0.0927 	 -0.0927 	 0.701
+}
+frame 137 {
+	orientation -0.7027 	 0.0792 	 -0.0792 	 0.7027
+}
+frame 138 {
+	orientation -0.7033 	 0.073 	 -0.073 	 0.7033
+}
+frame 139 {
+	orientation -0.7028 	 0.0782 	 -0.0782 	 0.7028
+}
+frame 140 {
+	orientation -0.7014 	 0.0896 	 -0.0896 	 0.7014
+}
+frame 141 {
+	orientation -0.6999 	 0.101 	 -0.101 	 0.6999
+}
+frame 142 {
+	orientation -0.6991 	 0.1062 	 -0.1062 	 0.6991
+}
+frame 143 {
+	orientation -0.6993 	 0.1045 	 -0.1045 	 0.6993
+}
+frame 144 {
+	orientation -0.6998 	 0.1012 	 -0.1012 	 0.6998
+}
+frame 145 {
+	orientation -0.7001 	 0.0994 	 -0.0994 	 0.7001
+}
+frame 150 {
+	visibility 1
+	position 73.0976 	 0 	 25.3764
+	orientation -0.7001 	 0.0994 	 -0.0994 	 0.7001
+}
+-= Animation: break, Node gun =-
+ frame 130 {
+	visibility 1
+	position -7.155 	 1.5613 	 0
+	orientation 0.7071 	 0 	 0 	 0.7071
+}
+frame 139 {
+	position -9.389 	 1.5388 	 0.1317
+	orientation 0.7009 	 -0.0016 	 -0.0016 	 0.7133
+}
+frame 140 {
+	position -14.7162 	 1.4851 	 0.4458
+	orientation 0.6857 	 -0.0056 	 -0.0053 	 0.7278
+}
+frame 141 {
+	position -21.0745 	 1.4211 	 0.8207
+	orientation 0.6673 	 -0.0105 	 -0.0094 	 0.7447
+}
+frame 142 {
+	position -26.4017 	 1.3674 	 1.1348
+	orientation 0.6515 	 -0.0148 	 -0.0127 	 0.7584
+}
+frame 143 {
+	position -28.6357 	 1.3449 	 1.2665
+	orientation 0.6447 	 -0.0167 	 -0.0141 	 0.7641
+}
+frame 144 {
+	position -28.2677 	 1.3449 	 1.2504
+}
+frame 145 {
+	position -27.4582 	 1.3449 	 1.2151
+}
+frame 146 {
+	position -26.6487 	 1.3449 	 1.1797
+}
+frame 147 {
+	position -26.2808 	 1.3449 	 1.1637
+}
+frame 148 {
+	position -26.8913 	 1.3449 	 1.1903
+}
+frame 149 {
+	position -28.0252 	 1.3449 	 1.2398
+}
+frame 150 {
+	visibility 1
+	position -28.6357 	 1.3449 	 1.2665
+	orientation 0.6447 	 -0.0167 	 -0.0141 	 0.7641
+}
+-= Animation: break, Node breechblock =-
+ frame 130 {
+	visibility 1
+	position -2.5187 	 -3.8501 	 -1.0473
+	orientation 0 	 0 	 0 	 1
+}
+frame 147 {
+	orientation 0 	 0 	 -0.4623 	 0.8867
+}
+frame 148 {
+	orientation 0 	 0 	 -0.8198 	 0.5726
+}
+frame 149 {
+	orientation 0 	 0 	 -0.7974 	 0.6034
+}
+frame 150 {
+	visibility 1
+	position -2.5187 	 -3.8501 	 -1.0473
+	orientation 0 	 0 	 -0.7739 	 0.6333
+}
+-= Animation: break, Node lever =-
+ frame 130 {
+	visibility 1
+	position -0.0099 	 0 	 3.2717
+	orientation 0 	 0 	 0 	 1
+}
+frame 150 {
+	visibility 1
+	position -0.0099 	 0 	 3.2717
+	orientation 0 	 0 	 0 	 1
+}
+-= Animation: break, Node ize =-
+ frame 130 {
+	visibility 1
+	position -4.2376 	 0 	 -2.3463
+	orientation 0 	 0 	 0 	 1
+}
+frame 147 {
+	orientation 0 	 0.4234 	 0 	 0.9059
+}
+frame 148 {
+	orientation 0 	 0.7671 	 0 	 0.6415
+}
+frame 149 {
+	orientation 0 	 0.4234 	 0 	 0.9059
+}
+frame 150 {
+	visibility 1
+	position -4.2376 	 0 	 -2.3463
+	orientation 0 	 0 	 0 	 1
+}
+-= Animation: break, Node holder =-
+ frame 105 {
+	visibility 1
+	position -3.7117 	 1.0483 	 2.9756
+	orientation 0 	 -0.0035 	 0 	 1
+}
+frame 106 {
+	orientation 0 	 -0.2147 	 0 	 0.9767
+}
+frame 107 {
+	orientation 0 	 -0.6326 	 0 	 0.7745
+}
+frame 108 {
+	orientation 0 	 0.9141 	 0 	 -0.4055
+}
+frame 109 {
+	orientation 0 	 0.9792 	 0 	 -0.2031
+}
+frame 110 {
+	orientation 0 	 0.9763 	 0 	 -0.2162
+}
+frame 111 {
+	orientation 0 	 0.9696 	 0 	 -0.2448
+}
+frame 112 {
+	orientation 0 	 0.9619 	 0 	 -0.2733
+}
+frame 113 {
+	orientation 0 	 0.9582 	 0 	 -0.2861
+}
+frame 114 {
+	orientation 0 	 0.9696 	 0 	 -0.2448
+}
+frame 115 {
+	orientation 0 	 0.9792 	 0 	 -0.2031
+}
+frame 116 {
+	orientation 0.0004 	 0.975 	 -0.0009 	 -0.2223
+}
+frame 117 {
+	orientation 0.0009 	 0.9704 	 -0.0017 	 -0.2414
+}
+frame 118 {
+	orientation 0.0007 	 0.9728 	 -0.0013 	 -0.2315
+}
+frame 119 {
+	orientation 0.0002 	 0.977 	 -0.0004 	 -0.2131
+}
+frame 120 {
+	orientation 0 	 0.9792 	 0 	 -0.2031
+}
+frame 125 {
+	visibility 1
+	position -3.7117 	 1.0483 	 2.9756
+	orientation 0 	 0.9792 	 0 	 -0.2031
+}

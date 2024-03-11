@@ -1,0 +1,26 @@
+{game_entity
+	(include "/properties/vehicle_xx.ext")
+	{extension "m41_ampulomet_xx.mdl"}
+
+	{volume "body"
+		{thickness 6}
+	}
+	{volume "part1"
+		{thickness 6}
+	}
+	{volume "part2"
+		{thickness 6}
+	}
+	{volume "part31"
+		{thickness 6}
+	}
+	{volume "part3"
+		{thickness 6}
+	}
+	{volume "part41"
+		{thickness 6}
+	}
+	{volume "part4"
+		{thickness 6}
+	}
+}

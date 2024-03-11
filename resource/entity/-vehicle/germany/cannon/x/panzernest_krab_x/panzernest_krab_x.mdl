@@ -1,0 +1,113 @@
+;Exported by:	 TigerF
+;Date:			 04.06.2022 10:41:28
+;File:			 D:\PROGRAMS\3ds_max\3dsmax9_saves\scenes\GoH_3D_vehicles_ger\vehicles\special\panzernest crab\Panzernest_Crab_x.max
+{skeleton
+	{bone "basis"
+		{parameters "wheelradius=0.62;"}
+		{orientation
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+		}
+		{bone "body"
+			{parameters "id=body;"}
+			{Position -2.7874 	 0 	 13.3147}
+			{VolumeView "body.ply"}
+			{bone "bino"
+				{parameters "id=body;"}
+				{Position -1.1895 	 0 	 7.259}
+				{VolumeView "bino.ply"}
+			}
+			{bone "rod"
+				{parameters "id=body;"}
+				{Position 29.0662 	 0 	 2.0305}
+				{visibility 0}
+				{VolumeView "rod.ply"}
+			}
+			{bone "door"
+				{parameters "id=body;"}
+				{Position -11.7025 	 0.001 	 -11.6267}
+				{VolumeView "door.ply"}
+			}
+			{bone "cover1"
+				{parameters "id=body;"}
+				{Position -3.4512 	 11.1493 	 5.0085}
+				{VolumeView "cover1.ply"}
+			}
+			{bone "cover2"
+				{parameters "id=body;"}
+				{Position -3.4512 	 -11.0931 	 5.0085}
+				{VolumeView "cover2.ply"}
+			}
+			{bone revolute "mgun_h_rot1"
+				{limits -25 25}
+				{Position 21.1817 	 0 	 -6.0834}
+				{bone revolute "mgun_h_rot2"
+					{limits -10 15}
+					{orientation
+						1 	 0 	 0
+						0 	 0 	 1
+						0 	 -1 	 0
+					}
+					{bone "mgun"
+						{Position -12.8384 	 -1.6328 	 0}
+					}
+				}
+			}
+		}
+		{bone "soil"
+			{Position -0.3079 	 0.3855 	 0}
+			{VolumeView "soil.ply"}
+		}
+		{bone "pivot_front"
+			{Position -2.7874 	 -0.0188 	 13.3147}
+			{bone "axle"
+				{parameters "id=body;"}
+				{visibility 0}
+				{VolumeView "axle.ply"}
+				{bone revolute "wheelr"
+					{parameters "id=wheelright;"}
+					{matrix34
+						-0.9985 	 0 	 0.0548
+						0.0548 	 0 	 0.9985
+						0 	 1 	 0
+						0 	 -20.9597 	 0
+					}
+					{visibility 0}
+					{VolumeView "wheelr.ply"}
+				}
+				{bone revolute "wheell"
+					{parameters "id=wheelleft;"}
+					{matrix34
+						-0.9986 	 0 	 0.0523
+						0.0523 	 0 	 0.9986
+						0 	 1 	 0
+						0 	 20.943 	 0
+					}
+					{visibility 0}
+					{VolumeView "wheell.ply"}
+				}
+			}
+		}
+	}
+}
+{volume "wheelleft"
+	{cylinder 12.4016 2.03189}
+	{bone "wheell"}
+	{matrix34
+		0.9659 	 0.2588 	 0
+		0.2588 	 -0.9659 	 0
+		0 	 0 	 -1
+		0 	 0 	 -1.2192
+	}
+}
+{volume "wheelright"
+	{cylinder 12.4016 2.03189}
+	{bone "wheelr"}
+	{matrix34
+		0.9659 	 0.2588 	 0
+		0.2588 	 -0.9659 	 0
+		0 	 0 	 -1
+		0 	 0 	 1.2172
+	}
+}

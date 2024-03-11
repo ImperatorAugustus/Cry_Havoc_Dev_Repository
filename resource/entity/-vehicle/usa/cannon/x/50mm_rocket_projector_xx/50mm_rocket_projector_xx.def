@@ -1,0 +1,16 @@
+{game_entity
+	(include "/properties/vehicle_xx.ext")
+	{extension "50mm_rocket_projector_xx.mdl"}
+	{volume "body1"
+		{thickness 6}
+	}
+	{volume "body2"
+		{thickness 6}
+	}
+	{volume "body3"
+		{thickness 6}
+	}
+	{volume "body4"
+		{thickness 6}
+	}
+}
