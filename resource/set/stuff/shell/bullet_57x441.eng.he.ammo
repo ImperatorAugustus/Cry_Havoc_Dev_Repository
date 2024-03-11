@@ -1,0 +1,18 @@
+{from "pattern he" ;HE shell Mk.XT
+	{tag "shell size1 50to57 no_throw"}
+	{inventory {size 5 1}}
+	{entity "57mm_eng_he"}
+	{mass 5.93}
+
+	{view "howitzer_shell_50-75"
+		{tail "shell_tracer_eng_57_he" "tail"}
+	}
+
+	("he_level_1" weight(3) filler(0.22))
+
+	{damage add blastwave ;Building Killing
+		{energy 13}
+		{area 0.18 0.18}
+		{ground_interaction_radius 1}		
+	}
+}

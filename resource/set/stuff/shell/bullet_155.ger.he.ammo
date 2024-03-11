@@ -1,0 +1,28 @@
+{from "pattern he"
+	{tag "shell size4 150to152 arty"}
+	{inventory {size 5 1}}
+	{entity "155mm_ger_gpf_he"}
+	{mass 50.121}
+
+	{view "howitzer_shell_105-150"
+		{tail "shell_tracer_100-152_he" "tail"}
+	}
+
+	("he_level_4" weight(45.223) filler(5.44))
+
+	{damage add blastwave ;Munitions/Heavy Building Killing
+		{energy 25}
+		{area 0.38 0.38}
+		{ground_interaction_radius 1}		
+	}
+	{damage add blastwave ;Tire Killing
+		{energy 20}
+		{area 0.5 0.5}
+		{ground_interaction_radius 1}		
+	}
+	{damage add blastwave ;Building Killing
+		{energy 13}
+		{area 1.49 1.49}
+		{ground_interaction_radius 1}		
+	}
+}

@@ -1,0 +1,12 @@
+{from "pattern he"
+	{tag "shell size6 150to152 arty"}
+	{entity "305mm_rus_he"}
+	{inventory {size 8 2}{weight 150}}
+	{mass 446}
+
+	{view "howitzer_shell_200"
+		{tail "shell_tracer_100-152_he" "tail"}
+	}
+
+	("he_level_6" weight(380) filler(58))
+}

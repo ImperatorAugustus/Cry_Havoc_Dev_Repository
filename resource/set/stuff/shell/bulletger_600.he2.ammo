@@ -1,0 +1,12 @@
+{from "pattern he2"
+	{tag "shell size7 150to152 arty"}
+	{inventory {size 8 3}{weight 150}}
+	{entity "600mm_ger_he2"}
+	{mass 1700}
+
+	{view "600mm_ger_he2"
+		{tail "shell_tracer_600" "tail"}
+	}
+
+	("he_level_8" weight(1700) filler(220)) ;// leichte betongranate 040
+}

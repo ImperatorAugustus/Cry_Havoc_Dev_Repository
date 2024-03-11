@@ -1,10 +1,17 @@
-(define "items_light_ger"
 
 ;weights in kg multiplied by 100
+
+;
 ;magazine~ 200g
 ;belt ~250g
 ;clip 50g
-;crate for 76mm HE 8kg per round adjust based on relative size
+
+;Shells assume full charge added to weight for now.
+
+;Crates weight deducted from unit carrying capacity.
+
+
+(define "items_light_ger"
 
 ;// pistol
 

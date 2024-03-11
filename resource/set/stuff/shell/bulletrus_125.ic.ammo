@@ -1,0 +1,19 @@
+{from "pattern ic"
+	{tag "size1 glass no_throw"}
+	{inventory {size 2 2}}
+	{entity "125mm_ampulomet"}
+	{mass 10}
+
+	{view "125mm_ampulomet"
+		;{tail "shell_tracer" "tail"}
+	}
+
+	{damage fire
+		{radius 2}
+		{heating 20}
+		{time 1}
+		;{ground_interaction_radius 0.3} ;// crashes game if used with fire damage
+	}
+
+	{detonationThickness 1}
+}

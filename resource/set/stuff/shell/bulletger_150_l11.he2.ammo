@@ -1,0 +1,41 @@
+{from "pattern he2"
+	{tag "shell size5 fg 150to152 arty"}
+	{inventory {size 6 2}}
+	{entity "150mm_ger_l11_stielgr"}
+	{mass 90}
+
+	{view "150mm_ger_l11_stielgr"}
+
+	("he_level_6" weight(90) filler(27))
+
+	{damage add blastwave ;Med Tank Killing
+		{energy 45}
+		{area 0.32 0.32}
+		{ground_interaction_radius 1}		
+	}
+	{damage add blastwave ;AC/Light Tank Killing
+		{energy 40}
+		{area 0.53 0.53}
+		{ground_interaction_radius 1}		
+	}
+	{damage add blastwave ;Track Killing
+		{energy 35}
+		{area 0.6 0.6}
+		{ground_interaction_radius 1}		
+	}
+	{damage add blastwave ;Munitions/Heavy Building Killing
+		{energy 25}
+		{area 0.89 0.89}
+		{ground_interaction_radius 1}		
+	}
+	{damage add blastwave ;Tire Killing
+		{energy 20}
+		{area 1.2 1.2}
+		{ground_interaction_radius 1}		
+	}
+	{damage add blastwave ;Building Killing
+		{energy 13}
+		{area 4.35 4.35}
+		{ground_interaction_radius 1}		
+	}
+}

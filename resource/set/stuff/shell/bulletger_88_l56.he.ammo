@@ -1,0 +1,18 @@
+{from "pattern he"
+	{tag "shell size2 88to105 no_throw"}
+	{inventory {size 7 1}}
+	{entity "88mm_ger_l56_he"}
+	{mass 19.96}
+
+	{view "howitzer_shell_88-100"
+		{tail "shell_tracer_75-88_he" "tail"}
+	}
+
+	("he_level_2" weight(9.23) filler(0.825))
+
+	{damage add blastwave ;Building Killing
+		{energy 13}
+		{area 0.42 0.42}
+		{ground_interaction_radius 1}		
+	}
+}
