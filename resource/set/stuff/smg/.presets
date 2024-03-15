@@ -16,6 +16,14 @@
 	}
 )
 
+(define "stick_reload"
+	("reload time" seconds(3.25))
+)
+
+(define "drum_reload"
+	("reload time" seconds(4.5))
+)
+
 (define "spreading_mounted"
 	{spreading
 		{BurstAccuracy 100 95 90 85 80 75 70 65 60}

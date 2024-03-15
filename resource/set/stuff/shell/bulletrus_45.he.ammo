@@ -9,4 +9,10 @@
 	}
 
 	("he_level_1" weight(2.1) filler(0.1))
+
+	{damage add blastwave ;Building Killing
+		{energy 13}
+		{area 0.1 0.1}
+		{ground_interaction_radius 1}		
+	}
 }

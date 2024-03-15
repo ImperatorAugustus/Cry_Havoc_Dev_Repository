@@ -9,4 +9,35 @@
 	}
 
 	("he_level_8" weight(2170) filler(289)) ;// schwere betongranate 040
+
+	{damage add blastwave ;Med Tank Killing
+		{energy 45}
+		{area 1 1}
+		{ground_interaction_radius 1}		
+	}
+	{damage add blastwave ;AC/Light Tank Killing
+		{energy 40}
+		{area 1.8 1.8}
+		{ground_interaction_radius 1}		
+	}
+	{damage add blastwave ;Track Killing
+		{energy 35}
+		{area 2.1 2.1}
+		{ground_interaction_radius 1}		
+	}
+	{damage add blastwave ;Munitions/Heavy Building Killing
+		{energy 25}
+		{area 3.3 3.3}
+		{ground_interaction_radius 1}		
+	}
+	{damage add blastwave ;Tire Killing
+		{energy 20}
+		{area 4.5 4.5}
+		{ground_interaction_radius 1}		
+	}
+	{damage add blastwave ;Building Killing
+		{energy 13}
+		{area 21.09 21.09}
+		{ground_interaction_radius 1}		
+	}
 }

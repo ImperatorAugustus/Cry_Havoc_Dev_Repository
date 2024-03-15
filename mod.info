@@ -1,7 +1,7 @@
 {mod
-	{name "Cry Havoc 0.3.24.WO"}
+	{name "Cry Havoc 0.3.25.IA"}
 	{tags "realism, mod, doctrines, gameplay"}
 	{desc "A realism mod to remove doctrines from the game."}
 	{minGameVersion "1.035"}
-	{maxGameVersion "1.037"}
+	{maxGameVersion "1.038"}
 }

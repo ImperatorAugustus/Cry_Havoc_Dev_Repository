@@ -9,11 +9,10 @@
 	}
 	{blast_to_health_scale				;// column "A" = blastwave from explosive. Column "B" value * 125 * translate damage in difficulty files (5) = human health damage.
 		{0.0 0.0}
-		{0.2 0.08}
-		{4 1.6}
+		{10.0 10.0}
 	}
 	{energy_per_projective 1.0}			;// 
-	{energy_per_blastwave 5.0}			;// Converts blastwave energy into damage to {armor} blast durability. 1 blast energy = -5 volume durability.
+	{energy_per_blastwave 0.5}			;// Converts blastwave energy into damage to {armor} blast durability. 1 blast energy = -5 volume durability.
 	{energy_per_health 0.025}			;// 
 	{brinell_hardness_multiplier	; High Hardness Multiplier = 9.7707 * D^0.06111 * (T/D)^0.2821 * BHN^-0.4363
 		{40		450}
