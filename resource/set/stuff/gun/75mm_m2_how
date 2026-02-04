@@ -1,9 +1,0 @@
-;_________________________________________
-; US light tank howitzer
-;=========================================
-
-
-{from "75mm_m1a1_how"			; L/15.9 "M2 howitzer"
-	{fireSoundclose "gun/gun_interior/size3"}
-	{reloadSound "interior/large/medium_reload_interior"}
-}

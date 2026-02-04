@@ -1,7 +1,0 @@
-{material bump
-	{diffuse "$/_shell/wurfgranat41"}
-	{bump "$/_shell/wurfgranat41_bp"}
-	{specular "$/_shell/wurfgranat41_sp"}
-	{color "230 230 230 25"}
-	{blend none}
-}

@@ -1,5 +1,0 @@
-{material bump
-	{diffuse "rock_v2"}
-	{bump "rock_v2_bp"}
-	{blend none}
-}

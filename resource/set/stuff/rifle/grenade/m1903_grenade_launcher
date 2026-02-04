@@ -1,7 +1,0 @@
-{from "garand_grenade_launcher"
-	{entity "m1903_grenade_launcher"}
-	{fireSound	"smallarms/s3/d1/USA/M1903A3/M1_Grenade_Launcher/"}
-	{fireSoundclose "smallarms/s3/3p/USA/M1903A3/M1_Grenade_Launcher/"}
-	{reloadSound "reload_clip"}
-	{mass 4.9}
-}

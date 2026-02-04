@@ -1,8 +1,0 @@
-;_________________________________________
-; Finnish light AT gun
-;=========================================
-
-
-{from "45mm_20k"			; L/46 "t26e"
-	("accuracy_direct_arrowhead" r1(0.90) range_ap(180) range_he(180) range_heat(160))
-}
